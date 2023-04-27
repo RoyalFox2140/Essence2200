@@ -1,5 +1,7 @@
 # Essence2200
 
+Welcome to the mod. This is based on my personal writing which I have worked on for over a decade. My story is coming soon, stay tuned. This license was made out of an abundance of caution to protect my story from theft as the mod will have a fair amount of my story bundled inside of it. As such, the following will be important if you wish to use any part of this mod.
+
 The contents of the mod which do not include story elements is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) 
 
 https://creativecommons.org/licenses/by-nc-sa/4.0/
