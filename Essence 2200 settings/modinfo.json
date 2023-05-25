@@ -2,7 +2,7 @@
   {
     "type": "MOD_INFO",
     "id": "FoxTweaks",
-    "name": "Fox's Global Tweaks",
+    "name": "Essence 2200 Tweaks",
     "authors": [ "RoyalFox" ],
     "maintainers": [ "RoyalFox" ],
     "description": "Does significant changes to the balance intended to be used with Essence 2200. Please check the JSON to see what it does and remove what you don't like, or rebalance it.",
