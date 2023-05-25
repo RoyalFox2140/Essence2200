@@ -102,7 +102,7 @@
     "material": [ "iron" ],
     "symbol": "[",
     "color": "green",
-	"contains": "10000 ml",
+	"contains": "10 L",
     "seals": true,
     "watertight": true,
     "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE", "WATER_FRIENDLY" ]
@@ -160,7 +160,7 @@
     "material": [ "iron" ],
     "symbol": "[",
     "color": "green",
-	"contains": "200000 ml",
+    "contains": "100 L",
     "seals": true,
     "watertight": true,
     "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE", "WATER_FRIENDLY" ]
@@ -204,7 +204,7 @@
     "material": [ "iron" ],
     "symbol": "[",
     "color": "green",
-	"contains": "100000 ml",
+    "contains": "1000 L",
     "seals": true,
     "watertight": true,
     "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE", "WATER_FRIENDLY" ]
