@@ -397,11 +397,12 @@
     "use_action": {
       "type": "learn_spell",
       "spells": [
-    "Fox_Elemental_Firebolt",
-    "Fox_Elemental_Icebolt",
-		"Fox_Elemental_Lightningbolt",
-		"Fox_Elemental_Rockbolt",
-    "Fox_Elemental_Lighter"
+    "Fox_Elemental_Fireball",
+    "Fox_Elemental_Wildfire",
+		"Fox_Elemental_Climatecontrol",
+		"Fox_Elemental_Smokescreen",
+    "Fox_Elemental_Boulder",
+    "Fox_Elemental_Thunder"
       ]
     }
   },
