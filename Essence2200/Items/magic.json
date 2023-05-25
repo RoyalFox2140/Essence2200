@@ -442,7 +442,7 @@
       "spells": [
     "Fox_Spirit_Tremble",
     "Fox_Spirit_Onrush",
-		"Fox_Spirit_Rot"
+    "Fox_Spirit_Rot"
       ]
     }
   },
@@ -460,11 +460,32 @@
       "type": "learn_spell",
       "spells": [
     "Fox_Transmutation_EssenceToken",
+    "Fox_Transmutation_EssenceTokenBulk",
     "Fox_Transmutation_Essence",
-		"Fox_Transmutation_Lightorb",
-		"Fox_Transmutation_Lead_Attack"
+    "Fox_Transmutation_Lightorb",
+    "Fox_Transmutation_Lightorbtwo",
+    "Fox_Transmutation_Lead_Attack"
       ]
     }
+  },
+  {
+    "type": "BOOK",
+    "id": "Fox_spellbooks_First",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": { "str": "How-to Magic" },
+    "description": "Magic wasn't so hard, you think you know what you're doing enough to make any spellbook including ones not in your school, but perhaps you should first awaken the other schools of magic to gain more power.",
+    "price": 100000,
+    "price_postapoc": 100000,
+    "material": "paper",
+    "weight": "50 g",
+    "volume": "100 ml",
+    "skill": "FoxEssSpellcasting",
+    "max_level": 1,
+    "intelligence": 10,
+    "time": "20 m",
+    "fun": 1
   },
   {
     "id": "Fox_spellbooks_Pale",

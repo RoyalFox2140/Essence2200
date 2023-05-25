@@ -5,9 +5,9 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_OTHER",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 0,
+    "difficulty": 1,
     "time": "4 h",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
     "components": [
       [ [ "FoxEssencenormal", 2500 ] ]
     ]
@@ -18,9 +18,9 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_OTHER",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 0,
+    "difficulty": 1,
     "time": "4 h",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
     "components": [
       [ [ "FoxEssencenormal", 2500 ] ]
     ]
@@ -31,7 +31,7 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_OTHER",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 0,
+    "difficulty": 2,
     "time": "6 h",
     "autolearn": true,
     "components": [
@@ -44,7 +44,7 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_OTHER",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 0,
+    "difficulty": 2,
     "time": "6 h",
     "autolearn": true,
     "components": [
@@ -57,9 +57,9 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_OTHER",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 0,
+    "difficulty": 1,
     "time": "4 h",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
     "components": [
       [ [ "FoxEssencenormal", 2500 ] ]
     ]
@@ -202,7 +202,7 @@
     ]
   },
   {
-    "result": "FoxEIed",
+    "result": "FoxDeIed",
     "type": "recipe",
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_OTHER",
@@ -212,7 +212,7 @@
     "autolearn": true,
 	"tools": [ [ [ "Foxofficerdatapad", -1 ] ] ],
     "components": [
-      [ [ "FoxDeIed", 1 ] ]
+      [ [ "FoxEIed", 1 ] ]
     ]
   },
   {
