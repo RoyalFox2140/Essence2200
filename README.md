@@ -9,3 +9,6 @@ At no point may you commercially use my mod in any form. At no point may you red
 Even if a case where the JSON is still licensed under the commercial license of Cataclysm, the contents of my story including names, descriptions, people, are all original works I am currently developing for a web comic. All rights to my story are reserved by myself.
 
 Due to licensing I will not be accepting contributions or pull requests for the project.
+
+Designed for Cataclysm: Bright Nights 0.2 Experimental
+https://discord.gg/XW7XhXuZ89
