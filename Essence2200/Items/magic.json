@@ -376,11 +376,11 @@
     "use_action": {
       "type": "learn_spell",
       "spells": [
-        "Fox_Elemental_Firebolt",
+    "Fox_Elemental_Firebolt",
 		"Fox_Elemental_Icebolt",
 		"Fox_Elemental_Lightningbolt",
 		"Fox_Elemental_Rockbolt",
-        "Fox_Elemental_Lighter"
+    "Fox_Elemental_Lighter"
       ]
     }
   },
@@ -397,11 +397,11 @@
     "use_action": {
       "type": "learn_spell",
       "spells": [
-        "Fox_Elemental_Firebolt",
-		"Fox_Elemental_Icebolt",
+    "Fox_Elemental_Firebolt",
+    "Fox_Elemental_Icebolt",
 		"Fox_Elemental_Lightningbolt",
 		"Fox_Elemental_Rockbolt",
-        "Fox_Elemental_Lighter"
+    "Fox_Elemental_Lighter"
       ]
     }
   },
@@ -418,8 +418,8 @@
     "use_action": {
       "type": "learn_spell",
       "spells": [
-        "Fox_Spirit_Soothe",
-        "Fox_Spirit_Flay",
+    "Fox_Spirit_Soothe",
+    "Fox_Spirit_Flay",
 		"Fox_Spirit_Darkvision",
 		"Fox_Spirit_Cure",
 		"Fox_Spirit_Respite"
@@ -439,8 +439,8 @@
     "use_action": {
       "type": "learn_spell",
       "spells": [
-        "Fox_Spirit_Tremble",
-        "Fox_Spirit_Onrush",
+    "Fox_Spirit_Tremble",
+    "Fox_Spirit_Onrush",
 		"Fox_Spirit_Rot"
       ]
     }
@@ -458,8 +458,8 @@
     "use_action": {
       "type": "learn_spell",
       "spells": [
-        "Fox_Transmutation_EssenceToken",
-        "Fox_Transmutation_Essence",
+    "Fox_Transmutation_EssenceToken",
+    "Fox_Transmutation_Essence",
 		"Fox_Transmutation_Lightorb",
 		"Fox_Transmutation_Lead_Attack"
       ]

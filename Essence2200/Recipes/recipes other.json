@@ -1,5 +1,70 @@
 [
   {
+    "result": "Fox_spellbooks_Elemental",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 0,
+    "time": "4 h",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 2500 ] ]
+    ]
+  },
+  {
+    "result": "Fox_spellbooks_Spirit",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 0,
+    "time": "4 h",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 2500 ] ]
+    ]
+  },
+  {
+    "result": "Fox_spellbooks_Elemental2",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 0,
+    "time": "6 h",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 5000 ] ]
+    ]
+  },
+  {
+    "result": "Fox_spellbooks_Spirittwo",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 0,
+    "time": "6 h",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 5000 ] ]
+    ]
+  },
+  {
+    "result": "Fox_spellbooks_Transmutation",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 0,
+    "time": "4 h",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 2500 ] ]
+    ]
+  },
+  {
     "result": "FoxDeSGAesstheory",
     "type": "recipe",
     "category": "CC_ESSENCE",
