@@ -1,0 +1,17 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_ESSENCE",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_ESSENCE_WEAPONS",
+      "CSC_ESSENCE_AMMUNITION",
+      "CSC_ESSENCE_GEAR",
+      "CSC_ESSENCE_COOKING",
+      "CSC_ESSENCE_TOOLS",
+      "CSC_ESSENCE_ESSTECH",
+      "CSC_ESSENCE_TRANSMUTATION",
+	  "CSC_ESSENCE_OTHER"
+    ]
+  }
+]

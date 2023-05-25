@@ -1,0 +1,197 @@
+[
+  {
+    "type": "recipe",
+    "result": "foxClannerAxeBayonet",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "6 h",
+	"autolearn": true,
+	"reversible": true,
+    "using": [ [ "blacksmithing_standard", 10 ], [ "steel_standard", 2 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "swage", -1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxShadowsteelLongsword",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "FoxEssSpellcasting",
+	"skills_required": [ [ "fabrication", 6 ] ],
+    "difficulty": 4,
+    "time": "6 h",
+	"autolearn": true,
+	"reversible": true,
+    "using": [ [ "blacksmithing_standard", 20 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "swage", -1 ] ] ],
+	"components": [ [ [ "FoxShadowsteelchunk", 8 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foximpetool",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "FoxEssSpellcasting",
+	"skills_required": [ [ "fabrication", 6 ] ],
+    "difficulty": 4,
+    "time": "6 h",
+	"autolearn": true,
+	"reversible": true,
+    "using": [ [ "blacksmithing_standard", 20 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "swage", -1 ] ] ],
+	"components": [ [ [ "Foximperialsteelchunk", 7 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foximpcombatknife",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "FoxEssSpellcasting",
+	"skills_required": [ [ "fabrication", 6 ] ],
+    "difficulty": 4,
+    "time": "6 h",
+	"autolearn": true,
+	"reversible": true,
+    "using": [ [ "blacksmithing_standard", 20 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "swage", -1 ] ] ],
+	"components": [ [ [ "Foximperialsteelchunk", 5 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "foxArakawaAxeBayonet",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "FoxEssSpellcasting",
+	"skills_required": [ [ "fabrication", 6 ] ],
+    "difficulty": 4,
+    "time": "6 h",
+	"autolearn": true,
+	"reversible": true,
+    "using": [ [ "blacksmithing_standard", 10 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "swage", -1 ] ] ],
+	"components": [ [ [ "FoxShadowsteelchunk", 5 ] ] ]
+  },
+  {
+    "result": "FoxSeburoS12",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "difficulty": 4,
+    "time": "2 h 40 m",
+    "book_learn": [ [ "FoxmanualSGAgear", 4 ], [ "FoxDeSGAseburo", 4 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "FoxSGAmechparts", 1 ] ],
+	  [ [ "FoxSGAelectronics", 1 ] ],
+      [ [ "FoxSGAballisticparts", 3 ] ]
+    ]
+  },
+  {
+    "result": "FoxArakawaR7",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "difficulty": 4,
+    "time": "3 h 40 m",
+    "book_learn": [ [ "FoxmanualSGAgear", 4 ], [ "FoxDeSGAarakawa", 4 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "FoxSGAmechparts", 2 ] ],
+	  [ [ "FoxSGAelectronics", 4 ] ],
+      [ [ "FoxSGAballisticparts", 4 ] ]
+    ]
+  },
+  {
+    "result": "FoxSeburoC37",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "difficulty": 5,
+    "time": "6 h 30 m",
+    "book_learn": [ [ "FoxmanualSGAgear", 5 ], [ "FoxDeSGAseburo", 5 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "FoxSGAmechparts", 5 ] ],
+	  [ [ "FoxSGAelectronics", 3 ] ],
+      [ [ "FoxSGAballisticparts", 7 ] ],
+	  [ [ "FoxShadowsteelchunk", 3 ] ]
+    ]
+  },
+  {
+    "result": "FoxArakawaAR4",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "difficulty": 5,
+    "time": "6 h 30 m",
+    "book_learn": [ [ "FoxmanualSGAgear", 5 ], [ "FoxDeSGAarakawa", 5 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "FoxSGAmechparts", 5 ] ],
+	  [ [ "FoxSGAelectronics", 5 ] ],
+      [ [ "FoxSGAballisticparts", 10 ] ],
+	  [ [ "FoxShadowsteelchunk", 3 ] ]
+    ]
+  },
+  {
+    "result": "FoxArakawaSG3",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "difficulty": 5,
+    "time": "6 h 30 m",
+    "book_learn": [ [ "FoxmanualSGAgear", 5 ], [ "FoxDeSGAarakawa", 5 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "FoxSGAmechparts", 7 ] ],
+	  [ [ "FoxSGAelectronics", 6 ] ],
+      [ [ "FoxSGAballisticparts", 12 ] ],
+	  [ [ "FoxShadowsteelchunk", 5 ] ]
+    ]
+  },
+  {
+    "result": "FoximpKW21404U",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "difficulty": 2,
+    "time": "3 h 20 m",
+    "book_learn": [ [ "FoxDeIkw", 2 ] ],
+	"using": [ [ "soldering_standard", 20 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 5 ] ],
+	  [ [ "Foximpelectronics", 8 ] ],
+      [ [ "Foximplaserparts", 15 ] ]
+    ]
+  },
+  {
+    "result": "FoximpKW21352U",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "difficulty": 3,
+    "time": "4 h 30 m",
+    "book_learn": [ [ "FoxDeIkw", 3 ] ],
+	"using": [ [ "soldering_standard", 20 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 5 ] ],
+	  [ [ "Foximpelectronics", 12 ] ],
+      [ [ "Foximplaserparts", 18 ] ]
+    ]
+  }
+]

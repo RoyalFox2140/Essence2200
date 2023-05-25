@@ -1,0 +1,148 @@
+[
+  {
+    "type": "item_group",
+    "id": "mansion_books",
+	"subtype": "distribution",
+    "items": [
+      [ "FoxJapanesebook", 8 ],
+      [ "FoxKanjidictionary", 3 ],
+      [ "FoxCollegeJapanese", 1 ],
+      [ "FoxDeSGAesstheorybasic", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "lab_bookshelves",
+	"subtype": "distribution",
+    "items": [
+      [ "FoxKanjidictionary", 4 ],
+      [ "FoxCollegeJapanese", 2 ],
+      [ "FoxDeSGAesstheorybasic", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "vault_good",
+	"subtype": "distribution",
+    "items": [
+      [ "FoxDeSGAesstheorybasic", 20 ],
+	  [ "Foxnanoaugcanistergeneric", 5 ],
+	  [ "FoxDeSGAesstechbasic", 20 ],
+	  [ "FoxDeSGAesstheorybasic", 20 ],
+	  [ "Foximpgogglesdetection", 8 ],
+	  [ "FoxXEDRAMAG", 8 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "energy_weapon_armory",
+	"subtype": "distribution",
+    "items": [
+      { "item": "Foximplaserparts", "prob": 50, "count": [ 3, 10 ] },
+	  { "item": "Foximpmechparts", "prob": 50, "count": [ 4, 8 ] },
+	  { "item": "Foximpbatterycell", "prob": 50, "count": [ 4, 8 ] },
+	  [ "Foximpbattery", 25 ],
+	  [ "FoximpKW21404U", 90 ],
+	  [ "FoxDeIkw", 75 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_milspec",
+	"subtype": "distribution",
+    "items": [
+      { "item": "FoxXEDRAMAG", "prob": 100, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "chem_lab",
+	"subtype": "distribution",
+    "items": [
+      [ "Foxsewingkitballisticweave", 8 ],
+      { "item": "Foximperialsteelchunk", "prob": 25, "count": [ 5, 20 ] },
+	  { "item": "FoxAdamantinechunk", "prob": 8, "count": [ 1, 3 ] },
+	  { "item": "Foxcrystallizedessence", "prob": 20, "count": [ 5, 20 ] },
+	  { "item": "FoxEssencenormal", "prob": 18, "count": [ 1, 3 ] },
+	  { "item": "Foxessenceingot", "prob": 10, "count": [ 1, 4 ] },
+	  { "item": "FoxBallisticWeaveSheet", "prob": 12, "count": [ 20, 40 ] },
+	  { "item": "Foxmotordew", "prob": 10, "count": [ 1, 2 ] },
+	  { "item": "Foxrefinedmotordew", "prob": 5, "count": [ 1, 2 ] },
+	  { "item": "Foxtarcrete", "prob": 1, "count": [ 1, 3 ] },
+	  { "item": "FoxShadowsteelchunk", "prob": 10, "count": [ 1, 6 ] },
+	  { "item": "FoxAdamantinechunk", "prob": 4, "count": [ 1, 3 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "surgery",
+    "items": [
+	  { "item": "FoxEssencenormal", "prob": 18, "count": [ 1, 3 ] },
+	  [ "Foxnanoaugcanisterbad", 5 ],
+	  { "item": "Foximpelectronics", "prob": 10, "count": [ 4, 9 ] },
+	  { "item": "Foximpmicroelectronics", "prob": 12, "count": [ 1, 5 ] },
+	  { "item": "Foximpchip", "prob": 10, "count": [ 1, 4 ] },
+	  { "item": "Foximpchipofficer", "prob": 5, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mut_lab",
+    "items": [
+	  { "item": "FoxEssencenormal", "prob": 50, "count": [ 2, 5 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "dissection",
+    "items": [
+	  { "item": "FoxEssencenormal", "prob": 18, "count": [ 1, 3 ] },
+	  { "item": "Foximpelectronics", "prob": 10, "count": [ 4, 9 ] },
+	  { "item": "Foximpmicroelectronics", "prob": 12, "count": [ 1, 5 ] },
+	  { "item": "Foximpchip", "prob": 10, "count": [ 1, 4 ] },
+	  { "item": "Foximpchipofficer", "prob": 5, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "textbooks_school",
+	"subtype": "distribution",
+    "items": [
+      [ "FoxJapanesebook", 12 ],
+      [ "FoxKanjidictionary", 4 ],
+      [ "FoxCollegeJapanese", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "manuals",
+	"subtype": "distribution",
+    "items": [
+      [ "FoxJapanesebook", 8 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "manuals_school",
+	"subtype": "distribution",
+    "items": [
+      [ "FoxJapanesebook", 16 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "homebooks",
+	"subtype": "distribution",
+    "items": [
+      [ "FoxJapanesebook", 4 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "textbooks",
+	"subtype": "distribution",
+    "items": [
+      [ "FoxCollegeJapanese", 1 ]
+    ]
+  }
+]

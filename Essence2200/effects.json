@@ -1,0 +1,77 @@
+[
+  {
+    "type": "effect_type",
+    "id": "FoxDarkVision",
+    "name": [ "Dark Vision" ],
+    "desc": [ "You can see in the dark." ],
+    "apply_message": "You gain Dark Vision.",
+    "remove_message": "You lose your Dark Vision.",
+    "rating": "good",
+    "flags": [ "EFFECT_NIGHT_VISION" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxClimateControl",
+    "name": [ "Elemental Climate Control" ],
+    "desc": [ "You're immune to temperature effects." ],
+    "apply_message": "Your whole body feels comfortable no matter how many layers you wear.",
+    "remove_message": "Your body once again feels outside temperature.",
+    "rating": "good",
+    "removes_effects": [ "hot", "hot_speed", "blisters", "cold", "frostbite" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxDarkVisioneviction",
+    "name": [ "Dark Vision Dispel" ],
+    "desc": [ "Dispels Dark Vision." ],
+    "apply_message": "You dispel your Dark Vision.",
+    "remove_message": "You dispel your Dark Vision.",
+	"removes_effects": [ "FoxDarkVision" ],
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSpiritRespite",
+	"rating": "good",
+    "base_mods": {
+      "fatigue_min": [ -100 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSpiritTremble",
+	"rating": "good",
+    "base_mods": {
+      "speed_mod": [ -50 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSpiritOnrush",
+	"rating": "good",
+    "base_mods": {
+      "fatigue_min": [ -10 ],
+	  "speed_mod": [ 50 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxKoolaidpoison",
+    "name": [ "Awakening Sickness" ],
+    "desc": [ "Awakening your magical potential this way was a terrible idea. You can tell you'll be incapacitated a full week. It will not get better until it's completely out of your system." ],
+    "apply_message": "An entire record of human history flashes before your eyes in seconds, overwhelming your mind with overwhelming counts of atrocities and suffering. Your body rejects the changes and is in constant agony. You begin to understand magic, psionics, and lost human history.",
+    "remove_message": "Your body has manifested newfound powers, you now have an essence-based soul linked to your body. Should your body perish your soul will live on. You understand your newfound powers.",
+	"rating": "bad",
+	"max_duration": "168 h",
+    "base_mods": {
+      "speed_mod": [ -50 ],
+      "hit_mod": [ -5 ],
+	  "pain_min": [ -50 ],
+      "int_mod": [ -8 ],
+      "per_mod": [ -8 ],
+	  "dex_mod": [ -8 ],
+	  "str_mod": [ -8 ],
+      "dodge_mod": [ -5 ]
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "type": "mutation",
+    "id": "FoxSchoolsElemental",
+    "name": "Awakening: Elemental",
+    "points": 3,
+    "description": "Elemental spells use typical elements in their operation, whether its for offensive, defensive, or utility. The most straightforward school of magic, condense water vapor into drinkable form, start fires at will, defend yourself with rocks or blow away threats with wind. All that and more.",
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": true,
+    "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Elemental_Firebolt", 1 ], [ "Fox_Elemental_Lighter", 1 ] ],
+	"mana_modifier": 500,
+	"mana_regen_multiplier": 1.1
+  },
+  {
+    "type": "mutation",
+    "id": "FoxSchoolsSpirit",
+    "name": "Awakening: Spirit",
+    "points": 3,
+    "description": "Spirit magic directly modifies the soul all living things possess, in both positive and negative ways. One can flay the mind of enemies, bring the dead back, empower the living, and steal the life from others.",
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": true,
+    "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Spirit_Soothe", 1 ], [ "Fox_Spirit_Flay", 1 ], [ "Fox_Spirit_Darkvisiondispel", 1 ] ],
+	"mana_modifier": 500,
+	"mana_regen_multiplier": 1.1
+  },
+  {
+    "type": "mutation",
+    "id": "FoxSchoolsTransmutation",
+    "name": "Awakening: Transmutation",
+    "points": 3,
+    "description": "Transmutation directly convert matter or essence into the other, including manipulating atoms into various forms for non-elemental purposes. One can pursue alchemy, fabricate complex objects and conjure things from thin air via background essence.",
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": true,
+    "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceToken", 1 ], [ "Fox_Transmutation_Lead_Attack", 1 ] ],
+	"mana_modifier": 500,
+	"mana_regen_multiplier": 1.1
+  },
+  {
+    "type": "mutation",
+    "id": "FoxSchoolsPale",
+    "name": "Awakening: Pale",
+    "points": 0,
+    "description": "All are equal in the face of death. Pale spells can be identified by the pale cyan energy they emanate. They transcend reality, and ignore the barriers between dimensions. They rely only on the raw power of Essence. Their ability to ignore the laws of reality and penetrate through any non-pale armor causes great terror.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": true,
+    "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Pale_Lesser_SOL", 1 ] ],
+	"mana_modifier": 500,
+	"mana_regen_multiplier": 1.2
+  }
+]
