@@ -27,7 +27,7 @@
   {
     "type": "profession",
     "id": "FoxAbberration",
-    "name": "Abberration",
+    "name": "Aberration",
     "description": "You have no idea what you are, who you are, or how you got here, all you know is you are hungry and must eat. You look like an undead horror, zombies ignore you, people fear you.",
     "points": 444,
     "traits": [ "FoxAbberration", "CANNIBAL", "PSYCHOPATH" ],
