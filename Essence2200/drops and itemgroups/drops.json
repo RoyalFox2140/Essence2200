@@ -5,6 +5,7 @@
     "subtype": "collection",
     "entries": [
       { "item": "Foximpwastelandsuit", "prob": 75, "damage": [ 0, 2 ] },
+      { "item": "Foximpwastelandpack", "prob": 50, "damage": [ 0, 2 ] },
 	  { "group": "Foxreapergear", "prob": 90 },
       { "item": "Foximperialrationgood", "prob": 75 },
 	  { "item": "Foximperialrationbad", "prob": 99 },
@@ -22,6 +23,7 @@
     "subtype": "collection",
     "entries": [
       { "item": "Foximpwastelandsuit", "prob": 75, "damage": [ 0, 2 ] },
+      { "item": "Foximpwastelandpack", "prob": 50, "damage": [ 0, 2 ] },
 	  { "group": "Foxreapergear", "prob": 90 },
       { "item": "Foximperialrationgood", "prob": 75 },
 	  { "item": "Foximperialrationbad", "prob": 99 },
