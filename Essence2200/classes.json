@@ -3,23 +3,24 @@
     "type": "profession",
     "id": "FoxNightwalker",
     "name": "Nightwalker",
-    "description": "Savant created the ultimate soldier to kill every last Imperial so she could reclaim Earth. But the plan to hide this soldier in Imperial society failed. Nobody knows how you got to this dimension, and the apocalypse came before those powers could be fully manifested. You always felt somehow you were different, but it really sunk in after you accidentally murdered someone and had to go into hiding. Living in abandoned buildings and the sewers wasn't fun but for someone immortal and immune to disease it was easy. Now all that angst and paranoia paid off, you're not trapped out here with them, they're trapped out here with YOU!",
+    "description": "Savant created you as the ultimate soldier to kill every last Imperial so she could reclaim Earth. But the plan to hide this soldier in Imperial society failed. Nobody knows how you got to this dimension, and the apocalypse came before those powers could be fully manifested. You always felt somehow you were different, but it really sunk in after you accidentally murdered someone and had to go into hiding. Living in abandoned buildings and the sewers wasn't fun but for someone immortal and immune to disease it was easy. Now all that angst and paranoia paid off, you're not trapped out here with them, they're trapped out here with YOU!",
     "points": 444,
     "items": {
-      "both": {
-        "items": [
+        "male": [
+          "FoxSGAgrenadeactiveremover"
+        ],
+        "female": [
           "panties",
           "chestwrap",
           "footrags",
           "jeans",
           "hoodie",
           "lowtops",
-		  "gloves_wraps",
+          "gloves_wraps",
           "patchwork_scarf",
-		  "hat_cotton",
+          "hat_cotton",
           "bindle"
         ]
-      }
     }
   },
   {
@@ -29,140 +30,21 @@
     "description": "After growing up an orphan in Imperial society and being used as a child soldier, you eventually ditched the Imperial Army and became a rogue agent. You founded a conglomerate of clans comprised of likeminded warriors and later ignored the goals of your creator and her rebel followers when she stepped out of hiding. Traversing dimensions flung your clans and Savant's followers forward nearly a thousand years, landing you in a Milky Way you chose to abandon. You got very curious as to why this Dimension also parallels Old Earth, and why the Imperials invaded here. The clans will follow you in later, you went in alone to investigate quietly.",
     "points": 444,
     "items": {
-      "both": {
-        "items": [
-          "panties",
-          "chestwrap",
-          "footrags",
-          "jeans",
-          "hoodie",
-          "lowtops",
-		  "gloves_wraps",
-          "patchwork_scarf",
-		  "hat_cotton",
-          "bindle"
-        ]
-      }
-    }
-  },
-  {
-    "type": "scenario",
-	"ident": "presort",
-    "copy-from": "presort",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "helicopter",
-    "copy-from": "helicopter",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "cyberpunk",
-    "copy-from": "cyberpunk",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "overrun",
-    "copy-from": "overrun",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "heli_crash",
-    "copy-from": "heli_crash",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "alcatraz",
-    "copy-from": "alcatraz",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "prisonbreak",
-    "copy-from": "prisonbreak",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "patient",
-    "copy-from": "patient",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "id": "alone",
-    "copy-from": "alone",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "summer_advanced_start",
-    "copy-from": "summer_advanced_start",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "ambushed",
-    "copy-from": "ambushed",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "bordered",
-    "copy-from": "bordered",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "lab_staff",
-    "copy-from": "lab_staff",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "lab_chal",
-    "copy-from": "lab_chal",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "bad_day",
-    "copy-from": "bad_day",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "fire",
-    "copy-from": "fire",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "isolationist",
-    "copy-from": "isolationist",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "surrounded",
-    "copy-from": "surrounded",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "largebuilding",
-    "copy-from": "largebuilding",
-    "extend": { "professions": [ "FoxNightwalker" ] }
-  },
-  {
-    "type": "scenario",
-    "ident": "missed",
-    "copy-from": "missed",
-    "extend": { "professions": [ "unemployed" ] }
+      "male": [
+        "FoxSGAgrenadeactiveremover"
+      ],
+      "female": [
+        "panties",
+        "chestwrap",
+        "footrags",
+        "jeans",
+        "hoodie",
+        "lowtops",
+        "gloves_wraps",
+        "patchwork_scarf",
+        "hat_cotton",
+        "bindle"
+      ]
+  }
   }
 ]

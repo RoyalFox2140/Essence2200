@@ -381,6 +381,37 @@
     "flags": [ "BOMB", "TRADER_AVOID" ]
   },
   {
+    "id": "FoxSGAgrenadeactiveremover",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "active Shi grenade" },
+    "description": "This grenade exists as a warning that the story-driven start you chose reflects a character that exists in the lore, playing them as a guy will break a lot of conversations with npc's and elements of the plot. If you want the mutation this start comes with that breaks gameplay, add it with debug. If you really want to play as a guy with this start and break the story, you can still use debug to swap genders and spawn items.",
+    "weight": "110 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": -1,
+    "bashing": 6,
+    "material": [ "FoxImperialSteel" ],
+    "symbol": "*",
+    "color": "green",
+    "initial_charges": 5,
+    "max_charges": 5,
+    "turns_per_charge": 1,
+    "use_action": {
+      "type": "explosion",
+      "sound_volume": 0,
+      "sound_msg": "Tick.",
+      "no_deactivate_msg": "You've already pulled the %s's pin; try throwing it instead.",
+      "explosion": {
+        "damage": 9999,
+        "radius": 90,
+        "fragment": { "impact": { "damage_type": "cut", "amount": 999, "armor_multiplier": 3 }, "range": 15 }
+      }
+    },
+    "flags": [ "BOMB", "TRADER_AVOID" ]
+  },
+  {
     "id": "FoxSGAlocktopus",
     "type": "TOOL",
     "category": "tools",
