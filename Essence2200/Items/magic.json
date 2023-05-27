@@ -150,6 +150,28 @@
     "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ]
   },
   {
+    "id": "FoxSwordsmanPocketDimension",
+    "type": "ARMOR",
+    "name": { "str": "Swordsman Pocket Dimension", "str_pl": "Swordsman Pocket Dimensions" },
+    "description": "A small invisible hole in reality that only you can use to store and withdraw things. You ensured that it's quick to draw a sword out of this dimension in addition to storing a lot.",
+    "weight": 0,
+    "volume": 0,
+    "price": 0,
+    "material": [ "iron" ],
+    "symbol": "[",
+    "color": "green",
+    "storage": "200 L",
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Sheath sword",
+      "holster_msg": "You sheath your %s",
+      "max_volume": "3750 ml",
+      "draw_cost": 1,
+      "flags": [ "SHEATH_SWORD" ]
+    },
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ]
+  },
+  {
     "id": "FoxGreaterCanteenDimension",
     "type": "CONTAINER",
     "name": { "str": "Greater Canteen Dimension", "str_pl": "Greater Canteen Dimensions" },

@@ -57,18 +57,37 @@
       "male": [
         "FoxSGAgrenadeactiveremover"
       ],
-      "female": [
-        "panties",
-        "chestwrap",
-        "footrags",
-        "jeans",
-        "hoodie",
-        "lowtops",
-        "gloves_wraps",
-        "patchwork_scarf",
-        "hat_cotton",
-        "bindle"
+      "female": {
+        "items": [
+        "Foxboyshorts",
+        "Foxsportsbra",
+        "Foxtanktop",
+        "Foxpantscargo",
+        "Foxhoodie",
+        "Foxsocks",
+        "Foxbootscombat",
+        "Foxglovestacticalfingerless",
+        "Foxknitscarf",
+        "Foxhatcotton",
+        "FoxSGAdatauplink",
+        "FoxSGAlocktopus",
+        "FoxmanualSGAgear",
+        "FoxDeSGAesstheory",
+        "FoxDeSGAkawakamicookbook",
+        "FoxDeSGAkawakami",
+        "FoxArakawanote"
+      ],
+      "entries": [
+        { "item": "FoxArakawaR7", "ammo-item": "Fox44magnumKK", "charges": 6, "container-item": "FoxSGAtrenchcoat" },
+        { "item": "FoxShadowsteelLongsword", "container-item": "FoxSwordsmanPocketDimension" },
+        { "item": "FoxArakawaSG3", "ammo-item": "FoxSGA00shot", "charges": 9 },
+        { "item": "FoxSeburoC37", "ammo-item": "Fox9mmSGA", "charges": 9 },
+        { "item": "Fox44magnumKK", "charges": 12 },
+        { "item": "Fox44magnumArakawa", "charges": 30 },
+        { "item": "FoxSGA00shot", "charges": 18 },
+        { "item": "Fox9mmSGA", "charges": 90 }
       ]
+    }
   }
   },
   {
