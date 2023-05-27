@@ -26,6 +26,7 @@
     "damage": { "damage_type": "bullet", "amount": 35, "armor_penetration": 30 },
     "dispersion": 40,
     "recoil": 400,
+    "loudness": 100,
     "effects": [ "COOKOFF" ]
   },
   {
@@ -73,6 +74,7 @@
     "damage": { "damage_type": "bullet", "amount": 90, "armor_penetration": 80 },
     "dispersion": 30,
     "recoil": 1570,
+    "loudness": 100,
     "effects": [ "COOKOFF" ]
   },
   {
@@ -111,6 +113,7 @@
     "damage": { "damage_type": "bullet", "amount": 60, "armor_penetration": 60 },
     "dispersion": 30,
     "recoil": 1500,
+    "loudness": 100,
     "effects": [ "COOKOFF" ]
   },
   {
@@ -149,7 +152,7 @@
 	"shape": [ "cone", { "half_angle": 10, "length": 15 } ],
     "damage": { "damage_type": "bullet", "amount": 70 },
     "recoil": 2500,
-    "loudness": 160,
+    "loudness": 100,
     "effects": [ "COOKOFF", "SHOT" ]
   },
   {
@@ -172,7 +175,7 @@
     "range": 20,
     "damage": { "damage_type": "bullet", "amount": 60, "armor_penetration": 40 },
     "recoil": 2500,
-    "loudness": 160,
+    "loudness": 100,
     "effects": [ "COOKOFF", "SHOT" ]
   }
 ]

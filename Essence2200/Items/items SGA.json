@@ -151,8 +151,7 @@
     ],
     "magazine_well": "250 ml",
     "magazines": [ [ "Fox9mmSGA", [ "FoxSGA9mmmag" ] ], [ "9mm", [ "FoxSGA9mmmag" ] ] ],
-	"flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
-  "built_in_mods": [ "FoxSGA9mmMAG" ]
+	"flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ]
   },
   {
     "id": "FoxSeburoC37",
@@ -188,8 +187,7 @@
     ],
     "magazine_well": "500 ml",
     "magazines": [ [ "Fox9mmSGA", [ "FoxSeburoC37mag" ] ], [ "9mm", [ "FoxSeburoC37mag" ] ] ],
-	"flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
-	"built_in_mods": [ "FoxSGA9mmMAG" ]
+	"flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ]
   },
   {
     "id": "FoxSeburoS7",
@@ -224,8 +222,7 @@
     ],
     "magazine_well": "500 ml",
     "magazines": [ [ "Fox9mmSGA", [ "FoxSeburoC37mag" ] ], [ "9mm", [ "FoxSeburoC37mag" ] ] ],
-	"flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
-	"built_in_mods": [ "FoxSGATyphoonMAG" ]
+	"flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ]
   },
   {
     "id": "FoxArakawaR7",
@@ -306,8 +303,7 @@
           "survivor223mag"
         ]
       ]
-    ],
-	"built_in_mods": [ "FoxSGA556MAG" ]
+    ]
   },
   {
     "id": "FoxArakawaSG3",
@@ -340,8 +336,7 @@
       [ "stock", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
-	"built_in_mods": [ "FoxSGAshotgunMAG" ]
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ]
   },
   {
     "id": "FoxSGAgrenade",
