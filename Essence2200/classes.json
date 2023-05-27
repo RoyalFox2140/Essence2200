@@ -71,6 +71,7 @@
         "Foxhatcotton",
         "FoxSGAdatauplink",
         "FoxSGAlocktopus",
+        "FoxSGAbatterycell",
         "FoxmanualSGAgear",
         "FoxDeSGAesstheory",
         "FoxDeSGAkawakamicookbook",
@@ -81,11 +82,11 @@
         { "item": "FoxArakawaR7", "ammo-item": "Fox44magnumKK", "charges": 6, "container-item": "FoxSGAtrenchcoat" },
         { "item": "FoxShadowsteelLongsword", "container-item": "FoxSwordsmanPocketDimension" },
         { "item": "FoxArakawaSG3", "ammo-item": "FoxSGA00shot", "charges": 9 },
-        { "item": "FoxSeburoC37", "ammo-item": "Fox9mmSGA", "charges": 9 },
+        { "item": "FoxSeburoC37", "ammo-item": "Fox9mmSGA", "charges": 50 },
         { "item": "Fox44magnumKK", "charges": 12 },
         { "item": "Fox44magnumArakawa", "charges": 30 },
         { "item": "FoxSGA00shot", "charges": 18 },
-        { "item": "Fox9mmSGA", "charges": 90 }
+        { "item": "Fox9mmSGA", "charges": 150 }
       ]
     }
   }
