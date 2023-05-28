@@ -65,6 +65,19 @@
     ]
   },
   {
+    "result": "Fox_spellbooks_Transmutationtwo",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "6 h",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 5000 ] ]
+    ]
+  },
+  {
     "result": "FoxDeSGAesstheory",
     "type": "recipe",
     "category": "CC_ESSENCE",

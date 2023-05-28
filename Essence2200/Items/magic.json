@@ -64,6 +64,89 @@
     "flags": [ "TRADER_AVOID", "FIRESTARTER" ]
   },
   {
+    "id": "Foxnoviceartificing",
+    "type": "TOOL",
+    "name": "Novice Artificing",
+    "description": "This is your ability to mimic simple tools using magic instead of tools. You're not very good yet and all fine properties are lacking.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "symbol": ",",
+    "color": "yellow",
+    "use_action": [ { "type": "firestarter", "moves": 20 } ],
+    "qualities": [
+      [ "CUT", 1 ],
+      [ "HAMMER", 3 ],
+      [ "SAW_M", 2 ],
+      [ "SAW_W", 2 ],
+      [ "AXE", 1 ],
+      [ "WRENCH", 2 ],
+      [ "SCREW", 1 ],
+      [ "PRY", 1 ],
+      [ "BUTCHER", 15 ]
+    ],
+    "flags": [ "TRADER_AVOID", "FIRESTARTER" ]
+  },
+  {
+    "id": "Foxintermediatertificing",
+    "type": "TOOL",
+    "name": "Intermediate Artificing",
+    "description": "This is your ability to mimic simple tools using magic instead of tools. You're okay at this and you can mimic fine tools.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "symbol": ",",
+    "color": "yellow",
+    "use_action": [ { "type": "firestarter", "moves": 20 } ],
+    "qualities": [
+      [ "CUT", 3 ],
+      [ "HAMMER", 3 ],
+      [ "SAW_M", 2 ],
+      [ "SAW_W", 2 ],
+      [ "AXE", 2 ],
+      [ "WRENCH", 2 ],
+      [ "SCREW", 1 ],
+      [ "PRY", 2 ],
+      [ "HAMMER_FINE", 1 ],
+      [ "SAW_M_FINE", 1 ],
+      [ "WRENCH_FINE", 1 ],
+      [ "SCREW_FINE", 1 ],
+      [ "BUTCHER", 30 ]
+    ],
+    "flags": [ "TRADER_AVOID", "FIRESTARTER" ]
+  },
+  {
+    "id": "Foxadvancedartificing",
+    "type": "TOOL",
+    "name": "Advanced Artificing",
+    "description": "This is your ability to mimic simple tools using magic instead of tools. You can mimic all workshop tools.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "symbol": ",",
+    "color": "yellow",
+    "use_action": [ { "type": "firestarter", "moves": 20 } ],
+    "qualities": [
+      [ "CUT", 3 ],
+      [ "HAMMER", 3 ],
+      [ "SAW_M", 2 ],
+      [ "SAW_W", 2 ],
+      [ "AXE", 4 ],
+      [ "WRENCH", 2 ],
+      [ "SCREW", 1 ],
+      [ "PRY", 3 ],
+      [ "HAMMER_FINE", 1 ],
+      [ "SAW_M_FINE", 1 ],
+      [ "WRENCH_FINE", 1 ],
+      [ "SCREW_FINE", 1 ],
+      [ "BUTCHER", 45 ],
+      [ "FILE", 2 ],
+      [ "REAM", 1 ],
+      [ "VISE", 1 ]
+    ],
+    "flags": [ "TRADER_AVOID", "FIRESTARTER" ]
+  },
+  {
     "id": "Foxlightorb",
     "type": "ARMOR",
     "category": "tools",
@@ -402,7 +485,9 @@
 		"Fox_Elemental_Icebolt",
 		"Fox_Elemental_Lightningbolt",
 		"Fox_Elemental_Rockbolt",
-    "Fox_Elemental_Lighter"
+    "Fox_Elemental_Lighter",
+    "Fox_Transmutation_Essence",
+    "Fox_Transmutation_EssenceBulk"
       ]
     }
   },
@@ -445,7 +530,9 @@
     "Fox_Spirit_Flay",
 		"Fox_Spirit_Darkvision",
 		"Fox_Spirit_Cure",
-		"Fox_Spirit_Respite"
+		"Fox_Spirit_Respite",
+    "Fox_Transmutation_Essence",
+    "Fox_Transmutation_EssenceBulk"
       ]
     }
   },
@@ -473,7 +560,7 @@
     "type": "GENERIC",
     "category": "spellbooks",
     "name": "Knowledge Repository: Transmutation I",
-    "description": "Your first Repository of Pale spells, contains a few basic one's but you'll need to experiment to learn better ones.",
+    "description": "Your first Repository of Transmutation spells, contains a few basic one's but you'll need to experiment to learn better ones.",
     "weight": "1 kg",
     "volume": "1250 ml",
     "symbol": "?",
@@ -484,9 +571,28 @@
     "Fox_Transmutation_EssenceToken",
     "Fox_Transmutation_EssenceTokenBulk",
     "Fox_Transmutation_Essence",
+    "Fox_Transmutation_EssenceBulk",
     "Fox_Transmutation_Lightorb",
     "Fox_Transmutation_Lightorbtwo",
+    "Fox_Transmutation_Noviceartificing",
     "Fox_Transmutation_Lead_Attack"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Transmutationtwo",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Knowledge Repository: Transmutation II",
+    "description": "Your Repository of Intermediate Transmutation spells.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_Intermediateartificing"
       ]
     }
   },
