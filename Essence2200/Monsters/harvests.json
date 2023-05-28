@@ -4,7 +4,7 @@
     "type": "harvest",
     "entries": [
       { "drop": "human_flesh", "type": "flesh", "mass_ratio": 0.2 },
-      { "drop": "Foxhumansoul", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "Foxhumansoul", "base_num": [ 1, 1 ], "max": 1, "type": "flesh" },
       { "drop": "hstomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
       { "drop": "human_fat", "type": "flesh", "mass_ratio": 0.1 },
       { "drop": "bone_human", "type": "bone", "mass_ratio": 0.12 },
@@ -18,7 +18,7 @@
     "type": "harvest",
     "entries": [
       { "drop": "human_flesh", "type": "flesh", "mass_ratio": 0.2 },
-	  { "drop": "Foxhumansoul", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+	  { "drop": "Foxhumansoul", "base_num": [ 1, 1 ], "max": 1, "type": "flesh" },
       { "drop": "hstomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
       { "drop": "human_fat", "type": "flesh", "mass_ratio": 0.1 },
       { "drop": "bone_human", "type": "bone", "mass_ratio": 0.12 },
@@ -32,7 +32,7 @@
     "type": "harvest",
     "entries": [
       { "drop": "human_flesh", "type": "flesh", "mass_ratio": 0.2 },
-	  { "drop": "Foxhumansoul", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+	  { "drop": "Foxhumansoul", "base_num": [ 1, 1 ], "max": 1, "type": "flesh" },
       { "drop": "hstomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
       { "drop": "human_fat", "type": "flesh", "mass_ratio": 0.1 },
       { "drop": "bone_human", "type": "bone", "mass_ratio": 0.12 },
@@ -68,7 +68,7 @@
     "entries": [
       { "drop": "human_flesh", "type": "flesh", "mass_ratio": 0.2 },
       { "drop": "hstomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
-      { "drop": "Foxhumansoul", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "Foxhumansoul", "base_num": [ 1, 1 ], "max": 1, "type": "flesh" },
       { "drop": "human_fat", "type": "flesh", "mass_ratio": 0.1 },
       { "drop": "bone_human", "type": "bone", "mass_ratio": 0.12 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
@@ -81,7 +81,7 @@
     "entries": [
       { "drop": "mutant_human_flesh", "type": "flesh", "mass_ratio": 0.2 },
       { "drop": "hstomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
-      { "drop": "Foxhumansoul", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "Foxhumansoul", "base_num": [ 1, 1 ], "max": 1, "type": "flesh" },
       { "drop": "mutant_human_fat", "type": "flesh", "mass_ratio": 0.1 },
       { "drop": "bone_human", "type": "bone", "mass_ratio": 0.12 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
@@ -95,7 +95,7 @@
     "entries": [
       { "drop": "bionic_power_storage_civ", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
       { "drop": "cyborg_harvest", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
-      { "drop": "Foxhumansoul", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "Foxhumansoul", "base_num": [ 1, 1 ], "max": 1, "type": "flesh" },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
       { "drop": "cable", "base_num": [ 1, 3 ], "scale_num": [ 0.2, 0.6 ], "max": 8, "type": "flesh" },
       { "drop": "bone_human", "base_num": [ 1, 2 ], "scale_num": [ 0.4, 0.7 ], "max": 10, "type": "bone" },
@@ -115,7 +115,7 @@
       { "drop": "human_flesh", "type": "flesh", "mass_ratio": 0.2 },
       { "drop": "hstomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
       { "drop": "human_fat", "type": "flesh", "mass_ratio": 0.1 },
-      { "drop": "Foxhumansoul", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "Foxhumansoul", "base_num": [ 1, 1 ], "max": 1, "type": "flesh" },
       { "drop": "bone_human", "type": "bone", "mass_ratio": 0.12 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
       { "drop": "raw_hleather", "type": "skin", "mass_ratio": 0.01 }
@@ -128,7 +128,7 @@
     "entries": [
       { "drop": "mutant_human_flesh", "type": "flesh", "mass_ratio": 0.34 },
       { "drop": "hstomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
-      { "drop": "Foxhumansoul", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "Foxhumansoul", "base_num": [ 1, 1 ], "max": 1, "type": "flesh" },
       { "drop": "bone", "type": "bone", "mass_ratio": 0.15 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
       { "drop": "raw_hfur", "type": "skin", "mass_ratio": 0.02 },
@@ -142,7 +142,7 @@
     "entries": [
       { "drop": "mutant_human_flesh", "type": "flesh", "mass_ratio": 0.34 },
       { "drop": "hstomach_large", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
-      { "drop": "Foxhumansoul", "scale_num": [ 1, 1 ], "max": 1 },
+      { "drop": "Foxhumansoul", "base_num": [ 1, 1 ], "max": 1, "type": "flesh" },
       { "drop": "bone", "type": "bone", "mass_ratio": 0.15 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.00035 },
       { "drop": "raw_hfur", "type": "skin", "mass_ratio": 0.02 },

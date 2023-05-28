@@ -44,7 +44,7 @@
         "type": "gun",
         "cooldown": 1,
         "move_cost": 150,
-        "gun_type": "FoxImperialKW2140Fake",
+        "gun_type": "FoximpKW2140Fake",
         "fake_skills": [ [ "gun", 3 ], [ "rifle", 3 ] ],
         "fake_dex": 10,
         "ranges": [ [ 0, 30, "DEFAULT" ] ],
