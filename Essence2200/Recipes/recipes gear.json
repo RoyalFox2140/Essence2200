@@ -289,7 +289,7 @@
     "time": "15 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 3000 ], [ "FoxTinyPocketDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 3000 ] ], [ [ "FoxTinyPocketDimension", 1 ] ]
     ]
   },
   {
@@ -302,7 +302,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 5000 ], [ "FoxSmallPocketDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 5000 ] ], [ [ "FoxSmallPocketDimension", 1 ] ]
     ]
   },
   {
@@ -315,7 +315,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 6000 ], [ "FoxLesserPocketDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 6000 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ]
   },
   {
@@ -328,7 +328,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 6500 ], [ "FoxLesserPocketDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 6500 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ]
   },
   {
@@ -341,7 +341,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 10000 ], [ "FoxTinyCanteenDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 10000 ] ], [ [ "FoxTinyCanteenDimension", 1 ] ]
     ]
   },
   {
@@ -354,7 +354,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "Foxhumansoul", 20 ], [ "FoxGreaterPocketDimension", 1 ] ]
+      [ [ "Foxhumansoul", 20 ] ], [ [ "FoxGreaterPocketDimension", 1 ] ]
     ]
   },
   {
@@ -367,7 +367,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "Foxhumansoul", 30 ], [ "FoxHugePocketDimension", 1 ] ]
+      [ [ "Foxhumansoul", 30 ] ], [ [ "FoxHugePocketDimension", 1 ] ]
     ]
   },
   {
@@ -380,7 +380,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "Foxhumansoul", 20 ], [ "FoxGreaterCanteenDimension", 1 ] ]
+      [ [ "Foxhumansoul", 20 ] ], [ [ "FoxGreaterCanteenDimension", 1 ] ]
     ]
   }
 ]
