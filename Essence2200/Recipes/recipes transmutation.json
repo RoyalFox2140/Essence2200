@@ -571,7 +571,7 @@
   {
     "type": "recipe",
     "result": "material_cement",
-    "id_suffix": "FoxTransmutation",
+    "id_suffix": "FoxTransmutationother",
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_TRANSMUTATION",
     "skill_used": "FoxEssSpellcasting",
