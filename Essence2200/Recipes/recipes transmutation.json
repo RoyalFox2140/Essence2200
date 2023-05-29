@@ -567,5 +567,59 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "steel_chunk", 25 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "material_cement",
+    "id_suffix": "FoxTransmutation",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 5,
+    "time": "10 m",
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 3 ] ], [ [ "rock", 5 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "material_cement",
+    "id_suffix": "FoxTransmutation",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 5,
+    "time": "10 m",
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "material_limestone", 60 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "mortar_build",
+    "id_suffix": "FoxTelekineticMix",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "10 m",
+    "result_mult": 4,
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "material_cement", 200 ] ], [ [ "material_sand", 600 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "concrete",
+    "id_suffix": "FoxTelekineticMix",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "10 m",
+    "result_mult": 4,
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "material_cement", 200 ] ], [ [ "material_sand", 100 ] ], [ [ "pebble", 80 ] ] ]
   }
 ]
