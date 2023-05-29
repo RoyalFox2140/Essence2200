@@ -621,5 +621,19 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "material_cement", 200 ] ], [ [ "material_sand", 100 ] ], [ [ "pebble", 80 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "charcoal",
+    "id_suffix": "FoxCombustion",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "15 m",
+    "batch_time_factors": [ 80, 2 ],
+    "result_mult": 32,
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "log", 2 ] ] ]
   }
 ]
