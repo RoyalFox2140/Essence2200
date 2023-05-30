@@ -607,7 +607,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 25,
+    "result_mult": 60,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ]
@@ -707,5 +707,47 @@
     "result_mult": 50,
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 4 ] ], [ [ "clay_lump", 50 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "pipe",
+    "id_suffix": "FoxTransmutation",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 5,
+    "time": "15 m",
+    "result_mult": 10,
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "steel_chunk", 20 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "wire",
+    "id_suffix": "FoxTransmutation",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 5,
+    "time": "15 m",
+    "result_mult": 20,
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "steel_chunk", 4 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sheet_metal",
+    "id_suffix": "FoxTransmutation",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 5,
+    "time": "30 m",
+    "result_mult": 5,
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "steel_lump", 30 ] ] ]
   }
 ]
