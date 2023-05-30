@@ -693,5 +693,19 @@
     "result_mult": 32,
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "log", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "brick",
+    "id_suffix": "FoxCombustion",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 5,
+    "time": "30 m",
+    "batch_time_factors": [ 80, 2 ],
+    "result_mult": 50,
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 4 ] ], [ [ "clay_lump", 50 ] ] ]
   }
 ]

@@ -148,17 +148,16 @@
   },
   {
     "id": "Foxlightorb",
-    "type": "ARMOR",
+    "type": "GENERIC",
     "category": "tools",
-    "name": "magic light",
-    "description": "A small light that siphons essence passively from its surroundings. It will disappear on it's own after a while.",
+    "name": "light orb",
+    "description": "A small light that siphons essence passively from its surroundings.",
     "weight": 0,
     "volume": 0,
     "price": 0,
     "symbol": ",",
     "color": "light_green",
-    "covers": [ "head" ],
-    "flags": [ "LIGHT_5", "LEAK_DAM", "AURA", "SEMITANGIBLE" ]
+    "flags": [ "LIGHT_20" ]
   },
   {
     "id": "FoxTinyPocketDimension",

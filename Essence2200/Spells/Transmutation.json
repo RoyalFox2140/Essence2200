@@ -83,7 +83,7 @@
   {
     "id": "Fox_Transmutation_Intermediateartificing",
     "type": "SPELL",
-    "name": { "str": "Transmutation: Novice Artificing" },
+    "name": { "str": "Transmutation: Intermediate Artificing" },
     "description": "This spell allows you to craft using your powers as an artificer and mana rather than tools. Duration does not change.",
     "valid_targets": [ "self" ],
     "min_damage": 1,
@@ -157,6 +157,8 @@
     "effect_str": "Foxlightorb",
     "base_casting_time": 5000,
     "base_energy_cost": 2000,
+    "min_duration": 1,
+    "max_duration": 1,
     "difficulty": 5,
     "max_level": 1,
     "spell_class": "FoxSchoolsTransmutation",
