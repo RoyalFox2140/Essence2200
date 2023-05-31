@@ -55,6 +55,171 @@
     }
   },
   {
+    "type": "ter_furn_transform",
+    "id": "FoxLogWallt",
+    "terrain": [
+      {
+        "result": "t_wall_log",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxWoodWallt",
+    "terrain": [
+      {
+        "result": "t_wall_wood",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxStoneWallt",
+    "terrain": [
+      {
+        "result": "t_rock_wall",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxBrickWallt",
+    "terrain": [
+      {
+        "result": "t_brick_wall",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxMetalWallt",
+    "terrain": [
+      {
+        "result": "t_wall_metal",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxConcreteWallt",
+    "terrain": [
+      {
+        "result": "t_sconc_wall",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxRConcreteWallt",
+    "terrain": [
+      {
+        "result": "t_strconc_wall",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxLogRooft",
+    "terrain": [
+      {
+        "result": "t_floor_primitive",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxWoodRooft",
+    "terrain": [
+      {
+        "result": "t_floor",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxMetalRooft",
+    "terrain": [
+      {
+        "result": "t_metal_floor",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxConcreteRooft",
+    "terrain": [
+      {
+        "result": "t_thconc_floor",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxRConcreteRooft",
+    "terrain": [
+      {
+        "result": "t_strconc_floor",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxToilett",
+    "furniture": [
+      {
+        "result": "f_toilet",
+        "valid_furniture": [ "f_null" ],
+        "message": "The world bends to your power, you conjure a toilet and connect it to any local plumbing."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxBathtubt",
+    "furniture": [
+      {
+        "result": "f_bathtub",
+        "valid_furniture": [ "f_null" ],
+        "message": "The world bends to your power, you conjure a bath tub and connect it to any local plumbing."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxSinkt",
+    "furniture": [
+      {
+        "result": "f_sink",
+        "valid_furniture": [ "f_null" ],
+        "message": "The world bends to your power, you conjure a sink and connect it to any local plumbing."
+      }
+    ]
+  },
+  {
     "type": "effect_type",
     "id": "FoxKoolaidpoison",
     "name": [ "Awakening Sickness" ],

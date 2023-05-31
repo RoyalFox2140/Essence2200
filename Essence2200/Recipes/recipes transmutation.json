@@ -610,7 +610,7 @@
     "result_mult": 60,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ]
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 3 ] ] ]
   },
   {
     "type": "recipe",
@@ -634,10 +634,10 @@
     "subcategory": "CSC_ESSENCE_TRANSMUTATION",
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
-    "time": "10 m",
+    "time": "15 m",
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 3 ] ], [ [ "rock", 5 ] ] ]
+    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "rock", 5 ] ] ]
   },
   {
     "type": "recipe",
@@ -706,7 +706,7 @@
     "batch_time_factors": [ 80, 2 ],
     "result_mult": 50,
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 4 ] ], [ [ "clay_lump", 50 ] ] ]
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "clay_lump", 50 ] ] ]
   },
   {
     "type": "recipe",

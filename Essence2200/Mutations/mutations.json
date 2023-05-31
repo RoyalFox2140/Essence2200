@@ -25,15 +25,15 @@
   "stamina_regen_modifier": 2,
   "max_stamina_modifier": 4,
   "hp_adjustment": 800,
-  "mana_modifier": 2500,
-  "mana_regen_multiplier": 1.5,
+  "mana_modifier": 5000,
+  "mana_regen_multiplier": 1.4,
   "noise_modifier": 0.0,
   "social_modifiers": { "lie": 10, "persuade": 5, "intimidate": 20 },
   "armor": [ { "parts": "ALL", "bullet": 200, "heat": 80, "cold": 80, "acid": 400, "electric": 400 } ],
   "weight_capacity_modifier": 100,
   "fatigue_modifier": -0.2,
     "fatigue_regen_modifier": 0.1,
-    "overmap_sight": 15,
+    "overmap_sight": 8,
     "scent_intensity": 1,
     "wet_protection": [
       { "part": "head", "neutral": 500 },
@@ -116,15 +116,15 @@
     "points": 0,
     "description": "Your body is improved beyond human biology via relying on Essence. Increased strength, dexterity and speed are all expected.",
     "valid": false,
-	"purifiable": false,
-	"visibility": 4,
+    "purifiable": false,
+    "visibility": 4,
     "ugliness": -4,
     "category": [ "FoxNightstalker" ],
-	"speed_modifier": 1.1,
-	"movecost_flatground_modifier": 0.9,
-	"stamina_regen_modifier": 1,
-	"max_stamina_modifier": 2,
-	"weight_capacity_modifier": 5,
+    "speed_modifier": 1.1,
+    "movecost_flatground_modifier": 0.9,
+    "stamina_regen_modifier": 1,
+    "max_stamina_modifier": 2,
+    "weight_capacity_modifier": 5,
     "passive_mods": { "str_mod": 10, "dex_mod": 10 }
   },
   {
@@ -136,11 +136,11 @@
     "valid": false,
 	"purifiable": false,
     "category": [ "FoxNightstalker" ],
-	"hp_adjustment": 800,
-	"pain_recovery": 0.5,
-	"healing_awake": 0.25,
-    "healing_resting": 0.25,
-    "armor": [ { "parts": "ALL", "bullet": 20, "heat": 20, "cold": 20, "acid": 400, "electric": 400 } ]
+	"hp_adjustment": 100,
+  "pain_recovery": 0.5,
+  "healing_awake": 0.25,
+  "healing_resting": 0.25,
+  "armor": [ { "parts": "ALL", "bullet": 20, "heat": 20, "cold": 20, "acid": 400, "electric": 400 } ]
   },
   {
     "type": "mutation",
@@ -149,10 +149,10 @@
     "points": 0,
     "description": "Your body is improved beyond human biology via relying on Essence. Increased Intelligence, Perception and learning is expected.",
     "valid": false,
-	"purifiable": false,
+    "purifiable": false,
     "category": [ "FoxNightstalker" ],
-	"night_vision_range": 60,
-	"reading_speed_multiplier": 0.8,
+    "night_vision_range": 60,
+    "reading_speed_multiplier": 0.8,
     "passive_mods": { "int_mod": 10, "per_mod": 10 }
   },
   {
@@ -175,8 +175,8 @@
     "valid": false,
 	"purifiable": false,
     "category": [ "FoxThresh_Nightstalker" ],
-	"mana_modifier": 1000,
-	"mana_regen_multiplier": 1.5
+	"mana_modifier": 2500,
+	"mana_regen_multiplier": 1.4
   },
   {
     "type": "mutation",
@@ -283,7 +283,7 @@
     "description": "Thanks to that upgrade your skin turned a dark grayish color and metallic shine not unlike imperial steel or ballistic weave, your eyes are now red from increased nanite infused blood to protect them. It no longer conducts electricity, has less thermal conductivity and won't be damaged by acid. Your eyes don't see as well now, and most people think you're ugly and won't trust a metal demon.",
     "valid": false,
 	"purifiable": true,
-	"social_modifiers": { "lie": -10, "persuade": -20, "intimidate": 10 },
+	"social_modifiers": { "lie": -15, "persuade": -25, "intimidate": 10 },
 	"passive_mods": { "per_mod": -4 },
     "armor": [ { "parts": "ALL", "heat": 20, "cold": 20, "acid": 400, "electric": 400 } ]
   }

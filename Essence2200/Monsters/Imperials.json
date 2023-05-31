@@ -3,14 +3,14 @@
     "type": "MONSTER_FACTION",
     "name": "FoxImperial",
     "base_faction": "human",
-	"neutral": [ "small_animal", "insect", "fish" ],
+    "neutral": [ "small_animal", "insect", "fish" ],
     "by_mood": "player"
   },
   {
     "id": "FoxmonImperialReaper",
     "type": "MONSTER",
     "name": { "str": "Imperial Reaper" },
-	"looks_like": "mon_zombie_soldier",
+    "looks_like": "mon_zombie_soldier",
     "description": "This well equipped and armed soldier is wearing the signature tan fatigues of the Imperial Army, and their emblem indicates they are from the counter-terrorist Reaper unit. They clearly want you to keep your distance and are prepared to shoot you. It's anyone's guess why they're in this dimension.",
     "default_faction": "FoxImperial",
     "bodytype": "human",
@@ -25,8 +25,8 @@
     "color": "light_green_green",
     "aggression": 100,
     "morale": 100,
-	"diff": 20,
-	"luminance": 14,
+    "diff": 20,
+    "luminance": 14,
     "melee_skill": 2,
     "melee_dice": 2,
     "melee_dice_sides": 6,
@@ -38,7 +38,7 @@
     "vision_day": 35,
     "vision_night": 8,
     "harvest": "FoxImperial",
-	"anger_triggers": [ "HURT", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
+    "anger_triggers": [ "HURT", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
     "special_attacks": [
       {
         "type": "gun",
@@ -73,7 +73,7 @@
       "POISON",
       "BLEED",
       "PUSH_MON",
-	  "PATH_AVOID_DANGER_1",
+      "PATH_AVOID_DANGER_1",
       "FILTHY"
     ]
   }

@@ -52,7 +52,7 @@
     "name": "Shi Director",
     "description": "After growing up an orphan in Imperial society and being used as a child soldier, you eventually ditched the Imperial Army and became a rogue agent. You founded a conglomerate of clans comprised of likeminded warriors and later ignored the goals of your creator and her rebel followers when she stepped out of hiding. Traversing dimensions flung your clans and Savant's followers forward nearly a thousand years, landing you in a Milky Way you chose to abandon. You got very curious as to why this Dimension also parallels Old Earth, and why the Imperials invaded here. The clans will follow you in later, you went in alone to investigate quietly.",
     "points": 444,
-    "traits": [ "FoxNightwalker" ],
+    "traits": [ "FoxNightwalker", "CANNIBAL", "PSYCHOPATH", "OPTIMISTIC", "STYLISH", "hair_black_long", "SKIN_LIGHT" ],
     "items": {
       "male": [
         "FoxSGAgrenadeactiveremover"
@@ -72,6 +72,8 @@
         "FoxSGAdatauplink",
         "FoxSGAlocktopus",
         "FoxSGAbatterycell",
+        "FoxSGAbatterycell",
+        "FoxSGAbatterycell",
         "FoxmanualSGAgear",
         "FoxDeSGAesstheory",
         "FoxDeSGAkawakamicookbook",
@@ -87,6 +89,57 @@
         { "item": "Fox44magnumArakawa", "charges": 30 },
         { "item": "FoxSGA00shot", "charges": 18 },
         { "item": "Fox9mmSGA", "charges": 150 }
+      ]
+    }
+  }
+  },
+  {
+    "type": "profession",
+    "id": "FoxCarmen",
+    "name": "Director's Sister",
+    "description": "You always wanted to help people. Your sister made that difficult by being a homicidal supersoldier maniac with an army of zealot followers and your mother by being labeled a terrorist for creating said maniac. The calamity in this dimension gave you a chance to help those in need, but your sister wouldn't let you go alone and assigned an agent to guard you.",
+    "points": 444,
+    "skills": [
+      { "level": 8, "name": "speech" },
+      { "level": 8, "name": "cooking" },
+      { "level": 8, "name": "firstaid" },
+      { "level": 6, "name": "barter" },
+      { "level": 4, "name": "computer" },
+      { "level": 2, "name": "electronics" }
+    ],
+    "traits": [ "PACIFIST", "hair_brown_long", "SKIN_LIGHT", "FLIMSY2", "FoxSchoolsSpirit", "OPTIMISTIC", "SQUEAMISH", "BADCARDIO", "LOVES_BOOKS", "PRETTY", "MORE_PAIN", "FoxThresh_Nightstalker", "FoxNightstalkerPhysiology", "FoxNightstalkerResistance", "FoxNightstalkerMind", "FoxNightstalkerPsionics", "FoxNightstalkerMagic" ],
+    "items": {
+      "male": [
+        "FoxSGAgrenadeactiveremover"
+      ],
+      "female": {
+        "items": [
+        "panties",
+        "bra",
+        "stockings",
+        "skirt",
+        "dress_shirt",
+        "coat_lab",
+        "dress_shoes",
+        "gloves_light",
+        "knit_scarf",
+        "hat_knit",
+        "stethoscope",
+        "purse",
+        "FoxSmallPocketDimension",
+        "FoxTinyCanteenDimension",
+        "FoxSGAdatauplink",
+        "FoxSGAlocktopus"
+      ],
+      "entries": [
+        { "item": "FoxSGAbatterycell", "charges": 5000 },
+        { "item": "FoxSGAbatterycell", "charges": 5000 },
+        { "item": "FoxSGAbatterycell", "charges": 5000 },
+        { "item": "medical_gauze", "charges": 20 },
+        { "item": "bandages", "charges": 20 },
+        { "item": "medical_tape", "charges": 20 },
+        { "item": "tramadol", "charges": 10 },
+        { "item": "strong_antibiotic", "charges": 20 }
       ]
     }
   }

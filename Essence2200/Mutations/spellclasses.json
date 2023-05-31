@@ -9,8 +9,8 @@
     "purifiable": false,
     "valid": true,
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceBulk", 1 ], [ "Fox_Elemental_Firebolt", 1 ], [ "Fox_Elemental_Lighter", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1] ],
-	"mana_modifier": 500,
-	"mana_regen_multiplier": 1.1
+    "mana_modifier": 500,
+    "mana_regen_multiplier": 1.1
   },
   {
     "type": "mutation",
@@ -22,8 +22,8 @@
     "purifiable": false,
     "valid": true,
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceBulk", 1 ], [ "Fox_Spirit_Soothe", 1 ], [ "Fox_Spirit_Flay", 1 ], [ "Fox_Spirit_Darkvisiondispel", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1] ],
-	"mana_modifier": 500,
-	"mana_regen_multiplier": 1.1
+    "mana_modifier": 500,
+    "mana_regen_multiplier": 1.1
   },
   {
     "type": "mutation",
@@ -34,9 +34,9 @@
     "starting_trait": true,
     "purifiable": false,
     "valid": true,
-    "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceBulk", 1 ], [ "Fox_Transmutation_EssenceToken", 1 ], [ "Fox_Transmutation_EssenceTokenBulk", 1 ], [ "Fox_Transmutation_Lead_Attack", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1] ],
-	"mana_modifier": 500,
-	"mana_regen_multiplier": 1.1
+    "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceBulk", 1 ], [ "Fox_Transmutation_EssenceToken", 1 ], [ "Fox_Transmutation_EssenceTokenBulk", 1 ], [ "Fox_Transmutation_Lead_Attack", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1], [ "Fox_Transmutation_LogWall", 1 ], [ "Fox_Transmutation_LogRoof", 1 ] ],
+    "mana_modifier": 500,
+    "mana_regen_multiplier": 1.1
   },
   {
     "type": "mutation",
@@ -48,7 +48,7 @@
     "purifiable": false,
     "valid": true,
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Pale_Lesser_SOL", 1 ] ],
-	"mana_modifier": 500,
-	"mana_regen_multiplier": 1.2
+    "mana_modifier": 500,
+    "mana_regen_multiplier": 1.2
   }
 ]

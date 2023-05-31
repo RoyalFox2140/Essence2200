@@ -574,7 +574,13 @@
     "Fox_Transmutation_Lightorb",
     "Fox_Transmutation_Lightorbtwo",
     "Fox_Transmutation_Noviceartificing",
-    "Fox_Transmutation_Lead_Attack"
+    "Fox_Transmutation_Lead_Attack",
+    "Fox_Transmutation_Tunnel",
+    "Fox_Transmutation_LogWall",
+    "Fox_Transmutation_LogRoof",
+    "Fox_Transmutation_WoodWall",
+    "Fox_Transmutation_WoodRoof",
+    "Fox_Transmutation_StoneWall"
       ]
     }
   },
@@ -591,7 +597,17 @@
     "use_action": {
       "type": "learn_spell",
       "spells": [
-    "Fox_Transmutation_Intermediateartificing"
+    "Fox_Transmutation_Intermediateartificing",
+    "Fox_Transmutation_BrickWall",
+    "Fox_Transmutation_MetalWall",
+    "Fox_Transmutation_MetalRoof",
+    "Fox_Transmutation_SConcreteWall",
+    "Fox_Transmutation_SConcreteRoof",
+    "Fox_Transmutation_RConcreteWall",
+    "Fox_Transmutation_RConcreteRoof",
+    "Fox_Transmutation_Toilet",
+    "Fox_Transmutation_Bathtub",
+    "Fox_Transmutation_Sink"
       ]
     }
   },
