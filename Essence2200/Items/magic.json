@@ -607,7 +607,10 @@
     "Fox_Transmutation_RConcreteRoof",
     "Fox_Transmutation_Toilet",
     "Fox_Transmutation_Bathtub",
-    "Fox_Transmutation_Sink"
+    "Fox_Transmutation_Sink",
+    "Fox_Transmutation_magicaquifer",
+    "Fox_Transmutation_magicaquiferbad",
+    "Fox_Transmutation_magicsaltaquifer"
       ]
     }
   },

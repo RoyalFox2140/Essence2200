@@ -1,0 +1,44 @@
+[
+  {
+    "type": "furniture",
+    "id": "Foxfmagicaquifer",
+    "name": "magic aquifer portal",
+    "symbol": "T",
+    "looks_like": "t_water_pump",
+    "description": "This glowing portal teleports clean water into any container you place beneath it.",
+    "color": "dark_gray",
+    "move_cost_mod": 1,
+    "coverage": 35,
+    "required_str": 1,
+    "flags": [ "TRANSPARENT" ],
+    "examine_action": "clean_water_source"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxfmagicaquiferbad",
+    "name": "magic dirty aquifer portal",
+    "symbol": "T",
+    "looks_like": "t_water_pump",
+    "description": "This glowing portal teleports dirty water into any container you place beneath it.",
+    "color": "dark_gray",
+    "move_cost_mod": 1,
+    "coverage": 35,
+    "required_str": 1,
+    "flags": [ "TRANSPARENT" ],
+    "examine_action": "water_source"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxfmagicsaltaquifer",
+    "name": "magic salt water portal",
+    "symbol": "T",
+    "looks_like": "t_water_pump",
+    "description": "This glowing portal teleports salt water into any container you place beneath it.",
+    "color": "dark_gray",
+    "move_cost_mod": 1,
+    "coverage": 35,
+    "required_str": 1,
+    "flags": [ "TRANSPARENT", "SALT_WATER" ],
+    "examine_action": "water_source"
+  }
+]

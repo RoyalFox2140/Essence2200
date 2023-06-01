@@ -220,6 +220,39 @@
     ]
   },
   {
+    "type": "ter_furn_transform",
+    "id": "Foxmagicaquifer",
+    "furniture": [
+      {
+        "result": "Foxfmagicaquifer",
+        "valid_furniture": [ "f_null" ],
+        "message": "You open a portal to a distant place."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxmagicaquiferbad",
+    "furniture": [
+      {
+        "result": "Foxfmagicaquiferbad",
+        "valid_furniture": [ "f_null" ],
+        "message": "You open a portal to a distant place."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxmagicsaltaquifer",
+    "furniture": [
+      {
+        "result": "Foxfmagicsaltaquifer",
+        "valid_furniture": [ "f_null" ],
+        "message": "You open a portal to a distant place."
+      }
+    ]
+  },
+  {
     "type": "effect_type",
     "id": "FoxKoolaidpoison",
     "name": [ "Awakening Sickness" ],
