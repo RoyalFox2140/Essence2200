@@ -253,6 +253,17 @@
     ]
   },
   {
+    "type": "ter_furn_transform",
+    "id": "FoxUpturnearth",
+    "terrain": [
+      {
+        "result": "t_dirtmound",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, the dirt upturns."
+      }
+    ]
+  },
+  {
     "type": "effect_type",
     "id": "FoxKoolaidpoison",
     "name": [ "Awakening Sickness" ],

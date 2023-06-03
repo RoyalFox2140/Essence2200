@@ -593,5 +593,26 @@
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
     "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+  },
+  {
+    "id": "Fox_Transmutation_Upturnearth",
+    "type": "SPELL",
+    "name": { "str": "Transmutation: Upturn earth" },
+    "description": "You upturn the earth telekinetically for farming purposes.",
+    "valid_targets": [ "ground" ],
+    "min_range": 15,
+    "max_range": 15,
+    "min_aoe": 10,
+    "max_aoe": 10,
+    "effect": "ter_transform",
+    "effect_str": "FoxUpturnearth",
+    "base_casting_time": 30000,
+    "base_energy_cost": 200,
+    "difficulty": 2,
+    "max_level": 1,
+    "spell_class": "FoxSchoolsTransmutation",
+    "skill": "FoxEssSpellcasting",
+    "energy_source": "MANA",
+    "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
   }
 ]
