@@ -576,11 +576,6 @@
     "Fox_Transmutation_Noviceartificing",
     "Fox_Transmutation_Lead_Attack",
     "Fox_Transmutation_Tunnel",
-    "Fox_Transmutation_LogWall",
-    "Fox_Transmutation_LogRoof",
-    "Fox_Transmutation_WoodWall",
-    "Fox_Transmutation_WoodRoof",
-    "Fox_Transmutation_StoneWall",
     "Fox_Transmutation_Upturnearth"
       ]
     }
@@ -599,6 +594,30 @@
       "type": "learn_spell",
       "spells": [
     "Fox_Transmutation_Intermediateartificing",
+    "Fox_Transmutation_magicaquifer",
+    "Fox_Transmutation_magicaquiferbad",
+    "Fox_Transmutation_magicsaltaquifer"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Construction",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Knowledge Repository: Construction",
+    "description": "Your Repository of Construction magic, a type of transmutation.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_LogWall",
+    "Fox_Transmutation_LogRoof",
+    "Fox_Transmutation_WoodWall",
+    "Fox_Transmutation_WoodRoof",
+    "Fox_Transmutation_StoneWall",
     "Fox_Transmutation_BrickWall",
     "Fox_Transmutation_MetalWall",
     "Fox_Transmutation_MetalRoof",
@@ -608,10 +627,38 @@
     "Fox_Transmutation_RConcreteRoof",
     "Fox_Transmutation_Toilet",
     "Fox_Transmutation_Bathtub",
-    "Fox_Transmutation_Sink",
-    "Fox_Transmutation_magicaquifer",
-    "Fox_Transmutation_magicaquiferbad",
-    "Fox_Transmutation_magicsaltaquifer"
+    "Fox_Transmutation_Sink"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Druid",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Knowledge Repository: Druidic",
+    "description": "Your Repository of Druidic magic, a type of transmutation.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_LogWall",
+    "Fox_Transmutation_LogRoof",
+    "Fox_Transmutation_WoodWall",
+    "Fox_Transmutation_WoodRoof",
+    "Fox_Transmutation_StoneWall",
+    "Fox_Transmutation_BrickWall",
+    "Fox_Transmutation_MetalWall",
+    "Fox_Transmutation_MetalRoof",
+    "Fox_Transmutation_SConcreteWall",
+    "Fox_Transmutation_SConcreteRoof",
+    "Fox_Transmutation_RConcreteWall",
+    "Fox_Transmutation_RConcreteRoof",
+    "Fox_Transmutation_Toilet",
+    "Fox_Transmutation_Bathtub",
+    "Fox_Transmutation_Sink"
       ]
     }
   },
