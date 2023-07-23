@@ -1,6 +1,6 @@
 [
   {
-    "type": "GENERIC",
+    "type": "COMESTIBLE",
     "id": "FoxTransmutationrune",
     "symbol": "*",
     "color": "magenta",
@@ -9,6 +9,8 @@
     "material": "stone",
     "weight": "1 g",
     "volume": "1 ml",
+    "calories": 1200,
+    "flags": [ "INEDIBLE" ],
     "bashing": 1,
     "cutting": 1,
     "to_hit": -3

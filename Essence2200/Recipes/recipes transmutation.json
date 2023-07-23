@@ -2320,6 +2320,34 @@
   },
   {
     "type": "recipe",
+    "result": "mortar_build",
+    "id_suffix": "FoxTelekineticMixBIG",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "10 m",
+    "result_mult": 40,
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 3 ] ], [ [ "material_cement", 2000 ] ], [ [ "material_sand", 6000 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "concrete",
+    "id_suffix": "FoxTelekineticMixBIG",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "10 m",
+    "result_mult": 40,
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 3 ] ], [ [ "material_cement", 2000 ] ], [ [ "material_sand", 1000 ] ], [ [ "pebble", 800 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "flour",
     "id_suffix": "FoxTelekineticMix",
     "category": "CC_ESSENCE",
@@ -2340,6 +2368,31 @@
         [ "oats", 16 ],
         [ "starch", 4 ],
         [ "dry_rice", 20 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "flour",
+    "id_suffix": "FoxTelekineticMixBIG",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "10 m",
+    "charges": 600,
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [
+      [ [ "FoxTransmutationrune", 1 ] ],
+      [
+        [ "wheat", 40 ],
+        [ "buckwheat", 40 ],
+        [ "barley", 40 ],
+        [ "acorns_cooked", 80 ],
+        [ "oats", 160 ],
+        [ "starch", 40 ],
+        [ "dry_rice", 200 ]
       ]
     ]
   },
