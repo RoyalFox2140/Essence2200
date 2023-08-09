@@ -161,7 +161,7 @@
     "material": "FoxEssencesolid",
     "symbol": "=",
     "color": "magenta",
-    "count": 5,
+    "count": 1,
     "ammo_type": "components"
   },
   {
@@ -178,7 +178,7 @@
     "material": "FoxBallisticWeave",
     "symbol": "=",
     "color": "light_gray",
-    "count": 100,
+    "count": 1,
     "ammo_type": "components"
   },
   {
