@@ -7,7 +7,7 @@
     "skill_used": "FoxEssTech",
     "difficulty": 2,
     "skills_required": [ [ "tailor", 8 ] ],
-    "time": "1 h 30 m",
+    "time": "4 h 30 m",
     "reversible": true,
     "book_learn": [ [ "FoxDeIed", 2 ] ],
     "using": [ [ "sewing_standard", 8 ] ],
@@ -382,5 +382,20 @@
     "components": [
       [ [ "Foxhumansoul", 20 ] ], [ [ "FoxGreaterCanteenDimension", 1 ] ]
     ]
+  },
+  {
+    "result": "FoxSGAashigarusuit",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_GEAR",
+    "skill_used": "FoxEssTech",
+    "difficulty": 2,
+    "skills_required": [ [ "tailor", 8 ] ],
+    "time": "4 h 30 m",
+    "reversible": true,
+    "book_learn": [ [ "FoxmanualSGAgear", 2 ], [ "FoxDeSGAseburo", 2 ] ],
+    "using": [ [ "sewing_standard", 8 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "components": [ [ [ "FoxBallisticWeaveSheet", 30 ] ], [ [ "FoxAdamantinechunk", 5 ] ] ]
   }
 ]

@@ -7,10 +7,10 @@
     "skill_used": "FoxEssTech",
     "difficulty": 1,
     "time": " 20 m",
-	"result_mult": 50,
+    "result_mult": 50,
     "book_learn": [ [ "FoxmanualSGAgear", 1 ], [ "FoxDeSGAseburo", 1 ], [ "FoxDeSGAarakawa", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-	"using": [ [ "bullet_forming", 50 ] ],
+    "using": [ [ "bullet_forming", 50 ] ],
     "components": [
       [ [ "FoxAdamantinechunk", 1 ] ]
     ]
@@ -23,10 +23,10 @@
     "skill_used": "FoxEssTech",
     "difficulty": 1,
     "time": " 20 m",
-	"result_mult": 50,
+    "result_mult": 50,
     "book_learn": [ [ "FoxmanualSGAgear", 1 ], [ "FoxDeSGAseburo", 1 ], [ "FoxDeSGAarakawa", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-	"using": [ [ "bullet_forming", 50 ] ],
+    "using": [ [ "bullet_forming", 50 ] ],
     "components": [
       [ [ "FoxAdamantinechunk", 1 ] ]
     ]
@@ -39,10 +39,10 @@
     "skill_used": "FoxEssTech",
     "difficulty": 1,
     "time": " 20 m",
-	"result_mult": 20,
+    "result_mult": 20,
     "book_learn": [ [ "FoxmanualSGAgear", 1 ], [ "FoxDeSGAseburo", 1 ], [ "FoxDeSGAarakawa", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-	"using": [ [ "bullet_forming", 50 ] ],
+    "using": [ [ "bullet_forming", 50 ] ],
     "components": [
       [ [ "FoxAdamantinechunk", 1 ] ]
     ]
@@ -55,10 +55,10 @@
     "skill_used": "FoxEssTech",
     "difficulty": 1,
     "time": " 20 m",
-	"result_mult": 40,
+    "result_mult": 40,
     "book_learn": [ [ "FoxmanualSGAgear", 1 ], [ "FoxDeSGAarakawa", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-	"using": [ [ "bullet_forming", 50 ] ],
+    "using": [ [ "bullet_forming", 50 ] ],
     "components": [
       [ [ "FoxAdamantinechunk", 1 ] ]
     ]
@@ -76,8 +76,8 @@
 	"using": [ [ "bullet_forming", 50 ] ],
     "components": [
       [ [ "Fox9mmcasingAdamantine", 50 ] ],
-	  [ [ "Foxpowderedessence", 200 ] ],
-	  [ [ "FoxAdamantinechunk", 1 ] ]
+      [ [ "Foxpowderedessence", 200 ] ],
+      [ [ "FoxAdamantinechunk", 1 ] ]
     ]
   },
   {
@@ -90,11 +90,11 @@
     "time": " 20 m",
     "book_learn": [ [ "FoxmanualSGAgear", 1 ], [ "FoxDeSGAarakawa", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-	"using": [ [ "bullet_forming", 50 ] ],
+    "using": [ [ "bullet_forming", 50 ] ],
     "components": [
       [ [ "Fox9mmcasingAdamantine", 50 ] ],
-	  [ [ "Foxpowderedessence", 300 ] ],
-	  [ [ "FoxAdamantinechunk", 1 ] ]
+      [ [ "Foxpowderedessence", 300 ] ],
+      [ [ "FoxAdamantinechunk", 1 ] ]
     ]
   },
   {
@@ -107,11 +107,11 @@
     "time": " 20 m",
     "book_learn": [ [ "FoxmanualSGAgear", 1 ], [ "FoxDeSGAarakawa", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-	"using": [ [ "bullet_forming", 50 ] ],
+    "using": [ [ "bullet_forming", 50 ] ],
     "components": [
       [ [ "Fox9mmcasingAdamantine", 50 ] ],
-	  [ [ "Foxpowderedessence", 400 ] ],
-	  [ [ "FoxAdamantinechunk", 1 ] ]
+      [ [ "Foxpowderedessence", 400 ] ],
+      [ [ "FoxAdamantinechunk", 1 ] ]
     ]
   },
   {
@@ -124,11 +124,11 @@
     "time": " 20 m",
     "book_learn": [ [ "FoxmanualSGAgear", 1 ], [ "FoxDeSGAarakawa", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-	"using": [ [ "bullet_forming", 50 ] ],
+    "using": [ [ "bullet_forming", 50 ] ],
     "components": [
       [ [ "Fox556mmcasingAdamantine", 50 ] ],
-	  [ [ "Foxpowderedessence", 450 ] ],
-	  [ [ "FoxAdamantinechunk", 1 ] ]
+      [ [ "Foxpowderedessence", 450 ] ],
+      [ [ "FoxAdamantinechunk", 1 ] ]
     ]
   },
   {
@@ -141,11 +141,11 @@
     "time": " 20 m",
     "book_learn": [ [ "FoxmanualSGAgear", 1 ], [ "FoxDeSGAarakawa", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-	"using": [ [ "bullet_forming", 50 ] ],
+    "using": [ [ "bullet_forming", 50 ] ],
     "components": [
       [ [ "FoxshotshellAdamantine", 50 ] ],
-	  [ [ "Foxpowderedessence", 500 ] ],
-	  [ [ "FoxAdamantinechunk", 1 ] ]
+      [ [ "Foxpowderedessence", 500 ] ],
+      [ [ "FoxAdamantinechunk", 1 ] ]
     ]
   },
   {
@@ -158,11 +158,26 @@
     "time": " 20 m",
     "book_learn": [ [ "FoxmanualSGAgear", 1 ], [ "FoxDeSGAarakawa", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-	"using": [ [ "bullet_forming", 50 ] ],
+    "using": [ [ "bullet_forming", 50 ] ],
     "components": [
       [ [ "FoxshotshellAdamantine", 50 ] ],
-	  [ [ "Foxpowderedessence", 500 ] ],
-	  [ [ "FoxAdamantinechunk", 1 ] ]
+      [ [ "Foxpowderedessence", 500 ] ],
+      [ [ "FoxAdamantinechunk", 1 ] ]
+    ]
+  },
+  {
+    "result": "FoxSGAgrenade",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_AMMUNITION",
+    "skill_used": "FoxEssTech",
+    "difficulty": 1,
+    "time": "30 m",
+    "book_learn": [ [ "FoxmanualSGAgear", 1 ], [ "FoxDeSGAseburo", 1 ], [ "FoxDeSGAarakawa", 1 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "FoxSGAmechparts", 1 ] ],
+      [ [ "Foxpowderedessence", 100 ] ]
     ]
   }
 ]

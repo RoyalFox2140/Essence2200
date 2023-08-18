@@ -15,7 +15,13 @@
     "symbol": ":",
     "color": "light_gray",
     "location": "accessories",
-    "mod_targets": [ "shotgun", "rifle" ],
+    "mod_target_category": [
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "MACHINE_GUNS" ],
+      [ "GATLING_GUNS" ],
+      [ "SHOTGUNS" ]
+    ],
     "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", -18 ] ],
     "flags": [ "DURABLE_MELEE", "PUMP_RAIL_COMPATIBLE", "MELEE_GUNMOD" ]
@@ -36,7 +42,13 @@
     "symbol": ":",
     "color": "light_gray",
     "location": "accessories",
-    "mod_targets": [ "shotgun", "rifle" ],
+    "mod_target_category": [
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "MACHINE_GUNS" ],
+      [ "GATLING_GUNS" ],
+      [ "SHOTGUNS" ]
+    ],
     "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", -18 ] ],
     "flags": [ "DURABLE_MELEE", "PUMP_RAIL_COMPATIBLE", "MELEE_GUNMOD" ]
@@ -56,12 +68,19 @@
     "symbol": ":",
     "color": "dark_gray",
     "location": "barrel",
-	"flags": [ "IRREMOVABLE" ],
-    "mod_targets": [ "pistol", "smg", "rifle" ],
+    "flags": [ "IRREMOVABLE" ],
+    "mod_target_category": [
+      [ "PISTOLS" ],
+      [ "REVOLVERS" ],
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "MACHINE_GUNS" ],
+      [ "GATLING_GUNS" ]
+    ],
     "install_time": "0 m",
     "loudness_modifier": 100,
-	"damage_modifier": { "damage_type": "bullet", "amount": 10 },
-	"range_modifier": 10
+    "damage_modifier": { "damage_type": "bullet", "amount": 10 },
+    "range_modifier": 10
   },
   {
     "id": "FoxSGATyphoonMAG",
@@ -78,12 +97,19 @@
     "symbol": ":",
     "color": "dark_gray",
     "location": "barrel",
-	"flags": [ "IRREMOVABLE" ],
-    "mod_targets": [ "pistol", "smg", "rifle" ],
+    "flags": [ "IRREMOVABLE" ],
+    "mod_target_category": [
+      [ "PISTOLS" ],
+      [ "REVOLVERS" ],
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "MACHINE_GUNS" ],
+      [ "GATLING_GUNS" ]
+    ],
     "install_time": "0 m",
     "loudness_modifier": 100,
-	"damage_modifier": { "damage_type": "bullet", "amount": 25 },
-	"range_modifier": 20
+    "damage_modifier": { "damage_type": "bullet", "amount": 25 },
+    "range_modifier": 20
   },
   {
     "id": "FoxSGA44magMAG",
@@ -100,12 +126,19 @@
     "symbol": ":",
     "color": "dark_gray",
     "location": "barrel",
-	"flags": [ "IRREMOVABLE" ],
-    "mod_targets": [ "pistol", "smg", "rifle" ],
+    "flags": [ "IRREMOVABLE" ],
+    "mod_target_category": [
+      [ "PISTOLS" ],
+      [ "REVOLVERS" ],
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "MACHINE_GUNS" ],
+      [ "GATLING_GUNS" ]
+    ],
     "install_time": "0 m",
     "loudness_modifier": 100,
-	"damage_modifier": { "damage_type": "bullet", "amount": 25 },
-	"range_modifier": 10
+    "damage_modifier": { "damage_type": "bullet", "amount": 25 },
+    "range_modifier": 10
   },
   {
     "id": "FoxSGA556MAG",
@@ -122,12 +155,19 @@
     "symbol": ":",
     "color": "dark_gray",
     "location": "barrel",
-	"flags": [ "IRREMOVABLE" ],
-    "mod_targets": [ "pistol", "smg", "rifle" ],
+    "flags": [ "IRREMOVABLE" ],
+    "mod_target_category": [
+      [ "PISTOLS" ],
+      [ "REVOLVERS" ],
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "MACHINE_GUNS" ],
+      [ "GATLING_GUNS" ]
+    ],
     "install_time": "0 m",
     "loudness_modifier": 100,
-	"damage_modifier": { "damage_type": "bullet", "amount": 30 },
-	"range_modifier": 10
+    "damage_modifier": { "damage_type": "bullet", "amount": 30 },
+    "range_modifier": 10
   },
   {
     "id": "FoxSGAshotgunMAG",
@@ -144,11 +184,13 @@
     "symbol": ":",
     "color": "dark_gray",
     "location": "barrel",
-	"flags": [ "IRREMOVABLE" ],
-    "mod_targets": [ "shotgun" ],
+    "flags": [ "IRREMOVABLE" ],
+    "mod_target_category": [
+      [ "SHOTGUNS" ]
+    ],
     "install_time": "0 m",
     "loudness_modifier": 100,
-	"damage_modifier": { "damage_type": "bullet", "amount": 15 },
-	"range_modifier": 8
+    "damage_modifier": { "damage_type": "bullet", "amount": 15 },
+    "range_modifier": 8
   }
 ]

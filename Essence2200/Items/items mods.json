@@ -14,10 +14,17 @@
     "symbol": ":",
     "color": "dark_gray",
     "location": "muzzle",
-    "mod_targets": [ "pistol", "smg", "rifle" ],
+    "mod_target_category": [
+      [ "PISTOLS" ],
+      [ "REVOLVERS" ],
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "MACHINE_GUNS" ],
+      [ "GATLING_GUNS" ]
+    ],
     "install_time": "0 m",
     "handling_modifier": -2,
-	"damage_modifier": { "damage_type": "bullet", "amount": 25 },
-    "loudness_modifier": 50
+    "damage_modifier": { "damage_type": "bullet", "amount": 25 },
+    "loudness_modifier": 20
   }
 ]

@@ -2,7 +2,7 @@
   {
     "type": "recipe",
     "result": "FoxEssenceCooker",
-	"id_suffix": "FoxTooling",
+    "id_suffix": "FoxTooling",
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_TOOLS",
     "skill_used": "fabrication",
@@ -20,14 +20,14 @@
     "skill_used": "FoxEssTech",
     "difficulty": 2,
     "time": "4 h",
-	"reversible": true,
+    "reversible": true,
     "book_learn": [ [ "FoxDeIed", 2 ] ],
-	"using": [ [ "soldering_standard", 10 ] ],
+    "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "FoxBallisticWeaveSheet", 2 ] ],
-	  [ [ "FoxSGAmechparts", 1 ] ],
-	  [ [ "FoxSGAelectronics", 3 ] ]
+      [ [ "FoxSGAmechparts", 1 ] ],
+      [ [ "FoxSGAelectronics", 3 ] ]
     ]
   },
   {
@@ -38,10 +38,10 @@
     "skill_used": "FoxEssTech",
     "difficulty": 2,
     "time": "4 h",
-	"reversible": true,
+    "reversible": true,
     "book_learn": [ [ "FoxDeIkw", 2 ] ],
-	"using": [ [ "soldering_standard", 10 ], [ "blacksmithing_standard", 10 ] ],
-	"tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "blacksmithing_standard", 10 ] ],
+    "tools": [ [ [ "swage", -1 ] ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "FoxBallisticWeaveSheet", 1 ] ],
@@ -58,8 +58,8 @@
     "difficulty": 3,
     "time": "1 h",
     "reversible": true,
-  "autolearn": true,
-  "using": [ [ "soldering_standard", 10 ] ],
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
     "components": [
       [ [ "Foximperialsteelchunk", 2 ] ],
@@ -74,9 +74,9 @@
     "skill_used": "FoxEssTech",
     "difficulty": 3,
     "time": "4 h",
-	"reversible": true,
+    "reversible": true,
     "book_learn": [ [ "FoxmanualSGAgear", 3 ], [ "FoxDeSGAishikawa", 3 ] ],
-	"using": [ [ "soldering_standard", 10 ] ],
+    "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "FoxSGAmechparts", 2 ] ],
@@ -91,9 +91,9 @@
     "skill_used": "FoxEssTech",
     "difficulty": 3,
     "time": "4 h",
-	"reversible": true,
+    "reversible": true,
     "book_learn": [ [ "FoxmanualSGAgear", 3 ], [ "FoxDeSGAishikawa", 3 ] ],
-	"using": [ [ "soldering_standard", 10 ] ],
+    "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "FoxSGAmechparts", 1 ] ],
@@ -111,7 +111,7 @@
     "book_learn": [ [ "FoxmanualSGAgear", 1 ] ],
     "components": [
       [ [ "FoxSGAdatathief", 1 ] ],
-	  [ [ "FoxSGAcipher", 1 ] ]
+      [ [ "FoxSGAcipher", 1 ] ]
     ]
   },
   {
@@ -134,9 +134,9 @@
     "subcategory": "CSC_ESSENCE_TOOLS",
     "skill_used": "FoxEssTheory",
     "difficulty": 1,
-	"time": "30 m",
+    "time": "30 m",
     "autolearn": true,
-	"using": [ [ "welding_standard", 10 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [ [ [ "Foxcrystallizedessence", 1 ] ], [ [ "Foximperialsteelchunk", 5 ] ] ]
   },
@@ -147,9 +147,9 @@
     "subcategory": "CSC_ESSENCE_TOOLS",
     "skill_used": "FoxEssTheory",
     "difficulty": 2,
-	"time": "30 m",
+    "time": "30 m",
     "autolearn": true,
-	"using": [ [ "welding_standard", 10 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [ [ [ "FoxEssencenormal", 500 ] ], [ [ "Foximperialsteelchunk", 5 ] ] ]
   },
@@ -160,9 +160,9 @@
     "subcategory": "CSC_ESSENCE_TOOLS",
     "skill_used": "FoxEssTheory",
     "difficulty": 3,
-	"time": "30 m",
+    "time": "30 m",
     "autolearn": true,
-	"using": [ [ "welding_standard", 10 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [ [ [ "FoxEssencenormal", 250 ] ], [ [ "Foximperialsteelchunk", 1 ] ] ]
   },
@@ -173,9 +173,9 @@
     "subcategory": "CSC_ESSENCE_TOOLS",
     "skill_used": "FoxEssTheory",
     "difficulty": 3,
-	"time": "30 m",
+    "time": "30 m",
     "autolearn": true,
-	"using": [ [ "welding_standard", 10 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [ [ [ "FoxEssencepure", 250 ] ], [ [ "FoxShadowsteelchunk", 1 ] ] ]
   }

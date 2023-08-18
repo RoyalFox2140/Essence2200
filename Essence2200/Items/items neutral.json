@@ -23,7 +23,7 @@
   {
     "id": "Foximperialsteelchunk",
     "type": "AMMO",
-	"looks_like": "steel_chunk",
+    "looks_like": "steel_chunk",
     "category": "spare_parts",
     "name": { "str": "Chunk of Imperial Steel", "str_pl": "Chunks of Imperial Steel" },
     "description": "A misshapen chunk of Imperial Steel. It's a dark gray essence alloy that the Imperials use everywhere. While it has advantageous properties above aluminum and titanium, it's not a good essence alloy.",
@@ -44,7 +44,7 @@
   {
     "id": "FoxAdamantinechunk",
     "type": "AMMO",
-	"looks_like": "steel_chunk",
+    "looks_like": "steel_chunk",
     "category": "spare_parts",
     "name": { "str": "Chunk of Adamantine", "str_pl": "Chunks of Adamantine" },
     "description": "A misshapen chunk of Adamantine. It's a nearly weightless dull light green essence alloy whose properties can be attuned by a mage for nearly any purpose known to materials science. Considered a miracle material, it only gets beat by alloys that are denser or stronger, or when weight must be added.",
@@ -65,7 +65,7 @@
   {
     "id": "Foxcrystallizedessence",
     "type": "AMMO",
-	"looks_like": "material_rocksalt",
+    "looks_like": "material_rocksalt",
     "category": "spare_parts",
     "name": { "str": "Crystallized Essence" },
     "description": "These naturally occuring crystals grow in areas of high anomalous activity. These days, that includes New England. They can store and conduct incredible amounts of electricity.",
@@ -81,7 +81,7 @@
   {
     "id": "Foxpowderedessence",
     "type": "AMMO",
-	"looks_like": "material_rocksalt",
+    "looks_like": "material_rocksalt",
     "category": "spare_parts",
     "name": { "str": "powdered Essence" },
     "description": "A fine powder made of essence, either ground up from crystals or refined and dried from liquid with sand to keep it physically bound.",
@@ -133,7 +133,7 @@
     "type": "AMMO",
     "id": "Foxtarcrete",
     "category": "spare_parts",
-	"looks_like": "material_cement",
+    "looks_like": "material_cement",
     "price": 200,
     "price_postapoc": 10,
     "name": { "str_sp": "Tarcrete" },
@@ -150,7 +150,7 @@
   {
     "id": "Foxessenceingot",
     "type": "AMMO",
-	"looks_like": "material_aluminium_ingot",
+    "looks_like": "material_aluminium_ingot",
     "category": "spare_parts",
     "name": { "str": "Essence Ingot" },
     "description": "An ingot of condensed pure essence, generally used for alloy production.",
@@ -167,7 +167,7 @@
   {
     "id": "FoxBallisticWeaveSheet",
     "type": "AMMO",
-	"looks_like": "rag",
+    "looks_like": "rag",
     "category": "spare_parts",
     "name": { "str": "Ballistic Weave sheet" },
     "description": "Invented by the precursor to the Imperial government in the 2040's to stop a rampant stabbing epidemic in occupied territories, this polymer is extremely resilient to damage from bullets and knives. Future designs imparted resistance to blunt force, chemicals and fire. Though originally synthesized with chemicals, Essence is more abundant.",
