@@ -10,5 +10,5 @@ Even if a case where the JSON is still licensed under the commercial license of 
 
 Due to licensing I will not be accepting contributions or pull requests for the project.
 
-Designed for Cataclysm: Bright Nights 0.2 Experimental
+Designed for Cataclysm: Bright Nights 0.3 Experimental
 https://discord.gg/XW7XhXuZ89
