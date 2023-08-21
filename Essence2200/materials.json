@@ -119,6 +119,39 @@
     "default": "FoxEssencenormal"
   },
   {
+    "id": "FoxTaroline",
+    "type": "AMMO",
+    "name": { "str_sp": "Essence" },
+    "description": "Cracking Tarcrete at furnace temperatures leads to the creation of this fuel which contains slightly more energy than gasoline and has greater chemical stability.",
+    "category": "fuel",
+    "weight": "1 g",
+    "volume": "200ml",
+    "price": 0,
+    "price_postapoc": 2000,
+    "count": 250,
+    "stack_size": 200,
+    "phase": "liquid",
+    "container": "jerrycan",
+    "material": "hydrocarbons",
+    "symbol": "=",
+    "color": "light_red",
+    "ammo_type": "FoxTaroline",
+    "damage": { "damage_type": "heat", "amount": 6, "armor_penetration": 5 },
+    "range": 4,
+    "effects": [ "FLAME", "STREAM", "INCENDIARY", "NEVER_MISFIRES" ],
+    "fuel": {
+      "energy": 36,
+      "pump_terrain": "t_gas_pump",
+      "explosion_data": { "chance_hot": 2, "chance_cold": 5, "factor": 1, "fiery": true, "size_factor": 0.1 }
+    }
+  },
+  {
+    "type": "ammunition_type",
+    "id": "FoxTaroline",
+    "name": "Essence",
+    "default": "FoxTaroline"
+  },
+  {
     "id": "FoxEssencepure",
     "type": "AMMO",
     "name": { "str_sp": "Pure Essence" },

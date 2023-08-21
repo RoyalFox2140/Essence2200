@@ -18,6 +18,7 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_TOOLS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 5 ] ],
     "difficulty": 2,
     "time": "4 h",
     "reversible": true,
@@ -26,16 +27,18 @@
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "FoxBallisticWeaveSheet", 2 ] ],
-      [ [ "FoxSGAmechparts", 1 ] ],
-      [ [ "FoxSGAelectronics", 3 ] ]
+      [ [ "Foximpmechparts", 1 ] ],
+      [ [ "Foximpelectronics", 3 ] ]
     ]
   },
   {
     "result": "adv_UPS_off",
     "type": "recipe",
+    "id_suffix": "FoxTooling",
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_TOOLS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 5 ] ],
     "difficulty": 2,
     "time": "4 h",
     "reversible": true,
@@ -72,6 +75,7 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_TOOLS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 5 ] ],
     "difficulty": 3,
     "time": "4 h",
     "reversible": true,
@@ -89,6 +93,7 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_TOOLS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 5 ] ],
     "difficulty": 3,
     "time": "4 h",
     "reversible": true,
@@ -132,20 +137,22 @@
     "result": "Foximpbattery",
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_TOOLS",
-    "skill_used": "FoxEssTheory",
-    "difficulty": 1,
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 1 ], [ "fabrication", 5 ] ],
+    "difficulty": 0,
     "time": "30 m",
     "autolearn": true,
     "using": [ [ "welding_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "components": [ [ [ "Foxcrystallizedessence", 1 ] ], [ [ "Foximperialsteelchunk", 5 ] ] ]
+    "components": [ [ [ "Foxcrystallizedessence", 2 ] ], [ [ "Foximperialsteelchunk", 5 ] ] ]
   },
   {
     "type": "recipe",
     "result": "Foximpbatteryadvanced",
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_TOOLS",
-    "skill_used": "FoxEssTheory",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 5 ] ],
     "difficulty": 2,
     "time": "30 m",
     "autolearn": true,
@@ -158,25 +165,142 @@
     "result": "Foximpbatterycell",
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_TOOLS",
-    "skill_used": "FoxEssTheory",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 5 ] ],
     "difficulty": 3,
-    "time": "30 m",
+    "result_mult": 10,
+    "time": "2 h",
     "autolearn": true,
     "using": [ [ "welding_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "components": [ [ [ "FoxEssencenormal", 250 ] ], [ [ "Foximperialsteelchunk", 1 ] ] ]
+    "components": [ [ [ "FoxEssencenormal", 250 ] ], [ [ "Foximperialsteelchunk", 3 ] ] ]
   },
   {
     "type": "recipe",
     "result": "FoxSGAbatterycell",
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_TOOLS",
-    "skill_used": "FoxEssTheory",
-    "difficulty": 3,
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 4 ], [ "fabrication", 6 ] ],
+    "difficulty": 4,
     "time": "30 m",
     "autolearn": true,
     "using": [ [ "welding_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [ [ [ "FoxEssencepure", 250 ] ], [ [ "FoxShadowsteelchunk", 1 ] ] ]
+  },
+  {
+    "result": "Foxessencestill",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 5,
+    "time": "6 h 30 m",
+    "autolearn": true,
+    "using": [  [ "welding_standard", 40 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "55gal_drum", 3 ] ],
+      [ [ "pipe", 15 ] ],
+      [ [ "scrap", 20 ] ],
+      [ [ "water_faucet", 7 ] ],
+      [ [ "sheet_metal", 12 ] ]
+    ]
+  },
+  {
+    "result": "Foxessencecracker",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 5,
+    "time": "2 h",
+    "autolearn": true,
+    "using": [  [ "welding_standard", 40 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "55gal_drum", 2 ] ],
+      [ [ "water_faucet", 1 ] ],
+      [ [ "pipe", 5 ] ],
+      [ [ "scrap", 4 ] ],
+      [ [ "sheet_metal", 2 ] ]
+    ]
+  },
+  {
+    "result": "Foxalloybarrel",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "electronics", 4 ] ],
+    "difficulty": 4,
+    "time": "2 h",
+    "autolearn": true,
+    "using": [  [ "welding_standard", 40 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "55gal_drum", 1 ] ],
+      [ [ "scrap", 50 ] ],
+      [ [ "element", 40 ] ],
+      [ [ "amplifier", 10 ] ],
+      [ [ "cable", 100 ] ],
+      [ [ "Foxtarcrete", 10000 ] ]
+    ]
+  },
+  {
+    "result": "Foxtoolboxmachining",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "36 h",
+    "autolearn": true,
+    "using": [ [ "blacksmithing_standard", 80 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximperialsteelchunk", 25 ] ],
+      [ [ "plastic_chunk", 8 ] ]
+    ]
+  },
+  {
+    "result": "Foximpsteeldrillbits",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "3 h",
+    "autolearn": true,
+    "using": [ [ "blacksmithing_standard", 10 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximperialsteelchunk", 4 ] ]
+    ]
+  },
+  {
+    "result": "Foxmachiningstation",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "electronics", 2 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": true,
+    "using": [  [ "welding_standard", 10 ], [ "blacksmithing_standard", 5 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "cable", 8 ] ],
+      [ [ "steel_chunk", 8 ] ],
+      [ [ "scrap", 16 ] ],
+      [ [ "pipe", 4 ] ],
+      [ [ "motor_small", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "workbench", 1 ] ]
+    ]
   }
 ]

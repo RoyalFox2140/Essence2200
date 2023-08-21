@@ -1,0 +1,147 @@
+[
+  {
+    "type": "recipe",
+    "result": "Foxpowderedessence",
+    "id_suffix": "FoxRefinement",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_ESSTHEORY",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 4 ] ],
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "batch_time_factors": [ 90, 4 ],
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 }, { "id": "CHEM", "level": 2 } ],
+    "tools": [ [ [ "water_boiling_heat", 20, "LIST" ] ] ],
+    "components": [ [ [ "FoxEssencenormal", 250 ] ], [ [ "material_sand", 50 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxEssencepure",
+    "id_suffix": "FoxRefinement",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_ESSTHEORY",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 5,
+    "time": "30 m",
+    "autolearn": true,
+    "batch_time_factors": [ 80, 4 ],
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 }, { "id": "CHEM", "level": 2 } ],
+    "tools": [ [ [ "water_boiling_heat", 20, "LIST" ] ] ],
+    "components": [ [ [ "FoxEssencenormal", 1000 ] ], [ [ "Foxtargas", 100 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxmotordew",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_ESSTHEORY",
+    "id_suffix": "FoxFractional",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 0,
+    "result_mult": 400,
+    "//": "Here I am assuming 40% sand 20% clay 40% silt, and the silt becomes tarcrete. 100L motordew 5L refined 20L targas so 25L left",
+    "byproducts": [ [ "Foxrefinedmotordew", 10 ], [ "Foxtargas", 80 ], [ "material_sand", 40 ], [ "clay_lump", 20 ], [ "Foxtarcrete", 40 ] ],
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "water_boiling_heat", 1800, "LIST" ] ] ],
+    "qualities": [ { "id": "FoxEssenceStill", "level": 1 } ],
+    "components": [
+    [ [ "material_soil", 10 ] ],
+    [ [ "water_sewage", 400 ] ]
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxrefinedmotordew",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_ESSTHEORY",
+    "id_suffix": "FoxFractional",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 0,
+    "result_mult": 200,
+    "byproducts": [ [ "FoxEssencenormal", 200 ], [ "Foxtargas", 100 ], [ "Foximpmotoroil", 40 ], [ "Foximpgrease", 40 ], [ "Foxtarcrete", 20 ] ],
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "water_boiling_heat", 1800, "LIST" ] ] ],
+    "qualities": [ { "id": "FoxEssenceStill", "level": 1 } ],
+    "components": [
+    [ [ "Foxmotordew", 60000 ] ]
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxTaroline",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_ESSTHEORY",
+    "id_suffix": "FoxCracking",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 1,
+    "result_mult": 600,
+    "//": "100L Tarcrete into 150L Taroline 50L Targas its boiled until the targas goes to the other barrel due to pressure and temperature",
+    "byproducts": [ [ "Foxtargas", 200 ] ],
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "water_boiling_heat", 2500, "LIST" ] ] ],
+    "qualities": [ { "id": "FoxEssenceCracker", "level": 1 } ],
+    "components": [
+    [ [ "Foxtarcrete", 400 ] ]
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxEssencenormal",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_ESSTHEORY",
+    "id_suffix": "FoxDistillmotordew",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 1,
+    "result_mult": 300,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "water_boiling_heat", 2000, "LIST" ] ] ],
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 }, { "id": "CHEM", "level": 2 } ],
+    "components": [
+    [ [ "Foxmotordew", 40000 ] ]
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxEssencenormal",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_ESSTHEORY",
+    "id_suffix": "FoxDistilltargas",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 1,
+    "result_mult": 300,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "water_boiling_heat", 2000, "LIST" ] ] ],
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 }, { "id": "CHEM", "level": 2 } ],
+    "components": [
+    [ [ "Foxtargas", 40000 ] ]
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foximperialsteelchunk",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_ESSTHEORY",
+    "id_suffix": "FoxAbsorptionAlloying",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 4 ] ],
+    "difficulty": 2,
+    "result_mult": 100,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "Foxalloybarrel", 2000 ] ] ],
+    "components": [
+     [ [ "steel_lump", 200 ], [ "steel_chunk", 400 ], [ "scrap", 1000 ] ], [ [ "Foxrefinedmotordew", 40000 ] ] 
+  ]
+  }
+]

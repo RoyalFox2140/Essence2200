@@ -10,5 +10,9 @@ Even if a case where the JSON is still licensed under the commercial license of 
 
 Due to licensing I will not be accepting contributions or pull requests for the project.
 
+In the event of my disappearance, I allow Chaosvolt and Kenan2000 to fork, maintain, and appoint maintainers to the project.
+
+When I reach a comfortable state of polish and most of the mod is finished it will be eligible to be included in Kenan's structured modpack.
+
 Designed for Cataclysm: Bright Nights 0.3 Experimental
 https://discord.gg/XW7XhXuZ89

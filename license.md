@@ -7,3 +7,7 @@ At no point may you commercially use my mod in any form. At no point may you red
 Even if a case where the JSON is still licensed under the commercial license of Cataclysm, the contents of my story including names, descriptions, people, are all original works I am currently developing for a web comic. All rights to my story are reserved by myself.
 
 Due to licensing I will not be accepting contributions or pull requests for the project.
+
+In the event of my disappearance, I allow Chaosvolt and Kenan2000 to fork, maintain, and appoint maintainers to the project.
+
+When I reach a comfortable state of polish and most of the mod is finished it will be eligible to be included in Kenan's structured modpack.

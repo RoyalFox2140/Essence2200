@@ -40,5 +40,167 @@
     "required_str": 1,
     "flags": [ "TRANSPARENT", "SALT_WATER" ],
     "examine_action": "water_source"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxfessencestill",
+    "name": "essence fractional still",
+    "looks_like": "f_standing_tank",
+    "description": "A fractional still meant for refining essence products.",
+    "symbol": "^",
+    "color": "light_red",
+    "move_cost_mod": 1,
+    "coverage": 40,
+    "required_str": 2,
+    "crafting_pseudo_item": "Foxessencestill",
+    "deconstruct": { "items": [ { "item": "Foxessencestill", "count": 1 } ] },
+    "flags": [ "TRANSPARENT", "NOITEM", "EASY_DECONSTRUCT" ],
+    "bash": { "str_min": 4, "str_max": 8, "sound": "crunch!", "sound_fail": "whump.", "items": [ { "item": "Foxessencestill", "count": 1 } ] }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxfessencestill",
+    "group": "Foxplace_Foxfessencestill",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "components": [ [ [ "Foxessencestill", 1 ] ] ],
+    "pre_note": "Can be deconstructed without tools.",
+    "pre_special": "check_empty",
+    "dark_craftable": true,
+    "post_furniture": "Foxfessencestill"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_Foxfessencestill",
+    "name": "Place Essence Still"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxfessencecracker",
+    "name": "essence cracker",
+    "looks_like": "f_standing_tank",
+    "description": "A large barrel meant for cracking tarcrete.",
+    "symbol": "^",
+    "color": "light_red",
+    "move_cost_mod": 1,
+    "coverage": 40,
+    "required_str": 2,
+    "crafting_pseudo_item": "Foxessencecracker",
+    "deconstruct": { "items": [ { "item": "Foxessencecracker", "count": 1 } ] },
+    "flags": [ "TRANSPARENT", "NOITEM", "EASY_DECONSTRUCT" ],
+    "bash": { "str_min": 4, "str_max": 8, "sound": "crunch!", "sound_fail": "whump.", "items": [ { "item": "Foxessencecracker", "count": 1 } ] }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxessencecracker",
+    "group": "Foxplace_Foxfessencecracker",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "components": [ [ [ "Foxessencecracker", 1 ] ] ],
+    "pre_note": "Can be deconstructed without tools.",
+    "pre_special": "check_empty",
+    "dark_craftable": true,
+    "post_furniture": "Foxfessencecracker"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_Foxfessencecracker",
+    "name": "Place Essence Cracker"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxfalloyingbarrel",
+    "looks_like": "f_standing_tank",
+    "name": "grid alloying barrel",
+    "symbol": "U",
+    "description": "An alloying barrel connected to the power grid.",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 10,
+    "required_str": -1,
+    "crafting_pseudo_item": "Foxfake_alloybarrel",
+    "flags": [ "TRANSPARENT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": {
+      "items": [ { "item": "Foxalloybarrel", "count": 1 }, { "item": "cable", "charges": 5 } ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "Foxalloybarrel", "count": 1 },
+        { "item": "cable", "charges": 5 }
+      ]
+    }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxfalloyingbarrel",
+    "group": "Foxplace_Foxfalloyingbarrel",
+    "category": "FURN",
+    "required_skills": [ [ "electronics", 1 ] ],
+    "time": "1 m",
+    "qualities": [ [ { "id": "SCREW", "level": 1 } ] ],
+    "using": [ [ "soldering_standard", 5 ] ],
+    "components": [ [ [ "Foxalloybarrel", 1 ] ], [ [ "cable", 5 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "dark_craftable": true,
+    "post_furniture": "Foxfalloyingbarrel"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_Foxfalloyingbarrel",
+    "name": "Install Alloying Barrel"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxfgridmachiningstation",
+    "looks_like": "f_workbench",
+    "name": "grid machining station",
+    "symbol": "U",
+    "description": "A machining station connected to the power grid.",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 10,
+    "required_str": -1,
+    "crafting_pseudo_item": "Foxfake_machiningstation",
+    "flags": [ "TRANSPARENT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": {
+      "items": [ { "item": "Foxmachiningstation", "count": 1 }, { "item": "cable", "charges": 5 } ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "Foxmachiningstation", "count": 1 },
+        { "item": "cable", "charges": 5 }
+      ]
+    }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxfgridmachiningstation",
+    "group": "Foxplace_Foxfgridmachiningstation",
+    "category": "FURN",
+    "required_skills": [ [ "electronics", 1 ] ],
+    "time": "1 m",
+    "qualities": [ [ { "id": "SCREW", "level": 1 } ] ],
+    "using": [ [ "soldering_standard", 5 ] ],
+    "components": [ [ [ "Foxmachiningstation", 1 ] ], [ [ "cable", 5 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "dark_craftable": true,
+    "post_furniture": "Foxfgridmachiningstation"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_Foxfgridmachiningstation",
+    "name": "Install Machining Station"
   }
 ]

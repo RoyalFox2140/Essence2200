@@ -78,7 +78,6 @@
       [ "GATLING_GUNS" ]
     ],
     "install_time": "0 m",
-    "loudness_modifier": 100,
     "damage_modifier": { "damage_type": "bullet", "amount": 10 },
     "range_modifier": 10
   },
@@ -107,7 +106,6 @@
       [ "GATLING_GUNS" ]
     ],
     "install_time": "0 m",
-    "loudness_modifier": 100,
     "damage_modifier": { "damage_type": "bullet", "amount": 25 },
     "range_modifier": 20
   },
@@ -136,7 +134,6 @@
       [ "GATLING_GUNS" ]
     ],
     "install_time": "0 m",
-    "loudness_modifier": 100,
     "damage_modifier": { "damage_type": "bullet", "amount": 25 },
     "range_modifier": 10
   },
@@ -165,7 +162,6 @@
       [ "GATLING_GUNS" ]
     ],
     "install_time": "0 m",
-    "loudness_modifier": 100,
     "damage_modifier": { "damage_type": "bullet", "amount": 30 },
     "range_modifier": 10
   },
@@ -189,7 +185,6 @@
       [ "SHOTGUNS" ]
     ],
     "install_time": "0 m",
-    "loudness_modifier": 100,
     "damage_modifier": { "damage_type": "bullet", "amount": 15 },
     "range_modifier": 8
   }

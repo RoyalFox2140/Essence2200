@@ -80,14 +80,15 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_WEAPONS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 8 ], [ "electronics", 6 ], [ "mechanics", 4 ] ],
     "difficulty": 4,
-    "time": "2 h 40 m",
+    "time": "2 h 30 m",
     "book_learn": [ [ "FoxmanualSGAgear", 4 ], [ "FoxDeSGAseburo", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "FoxSGAmechparts", 1 ] ],
-      [ [ "FoxSGAelectronics", 1 ] ],
-      [ [ "FoxSGAballisticparts", 3 ] ]
+      [ [ "FoxSGAelectronics", 2 ] ],
+      [ [ "FoxSGAballisticparts", 2 ] ]
     ]
   },
   {
@@ -96,6 +97,7 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_WEAPONS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 8 ], [ "electronics", 6 ], [ "mechanics", 4 ] ],
     "difficulty": 4,
     "time": "3 h 40 m",
     "book_learn": [ [ "FoxmanualSGAgear", 4 ], [ "FoxDeSGAarakawa", 4 ] ],
@@ -112,15 +114,16 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_WEAPONS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 8 ], [ "electronics", 6 ], [ "mechanics", 4 ] ],
     "difficulty": 5,
     "time": "6 h 30 m",
     "book_learn": [ [ "FoxmanualSGAgear", 5 ], [ "FoxDeSGAseburo", 5 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "FoxSGAmechparts", 5 ] ],
-      [ [ "FoxSGAelectronics", 3 ] ],
+      [ [ "FoxSGAelectronics", 6 ] ],
       [ [ "FoxSGAballisticparts", 7 ] ],
-      [ [ "FoxShadowsteelchunk", 3 ] ]
+      [ [ "FoxShadowsteelchunk", 2 ] ]
     ]
   },
   {
@@ -129,15 +132,16 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_WEAPONS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 8 ], [ "electronics", 6 ], [ "mechanics", 4 ] ],
     "difficulty": 5,
     "time": "6 h 30 m",
     "book_learn": [ [ "FoxmanualSGAgear", 5 ], [ "FoxDeSGAarakawa", 5 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "FoxSGAmechparts", 5 ] ],
-      [ [ "FoxSGAelectronics", 5 ] ],
+      [ [ "FoxSGAelectronics", 8 ] ],
       [ [ "FoxSGAballisticparts", 10 ] ],
-      [ [ "FoxShadowsteelchunk", 3 ] ]
+      [ [ "FoxShadowsteelchunk", 2 ] ]
     ]
   },
   {
@@ -146,31 +150,16 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_WEAPONS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 8 ], [ "electronics", 6 ], [ "mechanics", 4 ] ],
     "difficulty": 5,
     "time": "6 h 30 m",
     "book_learn": [ [ "FoxmanualSGAgear", 5 ], [ "FoxDeSGAarakawa", 5 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "FoxSGAmechparts", 7 ] ],
-      [ [ "FoxSGAelectronics", 6 ] ],
+      [ [ "FoxSGAelectronics", 9 ] ],
       [ [ "FoxSGAballisticparts", 12 ] ],
-      [ [ "FoxShadowsteelchunk", 5 ] ]
-    ]
-  },
-  {
-    "result": "FoxSeburoS12",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_WEAPONS",
-    "skill_used": "FoxEssTech",
-    "difficulty": 4,
-    "time": "2 h 40 m",
-    "book_learn": [ [ "FoxmanualSGAgear", 4 ], [ "FoxDeSGAseburo", 4 ], [ "FoxDeSGAarakawa", 5 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
-    "components": [
-      [ [ "FoxSGAmechparts", 1 ] ],
-      [ [ "FoxSGAelectronics", 1 ] ],
-      [ [ "FoxSGAballisticparts", 3 ] ]
+      [ [ "FoxShadowsteelchunk", 4 ] ]
     ]
   },
   {
@@ -179,15 +168,18 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_WEAPONS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "electronics", 4 ], [ "mechanics", 1 ] ],
     "difficulty": 2,
     "time": "3 h 20 m",
     "book_learn": [ [ "FoxDeIkw", 2 ] ],
+    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
     "using": [ [ "soldering_standard", 20 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 5 ] ],
       [ [ "Foximpelectronics", 8 ] ],
-      [ [ "Foximplaserparts", 15 ] ]
+      [ [ "Foximplaserparts", 15 ] ],
+      [ [ "Foximpgrease", 1 ] ]
     ]
   },
   {
@@ -196,15 +188,18 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_WEAPONS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "electronics", 4 ], [ "mechanics", 1 ] ],
     "difficulty": 2,
     "time": "4 h 30 m",
     "book_learn": [ [ "FoxDeIkw", 2 ] ],
+    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
     "using": [ [ "soldering_standard", 20 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 5 ] ],
       [ [ "Foximpelectronics", 12 ] ],
-      [ [ "Foximplaserparts", 18 ] ]
+      [ [ "Foximplaserparts", 18 ] ],
+      [ [ "Foximpgrease", 1 ] ]
     ]
   },
   {
@@ -213,16 +208,19 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_WEAPONS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "electronics", 4 ], [ "mechanics", 1 ] ],
     "difficulty": 2,
     "time": "15 h",
     "book_learn": [ [ "FoxDeIkw", 2 ] ],
+    "tools": [ [ [ "Foxmachiningstation", 100 ] ] ],
     "using": [ [ "soldering_standard", 100 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 20 ] ],
       [ [ "Foximpelectronics", 80 ] ],
       [ [ "Foximplaserparts", 80 ] ],
-      [ [ "Foximperialsteelchunk", 20 ] ]
+      [ [ "Foximperialsteelchunk", 20 ] ],
+      [ [ "Foximpgrease", 1 ] ]
     ]
   },
   {
@@ -231,15 +229,18 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_WEAPONS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "electronics", 4 ], [ "mechanics", 1 ] ],
     "difficulty": 2,
     "time": "3 h 20 m",
     "book_learn": [ [ "FoxDeIkw", 2 ] ],
+    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
     "using": [ [ "soldering_standard", 20 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 5 ] ],
       [ [ "Foximpelectronics", 11 ] ],
-      [ [ "Foximplaserparts", 12 ] ]
+      [ [ "Foximplaserparts", 12 ] ],
+      [ [ "Foximpgrease", 1 ] ]
     ]
   },
   {
@@ -248,16 +249,36 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_WEAPONS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 2 ], [ "electronics", 2 ] ],
     "difficulty": 2,
-    "time": "1 h",
-    "book_learn": [ [ "FoxDeIkw", 2 ] ],
+    "time": "45 m",
+    "autolearn": true,
     "using": [ [ "soldering_standard", 5 ] ],
     "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 30, "LIST" ] ] ],
-    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "plastic_chunk", 8 ] ],
       [ [ "Foximpelectronics", 1 ] ],
       [ [ "Foximplaserparts", 1 ] ]
+    ]
+  },
+  {
+    "result": "FoximpKW2139",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 2 ], [ "electronics", 2 ] ],
+    "difficulty": 2,
+    "time": "1 h",
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 5 ] ],
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 30, "LIST" ] ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [
+      [ [ "plastic_chunk", 8 ] ],
+      [ [ "Foximpelectronics", 2 ] ],
+      [ [ "Foximplaserparts", 2 ] ]
     ]
   },
   {
@@ -266,13 +287,15 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_WEAPONS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "mechanics", 2 ] ],
     "difficulty": 2,
-    "time": "4 h 30 m",
+    "time": "6 h 30 m",
     "book_learn": [ [ "FoxDeIed", 2 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 15 ] ],
-      [ [ "Foximpballisticparts", 16 ] ]
+      [ [ "Foximpballisticparts", 16 ] ],
+      [ [ "Foximpgrease", 1 ] ]
     ]
   },
   {
@@ -281,13 +304,33 @@
     "category": "CC_ESSENCE",
     "subcategory": "CSC_ESSENCE_WEAPONS",
     "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "mechanics", 2 ] ],
     "difficulty": 2,
     "time": "2 h 30 m",
     "book_learn": [ [ "FoxDeIed", 2 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 4 ] ],
-      [ [ "Foximpballisticparts", 2 ] ]
+      [ [ "Foximpballisticparts", 2 ] ],
+      [ [ "Foximpgrease", 1 ] ]
+    ]
+  },
+  {
+    "result": "FoxRwastelanderrifle",
+    "type": "recipe",
+    "category": "CC_ESSENCE",
+    "subcategory": "CSC_ESSENCE_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 2 ] ],
+    "difficulty": 8,
+    "time": "4 h 30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 4 ] ],
+      [ [ "Foximpballisticparts", 6 ] ],
+      [ [ "Foximpgrease", 1 ] ],
+      [ [ "2x4", 1 ] ]
     ]
   }
 ]
