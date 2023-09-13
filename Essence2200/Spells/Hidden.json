@@ -107,6 +107,17 @@
     "effect_str": "FoxKoolaidpoison"
   },
   {
+    "id": "Fox_Hidden_Teletablet",
+    "type": "SPELL",
+    "name": "Teletablet Recall",
+    "description": "why you reading this baka",
+	"message": "You warp away as the tablet collides with the floor.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
+	"effect": "translocate",
+    "base_casting_time": 20
+  },
+  {
     "id": "Fox_Hidden_NanoStrengthone",
     "type": "SPELL",
     "name": "Nano Aug: Strength I",

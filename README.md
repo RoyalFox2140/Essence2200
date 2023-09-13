@@ -15,4 +15,7 @@ In the event of my disappearance, I allow Chaosvolt and Kenan2000 to fork, maint
 When I reach a comfortable state of polish and most of the mod is finished it will be eligible to be included in Kenan's structured modpack.
 
 Designed for Cataclysm: Bright Nights 0.3 Experimental
+
+Code issues that limit the mod functionality is resolved in part by a sponsorship of a main developer of Bright Nights, @Scarf005
+
 https://discord.gg/XW7XhXuZ89

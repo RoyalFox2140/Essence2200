@@ -2,8 +2,8 @@
   {
     "result": "Foximpwastelandsuit",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "FoxEssTech",
     "difficulty": 2,
     "skills_required": [ [ "tailor", 8 ] ],
@@ -17,8 +17,8 @@
   {
     "result": "Foximpwastelandpack",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "FoxEssTech",
     "difficulty": 2,
     "skills_required": [ [ "tailor", 7 ] ],
@@ -32,8 +32,8 @@
   {
     "result": "Foxhoodie",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "40 m",
@@ -45,8 +45,8 @@
   {
     "result": "Foxpantscargo",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "40 m",
@@ -58,8 +58,8 @@
   {
     "result": "Foxtanktop",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "30 m",
@@ -71,8 +71,8 @@
   {
     "result": "Foxpanties",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "30 m",
@@ -84,8 +84,8 @@
   {
     "result": "Foxboxershorts",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "30 m",
@@ -97,8 +97,8 @@
   {
     "result": "Foxboyshorts",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "30 m",
@@ -110,8 +110,8 @@
   {
     "result": "Foxsportsbra",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "35 m",
@@ -123,8 +123,8 @@
   {
     "result": "Foxglovestactical",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "40 m",
@@ -136,8 +136,8 @@
   {
     "result": "Foxsocks",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "10 m",
@@ -149,8 +149,8 @@
   {
     "result": "Foxstockings",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "30 m",
@@ -162,8 +162,8 @@
   {
     "result": "Foxholster",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 4,
     "time": "40 m",
@@ -175,8 +175,8 @@
   {
     "result": "Foxhatcotton",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "30 m",
@@ -188,8 +188,8 @@
   {
     "result": "Foxknitscarf",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "45 m",
@@ -201,8 +201,8 @@
   {
     "result": "Foxglovestacticalfingerless",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "30 m",
@@ -214,8 +214,8 @@
   {
     "result": "Foxbscabbard",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 5,
     "time": "40 m",
@@ -228,8 +228,8 @@
   {
     "result": "FoxSGAtrenchcoat",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 8,
     "time": "2 h",
@@ -242,8 +242,8 @@
   {
     "result": "Foxbootscombat",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "tailor",
     "difficulty": 6,
     "time": "55 m",
@@ -254,140 +254,10 @@
     "components": [ [ [ "FoxBallisticWeaveSheet", 10 ] ], [ [ "FoxAdamantinechunk", 4 ] ] ]
   },
   {
-    "result": "FoxTinyPocketDimension",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 2500 ] ]
-    ]
-  },
-  {
-    "result": "FoxTinyCanteenDimension",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 2500 ] ]
-    ]
-  },
-  {
-    "result": "FoxSmallPocketDimension",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 3000 ] ], [ [ "FoxTinyPocketDimension", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxLesserPocketDimension",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "30 m",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 5000 ] ], [ [ "FoxSmallPocketDimension", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxGreaterPocketDimension",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "30 m",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 6000 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxSwordsmanPocketDimension",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "30 m",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 6500 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxGreaterCanteenDimension",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "30 m",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 10000 ] ], [ [ "FoxTinyCanteenDimension", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxHugePocketDimension",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "30 m",
-    "autolearn": true,
-    "components": [
-      [ [ "Foxhumansoul", 20 ] ], [ [ "FoxGreaterPocketDimension", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxGiantPocketDimension",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "30 m",
-    "autolearn": true,
-    "components": [
-      [ [ "Foxhumansoul", 30 ] ], [ [ "FoxHugePocketDimension", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxOceanDimension",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "30 m",
-    "autolearn": true,
-    "components": [
-      [ [ "Foxhumansoul", 20 ] ], [ [ "FoxGreaterCanteenDimension", 1 ] ]
-    ]
-  },
-  {
     "result": "FoxSGAashigarusuit",
     "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_GEAR",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
     "skill_used": "FoxEssTech",
     "difficulty": 2,
     "skills_required": [ [ "tailor", 8 ] ],

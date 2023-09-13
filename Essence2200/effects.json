@@ -26,7 +26,67 @@
     "desc": [ "Dispels Dark Vision." ],
     "apply_message": "You dispel your Dark Vision.",
     "remove_message": "You dispel your Dark Vision.",
-	"removes_effects": [ "FoxDarkVision" ],
+    "removes_effects": [ "FoxDarkVision" ],
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxTemperaturePrayer",
+    "name": [ "Prayer: Temperature Protection" ],
+    "desc": [ "You are being protected from extreme temperatures. Don't try your luck against a volcano." ],
+    "apply_message": "You feel reassured knowing an external presence is watching over you.",
+    "remove_message": "Your prayer has run out. Blizzards and volcanoes will to hurt a lot.",
+    "removes_effects": [ "hot", "hot_speed", "blisters", "cold", "frostbite" ],
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSTRPrayer",
+    "name": [ "Prayer: Strength" ],
+    "desc": [ "You are being granted extra strength." ],
+    "apply_message": "You feel reassured knowing an external presence is watching over you.",
+    "remove_message": "Your prayer has run out. You're weaker.",
+    "base_mods": { "str_mod": [ 12 ] },
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxDEXPrayer",
+    "name": [ "Prayer: Dexterity" ],
+    "desc": [ "You are being granted extra dexterity." ],
+    "apply_message": "You feel reassured knowing an external presence is watching over you.",
+    "remove_message": "Your prayer has run out. You're less dexterous.",
+    "base_mods": { "dex_mod": [ 12 ] },
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxPERPrayer",
+    "name": [ "Prayer: Perception" ],
+    "desc": [ "You are being granted extra perception." ],
+    "apply_message": "You feel reassured knowing an external presence is watching over you.",
+    "remove_message": "Your prayer has run out. You don't see things as well.",
+    "base_mods": { "per_mod": [ 12 ] },
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxINTPrayer",
+    "name": [ "Prayer: Intelligence" ],
+    "desc": [ "You are being granted extra intelligence." ],
+    "apply_message": "You feel reassured knowing an external presence is watching over you.",
+    "remove_message": "Your prayer has run out. You're dumber.",
+    "base_mods": { "int_mod": [ 12 ] },
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSpeedPrayer",
+    "name": [ "Prayer: Speed" ],
+    "desc": [ "You are being granted extra speed." ],
+    "apply_message": "You feel reassured knowing an external presence is watching over you.",
+    "remove_message": "Your prayer has run out. You're slower.",
+    "base_mods": { "speed_mod": [ 50 ] },
     "rating": "good"
   },
   {
@@ -254,6 +314,17 @@
   },
   {
     "type": "ter_furn_transform",
+    "id": "Foxportalnexusmagic",
+    "furniture": [
+      {
+        "result": "Foxfportalnexusmagic",
+        "valid_furniture": [ "f_null" ],
+        "message": "You open a portal nexus."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
     "id": "FoxUpturnearth",
     "terrain": [
       {
@@ -264,22 +335,219 @@
     ]
   },
   {
+    "type": "ter_furn_transform",
+    "id": "Foxappletree",
+    "terrain": [
+      {
+        "result": "t_tree_apple",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxapricottree",
+    "terrain": [
+      {
+        "result": "t_tree_apricot",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxcherrytree",
+    "terrain": [
+      {
+        "result": "t_tree_cherry",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxpeachtree",
+    "terrain": [
+      {
+        "result": "t_tree_peach",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxplumtree",
+    "terrain": [
+      {
+        "result": "t_tree_plum",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxpeartree",
+    "terrain": [
+      {
+        "result": "t_tree_pear",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxelderberrytree",
+    "terrain": [
+      {
+        "result": "t_tree_elderberry",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxmulberrytree",
+    "terrain": [
+      {
+        "result": "t_tree_mulberry",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxhickorytree",
+    "terrain": [
+      {
+        "result": "t_tree_hickory",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxbeechtree",
+    "terrain": [
+      {
+        "result": "t_tree_beech",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxwalnuttree",
+    "terrain": [
+      {
+        "result": "t_tree_walnut",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxchestnuttree",
+    "terrain": [
+      {
+        "result": "t_tree_chestnut",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxhazelnuttree",
+    "terrain": [
+      {
+        "result": "t_tree_hazelnut",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxcoffeetree",
+    "terrain": [
+      {
+        "result": "t_tree_coffee",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxmapletree",
+    "terrain": [
+      {
+        "result": "t_tree_maple",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxwillowtree",
+    "terrain": [
+      {
+        "result": "t_tree_willow",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxbirchtree",
+    "terrain": [
+      {
+        "result": "t_tree_birch",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxblackjacktree",
+    "terrain": [
+      {
+        "result": "t_tree_blackjack",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
     "type": "effect_type",
     "id": "FoxKoolaidpoison",
     "name": [ "Awakening Sickness" ],
     "desc": [ "Awakening your magical potential this way was a terrible idea. You can tell you'll be incapacitated a full week. It will not get better until it's completely out of your system." ],
     "apply_message": "An entire record of human history flashes before your eyes in seconds, overwhelming your mind with overwhelming counts of atrocities and suffering. Your body rejects the changes and is in constant agony. You begin to understand magic, psionics, and lost human history.",
     "remove_message": "Your body has manifested newfound powers, you now have an essence-based soul linked to your body. Should your body perish your soul will live on. You understand your newfound powers.",
-	"rating": "bad",
-	"max_duration": "168 h",
+    "rating": "bad",
+    "max_duration": "168 h",
     "base_mods": {
       "speed_mod": [ -50 ],
       "hit_mod": [ -5 ],
-	  "pain_min": [ -50 ],
-      "int_mod": [ -8 ],
+      "pain_min": [ -50 ],
       "per_mod": [ -8 ],
-	  "dex_mod": [ -8 ],
-	  "str_mod": [ -8 ],
+      "dex_mod": [ -8 ],
+      "str_mod": [ -8 ],
       "dodge_mod": [ -5 ]
     }
   }

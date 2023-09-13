@@ -1,21 +1,5 @@
 [
   {
-    "type": "COMESTIBLE",
-    "id": "FoxTransmutationrune",
-    "symbol": "*",
-    "color": "magenta",
-    "name": { "str": "Transmutation Rune", "str_pl": "Transmutation Runes" },
-    "description": "A small coin-sized rune that stores a significant amount of Essence. Used as standard fuel for transmutation.",
-    "material": "stone",
-    "weight": "1 g",
-    "volume": "1 ml",
-    "calories": 1200,
-    "flags": [ "INEDIBLE" ],
-    "bashing": 1,
-    "cutting": 1,
-    "to_hit": -3
-  },
-  {
     "type": "GENERIC",
     "id": "FoxEssenceSolidified",
     "symbol": "*",
@@ -36,7 +20,7 @@
     "name": { "str": "Essence Cooker" },
     "description": "This is a simple heater powered by burning essence.  It is designed for cooking food.",
     "looks_like": "oil_cooker",
-	"weight": "2264 g",
+    "weight": "2264 g",
     "volume": "1250 ml",
     "price": 5000,
     "price_postapoc": 250,
@@ -64,6 +48,21 @@
     "color": "yellow",
     "use_action": [ { "type": "firestarter", "moves": 20 } ],
     "flags": [ "TRADER_AVOID", "FIRESTARTER" ]
+  },
+  {
+    "id": "Foxteletablet",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "category": "tools",
+    "name": { "str": "Teletablet" },
+    "description": "A clay tablet enchanted with a quantum rune. On throwing to the floor it will teleport you to a portal gateway you've previously built. Think of the gate and happy thoughts.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 0,
+    "symbol": ",",
+    "color": "light_gray",
+    "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_Teletablet", "no_fail": true, "level": 0 },
+    "flags": [ "TRADER_AVOID", "NO_SALVAGE", "NO_INGEST", "NUTRIENT_OVERRIDE" ]
   },
   {
     "id": "Foxnoviceartificing",
@@ -333,7 +332,7 @@
     "volume": "250 ml",
     "phase": "liquid",
     "charges": 1,
-	"use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_ElementalKoolaid", "no_fail": true, "level": 0 },
+    "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_ElementalKoolaid", "no_fail": true, "level": 0 },
     "flags": [ "NO_INGEST", "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
     "fun": -40
   },
@@ -355,7 +354,7 @@
     "volume": "250 ml",
     "phase": "liquid",
     "charges": 1,
-	"use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_SpiritKoolaid", "no_fail": true, "level": 0 },
+    "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_SpiritKoolaid", "no_fail": true, "level": 0 },
     "flags": [ "NO_INGEST", "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
     "fun": -40
   },
@@ -377,7 +376,7 @@
     "volume": "250 ml",
     "phase": "liquid",
     "charges": 1,
-	"use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_TransmutationKoolaid", "no_fail": true, "level": 0 },
+    "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_TransmutationKoolaid", "no_fail": true, "level": 0 },
     "flags": [ "NO_INGEST", "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
     "fun": -40
   },
@@ -399,7 +398,7 @@
     "volume": "250 ml",
     "phase": "liquid",
     "charges": 1,
-	"use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_ElementalKoolaidgood", "no_fail": true, "level": 0 },
+    "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_ElementalKoolaidgood", "no_fail": true, "level": 0 },
     "flags": [ "NO_INGEST", "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
     "fun": -1
   },
@@ -421,7 +420,7 @@
     "volume": "250 ml",
     "phase": "liquid",
     "charges": 1,
-	"use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_SpiritKoolaidgood", "no_fail": true, "level": 0 },
+    "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_SpiritKoolaidgood", "no_fail": true, "level": 0 },
     "flags": [ "NO_INGEST", "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
     "fun": -1
   },
@@ -443,7 +442,7 @@
     "volume": "250 ml",
     "phase": "liquid",
     "charges": 1,
-	"use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_TransmutationKoolaidgood", "no_fail": true, "level": 0 },
+    "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_TransmutationKoolaidgood", "no_fail": true, "level": 0 },
     "flags": [ "NO_INGEST", "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
     "fun": -1
   },
@@ -465,9 +464,102 @@
     "volume": "250 ml",
     "phase": "liquid",
     "charges": 1,
-	"use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_PaleKoolaid", "no_fail": true, "level": 0 },
+    "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_PaleKoolaid", "no_fail": true, "level": 0 },
     "flags": [ "NO_INGEST", "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
     "fun": -40
+  },
+  {
+    "id": "FoxKawakamiprotectionbullets",
+    "type": "ARMOR",
+    "name": { "str": "Prayer ranged aura" },
+    "description": "You are being protected from ranged attacks, both thermal and ballistic.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "FoxDivineMaterial" ],
+    "symbol": "[",
+    "color": "light_blue",
+    "coverage": 0,
+    "encumbrance": 0,
+    "warmth": 0,
+    "material_thickness": 1,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_HEAT", "add": -40 },
+            { "value": "ARMOR_BULLET", "add": -50 }
+          ]
+        }
+      ]
+    },
+    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+  },
+  {
+    "id": "FoxKawakamiprotectionstabs",
+    "type": "ARMOR",
+    "name": { "str": "Prayer melee aura" },
+    "description": "You are being protected from melee attacks.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "FoxDivineMaterial" ],
+    "symbol": "[",
+    "color": "light_blue",
+    "coverage": 0,
+    "encumbrance": 0,
+    "warmth": 0,
+    "material_thickness": 1,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_BASH", "add": -30 },
+            { "value": "ARMOR_CUT", "add": -30 },
+            { "value": "ARMOR_STAB", "add": -30 }
+          ]
+        }
+      ]
+    },
+    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+  },
+  {
+    "id": "FoxKawakamiprotectionelectrochem",
+    "type": "ARMOR",
+    "name": { "str": "Prayer electro-chemical aura" },
+    "description": "You are being protected from electro-chemical attacks.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "FoxDivineMaterial" ],
+    "symbol": "[",
+    "color": "light_blue",
+    "coverage": 100,
+    "encumbrance": 0,
+    "warmth": 0,
+    "material_thickness": 1,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_BIO", "add": -40 },
+            { "value": "ARMOR_COLD", "add": -40 },
+            { "value": "ARMOR_ACID", "add": -40 },
+            { "value": "ARMOR_ELEC", "add": -40 }
+          ]
+        }
+      ]
+    },
+    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
   },
   {
     "id": "Fox_spellbooks_Elemental",
@@ -533,7 +625,9 @@
 		"Fox_Spirit_Cure",
 		"Fox_Spirit_Respite",
     "Fox_Transmutation_Essence",
-    "Fox_Transmutation_EssenceBulk"
+    "Fox_Transmutation_EssenceBulk",
+    "Fox_Pale_portalnexus",
+    "Fox_Pale_teleport"
       ]
     }
   },
@@ -629,7 +723,9 @@
     "Fox_Transmutation_RConcreteRoof",
     "Fox_Transmutation_Toilet",
     "Fox_Transmutation_Bathtub",
-    "Fox_Transmutation_Sink"
+    "Fox_Transmutation_Sink",
+    "Fox_Transmutation_Tunnelbig",
+    "Fox_Transmutation_Tunnelhuge"
       ]
     }
   },
@@ -637,8 +733,8 @@
     "id": "Fox_spellbooks_Druid",
     "type": "GENERIC",
     "category": "spellbooks",
-    "name": "Spell Tome: Druidic",
-    "description": "Your Repository of Druidic magic, a type of transmutation.",
+    "name": "Spell Tome: Druidic trees",
+    "description": "Your Repository of Druidic tree magic, a type of transmutation.",
     "weight": "1 kg",
     "volume": "1250 ml",
     "symbol": "?",
@@ -646,21 +742,24 @@
     "use_action": {
       "type": "learn_spell",
       "spells": [
-    "Fox_Transmutation_LogWall",
-    "Fox_Transmutation_LogRoof",
-    "Fox_Transmutation_WoodWall",
-    "Fox_Transmutation_WoodRoof",
-    "Fox_Transmutation_StoneWall",
-    "Fox_Transmutation_BrickWall",
-    "Fox_Transmutation_MetalWall",
-    "Fox_Transmutation_MetalRoof",
-    "Fox_Transmutation_SConcreteWall",
-    "Fox_Transmutation_SConcreteRoof",
-    "Fox_Transmutation_RConcreteWall",
-    "Fox_Transmutation_RConcreteRoof",
-    "Fox_Transmutation_Toilet",
-    "Fox_Transmutation_Bathtub",
-    "Fox_Transmutation_Sink"
+    "Fox_Transmutation_Treeapple",
+    "Fox_Transmutation_Treeapricot",
+    "Fox_Transmutation_Treecherry",
+    "Fox_Transmutation_Treepeach",
+    "Fox_Transmutation_Treeplum",
+    "Fox_Transmutation_Treepear",
+    "Fox_Transmutation_Treeelderberry",
+    "Fox_Transmutation_Treemulberry",
+    "Fox_Transmutation_Treehickory",
+    "Fox_Transmutation_Treebeech",
+    "Fox_Transmutation_Treewalnut",
+    "Fox_Transmutation_Treechestnut",
+    "Fox_Transmutation_Treehazelnut",
+    "Fox_Transmutation_Treecoffee",
+    "Fox_Transmutation_Treemaple",
+    "Fox_Transmutation_Treewillow",
+    "Fox_Transmutation_Treebirch",
+    "Fox_Transmutation_Treeblackjack"
       ]
     }
   },
@@ -698,6 +797,30 @@
       "spells": [
         "Fox_Pale_Lesser_SOL",
         "Fox_Pale_Greater_SOL"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Prayer",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "SGA Prayer book (unlocked)",
+    "description": "An entirely unencrypted book detailing instructions on how to psionically contact the patron guardian and director of the Shi to offer a significant amount of your mana to pray for assistance in combat. You understand how to use this.",
+    "weight": "500 g",
+    "volume": "1000 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "Fox_Prayer_ProtectRanged",
+        "Fox_Prayer_ProtectMelee",
+        "Fox_Prayer_ProtectElectrochem",
+        "Fox_Prayer_ProtectTemperature",
+        "Fox_Prayer_STR",
+        "Fox_Prayer_DEX",
+        "Fox_Prayer_PER",
+        "Fox_Prayer_INT"
       ]
     }
   }

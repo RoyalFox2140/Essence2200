@@ -5,7 +5,54 @@
     "name": { "str": "Nightwalker" },
     "points": 0,
     "purifiable": false,
-    "description": "Savant created the ultimate soldier to kill every last Imperial so she could reclaim Earth but the plan went awry. As an immortal with no fear of ailment and incredible physical attributes war and anarchy is a wonderful opportunity. However, not having received a proper education means learning and reading will be very difficult.",
+    "description": "Savant created the ultimate soldier to kill every last Imperial so she could reclaim Earth but the plan went awry. As an immortal with no fear of ailment and incredible physical attributes war and anarchy is a wonderful opportunity. However, not having received a proper education means learning and reading will be very difficult. 200 years of retirement has made you weak, you'll need to harvest some souls to regain your power.",
+    "starting_trait": false,
+    "types": [ "RUNNING" ],
+    "visibility": 8,
+  "ugliness": -8,
+  "movecost_flatground_modifier": 0.75,
+  "hearing_modifier": 2,
+  "reading_speed_multiplier": 2,
+  "movecost_obstacle_modifier": 0.2,
+  "speed_modifier": 1.1,
+  "pain_recovery": 1.0,
+  "healing_awake": 0.5,
+  "healing_resting": 0.5,
+  "mending_modifier": 2.0,
+  "night_vision_range": 120,
+  "attackcost_modifier": 0.9,
+  "movecost_swim_modifier": 0.5,
+  "stamina_regen_modifier": 1.1,
+  "max_stamina_modifier": 4,
+  "hp_adjustment": 100,
+  "mana_modifier": 500,
+  "noise_modifier": 0.0,
+  "armor": [ { "parts": "ALL", "bullet": 60, "heat": 30, "cold": 30, "acid": 400, "electric": 400 } ],
+  "weight_capacity_modifier": 100,
+  "fatigue_modifier": -0.2,
+    "fatigue_regen_modifier": 0.1,
+    "overmap_sight": 8,
+    "scent_intensity": 1,
+    "wet_protection": [
+      { "part": "head", "neutral": 500 },
+      { "part": "leg_l", "neutral": 500 },
+      { "part": "leg_r", "neutral": 500 },
+      { "part": "foot_l", "neutral": 500 },
+      { "part": "foot_r", "neutral": 500 },
+      { "part": "arm_l", "neutral": 500 },
+      { "part": "arm_r", "neutral": 500 },
+      { "part": "hand_l", "neutral": 500 },
+      { "part": "hand_r", "neutral": 500 },
+      { "part": "torso", "neutral": 500 }
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "FoxNightwalkerOriginal",
+    "name": { "str": "Nightwalker" },
+    "points": 0,
+    "purifiable": false,
+    "description": "This is here in case I need the old stats for some reason, I went with a heavily nerfed version to make it not an instant win along with a progression method. It should only be found in the debug menu.",
     "starting_trait": false,
     "types": [ "RUNNING" ],
     "visibility": 8,
@@ -75,7 +122,7 @@
   "movecost_swim_modifier": 0.2,
   "stamina_regen_modifier": 2,
   "max_stamina_modifier": 4,
-  "hp_adjustment": 800,
+  "hp_adjustment": 100,
   "mana_modifier": 2500,
   "mana_regen_multiplier": 1.5,
   "noise_modifier": 0.0,
@@ -132,15 +179,15 @@
     "id": "FoxNightstalkerResistance",
     "name": { "str": "Nightstalker Resistances" },
     "points": 0,
-    "description": "Your body is improved beyond human biology via relying on Essence. Immunity to electrical and acid attacks, plus resistance to other forms of damage and quicker regeneration of tissue is expected.",
+    "description": "Your body is improved beyond human biology via relying on Essence. Immunity to electrical attacks, plus resistance to other forms of damage and quicker regeneration of tissue is expected.",
     "valid": false,
-	"purifiable": false,
+    "purifiable": false,
     "category": [ "FoxNightstalker" ],
-	"hp_adjustment": 100,
-  "pain_recovery": 0.5,
-  "healing_awake": 0.25,
-  "healing_resting": 0.25,
-  "armor": [ { "parts": "ALL", "bullet": 20, "heat": 20, "cold": 20, "acid": 400, "electric": 400 } ]
+    "hp_adjustment": 100,
+    "pain_recovery": 0.5,
+    "healing_awake": 0.25,
+    "healing_resting": 0.25,
+    "armor": [ { "parts": "ALL", "bullet": 20, "heat": 20, "cold": 20, "acid": 80, "electric": 400 } ]
   },
   {
     "type": "mutation",
@@ -162,9 +209,9 @@
     "points": 0,
     "description": "Your body is improved beyond human biology via relying on Essence. Psionic abilities that heavily improve your ability to communicate with others is expected.",
     "valid": false,
-	"purifiable": false,
+    "purifiable": false,
     "category": [ "FoxNightstalker" ],
-	"social_modifiers": { "lie": 10, "persuade": 10, "intimidate": 10 }
+    "social_modifiers": { "lie": 10, "persuade": 10, "intimidate": 10 }
   },
   {
     "type": "mutation",
@@ -173,10 +220,65 @@
     "points": 0,
     "description": "Your body is improved beyond human biology via relying on Essence. Increased mana regeneration and storage is expected.",
     "valid": false,
-	"purifiable": false,
+    "purifiable": false,
     "category": [ "FoxThresh_Nightstalker" ],
-	"mana_modifier": 2500,
-	"mana_regen_multiplier": 1.4
+    "mana_modifier": 2500,
+    "mana_regen_multiplier": 1.4
+  },
+  {
+    "type": "mutation",
+    "id": "FoxClanKawakami",
+    "name": { "str": "Kawakami" },
+    "points": 0,
+    "description": "The director of the Shi, undisputed leader of all clans, and sole member by blood of Clan Kawakami. They all know your face, even arbiters will react with fear while many low ranked Imperials will flee in abject terror.",
+    "valid": false,
+    "purifiable": false,
+    "visibility": 0,
+    "ugliness": 0
+  },
+  {
+    "type": "mutation",
+    "id": "FoxMasakoteam",
+    "name": { "str": "Masako Team" },
+    "points": 0,
+    "description": "An elite master of all clan disciplines, chosen for the most delicate or dangerous assignments. There's only five of you, they all know your face. Even arbiters will react with fear while many low ranked Imperials will flee in abject terror.",
+    "valid": false,
+    "purifiable": false,
+    "visibility": 0,
+    "ugliness": 0
+  },
+  {
+    "type": "mutation",
+    "id": "FoxClanArakawa",
+    "name": { "str": "Clan Arakawa" },
+    "points": 0,
+    "description": "A born and raised soldier of the warrior clan Arakawa. Though your name is unknown, your clan is feared among Imperials for brutality and lack of mercy.",
+    "valid": false,
+    "purifiable": false,
+    "visibility": 0,
+    "ugliness": 0
+  },
+  {
+    "type": "mutation",
+    "id": "FoxClanSeburo",
+    "name": { "str": "Clan Seburo" },
+    "points": 0,
+    "description": "A born and raised technician of the engineer clan Seburo. Though your name is unknown, your clan is respected for their diligence and devotion to R&D.",
+    "valid": false,
+    "purifiable": false,
+    "visibility": 0,
+    "ugliness": 0
+  },
+  {
+    "type": "mutation",
+    "id": "FoxClanIshikawa",
+    "name": { "str": "Clan Ishikawa" },
+    "points": 0,
+    "description": "A born and raised agent of the intelligence clan Ishikawa. Though your name is unknown, your clan is respected for their skill at conflict resolution and subterfuge.",
+    "valid": false,
+    "purifiable": false,
+    "visibility": 0,
+    "ugliness": 0
   },
   {
     "type": "mutation",
@@ -185,8 +287,8 @@
     "points": 0,
     "description": "The first level of strength augmentation attempts to maintain your existing muscle mass during periods of inactivity, it won't build you up but bodybuilders could take a few days off every week without losing mass. You will also deal with heavy weights without straining yourself as much.",
     "valid": false,
-	"purifiable": false,
-	"passive_mods": { "str_mod": 4 }
+    "purifiable": false,
+    "passive_mods": { "str_mod": 4 }
   },
   {
     "type": "mutation",
@@ -195,8 +297,8 @@
     "points": 0,
     "description": "The second level of strength augmentation regulates the buildup and repair of muscle tissue mid-workout to better streamline the process. Your body will have an easy time building muscle to human limits and you will carry more weight with less strain.",
     "valid": false,
-	"purifiable": false,
-	"passive_mods": { "str_mod": 4 }
+    "purifiable": false,
+    "passive_mods": { "str_mod": 4 }
   },
   {
     "type": "mutation",
@@ -205,8 +307,8 @@
     "points": 0,
     "description": "The third level of strength augmentation actively builds muscle tissue on it's own alongside the functions of the preceding upgrades, ensuring you become the muscle hulk you dream of. Since your muscle is growing independently of your body, you will go beyond human limits.",
     "valid": false,
-	"purifiable": false,
-	"passive_mods": { "str_mod": 6 }
+    "purifiable": false,
+    "passive_mods": { "str_mod": 6 }
   },
   {
     "type": "mutation",
@@ -215,9 +317,9 @@
     "points": 0,
     "description": "The first level of stamina augmentation regulates blood oxygen content in your body and waste product removal, ensuring you recover from activity fast.",
     "valid": false,
-	"purifiable": false,
-	"stamina_regen_modifier": 0.25,
-	"max_stamina_modifier": 1
+    "purifiable": false,
+    "stamina_regen_modifier": 0.25,
+    "max_stamina_modifier": 1
   },
   {
     "type": "mutation",
@@ -226,9 +328,9 @@
     "points": 0,
     "description": "The second level of stamina augmentation improves the abilities of your lungs and heart, your body will perform better under heavy exercise.",
     "valid": false,
-	"purifiable": false,
-	"stamina_regen_modifier": 0.25,
-	"max_stamina_modifier": 1
+    "purifiable": false,
+    "stamina_regen_modifier": 0.25,
+    "max_stamina_modifier": 1
   },
   {
     "type": "mutation",
@@ -237,9 +339,9 @@
     "points": 0,
     "description": "The third level of stamina augmentation actively supplies your body with its needed nutrients and oxygen to effectively replace as many blood cells as possible. Your circulatory system was doomed to be inferior from the start.",
     "valid": false,
-	"purifiable": false,
-	"stamina_regen_modifier": 1,
-	"max_stamina_modifier": 2
+    "purifiable": false,
+    "stamina_regen_modifier": 1,
+    "max_stamina_modifier": 2
   },
   {
     "type": "mutation",
@@ -248,9 +350,9 @@
     "points": 0,
     "description": "The first level of Perception augmentation corrects any vision impairment and maintains your eyes for optimal vision.",
     "valid": false,
-	"purifiable": false,
-	"night_vision_range": 5,
-	"passive_mods": { "per_mod": 4 }
+    "purifiable": false,
+    "night_vision_range": 5,
+    "passive_mods": { "per_mod": 4 }
   },
   {
     "type": "mutation",
@@ -259,9 +361,9 @@
     "points": 0,
     "description": "The second level of Perception augmentation delicately upgrades your vision and optic nerves beyond human limits.",
     "valid": false,
-	"purifiable": false,
-	"night_vision_range": 5,
-	"passive_mods": { "per_mod": 4 }
+    "purifiable": false,
+    "night_vision_range": 5,
+    "passive_mods": { "per_mod": 4 }
   },
   {
     "type": "mutation",
@@ -270,10 +372,10 @@
     "points": 0,
     "description": "The third level of Perception augmentation allows you to see in the near-abscene of light, and your vision becomes telescopic, you will see distant terrain from further away.",
     "valid": false,
-	"purifiable": false,
-	"night_vision_range": 30,
-	"overmap_sight": 4,
-	"passive_mods": { "per_mod": 6 }
+    "purifiable": false,
+    "night_vision_range": 30,
+    "overmap_sight": 4,
+    "passive_mods": { "per_mod": 6 }
   },
   {
     "type": "mutation",
@@ -282,9 +384,9 @@
     "points": 0,
     "description": "Thanks to that upgrade your skin turned a dark grayish color and metallic shine not unlike imperial steel or ballistic weave, your eyes are now red from increased nanite infused blood to protect them. It no longer conducts electricity, has less thermal conductivity and won't be damaged by acid. Your eyes don't see as well now, and most people think you're ugly and won't trust a metal demon.",
     "valid": false,
-	"purifiable": true,
-	"social_modifiers": { "lie": -15, "persuade": -25, "intimidate": 10 },
-	"passive_mods": { "per_mod": -4 },
+    "purifiable": true,
+    "social_modifiers": { "lie": -15, "persuade": -25, "intimidate": 10 },
+    "passive_mods": { "per_mod": -4 },
     "armor": [ { "parts": "ALL", "heat": 20, "cold": 20, "acid": 400, "electric": 400 } ]
   }
 ]

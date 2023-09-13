@@ -71,9 +71,6 @@
         "Foxhatcotton",
         "FoxSGAdatauplink",
         "FoxSGAlocktopus",
-        "FoxSGAbatterycell",
-        "FoxSGAbatterycell",
-        "FoxSGAbatterycell",
         "FoxmanualSGAgear",
         "FoxDeSGAesstheory",
         "FoxDeSGAkawakamicookbook",
@@ -88,7 +85,10 @@
         { "item": "Fox44magnumKK", "charges": 12 },
         { "item": "Fox44magnumArakawa", "charges": 30 },
         { "item": "FoxSGA00shot", "charges": 18 },
-        { "item": "Fox9mmSGA", "charges": 150 }
+        { "item": "Fox9mmSGA", "charges": 150 },
+        { "item": "FoxSGAbatterycell", "charges": 5000 },
+        { "item": "FoxSGAbatterycell", "charges": 5000 },
+        { "item": "FoxSGAbatterycell", "charges": 5000 }
       ]
     }
   }
@@ -143,6 +143,39 @@
       ]
     }
   }
+  },
+  {
+    "type": "profession",
+    "id": "FoxArakawaWarrior",
+    "name": "Arakawa Warrior",
+    "description": "As a warrior of Clan Arakawa, you're familiar with the effects of essence and it's uncontrolled mutations on the living. You're sent in to purge every last mutant that may threaten the locals before it evolves into something worse. Report back if you find survivors.",
+    "points": 444,
+    "traits": [ "FoxClanArakawa", "FoxThresh_Nightstalker", "FoxNightstalkerPhysiology", "FoxNightstalkerResistance", "FoxNightstalkerMind", "FoxNightstalkerPsionics", "FoxNightstalkerMagic", "FoxSchoolsElemental" ],
+    "items": {
+      "both": {
+        "items": [
+          "FoxSGAashigarusuit",
+          "Foximpetool",
+          "wristwatch",
+          "Foximpgogglesdetection",
+          "FoxSGAdatauplink"
+        ],
+        "entries": [
+          { "item": "FoxShadowsteelLongsword", "container-item": "FoxSwordsmanPocketDimension" },
+          { "item": "FoxArakawaR7", "ammo-item": "Fox44magnumArakawa", "charges": 6 },
+          { "item": "FoxSGAbatterycell", "charges": 5000 },
+          { "item": "FoxSGAbatterycell", "charges": 5000 },
+          { "item": "FoxSGAbatterycell", "charges": 5000 },
+          { "item": "FoxArakawaSG3", "ammo-item": "FoxSGA00shot", "charges": 9 },
+          { "item": "FoxSeburoC37", "ammo-item": "Fox9mmSGA", "charges": 50 },
+          { "item": "Fox44magnumArakawa", "charges": 30 },
+          { "item": "FoxSGA00shot", "charges": 90 },
+          { "item": "Fox9mmSGA", "charges": 300 }
+        ]
+      },
+      "male": [ "Foxboxershorts" ],
+      "female": [ "Foxboyshorts", "Foxsportsbra" ]
+    }
   },
   {
     "type": "profession",

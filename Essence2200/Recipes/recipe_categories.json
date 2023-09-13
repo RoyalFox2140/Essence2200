@@ -1,18 +1,36 @@
 [
   {
     "type": "recipe_category",
-    "id": "CC_ESSENCE",
+    "id": "CC_ESSTECH",
     "recipe_subcategories": [
       "CSC_ALL",
-      "CSC_ESSENCE_WEAPONS",
-      "CSC_ESSENCE_AMMUNITION",
-      "CSC_ESSENCE_GEAR",
-      "CSC_ESSENCE_COOKING",
-      "CSC_ESSENCE_TOOLS",
-      "CSC_ESSENCE_ESSTECH",
-	  "CSC_ESSENCE_ESSTHEORY",
-      "CSC_ESSENCE_TRANSMUTATION",
-	  "CSC_ESSENCE_OTHER"
+      "CSC_ESSTECH_WEAPONS",
+      "CSC_ESSTECH_AMMUNITION",
+      "CSC_ESSTECH_GEAR",
+      "CSC_ESSTECH_COOKING",
+      "CSC_ESSTECH_TOOLS",
+      "CSC_ESSTECH_ESSTECH",
+      "CSC_ESSTECH_ESSTHEORY",
+      "CSC_ESSTECH_FABRICATION",
+      "CSC_ESSTECH_CRYPTOLOGY",
+      "CSC_ESSTECH_OTHER"
+    ]
+  },
+  {
+    "type": "recipe_category",
+    "id": "CC_ESSMAGIC",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_ESSMAGIC_ENHANCEMENT",
+      "CSC_ESSMAGIC_RUNECRAFTING",
+      "CSC_ESSMAGIC_ALCHEMY",
+      "CSC_ESSMAGIC_TELEKINETICS",
+      "CSC_ESSMAGIC_ARTIFICING",
+      "CSC_ESSMAGIC_MAGICRAFT",
+      "CSC_ESSMAGIC_NECROMANCY",
+      "CSC_ESSMAGIC_CONJURATION",
+      "CSC_ESSMAGIC_TRANSMUTATION",
+      "CSC_ESSMAGIC_OTHER"
     ]
   }
 ]

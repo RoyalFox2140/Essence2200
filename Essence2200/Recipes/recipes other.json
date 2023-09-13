@@ -1,332 +1,9 @@
 [
   {
-    "result": "Fox_spellbooks_Elemental",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "4 h",
-    "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
-    "components": [
-      [ [ "FoxEssencenormal", 2500 ] ]
-    ]
-  },
-  {
-    "result": "Fox_spellbooks_Spirit",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "4 h",
-    "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
-    "components": [
-      [ [ "FoxEssencenormal", 2500 ] ]
-    ]
-  },
-  {
-    "result": "Fox_spellbooks_Elemental2",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 2,
-    "time": "6 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
-    ]
-  },
-  {
-    "result": "Fox_spellbooks_Spirittwo",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 2,
-    "time": "6 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
-    ]
-  },
-  {
-    "result": "Fox_spellbooks_Transmutation",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "4 h",
-    "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
-    "components": [
-      [ [ "FoxEssencenormal", 2500 ] ]
-    ]
-  },
-  {
-    "result": "Fox_spellbooks_Transmutationtwo",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 2,
-    "time": "6 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
-    ]
-  },
-  {
-    "result": "Fox_spellbooks_Elemental2",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 2,
-    "time": "6 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
-    ]
-  },
-  {
-    "result": "Fox_spellbooks_Spirittwo",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 2,
-    "time": "6 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
-    ]
-  },
-  {
-    "result": "Fox_spellbooks_Construction",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 2,
-    "time": "6 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
-    ]
-  },
-  {
-    "result": "Fox_spellbooks_Druid",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxEssSpellcasting",
-    "difficulty": 2,
-    "time": "6 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
-    ]
-  },
-  {
-    "result": "FoxDeSGAesstheory",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxCryptology",
-    "difficulty": 5,
-    "time": "3 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxESGAesstheory", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxDeSGAesstech",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxCryptology",
-    "difficulty": 5,
-    "time": "3 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxESGAesstech", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxDeSGAarakawa",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxCryptology",
-    "difficulty": 6,
-    "time": "3 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxESGAarakawa", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxDeSGAseburo",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxCryptology",
-    "difficulty": 6,
-    "time": "3 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxESGAseburo", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxDeSGAishikawa",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxCryptology",
-    "difficulty": 7,
-    "time": "3 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxESGAishikawa", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxDeSGAkawakami",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxCryptology",
-    "difficulty": 9,
-    "time": "3 h",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxESGAkawakami", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxDeSGAkawakamicookbook",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "FoxCryptology",
-    "difficulty": 3,
-    "time": "20 m",
-    "autolearn": true,
-    "components": [
-      [ [ "FoxESGAkawakamicookbook", 1 ] ]
-    ]
-  },
-  {
-    "result": "Foxofficerdatapad",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-	"id_suffix": "Foxdoityourself",
-    "skill_used": "computer",
-    "difficulty": 6,
-    "time": "2 h",
-    "autolearn": true,
-	"tools": [ [ [ "FoxSGAdatathief", 100 ] ] ],
-    "components": [
-      [ [ "Foxofficerdatapadlocked", 1 ] ]
-    ]
-  },
-  {
-    "result": "Foxofficerdatapad",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-	"id_suffix": "Foxhackers",
-    "skill_used": "computer",
-    "difficulty": 6,
-    "time": "10 m",
-    "autolearn": true,
-	"tools": [ [ [ "FoxSGAdatauplink", 100 ] ] ],
-    "components": [
-      [ [ "Foxofficerdatapadlocked", 1 ] ]
-    ]
-  },
-  {
-    "result": "Foxofficerdatapad",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-	"id_suffix": "Foxthebackdoor",
-    "skill_used": "computer",
-    "difficulty": 9,
-    "time": "6 h",
-    "autolearn": true,
-	"tools": [ [ [ "control_laptop", -1 ] ] ],
-    "components": [
-      [ [ "Foxofficerdatapadlocked", 1 ] ],
-	  [ [ "Foximpchipofficer", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxDeIed",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "computer",
-    "difficulty": 2,
-    "time": "1 h",
-    "autolearn": true,
-	"tools": [ [ [ "Foxofficerdatapad", -1 ] ] ],
-    "components": [
-      [ [ "FoxEIed", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxDeIga",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "computer",
-    "difficulty": 2,
-    "time": "1 h",
-    "autolearn": true,
-	"tools": [ [ [ "Foxofficerdatapad", -1 ] ] ],
-    "components": [
-      [ [ "FoxEIga", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxDeIkw",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "computer",
-    "difficulty": 2,
-    "time": "1 h",
-    "autolearn": true,
-	"tools": [ [ [ "Foxofficerdatapad", -1 ] ] ],
-    "components": [
-      [ [ "FoxEIkw", 1 ] ]
-    ]
-  },
-  {
-    "result": "FoxDeIcwc",
-    "type": "recipe",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
-    "skill_used": "computer",
-    "difficulty": 2,
-    "time": "1 h",
-    "autolearn": true,
-	"tools": [ [ [ "Foxofficerdatapad", -1 ] ] ],
-    "components": [
-      [ [ "FoxEIcwc", 1 ] ]
-    ]
-  },
-  {
     "type": "recipe",
     "result": "FoxSGA9mmmag",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_OTHER",
     "skill_used": "fabrication",
     "difficulty": 4,
     "time": "1 h",
@@ -340,8 +17,8 @@
   {
     "type": "recipe",
     "result": "FoxSeburoC37mag",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_OTHER",
     "skill_used": "fabrication",
     "difficulty": 4,
     "time": "1 h 30 m",
@@ -355,8 +32,8 @@
   {
     "type": "recipe",
     "result": "Fox44_speedloader6",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_OTHER",
     "skill_used": "fabrication",
     "difficulty": 4,
     "time": "1 h",
@@ -370,8 +47,8 @@
   {
     "type": "recipe",
     "result": "FoxSGA556mag",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_OTHER",
     "skill_used": "fabrication",
     "difficulty": 4,
     "time": "1 h 30 m",
@@ -385,8 +62,8 @@
   {
     "type": "recipe",
     "result": "Foximpmagpistol",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_OTHER",
     "skill_used": "fabrication",
     "difficulty": 4,
     "time": "1 h",
@@ -400,8 +77,8 @@
   {
     "type": "recipe",
     "result": "Foximpmagrifle",
-    "category": "CC_ESSENCE",
-    "subcategory": "CSC_ESSENCE_OTHER",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_OTHER",
     "skill_used": "fabrication",
     "difficulty": 4,
     "time": "1 h 30 m",
