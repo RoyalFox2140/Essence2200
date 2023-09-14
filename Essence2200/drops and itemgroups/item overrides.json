@@ -1,0 +1,30 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "meat_tainted",
+    "name": { "str": "chunk of tainted meat", "str_pl": "chunks of tainted meat" },
+    "copy-from": "meat_tainted",
+    "spoils_in": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "fat_tainted",
+    "name": "tainted fat",
+    "copy-from": "fat_tainted",
+    "spoils_in": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "raw_tainted_leather",
+    "name": "tainted hide",
+    "copy-from": "raw_tainted_leather",
+    "spoils_in": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "raw_tainted_fur",
+    "name": "tainted pelt",
+    "copy-from": "raw_tainted_fur",
+    "spoils_in": 0
+  }
+]
