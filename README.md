@@ -16,6 +16,11 @@ When I reach a comfortable state of polish and most of the mod is finished it wi
 
 Designed for Cataclysm: Bright Nights 0.3 Experimental
 
+Monsters and factions are a work in progress, please enhance your game difficulty with other mods including Cata++, Secronom, and Really Dark Skies.
+https://github.com/Noctifer-de-Mortem/nocts_cata_mod
+https://github.com/Kenan2000/BrightNights-Structured-Kenan-Modpack
+https://github.com/Zlorthishen/Really_Dark_Skies
+
 Code issues that limit the mod functionality is resolved in part by a sponsorship of a main developer of Bright Nights, @Scarf005
 
 https://discord.gg/XW7XhXuZ89
