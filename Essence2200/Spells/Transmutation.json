@@ -127,7 +127,7 @@
     "type": "SPELL",
     "name": "T: Flesh to Lead",
     "description": "You convert some of the cells and water inside the target to lead. This can be tremendously lethal and poisonous if you become skilled enough at it. It's also very short range.",
-    "valid_targets": [ "hostile" ],
+    "valid_targets": [ "hostile", "ground" ],
     "flags": [ "VERBAL", "SOMATIC", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
     "effect": "projectile_attack",
     "spell_class": "FoxSchoolsTransmutation",
