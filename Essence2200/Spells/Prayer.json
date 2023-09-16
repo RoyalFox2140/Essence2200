@@ -14,7 +14,7 @@
     "base_energy_cost": 1000,
     "min_duration": 1440000,
     "max_duration": 1440000,
-    "difficulty": 100,
+    "difficulty": 1,
     "max_level": 0,
     "min_range": 20,
     "max_range": 20
@@ -34,7 +34,7 @@
     "base_energy_cost": 1000,
     "min_duration": 1440000,
     "max_duration": 1440000,
-    "difficulty": 100,
+    "difficulty": 1,
     "max_level": 0,
     "min_range": 20,
     "max_range": 20
@@ -54,7 +54,7 @@
     "base_energy_cost": 1000,
     "min_duration": 1440000,
     "max_duration": 1440000,
-    "difficulty": 100,
+    "difficulty": 1,
     "max_level": 0,
     "min_range": 20,
     "max_range": 20
@@ -74,7 +74,7 @@
     "base_energy_cost": 1000,
     "min_duration": 1440000,
     "max_duration": 1440000,
-    "difficulty": 100,
+    "difficulty": 1,
     "max_level": 0,
     "min_range": 20,
     "max_range": 20
@@ -94,7 +94,7 @@
     "base_energy_cost": 1000,
     "min_duration": 1440000,
     "max_duration": 1440000,
-    "difficulty": 100,
+    "difficulty": 1,
     "max_level": 0,
     "min_range": 20,
     "max_range": 20
@@ -114,7 +114,7 @@
     "base_energy_cost": 1000,
     "min_duration": 1440000,
     "max_duration": 1440000,
-    "difficulty": 100,
+    "difficulty": 1,
     "max_level": 0,
     "min_range": 20,
     "max_range": 20
@@ -134,7 +134,7 @@
     "base_energy_cost": 1000,
     "min_duration": 1440000,
     "max_duration": 1440000,
-    "difficulty": 100,
+    "difficulty": 1,
     "max_level": 0,
     "min_range": 20,
     "max_range": 20
@@ -154,7 +154,7 @@
     "base_energy_cost": 1000,
     "min_duration": 1440000,
     "max_duration": 1440000,
-    "difficulty": 100,
+    "difficulty": 1,
     "max_level": 0,
     "min_range": 20,
     "max_range": 20
