@@ -255,6 +255,30 @@
     "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ]
   },
   {
+    "id": "FoxGunDimension",
+    "type": "ARMOR",
+    "name": { "str": "Gun Pocket Dimension", "str_pl": "Gun Pocket Dimensions" },
+    "description": "A small invisible hole in reality that only you can use to store and withdraw things. You reserved almost all of for holstering guns, only saving a few liters for loose items like bullets.",
+    "weight": 0,
+    "volume": 0,
+    "price": 0,
+    "material": [ "iron" ],
+    "symbol": "[",
+    "color": "green",
+    "storage": "5 L",
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Store gun",
+      "holster_msg": "You put your %1$s in your %2$s",
+      "multi": 20,
+      "min_volume": "1 ml",
+      "max_volume": "10 L",
+      "draw_cost": 1,
+      "skills": [ "pistol", "smg", "shotgun", "rifle", "launcher" ]
+    },
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ]
+  },
+  {
     "id": "FoxGreaterCanteenDimension",
     "type": "CONTAINER",
     "name": { "str": "Greater Canteen Dimension", "str_pl": "Greater Canteen Dimensions" },
