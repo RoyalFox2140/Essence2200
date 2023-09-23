@@ -1,3 +1,26 @@
 [
-  
+    {
+        "id": "Foxon_hand_SGA223",
+        "type": "item_group",
+        "//": "a collection of ammo that would be found with a loaded gun.",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "Fox556mmSGA", "prob": 200, "charges": [ 15, 30 ] },
+          { "item": "556", "prob": 100, "charges": [ 15, 30 ] },
+          { "item": "556_incendiary", "prob": 100, "charges": [ 15, 30 ] }
+        ]
+      },
+    {
+        "id": "Foxnested_ClannerM4",
+        "type": "item_group",
+        "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+        "subtype": "collection",
+        "ammo": 100,
+        "entries": [
+          { "item": "FoxClannerM4", "charges-min": 0, "charges-max": 30 },
+          { "item": "stanag30" },
+          { "item": "stanag30", "prob": 50 },
+          { "group": "Foxon_hand_SGA223" }
+        ]
+      }
 ]

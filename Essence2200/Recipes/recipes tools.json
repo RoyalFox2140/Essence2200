@@ -79,7 +79,7 @@
     "difficulty": 3,
     "time": "4 h",
     "reversible": true,
-    "book_learn": [ [ "FoxmanualSGAgear", 3 ], [ "FoxDeSGAishikawa", 3 ] ],
+    "book_learn": [ [ "FoxmanualSGAgear", 3 ], [ "FoxDeSGAishikawa", 3 ], [ "FoxDeSGAesstechbasic", 3 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
@@ -97,7 +97,7 @@
     "difficulty": 3,
     "time": "4 h",
     "reversible": true,
-    "book_learn": [ [ "FoxmanualSGAgear", 3 ], [ "FoxDeSGAishikawa", 3 ] ],
+    "book_learn": [ [ "FoxmanualSGAgear", 3 ], [ "FoxDeSGAishikawa", 3 ], [ "FoxDeSGAesstechbasic", 3 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [

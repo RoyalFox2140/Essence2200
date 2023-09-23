@@ -60,6 +60,25 @@
     "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
   },
   {
+    "id": "Fox_Transmutation_Fleshmanipulation",
+    "type": "SPELL",
+    "name": { "str": "T: Flesh manipulation" },
+    "description": "This spell allows you to butcher and dissect using your powers as a mage and mana rather than tools.",
+    "valid_targets": [ "self" ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "effect": "spawn_item",
+    "effect_str": "Foxfleshmanipulation",
+    "base_casting_time": 5000,
+    "base_energy_cost": 1000,
+    "difficulty": 1,
+    "max_level": 0,
+    "spell_class": "FoxSchoolsTransmutation",
+    "skill": "FoxEssSpellcasting",
+    "energy_source": "MANA",
+    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+  },
+  {
     "id": "Fox_Transmutation_Noviceartificing",
     "type": "SPELL",
     "name": { "str": "T: Novice Artificing" },
@@ -71,14 +90,12 @@
     "effect_str": "Foxnoviceartificing",
     "base_casting_time": 5000,
     "base_energy_cost": 500,
-    "min_duration": 3600000,
-    "max_duration": 3600000,
     "difficulty": 1,
-    "max_level": 1,
+    "max_level": 0,
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_Intermediateartificing",
@@ -92,14 +109,12 @@
     "effect_str": "Foxintermediatertificing",
     "base_casting_time": 5000,
     "base_energy_cost": 1000,
-    "min_duration": 3600000,
-    "max_duration": 3600000,
     "difficulty": 1,
-    "max_level": 1,
+    "max_level": 0,
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_Advancedartificing",
@@ -113,14 +128,12 @@
     "effect_str": "Foxadvancedartificing",
     "base_casting_time": 5000,
     "base_energy_cost": 1000,
-    "min_duration": 3600000,
-    "max_duration": 3600000,
     "difficulty": 1,
-    "max_level": 6,
+    "max_level": 0,
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_Lead_Attack",
@@ -157,10 +170,8 @@
     "effect_str": "Foxlightorb",
     "base_casting_time": 5000,
     "base_energy_cost": 2000,
-    "min_duration": 1,
-    "max_duration": 1,
     "difficulty": 1,
-    "max_level": 1,
+    "max_level": 0,
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",

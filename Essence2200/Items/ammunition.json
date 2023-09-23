@@ -123,7 +123,16 @@
     "name": { "str": "5.56x45mm Knight Killer" },
     "description": "Originally an Imperial idea, Knight Killers are designed to absolutely ensure even a heavily armored and shielded target will die in a single round. This is accomplished with using a stronger metal for the bullet alongside an electromagnetic and explosive charge within the round to pop the shield and propel the bullet more before impact.",
     "relative": { "damage": { "damage_type": "bullet", "amount": 60, "armor_penetration": 60 }, "dispersion": -15 },
-	"proportional": { "recoil": 2 }
+    "proportional": { "recoil": 2 }
+  },
+  {
+    "id": "Fox556mmAP",
+    "copy-from": "Fox556mmSGA",
+    "type": "AMMO",
+    "name": { "str": "5.56x45mm SGA Anti-Personnel" },
+    "description": "An Arakawa napalm round. If a bullet won't work, setting it on fire might. A small targas charge inside the round with a small mix of essence explodes into flames on the round making contact.",
+    "relative": { "damage": { "damage_type": "bullet", "amount": -15, "armor_penetration": -60 } },
+    "extend": { "effects": [ "FoxSGA_Napalmbullet" ] }
   },
   {
     "type": "ammunition_type",

@@ -68,7 +68,7 @@
     "id": "Foxnoviceartificing",
     "type": "TOOL",
     "name": "Novice Artificing",
-    "description": "This is your ability to mimic simple tools using magic instead of tools. You're not very good yet and all fine properties are lacking.",
+    "description": "This is your ability to mimic simple tools using magic instead of tools. You're not very good and all fine properties are lacking.",
     "weight": "0 g",
     "volume": "0 ml",
     "price": 0,
@@ -83,8 +83,7 @@
       [ "AXE", 1 ],
       [ "WRENCH", 2 ],
       [ "SCREW", 1 ],
-      [ "PRY", 1 ],
-      [ "BUTCHER", 15 ]
+      [ "PRY", 1 ]
     ],
     "flags": [ "TRADER_AVOID", "FIRESTARTER" ]
   },
@@ -111,8 +110,7 @@
       [ "HAMMER_FINE", 1 ],
       [ "SAW_M_FINE", 1 ],
       [ "WRENCH_FINE", 1 ],
-      [ "SCREW_FINE", 1 ],
-      [ "BUTCHER", 30 ]
+      [ "SCREW_FINE", 1 ]
     ],
     "flags": [ "TRADER_AVOID", "FIRESTARTER" ]
   },
@@ -140,12 +138,27 @@
       [ "SAW_M_FINE", 1 ],
       [ "WRENCH_FINE", 1 ],
       [ "SCREW_FINE", 1 ],
-      [ "BUTCHER", 45 ],
       [ "FILE", 2 ],
       [ "REAM", 1 ],
       [ "VISE", 1 ]
     ],
     "flags": [ "TRADER_AVOID", "FIRESTARTER" ]
+  },
+  {
+    "id": "Foxfleshmanipulation",
+    "type": "TOOL",
+    "name": "Telekinetic flesh manipulation",
+    "description": "This is your dedicated ability to delicately take apart corpses. These tools are the most precise hand tools you will ever use.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "symbol": ",",
+    "color": "yellow",
+    "qualities": [
+      [ "BUTCHER", 100 ],
+      [ "CUT_FINE", 5 ]
+    ],
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "id": "Foxlightorb",
@@ -172,7 +185,8 @@
     "symbol": "[",
     "color": "green",
     "storage": "25 L",
-    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ]
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "75 kg"
   },
   {
     "id": "FoxTinyCanteenDimension",
@@ -185,10 +199,11 @@
     "material": [ "iron" ],
     "symbol": "[",
     "color": "green",
-	"contains": "10 L",
+    "contains": "10 L",
     "seals": true,
     "watertight": true,
-    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE", "WATER_FRIENDLY" ]
+    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE", "WATER_FRIENDLY" ],
+    "armor_data": { "covers": [ "leg_either" ], "coverage": 0, "encumbrance": 0, "material_thickness": 2 }
   },
   {
     "id": "FoxSmallPocketDimension",
@@ -202,7 +217,8 @@
     "symbol": "[",
     "color": "green",
     "storage": "50 L",
-    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ]
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "150 kg"
   },
   {
     "id": "FoxLesserPocketDimension",
@@ -216,7 +232,8 @@
     "symbol": "[",
     "color": "green",
     "storage": "100 L",
-    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ]
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "300 kg"
   },
   {
     "id": "FoxGreaterPocketDimension",
@@ -230,7 +247,8 @@
     "symbol": "[",
     "color": "green",
     "storage": "200 L",
-    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ]
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "600 kg"
   },
   {
     "id": "FoxSwordsmanPocketDimension",
@@ -252,7 +270,8 @@
       "draw_cost": 1,
       "flags": [ "SHEATH_SWORD" ]
     },
-    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ]
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "612 kg"
   },
   {
     "id": "FoxGunDimension",
@@ -276,7 +295,8 @@
       "draw_cost": 1,
       "skills": [ "pistol", "smg", "shotgun", "rifle", "launcher" ]
     },
-    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ]
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "615 kg"
   },
   {
     "id": "FoxGreaterCanteenDimension",
@@ -292,7 +312,8 @@
     "contains": "100 L",
     "seals": true,
     "watertight": true,
-    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE", "WATER_FRIENDLY" ]
+    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE", "WATER_FRIENDLY" ],
+    "weight_capacity_bonus": "100 kg"
   },
   {
     "id": "FoxHugePocketDimension",
@@ -306,7 +327,8 @@
     "symbol": "[",
     "color": "green",
     "storage": "500 L",
-    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ]
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "15000 kg"
   },
   {
     "id": "FoxGiantPocketDimension",
@@ -320,7 +342,8 @@
     "symbol": "[",
     "color": "green",
     "storage": "1000 L",
-    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ]
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "3000 kg"
   },
   {
     "id": "FoxOceanDimension",
@@ -336,7 +359,8 @@
     "contains": "1000 L",
     "seals": true,
     "watertight": true,
-    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE", "WATER_FRIENDLY" ]
+    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE", "WATER_FRIENDLY" ],
+    "armor_data": { "covers": [ "leg_either" ], "coverage": 0, "encumbrance": 0, "material_thickness": 2 }
   },
   {
     "type": "COMESTIBLE",
@@ -714,6 +738,7 @@
       "type": "learn_spell",
       "spells": [
     "Fox_Transmutation_Intermediateartificing",
+    "Fox_Transmutation_Fleshmanipulation",
     "Fox_Transmutation_magicaquifer",
     "Fox_Transmutation_magicaquiferbad",
     "Fox_Transmutation_magicsaltaquifer"

@@ -7,7 +7,8 @@
       [ "FoxJapanesebook", 8 ],
       [ "FoxKanjidictionary", 3 ],
       [ "FoxCollegeJapanese", 1 ],
-      [ "FoxDeSGAesstheorybasic", 1 ]
+      [ "FoxDeSGAesstheorybasic", 5 ],
+      [ "FoxDeSGAesstechbasic", 5 ]
     ]
   },
   {
@@ -18,6 +19,8 @@
       [ "FoxKanjidictionary", 4 ],
       [ "FoxCollegeJapanese", 2 ],
       [ "FoxDeSGAesstheorybasic", 1 ],
+      [ "FoxDeSGAesstechbasic", 5 ],
+      [ "FoxDeSGAesstechadvanced", 1 ],
       [ "FoxDeSGAkawakamiprayer", 5 ]
     ]
   },
@@ -29,6 +32,7 @@
       [ "FoxDeSGAesstheorybasic", 20 ],
       [ "Foxnanoaugcanistergeneric", 5 ],
       [ "FoxDeSGAesstechbasic", 20 ],
+      [ "FoxDeSGAesstechadvanced", 20 ],
       [ "FoxDeSGAkawakamiprayer", 20 ],
       [ "Foximpgogglesdetection", 8 ],
       [ "FoxXEDRAMAG", 8 ]
@@ -61,6 +65,8 @@
     "subtype": "distribution",
     "items": [
       [ "Foxsewingkitballisticweave", 8 ],
+      [ "FoxDeSGAesstheorybasic", 10 ],
+      [ "FoxDeSGAesstechadvanced", 5 ],
       { "item": "Foximperialsteelchunk", "prob": 25, "count": [ 5, 20 ] },
       { "item": "FoxAdamantinechunk", "prob": 8, "count": [ 1, 3 ] },
       { "item": "Foxcrystallizedessence", "prob": 20, "count": [ 5, 20 ] },
@@ -90,6 +96,7 @@
     "type": "item_group",
     "id": "mut_lab",
     "items": [
+    [ "FoxDeSGAesstheorybasic", 10 ],
 	  { "item": "FoxEssencenormal", "prob": 50, "count": [ 2, 5 ] }
     ]
   },

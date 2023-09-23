@@ -23,7 +23,7 @@
     "material": [ "flesh" ],
     "symbol": "Z",
     "color": "light_green_green",
-    "aggression": 100,
+    "aggression": 10,
     "morale": 100,
     "diff": 20,
     "luminance": 14,
