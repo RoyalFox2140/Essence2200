@@ -826,9 +826,9 @@
     "weight": "50 g",
     "volume": "100 ml",
     "skill": "FoxEssSpellcasting",
-    "max_level": 1,
+    "max_level": 5,
     "intelligence": 10,
-    "time": "20 m",
+    "time": "15 m",
     "fun": 1
   },
   {
