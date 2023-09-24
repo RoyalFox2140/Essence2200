@@ -56,7 +56,16 @@
     "id": "guns_rifle_milspec",
     "subtype": "distribution",
     "items": [
-      { "item": "FoxXEDRAMAG", "prob": 100, "count": [ 1, 2 ] }
+      { "item": "FoxXEDRAMAG", "prob": 100, "count": [ 1, 2 ] },
+      { "group": "Foxnested_ClannerM4", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_smg_milspec",
+    "subtype": "distribution",
+    "items": [
+      { "group": "Foxnested_SeburoC37", "prob": 20 }
     ]
   },
   {

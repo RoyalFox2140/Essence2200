@@ -39,6 +39,16 @@
 	"proportional": { "recoil": 2 }
   },
   {
+    "id": "Fox9mmAP",
+    "copy-from": "Fox9mmSGA",
+    "type": "AMMO",
+    "name": { "str": "9x19mm Anti-Personnel" },
+    "description": "An Arakawa napalm round. If a bullet won't work, setting it on fire might. A small targas charge inside the round with a small mix of essence explodes into flames on the round making contact.",
+    "relative": { "damage": { "damage_type": "bullet", "amount": -5, "armor_penetration": -15 }, "dispersion": -5 },
+    "proportional": { "recoil": 2 },
+    "extend": { "effects": [ "FoxSGA_Napalmbullet" ] }
+  },
+  {
     "id": "Fox9mmKK",
     "copy-from": "Fox9mmSGA",
     "type": "AMMO",

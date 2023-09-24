@@ -117,7 +117,7 @@
     "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 8 ], [ "electronics", 6 ], [ "mechanics", 4 ] ],
     "difficulty": 5,
     "time": "6 h 30 m",
-    "book_learn": [ [ "FoxmanualSGAgear", 5 ], [ "FoxDeSGAseburo", 5 ] ],
+    "book_learn": [ [ "FoxmanualSGAgear", 5 ], [ "FoxDeSGAseburo", 5 ], [ "FoxDeSGAesstechadvanced", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "FoxSGAmechparts", 5 ] ],
@@ -151,10 +151,10 @@
     "subcategory": "CSC_ESSTECH_WEAPONS",
     "skill_used": "FoxEssTech",
     "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 8 ], [ "electronics", 6 ], [ "mechanics", 4 ] ],
-    "difficulty": 5,
+    "difficulty": 4,
     "time": "6 h 30 m",
     "tools": [ [ [ "Foxmachiningstation", 30 ] ] ],
-    "book_learn": [ [ "FoxmanualSGAgear", 5 ], [ "FoxDeSGAarakawa", 5 ] ],
+    "book_learn": [ [ "FoxDeSGAesstechadvanced", 4 ] ],
     "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "components": [
       [ [ "FoxSGAmechparts", 5 ] ],
