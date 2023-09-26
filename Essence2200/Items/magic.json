@@ -312,8 +312,7 @@
     "contains": "100 L",
     "seals": true,
     "watertight": true,
-    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE", "WATER_FRIENDLY" ],
-    "weight_capacity_bonus": "100 kg"
+    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE", "WATER_FRIENDLY" ]
   },
   {
     "id": "FoxHugePocketDimension",

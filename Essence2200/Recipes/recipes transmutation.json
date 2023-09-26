@@ -235,10 +235,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -250,10 +250,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -265,10 +265,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -280,10 +280,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -295,10 +295,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -310,10 +310,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -325,10 +325,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -340,10 +340,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -355,10 +355,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -370,10 +370,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -385,10 +385,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -400,10 +400,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -415,10 +415,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -430,10 +430,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -445,10 +445,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -460,10 +460,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -475,10 +475,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -490,10 +490,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -505,10 +505,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 400,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -520,10 +520,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 400,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -535,10 +535,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 400,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -550,10 +550,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 2000,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -565,10 +565,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 100,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -580,10 +580,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 100,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -595,10 +595,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "result_mult": 100,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -610,10 +610,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "result_mult": 40,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -625,10 +625,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "result_mult": 40,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -640,10 +640,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "result_mult": 40,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -655,10 +655,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -670,10 +670,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "result_mult": 40,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -685,7 +685,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -700,7 +700,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -715,7 +715,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -730,7 +730,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -745,7 +745,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -760,7 +760,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -775,7 +775,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -790,7 +790,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -805,7 +805,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -820,7 +820,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -835,7 +835,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -850,7 +850,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -865,7 +865,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -880,7 +880,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -895,7 +895,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -910,7 +910,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 30,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
@@ -925,10 +925,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -940,10 +940,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -955,10 +955,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -970,10 +970,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -985,10 +985,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -1000,10 +1000,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -1015,10 +1015,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -1030,10 +1030,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -1045,10 +1045,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -1060,10 +1060,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -1075,10 +1075,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -1090,10 +1090,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -1105,10 +1105,10 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "10 m",
-    "result_mult": 20,
+    "charges": 200,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 1 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
