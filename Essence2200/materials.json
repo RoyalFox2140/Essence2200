@@ -142,7 +142,7 @@
   {
     "id": "FoxTaroline",
     "type": "AMMO",
-    "name": { "str_sp": "Essence" },
+    "name": { "str_sp": "Taroline" },
     "description": "Cracking Tarcrete at furnace temperatures leads to the creation of this fuel which contains slightly more energy than gasoline and has greater chemical stability.",
     "category": "fuel",
     "weight": "1 g",

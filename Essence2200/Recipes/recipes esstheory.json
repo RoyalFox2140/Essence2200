@@ -42,7 +42,7 @@
     "difficulty": 0,
     "result_mult": 400,
     "//": "Here I am assuming 40% sand 20% clay 40% silt, and the silt becomes tarcrete. 100L motordew 5L refined 20L targas so 25L left",
-    "byproducts": [ [ "Foxrefinedmotordew", 10 ], [ "Foxtargas", 80 ], [ "material_sand", 40 ], [ "clay_lump", 20 ], [ "Foxtarcrete", 40 ] ],
+    "byproducts": [ [ "Foxrefinedmotordew", 10 ], [ "Foxtargas", 80 ], [ "material_sand", 80 ], [ "clay_lump", 40 ], [ "Foxtarcrete", 80 ] ],
     "time": "1 h",
     "autolearn": true,
     "tools": [ [ [ "water_boiling_heat", 1800, "LIST" ] ] ],
@@ -88,7 +88,7 @@
     "tools": [ [ [ "water_boiling_heat", 2500, "LIST" ] ] ],
     "qualities": [ { "id": "FoxEssenceCracker", "level": 1 } ],
     "components": [
-    [ [ "Foxtarcrete", 400 ] ]
+    [ [ "Foxtarcrete", 400000 ] ]
   ]
   },
   {
@@ -129,6 +129,26 @@
   },
   {
     "type": "recipe",
+    "result": "Foxtarrubber",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxDistilltargas",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 2,
+    "result_mult": 100,
+    "//": "30L Targas boiled down to 20L targas plus 5L tarcrete to make 25L tar rubber",
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "Foxalloybarrel", 400 ] ], [ [ "water_boiling_heat", 200, "LIST" ] ] ],
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 }, { "id": "CHEM", "level": 2 } ],
+    "components": [
+    [ [ "Foxtargas", 12000 ] ],
+    [ [ "Foxtarcrete", 4000 ] ]
+  ]
+  },
+  {
+    "type": "recipe",
     "result": "Foximperialsteelchunk",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_ESSTHEORY",
@@ -142,6 +162,23 @@
     "tools": [ [ [ "Foxalloybarrel", 2000 ] ] ],
     "components": [
      [ [ "steel_lump", 200 ], [ "steel_chunk", 400 ], [ "scrap", 1000 ] ], [ [ "Foxrefinedmotordew", 40000 ] ] 
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxcrystallizedessence",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxAbsorptionAlloying",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 4 ] ],
+    "difficulty": 2,
+    "result_mult": 40,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "Foxalloybarrel", 1000 ] ] ],
+    "components": [
+     [ [ "FoxEssencenormal", 20000 ] ] 
   ]
   }
 ]

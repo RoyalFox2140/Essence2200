@@ -299,6 +299,31 @@
     "weight_capacity_bonus": "615 kg"
   },
   {
+    "id": "FoxKnifeDimension",
+    "type": "ARMOR",
+    "name": { "str": "Knife Pocket Dimension", "str_pl": "Knife Pocket Dimensions" },
+    "description": "A small invisible hole in reality that only you can use to store and withdraw things. You set all Birmingham or London jokes aside and filled it with knives. You also recall an anime involving an unlimited amount of blades.",
+    "weight": 0,
+    "volume": 0,
+    "price": 0,
+    "material": [ "iron" ],
+    "symbol": "[",
+    "color": "green",
+    "storage": "5 L",
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Sheath knife",
+      "holster_msg": "You sheath your %s",
+      "multi": 200,
+      "min_volume": "1 ml",
+      "max_volume": "1 L",
+      "draw_cost": 1,
+      "flags": [ "SHEATH_KNIFE" ]
+    },
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "615 kg"
+  },
+  {
     "id": "FoxGreaterCanteenDimension",
     "type": "CONTAINER",
     "name": { "str": "Greater Canteen Dimension", "str_pl": "Greater Canteen Dimensions" },
@@ -740,7 +765,9 @@
     "Fox_Transmutation_Fleshmanipulation",
     "Fox_Transmutation_magicaquifer",
     "Fox_Transmutation_magicaquiferbad",
-    "Fox_Transmutation_magicsaltaquifer"
+    "Fox_Transmutation_magicsaltaquifer",
+    "Fox_Transmutation_KnifeToss",
+    "Fox_Transmutation_KnifeSwarm"
       ]
     }
   },

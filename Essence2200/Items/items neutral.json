@@ -211,7 +211,7 @@
     "name": { "str": "chunk of tar rubber", "str_pl": "chunks of tar rubber" },
     "symbol": "*",
     "color": "dark_gray",
-    "description": "Stripping the negative chemicals from targas through proper distillation and mixing with small quantities of tarcrete made this strong synthetic rubber. It has mostly replaced 21st century rubber.",
+    "description": "Stripping the negative chemicals from targas through proper distillation and mixing with small quantities of tarcrete made this strong synthetic rubber. It has mostly replaced 21st century rubber due to being nonflammable and easy to melt or mold with tools.",
     "material": "rubber",
     "volume": "250 ml",
     "weight": "32 g",
@@ -690,5 +690,21 @@
     "action": "cot",
     "drops": [ "cot" ],
     "benign": true
+  },
+  {
+    "id": "Foxmoldtire",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "Tar tire mold" },
+    "description": "This is a clay mold for making tar rubber tires. You're not surprised that it's shaped like an inverted tire.",
+    "weight": "320 g",
+    "volume": "20000 ml",
+    "price": 1000,
+    "price_postapoc": 50,
+    "to_hit": 1,
+    "bashing": 3,
+    "material": "clay",
+    "symbol": ";",
+    "color": "light_blue"
   }
 ]
