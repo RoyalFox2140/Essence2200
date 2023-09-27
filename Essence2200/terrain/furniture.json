@@ -42,6 +42,64 @@
     "examine_action": "water_source"
   },
   {
+    "type": "construction",
+    "id": "Foxconstr_dig_downstair",
+    "group": "Foxdig_downstair",
+    "category": "DIG",
+    "required_skills": [ [ "FoxEssSpellcasting", 1 ] ],
+    "time": "30 m",
+    "components": [
+      [ [ "FoxTransmutationrune", 1 ] ]
+    ],
+    "pre_flags": "DIGGABLE",
+    "pre_special": "check_down_OK",
+    "post_special": "done_dig_stair"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_mine_downstair",
+    "group": "Foxmine_downstair",
+    "category": "DIG",
+    "required_skills": [ [ "FoxEssSpellcasting", 1 ] ],
+    "time": "30 m",
+    "components": [
+      [ [ "FoxTransmutationrune", 1 ] ]
+    ],
+    "pre_special": "check_down_OK",
+    "pre_terrain": "t_rock_floor",
+    "post_special": "done_mine_downstair"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_mine_upstair",
+    "group": "Foxmine_upstair",
+    "category": "DIG",
+    "required_skills": [ [ "FoxEssSpellcasting", 1 ] ],
+    "time": "30 m",
+    "//": "Helmets are not essential because you're telekinetically removing rocks away from you.",
+    "components": [
+      [ [ "FoxTransmutationrune", 1 ] ]
+    ],
+    "pre_special": "check_up_OK",
+    "pre_terrain": "t_rock",
+    "post_special": "done_mine_upstair"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxdig_downstair",
+    "name": "Telekinetic Dig Downstairs"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxmine_downstair",
+    "name": "Telekinetic Mine Downstairs"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxmine_upstair",
+    "name": "Telekinetic Mine Downstairs"
+  },
+  {
     "type": "furniture",
     "id": "Foxfessencestill",
     "name": "essence fractional still",
