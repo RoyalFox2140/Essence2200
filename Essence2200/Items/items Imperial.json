@@ -207,7 +207,8 @@
       [ "COOK", 1 ],
       [ "FoxMachining", 1 ]
     ],
-    "use_action": [ "HAMMER", "CROWBAR" ]
+    "use_action": [ "HAMMER", "CROWBAR" ],
+    "flags": [ "BELT_CLIP"  ]
   },
   {
     "id": "adv_UPS_off",

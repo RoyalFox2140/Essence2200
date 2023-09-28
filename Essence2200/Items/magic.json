@@ -47,7 +47,7 @@
     "symbol": ",",
     "color": "yellow",
     "use_action": [ { "type": "firestarter", "moves": 20 } ],
-    "flags": [ "TRADER_AVOID", "FIRESTARTER" ]
+    "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
   },
   {
     "id": "Foxteletablet",
@@ -85,7 +85,7 @@
       [ "SCREW", 1 ],
       [ "PRY", 1 ]
     ],
-    "flags": [ "TRADER_AVOID", "FIRESTARTER" ]
+    "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
   },
   {
     "id": "Foxintermediatertificing",
@@ -112,7 +112,7 @@
       [ "WRENCH_FINE", 1 ],
       [ "SCREW_FINE", 1 ]
     ],
-    "flags": [ "TRADER_AVOID", "FIRESTARTER" ]
+    "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
   },
   {
     "id": "Foxadvancedartificing",
@@ -142,7 +142,7 @@
       [ "REAM", 1 ],
       [ "VISE", 1 ]
     ],
-    "flags": [ "TRADER_AVOID", "FIRESTARTER" ]
+    "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
   },
   {
     "id": "Foxfleshmanipulation",
@@ -158,7 +158,7 @@
       [ "BUTCHER", 100 ],
       [ "CUT_FINE", 5 ]
     ],
-    "flags": [ "TRADER_AVOID" ]
+    "flags": [ "TRADER_AVOID", "BELT_CLIP"  ]
   },
   {
     "id": "Foxlightorb",
@@ -319,6 +319,31 @@
       "max_volume": "1500 ml",
       "draw_cost": 1,
       "flags": [ "SHEATH_KNIFE" ]
+    },
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "615 kg"
+  },
+  {
+    "id": "FoxToolDimension",
+    "type": "ARMOR",
+    "name": { "str": "Tool Pocket Dimension", "str_pl": "Tool Pocket Dimensions" },
+    "description": "A small invisible hole in reality that only you can use to store and withdraw things. You reserved almost all of it for bringing the hardware store with you, only saving a few nooks for loose nails and such.",
+    "weight": 0,
+    "volume": 0,
+    "price": 0,
+    "material": [ "iron" ],
+    "symbol": "[",
+    "color": "green",
+    "storage": "5 L",
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Store tool",
+      "holster_msg": "You put your %1$s in your %2$s",
+      "multi": 20,
+      "min_volume": "1 ml",
+      "max_volume": "3 L",
+      "draw_cost": 1,
+      "flags": [ "BELT_CLIP" ]
     },
     "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
     "weight_capacity_bonus": "615 kg"
