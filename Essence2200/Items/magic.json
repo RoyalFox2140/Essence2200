@@ -377,7 +377,7 @@
     "color": "green",
     "storage": "500 L",
     "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
-    "weight_capacity_bonus": "15000 kg"
+    "weight_capacity_bonus": "1500 kg"
   },
   {
     "id": "FoxGiantPocketDimension",
