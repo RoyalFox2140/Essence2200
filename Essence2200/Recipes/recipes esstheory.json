@@ -192,7 +192,7 @@
     "time": "6 s",
     "autolearn": true,
     "components": [
-    [ [ "Foxtaroline", 250 ] ]
+    [ [ "FoxTaroline", 250 ] ]
   ]
   },
   {
@@ -206,7 +206,7 @@
     "time": "6 s",
     "autolearn": true,
     "components": [
-    [ [ "Foxtaroline", 250 ] ]
+    [ [ "FoxTaroline", 250 ] ]
   ]
   }
 ]
