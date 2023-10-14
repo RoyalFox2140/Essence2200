@@ -27,6 +27,7 @@
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
+    "delete_flags": [ "BAD_TASTE" ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "mutant_meat", 10 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
@@ -58,7 +59,7 @@
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "delete_flags": [ "CANNIBALISM" ],
+    "delete_flags": [ "CANNIBALISM", "BAD_TASTE" ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "mutant_human_flesh", 10 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },

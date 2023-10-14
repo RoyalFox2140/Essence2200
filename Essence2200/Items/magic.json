@@ -341,7 +341,7 @@
       "holster_msg": "You put your %1$s in your %2$s",
       "multi": 20,
       "min_volume": "1 ml",
-      "max_volume": "3 L",
+      "max_volume": "10 L",
       "draw_cost": 1,
       "flags": [ "BELT_CLIP" ]
     },

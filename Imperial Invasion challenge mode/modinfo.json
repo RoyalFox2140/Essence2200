@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ImperialInvasion",
+    "name": "Essence 2200: Imperial Invasion",
+    "authors": [ "RoyalFox" ],
+    "maintainers": [ "RoyalFox" ],
+    "description": "Dramatically injects Imperial soldiers into the world for extra challenge.",
+    "category": "content",
+    "dependencies": [ "bn", "Essence 2200" ]
+  }
+]

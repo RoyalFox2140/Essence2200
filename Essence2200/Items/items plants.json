@@ -1,0 +1,47 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "Foxbangtailbud",
+    "name": { "str": "bangtail rhizome" },
+    "category": "chems",
+    "description": "An essence-mutated cattail, known as a bangtail. The rhizome is used to make a form of smokeless gunpowder.",
+    "weight": "30 g",
+    "to_hit": -3,
+    "color": "light_red",
+    "symbol": ",",
+    "material": [ "veggy" ],
+    "volume": "5 ml",
+    "price": 200,
+    "price_postapoc": 50
+  },
+  {
+    "type": "GENERIC",
+    "id": "Foxbangtailstalk",
+    "name": { "str": "bangtail stalk" },
+    "category": "chems",
+    "description": "An essence-mutated cattail, known as a bangtail. The stalk is hallucinogenic.",
+    "weight": "30 g",
+    "to_hit": -3,
+    "color": "light_red",
+    "symbol": ",",
+    "material": [ "veggy" ],
+    "volume": "5 ml",
+    "price": 200,
+    "price_postapoc": 50
+  },
+  {
+    "type": "GENERIC",
+    "id": "Foxmireweed",
+    "name": { "str": "mireweed" },
+    "category": "chems",
+    "description": "Mireweeds are a wetland plant which collects fresh water in a large fruit. The rest of the plant is a stimulant.",
+    "weight": "30 g",
+    "to_hit": -3,
+    "color": "light_red",
+    "symbol": ",",
+    "material": [ "veggy" ],
+    "volume": "5 ml",
+    "price": 200,
+    "price_postapoc": 50
+  }
+]

@@ -180,5 +180,33 @@
     "components": [
      [ [ "FoxEssencenormal", 20000 ] ] 
   ]
+  },
+  {
+    "type": "recipe",
+    "result": "gasoline",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxFuelisFuel",
+    "skill_used": "FoxEssTheory",
+    "difficulty": 2,
+    "time": "6 s",
+    "autolearn": true,
+    "components": [
+    [ [ "Foxtaroline", 250 ] ]
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "diesel",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxFuelisFuel",
+    "skill_used": "FoxEssTheory",
+    "difficulty": 2,
+    "time": "6 s",
+    "autolearn": true,
+    "components": [
+    [ [ "Foxtaroline", 250 ] ]
+  ]
   }
 ]
