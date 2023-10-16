@@ -272,7 +272,7 @@
     "move_cost_mod": 1,
     "coverage": 35,
     "required_str": 1,
-    "flags": [ "TRANSPARENT", "TRANSLOCATOR" ],
+    "flags": [ "TRANSPARENT", "TRANSLOCATOR", "NOCOLLIDE" ],
     "examine_action": "translocator"
   },
   {
