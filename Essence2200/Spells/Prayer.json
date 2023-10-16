@@ -62,7 +62,7 @@
   {
     "id": "Fox_Prayer_ProtectTemperature",
     "type": "SPELL",
-    "name": "Pr: Ballistic Protection",
+    "name": "Pr: Temperature Protection",
     "description": "You offer your mana and pray for protection from extreme temperatures for the next 4 hours.",
     "valid_targets": [ "self", "ally" ],
     "flags": [ "VERBAL", "SOMATIC", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
