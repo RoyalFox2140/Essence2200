@@ -1,0 +1,48 @@
+[
+    {
+        "id": "Foxon_hand_SGA223",
+        "type": "item_group",
+        "//": "a collection of ammo that would be found with a loaded gun.",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "Fox556mmSGA", "prob": 200, "charges": [ 30, 60 ] },
+          { "item": "Fox556mmAP", "prob": 100, "charges": [ 15, 30 ] }
+        ]
+    },
+    {
+      "id": "Foxon_hand_SGA9mm",
+      "type": "item_group",
+      "//": "a collection of ammo that would be found with a loaded gun.",
+      "subtype": "distribution",
+      "entries": [
+        { "item": "Fox9mmSGA", "prob": 200, "charges": [ 30, 60 ] },
+        { "item": "Fox9mmAP", "prob": 100, "charges": [ 15, 30 ] }
+      ]
+  },
+    {
+        "id": "Foxnested_ClannerM4",
+        "type": "item_group",
+        "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+        "subtype": "collection",
+        "ammo": 100,
+        "entries": [
+          { "item": "FoxClannerM4", "charges-min": 0, "charges-max": 30 },
+          { "item": "FoxSGA556mag" },
+          { "item": "FoxSGA556mag", "prob": 50 },
+          { "group": "Foxon_hand_SGA223" }
+        ]
+    },
+    {
+      "id": "Foxnested_SeburoC37",
+      "type": "item_group",
+      "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+      "subtype": "collection",
+      "ammo": 100,
+      "entries": [
+        { "item": "FoxSeburoC37", "charges-min": 0, "charges-max": 30 },
+        { "item": "FoxSeburoC37mag" },
+        { "item": "FoxSeburoC37mag", "prob": 50 },
+        { "group": "Foxon_hand_SGA9mm" }
+      ]
+  }
+]

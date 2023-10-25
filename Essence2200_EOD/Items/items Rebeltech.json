@@ -1,0 +1,34 @@
+[
+  {
+    "id": "FoxRwastelanderrifle",
+    "copy-from": "rifle_manual",
+    "type": "GUN",
+    "name": { "str_sp": "Wastelander rifle" },
+    "description": "A common and reliable bolt action rifle adopted by wasteland dwellers and the humans that came to live among them. Being easy to produce from enemy weapons ensured a steady supply of rifles and soon the Imperials classed any of the crude bolt actions made out in the wasteland as the same weapon. This follows no template or document, it is a number of imperial firearm components on a wooden stock.",
+    "weight": "3000 g",
+    "volume": "3 L",
+    "looks_like": "mosin91_30",
+    "price": 19000,
+    "price_postapoc": 3000,
+    "material": [ "FoxImperialSteel", "wood" ],
+    "color": "brown",
+    "ammo": "762R",
+    "ranged_damage": { "damage_type": "bullet", "amount": 2 },
+    "range": 3,
+    "dispersion": 90,
+    "durability": 10,
+    "clip_size": 5,
+    "barrel_length": "1000 ml",
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ]
+    ],
+    "magazines": [ [ "762R", [ "762R_clip" ] ] ],
+    "flags": [ "RELOAD_ONE" ]
+  }
+]

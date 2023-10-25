@@ -1,0 +1,16 @@
+[
+  {
+    "type": "recipe",
+    "result": "Foximperialrationbad",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_COOKING",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "20 m",
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 3 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
+    "components": [ [ [ "Foxmotordew", 250 ] ] ]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "FoxTweaks_EOD",
+    "name": "Essence 2200 Tweaks EOD",
+    "authors": [ "RoyalFox" ],
+    "maintainers": [ "RoyalFox" ],
+    "description": "Does significant changes to the balance intended to be used with Essence 2200. Please check the JSON to see what it does and remove what you don't like, or rebalance it.",
+    "category": "rebalance",
+    "dependencies": [ "bn", "Essence2200" ]
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "SPEEDYDEX_MIN_DEX",
+    "stype": "int",
+    "value": 12
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "SPEEDYDEX_DEX_SPEED",
+    "stype": "int",
+    "value": 2
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "STATS_THROUGH_KILLS",
+    "stype": "bool",
+    "value": true
+  },
+  {
+    "type": "skill_boost",
+    "stat": "str",
+    "skills": [ "mechanics", "swimming", "bashing", "cutting", "melee", "throw" ],
+    "skill_offset": -3,
+    "scaling_power": 0.4
+  },
+  {
+    "type": "skill_boost",
+    "stat": "dex",
+    "skills": [ "driving", "survival", "tailor", "traps", "dodge", "stabbing", "unarmed", "FoxEssTech" ],
+    "skill_offset": -3,
+    "scaling_power": 0.4
+  },
+  {
+    "type": "skill_boost",
+    "stat": "int",
+    "skills": [ "barter", "computer", "cooking", "electronics", "fabrication", "firstaid", "speech", "FoxEssTheory", "FoxCryptology" ],
+    "skill_offset": -3,
+    "scaling_power": 0.4
+  },
+  {
+    "type": "skill_boost",
+    "stat": "per",
+    "skills": [ "archery", "gun", "launcher", "pistol", "rifle", "shotgun", "smg", "FoxEssSpellcasting" ],
+    "skill_offset": -3,
+    "scaling_power": 0.4
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "FILTHY_WOUNDS",
+    "stype": "bool",
+    "value": false
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "REVIVES", "value": false }
+  },
+  {
+    "type": "WORLD_OPTION",
+    "options": [ "DISABLE_LIFTING" ]
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "MANUAL_BIONIC_INSTALLATION",
+    "info": "Permits manual self-installation of bionics.",
+    "stype": "bool",
+    "value": true
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "NO_VITAMINS",
+    "info": "Disables tracking vitamins in food items.  If true, disables vitamin tracking and vitamin disorders.",
+    "stype": "bool",
+    "value": true
+  }
+]
