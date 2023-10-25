@@ -497,5 +497,39 @@
       "items": [ { "item": "Foxlargetentbroken" } ],
       "tent_centers": [ "Foxf_center_groundsheetbig" ]
     }
+  },
+  {
+    "type": "terrain",
+    "id": "Foxt_tarcrete_wall",
+    "looks_like": "t_strconc_wall",
+    "name": "tarcrete wall",
+    "description": "An extremely resilient wall, made from hot tarcrete cooled and dried on the spot.  Stronger than reinforced concrete, only serious explosives and high-speed impacts would be capable of damaging this wall.",
+    "symbol": "LINE_OXOX",
+    "color": "light_gray",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "Foxt_tarcrete_roof",
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "connects_to": "WALL",
+    "bash": {
+      "str_min": 180,
+      "str_max": 460,
+      "sound": "scrrrash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_null",
+      "items": [ { "item": "rock", "count": [ 10, 22 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "Foxt_tarcrete_roof",
+    "name": "tarcrete roof",
+    "description": "A flat, black tarcrete section of rooftop. Heavily resistant to damage, it would take serious explosives to breach.",
+    "symbol": ".",
+    "looks_like": "t_flat_roof",
+    "color": "dark_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT" ],
+    "bash": { "str_min": 180, "str_max": 460, "sound": "crash!", "sound_fail": "whump!", "bash_below": true }
   }
 ]
