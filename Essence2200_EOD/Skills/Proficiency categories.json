@@ -1,0 +1,26 @@
+[
+    {
+        "type": "proficiency_category",
+        "id": "Foxprof_EssControl",
+        "name": "Essence Control",
+        "description": "Proficiencies that relate to casting Essence magic."
+    },
+    {
+        "type": "proficiency_category",
+        "id": "Foxprof_EssTechnology",
+        "name": "Essence Technology",
+        "description": "Proficiencies that relate to using technology relying on Essence materials or magic."
+    },
+    {
+        "type": "proficiency_category",
+        "id": "Foxprof_EssTheory",
+        "name": "Essence Theory",
+        "description": "Proficiencies that relate to the scientific and chemical principles of Essence materials."
+    },
+    {
+        "type": "proficiency_category",
+        "id": "Foxprof_ShiCryptology",
+        "name": "Shi Cryptology",
+        "description": "Proficiencies that relate to decrypting SGA documents and computers."
+    }
+]

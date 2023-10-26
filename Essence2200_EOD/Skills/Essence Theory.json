@@ -1,3 +1,123 @@
 [
-  
+    {
+        "type": "proficiency",
+        "id": "Foxprof_Etheory_analysis",
+        "category": "Foxprof_EssTheory",
+        "name": { "str": "Materials analysis" },
+        "description": "You have researched common materials and have identified materials which may contain trace Essence to extract.",
+        "can_learn": true,
+        "default_time_multiplier": 2,
+        "default_skill_penalty": 4,
+        "time_to_learn": "16 h"
+    },
+    {
+        "type": "proficiency",
+        "id": "Foxprof_Etheory_extraction",
+        "category": "Foxprof_EssTheory",
+        "name": { "str": "Essence extraction" },
+        "description": "You have discovered the ability to heat certain materials in small quantities to refine them into usable Essence materials.",
+        "can_learn": true,
+        "default_time_multiplier": 2,
+        "default_skill_penalty": 4,
+        "time_to_learn": "8 h"
+    },
+    {
+        "type": "proficiency",
+        "id": "Foxprof_Etheory_combustibles",
+        "category": "Foxprof_EssTheory",
+        "name": { "str": "Essence combustibles" },
+        "description": "You have experimented with combustible materials enough to understand their properties and how to implement them in existing designs.",
+        "can_learn": true,
+        "default_time_multiplier": 2,
+        "default_skill_penalty": 0.5,
+        "time_to_learn": "4 h"
+    },
+    {
+        "type": "proficiency",
+        "id": "Foxprof_Etheory_alloying",
+        "category": "Foxprof_EssTheory",
+        "name": { "str": "Essence alloying" },
+        "description": "You have discovered how to alloy Essence with earth-based materials to create new materials.",
+        "can_learn": true,
+        "default_time_multiplier": 2,
+        "default_skill_penalty": 0.5,
+        "time_to_learn": "8 h"
+    },
+    {
+        "type": "proficiency",
+        "id": "Foxprof_Etheory_hardness",
+        "category": "Foxprof_EssTheory",
+        "name": { "str": "Alloy properties" },
+        "description": "You have spent the time to test the physical properties of Imperial steel grades.",
+        "can_learn": true,
+        "default_time_multiplier": 2,
+        "default_skill_penalty": 0.5,
+        "time_to_learn": "4 h"
+    },
+    {
+        "type": "proficiency",
+        "id": "Foxprof_Etheory_medicine",
+        "category": "Foxprof_EssTheory",
+        "name": { "str": "Essence medicine" },
+        "description": "You have researched the effects of Essence on living creatures or humans to understand its positive effects.",
+        "can_learn": true,
+        "default_time_multiplier": 2,
+        "default_skill_penalty": 0.5,
+        "time_to_learn": "8 h"
+    },
+    {
+        "type": "proficiency",
+        "id": "Foxprof_Etheory_repair",
+        "category": "Foxprof_EssTheory",
+        "name": { "str": "Regenerative alloys" },
+        "description": "You have found that liquid Essence materials can slowly repair surface damage on exposed alloys such as inside engines.",
+        "can_learn": true,
+        "default_time_multiplier": 2,
+        "default_skill_penalty": 0.5,
+        "time_to_learn": "2 h"
+    },
+    {
+        "type": "proficiency",
+        "id": "Foxprof_Etheory_electrical",
+        "category": "Foxprof_EssTheory",
+        "name": { "str": "Electrical retention" },
+        "description": "You have experimented with liquid and crystal Essence batteries.",
+        "can_learn": true,
+        "default_time_multiplier": 2,
+        "default_skill_penalty": 0.5,
+        "time_to_learn": "4 h"
+    },
+    {
+        "type": "proficiency",
+        "id": "Foxprof_Etheory_alloying2",
+        "category": "Foxprof_EssTheory",
+        "name": { "str": "Advanced alloying" },
+        "description": "You have discovered precise alloy combinations to create the two most versatile and effective alloy types.",
+        "can_learn": true,
+        "default_time_multiplier": 2,
+        "default_skill_penalty": 0.5,
+        "time_to_learn": "4 h"
+    },
+    {
+        "type": "proficiency",
+        "id": "Foxprof_Etheory_hardness2",
+        "category": "Foxprof_EssTheory",
+        "name": { "str": "Advanced alloy properties" },
+        "description": "You have spent the time to test the physical properties of Adamantine and Shadowsteel.",
+        "can_learn": true,
+        "default_time_multiplier": 2,
+        "default_skill_penalty": 0.5,
+        "time_to_learn": "6 h"
+    },
+    {
+        "type": "proficiency",
+        "id": "Foxprof_Etheory_precision_explosives",
+        "category": "Foxprof_EssTheory",
+        "name": { "str": "Essence explosives" },
+        "description": "You understand maximum force tolerances and the destructive powers of Essence-based gunpowder and bombs.",
+        "can_learn": true,
+        "default_time_multiplier": 2,
+        "default_skill_penalty": 0.5,
+        "time_to_learn": "4 h"
+    }
 ]
