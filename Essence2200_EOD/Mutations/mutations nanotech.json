@@ -40,7 +40,7 @@
     "purifiable": false,
     "cancels": [ "BADCARDIO" ],
     "stamina_regen_modifier": 0.25,
-    "max_stamina_modifier": 1
+    "cardio_multiplier": 2
   },
   {
     "type": "mutation",
@@ -51,7 +51,7 @@
     "valid": false,
     "purifiable": false,
     "stamina_regen_modifier": 0.25,
-    "max_stamina_modifier": 1
+    "cardio_multiplier": 2
   },
   {
     "type": "mutation",
@@ -62,7 +62,7 @@
     "valid": false,
     "purifiable": false,
     "stamina_regen_modifier": 1,
-    "max_stamina_modifier": 2
+    "cardio_multiplier": 3
   },
   {
     "type": "mutation",
