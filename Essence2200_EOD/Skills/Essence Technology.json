@@ -4,7 +4,7 @@
         "id": "Foxprof_Etech_mechanical",
         "category": "Foxprof_EssTechnology",
         "name": { "str": "Mechanical engineering" },
-        "description": "You have tested mechanical properties of essence alloys to confirm their usage.",
+        "description": "You have tested mechanical properties of essence alloys to learn their proper usage and tolerances.",
         "can_learn": true,
         "default_time_multiplier": 1.5,
         "time_to_learn": "6 h"
@@ -14,7 +14,7 @@
         "id": "Foxprof_Etech_ballistic",
         "category": "Foxprof_EssTechnology",
         "name": { "str": "Ballistic engineering" },
-        "description": "You have tested machined ballistic parts to learn how best to use them in a firearm, and how long they last under stress.",
+        "description": "You have tested machined ballistic parts from essence alloys to learn how best to use them in a firearm, and how long they last under stress.",
         "can_learn": true,
         "default_time_multiplier": 1.5,
         "time_to_learn": "6 h"
