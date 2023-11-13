@@ -1,13 +1,13 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "Essence2200_EOD",
-    "name": "Essence 2200 EOD",
+    "id": "Essence2200_BN",
+    "name": "Essence 2200 BN",
     "authors": [ "RoyalFox" ],
     "maintainers": [ "RoyalFox" ],
     "description": "A huge content mod.",
     "category": "content",
-    "dependencies": [ "dda" ]
+    "dependencies": [ "bn" ]
   },
   {
     "type": "skill",

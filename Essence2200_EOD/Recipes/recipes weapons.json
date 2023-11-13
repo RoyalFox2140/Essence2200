@@ -122,8 +122,7 @@
     "components": [
       [ [ "FoxSGAmechparts", 5 ] ],
       [ [ "FoxSGAelectronics", 6 ] ],
-      [ [ "FoxSGAballisticparts", 7 ] ],
-      [ [ "FoxShadowsteelchunk", 2 ] ]
+      [ [ "FoxSGAballisticparts", 7 ] ]
     ]
   },
   {

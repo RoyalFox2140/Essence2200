@@ -157,7 +157,7 @@
       "EINKTABLETPC",
       "PORTABLE_GAME",
       {
-        "target": "laptop_screen_lit",
+        "target": "Foxofficerdatapadlit",
         "msg": "You light up the screen.",
         "active": true,
         "need_charges": 1,
@@ -166,6 +166,22 @@
       }
     ],
     "flags": [ "WATCH", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
+  },
+  {
+    "id": "Foxofficerdatapadlit",
+    "type": "TOOL",
+    "copy-from": "Foxofficerdatapad",
+    "looks_like": "laptop",
+    "name": "Imperial Officer datapad - lit",
+    "description": "Now that the encryption is broken, cypher keys can be generated to decrypt Imperial documents, or you could play video games on it. Maybe you'll get 600 FPS with their advanced graphics card.",
+    "revert_to": "Foxofficerdatapad",
+    "power_draw": 5000,
+    "use_action": [
+      "EINKTABLETPC",
+      "PORTABLE_GAME",
+      { "target": "Foxofficerdatapad", "msg": "You stop lighting up the screen.", "menu_text": "Turn off", "type": "transform" }
+    ],
+    "flags": [ "WATCH", "LIGHT_20", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
   },
   {
     "id": "Foxtoolboxmachining",
@@ -457,7 +473,7 @@
       [ "underbarrel", 1 ]
     ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "faults": [  ]
   },
   {
@@ -479,7 +495,7 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ],
     "loudness": 12,
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
   },
   {
     "id": "Foximpcombatknife",
@@ -565,7 +581,7 @@
     "price": 1600000,
     "price_postapoc": 7500,
     "material": [ "FoxImperialSteel" ],
-    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NO_RELOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NO_RELOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "color": "yellow",
     "range": 60,
     "ranged_damage": { "damage_type": "heat", "amount": 1200, "armor_penetration": 50 },
@@ -705,5 +721,38 @@
     "min_cycle_recoil": 360,
     "magazine_well": "250 ml",
     "magazines": [ [ "9mm", [ "Foximpmagpistol", "glockmag", "glockbigmag", "glock17_17", "glock17_22", "glock_drum_50rd", "glock_drum_100rd" ] ] ]
+  },
+  {
+    "id": "FoxGolemrock",
+    "type": "GUN",
+    "symbol": "%",
+    "color": "red",
+    "name": { "str": "giant rock" },
+    "description": "Golem Sergeants can throw these boulders at you since they prefer to save ammunition, if you have one its a bug and I'm mad about it.",
+    "material": [ "stone" ],
+    "flags": [
+      "PRIMITIVE_RANGED_WEAPON",
+      "NEVER_JAMS",
+      "NONCONDUCTIVE",
+      "NO_REPAIR",
+      "WATERPROOF_GUN",
+      "NO_SALVAGE",
+      "NO_UNLOAD",
+      "WATERPROOF_GUN",
+      "NEVER_JAMS"
+    ],
+    "skill": "throw",
+    "ammo": [ "rock" ],
+    "ammo_effects": [ "NO_PENETRATE_OBSTACLES", "NEVER_MISFIRES" ],
+    "clip_size": 1,
+    "ranged_damage": { "damage_type": "bash", "amount": 20 },
+    "weight": "540 g",
+    "volume": "210 ml",
+    "bashing": 1,
+    "to_hit": 1,
+    "loudness": 2,
+    "range": 10,
+    "dispersion": 150,
+    "durability": 8
   }
 ]
