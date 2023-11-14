@@ -650,7 +650,7 @@
     "material": [ "flesh" ],
     "symbol": "Z",
     "color": "light_green_green",
-    "aggression": 5000,
+    "aggression": 100,
     "morale": 100,
     "diff": 500,
     "luminance": 14,
