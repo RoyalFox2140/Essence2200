@@ -50,6 +50,32 @@
     "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
   },
   {
+    "id": "Foxmagicsoldering",
+    "type": "TOOL",
+    "name": "magic soldering iron",
+    "description": "This is your ability to solder electronics via magic. It takes magic tool charges.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "symbol": ",",
+    "color": "yellow",
+    "use_action": [ { "type": "firestarter", "moves": 20 } ],
+    "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
+  },
+  {
+    "id": "Foxmagicwelder",
+    "type": "TOOL",
+    "name": "magic welder",
+    "description": "This is your ability to weld via magic. It takes magic tool charges.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "symbol": ",",
+    "color": "yellow",
+    "use_action": [ { "type": "firestarter", "moves": 20 } ],
+    "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
+  },
+  {
     "id": "Foxteletablet",
     "type": "COMESTIBLE",
     "comestible_type": "MED",

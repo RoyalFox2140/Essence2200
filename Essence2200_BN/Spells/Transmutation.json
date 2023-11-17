@@ -16,7 +16,7 @@
     "spell_class": "FoxSchoolsTransmutation",
 	"skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_EssenceTokenBulk",
@@ -35,7 +35,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_Lightorb",
@@ -57,7 +57,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_Fleshmanipulation",
@@ -76,7 +76,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_Noviceartificing",
@@ -95,7 +95,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_Intermediateartificing",
@@ -114,7 +114,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_Advancedartificing",
@@ -133,7 +133,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_Lead_Attack",
@@ -141,7 +141,7 @@
     "name": "T: Flesh to Lead",
     "description": "You convert some of the cells and water inside the target to lead. This can be tremendously lethal and poisonous if you become skilled enough at it. It's also very short range.",
     "valid_targets": [ "hostile", "ground" ],
-    "flags": [ "VERBAL", "SOMATIC", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
     "effect": "projectile_attack",
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
@@ -175,7 +175,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_Essence",
@@ -197,7 +197,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_EssenceBulk",
@@ -219,7 +219,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_FirstSpellbook",
@@ -241,7 +241,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_Upturnearth",
@@ -262,7 +262,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_KnifeToss",
@@ -270,7 +270,7 @@
     "name": "T: Knife Toss",
     "description": "Conjures and launches a stiletto towards the target, the knife disappearing from reality once it loses all momentum.",
     "valid_targets": [ "hostile", "ground" ],
-    "flags": [ "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
     "effect": "projectile_attack",
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
@@ -293,7 +293,7 @@
     "name": "T: Knife Swarm",
     "description": "Conjures and launches five stilettos towards the target, the knives disappearing from reality once they lose all momentum.",
     "valid_targets": [ "hostile", "ground" ],
-    "flags": [ "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
     "effect": "projectile_attack",
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
