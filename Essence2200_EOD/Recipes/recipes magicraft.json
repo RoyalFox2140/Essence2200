@@ -167,5 +167,20 @@
     "components": [
       [ [ "Foxhumansoul", 20 ] ], [ [ "FoxGreaterCanteenDimension", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxcrystallizedessence",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "id_suffix": "FoxEssMagicShaping",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "result_mult": 40,
+    "time": "30 m",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxTransmutationrune", 1 ] ], [ [ "FoxEssencenormal", 20000 ] ] 
+  ]
   }
 ]

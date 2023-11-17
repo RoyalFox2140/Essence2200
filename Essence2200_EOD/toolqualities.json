@@ -18,5 +18,10 @@
     "type": "tool_quality",
     "id": "FoxEssTechdrillbits",
     "name": { "str": "EssTech drill bits" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "FoxRunecrafting",
+    "name": { "str": "Runecrafting" }
   }
 ]

@@ -709,5 +709,12 @@
     "material": "clay",
     "symbol": ";",
     "color": "light_blue"
+  },
+  {
+    "id": "Foxrunecraftingaltar",
+    "type": "TOOL",
+    "copy-from": "fake_item",
+    "name": { "str": "runecrafting altar" },
+    "qualities": [ [ "FoxRunecrafting", 1 ] ]
   }
 ]

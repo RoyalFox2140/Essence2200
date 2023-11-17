@@ -277,6 +277,43 @@
   },
   {
     "type": "furniture",
+    "id": "Foxfrunecraftingaltar",
+    "looks_like": "f_boulder_small",
+    "name": "runecrafting altar",
+    "description": "A big rock shaped to focus essence and act as a convenient worktable. Adorned with crystallized essence, a magic circle is etched in.",
+    "symbol": "o",
+    "color": "dark_gray",
+    "move_cost_mod": 3,
+    "coverage": 30,
+    "required_str": 10,
+    "crafting_pseudo_item": "Foxrunecraftingaltar",
+    "flags": [ "TRANSPARENT", "MOUNTABLE", "TINY" ],
+    "bash": {
+      "str_min": 16,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [ { "item": "rock", "count": [ 32, 40 ] }, { "item": "Foxcrystallizedessence", "count": [ 0, 10 ] } ]
+    }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxfrunecraftingaltar",
+    "group": "FoxBuild_Foxfrunecraftingaltar",
+    "category": "FURN",
+    "required_skills": [ [ "FoxEssSpellcasting", 1 ] ],
+    "time": "2 h",
+    "components": [ [ [ "rock", 40 ] ], [ [ "Foxcrystallizedessence", 10 ] ] ],
+    "pre_special": "check_empty",
+    "post_furniture": "Foxfrunecraftingaltar"
+  },
+  {
+    "type": "construction_group",
+    "id": "FoxBuild_Foxfrunecraftingaltar",
+    "name": "Construct Runecrafting altar"
+  },
+  {
+    "type": "furniture",
     "id": "Foxf_canvas_wall",
     "looks_like": "f_canvas_wall",
     "name": "ballistic weave wall",
