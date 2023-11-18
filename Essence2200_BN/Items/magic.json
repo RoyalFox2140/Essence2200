@@ -109,7 +109,7 @@
     "name": { "str": "Magic tool magazine" },
     "description": "The ability for your magic tool to hold power. Load with rune charges.",
     "weight": "0 g",
-    "volume": "0 mL",
+    "volume": "0 ml",
     "price": 5600,
     "price_postapoc": 100,
     "material": "steel",
@@ -117,6 +117,7 @@
     "color": "brown",
     "ammo_type": "Foxrunechargesammo",
     "capacity": 5000,
+    "reload_time": 1,
     "reliability": 10
   },
   {
