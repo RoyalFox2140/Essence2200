@@ -248,5 +248,28 @@
     "name": "Quantum runes",
     "default": "FoxQuantumrune",
     "type": "ammunition_type"
+  },
+  {
+    "type": "AMMO",
+    "id": "Foxrunecharges",
+    "symbol": "*",
+    "color": "magenta",
+    "name": { "str": "Rune tool charge", "str_pl": "Rune tool charges" },
+    "description": "A combination of fire and telekinetic runes that act as ammo for some magic tools.",
+    "material": "stone",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "count": 1,
+    "ammo_type": "Foxrunechargesammo",
+    "effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
+    "bashing": 1,
+    "cutting": 1,
+    "to_hit": -3
+  },
+  {
+    "id": "Foxrunechargesammo",
+    "name": "Rune tool charges",
+    "default": "Foxrunecharges",
+    "type": "ammunition_type"
   }
 ]

@@ -38,11 +38,13 @@
   },
   {
     "id": "Foxmagiclighter",
+    "looks_like": "lighter",
     "type": "TOOL",
     "name": "magic lighter",
     "description": "This is your ability to start a fire effortlessly using your elemental magic. After an inital mana cost it's trivial to maintain.",
     "weight": "0 g",
     "volume": "0 ml",
+    "material": "FoxDivineMaterial",
     "price": 0,
     "symbol": ",",
     "color": "yellow",
@@ -52,28 +54,48 @@
   {
     "id": "Foxmagicsoldering",
     "type": "TOOL",
+    "looks_like": "sol",
     "name": "magic soldering iron",
     "description": "This is your ability to solder electronics via magic. It takes magic tool charges.",
     "weight": "0 g",
     "volume": "0 ml",
+    "material": "FoxDivineMaterial",
     "price": 0,
     "symbol": ",",
     "color": "yellow",
-    "use_action": [ { "type": "firestarter", "moves": 20 } ],
-    "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
+    "ammo": "battery",
+    "charges_per_use": 1,
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [ "plastic", "lead", "tin", "zinc" ],
+        "skill": "fabrication",
+        "cost_scaling": 0.1,
+        "move_cost": 1500
+      },
+      { "flame": false, "type": "cauterize" }
+    ],
+    "flags": [ "TRADER_AVOID", "BELT_CLIP"  ]
   },
   {
     "id": "Foxmagicwelder",
     "type": "TOOL",
+    "looks_like": "lighter",
     "name": "magic welder",
     "description": "This is your ability to weld via magic. It takes magic tool charges.",
     "weight": "0 g",
     "volume": "0 ml",
+    "material": "FoxDivineMaterial",
     "price": 0,
     "symbol": ",",
     "color": "yellow",
-    "use_action": [ { "type": "firestarter", "moves": 20 } ],
-    "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
+    "ammo": "weldgas",
+    "charges_per_use": 4,
+    "use_action": "OXYTORCH",
+    "qualities": [ [ "WELD", 4 ] ],
+    "magazines": [ [ "weldgas", [ "weldtank", "tinyweldtank" ] ] ],
+    "flags": [ "TRADER_AVOID", "BELT_CLIP"  ]
   },
   {
     "id": "Foxteletablet",
@@ -206,6 +228,7 @@
     ],
     "flags": [ "TRADER_AVOID", "BELT_CLIP"  ]
   },
+  
   {
     "id": "Foxlightorb",
     "type": "GENERIC",
