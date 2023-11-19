@@ -251,32 +251,83 @@
     ],
     "flags": [ "TRADER_AVOID", "BELT_CLIP"  ]
   },
-  
   {
     "id": "Foxlightorb",
     "type": "GENERIC",
     "category": "tools",
     "name": "magic light orb",
-    "description": "A small light that siphons essence passively from its surroundings.",
+    "description": "A small light that siphons essence passively from its surroundings. With a thought you can disable it.",
     "weight": 0,
     "volume": 0,
     "price": 0,
     "symbol": ",",
     "color": "light_green",
+    "use_action": {
+      "target": "Foxlightorboff",
+      "active": true,
+      "msg": "You disable your lamp.",
+      "menu_text": "disable",
+      "type": "transform"
+    },
     "flags": [ "LIGHT_20" ]
+  },
+  {
+    "id": "Foxlightorboff",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": "magic light orb (off)",
+    "description": "A small light that siphons essence passively from its surroundings. It is currently off.",
+    "weight": 0,
+    "volume": 0,
+    "price": 0,
+    "symbol": ",",
+    "color": "light_green",
+    "use_action": {
+      "target": "Foxlightorb",
+      "active": true,
+      "msg": "You turn on your lamp.",
+      "menu_text": "disable",
+      "type": "transform"
+    }
   },
   {
     "id": "Foxlightorbbig",
     "type": "GENERIC",
     "category": "tools",
     "name": "magic floodlight",
-    "description": "A small light that siphons essence passively from its surroundings and generates a ton of light.",
+    "description": "A small light that siphons essence passively from its surroundings and generates a ton of light. With a thought you can disable it.",
     "weight": 0,
     "volume": 0,
     "price": 0,
     "symbol": ",",
     "color": "light_green",
+    "use_action": {
+      "target": "Foxlightorbbigoff",
+      "active": true,
+      "msg": "You disable your floodlight.",
+      "menu_text": "disable",
+      "type": "transform"
+    },
     "flags": [ "LIGHT_200" ]
+  },
+  {
+    "id": "Foxlightorbbigoff",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": "magic floodlight (off)",
+    "description": "A small light that siphons essence passively from its surroundings and generates a ton of light. It is currently off.",
+    "weight": 0,
+    "volume": 0,
+    "price": 0,
+    "symbol": ",",
+    "color": "light_green",
+    "use_action": {
+      "target": "Foxlightorbbig",
+      "active": true,
+      "msg": "You turn on your floodlight.",
+      "menu_text": "enable",
+      "type": "transform"
+    }
   },
   {
     "id": "FoxTinyPocketDimension",

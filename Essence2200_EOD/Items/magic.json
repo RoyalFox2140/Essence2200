@@ -52,28 +52,71 @@
   {
     "id": "Foxmagicsoldering",
     "type": "TOOL",
+    "looks_like": "soldering_iron",
     "name": "magic soldering iron",
     "description": "This is your ability to solder electronics via magic. It takes magic tool charges.",
     "weight": "0 g",
     "volume": "0 ml",
+    "material": "FoxDivineMaterial",
     "price": 0,
     "symbol": ",",
     "color": "yellow",
-    "use_action": [ { "type": "firestarter", "moves": 20 } ],
-    "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
+    "ammo": "Foxrunechargesammo",
+    "charges_per_use": 1,
+    "initial_charges": 1,
+    "max_charges": 5000,
+    "magazines": [ [ "Foxrunechargesammo", [ "Foxmagictoolmag" ] ] ],
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [ "plastic", "lead", "tin", "zinc" ],
+        "skill": "fabrication",
+        "cost_scaling": 0.1,
+        "move_cost": 1500
+      },
+      { "flame": false, "type": "cauterize" }
+    ],
+    "flags": [ "TRADER_AVOID", "BELT_CLIP"  ]
   },
   {
     "id": "Foxmagicwelder",
     "type": "TOOL",
+    "looks_like": "oxy_torch",
     "name": "magic welder",
     "description": "This is your ability to weld via magic. It takes magic tool charges.",
     "weight": "0 g",
     "volume": "0 ml",
+    "material": "FoxDivineMaterial",
     "price": 0,
     "symbol": ",",
     "color": "yellow",
-    "use_action": [ { "type": "firestarter", "moves": 20 } ],
-    "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
+    "ammo": "Foxrunechargesammo",
+    "initial_charges": 1,
+    "max_charges": 5000,
+    "charges_per_use": 4,
+    "use_action": "OXYTORCH",
+    "qualities": [ [ "WELD", 4 ] ],
+    "magazines": [ [ "Foxrunechargesammo", [ "Foxmagictoolmag" ] ] ],
+    "flags": [ "TRADER_AVOID", "BELT_CLIP"  ]
+  },
+  {
+    "id": "Foxmagictoolmag",
+    "looks_like": "pressurized_tank",
+    "type": "MAGAZINE",
+    "name": { "str": "Magic tool magazine" },
+    "description": "The ability for your magic tool to hold power. Load with rune charges.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 5600,
+    "price_postapoc": 100,
+    "material": "steel",
+    "symbol": "#",
+    "color": "brown",
+    "ammo_type": "Foxrunechargesammo",
+    "capacity": 5000,
+    "reload_time": 1,
+    "reliability": 10
   },
   {
     "id": "Foxteletablet",
@@ -224,14 +267,79 @@
     "id": "Foxlightorb",
     "type": "GENERIC",
     "category": "tools",
-    "name": "light orb",
-    "description": "A small light that siphons essence passively from its surroundings.",
+    "name": "magic light orb",
+    "description": "A small light that siphons essence passively from its surroundings. With a thought you can disable it.",
     "weight": 0,
     "volume": 0,
     "price": 0,
     "symbol": ",",
     "color": "light_green",
+    "use_action": {
+      "target": "Foxlightorboff",
+      "active": true,
+      "msg": "You disable your lamp.",
+      "menu_text": "disable",
+      "type": "transform"
+    },
     "flags": [ "LIGHT_20" ]
+  },
+  {
+    "id": "Foxlightorboff",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": "magic light orb (off)",
+    "description": "A small light that siphons essence passively from its surroundings. It is currently off.",
+    "weight": 0,
+    "volume": 0,
+    "price": 0,
+    "symbol": ",",
+    "color": "light_green",
+    "use_action": {
+      "target": "Foxlightorb",
+      "active": true,
+      "msg": "You turn on your lamp.",
+      "menu_text": "disable",
+      "type": "transform"
+    }
+  },
+  {
+    "id": "Foxlightorbbig",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": "magic floodlight",
+    "description": "A small light that siphons essence passively from its surroundings and generates a ton of light. With a thought you can disable it",
+    "weight": 0,
+    "volume": 0,
+    "price": 0,
+    "symbol": ",",
+    "color": "light_green",
+    "use_action": {
+      "target": "Foxlightorbbigoff",
+      "active": true,
+      "msg": "You disable your floodlight.",
+      "menu_text": "disable",
+      "type": "transform"
+    },
+    "flags": [ "LIGHT_200" ]
+  },
+  {
+    "id": "Foxlightorbbigoff",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": "magic floodlight (off)",
+    "description": "A small light that siphons essence passively from its surroundings and generates a ton of light. It is currently off",
+    "weight": 0,
+    "volume": 0,
+    "price": 0,
+    "symbol": ",",
+    "color": "light_green",
+    "use_action": {
+      "target": "Foxlightorbbig",
+      "active": true,
+      "msg": "You turn on your floodlight.",
+      "menu_text": "enable",
+      "type": "transform"
+    }
   },
   {
     "id": "FoxTinyPocketDimension",
