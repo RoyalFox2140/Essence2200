@@ -76,12 +76,12 @@
   {
     "id": "FoxShadowsteelbatonextend",
     "type": "GENERIC",
-    "copy-from": "baton",
+    "copy-from": "FoxShadowsteelbaton",
     "weapon_category": [ "BATONS" ],
     "name": { "str": "Shadowsteel baton (extended)", "str_pl": "Shadowsteel batons (extended)" },
     "description": "A telescoping Shadowsteel baton that is about to hurt someone a lot more than the regular kind.  Activate to collapse.",
     "to_hit": 2,
-    "techniques": [ "DURABLE_MELEE", "NONCONDUCTIVE", "WBLOCK_1", "RAPID" ],
+    "techniques": [ "WBLOCK_1", "RAPID" ],
     "use_action": { "menu_text": "Collapse", "type": "transform", "target": "FoxShadowsteelbaton", "msg": "You collapse your baton." },
     "volume": "750 ml",
     "bashing": 25
