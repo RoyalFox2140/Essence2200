@@ -263,6 +263,53 @@
   },
   {
     "type": "furniture",
+    "id": "Foxfalloyingbarreladvanced",
+    "looks_like": "f_standing_tank",
+    "name": "grid advanced alloying barrel",
+    "symbol": "U",
+    "description": "An advanced alloying barrel connected to the power grid.",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 10,
+    "required_str": -1,
+    "crafting_pseudo_item": "Foxfake_alloybarreladvanced",
+    "flags": [ "TRANSPARENT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": {
+      "items": [ { "item": "Foxalloybarreladvanced", "count": 1 }, { "item": "cable", "charges": 5 } ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "Foxalloybarreladvanced", "count": 1 },
+        { "item": "cable", "charges": 5 }
+      ]
+    }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxfalloyingbarreladvanced",
+    "group": "Foxplace_Foxfalloyingbarreladvanced",
+    "category": "FURN",
+    "required_skills": [ [ "electronics", 1 ] ],
+    "time": "1 m",
+    "qualities": [ [ { "id": "SCREW", "level": 1 } ] ],
+    "using": [ [ "soldering_standard", 5 ] ],
+    "components": [ [ [ "Foxalloybarreladvanced", 1 ] ], [ [ "cable", 5 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "dark_craftable": true,
+    "post_furniture": "Foxfalloyingbarreladvanced"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_Foxfalloyingbarreladvanced",
+    "name": "Install Advanced Alloying Barrel"
+  },
+  {
+    "type": "furniture",
     "id": "Foxfportalnexusmagic",
     "name": "portal nexus",
     "symbol": "T",

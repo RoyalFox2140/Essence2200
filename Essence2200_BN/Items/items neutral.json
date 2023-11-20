@@ -63,6 +63,26 @@
     "qualities": [ [ "HAMMER", 1 ] ]
   },
   {
+    "id": "FoxAdamantineslag",
+    "type": "AMMO",
+    "looks_like": "steel_chunk",
+    "category": "spare_parts",
+    "name": { "str": "Adamantine slag" },
+    "description": "Useless slag of Adamantine with bits of metal left in random spots. You'll need to clean it up.",
+    "weight": "100 g",
+    "volume": "312 ml",
+    "price": 1000,
+    "price_postapoc": 10,
+    "bashing": 8,
+    "to_hit": -2,
+    "stack_size": 1,
+    "material": "FoxAdamantine",
+    "symbol": ",",
+    "color": "light_green",
+    "ammo_type": "components",
+    "qualities": [ [ "HAMMER", 1 ] ]
+  },
+  {
     "id": "Foxcrystallizedessence",
     "type": "AMMO",
     "looks_like": "material_rocksalt",
@@ -379,6 +399,43 @@
     "flags": [ "USES_GRID_POWER" ]
   },
   {
+    "id": "Foxalloybarreladvanced",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "Advanced Alloying Barrel" },
+    "description": "A 200L barrel created completely from Adamantine and using heating elements with a battery to maintain a suitable temperature to alloy metals. It'll take a little effort to scrape your metal out of the barrel but it's the best you'll get without telekinetics. Because its a giant hotplate, it can be used as one if you're brave.",
+    "weight": "16000 g",
+    "volume": "230 L",
+    "looks_like": "55gal_drum",
+    "price": 100000,
+    "price_postapoc": 2000,
+    "to_hit": -5,
+    "bashing": 30,
+    "material": "FoxAdamantine",
+    "symbol": ";",
+    "color": "dark_gray",
+    "ammo": "battery",
+    "charges_per_use": 5,
+    "use_action": "HOTPLATE",
+    "magazines": [
+      [
+        "battery",
+        [ "small_storage_battery", "battery_car", "battery_motorbike" ]
+      ]
+    ],
+    "magazine_well": "6250 ml",
+    "flags": [ "DURABLE_MELEE" ]
+  },
+  {
+    "id": "Foxfake_alloybarreladvanced",
+    "copy-from": "fake_item",
+    "type": "TOOL",
+    "name": { "str": "grid advanced alloying barrel" },
+    "sub": "Foxalloybarreladvanced",
+    "max_charges": 2500,
+    "flags": [ "USES_GRID_POWER" ]
+  },
+  {
     "id": "Foxmachiningstation",
     "type": "TOOL",
     "category": "tools",
@@ -488,7 +545,7 @@
   {
     "id": "Foxhumanmagesoul",
     "type": "AMMO",
-	"looks_like": "steel_chunk",
+    "looks_like": "steel_chunk",
     "category": "spare_parts",
     "name": { "str": "Human mage Soul", "str_pl": "Human mage Souls" },
     "description": "A soul harvested from a dead mage. It will give you significant power.",

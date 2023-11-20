@@ -63,6 +63,26 @@
     "qualities": [ [ "HAMMER", 1 ] ]
   },
   {
+    "id": "FoxAdamantineslag",
+    "type": "AMMO",
+    "looks_like": "steel_chunk",
+    "category": "spare_parts",
+    "name": { "str": "Adamantine slag" },
+    "description": "Useless slag of Adamantine with bits of metal left in random spots. You'll need to clean it up.",
+    "weight": "100 g",
+    "volume": "312 ml",
+    "price": 1000,
+    "price_postapoc": 10,
+    "bashing": 8,
+    "to_hit": -2,
+    "stack_size": 1,
+    "material": "FoxAdamantine",
+    "symbol": ",",
+    "color": "light_green",
+    "ammo_type": "components",
+    "qualities": [ [ "HAMMER", 1 ] ]
+  },
+  {
     "id": "Foxcrystallizedessence",
     "type": "AMMO",
     "looks_like": "material_rocksalt",

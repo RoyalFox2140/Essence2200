@@ -208,5 +208,142 @@
     "components": [
     [ [ "FoxTaroline", 250 ] ]
   ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxAdamantineslag",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxAbsorptionAlloying",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 4 ] ],
+    "//": " 10% aluminum, 20% copper, and 70% iron for adamantine as an abstract. For 25 liters of Adamantine thats 2.5 liter to 5 liters to 17.5 liters,.",
+    "difficulty": 3,
+    "result_mult": 80,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "Foxalloybarrel", 3000 ] ] ],
+    "components": [
+    [ [ "steel_lump", 142 ], [ "steel_chunk", 284 ], [ "scrap", 700 ] ],
+    [ [ "aluminum_foil", 50000 ], [ "material_aluminium_ingot", 25 ] ], 
+    [ [ "scrap_copper", 200 ], [ "copper", 5000 ] ], 
+    [ [ "Foxrefinedmotordew", 40000 ] ] 
+  ]
+  },
+  {
+    "type": "uncraft",
+    "result": "FoxAdamantineslag",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "components": [
+    [ [ "scrap", 2 ] ],
+    [ [ "aluminum_foil", 125 ] ], 
+    [ [ "copper", 12 ] ], 
+    [ [ "FoxAdamantinechunk", 1 ] ] 
+      ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foximperialsteelchunk",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxAbsorptionAlloyinggoodmotordew",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 4 ] ],
+    "difficulty": 2,
+    "result_mult": 100,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "Foxalloybarreladvanced", 1500 ] ] ],
+    "components": [
+     [ [ "steel_lump", 200 ], [ "steel_chunk", 400 ], [ "scrap", 1000 ] ], [ [ "Foxrefinedmotordew", 20000 ] ] 
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxAdamantinechunk",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxAbsorptionAlloyinggoodmotordew",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 4 ] ],
+    "//": " 10% aluminum, 20% copper, and 70% iron for adamantine as an abstract. For 25 liters of Adamantine thats 2.5 liter to 5 liters to 17.5 liters,.",
+    "difficulty": 4,
+    "result_mult": 100,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "Foxalloybarreladvanced", 2500 ] ] ],
+    "components": [
+      [ [ "steel_lump", 142 ], [ "steel_chunk", 284 ], [ "scrap", 700 ] ],
+      [ [ "aluminum_foil", 50000 ], [ "material_aluminium_ingot", 25 ] ], 
+      [ [ "scrap_copper", 200 ], [ "copper", 5000 ] ], 
+      [ [ "Foxmotordew", 20000 ] ] 
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxAdamantinechunk",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxAbsorptionAlloyinggoodess",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 4 ] ],
+    "//": " 10% aluminum, 20% copper, and 70% iron for adamantine as an abstract. For 25 liters of Adamantine thats 2.5 liter to 5 liters to 17.5 liters,.",
+    "difficulty": 4,
+    "result_mult": 200,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "Foxalloybarreladvanced", 2500 ] ] ],
+    "components": [
+      [ [ "steel_lump", 142 ], [ "steel_chunk", 284 ], [ "scrap", 700 ] ],
+      [ [ "aluminum_foil", 50000 ], [ "material_aluminium_ingot", 25 ] ], 
+      [ [ "scrap_copper", 200 ], [ "copper", 5000 ] ], 
+      [ [ "FoxEssencenormal", 20000 ] ] 
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxShadowsteelchunk",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxAbsorptionAlloyinggoodess",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 4 ] ],
+    "//": " 50% lead, 35% bismuth, 10% iron, 5% tin for Shadowsteel as an abstract. For 25 liters of Shadowsteel thats 12.5 liters to 7.55 liters to 2.5 liters to 1.25 liters.",
+    "difficulty": 4,
+    "result_mult": 100,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "Foxalloybarreladvanced", 2500 ] ] ],
+    "components": [
+      [ [ "lead", 50000 ] ],
+      [ [ "bismuth", 30200 ] ], 
+      [ [ "steel_lump", 20 ], [ "steel_chunk", 40 ], [ "scrap", 100 ] ],
+      [ [ "tin", 5000 ] ], 
+      [ [ "FoxEssencenormal", 20000 ] ] 
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "lead",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxTraceElementstargas",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 2,
+    "result_mult": 80,
+    "//": "I HATE MATH HOLY SHIT. 50l rock and 50l soil. 100 L of targas to extract elements. We bend the rules on trace elements here 20l glass 20l lead 20l bismuth 5l alum 10l tin 5l scrap 20l clay.",
+    "time": "1 h",
+    "autolearn": true,
+    "byproducts": [ [ "bismuth", 80000 ], [ "tin", 40000 ], [ "material_aluminium_ingot", 50 ], [ "scrap", 200 ], [ "glass_shard", 80 ], [ "clay_lump", 80 ] ],
+    "tools": [ [ [ "Foxalloybarrel", 1000 ] ], [ [ "Foxalloybarreladvanced", 750 ] ] ],
+    "components": [
+    [ [ "Foxtargas", 20000 ] ],
+    [ [ "rock", 200 ] ],
+    [ [ "material_soil", 10 ] ]
+  ]
   }
 ]
