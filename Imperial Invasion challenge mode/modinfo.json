@@ -7,6 +7,6 @@
     "maintainers": [ "RoyalFox" ],
     "description": "Dramatically injects Imperial soldiers into the world for extra challenge.",
     "category": "content",
-    "dependencies": [ "bn", "Essence 2200" ]
+    "dependencies": [ "bn", "Essence2200_BN" ]
   }
 ]

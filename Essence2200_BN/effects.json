@@ -1,0 +1,581 @@
+[
+  {
+    "type": "effect_type",
+    "id": "FoxDarkVision",
+    "name": [ "Dark Vision" ],
+    "desc": [ "You can see in the dark." ],
+    "apply_message": "You gain Dark Vision.",
+    "remove_message": "You lose your Dark Vision.",
+    "rating": "good",
+    "flags": [ "EFFECT_NIGHT_VISION" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxCureAilment",
+    "name": [ "Cure Ailment" ],
+    "desc": [ "Your body is being cleansed of diseases and parasites." ],
+    "apply_message": "Your body is being cleansed of diseases and parasites.",
+    "remove_message": "Your body has finished cleansing itself of diseases and parasites.",
+    "rating": "good",
+    "removes_effects": [ 
+    "infected",
+    "bite", 
+    "recover", 
+    "spores", 
+    "fungus", 
+    "dermatik", 
+    "bloodworms", 
+    "paincysts", 
+    "brainworms", 
+    "tapeworm", 
+    "poison",
+    "stung",
+    "badpoison",
+    "foodpoison",
+    "paralyzepoison",
+    "common_cold",
+    "flu" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxClimateControl",
+    "name": [ "Elemental Climate Control" ],
+    "desc": [ "You're immune to temperature effects." ],
+    "apply_message": "Your whole body feels comfortable no matter how many layers you wear.",
+    "remove_message": "Your body once again feels outside temperature.",
+    "rating": "good",
+    "removes_effects": [ "hot", "hot_speed", "blisters", "cold", "frostbite" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxDarkVisioneviction",
+    "name": [ "Dark Vision Dispel" ],
+    "desc": [ "Dispels Dark Vision." ],
+    "apply_message": "You dispel your Dark Vision.",
+    "remove_message": "You dispel your Dark Vision.",
+    "removes_effects": [ "FoxDarkVision" ],
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxTemperaturePrayer",
+    "name": [ "Prayer: Temperature Protection" ],
+    "desc": [ "You are being protected from extreme temperatures. Don't try your luck against a volcano." ],
+    "apply_message": "You feel reassured knowing an external presence is watching over you.",
+    "remove_message": "Your prayer has run out. Blizzards and volcanoes will to hurt a lot.",
+    "removes_effects": [ "hot", "hot_speed", "blisters", "cold", "frostbite" ],
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSTRPrayer",
+    "name": [ "Prayer: Strength" ],
+    "desc": [ "You are being granted extra strength." ],
+    "apply_message": "You feel reassured knowing an external presence is watching over you.",
+    "remove_message": "Your prayer has run out. You're weaker.",
+    "base_mods": { "str_mod": [ 12 ] },
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxDEXPrayer",
+    "name": [ "Prayer: Dexterity" ],
+    "desc": [ "You are being granted extra dexterity." ],
+    "apply_message": "You feel reassured knowing an external presence is watching over you.",
+    "remove_message": "Your prayer has run out. You're less dexterous.",
+    "base_mods": { "dex_mod": [ 12 ] },
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxPERPrayer",
+    "name": [ "Prayer: Perception" ],
+    "desc": [ "You are being granted extra perception." ],
+    "apply_message": "You feel reassured knowing an external presence is watching over you.",
+    "remove_message": "Your prayer has run out. You don't see things as well.",
+    "base_mods": { "per_mod": [ 12 ] },
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxINTPrayer",
+    "name": [ "Prayer: Intelligence" ],
+    "desc": [ "You are being granted extra intelligence." ],
+    "apply_message": "You feel reassured knowing an external presence is watching over you.",
+    "remove_message": "Your prayer has run out. You're dumber.",
+    "base_mods": { "int_mod": [ 12 ] },
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSpeedPrayer",
+    "name": [ "Prayer: Speed" ],
+    "desc": [ "You are being granted extra speed." ],
+    "apply_message": "You feel reassured knowing an external presence is watching over you.",
+    "remove_message": "Your prayer has run out. You're slower.",
+    "base_mods": { "speed_mod": [ 50 ] },
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSpiritRespite",
+	"rating": "good",
+    "base_mods": {
+      "fatigue_min": [ -100 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSpiritTremble",
+	"rating": "good",
+    "base_mods": {
+      "speed_mod": [ -50 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSpiritOnrush",
+	"rating": "good",
+    "base_mods": {
+      "fatigue_min": [ -10 ],
+	  "speed_mod": [ 50 ]
+    }
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxLogWallt",
+    "terrain": [
+      {
+        "result": "t_wall_log",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxWoodWallt",
+    "terrain": [
+      {
+        "result": "t_wall_wood",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxStoneWallt",
+    "terrain": [
+      {
+        "result": "t_rock_wall",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxBrickWallt",
+    "terrain": [
+      {
+        "result": "t_brick_wall",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxMetalWallt",
+    "terrain": [
+      {
+        "result": "t_wall_metal",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxConcreteWallt",
+    "terrain": [
+      {
+        "result": "t_sconc_wall",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxRConcreteWallt",
+    "terrain": [
+      {
+        "result": "t_strconc_wall",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxLogRooft",
+    "terrain": [
+      {
+        "result": "t_floor_primitive",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxWoodRooft",
+    "terrain": [
+      {
+        "result": "t_floor",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxMetalRooft",
+    "terrain": [
+      {
+        "result": "t_metal_floor",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxConcreteRooft",
+    "terrain": [
+      {
+        "result": "t_thconc_floor",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxRConcreteRooft",
+    "terrain": [
+      {
+        "result": "t_strconc_floor",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxToilett",
+    "furniture": [
+      {
+        "result": "f_toilet",
+        "valid_furniture": [ "f_null" ],
+        "message": "The world bends to your power, you conjure a toilet and connect it to any local plumbing."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxBathtubt",
+    "furniture": [
+      {
+        "result": "f_bathtub",
+        "valid_furniture": [ "f_null" ],
+        "message": "The world bends to your power, you conjure a bath tub and connect it to any local plumbing."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxSinkt",
+    "furniture": [
+      {
+        "result": "f_sink",
+        "valid_furniture": [ "f_null" ],
+        "message": "The world bends to your power, you conjure a sink and connect it to any local plumbing."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxmagicaquifer",
+    "furniture": [
+      {
+        "result": "Foxfmagicaquifer",
+        "valid_furniture": [ "f_null" ],
+        "message": "You open a portal to a distant place."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxmagicaquiferbad",
+    "furniture": [
+      {
+        "result": "Foxfmagicaquiferbad",
+        "valid_furniture": [ "f_null" ],
+        "message": "You open a portal to a distant place."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxmagicsaltaquifer",
+    "furniture": [
+      {
+        "result": "Foxfmagicsaltaquifer",
+        "valid_furniture": [ "f_null" ],
+        "message": "You open a portal to a distant place."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxportalnexusmagic",
+    "furniture": [
+      {
+        "result": "Foxfportalnexusmagic",
+        "valid_furniture": [ "f_null" ],
+        "message": "You open a portal nexus."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxUpturnearth",
+    "terrain": [
+      {
+        "result": "t_dirtmound",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, the dirt upturns."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxappletree",
+    "terrain": [
+      {
+        "result": "t_tree_apple",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxapricottree",
+    "terrain": [
+      {
+        "result": "t_tree_apricot",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxcherrytree",
+    "terrain": [
+      {
+        "result": "t_tree_cherry",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxpeachtree",
+    "terrain": [
+      {
+        "result": "t_tree_peach",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxplumtree",
+    "terrain": [
+      {
+        "result": "t_tree_plum",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxpeartree",
+    "terrain": [
+      {
+        "result": "t_tree_pear",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxelderberrytree",
+    "terrain": [
+      {
+        "result": "t_tree_elderberry",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxmulberrytree",
+    "terrain": [
+      {
+        "result": "t_tree_mulberry",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxhickorytree",
+    "terrain": [
+      {
+        "result": "t_tree_hickory",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxbeechtree",
+    "terrain": [
+      {
+        "result": "t_tree_beech",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxwalnuttree",
+    "terrain": [
+      {
+        "result": "t_tree_walnut",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxchestnuttree",
+    "terrain": [
+      {
+        "result": "t_tree_chestnut",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxhazelnuttree",
+    "terrain": [
+      {
+        "result": "t_tree_hazelnut",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxcoffeetree",
+    "terrain": [
+      {
+        "result": "t_tree_coffee",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxmapletree",
+    "terrain": [
+      {
+        "result": "t_tree_maple",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxwillowtree",
+    "terrain": [
+      {
+        "result": "t_tree_willow",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxbirchtree",
+    "terrain": [
+      {
+        "result": "t_tree_birch",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxblackjacktree",
+    "terrain": [
+      {
+        "result": "t_tree_blackjack",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxKoolaidpoison",
+    "name": [ "Awakening Sickness" ],
+    "desc": [ "Awakening your magical potential this way was a terrible idea. You can tell you'll be incapacitated a full week. It will not get better until it's completely out of your system." ],
+    "apply_message": "An entire record of human history flashes before your eyes in seconds, overwhelming your mind with overwhelming counts of atrocities and suffering. Your body rejects the changes and is in constant agony. You begin to understand magic, psionics, and lost human history.",
+    "remove_message": "Your body has manifested newfound powers, you now have an essence-based soul linked to your body. Should your body perish your soul will live on. You understand your newfound powers.",
+    "rating": "bad",
+    "max_duration": "168 h",
+    "base_mods": {
+      "speed_mod": [ -50 ],
+      "hit_mod": [ -5 ],
+      "pain_min": [ -50 ],
+      "per_mod": [ -8 ],
+      "dex_mod": [ -8 ],
+      "str_mod": [ -8 ],
+      "dodge_mod": [ -5 ]
+    }
+  }
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxbangtail",
+    "name": "bangtail",
+    "description": "An essence-mutated cattail, known as a bangtail. The stalk is used to make a form of smokeless gunpowder and the rhizome is hallucinogenic.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxbangtailrhizome" }, { "drop": "Foxbangtailstalk", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_bangtail", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxmireweed",
+    "name": "mireweed",
+    "description": "Mireweeds are a wetland plant which collects fresh water in a large fruit.  Nobody is sure why it's named a weed, it can grow anywhere in brackish water and saps the nutrients to make a strong stimulant.  It was likely named by smugglers trying to grow storm ferns, frustrated at their failed drug harvests.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxmireweed", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_mireweed", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxbrineweed",
+    "name": "brineweed",
+    "description": "Brineweeds grow deep in the Great Swamps and other corrupted marshlands, they are a concentrated coagulant and lessen the effects of the flu.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxbrineweed", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_brineweed", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxlunarweed",
+    "name": "lunarweed",
+    "description": "This swamp weed was thought to have been native to Lunar Valley until Dwellers foraged it to extinction.  It has anesthetic properties when refined, if used raw it is reportedly similar to nitrous oxide and was used for religious practices.  Whether one can reach spiritual enlightenment from plants is still to be determined.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxlunarweed", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_lunarweed", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxjellyweed",
+    "name": "jellyweed",
+    "description": "A disgusting wetland plant which coagulates into a jelly when fried and is commonly used as a disinfectant or painkiller.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxjellyweed", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_jellyweed", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxfishweed",
+    "name": "fishweed",
+    "description": "Sometimes mistaken for swamp fish as one likely evolved to appear as the other, it is known to kill fungi and if ingested makes a user sleepy.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxfishweed", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_fishweed", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxstormfern",
+    "name": "storm fern",
+    "description": "The pride of the Great Swamps, this typical fern requires care to cultivate.  While its leaves are anti-psychotic and the roots hold a stimulant property, with proper chemical reaction and other extracts it creates the most addictive drug known to humanity.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxstormfern", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_stormfern", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxmireroot",
+    "name": "mireroot",
+    "description": "A common root that grows in the mud of the Great Swamps.  Historically the bane of Imperial and Rotter military operations, it is a powerful antibiotic that led to an overabundance of medicine in rebel-controlled lands and great difficulty with biological warfare.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxmireroot", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_mireroot", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxcairnroot",
+    "name": "cairnroot",
+    "description": "A brownish-orange root known to grow in most regions, it can expel radioactive particles from the body and acts as a painkiller.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxcairnroot", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_cairnroot", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxsmugglersroot",
+    "name": "smugglers root",
+    "description": "This dangerous and highly illegal root is historically used for the production of explosives or hallucinogenic drugs.  Though it prefers arid climates and sandy soil, it will readily grow anywhere.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxsmugglersroot", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_smugglersroot", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxbloodgrass",
+    "name": "blood grass",
+    "description": "Scientists are unsure what advantage the grass gained when it became red, it is used as a coagulant and mild stimulant.  Mages will note it is used as a substitute for human blood.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxbloodgrass", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_bloodgrass", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxstimgrass",
+    "name": "stim grass",
+    "description": "This grass turned bright orange and became a powerful stimulant.  It contains a hallucinogenic compound that is not normally observed in unrefined usage, the stimulant chemical is also used in explosives manufacturing either separately or with gravebane shrubs.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxstimgrass", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_stimgrass", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxwoegrass",
+    "name": "woe grass",
+    "description": "A bone white grass that purges parasites on ingesting, a sedative is extracted from large amounts of it.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxwoegrass", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_woegrass", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxbroomgrass",
+    "name": "broom grass",
+    "description": "Resembling the yellow fibers of an old-fashioned broom, it is known to contain small traces of disinfectants and coagulants.  They are a valuable source of durable fibers for mages",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxbroomgrass", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_broomgrass", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxwhitewound",
+    "name": "white wound",
+    "description": "These bone white flowers are known to sprout on corpses where they continue to spread, their roots are antibiotic and their petals are a mild painkiller.  Not considered very useful given the trace quantities of chemicals, it may hold anomalous healing properties which have never been officially investigated.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxwhitewound", "base_num": [ 3, 4 ] }, { "drop": "Foxcorpsefuzz" }, { "drop": "Foxseed_whitewound", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxcorpsefuzz",
+    "name": "corpse fuzz",
+    "description": "A white moss which covers and overtakes corpses, it contains small amounts of antibiotics and coagulants which is used for wound dressings.  It is an important industry for many communities to cultivate it via prisoner execution.  It is also a weed that grows around other plants associated with death.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxcorpsefuzz", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_corpsefuzz", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxghostthistle",
+    "name": "ghost thistle",
+    "description": "A solid white thistle which grows near sites of mass death, known to aid insomnia.  In large quantities it will cause hallucinations and madness.  It may also collect the power of the dead.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxghostthistle", "base_num": [ 3, 4 ] }, { "drop": "Foxcorpsefuzz" }, { "drop": "Foxseed_ghostthistle", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxgravebaneshrub",
+    "name": "gravebane shrub",
+    "description": "A solid white bush which grows near corpses and inside graveyards, it is another source of anesthetic but is well-known for it's usage as explosives when combined with stim grass.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxgravebaneshrub", "base_num": [ 3, 4 ] }, { "drop": "Foxcorpsefuzz" }, { "drop": "Foxseed_gravebaneshrub", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxacidlemonbush",
+    "name": "acid lemon bush",
+    "description": "Though it may look like a lemon, these fruit contain taroline and are thus a naturally-occuring combustible fuel that very angry individuals have used to burn homes and military equipment with.",
+    "symbol": "f",
+    "looks_like": "f_mutpoppy",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxacidlemon", "base_num": [ 6, 8 ] }, { "drop": "Foxseed_acidlemon", "base_num": [ 4, 8 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  }  
+]

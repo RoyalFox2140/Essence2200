@@ -1,0 +1,34 @@
+[
+    {
+      "type": "snippet",
+      "category": "epilogue_factions",
+      "text": [
+        {
+          "id": "Fox_epilogue_SGA_0",
+          "text": "    After you personally drove the Shi from this world and ensured the Imperials might threaten other dimensions due to technology advances, the Shi detonated their failsafe bomb which reduced the system to dust and sealed it off. Existence of this dimension is buried in the archives of both factions and forgotten in the wake of a galactic war…"
+        },
+        {
+          "id": "Fox_epilogue_SGA_115",
+          "text": "    It was a brutal war, but the Imperials were driven away without too many survivor groups lost. New England remains shattered and the fears of the 2068 apoocalypse shows a bleak future, but the Shi have fulfilled their purpose and leave to prepare for something worse…"
+        },
+        {
+          "id": "Fox_epilogue_SGA_140",
+          "text": "    It was a tough war, but the united coalition of the remaining native humans in New England drove the Imperials out alongside the Shi. Satisfied this dimension may live on, the Shi leave to defend their own dimension from the Adromedan threat…"
+        }
+      ]
+    },
+    {
+      "type": "snippet",
+      "category": "epilogue_factions",
+      "text": [
+        {
+          "id": "Fox_epilogue_IMP_0",
+          "text": "    After Central Command went down the officers who survived were hunted and executed, while the many clones and ordinary personnel had their chance at freedom. They gradually filtered into existing communities, made their own, or died. High command won't be happy about it, but they won't be coming back here…"
+        },
+        {
+          "id": "Fox_epilogue_IMP_115",
+          "text": "    With the Imperials ignored by many of the survivor groups and left to gain ground, the Shi was forced to crack the world and this reduced everything to dust, including the Imperials…"
+        }
+      ]
+    }
+]
