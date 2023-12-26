@@ -1,8 +1,0 @@
-[
-  {
-    "id": "FoxSGA_Napalmbullet",
-    "type": "ammo_effect",
-    "aoe": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 1, "size": 4 },
-    "explosion": { "damage": 8, "radius": 3, "fire": true }
-  }
-]

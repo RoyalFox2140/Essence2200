@@ -2,7 +2,7 @@ A list of plants, either planned or in the game, and the properties they will ha
 
 Swamps
 
-Bangtails       explosives
+Bangtails       explosives, hallucinogen
 Mireweed        fresh water, stimulant
 Brineweed       Coagulant, flu medicine
 Lunarweed       anesthetic
@@ -15,10 +15,10 @@ Fields and Woods
 
 Cairnroot       painkiller, purges radiation
 Smugglers Root  hallucinogen, explosives
-Blood grass     coagulant and stimulant
+Blood grass     Coagulant and stimulant
 Stim grass      easy stimulant, refine INTO hallucinogen or explosives w/gravebane shrub
 Woe grass       sedative, purges parasites
-Broom Grass     disinfectant and coagulant
+Broom Grass     disinfectant and Coagulant
 White Wound     Antibiotic and Painkiller
 Corpse Fuzz     Antibiotic and Coagulant
 Ghost thistle   Hallucinogen, insomnia
@@ -35,7 +35,7 @@ A Stimulant
 B Painkiller
 C Anesthetic
 D Disinfectant
-E Coagulant
+E Coagulant/Regeneratives
 F Hallucinogen
 G Antibiotic
 H Sedative/Downer

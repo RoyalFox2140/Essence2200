@@ -104,5 +104,13 @@
 	  { "item": "Foximpballisticparts", "prob": 90, "count": [ 1, 4 ] },
 	  { "item": "Foximplaserparts", "prob": 90, "count": [ 1, 9 ] }
     ]
+  },
+  {
+    "id": "Foxmonskeletonconjuredrops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "bone_human", "prob": 99, "count": [ 1, 20 ] }
+    ]
   }
 ]

@@ -24,7 +24,7 @@
     "id": "Foximperialrationbad",
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
-    "name": { "str": "Imperial sludge ration" },
+    "name": { "str": "Imperial Sludge ration" },
     "description": "This biscuit is made from essence sludge that has been rendered safe to eat through refinement and cooking. It has an earthy taste, similar to some nuts or literal dirt, but being made from renewable ground sludge makes it cruelty free, some enjoy this. Having a high concentration of essence in a digestible form renders it calorie dense and full of vitamins.",
     "weight": "150 g",
     "volume": "250 ml",

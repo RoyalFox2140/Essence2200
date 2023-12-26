@@ -14,7 +14,7 @@
     "difficulty": 1,
     "max_level": 1,
     "spell_class": "FoxSchoolsTransmutation",
-	"skill": "FoxEssSpellcasting",
+    "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
     "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
   },

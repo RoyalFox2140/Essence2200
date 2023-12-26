@@ -25,7 +25,6 @@
   "stamina_regen_modifier": 1.1,
   "max_stamina_modifier": 4,
   "hp_adjustment": 100,
-  "mana_modifier": 500,
   "noise_modifier": 0.0,
   "armor": [ { "parts": "ALL", "bullet": 60, "heat": 30, "cold": 30, "acid": 400, "electric": 400 } ],
   "weight_capacity_modifier": 100,
@@ -46,6 +45,57 @@
       { "part": "hand_r", "neutral": 500 },
       { "part": "torso", "neutral": 500 }
     ]
+  },
+  {
+    "type": "mutation",
+    "id": "FoxNightwalkerBody",
+    "name": { "str": "Nightwalker Physiology" },
+    "points": 0,
+    "purifiable": false,
+    "description": "Soldiers become useless after permanent injuries, death, and old age, you were designed to solve this.  Your body is tied to essence on a cosmic level, you will regenerate any wound, never involuntarily age past your late teens, you have limited shapeshifting ability via changing hair and eye color, you can perform beyond biological limits thanks to essence, and other organisms will not survive inside of you.",
+    "starting_trait": false,
+    "types": [ "RUNNING" ],
+    "visibility": 0,
+    "ugliness": 0,
+    "mana_modifier": 500
+  },
+  {
+    "type": "mutation",
+    "id": "FoxNightwalkerPsionics",
+    "name": { "str": "Nightwalker Psionics" },
+    "points": 0,
+    "purifiable": false,
+    "description": "Savant found it far easier to instill psionic and magical power the younger the person was, you were still inside her when your powers surfaced.  Though most mages train their whole lives and experiment with meditation, drugs, and studying religious texts, you had a headstart.  Your powers layed dormant until the war happened.",
+    "starting_trait": false,
+    "types": [ "RUNNING" ],
+    "visibility": 0,
+    "ugliness": 0
+  },
+  {
+    "type": "mutation",
+    "id": "FoxNightwalkerUpbringing",
+    "name": { "str": "Nightwalker Upbringing" },
+    "points": 0,
+    "purifiable": false,
+    "description": "There was no centralized education system in the 2120's and 2130's.  You didn't learn to read until after the first wasteland war when you were 14, and besides a basic education you are mostly self-taught by old textbooks from the Warrens bookstores.  You'll have a very difficult time learning and reading but you do enjoy it significantly.",
+    "starting_trait": false,
+    "types": [ "RUNNING" ],
+    "visibility": 0,
+    "ugliness": 0
+  },
+  {
+    "type": "mutation",
+    "id": "FoxNightwalkerExtremeFatigue",
+    "name": { "str": "Extreme Fatigue" },
+    "points": 0,
+    "purifiable": false,
+    "description": "Your liver is damaged from extreme alcoholism and drug abuse, your lungs are scarred from poisonous gases and smoking, your body is covered in scars and you have minor bone injuries. Though your body can regenerate anything, even lost limbs, the constant physical abuse has taken its toll and your magic is consumed elsewhere, you'll need to restart your healing through a combination of magic and medicine.",
+    "starting_trait": false,
+    "types": [ "RUNNING" ],
+    "visibility": 0,
+    "ugliness": 0,
+    "mana_modifier": -1000,
+    "passive_mods": { "str_mod": -10, "dex_mod": -10 }
   },
   {
     "type": "mutation",

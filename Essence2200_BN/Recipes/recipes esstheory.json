@@ -42,7 +42,7 @@
     "difficulty": 0,
     "result_mult": 400,
     "//": "Here I am assuming 40% sand 20% clay 40% silt, and the silt becomes tarcrete. 100L motordew 5L refined 20L targas so 25L left",
-    "byproducts": [ [ "Foxrefinedmotordew", 10 ], [ "Foxtargas", 80 ], [ "material_sand", 80 ], [ "clay_lump", 40 ], [ "Foxtarcrete", 80 ] ],
+    "byproducts": [ [ "Foxrefinedmotordew", 10 ], [ "Foxtargas", 80 ], [ "material_sand", 80 ], [ "clay_lump", 40 ], [ "Foxtarcrete", 20 ] ],
     "time": "1 h",
     "autolearn": true,
     "tools": [ [ [ "water_boiling_heat", 1800, "LIST" ] ] ],
@@ -62,7 +62,7 @@
     "skills_required": [ [ "cooking", 5 ] ],
     "difficulty": 0,
     "result_mult": 200,
-    "byproducts": [ [ "FoxEssencenormal", 200 ], [ "Foxtargas", 100 ], [ "Foximpmotoroil", 40 ], [ "Foximpgrease", 40 ], [ "Foxtarcrete", 20 ] ],
+    "byproducts": [ [ "FoxEssencenormal", 200 ], [ "Foxtargas", 100 ], [ "Foximpmotoroil", 40 ], [ "Foximpgrease", 40 ], [ "Foxtarcrete", 5 ] ],
     "time": "1 h",
     "autolearn": true,
     "tools": [ [ [ "water_boiling_heat", 1800, "LIST" ] ] ],
@@ -88,7 +88,7 @@
     "tools": [ [ [ "water_boiling_heat", 2500, "LIST" ] ] ],
     "qualities": [ { "id": "FoxEssenceCracker", "level": 1 } ],
     "components": [
-    [ [ "Foxtarcrete", 400000 ] ]
+    [ [ "Foxtarcrete", 100 ] ]
   ]
   },
   {
@@ -144,7 +144,7 @@
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 }, { "id": "CHEM", "level": 2 } ],
     "components": [
     [ [ "Foxtargas", 12000 ] ],
-    [ [ "Foxtarcrete", 4000 ] ]
+    [ [ "Foxtarcrete", 5 ] ]
   ]
   },
   {
