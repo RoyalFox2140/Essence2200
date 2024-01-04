@@ -924,6 +924,104 @@
     ]
   },
   {
+    "id": "FoxKawakamisabre",
+    "copy-from": "rifle_auto",
+    "type": "GUN",
+    "name": { "str": "Kawakami Sabre mark 2" },
+    "looks_like": "m4a1",
+    "description": "SMG type gun like arbalest.",
+    "weight": "3100 g",
+    "volume": "1750 ml",
+    "barrel_length": "250 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "ascii_picture": "m4a1",
+    "material": [ "FoxShadowSteel", "FoxAdamantine" ],
+    "color": "dark_gray",
+    "ammo": "223",
+    "ranged_damage": { "damage_type": "bullet", "amount": 10 },
+    "dispersion": 180,
+    "durability": 6,
+    "min_cycle_recoil": 1350,
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "Burst", 3 ], [ "AUTO", "Auto", 5 ] ],
+    "magazines": [
+      [
+        "Fox556mmSGA",
+        [
+          "FoxSGA556mag"
+        ]
+      ],
+      [
+        "223",
+        [
+          "stanag30",
+          "stanag5",
+          "stanag10",
+          "stanag20",
+          "stanag40",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "survivor223mag"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "FoxKawakamiwatchman",
+    "copy-from": "rifle_auto",
+    "type": "GUN",
+    "name": { "str": "Kawakami Watchman mark 2" },
+    "looks_like": "m4a1",
+    "description": "lmg type gun like arbalest.",
+    "weight": "3100 g",
+    "volume": "1750 ml",
+    "barrel_length": "250 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "ascii_picture": "m4a1",
+    "material": [ "FoxShadowSteel", "FoxAdamantine" ],
+    "color": "dark_gray",
+    "ammo": "223",
+    "ranged_damage": { "damage_type": "bullet", "amount": 10 },
+    "dispersion": 180,
+    "durability": 6,
+    "min_cycle_recoil": 1350,
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "Burst", 3 ], [ "AUTO", "Auto", 5 ] ],
+    "magazines": [
+      [
+        "Fox556mmSGA",
+        [
+          "FoxSGA556mag"
+        ]
+      ],
+      [
+        "223",
+        [
+          "stanag30",
+          "stanag5",
+          "stanag10",
+          "stanag20",
+          "stanag40",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "survivor223mag"
+        ]
+      ]
+    ]
+  },
+  {
     "id": "FoxKawakamiBlackjack",
     "copy-from": "shotgun_base",
     "type": "GUN",
