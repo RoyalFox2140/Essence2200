@@ -32,7 +32,9 @@
   "fatigue_modifier": -0.2,
     "fatigue_regen_modifier": 0.1,
     "overmap_sight": 8,
+    "scent_modifier": 0.0,
     "scent_intensity": 1,
+    "scent_type": "Foxsc_nightwalker",
     "wet_protection": [
       { "part": "head", "neutral": 500 },
       { "part": "leg_l", "neutral": 500 },
@@ -45,6 +47,11 @@
       { "part": "hand_r", "neutral": 500 },
       { "part": "torso", "neutral": 500 }
     ]
+  },
+  {
+    "type": "scent_type",
+    "id": "Foxsc_nightwalker",
+    "receptive_species": [ "ROBOT" ]
   },
   {
     "type": "mutation",

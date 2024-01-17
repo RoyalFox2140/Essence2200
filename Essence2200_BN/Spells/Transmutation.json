@@ -194,7 +194,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
+    "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
   },
   {
     "id": "Fox_Transmutation_EssenceBulk",
@@ -259,7 +259,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
+    "flags": [ "NO_HANDS", "NO_LEGS", "NO_FAIL", "SILENT" ]
   },
   {
     "id": "Fox_Transmutation_KnifeToss",

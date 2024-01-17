@@ -1344,7 +1344,6 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 6,
     "time": "10 m",
-    "result_mult": 10,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "FoxEssencenormal", 10000 ] ] ],
