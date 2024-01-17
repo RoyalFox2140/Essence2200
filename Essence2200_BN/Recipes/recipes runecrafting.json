@@ -176,7 +176,7 @@
       "category": "CC_ESSMAGIC",
       "subcategory": "CSC_ESSMAGIC_RUNECRAFTING",
       "skill_used": "FoxEssSpellcasting",
-      "difficulty": 2,
+      "difficulty": 1,
       "result_mult": 2000,
       "time": "5 m",
       "autolearn": true,
@@ -184,5 +184,33 @@
       "components": [
       [ [ "FoxFirerune", 10 ] ], [ [ "FoxTelekineticrune", 10 ] ] 
     ]
-  }
+  },
+  {
+    "type": "recipe",
+    "result": "FoxTelekineticrune",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_RUNECRAFTING",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 0,
+    "result_mult": 50,
+    "time": "10 m",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "components": [
+    [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 5000 ] ] 
+  ]
+},
+{
+  "type": "recipe",
+  "result": "FoxFirerune",
+  "category": "CC_ESSMAGIC",
+  "subcategory": "CSC_ESSMAGIC_RUNECRAFTING",
+  "skill_used": "FoxEssSpellcasting",
+  "difficulty": 0,
+  "result_mult": 50,
+  "time": "10 m",
+  "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+  "components": [
+  [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 5000 ] ], [ [ "charcoal", 1 ] ] 
+]
+}
 ]

@@ -1,3 +1,17 @@
 [
-  
+    {
+      "result": "FoxClimateControlaura",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 500 ] ],
+        [ [ "FoxFirerune", 25 ] ],
+        [ [ "FoxTelekineticrune", 25 ] ]
+      ]
+    }
 ]

@@ -162,7 +162,7 @@
     "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
   },
   {
-    "id": "Foxintermediatertificing",
+    "id": "Foxintermediateartificing",
     "type": "TOOL",
     "name": "Intermediate Artificing",
     "description": "This is your ability to mimic simple tools using magic instead of tools. You can mimic most tools.",
@@ -815,6 +815,33 @@
     "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
   },
   {
+    "id": "FoxClimateControlaura",
+    "type": "ARMOR",
+    "name": { "str": "Ambient Temperature aura" },
+    "description": "You are being protected from temperature changes that come from your environment.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "symbol": "[",
+    "color": "light_blue",
+    "coverage": 0,
+    "encumbrance": 0,
+    "warmth": 0,
+    "material_thickness": 1,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
+        }
+      ]
+    },
+    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+  },
+  {
     "id": "Fox_spellbooks_Elemental",
     "type": "GENERIC",
     "category": "spellbooks",
@@ -831,7 +858,7 @@
 		"Fox_Elemental_Icebolt",
 		"Fox_Elemental_Lightningbolt",
 		"Fox_Elemental_Rockbolt",
-    "Fox_Elemental_Lighter",
+		"Fox_Elemental_Climatecontrol",
     "Fox_Transmutation_Essence",
     "Fox_Transmutation_EssenceBulk"
       ]
@@ -852,7 +879,6 @@
       "spells": [
     "Fox_Elemental_Fireball",
     "Fox_Elemental_Wildfire",
-		"Fox_Elemental_Climatecontrol",
 		"Fox_Elemental_Smokescreen",
     "Fox_Elemental_Boulder",
     "Fox_Elemental_Thunder"
@@ -923,7 +949,6 @@
     "Fox_Transmutation_EssenceBulk",
     "Fox_Transmutation_Lightorb",
     "Fox_Transmutation_Lightorbtwo",
-    "Fox_Transmutation_Noviceartificing",
     "Fox_Transmutation_Lead_Attack",
     "Fox_Transmutation_Tunnel",
     "Fox_Transmutation_Upturnearth"
@@ -943,8 +968,6 @@
     "use_action": {
       "type": "learn_spell",
       "spells": [
-    "Fox_Transmutation_Intermediateartificing",
-    "Fox_Transmutation_Fleshmanipulation",
     "Fox_Transmutation_magicaquifer",
     "Fox_Transmutation_magicaquiferbad",
     "Fox_Transmutation_magicsaltaquifer",
@@ -981,6 +1004,7 @@
     "Fox_Transmutation_Toilet",
     "Fox_Transmutation_Bathtub",
     "Fox_Transmutation_Sink",
+    "Fox_Transmutation_Shower",
     "Fox_Transmutation_Tunnelbig",
     "Fox_Transmutation_Tunnelhuge"
       ]
@@ -1016,7 +1040,8 @@
     "Fox_Transmutation_Treemaple",
     "Fox_Transmutation_Treewillow",
     "Fox_Transmutation_Treebirch",
-    "Fox_Transmutation_Treeblackjack"
+    "Fox_Transmutation_Treeblackjack",
+    "Fox_Transmutation_Tree"
       ]
     }
   },

@@ -404,5 +404,24 @@
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
     "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+  },
+  {
+    "id": "Fox_Transmutation_Shower",
+    "type": "SPELL",
+    "name": { "str": "T: Shower" },
+    "description": "You conjure a shower, ignoring what was once there. You question why.",
+    "valid_targets": [ "ground" ],
+    "min_range": 5,
+    "max_range": 7,
+    "effect": "ter_transform",
+    "effect_str": "FoxShowert",
+    "base_casting_time": 30000,
+    "base_energy_cost": 50,
+    "difficulty": 1,
+    "max_level": 1,
+    "spell_class": "FoxSchoolsTransmutation",
+    "skill": "FoxEssSpellcasting",
+    "energy_source": "MANA",
+    "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
   }
 ]

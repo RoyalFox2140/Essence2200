@@ -189,11 +189,11 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "1 m",
+    "difficulty": 4,
+    "time": "15 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 500 ] ]
+      [ [ "FoxEssencenormal", 1000 ] ]
     ]
   },
   {
@@ -202,11 +202,11 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
-    "time": "1 m",
+    "difficulty": 4,
+    "time": "10 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 500 ] ]
+      [ [ "FoxEssencenormal", 1000 ] ]
     ]
   },
   {
@@ -220,6 +220,71 @@
     "autolearn": true,
     "components": [
       [ [ "FoxEssencenormal", 50 ] ]
+    ]
+  },
+  {
+    "result": "Foxmagiclighter",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 0,
+    "time": "30 m",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "components": [
+      [ [ "FoxEssencenormal", 500 ] ]
+    ]
+  },
+  {
+    "result": "Foxnoviceartificing",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 0,
+    "time": "30 m",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "components": [
+      [ [ "FoxEssencenormal", 1000 ] ]
+    ]
+  },
+  {
+    "result": "Foxintermediateartificing",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 3,
+    "time": "45 m",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 2500 ] ]
+    ]
+  },
+  {
+    "result": "Foxadvancedartificing",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 5,
+    "time": "55 m",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 5000 ] ]
+    ]
+  },
+  {
+    "result": "Foxfleshmanipulation",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 1,
+    "time": "30 m",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 1000 ] ]
     ]
   }
 ]

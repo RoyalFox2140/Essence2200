@@ -290,6 +290,15 @@
     "price_postapoc": "2 USD",
     "material": [ "FoxShadowSteel" ],
     "looks_like": "sapphire_silver_pendant_necklace",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
+        }
+      ]
+    },
     "symbol": "[",
     "color": "blue",
     "flags": [ "FANCY" ]
@@ -305,6 +314,26 @@
     "price_postapoc": "2 USD",
     "material": [ "FoxShadowSteel" ],
     "looks_like": "sapphire_silver_pendant_necklace",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_HEAT", "add": -40 },
+            { "value": "ARMOR_BULLET", "add": -50 },
+            { "value": "ARMOR_BASH", "add": -10 },
+            { "value": "ARMOR_CUT", "add": -10 },
+            { "value": "ARMOR_STAB", "add": -10 },
+            { "value": "ARMOR_BIO", "add": -10 },
+            { "value": "ARMOR_COLD", "add": -20 },
+            { "value": "ARMOR_ACID", "add": -20 },
+            { "value": "ARMOR_ELEC", "add": -100 }
+          ],
+          "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
+        }
+      ]
+    },
     "symbol": "[",
     "color": "blue",
     "flags": [ "FANCY" ]
@@ -320,6 +349,26 @@
     "price_postapoc": "2 USD",
     "material": [ "FoxShadowSteel" ],
     "looks_like": "sapphire_silver_pendant_necklace",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_HEAT", "add": -90 },
+            { "value": "ARMOR_BULLET", "add": -90 },
+            { "value": "ARMOR_BASH", "add": -30 },
+            { "value": "ARMOR_CUT", "add": -30 },
+            { "value": "ARMOR_STAB", "add": -30 },
+            { "value": "ARMOR_BIO", "add": -100 },
+            { "value": "ARMOR_COLD", "add": -100 },
+            { "value": "ARMOR_ACID", "add": -100 },
+            { "value": "ARMOR_ELEC", "add": -200 }
+          ],
+          "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
+        }
+      ]
+    },
     "symbol": "[",
     "color": "blue",
     "flags": [ "FANCY" ]
@@ -335,6 +384,26 @@
     "price_postapoc": "2 USD",
     "material": [ "FoxShadowSteel" ],
     "looks_like": "sapphire_silver_pendant_necklace",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_HEAT", "add": -250 },
+            { "value": "ARMOR_BULLET", "add": -200 },
+            { "value": "ARMOR_BASH", "add": -80 },
+            { "value": "ARMOR_CUT", "add": -80 },
+            { "value": "ARMOR_STAB", "add": -80 },
+            { "value": "ARMOR_BIO", "add": -200 },
+            { "value": "ARMOR_COLD", "add": -200 },
+            { "value": "ARMOR_ACID", "add": -200 },
+            { "value": "ARMOR_ELEC", "add": -500 }
+          ],
+          "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
+        }
+      ]
+    },
     "symbol": "[",
     "color": "blue",
     "flags": [ "FANCY" ]

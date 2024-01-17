@@ -308,6 +308,17 @@
   },
   {
     "type": "ter_furn_transform",
+    "id": "FoxShowert",
+    "furniture": [
+      {
+        "result": "f_shower",
+        "valid_furniture": [ "f_null" ],
+        "message": "The world bends to your power, you conjure a shower and connect it to any local plumbing."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
     "id": "Foxmagicaquifer",
     "furniture": [
       {
@@ -554,6 +565,17 @@
     "terrain": [
       {
         "result": "t_tree_blackjack",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "Foxtree",
+    "terrain": [
+      {
+        "result": "t_tree",
         "valid_flags": [ "PLOWABLE" ],
         "message": "The world bends to your power, a tree forms and rises."
       }

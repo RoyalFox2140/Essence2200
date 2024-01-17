@@ -8,7 +8,7 @@
     "starting_trait": true,
     "purifiable": false,
     "valid": true,
-    "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceBulk", 1 ], [ "Fox_Elemental_Firebolt", 1 ], [ "Fox_Elemental_Lighter", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1] ],
+    "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceBulk", 1 ], [ "Fox_Elemental_Firebolt", 1 ], [ "Fox_Elemental_Icebolt", 1 ], [ "Fox_Elemental_Lightningbolt", 1 ], [ "Fox_Elemental_Water", 1 ], [ "Fox_Elemental_Climatecontrol", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1] ],
     "flags": [ "PSYCHOPATH" ],
     "mana_modifier": 500,
     "mana_regen_multiplier": 1.1
