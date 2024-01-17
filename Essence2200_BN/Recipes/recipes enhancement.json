@@ -13,5 +13,119 @@
         [ [ "FoxFirerune", 25 ] ],
         [ [ "FoxTelekineticrune", 25 ] ]
       ]
+    },
+    {
+      "result": "FoxGasaura",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 500 ] ],
+        [ [ "FoxAirrune", 25 ] ],
+        [ [ "FoxTelekineticrune", 25 ] ]
+      ]
+    },
+    {
+      "result": "FoxGlareaura",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 500 ] ],
+        [ [ "FoxFirerune", 25 ] ],
+        [ [ "FoxAirrune", 25 ] ]
+      ]
+    },
+    {
+      "result": "FoxSoundaura",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 500 ] ],
+        [ [ "FoxFirerune", 25 ] ],
+        [ [ "FoxTelekineticrune", 25 ] ]
+      ]
+    },
+    {
+      "result": "FoxRadiochemicalaura",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 500 ] ],
+        [ [ "FoxDeathrune", 25 ] ],
+        [ [ "FoxAirrune", 25 ] ]
+      ]
+    },
+    {
+      "result": "FoxOxygenaura",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 500 ] ],
+        [ [ "FoxTransmutationrune", 25 ] ],
+        [ [ "FoxAirrune", 25 ] ]
+      ]
+    },
+    {
+      "result": "FoxEnvironmentalaura",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "id_suffix": "FoxCOMBINE",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "15 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 250 ] ],
+        [ [ "FoxClimateControlaura", 1 ] ],
+        [ [ "FoxGasaura", 1 ] ],
+        [ [ "FoxGlareaura", 1 ] ],
+        [ [ "FoxSoundaura", 1 ] ],
+        [ [ "FoxRadiochemicalaura", 1 ] ],
+        [ [ "FoxOxygenaura", 1 ] ]
+      ]
+    },
+    {
+      "result": "FoxEnvironmentalaura",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "id_suffix": "FoxFromScratch",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "3 h",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 3000 ] ],
+        [ [ "FoxFirerune", 75 ] ],
+        [ [ "FoxTransmutationrune", 25 ] ],
+        [ [ "FoxTelekineticrune", 75 ] ],
+        [ [ "FoxDeathrune", 25 ] ],
+        [ [ "FoxAirrune", 100 ] ]
+      ]
     }
 ]

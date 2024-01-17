@@ -118,6 +118,46 @@
   },
   {
     "type": "effect_type",
+    "id": "FoxRadiationaura",
+    "name": [ "Radiation protection" ],
+    "desc": [ "You're immune to radiation." ],
+    "apply_message": "You feel nothing, but you're sure radiation won't bother you.",
+    "remove_message": "You feel nothing, but you think radiation will bother you again.",
+    "rating": "good",
+    "removes_effects": [ "irradiated" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxGlareaura",
+    "name": [ "Glare protection" ],
+    "desc": [ "You're immune to glare." ],
+    "apply_message": "Your eyes aren't bothered by light.",
+    "remove_message": "Your eyes are bothered by light again.",
+    "rating": "good",
+    "removes_effects": [ "glare", "snow_glare" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSoundaura",
+    "name": [ "Sound protection" ],
+    "desc": [ "You're immune to loud sounds." ],
+    "apply_message": "Your ears aren't bothered by sound.",
+    "remove_message": "Your ears are bothered by sound again.",
+    "rating": "good",
+    "removes_effects": [ "deaf" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxGasaura",
+    "name": [ "Gas protection" ],
+    "desc": [ "You're immune to dangerous gases." ],
+    "apply_message": "You feel nothing, but you're sure dangerous gases won't bother you.",
+    "remove_message": "You feel nothing, but you think dangerous gases will bother you again.",
+    "rating": "good",
+    "removes_effects": [ "relax_gas", "teargas", "smoke", "migo_atmosphere", "poison", "badpoison" ]
+  },
+  {
+    "type": "effect_type",
     "id": "FoxSpiritRespite",
 	"rating": "good",
     "base_mods": {

@@ -842,6 +842,185 @@
     "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
   },
   {
+    "id": "FoxGasaura",
+    "type": "ARMOR",
+    "name": { "str": "Gas filtration aura" },
+    "description": "You are being protected from harmful gases, you won't breathe them in and they won't go through your skin.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "symbol": "[",
+    "color": "light_blue",
+    "coverage": 0,
+    "encumbrance": 0,
+    "warmth": 0,
+    "material_thickness": 1,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "ench_effects": [ { "effect": "FoxGasaura", "intensity": 1 } ]
+        }
+      ]
+    },
+    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+  },
+  {
+    "id": "FoxGlareaura",
+    "type": "ARMOR",
+    "name": { "str": "Glare protection aura" },
+    "description": "You are being protected from glare, no matter how bright.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "symbol": "[",
+    "color": "light_blue",
+    "coverage": 0,
+    "encumbrance": 0,
+    "warmth": 0,
+    "material_thickness": 1,
+    "qualities": [ [ "GLARE", 500 ] ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "ench_effects": [ { "effect": "FoxGlareaura", "intensity": 1 } ]
+        }
+      ]
+    },
+    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+  },
+  {
+    "id": "FoxSoundaura",
+    "type": "ARMOR",
+    "name": { "str": "Sound protection aura" },
+    "description": "You are being protected from loud noises.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "symbol": "[",
+    "color": "light_blue",
+    "coverage": 0,
+    "encumbrance": 0,
+    "warmth": 0,
+    "material_thickness": 1,
+    "qualities": [ [ "GLARE", 500 ] ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "ench_effects": [ { "effect": "FoxSoundaura", "intensity": 1 } ]
+        }
+      ]
+    },
+    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+  },
+  {
+    "id": "FoxRadiochemicalaura",
+    "type": "ARMOR",
+    "name": { "str": "Radiochemical protection aura" },
+    "description": "You are being protected from radiation and acid in your environment.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "symbol": "[",
+    "color": "light_blue",
+    "coverage": 0,
+    "encumbrance": 0,
+    "warmth": 0,
+    "material_thickness": 1,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "ench_effects": [ { "effect": "FoxRadiationaura", "intensity": 1 } ],
+          "passive_effects": [
+            {
+              "has": "WORN",
+              "condition": "ALWAYS",
+              "values": [
+                { "value": "ARMOR_ACID", "add": -10 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+  },
+  {
+    "id": "FoxOxygenaura",
+    "type": "ARMOR",
+    "name": { "str": "Oxygen aura" },
+    "description": "You are being protected from not being in an oxygen-rich environment, you will not suffocate or drown.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "symbol": "[",
+    "color": "light_blue",
+    "coverage": 0,
+    "encumbrance": 0,
+    "warmth": 0,
+    "material_thickness": 1,
+    "flags": [ "STURDY", "AURA", "REBREATHER", "ONLY_ONE" ]
+  },
+  {
+    "id": "FoxEnvironmentalaura",
+    "type": "ARMOR",
+    "name": { "str": "Environmental protection aura" },
+    "description": "You are being protected from your environments temperature, gases, radiation, oxygen levels, light levels, and sound.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "symbol": "[",
+    "color": "light_blue",
+    "coverage": 0,
+    "encumbrance": 0,
+    "warmth": 0,
+    "material_thickness": 1,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "ench_effects": [ 
+            { "effect": "FoxClimateControl", "intensity": 1 },
+            { "effect": "FoxRadiationaura", "intensity": 1 },
+            { "effect": "FoxGlareaura", "intensity": 1 },
+            { "effect": "FoxSoundaura", "intensity": 1 },
+            { "effect": "FoxGasaura", "intensity": 1 }
+          ],
+          "passive_effects": [
+            {
+              "has": "WORN",
+              "condition": "ALWAYS",
+              "values": [
+                { "value": "ARMOR_ACID", "add": -10 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "flags": [ "STURDY", "AURA", "REBREATHER", "ONLY_ONE" ]
+  },
+  {
     "id": "Fox_spellbooks_Elemental",
     "type": "GENERIC",
     "category": "spellbooks",

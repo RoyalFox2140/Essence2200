@@ -121,7 +121,7 @@
     "id": "FoxEarthrune",
     "symbol": "*",
     "color": "magenta",
-    "name": { "str": "Transmutation Rune", "str_pl": "Transmutation Runes" },
+    "name": { "str": "Earth Rune", "str_pl": "Earth Runes" },
     "description": "A small quarter-sized rune made of clay, with a symbol of a brown rock on it. Used to store mana for elemental spells.",
     "material": "stone",
     "weight": "1 g",
