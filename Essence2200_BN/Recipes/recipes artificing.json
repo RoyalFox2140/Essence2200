@@ -129,5 +129,22 @@
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 } ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "Foximperialsteelchunk", 1 ] ], [ [ "Foxcrystallizedessence", 1 ] ], [ [ "copper", 200 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "e_scrap",
+    "id_suffix": "FoxMagitechManufacturing",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFICING",
+    "skill_used": "FoxEssSpellcasting",
+    "skills_required": [ [ "fabrication", 6 ], [ "electronics", 4 ], [ "mechanics", 2 ] ],
+    "//": "e scrap is 14g, we batch factor this due to magic being used, its not a circuit board no soldering, 1 to 1 adamantine with crystal, 171g so 12.",
+    "difficulty": 4,
+    "result_mult": 12,
+    "time": "45 m",
+    "batch_time_factors": [ 50, 4 ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 } ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "FoxAdamantinechunk", 1 ] ], [ [ "Foxcrystallizedessence", 1 ] ], [ [ "plastic_chunk", 1 ] ], [ [ "copper", 50 ] ] ]
   }
 ]
