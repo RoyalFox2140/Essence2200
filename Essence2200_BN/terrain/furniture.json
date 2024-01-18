@@ -100,6 +100,24 @@
     "name": "Telekinetic Mine Downstairs"
   },
   {
+    "type": "construction",
+    "id": "Foxconstr_water_shallow",
+    "group": "Foxconjure_water_shallow",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "Foxessmagic", 1 ] ],
+    "time": "20m",
+    "pre_flags": [ "DIGGABLE", "FLAT" ],
+    "components": [ [ [ "FoxWaterrune", 5 ] ] ],
+    "dark_craftable": true,
+    "pre_terrain": "t_pit_shallow",
+    "post_terrain": "t_water_sh"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconjure_water_shallow",
+    "name": "Conjure shallow water in pit"
+  },
+  {
     "type": "furniture",
     "id": "Foxfessencestill",
     "name": "essence fractional still",
