@@ -130,5 +130,18 @@
     "components": [
       [ [ "FoxDeSGAkawakamiprayer", 1 ] ]
     ]
+  },
+  {
+    "result": "Fox_spellbooks_Necromancy",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "6 h",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 10000 ] ]
+    ]
   }
 ]

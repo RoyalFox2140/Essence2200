@@ -106,7 +106,6 @@
     "category": "CONSTRUCT",
     "required_skills": [ [ "Foxessmagic", 1 ] ],
     "time": "20m",
-    "pre_flags": [ "DIGGABLE", "FLAT" ],
     "components": [ [ [ "FoxWaterrune", 5 ] ] ],
     "dark_craftable": true,
     "pre_terrain": "t_pit_shallow",

@@ -3,7 +3,7 @@
     "id": "Foximperialrationgood",
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
-    "name": { "str": "Quality Imperial Ration" },
+    "name": { "str": "Quality Imperial ration" },
     "description": "This is an artifically synthesized dense and mushy meal of varying flavors and ingredients, put into a common can. Due to preservatives it can still last forever outside of the can. While it has a lot of flavor, the texture is bad and there isn't that many varieties.",
     "weight": "150 g",
     "volume": "250 ml",

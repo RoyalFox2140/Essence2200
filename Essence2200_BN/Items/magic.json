@@ -1225,6 +1225,25 @@
     }
   },
   {
+    "id": "Fox_spellbooks_Necromancy",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Necromancy",
+    "description": "Your Repository of Necromancy magic, focused around summoning monsters.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Spirit_Skeleton",
+    "Fox_Spirit_Skeleton10",
+    "Fox_Spirit_SkeletalHorse"
+      ]
+    }
+  },
+  {
     "type": "BOOK",
     "id": "Fox_spellbooks_First",
     "category": "books",

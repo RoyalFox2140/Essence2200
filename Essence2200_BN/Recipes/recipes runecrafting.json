@@ -212,5 +212,20 @@
   "components": [
   [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 5000 ] ], [ [ "charcoal", 1 ] ] 
 ]
+},
+{
+  "type": "recipe",
+  "result": "Foxnecrocharge",
+  "category": "CC_ESSMAGIC",
+  "subcategory": "CSC_ESSMAGIC_RUNECRAFTING",
+  "skill_used": "FoxEssSpellcasting",
+  "difficulty": 2,
+  "result_mult": 100,
+  "time": "5 m",
+  "autolearn": true,
+  "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+  "components": [
+  [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 10000 ] ] 
+]
 }
 ]
