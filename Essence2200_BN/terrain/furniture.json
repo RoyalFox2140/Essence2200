@@ -104,7 +104,7 @@
     "id": "Foxconstr_water_shallow",
     "group": "Foxconjure_water_shallow",
     "category": "CONSTRUCT",
-    "required_skills": [ [ "Foxessmagic", 1 ] ],
+    "required_skills": [ [ "FoxEssSpellcasting", 1 ] ],
     "time": "20m",
     "components": [ [ [ "FoxWaterrune", 5 ] ] ],
     "dark_craftable": true,
