@@ -843,7 +843,8 @@
   },
   {
     "id": "FoxGasaura",
-    "type": "ARMOR",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
     "name": { "str": "Gas filtration aura" },
     "description": "You are being protected from harmful gases, you won't breathe them in and they won't go through your skin.",
     "weight": "0 g",
@@ -945,16 +946,8 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "ench_effects": [ { "effect": "FoxRadiationaura", "intensity": 1 } ],
-          "passive_effects": [
-            {
-              "has": "WORN",
-              "condition": "ALWAYS",
-              "values": [
-                { "value": "ARMOR_ACID", "add": -10 }
-              ]
-            }
-          ]
+          "values": [ { "value": "ARMOR_ACID", "add": -10 } ],
+          "ench_effects": [ { "effect": "FoxRadiationaura", "intensity": 1 } ]
         }
       ]
     },
@@ -999,21 +992,13 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
+          "values": [ { "value": "ARMOR_ACID", "add": -10 } ],
           "ench_effects": [ 
             { "effect": "FoxClimateControl", "intensity": 1 },
             { "effect": "FoxRadiationaura", "intensity": 1 },
             { "effect": "FoxGlareaura", "intensity": 1 },
             { "effect": "FoxSoundaura", "intensity": 1 },
             { "effect": "FoxGasaura", "intensity": 1 }
-          ],
-          "passive_effects": [
-            {
-              "has": "WORN",
-              "condition": "ALWAYS",
-              "values": [
-                { "value": "ARMOR_ACID", "add": -10 }
-              ]
-            }
           ]
         }
       ]
