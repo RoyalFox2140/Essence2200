@@ -264,7 +264,7 @@
     "color": "light_green",
     "use_action": {
       "target": "Foxlightorboff",
-      "active": true,
+      "active": false,
       "msg": "You disable your lamp.",
       "menu_text": "disable",
       "type": "transform"
@@ -303,7 +303,7 @@
     "color": "light_green",
     "use_action": {
       "target": "Foxlightorbbigoff",
-      "active": true,
+      "active": false,
       "msg": "You disable your floodlight.",
       "menu_text": "disable",
       "type": "transform"
@@ -1111,8 +1111,6 @@
     "Fox_Transmutation_EssenceTokenBulk",
     "Fox_Transmutation_Essence",
     "Fox_Transmutation_EssenceBulk",
-    "Fox_Transmutation_Lightorb",
-    "Fox_Transmutation_Lightorbtwo",
     "Fox_Transmutation_Lead_Attack",
     "Fox_Transmutation_Tunnel",
     "Fox_Transmutation_Upturnearth"

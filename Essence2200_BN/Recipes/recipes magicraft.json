@@ -286,5 +286,31 @@
     "components": [
       [ [ "FoxEssencenormal", 1000 ] ]
     ]
+  },
+  {
+    "result": "Foxlightorboff",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 5000 ] ]
+    ]
+  },
+  {
+    "result": "Foxlightorbbigoff",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 4,
+    "time": "45 m",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 20000 ] ]
+    ]
   }
 ]
