@@ -216,6 +216,17 @@
   },
   {
     "type": "ter_furn_transform",
+    "id": "FoxRockWallt",
+    "terrain": [
+      {
+        "result": "t_rock_",
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
     "id": "FoxBrickWallt",
     "terrain": [
       {

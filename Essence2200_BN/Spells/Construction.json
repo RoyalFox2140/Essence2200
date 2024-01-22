@@ -121,6 +121,25 @@
     "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
   },
   {
+    "id": "Fox_Transmutation_RockWall",
+    "type": "SPELL",
+    "name": { "str": "T: Rock Wall" },
+    "description": "You turn the ground in front of you into a natural rock wall, ignoring what was once there. This has the same quality as a natural one.",
+    "valid_targets": [ "ground" ],
+    "min_range": 5,
+    "max_range": 7,
+    "effect": "ter_transform",
+    "effect_str": "FoxRockWallt",
+    "base_casting_time": 60000,
+    "base_energy_cost": 200,
+    "difficulty": 1,
+    "max_level": 1,
+    "spell_class": "FoxSchoolsTransmutation",
+    "skill": "FoxEssSpellcasting",
+    "energy_source": "MANA",
+    "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+  },
+  {
     "id": "Fox_Transmutation_BrickWall",
     "type": "SPELL",
     "name": { "str": "T: Brick Wall" },
