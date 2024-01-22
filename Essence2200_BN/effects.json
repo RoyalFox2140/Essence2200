@@ -219,7 +219,7 @@
     "id": "FoxRockWallt",
     "terrain": [
       {
-        "result": "t_rock_",
+        "result": "t_rock",
         "valid_flags": [ "FLAT" ],
         "message": "The world bends to your power, a wall forms and rises."
       }
