@@ -286,7 +286,7 @@
       "target": "Foxlightorb",
       "active": true,
       "msg": "You turn on your lamp.",
-      "menu_text": "disable",
+      "menu_text": "enable",
       "type": "transform"
     }
   },
@@ -913,7 +913,6 @@
     "encumbrance": 0,
     "warmth": 0,
     "material_thickness": 1,
-    "qualities": [ [ "GLARE", 500 ] ],
     "relic_data": {
       "passive_effects": [
         {
