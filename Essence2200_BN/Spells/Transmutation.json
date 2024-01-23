@@ -38,6 +38,25 @@
     "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
   },
   {
+    "id": "Fox_Transmutation_Toolcharge",
+    "type": "SPELL",
+    "name": { "str": "T: Tool charges" },
+    "description": "This spell creates some charges for your magic tools but it is less efficient than runecrafting.",
+    "valid_targets": [ "self" ],
+    "min_damage": 200,
+    "max_damage": 200,
+    "effect": "spawn_item",
+    "effect_str": "Foxrunecharges",
+    "base_casting_time": 3000,
+    "base_energy_cost": 1000,
+    "difficulty": 1,
+    "max_level": 1,
+    "spell_class": "FoxSchoolsTransmutation",
+    "skill": "FoxEssSpellcasting",
+    "energy_source": "MANA",
+    "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
+  },
+  {
     "id": "Fox_Transmutation_Lightorb",
     "type": "SPELL",
     "name": { "str": "T: Light Orb" },
