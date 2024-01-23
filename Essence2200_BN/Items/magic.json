@@ -988,6 +988,7 @@
     "encumbrance": 0,
     "warmth": 0,
     "material_thickness": 1,
+    "qualities": [ [ "GLARE", 500 ] ],
     "relic_data": {
       "passive_effects": [
         {
