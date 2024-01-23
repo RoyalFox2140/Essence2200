@@ -8,6 +8,9 @@ should also take at least a week of effort. It's high input for high reward. 4 p
 1 rune: 100 mana : 1000 Essence
 1 rune conjured: 250 mana
 
+IMPORTANT!!! I treat bio damage as black magic damage and acid damage as both bio and acid damage. Heres the short reason why, we have no damage for black magic,
+And I'd say any resistance to poison or acid applies to the other, so acid damage works well to replace bio.
+
 Elemental:
 I let you learn various different attack types with varying usefulness, some enemies will be resistant or immune to acid or electric or potentially fire.
 The Utility of climate control is useless for players who properly manage their temperature so I do not see it as overpowered.

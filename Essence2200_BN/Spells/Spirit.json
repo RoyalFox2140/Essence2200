@@ -194,7 +194,7 @@
     "id": "Fox_Spirit_Flay",
     "type": "SPELL",
     "name": "S: Flay",
-    "description": "You slash the target and their mind with dark energy. While normally used to inflict insanity on enemy personnel, you're not sure much in this dimension will be affected.",
+    "description": "You slash the target and their mind with dark energy, able to damage neural pathways and nervous tissue. While normally used to inflict insanity on enemy personnel, zombies aren't much for complex thought but may still be damaged.",
     "valid_targets": [ "hostile", "ground" ],
     "flags": [ "VERBAL", "SOMATIC", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
     "effect": "projectile_attack",
@@ -231,7 +231,7 @@
     "min_damage": 10,
     "max_damage": 40,
     "damage_increment": 2,
-    "damage_type": "none",
+    "damage_type": "acid",
     "min_range": 10,
     "max_range": 50,
     "range_increment": 2
