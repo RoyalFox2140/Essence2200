@@ -7,9 +7,16 @@ should also take at least a week of effort. It's high input for high reward. 4 p
 1 mana : 10 Essence
 1 rune: 100 mana : 1000 Essence
 1 rune conjured: 250 mana
+1 transmutation rune conjured: 400 mana to nerf transmutation
+1 mana : 8 Essence when conjured from spells to nerf transmutation
+
+These nerfs to transmutation are essential for mid-game and end-game mana regeneration rate. It only goes up.
 
 IMPORTANT!!! I treat bio damage as black magic damage and acid damage as both bio and acid damage. Heres the short reason why, we have no damage for black magic,
 And I'd say any resistance to poison or acid applies to the other, so acid damage works well to replace bio.
+
+MANA REGENERATION IS PROPORTIONAL TO THE MANA CAP! I nerfed regeneration rate for a reason. Regen rate is 8 hours by default no matter what the cap is.
+At a 7000 mana cap you're regenerating about 360 or so per hour. It only goes up as your cap does.
 
 Elemental:
 I let you learn various different attack types with varying usefulness, some enemies will be resistant or immune to acid or electric or potentially fire.
@@ -32,6 +39,7 @@ The attacks should always be inferior to other schools of magic. The spells are 
 This includes telekinetics, conjuration, and transmutation itself.
 Magic lamps are not overpowered. Light sources are incredibly easy to set up so giving it infinite for a mana cost is fine.
 
+Note about transmutation: I plan for other ways to obtain essence and materials by interacting with the world.
 
 Prayer:
 I balance prayer around it being usable at early game but costing a ridiculous amount of mana. You get one or two for your entire days mana.
@@ -51,16 +59,23 @@ Enchanting:
 I balance it around high mana input and taking time to craft. You can make progressively better stuff but you can also just loot stuff.
 It should take a lot of runes to enchant something, and you still need the preceeding item regardless.
 
+Auras take a high input cost and the cheap ones negate environmental effects a player can simply loot gear for or simply play smart to avoid.
+
 
 Magic Weaponry:
 I balance it around the cost of the runes. If it shoots a fireball it takes a fire rune as ammo. It's a gun. A magic gun.
 It's probably enchanted too, which took a lot of runes, which took a lot of mana.
 
+Magic Armor:
+Souls. Requiring souls to enchant gear with permanent defensive stats is the only way to keep it from derailing insanely.
+
 
 Necromancy:
-I balance it around you needing materials from enemies. If you don't engage in combat you don't create new allies.
-Some level of necromancy can be done without materials. This should be inferior to material input, either from requiring more mana/hp/stamina, or weaker creatures.
+I balance it around you needing materials from enemies. If you don't engage in combat you don't create new allies. Good minions should take souls.
+Some level of necromancy can be done without materials or without souls.. This should be inferior to material input, either from requiring more mana/hp/stamina, or weaker creatures.
 
 
 Artificing:
 I balance it around needing a mana cost instead of requiring you to set up a proper workshop. That's all. Mana is valuable, using it to craft can be wasteful.
+
+Theres stuff that can be made only with artificing or advanced technology, it's a good way to circumvent complex machines that the player can't simply get.
