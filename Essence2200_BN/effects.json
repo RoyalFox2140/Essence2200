@@ -159,9 +159,17 @@
   {
     "type": "effect_type",
     "id": "FoxSpiritRespite",
-	"rating": "good",
+    "rating": "good",
     "base_mods": {
       "fatigue_min": [ -100 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSpiritRecuperate",
+    "rating": "good",
+    "base_mods": {
+      "sleepdebt_min": [ -200 ]
     }
   },
   {
