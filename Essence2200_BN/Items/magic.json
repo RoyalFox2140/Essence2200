@@ -1008,6 +1008,30 @@
     "flags": [ "STURDY", "AURA", "REBREATHER", "ONLY_ONE" ]
   },
   {
+    "id": "FoxSleepnecklace",
+    "type": "ARMOR",
+    "name": { "str": "Eternal wakeful amulet" },
+    "description": "Careful what you wish for! This amulet is imbued with the souls of ten unfortunate dead to allow your body to recover without sleep, but you will suffer a penalty to mental cognition and your physical stamina until you take it off.",
+    "weight": "70 g",
+    "volume": "1 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxShadowSteel" ],
+    "looks_like": "sapphire_silver_pendant_necklace",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "ench_effects": [ { "effect": "FoxSleepnecklace", "intensity": 1 } ]
+        }
+      ]
+    },
+    "symbol": "[",
+    "color": "blue",
+    "flags": [ "FANCY" ]
+  },
+  {
     "id": "Fox_spellbooks_Elemental",
     "type": "GENERIC",
     "category": "spellbooks",

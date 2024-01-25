@@ -158,6 +158,17 @@
   },
   {
     "type": "effect_type",
+    "id": "FoxSleepnecklace",
+    "rating": "good",
+    "base_mods": {
+      "sleepdebt_min": [ -2 ],
+      "fatigue_min": [ -2 ],
+      "stamina_min": [ -10 ],
+      "int_mod": [ -3 ]
+    }
+  },
+  {
+    "type": "effect_type",
     "id": "FoxSpiritRespite",
     "rating": "good",
     "base_mods": {
