@@ -210,7 +210,6 @@
     "duration_increment": 1,
     "difficulty": 1,
     "max_level": 0,
-    "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
     "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
@@ -232,7 +231,6 @@
     "duration_increment": 1,
     "difficulty": 1,
     "max_level": 0,
-    "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
     "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
@@ -254,7 +252,6 @@
     "duration_increment": 1,
     "difficulty": 1,
     "max_level": 0,
-    "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
     "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
