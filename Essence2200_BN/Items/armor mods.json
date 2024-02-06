@@ -1,0 +1,37 @@
+[
+  {
+    "type": "clothing_mod",
+    "id": "Foxballisticweavemod",
+    "flag": "Foxballisticweavemodflag",
+    "item": "FoxBallisticWeaveSheet",
+    "implement_prompt": "Replace with ballistic weave",
+    "//": "Mod stats should match material properties of BW and be restricted to non-BW clothes",
+    "//2": "This proportion shit means that its gonna add 12 points of bash resist per thickness. Which is exactly what material properties do on BW.",
+    "//3": "I don't touch encumbrance here because BW clothes have lower encumbrance, and I can't replace encumbrance nor overwrite protection, so extra prot for extra encumber.",
+    "destroy_prompt": "Remove ballistic weave",
+    "mod_value": [
+      { "type": "bash", "value": 12, "round_up": true },
+      { "type": "cut", "value": 12, "round_up": true },
+      { "type": "bullet", "value": 20, "round_up": true },
+      { "type": "fire", "value": 20, "round_up": true },
+      { "type": "acid", "value": 30, "round_up": true }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "Foxadamantinemod",
+    "flag": "Foxadamantinemodflag",
+    "item": "FoxBallisticWeaveSheet",
+    "implement_prompt": "Reinforce with Adamantine",
+    "destroy_prompt": "Remove Adamantine plating",
+    "//": "No shadowsteel mods, too op. Numbers was too high on acid and fire resist, I got rid of its proportion data. A weaker reaper does 30 thermal damage.",
+    "mod_value": [
+      { "type": "bash", "value": 25, "round_up": true },
+      { "type": "cut", "value": 25, "round_up": true },
+      { "type": "bullet", "value": 30, "round_up": true },
+      { "type": "fire", "value": 30, "round_up": true },
+      { "type": "acid", "value": 40, "round_up": true },
+      { "type": "encumbrance", "value": 1, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  }
+]

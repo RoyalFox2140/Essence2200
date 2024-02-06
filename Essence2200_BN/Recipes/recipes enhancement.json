@@ -142,5 +142,106 @@
         [ [ "FoxTransmutationrune", 2 ] ],
         [ [ "steel_chunk", 1 ] ]
       ]
+    },
+    {
+      "result": "Foxbowstabilizer",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 1000 ] ],
+        [ [ "FoxTelekineticrune", 100 ] ]
+      ]
+    },
+    {
+      "result": "Foxbowdampener",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 1000 ] ],
+        [ [ "FoxTelekineticrune", 25 ] ],
+        [ [ "FoxAirrune", 25 ] ]
+      ]
+    },
+    {
+      "result": "Foxbowkillmod",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 6,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 2000 ] ],
+        [ [ "FoxDeathrune", 100 ] ]
+      ]
+    },
+    {
+      "result": "Foxbowrangemod",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 1000 ] ],
+        [ [ "FoxTelekineticrune", 25 ] ],
+        [ [ "FoxAirrune", 50 ] ]
+      ]
+    },
+    {
+      "result": "Foxbowstrengthmod",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 5,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 1000 ] ],
+        [ [ "FoxLiferune", 100 ] ]
+      ]
+    },
+    {
+      "result": "Foxbowscopemod",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 6,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 2000 ] ],
+        [ [ "FoxQuantumrune", 100 ] ]
+      ]
+    },
+    {
+      "result": "Foxcrossbowlever",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 5,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxEssencenormal", 2000 ] ],
+        [ [ "FoxTelekineticrune", 100 ] ],
+        [ [ "FoxAirrune", 20 ] ]
+      ]
     }
 ]
