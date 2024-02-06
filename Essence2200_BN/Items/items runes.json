@@ -271,5 +271,27 @@
     "name": "Rune tool charges",
     "default": "Foxrunecharges",
     "type": "ammunition_type"
+  },
+  {
+    "id": "Foxnecrocharge",
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "name": { "str_sp": "Necromancer charge" },
+    "description": "This charge of energy made from Essence is used to get stuff you've summoned to follow you. It counts as dog food because that was the only way I could do it, abusing this is unintended.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -5,
+    "material": "flesh",
+    "symbol": ";",
+    "healthy": 2,
+    "quench": 2,
+    "calories": 450,
+    "vitamins": [ [ "vitC", 4 ], [ "iron", 17 ], [ "vitB", 187 ], [ "calcium", 0 ] ],
+    "fun": -15,
+    "color": "brown",
+    "flags": [ "INEDIBLE", "LUPINE" ],
+    "use_action": "DOGFOOD"
   }
 ]

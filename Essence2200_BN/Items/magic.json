@@ -570,6 +570,19 @@
     "armor_data": { "covers": [ "leg_either" ], "coverage": 0, "encumbrance": 0, "material_thickness": 2 }
   },
   {
+    "id": "FoxVicPocketDimensionitem",
+    "type": "ARMOR",
+    "name": { "str": "Vehicle pocket dimension", "str_pl": "Vehicle pocket dimensions" },
+    "description": "A small invisible hole in reality that isn't stable enough to be used in person. Once you mount it to a vehicle frame it will store either 500 or 1000 liters of liquid or solids. You could wear it, but you will gain no benefit beyond knowing it won't get lost.",
+    "weight": 0,
+    "volume": 0,
+    "price": "2 USD",
+    "material": [ "iron" ],
+    "symbol": "[",
+    "color": "green",
+    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE" ]
+  },
+  {
     "type": "COMESTIBLE",
     "id": "Fox_ElementalKoolaid",
     "name": "Elemental Awakening potion",
