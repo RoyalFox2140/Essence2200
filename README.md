@@ -14,7 +14,7 @@ In the event of my disappearance, I allow Chaosvolt, Scarf005 and Kenan2000 to f
 
 When I reach a comfortable state of polish and most of the mod is finished it will be eligible to be included in Kenan's structured modpack.
 
-Designed for Cataclysm: Bright Nights 0.3 Experimental
+Designed for Cataclysm: Bright Nights latest experimental
 
 Monsters and factions are a work in progress, please enhance your game difficulty with other mods including Cata++, Secronom, and Really Dark Skies.
 https://github.com/Noctifer-de-Mortem/nocts_cata_mod
