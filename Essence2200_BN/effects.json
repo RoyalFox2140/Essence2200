@@ -206,8 +206,8 @@
     "terrain": [
       {
         "result": "t_wall_log",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a wall forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the wall you desire is formed here."
       }
     ]
   },
@@ -217,8 +217,8 @@
     "terrain": [
       {
         "result": "t_wall_wood",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a wall forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the wall you desire is formed here."
       }
     ]
   },
@@ -228,8 +228,8 @@
     "terrain": [
       {
         "result": "t_rock_wall",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a wall forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the wall you desire is formed here."
       }
     ]
   },
@@ -239,8 +239,8 @@
     "terrain": [
       {
         "result": "t_rock",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a wall forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the wall you desire is formed here."
       }
     ]
   },
@@ -250,8 +250,8 @@
     "terrain": [
       {
         "result": "t_brick_wall",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a wall forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the wall you desire is formed here."
       }
     ]
   },
@@ -261,8 +261,8 @@
     "terrain": [
       {
         "result": "t_wall_metal",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a wall forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the wall you desire is formed here."
       }
     ]
   },
@@ -272,8 +272,8 @@
     "terrain": [
       {
         "result": "t_sconc_wall",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a wall forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the wall you desire is formed here."
       }
     ]
   },
@@ -283,8 +283,8 @@
     "terrain": [
       {
         "result": "t_strconc_wall",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a wall forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the wall you desire is formed here."
       }
     ]
   },
@@ -294,8 +294,8 @@
     "terrain": [
       {
         "result": "t_floor_primitive",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a roof and floor forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the roof and floor you desire forms and is placed."
       }
     ]
   },
@@ -305,8 +305,8 @@
     "terrain": [
       {
         "result": "t_floor",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a roof and floor forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the roof and floor you desire forms and is placed."
       }
     ]
   },
@@ -316,8 +316,8 @@
     "terrain": [
       {
         "result": "t_metal_floor",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a roof and floor forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the roof and floor you desire forms and is placed."
       }
     ]
   },
@@ -327,8 +327,8 @@
     "terrain": [
       {
         "result": "t_thconc_floor",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a roof and floor forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the roof and floor you desire forms and is placed."
       }
     ]
   },
@@ -338,8 +338,8 @@
     "terrain": [
       {
         "result": "t_strconc_floor",
-        "valid_flags": [ "FLAT" ],
-        "message": "The world bends to your power, a roof and floor forms and rises."
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF" ],
+        "message": "The world bends to your power, the roof and floor you desire forms and is placed."
       }
     ]
   },
