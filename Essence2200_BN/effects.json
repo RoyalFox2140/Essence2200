@@ -206,7 +206,8 @@
     "terrain": [
       {
         "result": "t_wall_log",
-        "message": "The world bends to your power, the wall you desire is formed here."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
       }
     ]
   },
@@ -216,7 +217,8 @@
     "terrain": [
       {
         "result": "t_wall_wood",
-        "message": "The world bends to your power, the wall you desire is formed here."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
       }
     ]
   },
@@ -226,7 +228,8 @@
     "terrain": [
       {
         "result": "t_rock_wall",
-        "message": "The world bends to your power, the wall you desire is formed here."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
       }
     ]
   },
@@ -236,7 +239,8 @@
     "terrain": [
       {
         "result": "t_rock",
-        "message": "The world bends to your power, the wall you desire is formed here."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
       }
     ]
   },
@@ -246,7 +250,8 @@
     "terrain": [
       {
         "result": "t_brick_wall",
-        "message": "The world bends to your power, the wall you desire is formed here."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
       }
     ]
   },
@@ -256,7 +261,8 @@
     "terrain": [
       {
         "result": "t_wall_metal",
-        "message": "The world bends to your power, the wall you desire is formed here."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
       }
     ]
   },
@@ -266,7 +272,8 @@
     "terrain": [
       {
         "result": "t_sconc_wall",
-        "message": "The world bends to your power, the wall you desire is formed here."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
       }
     ]
   },
@@ -276,7 +283,8 @@
     "terrain": [
       {
         "result": "t_strconc_wall",
-        "message": "The world bends to your power, the wall you desire is formed here."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a wall forms and rises."
       }
     ]
   },
@@ -286,7 +294,8 @@
     "terrain": [
       {
         "result": "t_floor_primitive",
-        "message": "The world bends to your power, the roof and floor you desire forms and is placed."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
       }
     ]
   },
@@ -296,7 +305,8 @@
     "terrain": [
       {
         "result": "t_floor",
-        "message": "The world bends to your power, the roof and floor you desire forms and is placed."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
       }
     ]
   },
@@ -306,7 +316,8 @@
     "terrain": [
       {
         "result": "t_metal_floor",
-        "message": "The world bends to your power, the roof and floor you desire forms and is placed."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
       }
     ]
   },
@@ -316,7 +327,8 @@
     "terrain": [
       {
         "result": "t_thconc_floor",
-        "message": "The world bends to your power, the roof and floor you desire forms and is placed."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
       }
     ]
   },
@@ -326,7 +338,8 @@
     "terrain": [
       {
         "result": "t_strconc_floor",
-        "message": "The world bends to your power, the roof and floor you desire forms and is placed."
+        "valid_flags": [ "FLAT" ],
+        "message": "The world bends to your power, a roof and floor forms and rises."
       }
     ]
   },
