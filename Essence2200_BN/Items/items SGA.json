@@ -1697,7 +1697,7 @@
     "id": "Foxholster",
     "type": "ARMOR",
     "name": { "str": "Ballistic Weave holster" },
-    "description": "A leather strap worn on the hip for holding pistol sized guns.  Activate to holster/draw a gun.",
+    "description": "A ballistic weave strap worn on the hip for holding pistol sized guns.  Activate to holster/draw a gun.",
     "weight": "100 g",
     "volume": "500 ml",
     "price": "2 USD",
@@ -1710,7 +1710,7 @@
     "coverage": 2,
     "encumbrance": 2,
     "material_thickness": 1,
-    "use_action": { "type": "holster", "max_volume": "800 ml", "min_volume": "300 ml", "skills": [ "pistol", "smg", "shotgun" ] },
+    "use_action": { "type": "holster", "max_volume": "800 ml", "min_volume": "100 ml", "skills": [ "pistol", "smg", "shotgun" ] },
     "flags": [ "WAIST", "OVERSIZE" ]
   },
   {

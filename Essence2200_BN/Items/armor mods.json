@@ -21,7 +21,7 @@
     "type": "clothing_mod",
     "id": "Foxadamantinemod",
     "flag": "Foxadamantinemodflag",
-    "item": "FoxBallisticWeaveSheet",
+    "item": "FoxAdamantinechunk",
     "implement_prompt": "Reinforce with Adamantine",
     "destroy_prompt": "Remove Adamantine plating",
     "//": "No shadowsteel mods, too op. Numbers was too high on acid and fire resist, I got rid of its proportion data. A weaker reaper does 30 thermal damage.",
@@ -33,5 +33,18 @@
       { "type": "acid", "value": 40, "round_up": true },
       { "type": "encumbrance", "value": 1, "round_up": true, "proportion": [ "thickness", "coverage" ] }
     ]
+  },
+  {
+    "id": "Foxballisticweavemodflag",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "//": "We have to declare the flag here.",
+    "info": "You have replaced the entire clothing's fabric with ballistic weave, giving a big <good>increase in protection</good> with no drawbacks."
+  },
+  {
+    "id": "Foxadamantinemodflag",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has certain parts reinforced with sewn-in plates of flexible adamantine for <good>massively increased protection</good> with small <bad>increase to encumbrance</bad>."
   }
 ]
