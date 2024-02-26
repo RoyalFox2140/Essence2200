@@ -165,7 +165,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "Foxhumansoul", 20 ] ], [ [ "FoxGreaterCanteenDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 20000 ] ], [ [ "FoxGreaterCanteenDimension", 1 ] ]
     ]
   },
   {

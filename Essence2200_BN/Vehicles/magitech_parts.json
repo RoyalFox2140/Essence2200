@@ -110,9 +110,9 @@
     "broken_color": "brown",
     "damage_modifier": 0,
     "durability": 4444,
-    "size": "125000 L",
+    "size": "250000 L",
     "folded_volume": "1 ml",
-    "item": "FoxVicPocketDimensionitem",
+    "item": "FoxOceanDimension",
     "location": "fuel_source",
     "cargo_weight_modifier": 0,
     "requirements": {
