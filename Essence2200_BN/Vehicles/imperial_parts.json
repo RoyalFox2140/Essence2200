@@ -1,0 +1,17 @@
+[
+  {
+    "id": "FoximpmountedKW21373U",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "looks_like": "laser_rifle",
+    "name": { "str": "mounted KW-2137-3U 'Laser Lance'" },
+    "item": "FoximpKW21373U",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "scrap", "count": 9 }, { "item": "steel_chunk", "count": 4 }, { "item": "steel_lump", "count": 1 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  }
+]

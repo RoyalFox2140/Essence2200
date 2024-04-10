@@ -1,0 +1,13 @@
+[
+  {
+    "id": "FoxClannerM4",
+    "copy-from": "m4a1",
+    "type": "GUN",
+    "name": { "str": "Clanner M4 Hybrid" },
+    "weight": "2800 g",
+    "looks_like": "m4a1",
+    "material": [ "FoxShadowSteel", "FoxAdamantine" ],
+    "description": "Based off the M4A1, this rifle is machined from Adamantine/Shadowsteel parts and lacks MAG-tech and recoil dampeners for easier fabrication and maintenance. Being of superior materials it will fire SGA ammunition, it contains much more sophisticated components to manage the recoil.",
+    "ranged_damage": { "damage_type": "bullet", "amount": 2 }
+  }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "id": "FoxGolemrock",
+        "type": "GUN",
+        "symbol": "%",
+        "color": "red",
+        "name": { "str": "giant rock" },
+        "description": "Golem Sergeants can throw these boulders at you since they prefer to save ammunition, if you have one its a bug and I'm mad about it.",
+        "material": [ "stone" ],
+        "flags": [
+          "PRIMITIVE_RANGED_WEAPON",
+          "NEVER_JAMS",
+          "NONCONDUCTIVE",
+          "NO_REPAIR",
+          "WATERPROOF_GUN",
+          "NO_SALVAGE",
+          "NO_UNLOAD",
+          "WATERPROOF_GUN",
+          "NEVER_JAMS"
+        ],
+        "skill": "throw",
+        "ammo": [ "rock" ],
+        "ammo_effects": [ "NO_PENETRATE_OBSTACLES", "NEVER_MISFIRES" ],
+        "clip_size": 1,
+        "ranged_damage": { "damage_type": "bash", "amount": 20 },
+        "weight": "540 g",
+        "volume": "210 ml",
+        "bashing": 1,
+        "to_hit": 1,
+        "loudness": 2,
+        "range": 10,
+        "dispersion": 150,
+        "durability": 8
+    },
+    
+  {
+    "id": "FoximpKW2140Fake",
+    "copy-from": "rifle_energy",
+    "type": "GUN",
+    "looks_like": "laser_rifle",
+    "name": { "str": "KW-2140-4U 'Workhorse'" },
+    "description": "The fake rendition of the famous Krupp assault rifle features a bug that let you acquire this item in normal gameplay and a serious lack of my patience with monster JSON.",
+    "weight": "2800 g",
+    "volume": "3 L",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxImperialSteel" ],
+    "color": "yellow",
+    "range": 45,
+    "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 8 },
+    "dispersion": 10,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ],
+    "loudness": 12,
+    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
+  }
+]

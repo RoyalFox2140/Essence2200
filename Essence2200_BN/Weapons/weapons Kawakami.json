@@ -1,0 +1,245 @@
+[
+  {
+    "type": "weapon_category",
+    "id": "Fox_EsstechRifle",
+    "name": "Essence Rifle",
+    "//": "Any weapon that fires bolts or streams of plasma using either background Essence from the air or from a reserve tank, referred to as a battery."
+  },
+  {
+    "id": "FoxKawakamirailgun",
+    "copy-from": "rifle_magnetic",
+    "type": "GUN",
+    "name": { "str": "Kawakami Rail Driver" },
+    "description": "A single-barreled railgun that propels a huge shadowsteel rod at speeds known for causing ridiculous collateral damage. Designed for engaging enemy armor, it will almost certainly overpenetrate your targets cover, your target, and continue towards their neighbors.",
+    "weight": "5 kg",
+    "volume": "2500 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -3,
+    "bashing": 10,
+    "material": [ "FoxShadowSteel", "FoxAdamantine" ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "metal_rail",
+    "ranged_damage": { "damage_type": "stab", "amount": 20 },
+    "dispersion": 100,
+    "durability": 6,
+    "clip_size": 1,
+    "ups_charges": 60,
+    "reload": 200,
+    "ammo_effects": [ "INCENDIARY", "TRAIL" ]
+  },
+  {
+    "id": "FoxKawakamiRaptor",
+    "copy-from": "pistol_base",
+    "type": "GUN",
+    "name": { "str_sp": "Kawakami Raptor" },
+    "description": "A deadly and infamous fully automatic .50 BMG pistol requiring a combination of runes to keep the firearm intact and within the operators hands. The magazine well is too small for more than six cartridges and relies on a pocket dimension inside of itself to chamber its 100 round capacity.",
+    "weight": "1700 g",
+    "volume": "750 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -2,
+    "bashing": 12,
+    "material": [ "FoxShadowSteel", "FoxAdamantine" ],
+    "color": "light_gray",
+    "ammo": "44",
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "durability": 7,
+    "min_cycle_recoil": 1413,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazine_well": "250 ml",
+    "magazines": [ [ "44", [ "deaglemag" ] ] ]
+  },
+  {
+    "id": "FoxKawakamiArbalest",
+    "copy-from": "rifle_auto",
+    "type": "GUN",
+    "name": { "str": "Kawakami Arbalest" },
+    "looks_like": "m4a1",
+    "description": "A custom-built tri-barreled assault rifle chambered in .30-06 and holding a 30-round side magazine. It primarily features a six round burst mode that minimizes felt recoil during burst and focuses said recoil upward, aiming lower on a target will usually end the burst in the target's head. The barrels spin during firing, similar to a gatling gun.",
+    "weight": "3100 g",
+    "volume": "1750 ml",
+    "barrel_length": "250 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "ascii_picture": "m4a1",
+    "material": [ "FoxShadowSteel", "FoxAdamantine" ],
+    "color": "dark_gray",
+    "ammo": "223",
+    "ranged_damage": { "damage_type": "bullet", "amount": 10 },
+    "dispersion": 180,
+    "durability": 6,
+    "min_cycle_recoil": 1350,
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "Burst", 3 ], [ "AUTO", "Auto", 5 ] ],
+    "magazines": [
+      [
+        "Fox556mmSGA",
+        [
+          "FoxSGA556mag"
+        ]
+      ],
+      [
+        "223",
+        [
+          "stanag30",
+          "stanag5",
+          "stanag10",
+          "stanag20",
+          "stanag40",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "survivor223mag"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "FoxKawakamiSabre",
+    "copy-from": "rifle_auto",
+    "type": "GUN",
+    "name": { "str": "Kawakami Sabre mark 2" },
+    "looks_like": "m4a1",
+    "description": "An older SMG model.",
+    "weight": "3100 g",
+    "volume": "1750 ml",
+    "barrel_length": "250 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "ascii_picture": "m4a1",
+    "material": [ "FoxShadowSteel", "FoxAdamantine" ],
+    "color": "dark_gray",
+    "ammo": "223",
+    "ranged_damage": { "damage_type": "bullet", "amount": 10 },
+    "dispersion": 180,
+    "durability": 6,
+    "min_cycle_recoil": 1350,
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "Burst", 3 ], [ "AUTO", "Auto", 5 ] ],
+    "magazines": [
+      [
+        "Fox556mmSGA",
+        [
+          "FoxSGA556mag"
+        ]
+      ],
+      [
+        "223",
+        [
+          "stanag30",
+          "stanag5",
+          "stanag10",
+          "stanag20",
+          "stanag40",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "survivor223mag"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "FoxKawakamiwatchman",
+    "copy-from": "rifle_auto",
+    "type": "GUN",
+    "name": { "str": "Kawakami Watchman mark 2" },
+    "looks_like": "m4a1",
+    "description": "lmg type gun like arbalest.",
+    "weight": "3100 g",
+    "volume": "1750 ml",
+    "barrel_length": "250 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxShadowSteel", "FoxAdamantine" ],
+    "color": "dark_gray",
+    "ammo": "223",
+    "ranged_damage": { "damage_type": "bullet", "amount": 10 },
+    "dispersion": 180,
+    "durability": 6,
+    "min_cycle_recoil": 1350,
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "Burst", 3 ], [ "AUTO", "Auto", 5 ] ],
+    "magazines": [
+      [
+        "Fox556mmSGA",
+        [
+          "FoxSGA556mag"
+        ]
+      ],
+      [
+        "223",
+        [
+          "stanag30",
+          "stanag5",
+          "stanag10",
+          "stanag20",
+          "stanag40",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "survivor223mag"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "FoxKawakamiblackjack",
+    "copy-from": "shotgun_base",
+    "type": "GUN",
+    "name": { "str": "Kawakami Blackjack" },
+    "description": "A ridiculous automatic 10-gauge shotgun .",
+    "weight": "4000 g",
+    "volume": "2800 ml",
+    "looks_like": "m1014",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxShadowSteel", "FoxAdamantine" ],
+    "ammo": [ "shot", "FoxshotSGA" ],
+    "dispersion": 380,
+    "durability": 6,
+    "clip_size": 9,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "Burst", 2 ] ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip mount", 1 ],
+      [ "mechanism", 2 ],
+      [ "muzzle", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ]
+  }
+]
