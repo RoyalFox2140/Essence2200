@@ -490,6 +490,7 @@
       "type": "holster",
       "holster_prompt": "Sheath sword",
       "holster_msg": "You sheath your %s",
+      "min_volume": "1 ml",
       "max_volume": "30 L",
       "draw_cost": 1,
       "flags": [ "SHEATH_SWORD" ]
@@ -511,6 +512,7 @@
     "storage": "200 L",
     "use_action": {
       "type": "holster",
+      "min_volume": "1 ml",
       "max_volume": "30 L",
       "draw_cost": 1,
       "skills": [ "pistol", "smg", "shotgun", "rifle", "launcher", "archery" ]
