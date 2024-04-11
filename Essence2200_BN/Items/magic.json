@@ -490,9 +490,30 @@
       "type": "holster",
       "holster_prompt": "Sheath sword",
       "holster_msg": "You sheath your %s",
-      "max_volume": "3750 ml",
+      "max_volume": "30 L",
       "draw_cost": 1,
       "flags": [ "SHEATH_SWORD" ]
+    },
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "612 kg"
+  },
+  {
+    "id": "FoxRiflemanPocketDimension",
+    "type": "ARMOR",
+    "name": { "str": "Rifleman Pocket Dimension", "str_pl": "Rifleman Pocket Dimensions" },
+    "description": "A small invisible hole in reality that only you can use to store and withdraw things. You ensured that it's quick to draw a firearm or bow out of this dimension in addition to storing a lot.",
+    "weight": 0,
+    "volume": 0,
+    "price": "2 USD",
+    "material": [ "iron" ],
+    "symbol": "[",
+    "color": "green",
+    "storage": "200 L",
+    "use_action": {
+      "type": "holster",
+      "max_volume": "30 L",
+      "draw_cost": 1,
+      "skills": [ "pistol", "smg", "shotgun", "rifle", "launcher", "archery" ]
     },
     "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
     "weight_capacity_bonus": "612 kg"
@@ -515,7 +536,7 @@
       "holster_msg": "You put your %1$s in your %2$s",
       "multi": 20,
       "min_volume": "1 ml",
-      "max_volume": "10 L",
+      "max_volume": "30 L",
       "draw_cost": 1,
       "skills": [ "pistol", "smg", "shotgun", "rifle", "launcher" ]
     },
@@ -540,7 +561,7 @@
       "holster_msg": "You sheath your %s",
       "multi": 200,
       "min_volume": "1 ml",
-      "max_volume": "1500 ml",
+      "max_volume": "3500 ml",
       "draw_cost": 1,
       "flags": [ "SHEATH_KNIFE" ]
     },
@@ -565,9 +586,34 @@
       "holster_msg": "You put your %1$s in your %2$s",
       "multi": 20,
       "min_volume": "1 ml",
-      "max_volume": "10 L",
+      "max_volume": "20 L",
       "draw_cost": 1,
       "flags": [ "BELT_CLIP" ]
+    },
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "615 kg"
+  },
+  {
+    "id": "FoxMagazineDimension",
+    "type": "ARMOR",
+    "name": { "str": "Magazine Pocket Dimension", "str_pl": "Magazine Pocket Dimensions" },
+    "description": "A small invisible hole in reality that only you can use to store and withdraw things. You can use it to stash firearm magazines.",
+    "weight": 0,
+    "volume": 0,
+    "price": "2 USD",
+    "material": [ "iron" ],
+    "symbol": "[",
+    "color": "green",
+    "storage": "1 L",
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Stash ammo",
+      "holster_msg": "You stash your %s.",
+      "multi": 40,
+      "min_volume": "1 ml",
+      "max_volume": "20 L",
+      "draw_cost": 1,
+      "flags": [ "MAG_COMPACT", "SPEEDLOADER" ]
     },
     "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
     "weight_capacity_bonus": "615 kg"

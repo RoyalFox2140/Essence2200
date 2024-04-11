@@ -78,6 +78,19 @@
     ]
   },
   {
+    "result": "FoxRiflemanPocketDimension",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 1,
+    "time": "30 m",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 6500 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
+    ]
+  },
+  {
     "result": "FoxGunDimension",
     "type": "recipe",
     "category": "CC_ESSMAGIC",
@@ -105,6 +118,19 @@
   },
   {
     "result": "FoxToolDimension",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 1,
+    "time": "30 m",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 6500 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
+    ]
+  },
+  {
+    "result": "FoxMagazineDimension",
     "type": "recipe",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
