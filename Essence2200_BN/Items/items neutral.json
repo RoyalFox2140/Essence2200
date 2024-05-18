@@ -651,7 +651,7 @@
     "color": "green",
     "use_action": {
       "type": "deploy_tent",
-      "radius": 2,
+      "radius": 3,
       "broken_type": "Foxlargetentbroken",
       "wall": "Foxf_large_canvas_wall",
       "floor": "Foxf_large_groundsheet",
