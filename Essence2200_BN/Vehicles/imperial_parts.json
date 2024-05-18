@@ -13,5 +13,33 @@
       "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
       "removal": { "skills": [ [ "mechanics", 3 ] ] }
     }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "FoxPlutGeneratorVic",
+    "name": { "str": "vehicle plutonium generator" },
+    "symbol": "O",
+    "looks_like": "minireactor",
+    "color": "light_green",
+    "broken_symbol": "#",
+    "broken_color": "red",
+    "damage_modifier": 50,
+    "durability": 580,
+    "epower": 600,
+    "location": "center",
+    "//": "It makes the power for 20 minifridges. TLDR, I figured a fridge was 2 minifridges of power, and the grid plut generator can make enough power for 10 fridges. So 20 minis.",
+    "item": "plut_generator_item",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "30 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    },
+    "flags": [ "AISLE_LIGHT", "OBSTACLE", "ENABLED_DRAINS_EPOWER" ],
+    "breaks_into": [ {"item": "plut_generator_item"} ],
+    "description": "A reliable generator that uses the decay of radioactive elements to generate a reliable trickle of power."
   }
 ]

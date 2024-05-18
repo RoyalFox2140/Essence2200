@@ -282,5 +282,39 @@
     "time": "1 s",
     "autolearn": true,
     "components": [ [ [ "Foxpowderedessence", 100 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "gunpowder",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "FoxEssTheory",
+    "id_suffix": "FoxBangtails",
+    "difficulty": 1,
+    "skills_required": [ [ "cooking", 3 ] ],
+    "charges": 454,
+    "time": "30 m",
+    "batch_time_factors": [ 75, 5 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
+    "components": [ [ [ "Foxbangtailpowder", 400 ] ], [ [ "acid", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxbangtailpowder",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 1 ] ],
+    "id_suffix": "Fox",
+    "difficulty": 0,
+    "charges": 400,
+    "time": "20 m",
+    "batch_time_factors": [ 80, 5 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "food_processor", 5 ] ] ],
+    "components": [ [ [ "Foxbangtailstalk", 1 ] ] ]
   }
 ]

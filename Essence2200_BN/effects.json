@@ -33,6 +33,8 @@
     "badpoison",
     "foodpoison",
     "paralyzepoison",
+    "venom_weaken",
+    "venom_dmg",
     "common_cold",
     "flu" ]
   },
@@ -186,7 +188,7 @@
   {
     "type": "effect_type",
     "id": "FoxSpiritTremble",
-	"rating": "good",
+    "rating": "good",
     "base_mods": {
       "speed_mod": [ -50 ]
     }
@@ -194,10 +196,104 @@
   {
     "type": "effect_type",
     "id": "FoxSpiritOnrush",
-	"rating": "good",
+    "rating": "good",
     "base_mods": {
       "fatigue_min": [ -10 ],
-	  "speed_mod": [ 50 ]
+      "speed_mod": [ 50 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxSwampcig",
+    "rating": "good",
+    "base_mods": {
+      "sleepdebt_min": [ -2 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Foxmedshot",
+    "name": [ "Med-shot" ],
+    "desc": [ "Your body is being healed." ],
+    "rating": "good",
+    "base_mods": {
+      "hurt_min": [ -5 ],
+      "hurt_tick": [ 5 ],
+      "pain_min": [ 5 ],
+      "pain_tick": [ 10 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Foxpainshot",
+    "name": [ "Pain-shot" ],
+    "desc": [ "Your body is undergoing effects." ],
+    "rating": "good",
+    "base_mods": {
+      "pain_min": [ 5 ],
+      "pain_tick": [ 10 ],
+      "hunger_min": [ 1 ],
+      "hunger_tick": [ 60 ],
+      "thirst_min": [ 5 ],
+      "thirst_tick": [ 60 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Foxbattleshot",
+    "name": [ "Battle-shot" ],
+    "desc": [ "Your body is undergoing effects." ],
+    "rating": "good",
+    "base_mods": {
+      "fatigue_min": [ -10 ],
+      "fatigue_tick": [ 60 ],
+      "sleepdebt_min": [ -1 ],
+      "sleepdebt_tick": [ 120 ],
+      "hunger_min": [ 2 ],
+      "hunger_tick": [ 60 ],
+      "thirst_min": [ 5 ],
+      "thirst_tick": [ 60 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Foxstimshot",
+    "name": [ "Stim-shot" ],
+    "desc": [ "Your body is undergoing effects." ],
+    "rating": "good",
+    "base_mods": {
+      "fatigue_min": [ -10 ],
+      "fatigue_tick": [ 60 ],
+      "sleepdebt_min": [ -2 ],
+      "sleepdebt_tick": [ 60 ],
+      "thirst_min": [ 4 ],
+      "thirst_tick": [ 120 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Foxmindshot",
+    "name": [ "Mind-shot" ],
+    "desc": [ "Your body is undergoing effects." ],
+    "rating": "good",
+    "base_mods": {
+      "per_mod": [ 4 ],
+      "int_mod": [ 2 ],
+      "hunger_min": [ 1 ],
+      "hunger_tick": [ 60 ],
+      "thirst_min": [ 5 ],
+      "thirst_tick": [ 60 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Foxvitshot",
+    "name": [ "Vit-shot" ],
+    "desc": [ "Your body is undergoing effects." ],
+    "rating": "good",
+    "base_mods": {
+      "health_min": [ 1 ],
+      "health_tick": [ 60 ]
     }
   },
   {

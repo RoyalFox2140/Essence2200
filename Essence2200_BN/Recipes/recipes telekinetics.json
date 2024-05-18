@@ -82,8 +82,7 @@
         [ "starch", 4 ],
         [ "dry_rice", 20 ]
       ]
-    ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    ]
   },
   {
     "type": "recipe",
@@ -108,8 +107,7 @@
         [ "starch", 40 ],
         [ "dry_rice", 200 ]
       ]
-    ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    ]
   },
   {
     "type": "recipe",
@@ -126,8 +124,7 @@
     "components": [
       [ [ "FoxTransmutationrune", 1 ] ],
       [ [ "eggs_small", 1, "LIST" ] ]
-    ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    ]
   },
   {
     "type": "recipe",
@@ -144,8 +141,7 @@
     "components": [
       [ [ "FoxTransmutationrune", 1 ] ],
       [ [ "eggs_small", 10, "LIST" ] ]
-    ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    ]
   },
   {
     "type": "recipe",
@@ -172,8 +168,7 @@
       ],
       [ [ "salt_water", 1 ], [ "saline", 1 ], [ "salt", 1 ], [ "seasoning_salt", 1 ] ],
       [ [ "milk_standard_raw_fresh", 5, "LIST" ] ]
-    ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    ]
   },
   {
     "type": "recipe",
@@ -200,8 +195,7 @@
       ],
       [ [ "salt_water", 10 ], [ "saline", 10 ], [ "salt", 10 ], [ "seasoning_salt", 10 ] ],
       [ [ "milk_standard_raw_fresh", 50, "LIST" ] ]
-    ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    ]
   },
   {
     "type": "recipe",
@@ -219,8 +213,7 @@
       [ [ "FoxTransmutationrune", 1 ] ],
       [ [ "cheese_fresh", 5 ] ],
       [ [ "charcoal", 5 ] ]
-    ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    ]
   },
   {
     "type": "recipe",
@@ -238,7 +231,6 @@
       [ [ "FoxTransmutationrune", 1 ] ],
       [ [ "cheese_fresh", 50 ] ],
       [ [ "charcoal", 20 ] ]
-    ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    ]
   }
 ]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "mon_zombie_soldier",
+    "copy-from": "mon_zombie_soldier",
+    "type": "MONSTER",
+    "armor_bash": 6,
+    "armor_cut": 6,
+    "armor_bullet": 35,
+    "//": "Kevlar vests are not inherently stabproof like stab vests are, their melee armor is lowered to police zeds."
+  }
+]
