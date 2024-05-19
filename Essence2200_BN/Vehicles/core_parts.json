@@ -1,0 +1,778 @@
+[
+  {
+    "type": "item_group",
+    "id": "Foxsmashedadamantineframe",
+    "subtype": "collection",
+    "entries": [
+      { "item": "FoxAdamantinechunk", "count": [ 40, 40 ] }
+    ]
+  },
+  {
+    "abstract": "Foxadamantineframeveh",
+    "type": "vehicle_part",
+    "name": { "str": "adamantine frame" },
+    "looks_like": "hdframe",
+    "item": "Foxadamantineframe",
+    "location": "structure",
+    "color": "dark_gray",
+    "durability": 1140,
+    "//": "Adamantine gets 50% increased dura and damage reduction stats.",
+    "description": "A sturdy metal framework.  Other vehicle components can be mounted on it, and it can be attached to other frames to increase the vehicle's size..",
+    "breaks_into": "Foxsmashedadamantineframe",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "40 m", "using": [ [ "welding_standard", 20 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": "vehicle_weld_removal" },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 10 ] ] }
+    },
+    "flags": [ "MOUNTABLE" ],
+    "damage_reduction": { "all": 168 }
+  },
+  {
+    "id": "Foxadamantineframeveh_cover",
+    "copy-from": "Foxadamantineframeveh",
+    "looks_like": "hdframe_cover",
+    "type": "vehicle_part",
+    "symbol": "^"
+  },
+  {
+    "id": "Foxadamantineframeveh_cross",
+    "copy-from": "Foxadamantineframeveh",
+    "looks_like": "hdframe_cross",
+    "type": "vehicle_part",
+    "symbol": "c",
+    "extend": { "flags": [ "INITIAL_PART" ] }
+  },
+  {
+    "id": "Foxadamantineframeveh_horizontal",
+    "copy-from": "Foxadamantineframeveh",
+    "looks_like": "hdframe_horizontal",
+    "type": "vehicle_part",
+    "symbol": "h"
+  },
+  {
+    "id": "Foxadamantineframeveh_horizontal_2",
+    "copy-from": "Foxadamantineframeveh",
+    "looks_like": "hdframe_horizontal_2",
+    "type": "vehicle_part",
+    "symbol": "="
+  },
+  {
+    "id": "Foxadamantineframeveh_ne",
+    "copy-from": "Foxadamantineframeveh",
+    "looks_like": "hdframe_ne",
+    "type": "vehicle_part",
+    "symbol": "u"
+  },
+  {
+    "id": "Foxadamantineframeveh_nw",
+    "copy-from": "Foxadamantineframeveh",
+    "looks_like": "hdframe_nw",
+    "type": "vehicle_part",
+    "symbol": "y"
+  },
+  {
+    "id": "Foxadamantineframeveh_se",
+    "copy-from": "Foxadamantineframeveh",
+    "looks_like": "hdframe_se",
+    "type": "vehicle_part",
+    "symbol": "n"
+  },
+  {
+    "id": "Foxadamantineframeveh_sw",
+    "copy-from": "Foxadamantineframeveh",
+    "looks_like": "hdframe_sw",
+    "type": "vehicle_part",
+    "symbol": "b"
+  },
+  {
+    "id": "Foxadamantineframeveh_vertical",
+    "copy-from": "Foxadamantineframeveh",
+    "looks_like": "hdframe_vertical",
+    "type": "vehicle_part",
+    "symbol": "j"
+  },
+  {
+    "id": "Foxadamantineframeveh_vertical_2",
+    "copy-from": "Foxadamantineframeveh",
+    "looks_like": "hdframe_vertical_2",
+    "type": "vehicle_part",
+    "symbol": "H"
+  },
+  {
+    "type": "item_group",
+    "id": "Foxsmashedadamantineplating",
+    "subtype": "collection",
+    "entries": [
+      { "item": "FoxAdamantinechunk", "count": [ 12, 12 ] }
+    ]
+  },
+  {
+    "abstract": "Foxadamantineboard",
+    "type": "vehicle_part",
+    "name": { "str": "adamantine board" },
+    "item": "Foxadamantineplate",
+    "location": "center",
+    "color": "dark_gray",
+    "durability": 675,
+    "description": "A strong metal wall.  Keeps zombies outside the vehicle and prevents people from seeing through it.",
+    "breaks_into": "Foxsmashedadamantineplating",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
+    },
+    "flags": [ "OPAQUE", "OBSTACLE", "FULL_BOARD", "NO_ROOF_NEEDED" ],
+    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+  },
+  {
+    "abstract": "Foxadamantinehalfboard",
+    "copy-from": "Foxadamantineboard",
+    "type": "vehicle_part",
+    "name": { "str": "adamantine quarterpanel" },
+    "description": "A half-height strong metal wall.  Keeps zombies outside the vehicle but allows people to see over it.",
+    "proportional": { "durability": 0.8 },
+    "extend": { "flags": [ "HALF_BOARD" ] },
+    "delete": { "flags": [ "OPAQUE", "FULL_BOARD" ] },
+    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+  },
+  {
+    "abstract": "Foxadamantinestowboard",
+    "type": "vehicle_part",
+    "name": { "str": "adamantine stow board" },
+    "item": "Foxadamantineplate",
+    "location": "center",
+    "broken_symbol": "#",
+    "color": "brown",
+    "broken_color": "dark_gray",
+    "durability": 498,
+    "size": "62500 ml",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "qualities": [ { "id": "SAW_M", "level": 1 } ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
+    },
+    "flags": [ "OBSTACLE", "OPAQUE", "CARGO", "COVERED", "FULL_BOARD", "NO_ROOF_NEEDED", "LOCKABLE_CARGO" ],
+    "damage_reduction": { "all": 108, "cut": 120, "stab": 120 }
+  },
+  {
+    "id": "Foxadamantinestowboard_horizontal",
+    "copy-from": "Foxadamantinestowboard",
+    "type": "vehicle_part",
+    "looks_like": "hdstowboard_horizontal",
+    "symbol": "h"
+  },
+  {
+    "id": "Foxadamantineboard_horizontal",
+    "copy-from": "Foxadamantineboard",
+    "type": "vehicle_part",
+    "looks_like": "hdboard_horizontal",
+    "symbol": "h"
+  },
+  {
+    "id": "Foxadamantinehalfboard_horizontal",
+    "copy-from": "Foxadamantinehalfboard",
+    "type": "vehicle_part",
+    "looks_like": "hdhalfboard_horizontal",
+    "symbol": "h"
+  },
+  {
+    "id": "Foxadamantinehalfboard_horizontal_2",
+    "copy-from": "Foxadamantinehalfboard",
+    "type": "vehicle_part",
+    "looks_like": "hdhalfboard_horizontal_2",
+    "symbol": "="
+  },
+  {
+    "id": "Foxadamantinestowboard_ne",
+    "copy-from": "Foxadamantinestowboard",
+    "type": "vehicle_part",
+    "looks_like": "hdstowboard_ne",
+    "symbol": "u"
+  },
+  {
+    "id": "Foxadamantineboard_ne",
+    "looks_like": "hdboard_ne",
+    "copy-from": "Foxadamantineboard",
+    "type": "vehicle_part",
+    "symbol": "u"
+  },
+  {
+    "id": "Foxadamantinehalfboard_ne",
+    "looks_like": "hdhalfboard_ne",
+    "copy-from": "Foxadamantinehalfboard",
+    "type": "vehicle_part",
+    "symbol": "u"
+  },
+  {
+    "id": "Foxadamantinestowboard_nw",
+    "copy-from": "Foxadamantinestowboard",
+    "type": "vehicle_part",
+    "looks_like": "hdstowboard_nw",
+    "symbol": "y"
+  },
+  {
+    "id": "Foxadamantineboard_nw",
+    "looks_like": "hdboard_nw",
+    "copy-from": "Foxadamantineboard",
+    "type": "vehicle_part",
+    "symbol": "y"
+  },
+  {
+    "id": "Foxadamantinehalfboard_nw",
+    "looks_like": "hdhalfboard_nw",
+    "copy-from": "Foxadamantinehalfboard",
+    "type": "vehicle_part",
+    "symbol": "y"
+  },
+  {
+    "id": "Foxadamantinestowboard_se",
+    "copy-from": "Foxadamantinestowboard",
+    "type": "vehicle_part",
+    "looks_like": "hdstowboard_se",
+    "symbol": "n"
+  },
+  {
+    "id": "Foxadamantineboard_se",
+    "looks_like": "hdboard_se",
+    "copy-from": "Foxadamantineboard",
+    "type": "vehicle_part",
+    "symbol": "n"
+  },
+  {
+    "id": "Foxadamantinehalfboard_se",
+    "looks_like": "hdhalfboard_se",
+    "copy-from": "Foxadamantinehalfboard",
+    "type": "vehicle_part",
+    "symbol": "n"
+  },
+  {
+    "id": "Foxadamantinestowboard_sw",
+    "copy-from": "Foxadamantinestowboard",
+    "type": "vehicle_part",
+    "looks_like": "hdstowboard_sw",
+    "symbol": "b"
+  },
+  {
+    "id": "Foxadamantineboard_sw",
+    "looks_like": "hdboard_sw",
+    "copy-from": "Foxadamantineboard",
+    "type": "vehicle_part",
+    "symbol": "b"
+  },
+  {
+    "id": "Foxadamantinehalfboard_sw",
+    "looks_like": "hdhalfboard_sw",
+    "copy-from": "Foxadamantinehalfboard",
+    "type": "vehicle_part",
+    "symbol": "b"
+  },
+  {
+    "id": "Foxadamantinestowboard_vertical",
+    "copy-from": "Foxadamantinestowboard",
+    "type": "vehicle_part",
+    "looks_like": "hdstowboard_vertical",
+    "symbol": "j"
+  },
+  {
+    "id": "Foxadamantineboard_vertical",
+    "copy-from": "Foxadamantineboard",
+    "type": "vehicle_part",
+    "looks_like": "hdboard_vertical",
+    "symbol": "j"
+  },
+  {
+    "id": "Foxadamantinehalfboard_vertical",
+    "copy-from": "Foxadamantinehalfboard",
+    "type": "vehicle_part",
+    "looks_like": "hdhalfboard_vertical",
+    "symbol": "j"
+  },
+  {
+    "id": "Foxadamantinehalfboard_vertical_2",
+    "copy-from": "Foxadamantinehalfboard",
+    "type": "vehicle_part",
+    "looks_like": "hdhalfboard_vertical_2",
+    "symbol": "H"
+  },
+  {
+    "type": "item_group",
+    "id": "Foxsmashedadamantinetrunk",
+    "subtype": "collection",
+    "entries": [
+      { "item": "FoxAdamantinechunk", "count": [ 24, 24 ] }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxadamantinefloortrunk",
+    "name": { "str": "adamantine floor trunk" },
+    "symbol": "=",
+    "looks_like": "trunk_floor",
+    "color": "white",
+    "broken_symbol": "#",
+    "broken_color": "light_gray",
+    "durability": 600,
+    "description": "An aisle.  A hatch lets you access a cargo space beneath it.",
+    "size": "87500 ml",
+    "item": "Foxadamantinetrunk",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "AISLE", "BOARDABLE", "CARGO", "LOCKABLE_CARGO", "COVERED" ],
+    "breaks_into": "Foxsmashedadamantinetrunk",
+    "damage_reduction": { "all": 42 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxadamantineaisle_horizontal",
+    "name": { "str": "adamantine aisle" },
+    "symbol": "=",
+    "looks_like": "aisle_horizontal",
+    "color": "white",
+    "broken_symbol": "#",
+    "broken_color": "light_gray",
+    "durability": 600,
+    "description": "An aisle.",
+    "item": "Foxadamantineplate",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "qualities": [ { "id": "SAW_M", "level": 1 } ] },
+      "repair": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ] ]
+      }
+    },
+    "flags": [ "AISLE", "BOARDABLE" ],
+    "breaks_into": "Foxsmashedadamantineplating",
+    "damage_reduction": { "all": 42 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxadamantineaisle_vertical",
+    "name": { "str": "adamantine aisle" },
+    "symbol": "H",
+    "looks_like": "aisle_vertical",
+    "color": "white",
+    "broken_symbol": "#",
+    "broken_color": "light_gray",
+    "durability": 600,
+    "description": "An aisle.",
+    "item": "Foxadamantineplate",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "30 m", "qualities": [ { "id": "SAW_M", "level": 1 } ] },
+      "repair": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ] ]
+      }
+    },
+    "flags": [ "AISLE", "BOARDABLE" ],
+    "breaks_into": "Foxsmashedadamantineplating",
+    "damage_reduction": { "all": 42 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxadamantinearmor",
+    "name": { "str": "adamantine armor plating" },
+    "symbol": ")",
+    "color": "green",
+    "broken_symbol": ")",
+    "broken_color": "green",
+    "durability": 1050,
+    "item": "Foxadamantineplate",
+    "location": "armor",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 7 ] ], "time": "60 m", "using": [ [ "welding_standard", 10 ] ] }
+    },
+    "flags": [ "ARMOR" ],
+    "breaks_into": "Foxsmashedadamantineplating",
+    "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
+  },
+  {
+    "abstract": "Foxadamantinedoorabstract",
+    "breaks_into": "Foxsmashedadamantineframe",
+    "broken_color": "cyan",
+    "broken_symbol": "&",
+    "color": "cyan",
+    "damage_modifier": 80,
+    "damage_reduction": { "all": 102 },
+    "description": "A strong door.  Has a window so you can see out of it, even when closed.",
+    "durability": 900,
+    "flags": [ "CARGO", "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW" ],
+    "item": "Foxadamantineframe",
+    "location": "center",
+    "looks_like": "door",
+    "name": { "str": "adamantine door" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "size": "2500 ml",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "abstract": "Foxadamantinedooropaqueabstract",
+    "breaks_into": "Foxsmashedadamantineframe",
+    "broken_color": "cyan",
+    "broken_symbol": "&",
+    "color": "cyan",
+    "damage_modifier": 80,
+    "damage_reduction": { "all": 113 },
+    "description": "A strong door.  Solid construction means you can't see through it when closed.",
+    "durability": 990,
+    "flags": [ "CARGO", "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE" ],
+    "item": "Foxadamantineframe",
+    "location": "center",
+    "looks_like": "door_opaque",
+    "name": { "str": "adamantine opaque door" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "size": "2500 ml",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "abstract": "Foxadamantinehatchabstract",
+    "breaks_into": "Foxsmashedadamantineframe",
+    "broken_color": "dark_gray",
+    "broken_symbol": "&",
+    "color": "dark_gray",
+    "damage_modifier": 80,
+    "damage_reduction": { "all": 117 },
+    "description": "A very strong door.  A window lets you see through it when closed.",
+    "durability": 1350,
+    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED" ],
+    "item": "Foxadamantineframe",
+    "location": "center",
+    "looks_like": "hatch",
+    "name": { "str": "adamantine hatch" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "size": "37500 ml",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "abstract": "Foxadamantinehatchopaqueabstract",
+    "breaks_into": "Foxsmashedadamantineframe",
+    "broken_color": "dark_gray",
+    "broken_symbol": "&",
+    "color": "dark_gray",
+    "damage_modifier": 80,
+    "damage_reduction": { "all": 120 },
+    "description": "A very strong door.  Solid construction means you can't see through it when closed.",
+    "durability": 1500,
+    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED", "OPAQUE" ],
+    "item": "Foxadamantineframe",
+    "location": "center",
+    "looks_like": "hatch_opaque",
+    "name": { "str": "adamantine opaque hatch" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "size": "37500 ml",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxadamantinedoorabstract",
+    "id": "Foxadamantinedoor",
+    "looks_like": "hddoor",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxadamantinedooropaqueabstract",
+    "id": "Foxadamantinedooropaque",
+    "looks_like": "hddoor_opaque",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxadamantinehatchabstract",
+    "id": "Foxadamantinehatch",
+    "looks_like": "hdhatch",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxadamantinehatchopaqueabstract",
+    "id": "Foxadamantinehatchopaque",
+    "looks_like": "hdhatch_opaque",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxadamantinedoorabstract",
+    "id": "Foxadamantinedoor_left",
+    "looks_like": "hddoor_left",
+    "symbol": "L",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxadamantinedoorabstract",
+    "id": "Foxadamantinedoor_right",
+    "looks_like": "hddoor_right",
+    "symbol": "R",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxadamantinedooropaqueabstract",
+    "id": "Foxadamantinedooropaque_left",
+    "looks_like": "hddoor_opaque_left",
+    "symbol": "L",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxadamantinedooropaqueabstract",
+    "id": "Foxadamantinedooropaque_right",
+    "looks_like": "hddoor_opaque_right",
+    "symbol": "R",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxadamantinehatchabstract",
+    "id": "Foxadamantinehatch_left",
+    "looks_like": "hdhatch_left",
+    "symbol": "L",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxadamantinehatchabstract",
+    "id": "Foxadamantinehatch_right",
+    "looks_like": "hdhatch_right",
+    "symbol": "R",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxadamantinehatchopaqueabstract",
+    "id": "Foxadamantinehatchopaque_left",
+    "looks_like": "hdhatch_opaque_left",
+    "symbol": "L",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxadamantinehatchopaqueabstract",
+    "id": "Foxadamantinehatchopaque_right",
+    "looks_like": "hdhatch_opaque_right",
+    "symbol": "R",
+    "type": "vehicle_part"
+  },
+  {
+    "abstract": "Foxessenceglasswindshield_abstract",
+    "breaks_into": "Foxsmashedadamantineplating",
+    "broken_color": "light_gray",
+    "broken_symbol": "0",
+    "color": "light_blue",
+    "damage_modifier": 80,
+    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 },
+    "//": "Based off the quarterpanel, its made of transparent metal.",
+    "description": "A sheet of essence glass that lets you see outside the vehicle. Extremely resistant to damage.",
+    "durability": 540,
+    "flags": [ "WINDSHIELD", "OBSTACLE", "WINDOW" ],
+    "item": "Foxessenceglasssheet",
+    "location": "center",
+    "looks_like": "windshield",
+    "name": { "str": "essence glass windshield" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 5 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ] ]
+      }
+    },
+    "symbol": "\"",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxessenceglasswindshield_abstract",
+    "id": "Foxessenceglasswindshield",
+    "looks_like": "reinforced_windshield",
+    "symbol": "\"",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxessenceglasswindshield_abstract",
+    "id": "Foxessenceglasswindshield_nw",
+    "looks_like": "reinforced_windshield_nw",
+    "symbol": "y",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxessenceglasswindshield_abstract",
+    "id": "Foxessenceglasswindshield_ne",
+    "looks_like": "reinforced_windshield_ne",
+    "symbol": "u",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxessenceglasswindshield_abstract",
+    "id": "Foxessenceglasswindshield_horizontal_front",
+    "looks_like": "reinforced_windshield_horizontal_front",
+    "symbol": "T",
+    "type": "vehicle_part"
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxwheelmountadamantine_medium",
+    "name": { "str": "adamantine wheel hub assembly" },
+    "looks_like": "wheel_mount_medium",
+    "symbol": "-",
+    "color": "light_gray",
+    "location": "axle",
+    "broken_symbol": "X",
+    "broken_color": "light_gray",
+    "damage_modifier": 80,
+    "durability": 180,
+    "description": "Connection where wheels can be connected on.  This particular one is fit for normal car wheels.",
+    "item": "Foxadamantinewheelmount_medium",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "45 m", "using": [ [ "welding_standard", 10 ], [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "15 m", "using": [ [ "vehicle_weld_removal", 1 ], [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "WHEEL_MOUNT_MEDIUM", "NEEDS_JACKING" ],
+    "breaks_into": "Foxsmashedadamantineplating",
+    "damage_reduction": { "all": 45 }
+  },
+  {
+    "id": "Foxwheelmountadamantine_medium_steerable",
+    "copy-from": "Foxwheelmountadamantine_medium",
+    "looks_like": "wheel_mount_medium",
+    "type": "vehicle_part",
+    "name": { "str": "adamantine wheel hub assembly (steerable)" },
+    "extend": { "flags": [ "STEERABLE" ] }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxwheelmountadamantine_heavy",
+    "looks_like": "wheel_mount_heavy",
+    "name": { "str": "adamantine heavy wheel hub assembly" },
+    "symbol": "-",
+    "color": "light_gray",
+    "location": "axle",
+    "broken_symbol": "X",
+    "broken_color": "light_gray",
+    "damage_modifier": 80,
+    "durability": 180,
+    "description": "Connection where wheels can be connected on.  This particular one is fit for large car wheels.",
+    "item": "Foxadamantinewheelmount_heavy",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "welding_standard", 15 ], [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "vehicle_weld_removal", 1 ], [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "WHEEL_MOUNT_HEAVY", "NEEDS_JACKING" ],
+    "breaks_into": "Foxsmashedadamantineplating",
+    "damage_reduction": { "all": 60 }
+  },
+  {
+    "id": "Foxwheelmountadamantine_heavy_steerable",
+    "copy-from": "Foxwheelmountadamantine_heavy",
+    "looks_like": "wheel_mount_heavy",
+    "type": "vehicle_part",
+    "name": { "str": "adamantine heavy wheel hub assembly (steerable)" },
+    "extend": { "flags": [ "STEERABLE" ] }
+  },
+  {
+    "id": "Foxwheeladamantine",
+    "type": "vehicle_part",
+    "name": { "str": "adamantine wheel" },
+    "item": "Foxwheeladamantine",
+    "location": "under",
+    "symbol": "0",
+    "broken_symbol": "x",
+    "color": "dark_gray",
+    "durability": 400,
+    "description": "A wheel.",
+    "damage_modifier": 50,
+    "breaks_into": "Foxsmashedadamantineplating",
+    "rolling_resistance": 1,
+    "wheel_type": "standard",
+    "contact_area": 153,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "15 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "15 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "15 m", "using": [ [ "welding_standard", 4 ] ] }
+    },
+    "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_MEDIUM" ],
+    "damage_reduction": { "bash": 40 }
+  },
+  {
+    "id": "Foxwheeladamantinearmored",
+    "type": "vehicle_part",
+    "name": { "str": "adamantine armored wheel" },
+    "item": "Foxwheeladamantinearmored",
+    "location": "under",
+    "looks_like": "wheel_armor",
+    "symbol": "0",
+    "broken_symbol": "x",
+    "color": "green",
+    "durability": 1200,
+    "description": "A very strong, armored metal wheel.",
+    "damage_modifier": 50,
+    "breaks_into": "Foxsmashedadamantineplating",
+    "rolling_resistance": 0.6,
+    "wheel_type": "off-road",
+    "contact_area": 480,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "20 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "20 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 5 ] ],
+        "time": "20 m",
+        "using": [ [ "welding_standard", 5 ] ]
+      }
+    },
+    "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_HEAVY" ],
+    "damage_reduction": { "all": 90, "cut": 45, "stab": 32 }
+  },
+  {
+    "id": "Foxcarbattery",
+    "type": "vehicle_part",
+    "name": { "str": "essence car battery" },
+    "item": "Foxcarbattery",
+    "fuel_type": "battery",
+    "symbol": "o",
+    "color": "yellow",
+    "broken_color": "red",
+    "durability": 120,
+    "description": "A battery for storing electrical power, and discharging it to power electrical devices built into the vehicle.",
+    "folded_volume": "10 L",
+    "breaks_into": [
+      { "item": "plastic_chunk", "count": [ 20, 20 ] },
+      { "item": "scrap", "count": [ 4, 4 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "50 s", "qualities": [ { "id": "WRENCH", "level": 1 } ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "50 s", "qualities": [ { "id": "WRENCH", "level": 1 } ] },
+      "repair": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "600 s",
+        "using": [ [ "soldering_standard", 5 ] ]
+      }
+    },
+    "flags": [ "FOLDABLE" ]
+  }
+]

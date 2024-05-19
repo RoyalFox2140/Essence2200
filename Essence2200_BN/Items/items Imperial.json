@@ -264,7 +264,7 @@
     "symbol": "=",
     "color": "yellow",
     "ammo_type": "battery",
-    "capacity": 10000,
+    "capacity": 1500,
     "looks_like": "battery",
     "flags": [ "NO_UNLOAD", "RECHARGE" ]
   },
@@ -283,7 +283,7 @@
     "symbol": "=",
     "color": "yellow",
     "ammo_type": "battery",
-    "capacity": 30000,
+    "capacity": 3000,
     "looks_like": "battery",
     "flags": [ "NO_UNLOAD", "RECHARGE", "NO_REPAIR" ]
   },
@@ -302,7 +302,7 @@
     "symbol": "=",
     "color": "yellow",
     "ammo_type": "battery",
-    "capacity": 1500,
+    "capacity": 150,
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE", "MAG_COMPACT" ]
   },
@@ -321,7 +321,7 @@
     "symbol": "=",
     "color": "yellow",
     "ammo_type": "battery",
-    "capacity": 1500,
+    "capacity": 300,
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE", "MAG_COMPACT" ]
   },
@@ -359,7 +359,7 @@
     "symbol": "=",
     "color": "yellow",
     "ammo_type": "battery",
-    "capacity": 1500,
+    "capacity": 3000,
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE", "MAG_COMPACT" ]
   },
