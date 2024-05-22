@@ -1,0 +1,44 @@
+[
+  {
+    "result": "Foxmagiclighter",
+    "type": "uncraft",
+    "time": "5 m",
+    "components": [ [ [ "FoxEssencenormal", 500 ] ] ]
+  },
+  {
+    "result": "Foxnoviceartificing",
+    "type": "uncraft",
+    "time": "5 m",
+    "components": [ [ [ "FoxEssencenormal", 1000 ] ] ]
+  },
+  {
+    "result": "Foxintermediateartificing",
+    "type": "uncraft",
+    "time": "5 m",
+    "components": [ [ [ "FoxEssencenormal", 2500 ] ] ]
+  },
+  {
+    "result": "Foxadvancedartificing",
+    "type": "uncraft",
+    "time": "5 m",
+    "components": [ [ [ "FoxEssencenormal", 5000 ] ] ]
+  },
+  {
+    "result": "Foxfleshmanipulation",
+    "type": "uncraft",
+    "time": "5 m",
+    "components": [ [ [ "FoxEssencenormal", 1000 ] ] ]
+  },
+  {
+    "result": "Foxlightorboff",
+    "type": "uncraft",
+    "time": "5 m",
+    "components": [ [ [ "FoxEssencenormal", 5000 ] ] ]
+  },
+  {
+    "result": "Foxlightorbbigoff",
+    "type": "uncraft",
+    "time": "5 m",
+    "components": [ [ [ "FoxEssencenormal", 20000 ] ] ]
+  }
+]
