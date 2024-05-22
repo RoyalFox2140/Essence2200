@@ -36,7 +36,7 @@
     "result_mult": 5,
     "autolearn": true,
     "flags": [ "BLIND_HARD" ],
-    "components": [ [ [ "rolling_paper", 100 ] ], [ [ "Foxbangtailrhizome", 1 ] ] ]
+    "components": [ [ [ "rolling_paper", 100 ] ], [ [ "Foxbangtaildried", 1 ] ] ]
   },
   {
     "type": "recipe",
