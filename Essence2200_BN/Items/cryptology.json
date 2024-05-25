@@ -559,13 +559,7 @@
     "price_postapoc": "2 USD",
     "material": "paper",
     "weight": "500 g",
-    "volume": "1000 ml",
-    "skill": "FoxEssSpellcasting",
-    "required_level": 1,
-    "max_level": 2,
-    "intelligence": 8,
-    "time": "10 m",
-    "fun": 1
+    "volume": "1000 ml"
   },
   {
     "type": "GENERIC",
