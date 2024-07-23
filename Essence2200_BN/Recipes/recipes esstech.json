@@ -222,13 +222,54 @@
     "time": "30 m",
     "reversible": true,
     "autolearn": true,
-    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 50 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 40 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "tools": [ [ [ "mold_plastic", -1 ] ] ],
     "components": [
       [ [ "plastic_chunk", 20 ] ],
       [ [ "scrap", 4 ] ],
       [ [ "FoxEssencenormal", 5000 ] ]
+    ]
+  },
+  {
+    "result": "Foxessencelargebattery",
+    "type": "recipe",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "electronics",
+    "difficulty": 6,
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 2 ] ],
+    "time": "1 h",
+    "reversible": true,
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ], [ "surface_heat", 24 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [ [ "plastic_chunk", 12 ] ], 
+      [ [ "copper", 800 ] ],
+      [ [ "sheet_metal", 1 ] ],
+      [ [ "FoxEssencenormal", 45000 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxcrystalpanel",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "electronics",
+    "skills_required": [ [ "FoxEssTheory", 4 ] ],
+    "difficulty": 10,
+    "time": "1 h",
+    "reversible": true,
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 70 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [
+      [ [ "power_supply", 4 ] ],
+      [ [ "amplifier", 4 ] ],
+      [ [ "Foxcrystallizedessence", 20 ] ],
+      [ [ "cable", 20 ] ]
     ]
   }
 ]

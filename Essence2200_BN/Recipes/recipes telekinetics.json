@@ -232,5 +232,20 @@
       [ [ "cheese_fresh", 50 ] ],
       [ [ "charcoal", 20 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "material_sand",
+    "id_suffix": "FoxTelekineticBreakdown",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_TELEKINETICS",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "10 m",
+    "result_mult": 20,
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "rock", 20  ] ] ],
+    "flags": ["NUTRIENT_OVERRIDE"]
   }
 ]

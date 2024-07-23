@@ -2,7 +2,7 @@
   {
     "type": "mutation",
     "id": "Foxnanoeffstrone",
-    "name": { "str": "Nano Strength II" },
+    "name": { "str": "Nano Strength I" },
     "points": 0,
     "description": "The first level of strength augmentation attempts to maintain your existing muscle mass during periods of inactivity, it won't build you up but bodybuilders could take a few days off every week without losing mass. You will also deal with heavy weights without straining yourself as much.",
     "valid": false,
@@ -162,6 +162,66 @@
     "valid": false,
     "purifiable": false,
     "armor": [ { "parts": "ALL", "acid": 30, "electric": 60 } ]
+  },
+  {
+    "type": "mutation",
+    "id": "Foxnanoeffintone",
+    "name": { "str": "Nano Intelligence I" },
+    "points": 0,
+    "description": "The first level of intelligence augmentation improves your short-term memory, reading comprehension, and attention to small details, allowing you to learn and work more efficiently.",
+    "valid": false,
+    "purifiable": false,
+    "passive_mods": { "int_mod": 4 }
+  },
+  {
+    "type": "mutation",
+    "id": "Foxnanoeffinttwo",
+    "name": { "str": "Nano Intelligence II" },
+    "points": 0,
+    "description": "The second level of intelligence augmentation improves the formation of long-term memories and your ability to recollect.",
+    "valid": false,
+    "purifiable": false,
+    "passive_mods": { "int_mod": 4 }
+  },
+  {
+    "type": "mutation",
+    "id": "Foxnanoeffintthree",
+    "name": { "str": "Nano Intelligence III" },
+    "points": 0,
+    "description": "The third level of intelligence augmentation grants you a photograhic memory and reaches the limits of biology.",
+    "valid": false,
+    "purifiable": false,
+    "passive_mods": { "int_mod": 6 }
+  },
+  {
+    "type": "mutation",
+    "id": "Foxnanoeffdexone",
+    "name": { "str": "Nano Dexterity I" },
+    "points": 0,
+    "description": "The first level of dexterity augmentation improves general flexibility, balance, and muscle memory.",
+    "valid": false,
+    "purifiable": false,
+    "passive_mods": { "dex_mod": 4 }
+  },
+  {
+    "type": "mutation",
+    "id": "Foxnanoeffdextwo",
+    "name": { "str": "Nano Dexterity II" },
+    "points": 0,
+    "description": "The second level of dexterity augmentation improves motor functions significantly and allows a user to be ambidexterous without prior effort.",
+    "valid": false,
+    "purifiable": false,
+    "passive_mods": { "dex_mod": 4 }
+  },
+  {
+    "type": "mutation",
+    "id": "Foxnanoeffdexthree",
+    "name": { "str": "Nano Dexterity III" },
+    "points": 0,
+    "description": "The third level of dexterity augmentation improves coordination across the body to inhuman levels.",
+    "valid": false,
+    "purifiable": false,
+    "passive_mods": { "dex_mod": 6 }
   },
   {
     "type": "mutation",

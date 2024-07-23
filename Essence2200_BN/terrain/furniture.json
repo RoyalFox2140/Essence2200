@@ -343,6 +343,53 @@
   },
   {
     "type": "furniture",
+    "id": "Foxfgridnanoforge",
+    "looks_like": "f_workbench",
+    "name": "grid nanoforge",
+    "symbol": "U",
+    "description": "A nanoforge connected to the power grid.",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 10,
+    "required_str": -1,
+    "crafting_pseudo_item": "Foxfake_NanoForge",
+    "flags": [ "TRANSPARENT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": {
+      "items": [ { "item": "FoxNanoForge", "count": 1 }, { "item": "cable", "charges": 5 } ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "FoxNanoForge", "count": 1 },
+        { "item": "cable", "charges": 5 }
+      ]
+    }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxfgridnanoforge",
+    "group": "Foxplace_Foxfgridnanoforge",
+    "category": "FURN",
+    "required_skills": [ [ "electronics", 1 ] ],
+    "time": "1 m",
+    "qualities": [ [ { "id": "SCREW", "level": 1 } ] ],
+    "using": [ [ "soldering_standard", 5 ] ],
+    "components": [ [ [ "FoxNanoForge", 1 ] ], [ [ "cable", 5 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "dark_craftable": true,
+    "post_furniture": "Foxfgridnanoforge"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_Foxfgridnanoforge",
+    "name": "Install Nanoforge"
+  },
+  {
+    "type": "furniture",
     "id": "Foxfportalnexusmagic",
     "name": "portal nexus",
     "symbol": "T",
@@ -447,7 +494,7 @@
     "coverage": 95,
     "required_str": -1,
     "flags": [ "NOITEM", "DOOR", "BLOCK_WIND", "SUN_ROOF_ABOVE" ],
-    "open": "f_canvas_door_o",
+    "open": "Foxf_canvas_door_o",
     "bash": {
       "str_min": 40,
       "str_max": 50,

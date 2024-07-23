@@ -749,6 +749,59 @@
     "damage_reduction": { "all": 90, "cut": 45, "stab": 32 }
   },
   {
+    "type": "vehicle_part",
+    "id": "Foxadamantineboathull",
+    "name": { "str": "adamantine boat hull" },
+    "description": "A metal sheet that keeps the water out of your boat.",
+    "symbol": "o",
+    "color": "dark_gray",
+    "looks_like": "metal_boat_hull",
+    "broken_symbol": "x",
+    "broken_color": "light_gray",
+    "damage_modifier": 50,
+    "durability": 498,
+    "item": "Foxadamantineplate",
+    "location": "under",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "qualities": [ { "id": "SAW_M", "level": 1 } ] },
+      "repair": {
+        "skills": [ [ "mechanics", 5 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ] ]
+      }
+    },
+    "flags": [ "FLOATS" ],
+    "breaks_into": "Foxsmashedadamantineplating",
+    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxadamantineroof",
+    "name": { "str": "adamantine roof" },
+    "symbol": "#",
+    "color": "light_gray",
+    "broken_symbol": "#",
+    "broken_color": "dark_gray",
+    "durability": 498,
+    "looks_like": "roof",
+    "description": "A metal roof.",
+    "item": "Foxadamantineplate",
+    "location": "roof",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "qualities": [ { "id": "SAW_M", "level": 1 } ] },
+      "repair": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ] ]
+      }
+    },
+    "flags": [ "ROOF" ],
+    "breaks_into": "Foxsmashedadamantineplating",
+    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+  },
+  {
     "id": "Foxcarbattery",
     "type": "vehicle_part",
     "name": { "str": "essence car battery" },
@@ -774,5 +827,64 @@
       }
     },
     "flags": [ "FOLDABLE" ]
+  },
+  {
+    "id": "Foxessencelargebattery",
+    "type": "vehicle_part",
+    "name": { "str": "essence large storage battery" },
+    "item": "Foxessencelargebattery",
+    "fuel_type": "battery",
+    "symbol": "o",
+    "color": "yellow",
+    "broken_color": "red",
+    "durability": 120,
+    "description": "A battery for storing electrical power, and discharging it to power electrical devices built into the vehicle.",
+    "folded_volume": "50 L",
+    "breaks_into": [
+      { "item": "plastic_chunk", "count": [ 20, 20 ] },
+      { "item": "scrap", "count": [ 4, 4 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "50 s", "qualities": [ { "id": "WRENCH", "level": 1 } ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "50 s", "qualities": [ { "id": "WRENCH", "level": 1 } ] },
+      "repair": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "600 s",
+        "using": [ [ "soldering_standard", 5 ] ]
+      }
+    },
+    "flags": [ "FOLDABLE" ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxcrystalpanel",
+    "name": { "str": "crystal panel" },
+    "symbol": "#",
+    "color": "yellow",
+    "broken_symbol": "x",
+    "broken_color": "yellow",
+    "looks_like": "solar_panel",
+    "damage_modifier": 10,
+    "durability": 20,
+    "description": "A solar panel.  Will slowly recharge the vehicle's electrical power when exposed to the sun.  Clouds will slow the recharge speed even more.",
+    "epower": 400,
+    "item": "Foxcrystalpanel",
+    "location": "on_roof",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 6 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "electronics", 8 ] ],
+        "time": "50 m",
+        "using": [ [ "vehicle_screw", 1 ], [ "soldering_standard", 10 ] ]
+      }
+    },
+    "flags": [ "SOLAR_PANEL" ],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 2, 4 ] },
+      { "item": "steel_chunk", "count": [ 2, 4 ] },
+      { "item": "scrap", "count": [ 2, 4 ] },
+      { "item": "Foxcrystallizedessence", "count": [ 8, 16 ] }
+    ]
   }
 ]

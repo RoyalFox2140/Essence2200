@@ -295,6 +295,37 @@
     "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
   },
   {
+    "type": "TOOL",
+    "id": "FoxNanoForge",
+    "name": "Imperial Nanoforge",
+    "looks_like": "heavy_atomic_battery_cell",
+    "description": "An unlocked rare computer which contains a tank of controllable self replicating nanomachines that can consume any constituent matter to replicate and convert one matter into another.  A carefully guarded secret, it can only be unlocked by a unique 512 character password sent on an exact radio frequency, it explodes after any failed attempt.  The nanites can convert an item into another before burning out and will recharge so long as it has electricity.",
+    "category": "spare_parts",
+    "weight": "1000 g",
+    "volume": "2 L",
+    "material": [ "FoxAdamantine" ],
+    "symbol": "*",
+    "color": "yellow",
+    "ammo": "battery",
+    "initial_charges": 1,
+    "max_charges": 1000000,
+    "charges_per_use": 1,
+    "use_action": [
+      "EINKTABLETPC",
+      "PORTABLE_GAME"
+    ],
+    "flags": [ "WATCH", "NO_UNLOAD", "NO_RELOAD", "RECHARGE" ]
+  },
+  {
+    "id": "Foxfake_NanoForge",
+    "copy-from": "fake_item",
+    "type": "TOOL",
+    "name": { "str": "grid Nanoforge" },
+    "sub": "FoxNanoForge",
+    "max_charges": 1000000,
+    "flags": [ "USES_GRID_POWER" ]
+  },
+  {
     "id": "FoxKawakamiravensclaw",
     "type": "ARMOR",
     "name": { "str": "Raven's claw (drained)" },
@@ -305,6 +336,9 @@
     "price_postapoc": "2 USD",
     "material": [ "FoxShadowSteel" ],
     "looks_like": "sapphire_silver_pendant_necklace",
+    "qualities": [
+      [ "FoxRavensclawtool", 1 ]
+    ],
     "relic_data": {
       "passive_effects": [
         {
@@ -329,6 +363,9 @@
     "price_postapoc": "2 USD",
     "material": [ "FoxShadowSteel" ],
     "looks_like": "sapphire_silver_pendant_necklace",
+    "qualities": [
+      [ "FoxRavensclawtool", 2 ]
+    ],
     "relic_data": {
       "passive_effects": [
         {
@@ -364,6 +401,9 @@
     "price_postapoc": "2 USD",
     "material": [ "FoxShadowSteel" ],
     "looks_like": "sapphire_silver_pendant_necklace",
+    "qualities": [
+      [ "FoxRavensclawtool", 3 ]
+    ],
     "relic_data": {
       "passive_effects": [
         {
@@ -399,6 +439,9 @@
     "price_postapoc": "2 USD",
     "material": [ "FoxShadowSteel" ],
     "looks_like": "sapphire_silver_pendant_necklace",
+    "qualities": [
+      [ "FoxRavensclawtool", 4 ]
+    ],
     "relic_data": {
       "passive_effects": [
         {
@@ -867,7 +910,16 @@
     "storage": "6 L",
     "warmth": 20,
     "material_thickness": 2,
-    "use_action": { "type": "holster", "max_volume": "800 ml", "min_volume": "200 ml", "skills": [ "pistol", "smg", "shotgun" ] },
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Store gun",
+      "holster_msg": "You put your %1$s in your %2$s",
+      "multi": 2,
+      "min_volume": "50 ml",
+      "max_volume": "800 ml",
+      "draw_cost": 100,
+      "skills": [ "pistol", "smg", "shotgun" ]
+    },
     "environmental_protection": 1,
     "valid_mods" : ["furred", "wooled", "Foxadamantinemod"],
     "flags": [ "VARSIZE", "POCKETS", "OUTER" ]

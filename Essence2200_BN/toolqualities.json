@@ -25,6 +25,11 @@
     "name": { "str": "Runecrafting" }
   },
   {
+    "type": "tool_quality",
+    "id": "FoxRavensclawtool",
+    "name": { "str": "Raven's Claw" }
+  },
+  {
     "id": "soldering_standard",
     "type": "requirement",
     "//": "Soldering metal items",

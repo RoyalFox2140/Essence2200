@@ -852,6 +852,28 @@
     "fun": -40
   },
   {
+    "type": "COMESTIBLE",
+    "id": "Fox_NightwalkerRegencure",
+    "name": "Nightwalker regeneration cure",
+    "category": "mutagen",
+    "weight": "100 g",
+    "color": "red",
+    "container": "bottle_glass",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": -1,
+    "healthy": 1,
+    "calories": 1,
+    "description": "A mixture of medicine and a boost of souls to allow your body to heal in both conventional and anomalous ways.",
+    "material": [ "alcohol", "flesh" ],
+    "volume": "250 ml",
+    "phase": "liquid",
+    "charges": 1,
+    "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_NightwalkerCureKoolAid", "no_fail": true, "level": 0 },
+    "flags": [ "NO_INGEST", "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
+    "fun": 1
+  },
+  {
     "id": "FoxKawakamiprotectionbullets",
     "type": "ARMOR",
     "name": { "str": "Prayer ranged aura" },

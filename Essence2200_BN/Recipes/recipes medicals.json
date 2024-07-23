@@ -227,5 +227,21 @@
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "//": "Get some essence in there so the mixture goes from healing wounds to vitamins and the like.",
     "components": [ [ [ "Foxcompounde", 2 ] ], [ [ "FoxEssencenormal", 250 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Fox_NightwalkerRegencure",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_DRUGS",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 4 ] ],
+    "difficulty": 3,
+    "time": "40 m",
+    "batch_time_factors": [ 75, 4 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 }, { "id": "FoxRavensclawtool", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "//": "Require Ravens claw so nobody else can have this. More like an iv at this point but I'm not modeling the difference.",
+    "components": [ [ [ "Foxcompounda", 5 ] ], [ [ "Foxcompoundb", 10 ] ], [ [ "Foxcompoundd", 1 ] ], [ [ "Foxcompounde", 20 ] ], [ [ "Foxcompoundg", 10 ] ], [ [ "Foxhumansoul", 25 ] ] ]
   }
 ]

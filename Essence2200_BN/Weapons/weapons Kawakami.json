@@ -241,5 +241,48 @@
       [ "underbarrel mount", 1 ]
     ],
     "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ]
+  },
+  {
+    "id": "FoxKawakamisawnoff",
+    "copy-from": "pistol_1shot",
+    "type": "GUN",
+    "name": { "str": "Kawakami sawn-off" },
+    "weapon_category": [ "SHOTGUNS", "1SHOT" ],
+    "description": "A custom-made double barrel sawn-off shotgun designed for comfortably fitting in a coat pocket and quickly drawing to fire at close range.  A signature weapon of the designer.",
+    "looks_like": "ashot",
+    "weight": "828 g",
+    "volume": "500 ml",
+    "barrel_length": "100 ml",
+    "skill": "shotgun",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -2,
+    "ascii_picture": "ashot",
+    "bashing": 6,
+    "material": [ "FoxAdamantine" ],
+    "color": "brown",
+    "ammo": [ "shot", "FoxshotSGA" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 16 },
+    "dispersion": 900,
+    "durability": 6,
+    "clip_size": 2,
+    "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "reload": 80,
+    "handling": 30,
+    "flags": [ "RELOAD_ONE", "RELOAD_EJECT", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   }
 ]

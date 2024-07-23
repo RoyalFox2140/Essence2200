@@ -2,56 +2,59 @@
   {
     "type": "mutation",
     "id": "FoxSchoolsElemental",
-    "name": "Awakening: Elemental",
+    "name": "Apostle: Elemental",
     "points": 3,
-    "description": "Elemental spells use typical elements in their operation, whether its for offensive, defensive, or utility. The most straightforward school of magic, condense water vapor into drinkable form, start fires at will, defend yourself with rocks or blow away threats with wind. All that and more.",
+    "description": "Elemental spells use typical elements in their operation, whether its for offensive, defensive, or utility. The most straightforward school of magic, condense water vapor into drinkable form, start fires at will, defend yourself with rocks or blow away threats with wind. All that and more. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": true,
     "purifiable": false,
     "valid": true,
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceBulk", 1 ], [ "Fox_Elemental_Firebolt", 1 ], [ "Fox_Elemental_Icebolt", 1 ], [ "Fox_Elemental_Lightningbolt", 1 ], [ "Fox_Elemental_Water", 1 ], [ "Fox_Elemental_Climatecontrol", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1] ],
     "flags": [ "PSYCHOPATH" ],
+    "anger_relations": [ [ "FoxImperial", 20 ] ],
     "mana_modifier": 2000,
-    "mana_regen_multiplier": 0.75
+    "mana_regen_multiplier": 0.60
   },
   {
     "type": "mutation",
     "id": "FoxSchoolsSpirit",
-    "name": "Awakening: Spirit",
+    "name": "Apostle: Spirit",
     "points": 3,
-    "description": "Spirit magic directly modifies the soul all living things possess, in both positive and negative ways. One can flay the mind of enemies, bring the dead back, empower the living, and steal the life from others.",
+    "description": "Spirit magic directly modifies the soul all living things possess, in both positive and negative ways. One can flay the mind of enemies, bring the dead back, empower the living, and steal the life from others.  An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": true,
     "purifiable": false,
     "valid": true,
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceBulk", 1 ], [ "Fox_Spirit_Soothe", 1 ], [ "Fox_Spirit_Flay", 1 ], [ "Fox_Spirit_Darkvisiondispel", 1 ], [ "Fox_Pale_portalnexus", 1 ], [ "Fox_Pale_teleport", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1] ],
     "flags": [ "PSYCHOPATH" ],
+    "anger_relations": [ [ "FoxImperial", 20 ] ],
     "mana_modifier": 2000,
-    "mana_regen_multiplier": 0.75
+    "mana_regen_multiplier": 0.60
   },
   {
     "type": "mutation",
     "id": "FoxSchoolsTransmutation",
-    "name": "Awakening: Transmutation",
+    "name": "Apostle: Transmutation",
     "points": 3,
-    "description": "Transmutation directly convert matter or essence into the other, including manipulating atoms into various forms for non-elemental purposes. One can pursue alchemy, fabricate complex objects and conjure things from thin air via background essence.",
+    "description": "Transmutation directly convert matter or essence into the other, including manipulating atoms into various forms for non-elemental purposes. One can pursue alchemy, fabricate complex objects and conjure things from thin air via background essence.  An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": true,
     "purifiable": false,
     "valid": true,
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceBulk", 1 ], [ "Fox_Transmutation_EssenceToken", 1 ], [ "Fox_Transmutation_EssenceTokenBulk", 1 ], [ "Fox_Transmutation_Lead_Attack", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1], [ "Fox_Transmutation_LogWall", 1 ], [ "Fox_Transmutation_LogRoof", 1 ] ],
     "flags": [ "PSYCHOPATH" ],
+    "anger_relations": [ [ "FoxImperial", 20 ] ],
     "mana_modifier": 2000,
-    "mana_regen_multiplier": 0.75
+    "mana_regen_multiplier": 0.60
   },
   {
     "type": "mutation",
     "id": "FoxSchoolsPale",
-    "name": "Awakening: Pale",
+    "name": "Apostle: Pale",
     "points": 0,
-    "description": "All are equal in the face of death. Pale spells can be identified by the pale cyan energy they emanate. They transcend reality, and ignore the barriers between dimensions. They rely only on the raw power of Essence. Their ability to ignore the laws of reality and penetrate through any non-pale armor causes great terror.",
+    "description": "All are equal in the face of death. Pale spells can be identified by the pale cyan energy they emanate. They transcend reality, and ignore the barriers between dimensions. They rely only on the raw power of Essence. Their ability to ignore the laws of reality and penetrate through any non-pale armor causes great terror.  An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": false,
     "purifiable": false,
     "valid": true,
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Pale_Lesser_SOL", 1 ] ],
     "flags": [ "PSYCHOPATH" ],
-    "mana_modifier": 2000
+    "anger_relations": [ [ "FoxImperial", 20 ] ]
   }
 ]

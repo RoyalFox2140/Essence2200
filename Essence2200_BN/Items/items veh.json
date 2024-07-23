@@ -162,7 +162,7 @@
     "type": "MAGAZINE",
     "category": "battery",
     "name": { "str": "essence car battery", "str_pl": "essence car batteries" },
-    "description": "An equivalent 12v lead-acid battery made with liquid essence, resulting in higher capacity.",
+    "description": "An equivalent 12v lead-acid battery made with 5 liters of liquid essence, resulting in higher capacity.",
     "weight": "1 kg",
     "volume": "10 L",
     "price": "2 USD",
@@ -174,5 +174,39 @@
     "capacity": 30000,
     "//": "5 liters of essence for power, at 6 kj/g energy density, multiply volume by 6, 5000 x 6 is 30000.",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "NO_RELOAD", "RECHARGE" ]
+  },
+  {
+    "id": "Foxessencelargebattery",
+    "type": "MAGAZINE",
+    "category": "battery",
+    "name": { "str": "essence large storage battery", "str_pl": "essence large storage batteries" },
+    "description": "An equivalent large storage battery containing 45 liters of liquid essence, for use in vehicles and homes.",
+    "weight": "15 kg",
+    "volume": "50 L",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxImperialSteel" ],
+    "symbol": ":",
+    "color": "light_cyan",
+    "ammo_type": "battery",
+    "capacity": 270000,
+    "//": "It's 9 car batteries dude, 30K x 9 = 270000.",
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "NO_RELOAD", "RECHARGE" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "Foxcrystalpanel",
+    "name": { "str": "crystal panel" },
+    "description": "A hybrid solar panel made with essence crystals instead of photovoltaic cells, it holds higher efficiency but maintains the same fragile design.",
+    "weight": "2000 g",
+    "to_hit": -4,
+    "color": "yellow",
+    "symbol": "]",
+    "material": [ "steel" ],
+    "volume": "3 L",
+    "bashing": 1,
+    "category": "veh_parts",
+    "price": "2 USD",
+    "price_postapoc": "2 USD"
   }
 ]

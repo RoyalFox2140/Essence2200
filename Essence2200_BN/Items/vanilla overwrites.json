@@ -1,36 +1,6 @@
 [
   {
     "type": "GENERIC",
-    "id": "birchbark",
-    "symbol": ",",
-    "color": "brown",
-    "name": { "str": "birchbark" },
-    "description": "A sheet of tough, water-resistant bark taken from a birch tree.",
-    "price": "0 cent",
-    "price_postapoc": "0 cent",
-    "material": "wood",
-    "weight": "323 g",
-    "volume": "250 ml",
-    "bashing": 4,
-    "to_hit": 1
-  },
-  {
-    "type": "GENERIC",
-    "id": "willowbark",
-    "symbol": ",",
-    "color": "brown",
-    "name": { "str_sp": "willowbark" },
-    "description": "A sheet of bark taken from a willow tree.  Used in the production of aspirin.",
-    "price": "0 cent",
-    "price_postapoc": "10 cent",
-    "material": "wood",
-    "weight": "323 g",
-    "volume": "250 ml",
-    "bashing": 4,
-    "to_hit": 1
-  },
-  {
-    "type": "GENERIC",
     "id": "Foxpinebark",
     "looks_like": "willowbark",
     "symbol": ",",
@@ -45,6 +15,19 @@
     "volume": "250 ml",
     "bashing": 4,
     "to_hit": 1
+  },
+  {
+    "type": "terrain",
+    "id": "t_tree_pine",
+    "symbol": "4",
+    "color": "green",
+    "copy-from": "t_tree_pine",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "pine_bough", "base_num": [ 2, 8 ] }, { "drop": "pinecone", "base_num": [ 1, 4 ] }, { "drop": "Foxpinebark", "base_num": [ 2, 8 ] } ]
+      }
+    ]
   },
   {
     "id": "Foxediblebark",

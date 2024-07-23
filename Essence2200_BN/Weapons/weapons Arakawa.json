@@ -16,7 +16,7 @@
         "durability": 6,
         "clip_size": 9,
         "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "Burst", 2 ] ],
-        "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+        "ranged_damage": { "damage_type": "bullet", "amount": 16 },
         "valid_mod_locations": [
           [ "accessories", 4 ],
           [ "barrel", 1 ],
