@@ -292,6 +292,7 @@
     "fun": -15,
     "color": "brown",
     "flags": [ "INEDIBLE", "LUPINE" ],
-    "use_action": "DOGFOOD"
+    "use_action": "PETFOOD",
+    "petfood": [ "FOXNECROCHARGE" ]
   }
 ]

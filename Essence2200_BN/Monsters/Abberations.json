@@ -23,12 +23,16 @@
         "dodge": 2,
         "armor_cut": 10,
         "armor_stab": 30,
+        "petfood": {
+         "food": [ "FOXNECROCHARGE" ],
+         "feed": "The %s seems to obey you.  It looks at you attentively."
+        },
         "vision_day": 30,
         "vision_night": 3,
         "harvest": "mr_bones",
         "death_drops": "Foxmonskeletonconjuredrops",
         "death_function": [ "NORMAL" ],
-        "flags": [ "SEES", "HEARS", "DOGFOOD", "HARDTOSHOOT", "NO_BREATHE", "CAN_OPEN_DOORS", "NO_FUNG_DMG", "NOHEAD" ]
+        "flags": [ "SEES", "HEARS", "HARDTOSHOOT", "NO_BREATHE", "CAN_OPEN_DOORS", "NO_FUNG_DMG", "NOHEAD" ]
       },
       {
         "id": "Foxmon_skeletalhorse",
@@ -42,7 +46,7 @@
         "volume": "550 L",
         "weight": "750 kg",
         "hp": 70,
-        "speed": 400,
+        "speed": 600,
         "aggression": -99,
         "material": [ "flesh" ],
         "symbol": "H",
@@ -55,13 +59,16 @@
         "dodge": 2,
         "armor_cut": 10,
         "armor_stab": 30,
+        "petfood": {
+         "food": [ "FOXNECROCHARGE" ],
+         "feed": "The %s seems to obey you.  It looks at you attentively."
+        },
         "anger_triggers": [ "FRIEND_ATTACKED" ],
         "death_function": [ "NORMAL" ],
         "harvest": "Foxmonskeletonconjuredrops",
         "flags": [
           "SEES",
           "HEARS",
-          "DOGFOOD",
           "NO_BREATHE",
           "PET_WONT_FOLLOW",
           "PET_MOUNTABLE",
