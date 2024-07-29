@@ -38,6 +38,7 @@
     "base_energy_cost": 200,
     "difficulty": 1,
     "min_damage": 40,
+    "max_damage": 40,
     "max_level": 10,
     "min_range": 10,
     "max_range": 20,
