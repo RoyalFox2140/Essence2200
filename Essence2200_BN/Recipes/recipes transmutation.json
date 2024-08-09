@@ -12,7 +12,7 @@
     "batch_time_factors": [ 80, 2 ],
     "delete_flags": [ "CANNIBALISM" ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "meat_tainted", 10 ] ] ],
+    "components": [ [ [ "meat_tainted", 10 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -28,7 +28,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "delete_flags": [ "BAD_TASTE" ],
-    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "mutant_meat", 10 ] ] ],
+    "components": [ [ [ "mutant_meat", 10 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -60,7 +60,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "delete_flags": [ "CANNIBALISM", "BAD_TASTE" ],
-    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "mutant_human_flesh", 10 ] ] ],
+    "components": [ [ [ "mutant_human_flesh", 10 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -75,7 +75,7 @@
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "fat_tainted", 10 ] ] ],
+    "components": [ [ [ "fat_tainted", 10 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -90,7 +90,7 @@
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "mutant_fat", 10 ] ] ],
+    "components": [ [ [ "mutant_fat", 10 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -121,8 +121,8 @@
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "delete_flags": [ "CANNIBALISM" ],
-    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "mutant_human_fat", 10 ] ] ],
+    "delete_flags": [ "CANNIBALISM", "BAD_TASTE" ],
+    "components": [ [ [ "mutant_human_fat", 10 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -137,7 +137,7 @@
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "raw_tainted_leather", 10 ] ] ],
+    "components": [ [ [ "raw_tainted_leather", 10 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -152,7 +152,7 @@
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "raw_tainted_fur", 10 ] ] ],
+    "components": [ [ [ "raw_tainted_fur", 10 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
@@ -167,7 +167,7 @@
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "meat_tainted", 10 ], [ "fat_tainted", 10 ] ] ],
+    "components": [ [ [ "meat_tainted", 10 ], [ "fat_tainted", 10 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
