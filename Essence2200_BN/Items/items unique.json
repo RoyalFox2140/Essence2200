@@ -1,0 +1,335 @@
+[
+  {
+    "id": "FoxKawakamiravensclaw",
+    "type": "ARMOR",
+    "name": { "str": "Raven's claw (drained)" },
+    "description": "You don't recall how you found this artifact necklace due to a combination of hallucinations and madness, it's been with you since the trip home through Lunar Valley after the first wasteland war. They found it with you and the Arbiters didn't notice anything anomalous so you kept it. It is a shadowsteel necklace with the claw from a raven grasping a sapphire. Though it once held great power you've used it up and will need to conduct another soul harvest just like during your time as a Reaper.",
+    "weight": "70 g",
+    "volume": "1 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxShadowSteel" ],
+    "looks_like": "sapphire_silver_pendant_necklace",
+    "qualities": [
+      [ "FoxRavensclawtool", 1 ]
+    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
+        }
+      ]
+    },
+    "symbol": "[",
+    "color": "blue",
+    "flags": [ "FANCY" ]
+  },
+  {
+    "id": "FoxKawakamiravensclawupone",
+    "type": "ARMOR",
+    "name": { "str": "Raven's claw (tier one)" },
+    "description": "You don't recall how you found this artifact necklace due to a combination of hallucinations and madness, it's been with you since the trip home through Lunar Valley after the first wasteland war. They found it with you and the Arbiters didn't notice anything anomalous so you kept it. It is a shadowsteel necklace with the claw from a raven grasping a sapphire. Just like your days as a Reaper, it will protect you from high caliber weapons, explosives, and lasers, but it could become so much more.",
+    "weight": "70 g",
+    "volume": "1 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxShadowSteel" ],
+    "looks_like": "sapphire_silver_pendant_necklace",
+    "qualities": [
+      [ "FoxRavensclawtool", 2 ]
+    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_HEAT", "add": -40 },
+            { "value": "ARMOR_BULLET", "add": -50 },
+            { "value": "ARMOR_BASH", "add": -10 },
+            { "value": "ARMOR_CUT", "add": -10 },
+            { "value": "ARMOR_STAB", "add": -10 },
+            { "value": "ARMOR_BIO", "add": -10 },
+            { "value": "ARMOR_COLD", "add": -20 },
+            { "value": "ARMOR_ACID", "add": -20 },
+            { "value": "ARMOR_ELEC", "add": -100 }
+          ],
+          "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
+        }
+      ]
+    },
+    "symbol": "[",
+    "color": "blue",
+    "flags": [ "FANCY" ]
+  },
+  {
+    "id": "FoxKawakamiravensclawuptwo",
+    "type": "ARMOR",
+    "name": { "str": "Raven's claw (tier two)" },
+    "description": "You don't recall how you found this artifact necklace due to a combination of hallucinations and madness, it's been with you since the trip home through Lunar Valley after the first wasteland war. They found it with you and the Arbiters didn't notice anything anomalous so you kept it. It is a shadowsteel necklace with the claw from a raven grasping a sapphire. It has never been this powerful, it can't get much more useful without taking a few dozen Arbiters to the cleaners.",
+    "weight": "70 g",
+    "volume": "1 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxShadowSteel" ],
+    "looks_like": "sapphire_silver_pendant_necklace",
+    "qualities": [
+      [ "FoxRavensclawtool", 3 ]
+    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_HEAT", "add": -90 },
+            { "value": "ARMOR_BULLET", "add": -90 },
+            { "value": "ARMOR_BASH", "add": -30 },
+            { "value": "ARMOR_CUT", "add": -30 },
+            { "value": "ARMOR_STAB", "add": -30 },
+            { "value": "ARMOR_BIO", "add": -100 },
+            { "value": "ARMOR_COLD", "add": -100 },
+            { "value": "ARMOR_ACID", "add": -100 },
+            { "value": "ARMOR_ELEC", "add": -200 }
+          ],
+          "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
+        }
+      ]
+    },
+    "symbol": "[",
+    "color": "blue",
+    "flags": [ "FANCY" ]
+  },
+  {
+    "id": "FoxKawakamiravensclawupthree",
+    "type": "ARMOR",
+    "name": { "str": "Raven's claw (tier three)" },
+    "description": "You don't recall how you found this artifact necklace due to a combination of hallucinations and madness, it's been with you since the trip home through Lunar Valley after the first wasteland war. They found it with you and the Arbiters didn't notice anything anomalous so you kept it. It is a shadowsteel necklace with the claw from a raven grasping a sapphire. You wonder if your pacifist sister could kill an Arbiter just from wearing this.",
+    "weight": "70 g",
+    "volume": "1 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxShadowSteel" ],
+    "looks_like": "sapphire_silver_pendant_necklace",
+    "qualities": [
+      [ "FoxRavensclawtool", 4 ]
+    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_HEAT", "add": -250 },
+            { "value": "ARMOR_BULLET", "add": -200 },
+            { "value": "ARMOR_BASH", "add": -80 },
+            { "value": "ARMOR_CUT", "add": -80 },
+            { "value": "ARMOR_STAB", "add": -80 },
+            { "value": "ARMOR_BIO", "add": -200 },
+            { "value": "ARMOR_COLD", "add": -200 },
+            { "value": "ARMOR_ACID", "add": -200 },
+            { "value": "ARMOR_ELEC", "add": -500 }
+          ],
+          "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
+        }
+      ]
+    },
+    "symbol": "[",
+    "color": "blue",
+    "flags": [ "FANCY" ]
+  },
+  {
+    "id": "FoxKawakamiRend",
+    "type": "TOOL",
+    "category": "weapons",
+    "weapon_category": [ "MEDIEVAL_SWORDS", "2H_SWORDS" ],
+    "symbol": "/",
+    "color": "light_gray",
+    "name": { "str": "Rend" },
+    "looks_like": "longsword",
+    "description": "The personal runeblade of Kawakami, holds incredibly powerful enchants thanks to the many runes used to craft it. The blade glows a bright red when drawn. Reload with pale runes to shoot spears of light.",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": "FoxShadowSteel",
+    "flags": [ "UNBREAKABLE_MELEE", "NEVER_JAMS", "SHEATH_SWORD" ],
+    "techniques": [ "WBLOCK_2" ],
+    "ammo": "FoxPaleruneammo",
+    "initial_charges": 0,
+    "max_charges": 100,
+    "charges_per_use": 1,
+    "weight": "500 g",
+    "volume": "2750 ml",
+    "bashing": 80,
+    "cutting": 300,
+    "to_hit": 3,
+    "use_action": [
+      {
+        "type": "cast_spell",
+        "spell_id": "Fox_Pale_Rend",
+        "no_fail": true,
+        "level": 1,
+        "need_wielding": true
+      }
+    ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ]
+  },
+  {
+    "id": "FoxKawakamiRendHidden",
+    "type": "TOOL",
+    "category": "weapons",
+    "weapon_category": [ "MEDIEVAL_SWORDS", "2H_SWORDS" ],
+    "symbol": "/",
+    "color": "light_gray",
+    "name": { "str": "Shadowsteel runeblade" },
+    "looks_like": "longsword",
+    "description": "A runeblade made of solid shadowsteel, the blade glows a bright red when drawn.",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": "FoxShadowSteel",
+    "flags": [ "UNBREAKABLE_MELEE", "NEVER_JAMS", "SHEATH_SWORD" ],
+    "techniques": [ "WBLOCK_2" ],
+    "ammo": "FoxPaleruneammo",
+    "initial_charges": 0,
+    "max_charges": 100,
+    "charges_per_use": 1,
+    "weight": "500 g",
+    "volume": "2750 ml",
+    "bashing": 80,
+    "cutting": 300,
+    "to_hit": 3,
+    "use_action": [
+      {
+        "type": "cast_spell",
+        "spell_id": "Fox_Pale_Rend",
+        "no_fail": true,
+        "level": 1,
+        "need_wielding": true
+      }
+    ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ]
+  },
+  {
+    "id": "FoxArakawaDurandal",
+    "type": "TOOL",
+    "category": "weapons",
+    "weapon_category": [ "MEDIEVAL_SWORDS", "2H_SWORDS" ],
+    "symbol": "/",
+    "color": "light_gray",
+    "name": { "str": "Durandal" },
+    "looks_like": "longsword",
+    "description": "The personal runeblade of the matriarch of clan Arakawa, holds incredibly powerful enchants thanks to the many runes used to craft it. The blade glows a pale cyan when drawn. Reload with pale runes to engulf a target in freezing cold which will cause instant frostbite.",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": "FoxShadowSteel",
+    "flags": [ "UNBREAKABLE_MELEE", "NEVER_JAMS", "PRIMITIVE_RANGED_WEAPON", "SHEATH_SWORD" ],
+    "techniques": [ "WBLOCK_2" ],
+    "ammo": "FoxPaleruneammo",
+    "initial_charges": 0,
+    "max_charges": 100,
+    "charges_per_use": 1,
+    "weight": "500 g",
+    "volume": "2750 ml",
+    "bashing": 80,
+    "cutting": 300,
+    "to_hit": 3,
+    "use_action": [
+      {
+        "type": "cast_spell",
+        "spell_id": "Fox_Pale_Durandal",
+        "no_fail": true,
+        "level": 1,
+        "need_wielding": true
+      }
+    ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ]
+  },
+  {
+    "id": "FoxArakawanote",
+    "type": "BOOK",
+    "name": { "str": "Arakawa note" },
+    "description": "A note left to you from the head of the Arakawa clan. '200 years of retirement will make anyone rusty, I slipped this in your pockets before you left home. Please come home to me soon.'",
+    "weight": "50 g",
+    "volume": "500 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxBallisticWeave" ],
+    "symbol": "?",
+    "color": "magenta",
+    "skill": "cooking",
+    "max_level": 3,
+    "intelligence": 10,
+    "time": "10 m",
+    "fun": -1
+  },
+  {
+    "type": "TOOL",
+    "id": "FoxSGAlifecheatgame",
+    "name": "Life cheating game",
+    "description": "This artifact was personally granted to you by Director Kawakami for your service in defending your home world from the Imperials and assisting the Shi, once a day it will fully restore your health and for the next minute boost your run speed to escape a combat encounter. It is an average-looking playing card made of adamantine, the front imagery is a joker wielding a scythe, and on the back is an engraving. 'One day, the aspirations that we saw would be violated. Dreams are just lies after all. So I'll sneer by myself, in this game of cheating life.'",
+    "category": "spare_parts",
+    "weight": "5 g",
+    "volume": "10 ml",
+    "material": [ "FoxAdamantine" ],
+    "symbol": "*",
+    "color": "yellow",
+    "charges_per_use": 1,
+    "max_charges": 1,
+    "use_action": { "type": "cast_spell", "spell_id": "test_relic_act", "no_fail": true, "level": 1 }
+  },
+  {
+    "id": "FoxKawakamiprotectionrelic",
+    "type": "ARMOR",
+    "name": { "str": "Devotion aura" },
+    "description": "Due to your recent successful missions and in recognition of your dedication to our common goal of removing the Imperial threat, you are being permanently protected from violence by Director Kawakami.  This results in 30 points of armor against every damage type, stacking cumulatively with other armor and auras.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "symbol": "[",
+    "color": "light_blue",
+    "coverage": 0,
+    "encumbrance": 0,
+    "warmth": 0,
+    "material_thickness": 1,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_BASH", "add": -30 },
+            { "value": "ARMOR_CUT", "add": -30 },
+            { "value": "ARMOR_STAB", "add": -30 },
+            { "value": "ARMOR_BIO", "add": -30 },
+            { "value": "ARMOR_HEAT", "add": -30 },
+            { "value": "ARMOR_BULLET", "add": -30 },
+            { "value": "ARMOR_COLD", "add": -30 },
+            { "value": "ARMOR_ACID", "add": -30 },
+            { "value": "ARMOR_ELEC", "add": -30 }
+          ]
+        }
+      ]
+    },
+    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+  },
+  {
+    "id": "Fox_spellbooks_Morphogenetic",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Morphogenetic Field Theory",
+    "description": "A series of messy notes and research on a field invisible to humans which our minds access and communicate with, and that may contain knowledge of other timelines and the future.  It takes incredible psionic power, but you're ready.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_EssenceToken"
+      ]
+    }
+  }
+]

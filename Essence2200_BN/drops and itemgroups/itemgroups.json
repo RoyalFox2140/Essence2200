@@ -44,5 +44,180 @@
         { "item": "FoxSeburoC37mag", "prob": 50 },
         { "group": "Foxon_hand_SGA9mm" }
       ]
+  },
+  {
+    "id": "Foxforage_bangtail",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_bangtail", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxbangtailrhizome", "count": [ 2, 5 ] },
+      { "item": "Foxbangtailstalk", "count": [ 2, 5 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_mireweed",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_mireweed", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxmireweed", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_brineweed",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_brineweed", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxbrineweed", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_lunarweed",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_lunarweed", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxlunarweed", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_jellyweed",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_jellyweed", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxjellyweed", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_fishweed",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_fishweed", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxfishweed", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_stormfern",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_stormfern", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxstormfern", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_mireroot",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_mireroot", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxmireroot", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_cairnroot",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_cairnroot", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxcairnroot", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_smugglersroot",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_smugglersroot", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxsmugglersroot", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_bloodgrass",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_bloodgrass", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxbloodgrass", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_stimgrass",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_stimgrass", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxstimgrass", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_woegrass",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_woegrass", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxwoegrass", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_broomgrass",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_broomgrass", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxbroomgrass", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_whitewound",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_whitewound", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxwhitewound", "count": [ 3, 4 ] },
+      { "item": "Foxcorpsefuzz" }
+    ]
+  },
+  {
+    "id": "Foxforage_corpsefuzz",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_corpsefuzz", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxcorpsefuzz", "count": [ 3, 4 ] }
+    ]
+  },
+  {
+    "id": "Foxforage_ghostthistle",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_ghostthistle", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxghostthistle", "count": [ 3, 4 ] },
+      { "item": "Foxcorpsefuzz" }
+    ]
+  },
+  {
+    "id": "Foxforage_gravebaneshrub",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_gravebaneshrub", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxgravebaneshrub", "count": [ 3, 4 ] },
+      { "item": "Foxcorpsefuzz" }
+    ]
+  },
+  {
+    "id": "Foxforage_acidlemon",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxseed_acidlemon", "prob": 10, "charges": [ 4, 8 ] },
+      { "item": "Foxacidlemon", "count": [ 6, 8 ] }
+    ]
   }
 ]

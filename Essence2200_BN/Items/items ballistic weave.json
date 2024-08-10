@@ -3,7 +3,7 @@
     "id": "Foxhoodie",
     "type": "ARMOR",
     "name": { "str": "Ballistic Weave Hoodie" },
-    "description": "A hoodie made from ballistic weave. Sometimes style is more important than practicality.",
+    "description": "A hoodie made from ballistic weave. Sometimes style is more important than practicality, activate to store tools.",
     "weight": "240 g",
     "volume": "3 L",
     "price": "2 USD",
@@ -15,9 +15,18 @@
     "covers": [ "torso", "arms" ],
     "coverage": 95,
     "encumbrance": 4,
-    "storage": "2250 ml",
     "warmth": 30,
     "material_thickness": 3,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Store tool",
+      "holster_msg": "You put your %1$s in your %2$s",
+      "multi": 3,
+      "min_volume": "1 ml",
+      "max_volume": "1500 ml",
+      "draw_cost": 100,
+      "flags": [ "BELT_CLIP", "SHEATH_KNIFE" ]
+    },
     "valid_mods" : ["furred", "wooled", "Foxadamantinemod"],
     "flags": [ "VARSIZE", "POCKETS", "HOOD", "STURDY" ]
   },

@@ -18,7 +18,8 @@
     "repaired_with": "FoxShadowsteelchunk",
     "dmg_adj": [ "marked", "dented", "smashed", "shattered" ],
     "bash_dmg_verb": "dented",
-    "cut_dmg_verb": "scratched"
+    "cut_dmg_verb": "scratched",
+    "burn_data": [ { "immune": true }, { "immune": true }, { "immune": true } ]
   },
   {
     "type": "material",
@@ -39,7 +40,8 @@
     "repaired_with": "FoxAdamantinechunk",
     "dmg_adj": [ "marked", "dented", "smashed", "shattered" ],
     "bash_dmg_verb": "dented",
-    "cut_dmg_verb": "scratched"
+    "cut_dmg_verb": "scratched",
+    "burn_data": [ { "immune": true }, { "immune": true }, { "immune": true } ]
   },
   {
     "type": "material",
@@ -60,7 +62,8 @@
     "repaired_with": "Foximperialsteelchunk",
     "dmg_adj": [ "marked", "dented", "smashed", "shattered" ],
     "bash_dmg_verb": "dented",
-    "cut_dmg_verb": "scratched"
+    "cut_dmg_verb": "scratched",
+    "burn_data": [ { "immune": true }, { "immune": true }, { "immune": true } ]
   },
   {
     "type": "material",
@@ -93,8 +96,8 @@
     "latent_heat": 273,
     "soft": true,
     "reinforces": true,
-    "bash_resist": 12,
-    "cut_resist": 12,
+    "bash_resist": 6,
+    "cut_resist": 8,
     "bullet_resist": 20,
     "acid_resist": 30,
     "fire_resist": 20,
@@ -104,7 +107,8 @@
     "salvaged_into": "FoxBallisticWeaveSheet",
     "dmg_adj": [ "ripped", "torn", "shredded", "tattered" ],
     "bash_dmg_verb": "ripped",
-    "cut_dmg_verb": "cut"
+    "cut_dmg_verb": "cut",
+    "burn_data": [ { "immune": true }, { "immune": true }, { "immune": true } ]
   },
   {
     "id": "FoxEssencenormal",

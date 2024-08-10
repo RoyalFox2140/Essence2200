@@ -323,7 +323,7 @@
         "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "furred", "wooled", "Foxballisticweavemod", "Foxadamantinemod" ]
       }
     ],
-    "flags": [ "ALLOWS_REMOTE_USE" ]
+    "flags": [ "ALLOWS_REMOTE_USE", "BELT_CLIP" ]
   },
   {
     "id": "Foxessencestill",

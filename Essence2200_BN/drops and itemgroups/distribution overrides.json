@@ -227,5 +227,104 @@
       { "group": "FoxImpTech", "prob": 45, "count": [ 5, 6 ] },
       { "group": "FoxExoticImpTech", "prob": 10, "count": [ 3, 4 ] }
     ]
+  },
+  {
+    "id": "forage_spring",
+    "type": "item_group",
+    "subtype": "distribution",
+    "//": "Death and decay highest in winter and toned down in spring, less corpse fuzz but more than summer.",
+    "entries": [
+      { "group": "Foxforage_bangtail", "prob": 5 },
+      { "group": "Foxforage_mireweed", "prob": 2 },
+      { "group": "Foxforage_brineweed", "prob": 2 },
+      { "group": "Foxforage_lunarweed", "prob": 2 },
+      { "group": "Foxforage_jellyweed", "prob": 2 },
+      { "group": "Foxforage_fishweed", "prob": 2 },
+      { "group": "Foxforage_stormfern", "prob": 2 },
+      { "group": "Foxforage_mireroot", "prob": 2 },
+      { "group": "Foxforage_cairnroot", "prob": 2 },
+      { "group": "Foxforage_smugglersroot", "prob": 2 },
+      { "group": "Foxforage_bloodgrass", "prob": 2 },
+      { "group": "Foxforage_stimgrass", "prob": 2 },
+      { "group": "Foxforage_woegrass", "prob": 2 },
+      { "group": "Foxforage_broomgrass", "prob": 2 },
+      { "group": "Foxforage_whitewound", "prob": 5 },
+      { "group": "Foxforage_corpsefuzz", "prob": 6 },
+      { "group": "Foxforage_ghostthistle", "prob": 5 },
+      { "group": "Foxforage_gravebaneshrub", "prob": 5 },
+      { "group": "Foxforage_acidlemon", "prob": 1 }
+    ]
+  },
+  {
+    "id": "forage_summer",
+    "type": "item_group",
+    "subtype": "distribution",
+    "//": "The grass grows wild in summer, other stuff is going strong.",
+    "entries": [
+      { "group": "Foxforage_bangtail", "prob": 8 },
+      { "group": "Foxforage_mireweed", "prob": 5 },
+      { "group": "Foxforage_brineweed", "prob": 5 },
+      { "group": "Foxforage_lunarweed", "prob": 5 },
+      { "group": "Foxforage_jellyweed", "prob": 5 },
+      { "group": "Foxforage_fishweed", "prob": 5 },
+      { "group": "Foxforage_stormfern", "prob": 5 },
+      { "group": "Foxforage_mireroot", "prob": 5 },
+      { "group": "Foxforage_cairnroot", "prob": 5 },
+      { "group": "Foxforage_smugglersroot", "prob": 5 },
+      { "group": "Foxforage_bloodgrass", "prob": 8 },
+      { "group": "Foxforage_stimgrass", "prob": 8 },
+      { "group": "Foxforage_woegrass", "prob": 8 },
+      { "group": "Foxforage_broomgrass", "prob": 8 },
+      { "group": "Foxforage_whitewound", "prob": 4 },
+      { "group": "Foxforage_corpsefuzz", "prob": 4 },
+      { "group": "Foxforage_ghostthistle", "prob": 4 },
+      { "group": "Foxforage_gravebaneshrub", "prob": 4 },
+      { "group": "Foxforage_acidlemon", "prob": 8 }
+    ]
+  },
+  {
+    "id": "forage_autumn",
+    "type": "item_group",
+    "subtype": "distribution",
+    "//": "The roots love autumn, the grass is slowing down.",
+    "entries": [
+      { "group": "Foxforage_bangtail", "prob": 5 },
+      { "group": "Foxforage_mireweed", "prob": 4 },
+      { "group": "Foxforage_brineweed", "prob": 4 },
+      { "group": "Foxforage_lunarweed", "prob": 4 },
+      { "group": "Foxforage_jellyweed", "prob": 4 },
+      { "group": "Foxforage_fishweed", "prob": 4 },
+      { "group": "Foxforage_stormfern", "prob": 6 },
+      { "group": "Foxforage_mireroot", "prob": 8 },
+      { "group": "Foxforage_cairnroot", "prob": 8 },
+      { "group": "Foxforage_smugglersroot", "prob": 8 },
+      { "group": "Foxforage_bloodgrass", "prob": 3 },
+      { "group": "Foxforage_stimgrass", "prob": 3 },
+      { "group": "Foxforage_woegrass", "prob": 3 },
+      { "group": "Foxforage_broomgrass", "prob": 3 },
+      { "group": "Foxforage_whitewound", "prob": 5 },
+      { "group": "Foxforage_corpsefuzz", "prob": 5 },
+      { "group": "Foxforage_ghostthistle", "prob": 5 },
+      { "group": "Foxforage_gravebaneshrub", "prob": 5 },
+      { "group": "Foxforage_acidlemon", "prob": 5 }
+    ]
+  },
+  {
+    "id": "forage_winter",
+    "type": "item_group",
+    "subtype": "distribution",
+    "//": "Winter sure does suck eggs doesnt it?",
+    "entries": [
+      { "group": "Foxforage_bangtail", "prob": 5 },
+      { "group": "Foxforage_mireweed", "prob": 1 },
+      { "group": "Foxforage_mireroot", "prob": 1 },
+      { "group": "Foxforage_cairnroot", "prob": 1 },
+      { "group": "Foxforage_smugglersroot", "prob": 1 },
+      { "group": "Foxforage_whitewound", "prob": 5 },
+      { "group": "Foxforage_corpsefuzz", "prob": 8 },
+      { "group": "Foxforage_ghostthistle", "prob": 5 },
+      { "group": "Foxforage_gravebaneshrub", "prob": 5 },
+      { "group": "Foxforage_acidlemon", "prob": 1 }
+    ]
   }
 ]

@@ -320,6 +320,19 @@
     "flags": [ "TRADER_AVOID", "BELT_CLIP"  ]
   },
   {
+    "id": "Foxjackingtool",
+    "type": "TOOL",
+    "name": "Telekinetic jacking",
+    "description": "This is your ability to jack cars and lift things, additionally it lets you siphon liquids the same way as a hose. The ability to jack off is not included, your lewd thought is noted.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "2 USD",
+    "symbol": ",",
+    "color": "yellow",
+    "qualities": [ [ "JACK", 400 ], [ "LIFT", 400 ], [ "HOSE", 3 ] ],
+    "flags": [ "TRADER_AVOID", "BELT_CLIP"  ]
+  },
+  {
     "id": "Foxlightorb",
     "type": "GENERIC",
     "category": "tools",

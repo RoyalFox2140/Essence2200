@@ -120,6 +120,24 @@
     ]
   },
   {
+    "result": "FoxSGAportaluplink",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TOOLS",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 5 ] ],
+    "difficulty": 3,
+    "time": "4 h",
+    "reversible": true,
+    "book_learn": [ [ "FoxmanualSGAgear", 3 ], [ "FoxDeSGAishikawa", 3 ], [ "FoxDeSGAesstechbasic", 3 ] ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [
+      [ [ "FoxSGAmechparts", 1 ] ],
+      [ [ "FoxSGAelectronics", 4 ] ]
+    ]
+  },
+  {
     "result": "FoxSGAcipher",
     "type": "recipe",
     "category": "CC_ESSTECH",

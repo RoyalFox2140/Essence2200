@@ -10,8 +10,8 @@
     "//3": "I don't touch encumbrance here because BW clothes have lower encumbrance, and I can't replace encumbrance nor overwrite protection, so extra prot for extra encumber.",
     "destroy_prompt": "Remove ballistic weave",
     "mod_value": [
-      { "type": "bash", "value": 12, "round_up": true },
-      { "type": "cut", "value": 12, "round_up": true },
+      { "type": "bash", "value": 6, "round_up": true },
+      { "type": "cut", "value": 8, "round_up": true },
       { "type": "bullet", "value": 20, "round_up": true },
       { "type": "fire", "value": 20, "round_up": true },
       { "type": "acid", "value": 30, "round_up": true }
