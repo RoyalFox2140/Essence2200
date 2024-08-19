@@ -6,10 +6,23 @@
     "threshold_mut": "FoxThresh_Nightstalker",
     "mutagen_message": "You feel your body change into something better.",
     "iv_message": "You see humanity's dark past in Old Earth, and why the Imperials must die.",
-	"iv_min_mutations": 1,
+    "iv_min_mutations": 1,
     "iv_additional_mutations": 1,
     "iv_additional_mutations_chance": 4,
     "iv_fatigue": 20,
     "memorial_message": "Evolved to a higher state of being."
+  },
+  {
+    "type": "mutation_category",
+    "id": "FoxNIGHTWALKER",
+    "name": "Nightwalker",
+    "threshold_mut": "FoxNightwalker",
+    "mutagen_message": "You feel like this is a bug that you should report.",
+    "iv_message": "You feel like Fox is mad about this.",
+    "iv_min_mutations": 1,
+    "iv_additional_mutations": 1,
+    "iv_additional_mutations_chance": 4,
+    "iv_fatigue": 20,
+    "memorial_message": "Got bored of fighting for this Earth and went home, maybe you'll come back later."
   }
 ]

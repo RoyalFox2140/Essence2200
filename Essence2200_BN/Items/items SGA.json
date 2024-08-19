@@ -152,6 +152,27 @@
     "qualities": [ [ "HAMMER", 2 ] ]
   },
   {
+    "id": "FoxShadowsteelstiletto",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "STILETTOS" ],
+    "name": { "str": "Shadowsteel stiletto" },
+    "looks_like": "knife_combat",
+    "description": "A balanced, thin and lightweight knife used for rapid stabs, made deadlier from being shadowsteel. It's so small that you get 5 from one chunk when you craft it.",
+    "weight": "60 g",
+    "to_hit": 2,
+    "color": "dark_gray",
+    "symbol": "/",
+    "material": [ "FoxShadowSteel" ],
+    "techniques": "RAPID",
+    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_KNIFE", "NONCONDUCTIVE", "BELT_CLIP" ],
+    "volume": "50 ml",
+    "bashing": 4,
+    "cutting": 30,
+    "price": "2 USD",
+    "price_postapoc": "2 USD"
+  },
+  {
     "id": "FoxThunderhammer",
     "type": "GENERIC",
     "category": "weapons",
@@ -247,7 +268,10 @@
           "lead",
           "tin",
           "zinc",
-          "plastic"
+          "plastic",
+          "FoxAdamantine",
+          "FoxShadowSteel",
+          "FoxImperialSteel"
          ],
         "skill": "fabrication",
         "tool_quality": 30,
@@ -751,16 +775,16 @@
     "repairs_like": "trenchcoat",
     "type": "ARMOR",
     "name": { "str_sp": "Kawakami maid dress" },
-    "description": "A maid dress of ballistic weave with hidden pockets for tools. The creator must have designed it for questionable reasons.",
+    "description": "A black and white maid dress of ballistic weave with hidden pockets for tools, the dress goes past the knees and comes with thighhighs. It was designed with extra ballistic protection in mind so it comes with fingerless gloves and additional material in vulnerable areas. The creator must have designed it for questionable reasons.",
     "weight": "100 g",
-    "volume": "250 ml",
+    "volume": "500 ml",
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "material": [ "FoxBallisticWeave" ],
     "symbol": "[",
     "looks_like": "maid_dress",
     "color": "blue",
-    "covers": [ "torso", "arms", "legs" ],
+    "covers": [ "torso", "arms", "legs", "hands" ],
     "coverage": 100,
     "use_action": {
       "type": "holster",
@@ -773,8 +797,8 @@
       "flags": [ "BELT_CLIP", "SHEATH_KNIFE" ]
     },
     "encumbrance": 2,
-    "warmth": 5,
-    "material_thickness": 1,
+    "warmth": 10,
+    "material_thickness": 2,
     "flags": [ "VARSIZE", "POCKETS", "FANCY", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
   },
   {
@@ -782,7 +806,7 @@
     "repairs_like": "balclava",
     "type": "ARMOR",
     "name": { "str": "Kawakami maid hat" },
-    "description": "A frilly white headpiece made from ballistic weave to go with the dress.",
+    "description": "A frilly white headpiece made from ballistic weave to go with the dress. It will block helmets from being worn.",
     "weight": "10 g",
     "volume": "250 ml",
     "price": "2 USD",
@@ -795,7 +819,7 @@
     "coverage": 100,
     "encumbrance": 2,
     "warmth": 10,
-    "material_thickness": 1,
+    "material_thickness": 2,
     "flags": [ "VARSIZE", "FANCY" ]
   }
 ]

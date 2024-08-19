@@ -1,0 +1,221 @@
+[
+  {
+    "type": "martial_art",
+    "id": "Foxstyle_Wasteland",
+    "name": { "str": "Wasteland struggle" },
+    "description": "Your struggles to stay alive in the wasteland wars at a young age taught you to avoid injury as medical supplies were hard to find and your small stature allowed you to evade attacks more easily than most. You are most familiar with shivs and blades but you were often caught fighting with blunt objects. You gain no unique offensive attacks but have disarms and counters, all strikes will be faster and more penetrating.",
+    "initiate": [ "You get ready to be nimble and quick.", "%s is a hacker that shouldn't have this martial art, you should kill them with debug." ],
+    "learn_difficulty": 1,
+    "static_buffs": [
+      {
+        "id": "Foxbuff_wasteland1",
+        "name": "Escape",
+        "description": "You remember a little about your past ability to esape trouble, you have bonuses to your dodging as well as making no noise from attacks",
+        "unarmed_allowed": true,
+        "melee_allowed": true,
+        "unarmed_weapons_allowed": true,
+        "quiet": true,
+        "bonus_dodges": 2,
+        "flat_bonuses": [ 
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }, 
+          { "stat": "speed", "scaling-stat": "dex", "scale": 0.5 }
+        ]
+      },
+      {
+        "id": "Foxbuff_wasteland2",
+        "name": "Scuffle",
+        "description": "You remember how to strike and move well, you will strike faster and with great precision but less power, your armor penetration increases with every dex point but you take a penalty to damage dealt.",
+        "unarmed_allowed": true,
+        "melee_allowed": true,
+        "unarmed_weapons_allowed": true,
+        "throw_immune": true,
+        "skill_requirements": [ { "name": "melee", "level": 5 } ],
+        "bonus_dodges": 4,
+        "flat_bonuses": [ 
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }, 
+          { "stat": "speed", "scaling-stat": "dex", "scale": 1 },
+          { "stat": "damage", "type": "cut", "scale": -5 },
+          { "stat": "damage", "type": "stab", "scale": -5 },
+          { "stat": "damage", "type": "bash", "scale": -10 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 1 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 1 }
+        ]
+      },
+      {
+        "id": "Foxbuff_wasteland3",
+        "name": "Overcome",
+        "description": "You've soared beyond your original skill thanks to ascending past human limits, You are even faster now and can truly let out a flurry of stabs.",
+        "unarmed_allowed": true,
+        "melee_allowed": true,
+        "unarmed_weapons_allowed": true,
+        "skill_requirements": [ { "name": "melee", "level": 8 } ],
+        "bonus_dodges": 4,
+        "flat_bonuses": [ 
+          { "stat": "movecost", "scaling-stat": "dex", "scale": -0.5 }, 
+          { "stat": "speed", "scaling-stat": "dex", "scale": 2 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 1 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 2 }
+          
+        ]
+      }
+    ],
+    "techniques": [
+      "Foxtec_wasteland_strikedisarm",
+      "Foxtec_wasteland_counterdisarm",
+      "Foxtec_wasteland_counter",
+      "Foxtec_wasteland_break"
+    ],
+    "weapon_category": [ "STILETTOS", "KNIVES", "SHORT_SWORDS", "1H_SWORDS", "DUELING_SWORDS", "BATONS", "TONFAS", "MACES", "SAPS", "CLUBS", "1H_HAMMERS", "HAND_AXES", "FIST_WEAPONS", "PISTOLS", "REVOLVERS", "SUBMACHINE_GUNS", "SHOTGUNS" ]
+  },
+  {
+    "type": "technique",
+    "id": "Foxtec_wasteland_strikedisarm",
+    "name": "Strike Disarm",
+    "messages": [ "You quickly swipe at the enemy and disarm %s.", "<npcname> smoothly activates their hacks and disarms %s you should delete them for that!" ],
+    "skill_requirements": [ { "name": "melee", "level": 5 } ],
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "unarmed_weapons_allowed": true,
+    "crit_ok": true,
+    "disarms": true,
+    "take_weapon": true,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0 } ]
+  },
+  {
+    "type": "technique",
+    "id": "Foxtec_wasteland_counterdisarm",
+    "name": "Counter Disarm",
+    "messages": [ "You quickly sidestep their strike and disarm %s.", "<npcname> smoothly activates their hacks and disarms %s you should delete them for that!" ],
+    "skill_requirements": [ { "name": "melee", "level": 4 } ],
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "defensive": true,
+    "dodge_counter": true,
+    "crit_ok": true,
+    "disarms": true,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0 } ]
+  },
+  {
+    "type": "technique",
+    "id": "Foxtec_wasteland_counter",
+    "name": "Dodge Counter",
+    "messages": [ "You quickly sidestep their strike and hit the %s. in a weak spot.", "<npcname> smoothly activates their hacks and disarms %s you should delete them for that!" ],
+    "skill_requirements": [ { "name": "melee", "level": 3 } ],
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "defensive": true,
+    "dodge_counter": true,
+    "crit_ok": true,
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0 },
+      { "stat": "damage", "type": "bash", "scale": 1.3 },
+      { "stat": "damage", "type": "cut", "scale": 1.3 },
+      { "stat": "damage", "type": "stab", "scale": 1.5 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "Foxtec_wasteland_break",
+    "name": "Grab Dodge",
+    "messages": [
+      "The %s wants to grab you, but you don't feel like being groped by a stranger today. Maybe tomorrow.",
+      "The %s tries to grab <npcname>, but they rapidly type hacks in the console, you should delete them with debug!"
+    ],
+    "skill_requirements": [ { "name": "melee", "level": 2 } ],
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "unarmed_weapons_allowed": false,
+    "defensive": true,
+    "grab_break": true
+  },
+  {
+    "id": "Foxmanual_wasteland",
+    "copy-from": "book_martial",
+    "looks_like": "base_book",
+    "type": "GENERIC",
+    "name": { "str_sp": "Wasteland Struggle Debug Book" },
+    "price_postapoc": "1 cent",
+    "description": "You shouldn't have seen this spawn, if you do I'm mad about it. I made it so I could add the art in case I didn't spawn with it, but only Nightwalker and Shi Director should know the art without using debug.",
+    "book_data": { "martial_art": "Foxstyle_Wasteland" }
+  },
+  {
+    "id": "Foxmanual_finalstrike",
+    "copy-from": "book_martial",
+    "looks_like": "base_book",
+    "type": "GENERIC",
+    "name": { "str_sp": "Final Strike Debug Book" },
+    "price_postapoc": "1 cent",
+    "description": "You shouldn't have seen this spawn, if you do I'm mad about it. I made it so I could add the art in case I didn't spawn with it, but only Nightwalker and Shi Director should know the art without using debug.",
+    "book_data": { "martial_art": "Foxstyle_finalstrike" }
+  },
+  {
+    "type": "martial_art",
+    "id": "Foxstyle_finalstrike",
+    "name": { "str": "Final Strike" },
+    "description": "Your days as a mercenary taught you to quickly and efficiently end combat with a few strong strikes. An art focused on larger and heavier weapons or blunt objects, you gain blocks and damage with every strike but you will not be using this with stabbing weapons or light ones.",
+    "initiate": [ "Excellent time to create some missing persons. This lot won't take long.", "%s is a hacker that shouldn't have this martial art, you should kill them with debug." ],
+    "learn_difficulty": 1,
+    "static_buffs": [
+      {
+        "id": "Foxbuff_finalstrike1",
+        "name": "Adapt",
+        "description": "You were always quick to react to any situation and know where to strike, bonus damage and armor penetration based on your strength",
+        "unarmed_allowed": true,
+        "melee_allowed": true,
+        "unarmed_weapons_allowed": true,
+        "quiet": true,
+        "bonus_dodges": 2,
+        "flat_bonuses": [ 
+          { "stat": "damage", "type": "cut", "scale": 10 },
+          { "stat": "damage", "type": "stab", "scale": -10 },
+          { "stat": "damage", "type": "bash", "scale": 10 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 1 },
+          { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 1 }
+        ]
+      },
+      {
+        "id": "Foxbuff_finalstrike2",
+        "name": "Outmaneuver",
+        "description": "You are quick to get the drop on others and strike when they're weak.",
+        "unarmed_allowed": true,
+        "melee_allowed": true,
+        "unarmed_weapons_allowed": true,
+        "throw_immune": true,
+        "skill_requirements": [ { "name": "melee", "level": 5 } ],
+        "bonus_dodges": 4,
+        "flat_bonuses": [ 
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }, 
+          { "stat": "speed", "scaling-stat": "dex", "scale": 1 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 1 },
+          { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 1 }
+        ]
+      },
+      {
+        "id": "Foxbuff_finalstrike3",
+        "name": "Erase",
+        "description": "You're tired of the nameless victims wasting your time, you are more likely to end this with one swing and you will swing much faster.",
+        "unarmed_allowed": true,
+        "melee_allowed": true,
+        "unarmed_weapons_allowed": true,
+        "skill_requirements": [ { "name": "melee", "level": 8 } ],
+        "bonus_dodges": 4,
+        "flat_bonuses": [  
+          { "stat": "movecost", "scaling-stat": "str", "scale": -1 },
+          { "stat": "damage", "type": "cut", "scale": 5 },
+          { "stat": "damage", "type": "stab", "scale": -10 },
+          { "stat": "damage", "type": "bash", "scale": 5 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 1 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "str", "scale": 1 }
+          
+        ]
+      }
+    ],
+    "techniques": [
+      "Foxtec_wasteland_strikedisarm",
+      "Foxtec_wasteland_counterdisarm",
+      "Foxtec_wasteland_counter",
+      "Foxtec_wasteland_break"
+    ],
+    "weapon_category": [ "1H_SWORDS", "2H_SWORDS", "MORNINGSTARS", "QUARTERSTAVES", "MACES", "CLUBS", "1H_HAMMERS", "2H_HAMMERS", "1H_AXES", "2H_AXES", "HAND_AXES", "FIST_WEAPONS", "SUBMACHINE_GUNS", "SHOTGUNS", "RIFLES", "MACHINE_GUNS", "GATLING_GUNS", "GRENADE_LAUNCHERS", "ROCKET_LAUNCHERS", "FLAMETHROWERS", "SPRAY_GUNS" ]
+  }
+]
