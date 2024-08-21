@@ -1212,7 +1212,7 @@
     "batch_time_factors": [ 80, 2 ],
     "result_mult": 320,
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "log", 20 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "log", 18 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
