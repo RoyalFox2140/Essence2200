@@ -24,7 +24,7 @@
     },
     "symbol": "[",
     "color": "blue",
-    "flags": [ "FANCY" ]
+    "flags": [ "WATCH", "FANCY" ]
   },
   {
     "id": "FoxKawakamiravensclawupone",
@@ -62,7 +62,7 @@
     },
     "symbol": "[",
     "color": "blue",
-    "flags": [ "FANCY" ]
+    "flags": [ "WATCH", "FANCY" ]
   },
   {
     "id": "FoxKawakamiravensclawuptwo",
@@ -100,7 +100,7 @@
     },
     "symbol": "[",
     "color": "blue",
-    "flags": [ "FANCY" ]
+    "flags": [ "WATCH", "FANCY" ]
   },
   {
     "id": "FoxKawakamiravensclawupthree",
@@ -138,7 +138,7 @@
     },
     "symbol": "[",
     "color": "blue",
-    "flags": [ "FANCY" ]
+    "flags": [ "WATCH", "FANCY" ]
   },
   {
     "id": "FoxKawakamiRend",

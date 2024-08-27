@@ -67,7 +67,7 @@
         "type": "transform"
       }
     ],
-    "flags": [ "TRADER_AVOID", "LIGHT_40"  ]
+    "flags": [ "TRADER_AVOID", "NO_UNLOAD", "NO_RELOAD", "RECHARGE", "LIGHT_40"  ]
   },
   {
     "id": "FoxEternalFlameboxed",
