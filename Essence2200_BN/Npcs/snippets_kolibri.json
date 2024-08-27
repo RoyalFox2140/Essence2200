@@ -1,0 +1,92 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "FoxKolibriPapers",
+    "looks_like": "week_old_newspaper",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": { "str": "Kolibri Project page" },
+    "snippet_category": "FoxKolibriSnippet",
+    "description": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research.  It appears to be research they've stolen from someone else.  You have a gut feeling you need to hold onto these, they'll be worth a fortune to the right person, if the Imperials don't kill you first.",
+    "price": 0,
+    "price_postapoc": 10,
+    "material": "paper",
+    "weight": "5 g",
+    "volume": "10 ml"
+  },
+  {
+    "type": "BOOK",
+    "id": "FoxKolibriProject",
+    "looks_like": "textbook_chemistry",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": { "str": "Kolibri Project summary" },
+    "description": "The original experiments Savant conducted to manifest Essence and test the effects on humans in the 2110's. It is clear XEDRA had difficulty grasping even the basics in what little time they had after they stole this from the Imperials.  This would be worth a fortune to the right people, if the Imperials don't kill you first.",
+    "price": "100000000 USD",
+    "price_postapoc": "2 USD",
+    "material": "paper",
+    "weight": "500 g",
+    "volume": "1 L",
+    "skill": "FoxEssTheory",
+    "max_level": 10,
+    "intelligence": 18,
+    "time": "45 m",
+    "fun": 1
+  },
+  {
+    "type": "snippet",
+    "category": "FoxKolibriSnippet",
+    "text": [
+      {
+        "id": "FoxKolibriSnippet_1",
+        "text": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research. Amidst the technical data lies someone's journal, summed up by XEDRA. 1: Her name was Savant. She sought to undo the wrongs of the world, after billions had died there was no grounds for ethics"
+      },
+      {
+        "id": "FoxKolibriSnippet_2",
+        "text": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research. Amidst the technical data lies someone's journal, summed up by XEDRA. 2: The end result was an inevitability. Others sought to weaponize it, to experiment on humans. It was Her goal to succeed first. To remove everyone else and start over."
+      },
+      {
+        "id": "FoxKolibriSnippet_3",
+        "text": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research. Amidst the technical data lies someone's journal, summed up by XEDRA. 3: Humanity had nearly met its end once, She lived through this. Evil, terrorist, war criminal, simple words. Words that history would remember Her by."
+      },
+      {
+        "id": "FoxKolibriSnippet_4",
+        "text": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research. Amidst the technical data lies someone's journal, summed up by XEDRA. 4: It was quite self-evident what power Essence could hold, over time it became abundantly clear who could fully harness it."
+      },
+      {
+        "id": "FoxKolibriSnippet_5",
+        "text": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research. Amidst the technical data lies someone's journal, summed up by XEDRA. 5: If any child would be thrust away from a life of hope and peace, it would be Her own. Who else had the right to damn a child to Hell but the mother?"
+      },
+      {
+        "id": "FoxKolibriSnippet_6",
+        "text": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research. Amidst the technical data lies someone's journal, summed up by XEDRA. 6: It would be Hell indeed, a life of endless war and death. Denied a chance of escape, this solder would be the solution."
+      },
+      {
+        "id": "FoxKolibriSnippet_7",
+        "text": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research. Amidst the technical data lies someone's journal, summed up by XEDRA. 7: The solution that would finally end the Imperials. A great warrior to muster an army and rebuild the planet."
+      },
+      {
+        "id": "FoxKolibriSnippet_8",
+        "text": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research. Amidst the technical data lies someone's journal, summed up by XEDRA. 8: This great warrior would be hidden among their ranks, a time bomb waiting to go off. One day, the reckoning would come."
+      },
+      {
+        "id": "FoxKolibriSnippet_9",
+        "text": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research. Amidst the technical data lies someone's journal, summed up by XEDRA. 9: But that day would not come in time. She took matters into her own hands. The Imperials were far too dangerous."
+      },
+      {
+        "id": "FoxKolibriSnippet_10",
+        "text": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research. Amidst the technical data lies someone's journal, summed up by XEDRA. 10: The contingency was the bomb, enough to wipe out any organic life in the system but the rest remaining intact. It was Her only contingency."
+      },
+      {
+        "id": "FoxKolibriSnippet_11",
+        "text": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research. Amidst the technical data lies someone's journal, summed up by XEDRA. 11: She didn't intend for it to be this way. A second deluge of fire. Who could survive? Her followers could, the rest were inconsequential."
+      },
+      {
+        "id": "FoxKolibriSnippet_12",
+        "text": "You're not sure what these torn papers are, but you're sure it was absolutely critical to XEDRA and their research. Amidst the technical data lies someone's journal, summed up by XEDRA. 12: In the final moments She grew horrified, the contingency failed. Sisters think alike, both planned a deluge. If Katherine couldn't rule the Imperials, there wouldn't be Humans."
+      }
+    ]
+  }
+]

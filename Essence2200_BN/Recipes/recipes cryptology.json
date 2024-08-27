@@ -5,9 +5,11 @@
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_CRYPTOLOGY",
     "skill_used": "FoxCryptology",
+    "skills_required": [ [ "computer", 8 ] ],
     "difficulty": 5,
     "time": "3 h",
     "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 100 ], [ "laptop", 100 ], [ "FoxSGAdatathief", 100 ] ], [ [ "sa_cryptology_key", -1 ] ] ],
     "components": [
       [ [ "FoxESGAesstheory", 1 ] ]
     ]
@@ -18,9 +20,11 @@
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_CRYPTOLOGY",
     "skill_used": "FoxCryptology",
+    "skills_required": [ [ "computer", 8 ] ],
     "difficulty": 5,
     "time": "3 h",
     "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 100 ], [ "laptop", 100 ], [ "FoxSGAdatathief", 100 ] ], [ [ "sa_cryptology_key", -1 ] ] ],
     "components": [
       [ [ "FoxESGAesstech", 1 ] ]
     ]
@@ -31,9 +35,11 @@
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_CRYPTOLOGY",
     "skill_used": "FoxCryptology",
+    "skills_required": [ [ "computer", 8 ] ],
     "difficulty": 6,
     "time": "3 h",
     "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 100 ], [ "laptop", 100 ], [ "FoxSGAdatathief", 100 ] ], [ [ "sa_cryptology_key", -1 ] ] ],
     "components": [
       [ [ "FoxESGAarakawa", 1 ] ]
     ]
@@ -44,9 +50,11 @@
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_CRYPTOLOGY",
     "skill_used": "FoxCryptology",
+    "skills_required": [ [ "computer", 8 ] ],
     "difficulty": 6,
     "time": "3 h",
     "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 100 ], [ "laptop", 100 ], [ "FoxSGAdatathief", 100 ] ], [ [ "sa_cryptology_key", -1 ] ] ],
     "components": [
       [ [ "FoxESGAseburo", 1 ] ]
     ]
@@ -57,9 +65,11 @@
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_CRYPTOLOGY",
     "skill_used": "FoxCryptology",
+    "skills_required": [ [ "computer", 8 ] ],
     "difficulty": 7,
     "time": "3 h",
     "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 100 ], [ "laptop", 100 ], [ "FoxSGAdatathief", 100 ] ], [ [ "sa_cryptology_key", -1 ] ] ],
     "components": [
       [ [ "FoxESGAishikawa", 1 ] ]
     ]
@@ -70,9 +80,11 @@
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_CRYPTOLOGY",
     "skill_used": "FoxCryptology",
+    "skills_required": [ [ "computer", 10 ] ],
     "difficulty": 9,
     "time": "3 h",
     "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 100 ], [ "laptop", 100 ], [ "FoxSGAdatathief", 100 ] ], [ [ "sa_cryptology_key", -1 ] ] ],
     "components": [
       [ [ "FoxESGAkawakami", 1 ] ]
     ]
@@ -83,9 +95,11 @@
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_CRYPTOLOGY",
     "skill_used": "FoxCryptology",
+    "skills_required": [ [ "computer", 4 ] ],
     "difficulty": 3,
     "time": "20 m",
     "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 100 ], [ "laptop", 100 ], [ "FoxSGAdatathief", 100 ] ], [ [ "sa_cryptology_key", -1 ] ] ],
     "components": [
       [ [ "FoxESGAkawakamicookbook", 1 ] ]
     ]
@@ -145,7 +159,7 @@
     "difficulty": 2,
     "time": "1 h",
     "autolearn": true,
-    "tools": [ [ [ "Foxofficerdatapad", -1 ] ] ],
+    "tools": [ [ [ "Foxofficerdatapad", 100 ] ] ],
     "components": [
       [ [ "FoxEIed", 1 ] ]
     ]
@@ -159,7 +173,7 @@
     "difficulty": 2,
     "time": "1 h",
     "autolearn": true,
-    "tools": [ [ [ "Foxofficerdatapad", -1 ] ] ],
+    "tools": [ [ [ "Foxofficerdatapad", 100 ] ] ],
     "components": [
       [ [ "FoxEIga", 1 ] ]
     ]
@@ -173,7 +187,7 @@
     "difficulty": 2,
     "time": "1 h",
     "autolearn": true,
-    "tools": [ [ [ "Foxofficerdatapad", -1 ] ] ],
+    "tools": [ [ [ "Foxofficerdatapad", 100 ] ] ],
     "components": [
       [ [ "FoxEIkw", 1 ] ]
     ]
@@ -187,9 +201,20 @@
     "difficulty": 2,
     "time": "1 h",
     "autolearn": true,
-    "tools": [ [ [ "Foxofficerdatapad", -1 ] ] ],
+    "tools": [ [ [ "Foxofficerdatapad", 100 ] ] ],
     "components": [
       [ [ "FoxEIcwc", 1 ] ]
+    ]
+  },
+  {
+    "result": "FoxKolibriProject",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_CRYPTOLOGY",
+    "time": "1 h",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxKolibriPapers", 100 ] ]
     ]
   }
 ]

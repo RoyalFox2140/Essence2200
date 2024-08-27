@@ -23,9 +23,9 @@
     "subcategory": "CSC_ESSTECH_ESSTHEORY",
     "skill_used": "FoxEssTheory",
     "skills_required": [ [ "cooking", 5 ] ],
-    "difficulty": 5,
+    "difficulty": 8,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "FoxDeSGAesstheory", 4 ], [ "FoxKolibriProject", 4 ] ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 }, { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "water_boiling_heat", 20, "LIST" ] ] ],
@@ -102,7 +102,7 @@
     "difficulty": 2,
     "result_mult": 300,
     "time": "1 h",
-    "autolearn": true,
+    "book_learn": [ [ "FoxDeSGAesstheory", 2 ], [ "FoxKolibriProject", 2 ] ],
     "tools": [ [ [ "water_boiling_heat", 2000, "LIST" ] ] ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 }, { "id": "CHEM", "level": 2 } ],
     "components": [
@@ -120,7 +120,7 @@
     "difficulty": 2,
     "result_mult": 300,
     "time": "1 h",
-    "autolearn": true,
+    "book_learn": [ [ "FoxDeSGAesstheory", 2 ], [ "FoxKolibriProject", 2 ] ],
     "tools": [ [ [ "water_boiling_heat", 2000, "LIST" ] ] ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 }, { "id": "CHEM", "level": 2 } ],
     "components": [
@@ -221,7 +221,7 @@
     "difficulty": 3,
     "result_mult": 80,
     "time": "1 h",
-    "autolearn": true,
+    "book_learn": [ [ "FoxDeSGAesstheory", 3 ], [ "FoxKolibriProject", 3 ] ],
     "tools": [ [ [ "Foxalloybarrel", 3000 ] ] ],
     "components": [
     [ [ "steel_lump", 142 ], [ "steel_chunk", 284 ], [ "scrap", 700 ] ],
@@ -273,7 +273,7 @@
     "difficulty": 4,
     "result_mult": 100,
     "time": "1 h",
-    "autolearn": true,
+    "book_learn": [ [ "FoxDeSGAesstheory", 2 ], [ "FoxKolibriProject", 2 ] ],
     "tools": [ [ [ "Foxalloybarreladvanced", 2500 ] ] ],
     "components": [
       [ [ "steel_lump", 142 ], [ "steel_chunk", 284 ], [ "scrap", 700 ] ],
@@ -294,7 +294,7 @@
     "difficulty": 4,
     "result_mult": 200,
     "time": "1 h",
-    "autolearn": true,
+    "book_learn": [ [ "FoxDeSGAesstheory", 2 ], [ "FoxKolibriProject", 2 ] ],
     "tools": [ [ [ "Foxalloybarreladvanced", 2500 ] ] ],
     "components": [
       [ [ "steel_lump", 142 ], [ "steel_chunk", 284 ], [ "scrap", 700 ] ],
@@ -315,7 +315,7 @@
     "difficulty": 4,
     "result_mult": 100,
     "time": "1 h",
-    "autolearn": true,
+    "book_learn": [ [ "FoxDeSGAesstheory", 2 ], [ "FoxKolibriProject", 2 ] ],
     "tools": [ [ [ "Foxalloybarreladvanced", 2500 ] ] ],
     "components": [
       [ [ "lead", 50000 ] ],
