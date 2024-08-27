@@ -297,7 +297,7 @@
     "time": "45 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 2500 ] ]
+      [ [ "FoxEssencenormal", 1500 ] ], [ [ "FoxEssencenormal", 1000 ], [ "Foxnoviceartificing", 1 ] ]
     ]
   },
   {
@@ -310,7 +310,7 @@
     "time": "55 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
+      [ [ "FoxEssencenormal", 2500 ] ], [ [ "FoxEssencenormal", 2500 ], [ "Foxintermediateartificing", 1 ] ]
     ]
   },
   {
