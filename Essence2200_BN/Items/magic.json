@@ -37,6 +37,72 @@
     "use_action": "HOTPLATE"
   },
   {
+    "id": "FoxEternalFlame",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "Eternal Flame" },
+    "description": "HOLY SHIT THIS THING IS ON FIRE! Oh, it doesn't spread, and it only heats what you want it to. It's safe enough to store in your backpack and will recharge over time, but it's huge and acts as a rigid object.  Due to being an open flame, it emits light.",
+    "looks_like": "fd_fire",
+    "weight": "1 g",
+    "volume": "1250 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -1,
+    "bashing": 4,
+    "material": "FoxDivineMaterial",
+    "symbol": ";",
+    "color": "green",
+    "sub": "hotplate",
+    "ammo": "battery",
+    "relic_data": { "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 50 } ] },
+    "initial_charges": 1,
+    "max_charges": 10000,
+    "charges_per_use": 5,
+    "use_action": [
+      { "type": "firestarter", "moves": 50 },
+      "HOTPLATE",
+      {
+        "target": "FoxEternalFlameboxed",
+        "msg": "You enclose the fire in a box.",
+        "type": "transform"
+      }
+    ],
+    "flags": [ "TRADER_AVOID", "LIGHT_40"  ]
+  },
+  {
+    "id": "FoxEternalFlameboxed",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "Eternal Flame in a box" },
+    "description": "HOLY SHIT THIS THING IS ON FIRE! Oh, it doesn't spread, and it only heats what you want it to. It's safe enough to store in your backpack and will recharge over time, but it's huge and acts as a rigid object.  It's stuck in a box, so it doesn't make light.",
+    "looks_like": "fd_fire",
+    "weight": "1 g",
+    "volume": "1250 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -1,
+    "bashing": 4,
+    "material": "FoxDivineMaterial",
+    "symbol": ";",
+    "color": "green",
+    "sub": "hotplate",
+    "ammo": "battery",
+    "relic_data": { "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 50 } ] },
+    "initial_charges": 1,
+    "max_charges": 10000,
+    "charges_per_use": 5,
+    "use_action": [
+      { "type": "firestarter", "moves": 50 },
+      "HOTPLATE",
+      {
+        "target": "FoxEternalFlame",
+        "msg": "You open the fire up.",
+        "type": "transform"
+      }
+    ],
+    "flags": [ "TRADER_AVOID"  ]
+  },
+  {
     "id": "Foxmagiclighter",
     "looks_like": "lighter",
     "type": "TOOL",
@@ -56,7 +122,7 @@
     "type": "TOOL",
     "looks_like": "soldering_iron",
     "name": "magic soldering iron",
-    "description": "This is your ability to solder electronics via magic. Due to your initial investment of essence, it recharges at a steady rate per hour, and stores a great deal of power but cannot be unloaded or reloaded",
+    "description": "This is your ability to solder electronics via magic. Due to your initial investment of essence, it recharges at a steady rate per hour, and stores a great deal of power but cannot be unloaded or reloaded.",
     "weight": "0 g",
     "volume": "0 ml",
     "material": "FoxDivineMaterial",

@@ -249,6 +249,19 @@
     ]
   },
   {
+    "result": "FoxEternalFlame",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 4,
+    "time": "10 m",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 5000 ] ]
+    ]
+  },
+  {
     "result": "Foxmagiclighter",
     "type": "recipe",
     "category": "CC_ESSMAGIC",
