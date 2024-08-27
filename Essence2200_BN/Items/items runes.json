@@ -255,7 +255,7 @@
     "symbol": "*",
     "color": "magenta",
     "name": { "str": "Rune tool charge", "str_pl": "Rune tool charges" },
-    "description": "A combination of fire and telekinetic runes that act as ammo for some magic tools.",
+    "description": "A combination of fire and telekinetic runes that act as ammo for some magic tools. Being deprecated for now because I don't think its a good idea, refund yourself the cost via debug.",
     "material": "stone",
     "weight": "1 g",
     "volume": "1 ml",

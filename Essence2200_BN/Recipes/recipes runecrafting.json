@@ -170,21 +170,6 @@
         [ [ "FoxTelekineticrune", 250 ] ], [ [ "FoxSpiritrune", 250 ] ], [ [ "FoxEssencenormal", 1000 ] ] 
       ]
     },
-    {
-      "type": "recipe",
-      "result": "Foxrunecharges",
-      "category": "CC_ESSMAGIC",
-      "subcategory": "CSC_ESSMAGIC_RUNECRAFTING",
-      "skill_used": "FoxEssSpellcasting",
-      "difficulty": 1,
-      "result_mult": 2000,
-      "time": "5 m",
-      "autolearn": true,
-      "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
-      "components": [
-      [ [ "FoxFirerune", 10 ] ], [ [ "FoxTelekineticrune", 10 ] ] 
-    ]
-  },
   {
     "type": "recipe",
     "result": "FoxTelekineticrune",
