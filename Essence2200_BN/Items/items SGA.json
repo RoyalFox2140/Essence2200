@@ -402,6 +402,21 @@
   },
   {
     "type": "GENERIC",
+    "id": "FoxSGAessreactortiny",
+    "category": "spare_parts",
+    "name": { "str_sp": "device essence reactor" },
+    "description": "A reactor that converts essence directly into vast quantities of electricity, downscaled tremendously so as to fit in just about any consumer electronic.",
+    "looks_like": "e_scrap",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "weight": "5 g",
+    "volume": "10 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "color": "dark_gray"
+  },
+  {
+    "type": "GENERIC",
     "id": "FoxSGAlaserparts",
     "category": "spare_parts",
     "name": { "str_sp": "SGA laser parts" },

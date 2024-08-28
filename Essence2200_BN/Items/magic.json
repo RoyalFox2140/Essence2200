@@ -37,6 +37,20 @@
     "use_action": "HOTPLATE"
   },
   {
+    "type": "GENERIC",
+    "id": "FoxMagicCapacitor",
+    "symbol": "*",
+    "color": "magenta",
+    "name": "Essence-electric capacitor",
+    "description": "This is effectively a rock tricked into thinking it's a capacitor that can capture essence from the air, convert it into electricity, and store it, releasing it later. This is for electronics, magic items already function this way.",
+    "material": "stone",
+    "weight": "10 g",
+    "volume": "100 ml",
+    "bashing": 1,
+    "cutting": 1,
+    "to_hit": -3
+  },
+  {
     "id": "FoxEternalFlame",
     "type": "TOOL",
     "category": "tools",
