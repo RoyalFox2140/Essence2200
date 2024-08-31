@@ -11,7 +11,8 @@
     "material": [ "FoxShadowSteel" ],
     "looks_like": "sapphire_silver_pendant_necklace",
     "qualities": [
-      [ "FoxRavensclawtool", 1 ]
+      [ "FoxRavensclawtool", 1 ],
+      [ "GLARE", 500 ]
     ],
     "relic_data": {
       "passive_effects": [
@@ -24,7 +25,7 @@
     },
     "symbol": "[",
     "color": "blue",
-    "flags": [ "WATCH", "FANCY" ]
+    "flags": [ "WATCH", "REBREATHER", "SWIM_GOGGLES", "FANCY" ]
   },
   {
     "id": "FoxKawakamiravensclawupone",
@@ -38,7 +39,8 @@
     "material": [ "FoxShadowSteel" ],
     "looks_like": "sapphire_silver_pendant_necklace",
     "qualities": [
-      [ "FoxRavensclawtool", 2 ]
+      [ "FoxRavensclawtool", 2 ],
+      [ "GLARE", 500 ]
     ],
     "relic_data": {
       "passive_effects": [
@@ -62,7 +64,7 @@
     },
     "symbol": "[",
     "color": "blue",
-    "flags": [ "WATCH", "FANCY" ]
+    "flags": [ "WATCH", "REBREATHER", "SWIM_GOGGLES", "FANCY" ]
   },
   {
     "id": "FoxKawakamiravensclawuptwo",
@@ -76,7 +78,8 @@
     "material": [ "FoxShadowSteel" ],
     "looks_like": "sapphire_silver_pendant_necklace",
     "qualities": [
-      [ "FoxRavensclawtool", 3 ]
+      [ "FoxRavensclawtool", 3 ],
+      [ "GLARE", 500 ]
     ],
     "relic_data": {
       "passive_effects": [
@@ -100,7 +103,7 @@
     },
     "symbol": "[",
     "color": "blue",
-    "flags": [ "WATCH", "FANCY" ]
+    "flags": [ "WATCH", "REBREATHER", "SWIM_GOGGLES", "FANCY" ]
   },
   {
     "id": "FoxKawakamiravensclawupthree",
@@ -114,7 +117,8 @@
     "material": [ "FoxShadowSteel" ],
     "looks_like": "sapphire_silver_pendant_necklace",
     "qualities": [
-      [ "FoxRavensclawtool", 4 ]
+      [ "FoxRavensclawtool", 4 ],
+      [ "GLARE", 500 ]
     ],
     "relic_data": {
       "passive_effects": [
@@ -138,7 +142,7 @@
     },
     "symbol": "[",
     "color": "blue",
-    "flags": [ "WATCH", "FANCY" ]
+    "flags": [ "WATCH", "REBREATHER", "SWIM_GOGGLES", "FANCY" ]
   },
   {
     "id": "FoxKawakamiRend",

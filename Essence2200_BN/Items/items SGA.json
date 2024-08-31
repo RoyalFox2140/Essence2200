@@ -809,7 +809,7 @@
       "min_volume": "1 ml",
       "max_volume": "1500 ml",
       "draw_cost": 100,
-      "flags": [ "BELT_CLIP", "SHEATH_KNIFE" ]
+      "flags": [ "BELT_CLIP", "SHEATH_KNIFE", "RECHARGE" ]
     },
     "encumbrance": 2,
     "warmth": 10,

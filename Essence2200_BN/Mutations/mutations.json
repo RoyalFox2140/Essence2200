@@ -155,7 +155,7 @@
     "healing_resting": 0.5,
     "mending_modifier": 2.0,
     "attackcost_modifier": 0.9,
-    "anger_relations": [ [ "FoxImperial", 5000 ], [ "MAMMAL", -20 ], [ "AMPHIBIAN", -20 ], [ "BIRD", -20 ], [ "REPTILE", -20 ], [ "FISH", -20 ], [ "MUTANT", -20 ], [ "INSECT", -20 ], [ "INSECT_FLYING", -20 ], [ "WASP", -20 ], [ "SPIDER", -20 ], [ "WORM", -20 ], [ "HORROR", -20 ] ],
+    "anger_relations": [ [ "FoxImperial", 5000 ], [ "MAMMAL", -50 ], [ "AMPHIBIAN", -50 ], [ "BIRD", -50 ], [ "REPTILE", -50 ], [ "FISH", -50 ], [ "MUTANT", -50 ], [ "INSECT", -50 ], [ "INSECT_FLYING", -50 ], [ "WASP", -50 ], [ "SPIDER", -50 ], [ "WORM", -50 ], [ "HORROR", -50 ], [ "NETHER", -50 ], [ "PLANT", -50 ]],
     "movecost_swim_modifier": 0.5,
     "hp_adjustment": 250,
     "passive_mods": { "str_mod": 8, "dex_mod": 8, "per_mod": 10 },

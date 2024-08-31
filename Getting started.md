@@ -26,7 +26,7 @@ Unaffiliated:
 
 Abberation: A roleplaying scenario. You're a monster with a mutation similar to the Shi Director. You don't have goals but you can go around eating people.
 
-Nightwalker: A roleplaying scenario. You find yourself as the Shi Director except you ended up in this dimension due to unexplained circumstances and thus never founded the Shi. Nobody knows who you are. This breaks a lot of canon and I don't think I could program it to actively delete all Shi items and npc's, but it's there for me to mess about with.
+Nightwalker: A roleplaying scenario. You find yourself as the Shi Director except you ended up in this dimension due to unexplained circumstances and thus never founded the Shi. Nobody knows who you are. This breaks a lot of canon so it's just something to play for fun and not take seriously, but it's there for me to mess about with, usually if I want to not start with a ton of items.
 
 
 
