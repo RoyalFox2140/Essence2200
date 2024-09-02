@@ -132,7 +132,7 @@
     "range": 4,
     "effects": [ "FLAME", "STREAM", "INCENDIARY", "NEVER_MISFIRES" ],
     "fuel": {
-      "energy": 60,
+      "energy": 75,
       "pump_terrain": "t_gas_pump",
       "explosion_data": { "chance_hot": 2, "chance_cold": 5, "factor": 1, "fiery": true, "size_factor": 0.1 }
     }
@@ -160,21 +160,15 @@
     "material": "hydrocarbons",
     "symbol": "=",
     "color": "light_red",
-    "ammo_type": "FoxTaroline",
+    "ammo_type": "FoxEssencenormal",
     "damage": { "damage_type": "heat", "amount": 6, "armor_penetration": 5 },
     "range": 4,
     "effects": [ "FLAME", "STREAM", "INCENDIARY", "NEVER_MISFIRES" ],
     "fuel": {
-      "energy": 36,
+      "energy": 50,
       "pump_terrain": "t_gas_pump",
       "explosion_data": { "chance_hot": 2, "chance_cold": 5, "factor": 1, "fiery": true, "size_factor": 0.1 }
     }
-  },
-  {
-    "type": "ammunition_type",
-    "id": "FoxTaroline",
-    "name": "Essence",
-    "default": "FoxTaroline"
   },
   {
     "id": "FoxEssencepure",
@@ -193,21 +187,15 @@
     "material": "hydrocarbons",
     "symbol": "=",
     "color": "magenta",
-    "ammo_type": "FoxEssencepure",
+    "ammo_type": "FoxEssencenormal",
     "damage": { "damage_type": "heat", "amount": 30, "armor_penetration": 30 },
     "range": 15,
     "effects": [ "FLAME", "STREAM", "INCENDIARY", "NEVER_MISFIRES" ],
     "fuel": {
-      "energy": 150,
+      "energy": 180,
       "pump_terrain": "t_gas_pump",
       "explosion_data": { "chance_hot": 2, "chance_cold": 5, "factor": 1, "fiery": true, "size_factor": 0.1 }
     }
-  },
-  {
-    "type": "ammunition_type",
-    "id": "FoxEssencepure",
-    "name": "Pure Essence",
-    "default": "FoxEssencepure"
   },
   {
     "type": "material",

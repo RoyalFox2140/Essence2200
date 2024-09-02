@@ -30,6 +30,11 @@
     "name": { "str": "Raven's Claw" }
   },
   {
+    "type": "tool_quality",
+    "id": "FoxSGAopAccess",
+    "name": { "str": "SGA Operations Access" }
+  },
+  {
     "id": "soldering_standard",
     "type": "requirement",
     "//": "Soldering metal items",
@@ -232,5 +237,91 @@
     "type": "requirement",
     "//": "Firing various clay shapes to make earthenware",
     "tools": [ [ [ "fire", -1 ], [ "brick_kiln", 1 ], [ "kiln", 1 ], [ "Foxultimatetelekinetics", 1 ] ] ]
+  },
+  {
+    "id": "Fox_IntelligenceStandardSmall",
+    "type": "requirement",
+    "//": "Every instance of knowledge from the world the archivists want to buy. Newspapers, magazines, books, office papers and records, lab journals, Imperial records.",
+    "components": 
+    [ [ 
+     [ "newest_newspaper", 10 ], [ "many_years_old_newspaper", 10 ], [ "years_old_newspaper", 10 ], [ "one_year_old_newspaper", 10 ], [ "months_old_newspaper", 10 ], [ "weeks_old_newspaper", 10 ],
+     [ "record_patient", 1 ], [ "family_photo", 1 ], [ "file", 2 ], [ "scorecard", 10 ],
+     [ "gasdiscount_gold", 1 ], [ "gasdiscount_silver", 1 ], [ "gasdiscount_platinum", 1 ],
+     [ "decoy_anarch", 1 ], [ "mag_cars", 1 ], [ "manual_driving", 1 ],
+     [ "book_archery", 1 ], [ "mag_archery", 1 ], [ "manual_archery", 1 ],
+     [ "mag_barter", 1 ], [ "manual_business", 1 ], [ "textbook_business", 1 ],
+     [ "mag_bashing", 1 ], [ "manual_bashing", 1 ], [ "mag_cutting", 1 ], [ "manual_cutting", 1 ], [ "manual_knives", 1 ],
+     [ "howto_computer", 1 ], [ "mag_computer", 1 ], [ "manual_computers", 1 ],
+     [ "brewing_cookbook", 1 ], [ "cookbook", 1 ], [ "cookbook_italian", 1 ], [ "cookbook_sushi", 1 ], [ "family_cookbook", 1 ], [ "mag_cooking", 1 ],
+     [ "mag_glam", 1 ], [ "modern_tanner", 1 ], [ "scots_cookbook", 1 ], [ "vinegar_maker", 1 ], [ "preserving_juice", 1 ],
+     [ "offalcooking", 1 ], [ "dairy_book", 1 ], [ "cookbook_liverforkids", 1 ], [ "cookbook_daintydishes", 1 ], [ "cookbook_eatyrway", 1 ],
+     [ "cookbook_foodfashions", 1 ], [ "winemaking_beginner", 1 ], [ "manual_canning", 1 ], [ "manual_sealing", 1 ], [ "baking_book", 1 ],
+     [ "fermenting_book", 1 ], [ "distilling_cookbook", 1 ], [ "sweets_book", 1 ], [ "survivalflavor_book", 1 ], [ "cookbook_indian", 1 ],
+     [ "mag_dodge", 1 ], [ "manual_dodge", 1 ], [ "manual_dodge_kid", 1 ], [ "mag_electronics", 1 ], [ "manual_electronics", 1 ],
+     [ "repeater_mod_guide", 1 ], [ "concrete_book", 1 ], [ "manual_carpentry", 1 ], [ "mag_carpentry", 1 ], [ "101_carpentry", 1 ],
+     [ "recipe_bows", 1 ], [ "recipe_arrows", 1 ], [ "manual_fabrication", 1 ], [ "mag_fabrication", 1 ], [ "jewelry_book", 1 ],
+     [ "mag_firstaid", 1 ], [ "manual_first_aid", 1 ], [ "pocket_firstaid", 1 ], [ "mag_guns", 1 ], [ "manual_gun", 1 ],
+     [ "pocket_firearms", 1 ], [ "mag_launcher", 1 ], [ "manual_launcher", 1 ], [ "book_lockpick", 1 ], [ "trailmap", 1 ],
+     [ "touristmap", 1 ], [ "restaurantmap", 1 ], [ "mag_fieldrepair", 1 ], [ "mag_mechanics", 1 ], [ "manual_mechanics", 1 ],
+     [ "mag_melee", 1 ], [ "manual_melee", 1 ], [ "mag_pistol", 1 ], [ "manual_pistol", 1 ], [ "mag_rifle", 1 ],
+     [ "manual_rifle", 1 ], [ "mag_shotgun", 1 ], [ "manual_shotgun", 1 ], [ "mag_smg", 1 ], [ "manual_smg", 1 ],
+     [ "mag_tv", 1 ], [ "manual_speech", 1 ], [ "dnd_handbook", 1 ], [ "mag_stabbing", 1 ], [ "manual_stabbing", 1 ],
+     [ "fun_survival", 1 ], [ "mag_dude", 1 ], [ "mag_survival", 1 ], [ "manual_survival", 1 ], [ "pocket_survival", 1 ],
+     [ "mag_swimming", 1 ], [ "manual_swimming", 1 ], [ "mag_animecon", 1 ], [ "mag_beauty", 1 ], [ "mag_tailor", 1 ],
+     [ "manual_tailor", 1 ], [ "recipe_fauxfur", 1 ], [ "mag_throwing", 1 ], [ "manual_throw", 1 ], [ "howto_traps", 1 ],
+     [ "mag_traps", 1 ], [ "manual_traps", 1 ], [ "manual_traps_mil", 1 ], [ "mag_unarmed", 1 ], [ "manual_brawl", 1 ]
+    ] ]
+  },
+  {
+    "id": "Fox_IntelligenceStandardBig",
+    "type": "requirement",
+    "//": "Every instance of knowledge from the world the archivists want to buy. This is worth 5 bucks. SD cards are assumed to not be wiped of data if a player decides to download it. Cata limitation.",
+    "components": 
+    [ [  
+     [ "photo_album", 1 ], [ "id_industrial", 1 ], [ "id_military", 1 ], [ "id_science", 1 ],
+     [ "mobile_memory_card", 1 ], [ "mobile_memory_card_used", 1 ], [ "mobile_memory_card_encrypted", 1 ], [ "mobile_memory_card_science", 1 ],
+     [ "usb_drive", 1 ], [ "smart_phone", 1 ], [ "portable_game", 1 ], [ "cell_phone", 1 ], [ "laptop", 1 ], [ "camera", 1 ],  [ "mp3", 1 ],  [ "camera_pro", 1 ],  [ "eink_tablet_pc", 1 ],
+     [ "SICP", 1 ], [ "computer_science", 1 ], [ "textbook_computer", 1 ],
+     [ "adv_chemistry", 1 ], [ "recipe_alpha", 1 ], [ "recipe_animal", 1 ], [ "recipe_chimera", 1 ], [ "recipe_creepy", 1 ],
+     [ "recipe_elfa", 1 ], [ "recipe_labchem", 1 ], [ "recipe_maiar", 1 ], [ "recipe_medicalmut", 1 ], [ "recipe_raptor", 1 ],
+     [ "recipe_serum", 1 ], [ "reference_cooking", 1 ], [ "textbook_chemistry", 1 ], [ "recipe_augs", 1 ], [ "recipe_lab_elec", 1 ],
+     [ "advanced_electronics", 1 ], [ "radio_book", 1 ], [ "recipe_atomic_battery", 1 ], [ "recipe_mil_augs", 1 ], [ "textbook_electronics", 1 ],
+     [ "textbook_robots", 1 ], [ "reference_fabrication1", 1 ], [ "textbook_extraction", 1 ], [ "textbook_carpentry", 1 ], [ "carpentry_book", 1 ],
+     [ "welding_book", 1 ], [ "textbook_weapwest", 1 ], [ "textbook_weapeast", 1 ],  [ "textbook_gaswarfare", 1 ], [ "textbook_fireman", 1 ],
+     [ "textbook_fabrication", 1 ], [ "textbook_armwest", 1 ], [ "textbook_armschina", 1 ], [ "textbook_armeast", 1 ], [ "recipe_melee", 1 ],
+     [ "recipe_lab_cvd", 1 ], [ "recipe_caseless", 1 ], [ "recipe_bullets", 1 ], [ "textbook_firstaid", 1 ], [ "reference_firstaid1", 1 ],
+     [ "glassblowing_book", 1 ], [ "emergency_book", 1 ], [ "reference_firstaid2", 1 ], [ "manual_luty", 1 ], [ "labmap", 1 ],
+     [ "militarymap", 1 ], [ "survivormap", 1 ], [ "roadmap", 1 ], [ "subwaymap", 1 ], [ "book_icef", 1 ], [ "textbook_atomic_lab", 1 ],
+     [ "textbook_biodiesel", 1 ], [ "textbook_mechanics", 1 ], [ "textbook_speech", 1 ], [ "atomic_survival", 1 ], [ "survival_book", 1 ], [ "textbook_survival", 1 ],
+     [ "tailor_portfolio", 1 ], [ "tailor_japanese", 1 ], [ "textbook_tailor", 1 ], [ "textbook_traps", 1 ], [ "trappers_companion", 1 ]
+     ] ]
+  },
+  {
+    "id": "Fox_RefugeeSupplyStandard",
+    "type": "requirement",
+    "//": "Bits of random garbage to give to refugees, pretty much minor items.",
+    "components": 
+    [ [
+     [ "pen", 10 ], [ "candle", 5 ], [ "paper", 500 ], [ "soap", 50 ], [ "aspirin", 100 ],
+     [ "rag", 200 ], [ "scorecard", 16000 ],
+     [ "pillow", 1 ], [ "wool_pillow", 1 ], [ "down_pillow", 1 ], [ "blanket", 1 ], [ "down_blanket", 1 ], [ "fur_blanket", 1 ], [ "electric_blanket", 1 ], [ "fur_blanket", 1 ], [ "afs_quilt", 1 ], [ "sheet", 2 ],
+     [ "file", 2 ], [ "scorecard", 10 ],
+     [ "gasdiscount_gold", 1 ], [ "gasdiscount_silver", 1 ], [ "gasdiscount_platinum", 1 ]
+    ] ]
+  },
+  {
+    "id": "Fox_EngineConversion",
+    "type": "requirement",
+    "//": "Make Engine run on Essence, drain the engine, new fluids. 1 count per 50 kilograms weight, always round up. 51kg means 2 counts. 15 minutes per count.",
+    "qualities": [
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "PRY", "level": 1 },
+      { "id": "HOSE", "level": 1 }
+    ],
+    "components": [ 
+      [ [ "Foximpgrease", 1200 ] ],
+      [ [ "Foximpmotoroil", 800 ] ]
+    ]
   }
 ]

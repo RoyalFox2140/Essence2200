@@ -1,0 +1,237 @@
+[
+  {
+    "abstract": "Foxengine_essence",
+    "type": "vehicle_part",
+    "location": "engine_block",
+    "symbol": "*",
+    "color": "light_red",
+    "broken_color": "red",
+    "damage_modifier": 80,
+    "backfire_threshold": 0.25,
+    "backfire_freq": 20,
+    "noise_factor": 15,
+    "damaged_power_factor": 0.25,
+    "fuel_type": "FoxEssencenormal",
+    "fuel_options": [ "FoxEssencenormal", "FoxEssencepure", "FoxTaroline" ],
+    "m2c": 60,
+    "flags": [ "ENGINE", "E_COMBUSTION", "E_ALTERNATOR", "E_HIGHER_SKILL", "E_HEATER", "E_NO_POWER_DECAY" ],
+    "description": "A combustion engine based on essence.  Cannot burn gasoline or diesel, usually converted from a 21st century one."
+  },
+  {
+    "abstract": "Foxengine_essenceUltraTech",
+    "type": "vehicle_part",
+    "location": "engine_block",
+    "symbol": "*",
+    "color": "light_red",
+    "broken_color": "red",
+    "noise_factor": 15,
+    "fuel_type": "gasoline",
+    "fuel_options": [ "FoxEssencenormal", "FoxEssencepure" ],
+    "m2c": 60,
+    "flags": [ "ENGINE", "E_HEATER", "E_NO_POWER_DECAY" ],
+    "description": "An UltraTech Essence engine.  Works in anomalous ways, does not backfire, cannot use alternator. Needs no electricity."
+  },
+  {
+    "id": "Foxengine_1cyl_large",
+    "copy-from": "Foxengine_essence",
+    "type": "vehicle_part",
+    "item": "Fox1cyl_combustion_large",
+    "//": "55 HP high-performance water-cooled single-cylinder engine",
+    "durability": 150,
+    "epower": 0,
+    "power": 41000,
+    "energy_consumption": 124500,
+    "folded_volume": "2 L",
+    "breaks_into": [
+      { "item": "engine_block_small" },
+      { "item": "steel_lump", "count": [ 0, 2 ] },
+      { "item": "steel_chunk", "count": [ 0, 22 ] },
+      { "item": "scrap", "count": [ 0, 2 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "qualities": [ { "id": "WRENCH", "level": 1 } ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "qualities": [ { "id": "WRENCH", "level": 1 } ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
+    },
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "damage_reduction": { "all": 40 }
+  },
+  {
+    "id": "Foxengine_inline4",
+    "copy-from": "Foxengine_essence",
+    "type": "vehicle_part",
+    "item": "Foxi4_combustion",
+    "durability": 300,
+    "epower": -150,
+    "power": 93250,
+    "energy_consumption": 311000,
+    "breaks_into": [
+      { "item": "engine_block_small" },
+      { "item": "steel_lump", "count": [ 0, 5 ] },
+      { "item": "steel_chunk", "count": [ 0, 5 ] },
+      { "item": "scrap", "count": [ 0, 5 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
+    },
+    "damage_reduction": { "all": 50 }
+  },
+  {
+    "id": "Foxengine_v12",
+    "copy-from": "Foxengine_essence",
+    "type": "vehicle_part",
+    "item": "Foxv12_combustion",
+    "durability": 600,
+    "epower": -350,
+    "power": 447600,
+    "energy_consumption": 1492000,
+    "breaks_into": [
+      { "item": "engine_block_massive" },
+      { "item": "steel_lump", "count": [ 0, 10 ] },
+      { "item": "steel_chunk", "count": [ 0, 10 ] },
+      { "item": "scrap", "count": [ 0, 10 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 6 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 7 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
+    },
+    "damage_reduction": { "all": 110 }
+  },
+  {
+    "id": "Foxengine_v6",
+    "copy-from": "Foxengine_essence",
+    "type": "vehicle_part",
+    "item": "Foxv6_combustion",
+    "durability": 400,
+    "epower": -200,
+    "power": 149200,
+    "energy_consumption": 497500,
+    "breaks_into": [
+      { "item": "engine_block_medium" },
+      { "item": "steel_lump", "count": [ 0, 6 ] },
+      { "item": "steel_chunk", "count": [ 0, 6 ] },
+      { "item": "scrap", "count": [ 0, 6 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
+    },
+    "damage_reduction": { "all": 100 }
+  },
+  {
+    "id": "Foxengine_v8",
+    "copy-from": "Foxengine_essence",
+    "type": "vehicle_part",
+    "item": "Foxv8_combustion",
+    "durability": 400,
+    "epower": -250,
+    "power": 242450,
+    "energy_consumption": 808200,
+    "breaks_into": [
+      { "item": "engine_block_large" },
+      { "item": "steel_lump", "count": [ 0, 8 ] },
+      { "item": "steel_chunk", "count": [ 0, 8 ] },
+      { "item": "scrap", "count": [ 0, 8 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
+    },
+    "damage_reduction": { "all": 100 }
+  },
+  {
+    "id": "Foxengine_vtwin",
+    "copy-from": "Foxengine_essence",
+    "type": "vehicle_part",
+    "item": "Foxv2_combustion",
+    "durability": 200,
+    "epower": -50,
+    "power": 37300,
+    "energy_consumption": 124500,
+    "folded_volume": "2 L",
+    "breaks_into": [
+      { "item": "engine_block_tiny" },
+      { "item": "steel_lump", "count": [ 0, 3 ] },
+      { "item": "steel_chunk", "count": [ 0, 3 ] },
+      { "item": "scrap", "count": [ 0, 3 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
+    },
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "damage_reduction": { "all": 60 }
+  },
+  {
+    "id": "Foxengine_turbine_small",
+    "copy-from": "Foxengine_essence",
+    "type": "vehicle_part",
+    "item": "Foxsmall_turbine_engine",
+    "durability": 400,
+    "epower": -10,
+    "power": 1006695,
+    "energy_consumption": 4026780,
+    "breaks_into": [
+      { "item": "alloy_plate", "count": [ 1, 2 ] },
+      { "item": "steel_lump", "count": [ 45, 58 ] },
+      { "item": "steel_chunk", "count": [ 45, 58 ] },
+      { "item": "scrap", "count": [ 45, 58 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 7 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 10 ], [ "steel_standard", 1 ] ] }
+    },
+    "damage_reduction": { "all": 60 }
+  },
+  {
+    "id": "Foxengine_turbine_medium",
+    "copy-from": "Foxengine_essence",
+    "type": "vehicle_part",
+    "item": "Foxmedium_turbine_engine",
+    "durability": 400,
+    "epower": -10,
+    "power": 1416830,
+    "energy_consumption": 5667320,
+    "breaks_into": [
+      { "item": "alloy_plate", "count": [ 2, 4 ] },
+      { "item": "steel_lump", "count": [ 50, 65 ] },
+      { "item": "steel_chunk", "count": [ 50, 65 ] },
+      { "item": "scrap", "count": [ 50, 65 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 7 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 10 ], [ "steel_standard", 1 ] ] }
+    },
+    "damage_reduction": { "all": 65 }
+  },
+  {
+    "id": "Foxengine_turbine_large",
+    "copy-from": "Foxengine_essence",
+    "type": "vehicle_part",
+    "item": "Foxlarge_turbine_engine",
+    "durability": 400,
+    "epower": -10,
+    "power": 4474199,
+    "energy_consumption": 17896796,
+    "breaks_into": [
+      { "item": "alloy_plate", "count": [ 4, 6 ] },
+      { "item": "steel_lump", "count": [ 100, 120 ] },
+      { "item": "steel_chunk", "count": [ 100, 120 ] },
+      { "item": "scrap", "count": [ 100, 120 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 7 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 10 ], [ "steel_standard", 1 ] ] }
+    },
+    "damage_reduction": { "all": 70 }
+  }
+]

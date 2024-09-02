@@ -1,0 +1,111 @@
+[
+  {
+    "abstract": "Foxengineitem",
+    "type": "ENGINE",
+    "category": "veh_parts",
+    "name": { "str": "base essence engine" },
+    "material": "iron",
+    "symbol": ":",
+    "color": "light_cyan",
+    "//": "No faults cause you craft it, or you find them on Imperial cars at full condition"
+  },
+  {
+    "id": "Fox1cyl_combustion_large",
+    "copy-from": "Foxengineitem",
+    "type": "ENGINE",
+    "name": { "str": "large 1-cylinder engine essence" },
+    "description": "A powerful high-compression single-cylinder 4-stroke combustion engine.",
+    "weight": "40000 g",
+    "volume": "2 L",
+    "price_postapoc": "1250 cent",
+    "displacement": 55
+  },
+  {
+    "id": "Foxi4_combustion",
+    "copy-from": "Foxengineitem",
+    "type": "ENGINE",
+    "name": { "str": "Inline-4 engine essence" },
+    "description": "A small, yet powerful 4-cylinder combustion engine.",
+    "weight": "130000 g",
+    "volume": "3500 ml",
+    "price_postapoc": "1250 cent",
+    "displacement": 160
+  },
+  {
+    "id": "Foxv2_combustion",
+    "copy-from": "Foxengineitem",
+    "type": "ENGINE",
+    "name": { "str": "V-twin engine essence" },
+    "description": "A 2-cylinder 4-stroke combustion engine.",
+    "weight": "45000 g",
+    "volume": "2 L",
+    "price_postapoc": "10 USD",
+    "displacement": 100
+  },
+  {
+    "id": "Foxv6_combustion",
+    "copy-from": "Foxengineitem",
+    "type": "ENGINE",
+    "name": { "str": "V6 engine essence" },
+    "description": "A powerful 6-cylinder combustion engine.",
+    "weight": "180000 g",
+    "volume": "4750 ml",
+    "price_postapoc": "15 USD",
+    "displacement": 280
+  },
+  {
+    "id": "Foxv8_combustion",
+    "copy-from": "Foxengineitem",
+    "type": "ENGINE",
+    "name": { "str": "V8 engine essence" },
+    "description": "A large and very powerful 8-cylinder combustion engine.",
+    "weight": "250000 g",
+    "volume": "7500 ml",
+    "price_postapoc": "1750 cent",
+    "displacement": 450
+  },
+  {
+    "id": "Foxv12_combustion",
+    "copy-from": "Foxengineitem",
+    "type": "ENGINE",
+    "name": { "str": "V12 engine essence" },
+    "description": "A massive and extremely powerful V12 engine, usually built into high end sports cars.",
+    "weight": "300000 g",
+    "volume": "14500 ml",
+    "price_postapoc": "2250 cent",
+    "displacement": 700
+  },
+  {
+    "id": "Foxsmall_turbine_engine",
+    "copy-from": "Foxengineitem",
+    "type": "ENGINE",
+    "name": { "str": "1350 hp essence turbine engine" },
+    "description": "A gas turbine engine, usually used for military vehicles.  Known for its high rate of fuel consumption, but installing multiple turbines will not affect vehicle power.",
+    "weight": "150 kg",
+    "volume": "45 L",
+    "price_postapoc": "25 USD",
+    "displacement": 2700
+  },
+  {
+    "id": "Foxmedium_turbine_engine",
+    "copy-from": "Foxengineitem",
+    "type": "ENGINE",
+    "name": { "str": "1900 hp essence turbine engine" },
+    "description": "A large gas turbine engine, usually used for military helicopters.  Known for its high rate of fuel consumption, but installing multiple turbines will not affect vehicle power.",
+    "weight": "200 kg",
+    "volume": "63 L",
+    "price_postapoc": "50 USD",
+    "displacement": 3800
+  },
+  {
+    "id": "Foxlarge_turbine_engine",
+    "copy-from": "Foxengineitem",
+    "type": "ENGINE",
+    "name": { "str": "6000 hp essence turbine engine" },
+    "description": "A massive gas turbine engine, used to power the V-22 Osprey.  Known for its high rate of fuel consumption, but installing multiple turbines will not affect vehicle power.",
+    "weight": "450 kg",
+    "volume": "95 L",
+    "price_postapoc": "75 USD",
+    "displacement": 11995
+  }
+]

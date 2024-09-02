@@ -1,0 +1,155 @@
+[
+  {
+    "type": "recipe",
+    "result": "Fox1cyl_combustion_large",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "mechanics", 2 ], [ "fabrication", 1 ], [ "FoxEssTheory", 1 ] ],
+    "id_suffix": "FoxEngineConversion",
+    "difficulty": 0,
+    "time": "15 m",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "Fox_EngineConversion", 1 ] ],
+    "components": [
+      [ [ "1cyl_combustion_large", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxi4_combustion",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "mechanics", 2 ], [ "fabrication", 1 ], [ "FoxEssTheory", 1 ] ],
+    "id_suffix": "FoxEngineConversion",
+    "difficulty": 0,
+    "time": "45 m",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "Fox_EngineConversion", 3 ] ],
+    "components": [
+      [ [ "i4_combustion", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxv2_combustion",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "mechanics", 2 ], [ "fabrication", 1 ], [ "FoxEssTheory", 1 ] ],
+    "id_suffix": "FoxEngineConversion",
+    "difficulty": 0,
+    "time": "15 m",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "Fox_EngineConversion", 1 ] ],
+    "components": [
+      [ [ "v2_combustion", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxv6_combustion",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "mechanics", 2 ], [ "fabrication", 1 ], [ "FoxEssTheory", 1 ] ],
+    "id_suffix": "FoxEngineConversion",
+    "difficulty": 0,
+    "time": "1 h",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "Fox_EngineConversion", 4 ] ],
+    "components": [
+      [ [ "v6_combustion", 1 ], [ "v6_diesel", 1 ], [ "i6_diesel", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxv8_combustion",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "mechanics", 2 ], [ "fabrication", 1 ], [ "FoxEssTheory", 1 ] ],
+    "id_suffix": "FoxEngineConversion",
+    "difficulty": 0,
+    "time": "1 h 15 m",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "Fox_EngineConversion", 5 ] ],
+    "components": [
+      [ [ "v8_combustion", 1 ], [ "v8_diesel", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxv12_combustion",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "mechanics", 2 ], [ "fabrication", 1 ], [ "FoxEssTheory", 1 ] ],
+    "id_suffix": "FoxEngineConversion",
+    "difficulty": 0,
+    "time": "1 h 30 m",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "Fox_EngineConversion", 6 ] ],
+    "components": [
+      [ [ "v12_combustion", 1 ], [ "v12_diesel", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxsmall_turbine_engine",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "mechanics", 2 ], [ "fabrication", 1 ], [ "FoxEssTheory", 1 ] ],
+    "id_suffix": "FoxEngineConversion",
+    "difficulty": 0,
+    "time": "45 m",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "Fox_EngineConversion", 3 ] ],
+    "components": [
+      [ [ "small_turbine_engine", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxmedium_turbine_engine",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "mechanics", 2 ], [ "fabrication", 1 ], [ "FoxEssTheory", 1 ] ],
+    "id_suffix": "FoxEngineConversion",
+    "difficulty": 0,
+    "time": "1 h",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "Fox_EngineConversion", 4 ] ],
+    "components": [
+      [ [ "medium_turbine_engine", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxlarge_turbine_engine",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "mechanics", 2 ], [ "fabrication", 1 ], [ "FoxEssTheory", 1 ] ],
+    "id_suffix": "FoxEngineConversion",
+    "difficulty": 0,
+    "time": "2 h 15 m",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "Fox_EngineConversion", 9 ] ],
+    "components": [
+      [ [ "large_turbine_engine", 1 ] ]
+    ]
+  }
+]
