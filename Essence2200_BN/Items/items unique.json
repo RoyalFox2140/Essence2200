@@ -12,6 +12,7 @@
     "looks_like": "sapphire_silver_pendant_necklace",
     "qualities": [
       [ "FoxRavensclawtool", 1 ],
+      [ "FoxSGAopAccess", 100 ],
       [ "GLARE", 500 ]
     ],
     "relic_data": {
@@ -40,6 +41,7 @@
     "looks_like": "sapphire_silver_pendant_necklace",
     "qualities": [
       [ "FoxRavensclawtool", 2 ],
+      [ "FoxSGAopAccess", 100 ],
       [ "GLARE", 500 ]
     ],
     "relic_data": {
@@ -79,6 +81,7 @@
     "looks_like": "sapphire_silver_pendant_necklace",
     "qualities": [
       [ "FoxRavensclawtool", 3 ],
+      [ "FoxSGAopAccess", 100 ],
       [ "GLARE", 500 ]
     ],
     "relic_data": {
@@ -118,6 +121,7 @@
     "looks_like": "sapphire_silver_pendant_necklace",
     "qualities": [
       [ "FoxRavensclawtool", 4 ],
+      [ "FoxSGAopAccess", 100 ],
       [ "GLARE", 500 ]
     ],
     "relic_data": {

@@ -1,0 +1,339 @@
+[
+  {
+    "type": "recipe",
+    "result": "FoxSGAarchivistcash",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTradingsmall",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "using": [ [ "Fox_IntelligenceStandardSmall", 1 ] ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxSGAarchivistcash",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTradinglarge",
+    "time": "10 s",
+    "autolearn": true,
+    "result_mult": 5,
+    "batch_time_factors": [ 99, 1 ],
+    "using": [ [ "Fox_IntelligenceStandardBig", 1 ] ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxSGAarchivistcash",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTradingrefugee",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "using": [ [ "Fox_RefugeeSupplyStandard", 1 ] ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxSGAdatauplink",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 25 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxSGAlocktopus",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 25 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxtoolboxSGA",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 50 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxSGAmultihammer",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Fox5mmSGAcaseless",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Fox5mmArakawacaseless",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 14 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Fox8mmSGAcaseless",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxDeSGAesstheory",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 2 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxDeSGAesstech",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 2 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxDeSGAarakawa",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 2 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxDeSGAseburo",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 2 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxDeSGAishikawa",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 2 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxDeSGAkawakami",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 2 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxmanualSGAgear",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 2 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxDeSGAkawakamicookbook",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 2 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxpowderedessence",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxEssencenormal",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxAdamantinechunk",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxShadowsteelchunk",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxBallisticWeaveSheet",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 3 ] ]
+    ]
+  }
+]

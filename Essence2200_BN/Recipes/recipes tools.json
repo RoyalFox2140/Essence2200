@@ -108,6 +108,27 @@
     ]
   },
   {
+    "type": "recipe",
+    "result": "FoxSGAmesskit",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "electronics", 3 ], [ "survival", 3 ] ],
+    "difficulty": 4,
+    "time": "1 h",
+    "reversible": true,
+    "book_learn": [ [ "FoxmanualSGAgear", 3 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "blacksmithing_standard", 20 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "element", 3 ] ],
+      [ [ "amplifier", 1 ] ],
+      [ [ "FoxAdamantinechunk", 3 ] ],
+      [ [ "FoxSGAessreactortiny", 1 ], [ "FoxMagicCapacitor", 1 ] ],
+      [ [ "cable", 10 ] ]
+    ]
+  },
+  {
     "result": "FoxSGAdatauplink",
     "type": "recipe",
     "category": "CC_ESSTECH",
@@ -305,6 +326,22 @@
     "components": [
       [ [ "Foximperialsteelchunk", 25 ] ],
       [ [ "plastic_chunk", 8 ] ]
+    ]
+  },
+  {
+    "result": "FoxtoolboxSGA",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "36 h",
+    "autolearn": true,
+    "using": [ [ "blacksmithing_standard", 80 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "components": [
+      [ [ "FoxShadowsteelchunk", 25 ] ],
+      [ [ "FoxAdamantinechunk", 4 ] ]
     ]
   },
   {

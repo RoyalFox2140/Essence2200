@@ -291,7 +291,6 @@
     "max_charges": 1000000,
     "flags": [ "USES_GRID_POWER" ]
   },
-  
   {
     "id": "FoxmanualSGAgear",
     "type": "BOOK",
@@ -473,6 +472,85 @@
     "use_action": [ "HAMMER", "CROWBAR" ]
   },
   {
+    "id": "FoxSGAmultihammer",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "SGA multi-hammer", "str_pl": "SGA multi-hammers" },
+    "description": "This is a sturdy Adamantine multi-tool hammer with a built-in arc welder thanks to its powerful but small essence reactor. It contains a lot of extra tools, and being from Adamantine allows it to cut through metal as well as a hacksaw.",
+    "looks_like": "multitool",
+    "weight": "2500 g",
+    "volume": "1000 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -2,
+    "bashing": 8,
+    "material": "FoxAdamantine",
+    "symbol": ";",
+    "color": "red",
+    "ammo": "battery",
+    "sub": "welder",
+    "charges_per_use": 5,
+    "initial_charges": 100,
+    "max_charges": 6000,
+    "relic_data": { "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 100 } ] },
+    "qualities": [
+      [ "CUT", 1 ],
+      [ "HAMMER", 3 ],
+      [ "SAW_M", 2 ],
+      [ "SAW_W", 2 ],
+      [ "CHISEL", 2 ],
+      [ "WRENCH", 2 ],
+      [ "SCREW", 4 ],
+      [ "PRY", 1 ],
+      [ "DRILL", 2 ],
+      [ "HAMMER_FINE", 1 ],
+      [ "SAW_M_FINE", 2 ],
+      [ "WRENCH_FINE", 1 ],
+      [ "SCREW_FINE", 1 ],
+      [ "BUTCHER", 10 ],
+      [ "CUT_FINE", 1 ],
+      [ "WELD", 2 ],
+      [ "PULL", 1 ],
+      [ "COOK", 1 ]
+    ],
+    "use_action": [ 
+      "HAMMER",
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [ "iron", "steel", "hardsteel", "aluminum", "copper", "bronze", "silver", "gold", "platinum", "superalloy", "glass" ],
+        "skill": "fabrication",
+        "tool_quality": 10,
+        "cost_scaling": 0.1,
+        "move_cost": 500
+      }
+     ],
+     "flags": [ "BELT_CLIP" ]
+  },
+  {
+    "id": "FoxSGAmesskit",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "SGA mess kit" },
+    "description": "This is a lightweight messkit built from adamantine with a tiny essence reactor, allowing it to recharge on it's own.",
+    "weight": "900 g",
+    "volume": "1 L",
+    "price_postapoc": "2 USD",
+    "to_hit": -1,
+    "bashing": 4,
+    "material": [ "FoxAdamantine" ],
+    "symbol": ";",
+    "color": "green",
+    "ammo": "battery",
+    "sub": "hotplate",
+    "charges_per_use": 5,
+    "initial_charges": 100,
+    "max_charges": 6000,
+    "relic_data": { "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 100 } ] },
+    "qualities": [ [ "COOK", 2 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ] ],
+    "use_action": [ "HOTPLATE", "HEAT_FOOD" ]
+  },
+  {
     "id": "FoxSGAgrenade",
     "type": "TOOL",
     "category": "weapons",
@@ -631,17 +709,7 @@
 	"EINKTABLETPC",
 	"WEATHER_TOOL"
 	],
-	"flags": [ "THERMOMETER", "HYGROMETER", "BAROMETER", "WATCH", "CAMERA_PRO", "BELT_CLIP", "NO_UNLOAD", "NO_RELOAD", "RECHARGE" ],
-    "magazines": [
-      [
-        "battery",
-        [
-          "FoxSGAbatterycell",
-          "Foximpbatterycell"
-        ]
-      ]
-    ],
-    "magazine_well": "250 ml"
+	"flags": [ "THERMOMETER", "HYGROMETER", "BAROMETER", "WATCH", "CAMERA_PRO", "BELT_CLIP", "NO_UNLOAD", "NO_RELOAD", "RECHARGE" ]
   },
   {
     "id": "FoxSGAportaluplink",
@@ -658,8 +726,8 @@
     "symbol": ";",
     "color": "yellow",
     "ammo": "battery",
-    "initial_charges": 1,
-    "max_charges": 1000000,
+    "initial_charges": 100,
+    "max_charges": 100000,
     "charges_per_use": 1,
     "relic_data": { "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 100 } ] },
     "flags": [ "BELT_CLIP", "NO_UNLOAD", "NO_RELOAD", "RECHARGE" ]
@@ -759,8 +827,9 @@
     "warmth": 20,
     "material_thickness": 2,
     "environmental_protection": 30,
+    "qualities": [ [ "GLARE", 2 ] ],
     "valid_mods" : ["furred", "wooled"],
-    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
+    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE", "PARTIAL_DEAF" ]
   },
   {
     "id": "FoxSGAagentsuit",
@@ -784,6 +853,29 @@
     "environmental_protection": 30,
     "valid_mods" : ["furred", "wooled"],
     "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
+  },
+  {
+    "id": "FoxSGAagenthelmet",
+    "type": "ARMOR",
+    "name": { "str": "SGA Agent combat helmet" },
+    "description": "A standard black shadowsteel helmet with integrated detection equipment and gas filtration. Agents comprise the bulk of the Shi, having been blooded in combat against the Imperials and potentially killed in action several times, but lacking the decades of warfare and training the elites and directors hold. The helmet will stop most firearm calibers and ignore most thermal or NBC weapons.",
+    "weight": "500 g",
+    "volume": "1 L",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxBallisticWeave", "FoxShadowSteel" ],
+    "symbol": "[",
+    "looks_like": "tac_fullhelmet",
+    "color": "light_blue",
+    "covers": [ "head", "mouth", "eyes" ],
+    "coverage": 100,
+    "encumbrance": 10,
+    "warmth": 20,
+    "material_thickness": 3,
+    "environmental_protection": 30,
+    "valid_mods" : ["furred", "wooled"],
+    "qualities": [ [ "GLARE", 2 ] ],
+    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE", "PARTIAL_DEAF" ]
   },
   {
     "id": "FoxSGAmaiddress",
@@ -836,5 +928,87 @@
     "warmth": 10,
     "material_thickness": 2,
     "flags": [ "VARSIZE", "FANCY" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "FoxSGAarchivistcash",
+    "category": "spare_parts",
+    "name": { "str_sp": "SGA Archivists credit" },
+    "description": "This item represents how much store credit you have with the SGA thanks to your work for the Archivists or quest givers.",
+    "looks_like": "e_scrap",
+    "price_postapoc": "1 cent",
+    "material": [ "FoxDivineMaterial" ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "color": "dark_gray"
+  },
+  {
+    "type": "TOOL",
+    "id": "FoxSGAmealcard",
+    "category": "spare_parts",
+    "name": { "str_sp": "SGA meal card" },
+    "description": "Your meal card, handed out both to refugees and soldiers. You can claim up to a weeks worth of meals at once, grants 1 meal every 6 hours. Can redeem MRE's or hot meals. The only way to get another is debug, this should be indestructible.",
+    "looks_like": "e_scrap",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "ammo": "battery",
+    "relic_data": { "recharge_scheme": [ { "type": "time", "req": "none", "interval": "6 h", "rate": 1 } ] },
+    "initial_charges": 2,
+    "max_charges": 28,
+    "weight": "0 g",
+    "volume": "0 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "color": "dark_gray"
+  },
+  {
+    "type": "GENERIC",
+    "id": "FoxSGAclearanceashigaru",
+    "category": "spare_parts",
+    "name": { "str_sp": "Ashigaru ID card" },
+    "description": "This card represents you as an official Ashigaru of the Shi Grand Army, with operations clearance to match that. The only way to get another is debug, this should be indestructible.",
+    "looks_like": "e_scrap",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "qualities": [ [ "FoxSGAopAccess", 1 ] ],
+    "color": "dark_gray"
+  },
+  {
+    "type": "GENERIC",
+    "id": "FoxSGAclearanceagent",
+    "category": "spare_parts",
+    "name": { "str_sp": "Agent ID card" },
+    "description": "This card represents you as an official Agent of the Shi Grand Army, with operations clearance to match that.  The only way to get another is debug, this should be indestructible.",
+    "looks_like": "e_scrap",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "qualities": [ [ "FoxSGAopAccess", 2 ] ],
+    "color": "dark_gray"
+  },
+  {
+    "type": "GENERIC",
+    "id": "FoxSGAclearanceagentelite",
+    "category": "spare_parts",
+    "name": { "str_sp": "Agent Elite ID card" },
+    "description": "This card represents you as an official Elite Agent of the Shi Grand Army, with unlimited operations clearance.  The only way to get another is debug, this should be indestructible.",
+    "looks_like": "e_scrap",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "qualities": [ [ "FoxSGAopAccess", 3 ] ],
+    "color": "dark_gray"
   }
 ]

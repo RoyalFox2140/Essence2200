@@ -303,10 +303,8 @@
     "components": 
     [ [
      [ "pen", 10 ], [ "candle", 5 ], [ "paper", 500 ], [ "soap", 50 ], [ "aspirin", 100 ],
-     [ "rag", 200 ], [ "scorecard", 16000 ],
-     [ "pillow", 1 ], [ "wool_pillow", 1 ], [ "down_pillow", 1 ], [ "blanket", 1 ], [ "down_blanket", 1 ], [ "fur_blanket", 1 ], [ "electric_blanket", 1 ], [ "fur_blanket", 1 ], [ "afs_quilt", 1 ], [ "sheet", 2 ],
-     [ "file", 2 ], [ "scorecard", 10 ],
-     [ "gasdiscount_gold", 1 ], [ "gasdiscount_silver", 1 ], [ "gasdiscount_platinum", 1 ]
+     [ "rag", 200 ], [ "thread", 16000 ],
+     [ "pillow", 1 ], [ "wool_pillow", 1 ], [ "down_pillow", 1 ], [ "blanket", 1 ], [ "down_blanket", 1 ], [ "fur_blanket", 1 ], [ "electric_blanket", 1 ], [ "fur_blanket", 1 ], [ "afs_quilt", 1 ], [ "sheet", 2 ]
     ] ]
   },
   {

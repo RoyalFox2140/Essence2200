@@ -68,7 +68,7 @@
   {
     "type": "material",
     "id": "FoxDivineMaterial",
-    "name": "Divine Protection",
+    "name": "Indestructible",
     "density": 30,
     "reinforces": true,
     "bash_resist": 9999,
@@ -84,7 +84,8 @@
     "repaired_with": "Foximperialsteelchunk",
     "dmg_adj": [ "marked", "dented", "smashed", "shattered" ],
     "bash_dmg_verb": "dented",
-    "cut_dmg_verb": "scratched"
+    "cut_dmg_verb": "scratched",
+    "burn_data": [ { "immune": true }, { "immune": true }, { "immune": true } ]
   },
   {
     "type": "material",
