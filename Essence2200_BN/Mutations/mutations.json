@@ -398,8 +398,7 @@
     "valid": false,
     "purifiable": false,
     "category": [ "FoxNightstalker" ],
-    "night_vision_range": 60,
-    "reading_speed_multiplier": 0.8,
+    "night_vision_range": 10,
     "passive_mods": { "int_mod": 10, "per_mod": 10 }
   },
   {
@@ -428,7 +427,7 @@
   {
     "type": "mutation",
     "id": "FoxClanKawakami",
-    "name": { "str": "Kawakami" },
+    "name": { "str": "Clan Kawakami" },
     "points": 0,
     "description": "The director of the Shi, undisputed leader of all clans, and sole member by blood of Clan Kawakami. They all know your face, even arbiters will react with fear while many low ranked Imperials will flee in abject terror.",
     "valid": false,
@@ -464,6 +463,17 @@
     "name": { "str": "Clan Seburo" },
     "points": 0,
     "description": "A born and raised technician of the engineer clan Seburo. Though your name is unknown, your clan is respected for their diligence and devotion to R&D.",
+    "valid": false,
+    "purifiable": false,
+    "visibility": 0,
+    "ugliness": 0
+  },
+  {
+    "type": "mutation",
+    "id": "FoxClanFujiwara",
+    "name": { "str": "Clan Fujiwara" },
+    "points": 0,
+    "description": "A born and raised mechanic of the engineer clan Fujiwara. Though your name is unknown, your clan is respected for their work on cars and dreams of flying, and feared for the same reason.",
     "valid": false,
     "purifiable": false,
     "visibility": 0,
