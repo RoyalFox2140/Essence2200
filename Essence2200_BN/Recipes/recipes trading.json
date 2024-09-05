@@ -38,6 +38,19 @@
   },
   {
     "type": "recipe",
+    "result": "FoxSGAarchivistcash",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTradingrefugeeBIG",
+    "time": "10 s",
+    "autolearn": true,
+    "result_mult": 4,
+    "batch_time_factors": [ 99, 1 ],
+    "using": [ [ "Fox_RefugeeSupplyBIG", 1 ] ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "FoxSGAdatauplink",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_TRADING",

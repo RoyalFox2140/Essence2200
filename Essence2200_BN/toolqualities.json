@@ -310,6 +310,16 @@
     ] ]
   },
   {
+    "id": "Fox_RefugeeSupplyBIG",
+    "type": "requirement",
+    "//": "Appliances. 4 dollars.",
+    "components": 
+    [ [
+     [ "oven", 1 ], [ "fridge", 1 ], [ "freezer", 1 ], [ "glass_fridge", 1 ], [ "glass_freezer", 1 ],
+     [ "solar_panel", 2 ], [ "solar_panel_v2", 1 ], [ "storage_battery", 2 ], [ "large_storage_battery", 1 ], [ "medium_storage_battery", 10 ]
+    ] ]
+  },
+  {
     "id": "Fox_EngineConversion",
     "type": "requirement",
     "//": "Make Engine run on Essence, drain the engine, new fluids. 1 count per 50 kilograms weight, always round up. 51kg means 2 counts. 15 minutes per count.",
