@@ -303,8 +303,10 @@
     "components": 
     [ [
      [ "pen", 10 ], [ "candle", 5 ], [ "paper", 500 ], [ "soap", 50 ], [ "aspirin", 100 ],
-     [ "rag", 200 ], [ "thread", 16000 ],
-     [ "pillow", 1 ], [ "wool_pillow", 1 ], [ "down_pillow", 1 ], [ "blanket", 1 ], [ "down_blanket", 1 ], [ "fur_blanket", 1 ], [ "electric_blanket", 1 ], [ "fur_blanket", 1 ], [ "afs_quilt", 1 ], [ "sheet", 2 ]
+     [ "rag", 200 ], [ "thread", 16000 ], [ "string_6", 320 ], [ "string_36", 53 ], [ "nail", 500 ], [ "steel_lump", 50 ], [ "steel_chunk", 200 ], [ "scrap", 1000 ],
+     [ "2x4", 100 ], [ "log", 10 ], [ "wood_panel", 10 ], [ "glass_sheet", 10 ], [ "plastic_chunk", 100 ], [ "hinge", 10 ],
+     [ "frame", 1 ], [ "pipe", 40 ], [ "sheet_metal", 10 ], [ "sheet_metal_small", 240 ], [ "wire", 40 ], [ "cable", 200 ], [ "cu_pipe", 8 ], [ "scrap_copper", 40 ], [ "copper", 1000 ],
+     [ "pillow", 4 ], [ "wool_pillow", 4 ], [ "down_pillow", 4 ], [ "blanket", 4 ], [ "down_blanket", 4 ], [ "fur_blanket", 4 ], [ "electric_blanket", 4 ], [ "fur_blanket", 4 ], [ "afs_quilt", 4 ], [ "sheet", 8 ]
     ] ]
   },
   {
