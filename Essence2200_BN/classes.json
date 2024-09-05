@@ -5,7 +5,7 @@
     "name": "Nightwalker",
     "description": "Savant created you as the ultimate soldier to kill every last Imperial so she could reclaim Earth. But the plan to hide this soldier in Imperial society failed. Nobody knows how you got to this dimension, and the apocalypse came before those powers could be fully manifested. You always felt somehow you were different, but it really sunk in after you accidentally murdered someone and had to go into hiding. Living in abandoned buildings and the sewers wasn't fun but for someone immortal and immune to disease it was easy. Now all that angst and paranoia paid off, you're not trapped out here with them, they're trapped out here with YOU!",
     "points": 444,
-    "traits": [ "FoxNightwalker", "FoxNightwalkerBody", "FoxNightwalkerPsionics", "FoxNightwalkerUpbringing", "FoxNightwalkerRestrictions", "FoxNightwalkerExtremeFatigue", "FoxSchoolsElemental", "FoxSchoolsSpirit", "FoxSchoolsTransmutation", "FoxSchoolsPale", "LOVES_BOOKS", "PROJUNK", "GOURMAND", "NONADDICTIVE", "FACIAL_HAIR_NONE", "eye_red", "CANNIBAL", "MASOCHIST", "INFRESIST", "PARAIMMUNE", "PSYCHOPATH", "OPTIMISTIC", "STYLISH", "hair_black_long", "SKIN_LIGHT" ],
+    "traits": [ "FoxNightwalker", "FoxNightwalkerBody", "FoxNightwalkerPsionics", "FoxNightwalkerUpbringing", "FoxNightwalkerRestrictions", "FoxNightwalkerExtremeFatigue", "FoxSchoolsElemental", "FoxSchoolsSpirit", "FoxSchoolsTransmutation", "FoxSchoolsPale", "LOVES_BOOKS", "PROJUNK", "GOURMAND", "NONADDICTIVE", "FACIAL_HAIR_NONE", "eye_red", "MASOCHIST", "INFRESIST", "PARAIMMUNE", "PSYCHOPATH", "STYLISH", "hair_black_long", "SKIN_LIGHT" ],
     "items": {
         "male": [
           "FoxSGAgrenadeactiveremover"
