@@ -359,6 +359,28 @@
     "material_thickness": 2
   },
   {
+    "id": "Foxbalaclava",
+    "type": "ARMOR",
+    "name": { "str": "balaclava" },
+    "description": "A warm covering that protects the head and face from the cold, now from ballistic weave.",
+    "weight": "20 g",
+    "volume": "250 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxBallisticWeave" ],
+    "symbol": "[",
+    "looks_like": "balclava",
+    "color": "dark_gray",
+    "covers": [ "head", "mouth" ],
+    "coverage": 95,
+    "encumbrance": 2,
+    "warmth": 30,
+    "environmental_protection": 1,
+    "valid_mods" : ["furred", "wooled"],
+    "material_thickness": 2,
+    "flags": [ "VARSIZE", "SKINTIGHT", "POWERARMOR_COMPATIBLE" ]
+  },
+  {
     "id": "Foxholster",
     "type": "ARMOR",
     "name": { "str": "Ballistic Weave holster" },

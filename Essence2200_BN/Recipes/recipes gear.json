@@ -186,6 +186,19 @@
     "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ] ]
   },
   {
+    "result": "Foxbalaclava",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 15 ] ],
+    "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ] ]
+  },
+  {
     "result": "Foxknitscarf",
     "type": "recipe",
     "category": "CC_ESSTECH",
