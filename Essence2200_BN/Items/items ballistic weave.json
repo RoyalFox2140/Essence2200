@@ -199,9 +199,9 @@
     "coverage": 100,
     "encumbrance": 5,
     "warmth": 20,
-    "material_thickness": 3,
+    "material_thickness": 2,
     "environmental_protection": 2,
-    "valid_mods" : ["furred", "wooled", "Foxadamantinemod"],
+    "valid_mods" : ["furred", "wooled"],
     "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ]
   },
   {
