@@ -195,6 +195,7 @@
       { "item": "Foximplaserparts", "prob": 50, "count": [ 3, 10 ] },
       { "item": "Foximpmechparts", "prob": 50, "count": [ 4, 8 ] },
       { "item": "Foximpbatterycell", "prob": 50, "count": [ 2, 4 ] },
+      { "item": "Foxofficerdatapadlocked", "prob": 10 },
       [ "FoximpKW21352U", 15 ],
       [ "FoximpKW21404U", 90 ],
       [ "adv_UPS_off", 40 ],
