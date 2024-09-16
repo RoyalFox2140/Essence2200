@@ -138,7 +138,7 @@
     "group": "Foxplace_dirt_on_rock",
     "category": "CONSTRUCT",
     "time": "15m",
-    "components": [ [ [ "soil", 50 ] ] ],
+    "components": [ [ [ "material_soil", 50 ] ] ],
     "dark_craftable": true,
     "pre_terrain": "t_rock_floor",
     "post_terrain": "t_dirt"
@@ -694,6 +694,93 @@
       "items": [ { "item": "Foxlargetentbroken" } ],
       "tent_centers": [ "Foxf_center_groundsheetbig" ]
     }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_dirtpile",
+    "name": "dirt pile",
+    "description": "A pile of dirt on the floor. I don't know what you were expecting.  You can plant stuff here.",
+    "symbol": "}",
+    "color": "brown",
+    "looks_like": "t_dirtmound",
+    "move_cost_mod": 1,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "FLAT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "material_soil", "count": 40 } ] },
+    "examine_action": "dirtmound",
+    "plant_data": { "transform": "Foxf_dirtpileseed" }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_dirtpileseed",
+    "copy-from": "Foxf_dirtpile",
+    "name": "freshly-planted dirt pile",
+    "description": "A pile of dirt on the floor.  This one contains some seeds that was recently planted.",
+    "symbol": "}",
+    "color": "brown",
+    "looks_like": "f_plant_seed",
+    "required_str": -1,
+    "examine_action": "aggie_plant",
+    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEED" ],
+    "plant_data": { "transform": "Foxf_dirtpileseedling", "base": "Foxf_dirtpile" }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_dirtpileseedling",
+    "copy-from": "Foxf_dirtpile",
+    "name": "young dirt pile",
+    "description": "A pile of dirt on the floor.  This one contains a mushroom culture that's just started to grow.",
+    "symbol": "}",
+    "color": "brown",
+    "required_str": -1,
+    "looks_like": "f_plant_seedling",
+    "examine_action": "aggie_plant",
+    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEEDLING" ],
+    "plant_data": { "transform": "Foxf_dirtpilemature", "base": "Foxf_dirtpile" }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_dirtpilemature",
+    "copy-from": "Foxf_dirtpile",
+    "name": "maturing dirt pile",
+    "description": "A pile of dirt on the floor.  This one contains a plant that'll be ready to harvest soon.",
+    "symbol": "}",
+    "color": "brown",
+    "required_str": -1,
+    "looks_like": "f_plant_mature",
+    "examine_action": "aggie_plant",
+    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_MATURE" ],
+    "plant_data": { "transform": "Foxf_dirtpileharvest", "base": "Foxf_dirtpile" }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_dirtpileharvest",
+    "copy-from": "Foxf_dirtpile",
+    "name": "harvestable dirt pile",
+    "description": "A pile of dirt on the floor.  This one has crops you can harvest.",
+    "symbol": "}",
+    "color": "brown",
+    "required_str": -1,
+    "looks_like": "f_plant_harvest",
+    "examine_action": "aggie_plant",
+    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_HARVEST" ],
+    "plant_data": { "transform": "Foxf_dirtpile", "base": "Foxf_dirtpile" }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_dirtpile_on_floor",
+    "group": "Foxplace_dirtpile_on_floor",
+    "category": "FURN",
+    "time": "5m",
+    "components": [ [ [ "material_soil", 40 ] ] ],
+    "dark_craftable": true,
+    "pre_flags": [ "FLAT" ],
+    "post_furniture": "Foxf_dirtpile"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_dirtpile_on_floor",
+    "name": "Place dirt on the floor"
   },
   {
     "type": "terrain",
