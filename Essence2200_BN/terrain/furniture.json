@@ -133,6 +133,39 @@
     "name": "Conjure shallow water in pit"
   },
   {
+    "type": "construction",
+    "id": "Foxconstr_dirt_on_rock_place",
+    "group": "Foxplace_dirt_on_rock",
+    "category": "CONSTRUCT",
+    "time": "15m",
+    "components": [ [ [ "soil", 50 ] ] ],
+    "dark_craftable": true,
+    "pre_terrain": "t_rock_floor",
+    "post_terrain": "t_dirt"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_dirt_on_rock",
+    "name": "Place dirt onto rock"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_dirt_on_rock_conjure",
+    "group": "Foxconjure_dirt_on_rock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "FoxEssSpellcasting", 1 ] ],
+    "time": "10m",
+    "components": [ [ [ "FoxTransmutationrune", 5 ] ] ],
+    "dark_craftable": true,
+    "pre_terrain": "t_rock_floor",
+    "post_terrain": "t_dirt"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconjure_dirt_on_rock",
+    "name": "Conjure dirt onto rock"
+  },
+  {
     "type": "furniture",
     "id": "Foxfessencestill",
     "name": "essence fractional still",
