@@ -204,7 +204,7 @@
     "time": "45 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 200000 ] ]
+      [ [ "FoxEssencenormal", 100000 ] ]
     ]
   },
   {

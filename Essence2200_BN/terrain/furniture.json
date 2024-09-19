@@ -864,6 +864,57 @@
     "name": "Place magic lamp"
   },
   {
+    "type": "furniture",
+    "id": "Foxf_magic_heater_off",
+    "symbol": "T",
+    "color": "light_gray",
+    "move_cost_mod": 2,
+    "required_str": 1,
+    "looks_like": "f_space_heater_off",
+    "name": "magic heater (off)",
+    "deconstruct": { "items": [ { "item": "FoxEternalFlameboxed", "count": 1 } ] },
+    "flags": [ "TRANSPARENT", "PLACE_ITEM", "EASY_DECONSTRUCT" ],
+    "description": "Disguised as a space heater, your flame makes heat without power. It's off.",
+    "examine_action": "transform",
+    "transforms_into": "Foxf_magic_heater",
+    "prompt": "Switch on the magic heater.",
+    "message": "You switch on the magic heater."
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_magic_heater",
+    "symbol": "T",
+    "color": "light_gray",
+    "move_cost_mod": 2,
+    "required_str": 1,
+    "name": "magic heater (on)",
+    "looks_like": "f_space_heater_on",
+    "deconstruct": { "items": [ { "item": "FoxEternalFlameboxed", "count": 1 } ] },
+    "flags": [ "TRANSPARENT", "PLACE_ITEM", "EASY_DECONSTRUCT", "EMITTER"  ],
+    "emissions": [ "emit_hot_air2_blast" ],
+    "description": "Disguised as a space heater, your flame makes heat without power. It's on.",
+    "examine_action": "transform",
+    "transforms_into": "Foxf_magic_heater_off",
+    "prompt": "Switch off the magic heater.",
+    "message": "You switch off the magic heater."
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_magic_heater_off",
+    "group": "Foxplace_magic_heater_off",
+    "category": "FURN",
+    "time": "1 m",
+    "components": [ [ [ "FoxEternalFlameboxed", 1 ] ] ],
+    "dark_craftable": true,
+    "pre_special": "check_empty",
+    "post_furniture": "Foxf_magic_heater_off"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_magic_heater_off",
+    "name": "Place magic heater"
+  },
+  {
     "type": "terrain",
     "id": "Foxt_tarcrete_wall",
     "looks_like": "t_strconc_wall",

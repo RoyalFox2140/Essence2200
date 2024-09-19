@@ -1186,6 +1186,21 @@
   },
   {
     "type": "recipe",
+    "result": "corn",
+    "id_suffix": "FoxConjuration",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_CONJURATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 5,
+    "time": "10 m",
+    "charges": 100,
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
+    "flags": ["NUTRIENT_OVERRIDE"]
+  },
+  {
+    "type": "recipe",
     "result": "dry_rice",
     "id_suffix": "FoxConjuration",
     "category": "CC_ESSMAGIC",
