@@ -114,8 +114,10 @@
         [ "toolset", 1 ],
         [ "fire", -1 ],
         [ "knife_heat", -1 ],
-        [ "FoxNanoForge", 1 ],
-        [ "Foxultimatetelekinetics", 1 ]
+        [ "FoxEternalFlame", -1 ],
+        [ "FoxEternalFlameboxed", -1 ],
+        [ "FoxNanoForge", -1 ],
+        [ "Foxultimatetelekinetics", -1 ]
       ]
     ]
   },
@@ -133,8 +135,10 @@
         [ "atomic_coffeepot", -1 ],
         [ "fire", -1 ],
         [ "knife_heat", -1 ],
-        [ "FoxNanoForge", 1 ], 
-        [ "Foxultimatetelekinetics", 1 ]
+        [ "FoxEternalFlame", -1 ],
+        [ "FoxEternalFlameboxed", -1 ],
+        [ "FoxNanoForge", -1 ], 
+        [ "Foxultimatetelekinetics", -1 ]
       ]
     ]
   },

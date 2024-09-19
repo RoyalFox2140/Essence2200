@@ -98,7 +98,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 1,
     "time": "10 m",
-    "result_mult": 40,
+    "result_mult": 80,
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
