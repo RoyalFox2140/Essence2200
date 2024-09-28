@@ -279,7 +279,12 @@
     "book_learn": [ [ "FoxmanualSGAgear", 2 ], [ "FoxDeSGAseburo", 2 ] ],
     "using": [ [ "sewing_standard", 8 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-    "components": [ [ [ "FoxBallisticWeaveSheet", 30 ] ], [ [ "FoxAdamantinechunk", 5 ] ] ]
+    "components": [ 
+     [ [ "FoxBallisticWeaveSheet", 30 ] ],
+     [ [ "FoxAdamantinechunk", 5 ] ],
+     [ [ "FoxSGAelectronics", 4 ] ],
+     [ [ "FoxSGAessreactortiny", 1 ], [ "FoxMagicCapacitor", 1 ] ] 
+    ]
   },
   {
     "result": "FoxSGAmaiddress",
