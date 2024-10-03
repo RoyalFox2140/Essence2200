@@ -220,8 +220,6 @@
       [ "CUT", 1 ],
       [ "HAMMER", 3 ],
       [ "HAMMER_FINE", 1 ],
-      [ "SAW_M", 2 ],
-      [ "SAW_W", 2 ],
       [ "AXE", 3 ],
       [ "DIG", 3 ],
       [ "BUTCHER", 30 ],
