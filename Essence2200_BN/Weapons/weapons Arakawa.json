@@ -79,7 +79,7 @@
         "ascii_picture": "m4a1",
         "material": [ "FoxShadowSteel", "FoxAdamantine" ],
         "color": "dark_gray",
-        "ammo": "223",
+        "ammo": [ "223", "Fox556mmSGA" ],
         "ranged_damage": { "damage_type": "bullet", "amount": 10 },
         "range": 7,
         "dispersion": 180,
