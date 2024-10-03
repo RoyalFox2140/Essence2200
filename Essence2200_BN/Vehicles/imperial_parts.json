@@ -41,5 +41,29 @@
     "flags": [ "AISLE_LIGHT", "OBSTACLE", "ENABLED_DRAINS_EPOWER" ],
     "breaks_into": [ {"item": "plut_generator_item"} ],
     "description": "A reliable generator that uses the decay of radioactive elements to generate a reliable trickle of power."
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxessencestillcar",
+    "name": { "str": "Mounted essence still" },
+    "symbol": "#",
+    "looks_like": "external_tank",
+    "color": "red",
+    "broken_symbol": "#",
+    "broken_color": "light_gray",
+    "damage_modifier": 60,
+    "durability": 200,
+    "item": "Foxessencestill",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "5 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "15 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "5 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
+    },
+    "flags": [ "OBSTACLE" ],
+    "breaks_into": [
+      { "item": "Foxessencestill", "count": [ 1, 1 ] }
+    ],
+    "description": "An essence still bolted to a car very carefully. It's not hard to knock off and can't be used in it's current form.."
   }
 ]
