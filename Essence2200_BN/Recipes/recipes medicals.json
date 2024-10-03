@@ -243,5 +243,80 @@
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "//": "Require Ravens claw so nobody else can have this. More like an iv at this point but I'm not modeling the difference.",
     "components": [ [ [ "Foxcompounda", 5 ] ], [ [ "Foxcompoundb", 10 ] ], [ [ "Foxcompoundd", 1 ] ], [ [ "Foxcompounde", 20 ] ], [ [ "Foxcompoundg", 10 ] ], [ [ "Foxhumansoul", 25 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "strong_antibiotic",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_DRUGS",
+    "id_suffix": "esstheory",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 3,
+    "time": "40 m",
+    "batch_time_factors": [ 75, 4 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [ 
+      [ [ "Foxcompoundg", 2 ] ],
+      [ [ "flour", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "prussian_blue",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_DRUGS",
+    "id_suffix": "esstheory",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 3,
+    "time": "40 m",
+    "batch_time_factors": [ 75, 4 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "food_processor", 10 ] ] ],
+    "components": [ 
+      [ [ "Foxcairnroot", 2 ] ],
+      [ [ "saline", 1 ] ],
+      [ [ "flour", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "iodine",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_DRUGS",
+    "id_suffix": "esstheory",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 3,
+    "time": "40 m",
+    "batch_time_factors": [ 75, 4 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "food_processor", 10 ] ] ],
+    "components": [ 
+      [ [ "Foxcairnroot", 1 ] ],
+      [ [ "Foxjellyweed", 1 ] ],
+      [ [ "saline", 1 ] ],
+      [ [ "flour", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxcairnpaste",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_DRUGS",
+    "id_suffix": "esstheory",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 3 ] ],
+    "difficulty": 1,
+    "time": "40 m",
+    "batch_time_factors": [ 75, 4 ],
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 3 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "food_processor", 2 ] ] ],
+    "components": [ 
+      [ [ "Foxcairnroot", 1 ] ],
+      [ [ "water_clean", 1 ] ] ]
   }
 ]

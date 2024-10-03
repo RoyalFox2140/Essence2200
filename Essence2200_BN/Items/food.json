@@ -153,6 +153,29 @@
   },
   {
     "type": "COMESTIBLE",
+    "id": "Foxcairnpaste",
+    "name": "Cairn paste",
+    "weight": "20 g",
+    "volume": "250 ml",
+    "color": "light_gray",
+    "comestible_type": "MED",
+    "symbol": "~",
+    "quench": 8,
+    "healthy": 4,
+    "calories": 20,
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You eat some cairn paste.",
+      "effects": [ { "id": "pblue", "duration": 2400 }, { "id": "iodine", "duration": 3600 } ]
+    },
+    "description": "This is a thick vegetable paste of cairn root which will purge some radiation from your body and render resistance for a short while.",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": "powder",
+    "flags": [ "NUTRIENT_OVERRIDE" ]
+  },
+  {
+    "type": "COMESTIBLE",
     "id": "Foxslag",
     "name": { "str_sp": "Slag" },
     "weight": "251 g",
