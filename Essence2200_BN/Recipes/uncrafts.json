@@ -58,5 +58,90 @@
     "type": "uncraft",
     "time": "5 m",
     "components": [ [ [ "FoxEssencenormal", 20000 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "FoximpKW21404U",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "20 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 },{ "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 5 ] ],
+      [ [ "Foximpelectronics", 8 ] ],
+      [ [ "Foximplaserparts", 15 ] ],
+      [ [ "Foximpgrease", 1 ] ]
+    ]
+  },
+  {
+    "type": "uncraft",
+    "result": "FoximpKW21352U",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "25 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 },{ "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 5 ] ],
+      [ [ "Foximpelectronics", 12 ] ],
+      [ [ "Foximplaserparts", 18 ] ],
+      [ [ "Foximpgrease", 1 ] ]
+    ]
+  },
+  {
+    "type": "uncraft",
+    "result": "FoximpKW21373U",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "50 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 },{ "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 20 ] ],
+      [ [ "Foximpelectronics", 80 ] ],
+      [ [ "Foximplaserparts", 80 ] ],
+      [ [ "Foximperialsteelchunk", 20 ] ],
+      [ [ "Foximpgrease", 1 ] ]
+    ]
+  },
+  {
+    "type": "uncraft",
+    "result": "FoximpKW21402U",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "20 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 },{ "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 5 ] ],
+      [ [ "Foximpelectronics", 11 ] ],
+      [ [ "Foximplaserparts", 12 ] ],
+      [ [ "Foximpgrease", 1 ] ]
+    ]
+  },
+  {
+    "type": "uncraft",
+    "result": "FoximpED12UGallows",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "20 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 },{ "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 5 ] ],
+      [ [ "Foximpelectronics", 11 ] ],
+      [ [ "Foximplaserparts", 12 ] ],
+      [ [ "Foximpgrease", 1 ] ]
+    ]
+  },
+  {
+    "type": "uncraft",
+    "result": "FoximpED31U",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "20 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 },{ "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 5 ] ],
+      [ [ "Foximpelectronics", 11 ] ],
+      [ [ "Foximplaserparts", 12 ] ],
+      [ [ "Foximpgrease", 1 ] ]
+    ]
   }
 ]
