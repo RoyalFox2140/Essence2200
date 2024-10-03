@@ -293,7 +293,7 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 0,
+    "difficulty": 1,
     "time": "30 m",
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
     "components": [
