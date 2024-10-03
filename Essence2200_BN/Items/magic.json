@@ -225,7 +225,7 @@
       [ "BUTCHER", 30 ],
       [ "WRENCH", 2 ],
       [ "SCREW", 1 ],
-      [ "PRY", 3 ]
+      [ "PRY", 1 ]
     ],
     "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
   },
