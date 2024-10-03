@@ -345,5 +345,19 @@
     [ [ "rock", 200 ] ],
     [ [ "material_soil", 10 ] ]
   ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxTaroline",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "charges": 150,
+    "time": "3 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "rag", -1 ] ] ],
+    "components": [ [ [ "Foxacidlemon", 1 ] ] ]
   }
 ]
