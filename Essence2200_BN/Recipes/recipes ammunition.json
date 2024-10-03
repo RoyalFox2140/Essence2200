@@ -466,7 +466,52 @@
       [ [ "amplifier", 1 ] ],
       [ [ "FoxSGAelectronics", 5 ] ],
       [ [ "FoxEssencenormal", 500 ] ],
+      [ [ "FoxAdamantinechunk", 4 ] ],
+      [ [ "FoxShadowsteelchunk", 1 ] ]
+    ]
+  },
+  {
+    "result": "FoxSGA120mmHE",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 6 ], [ "electronics", 3 ] ],
+    "difficulty": 4,
+    "time": " 30 m",
+    "book_learn": [ [ "FoxDeSGAseburo", 4 ], [ "FoxDeSGAkawakami", 4 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 100 ] ] ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "components": [
+      [ [ "receiver", 1 ] ],
+      [ [ "amplifier", 1 ] ],
+      [ [ "FoxSGAelectronics", 5 ] ],
+      [ [ "FoxEssencenormal", 750 ] ],
       [ [ "FoxAdamantinechunk", 4 ] ]
+    ]
+  },
+  {
+    "result": "FoxSGA120mmI",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 6 ], [ "electronics", 3 ] ],
+    "difficulty": 4,
+    "time": " 30 m",
+    "book_learn": [ [ "FoxDeSGAseburo", 4 ], [ "FoxDeSGAkawakami", 4 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 100 ] ] ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "components": [
+      [ [ "receiver", 1 ] ],
+      [ [ "amplifier", 1 ] ],
+      [ [ "FoxSGAelectronics", 5 ] ],
+      [ [ "FoxEssencenormal", 500 ] ],
+      [ [ "FoxAdamantinechunk", 4 ] ],
+      [ [ "Foxtargas", 250 ] ],
+      [ [ "FoxTaroline", 250 ] ]
     ]
   }
 ]
