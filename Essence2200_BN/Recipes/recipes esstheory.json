@@ -334,7 +334,7 @@
     "skill_used": "FoxEssTheory",
     "skills_required": [ [ "cooking", 5 ] ],
     "difficulty": 2,
-    "result_mult": 800,
+    "result_mult": 8000,
     "//": "I HATE MATH HOLY SHIT. 50l rock and 50l soil. 100 L of targas to extract elements. We bend the rules on trace elements here 20l glass 20l lead 20l bismuth 5l alum 10l tin 5l scrap 20l clay.",
     "time": "1 h",
     "autolearn": true,
