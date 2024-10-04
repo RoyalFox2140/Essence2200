@@ -6,15 +6,27 @@
     "entries": [
       { "item": "Foximpwastelandsuit", "prob": 75, "damage": [ 0, 2 ] },
       { "item": "Foximpwastelandpack", "prob": 50, "damage": [ 0, 2 ] },
-	  { "group": "Foxreapergear", "prob": 90 },
+      { "group": "Foxreapergear", "prob": 90 },
       { "item": "Foximperialrationgood", "prob": 75 },
-	  { "item": "Foximperialrationbad", "prob": 99 },
-	  { "item": "adv_UPS_off", "prob": 35 },
-	  { "item": "water_clean", "container-item": "canteen", "prob": 88, "charges": [ 0, 6 ] },
-	  { "group": "Foxdropsimpbattery", "prob": 30 },
+      { "item": "Foximperialrationbad", "prob": 99 },
+      { "item": "adv_UPS_off", "prob": 35 },
+      { "item": "water_clean", "container-item": "canteen", "prob": 90, "charges": [ 0, 6 ] },
+      { "group": "Foxdropsimpbattery", "prob": 30 },
       { "group": "infantry_medical_gear", "prob": 30 },
-	  { "group": "Foxdropsimpobjectives", "prob": 11 },
-	  { "group": "Foxdropsimpscrap", "prob": 100 }
+      { "group": "Foxdropsimpobjectives", "prob": 7 },
+      { "group": "Foxdropsimpscrap", "prob": 100 }
+    ]
+  },
+  {
+    "id": "FoxmonImperialdropslost",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foximpwastelandsuit", "prob": 75, "damage": [ 0, 2 ] },
+      { "item": "Foximpwastelandpack", "prob": 50, "damage": [ 0, 2 ] },
+      { "item": "Foximpetool" },
+      { "item": "Foximperialrationbad", "prob": 99 },
+      { "item": "water_clean", "container-item": "canteen", "prob": 90, "charges": [ 0, 6 ] }
     ]
   },
   {
@@ -24,15 +36,49 @@
     "entries": [
       { "item": "Foximpwastelandsuit", "prob": 75, "damage": [ 0, 2 ] },
       { "item": "Foximpwastelandpack", "prob": 50, "damage": [ 0, 2 ] },
-	  { "group": "Foxreapergear", "prob": 90 },
+      { "group": "Foxreapergear", "prob": 90 },
       { "item": "Foximperialrationgood", "prob": 75 },
-	  { "item": "Foximperialrationbad", "prob": 99 },
-	  { "item": "adv_UPS_off", "prob": 45 },
-	  { "item": "water_clean", "container-item": "canteen", "prob": 88, "charges": [ 0, 6 ] },
-	  { "group": "Foxdropsimpbattery", "prob": 30 },
+      { "item": "Foximperialrationbad", "prob": 99 },
+      { "item": "adv_UPS_off", "prob": 45 },
+      { "item": "water_clean", "container-item": "canteen", "prob": 90, "charges": [ 0, 6 ] },
+      { "group": "Foxdropsimpbattery", "prob": 30 },
       { "group": "infantry_medical_gear", "prob": 30 },
-	  { "group": "Foxdropsimpofficer", "prob": 70 },
-	  { "group": "Foxdropsimpscrap", "prob": 100 }
+      { "group": "Foxdropsimpofficer", "prob": 70 },
+      { "group": "Foxdropsimpscrap", "prob": 100 }
+    ]
+  },
+  {
+    "id": "FoxmonImperialdropsZombified",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foximpwastelandsuit", "prob": 75, "damage": [ 0, 2 ] },
+      { "item": "Foximpwastelandpack", "prob": 50, "damage": [ 0, 2 ] },
+      { "group": "Foxreapergear", "prob": 90 },
+      { "item": "Foximperialrationbad", "prob": 99 },
+      { "item": "adv_UPS_off", "prob": 25 },
+      { "item": "water_clean", "container-item": "canteen", "prob": 80, "charges": [ 0, 6 ] },
+      { "group": "Foxdropsimpbattery", "prob": 30 },
+      { "group": "infantry_medical_gear", "prob": 30 },
+      { "group": "Foxdropsimpscrap", "prob": 100 }
+    ]
+  },
+  {
+    "id": "FoxmonImperialofficerdropsZombified",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foximpwastelandsuit", "prob": 75, "damage": [ 0, 2 ] },
+      { "item": "Foximpwastelandpack", "prob": 50, "damage": [ 0, 2 ] },
+      { "group": "Foxreapergear", "prob": 90 },
+      { "item": "Foximperialrationgood", "prob": 75 },
+      { "item": "Foximperialrationbad", "prob": 99 },
+      { "item": "adv_UPS_off", "prob": 45 },
+      { "item": "water_clean", "container-item": "canteen", "prob": 90, "charges": [ 0, 6 ] },
+      { "group": "Foxdropsimpbattery", "prob": 30 },
+      { "group": "infantry_medical_gear", "prob": 30 },
+      { "group": "FoxdropsimpofficerZombified", "prob": 70 },
+      { "group": "Foxdropsimpscrap", "prob": 100 }
     ]
   },
   {
@@ -43,7 +89,7 @@
       { "item": "Foximpetool", "prob": 95 },
       { "item": "Foximpgasmask", "prob": 100, "damage": [ 1, 3 ] },
       { "item": "two_way_radio", "prob": 90 },
-	  { "item": "binoculars", "prob": 40 },
+      { "item": "binoculars", "prob": 40 },
       { "item": "sheath", "contents-item": "Foximpcombatknife", "prob": 80 }
     ]
   },
@@ -53,7 +99,7 @@
     "subtype": "collection",
     "entries": [
       { "item": "Foximpbattery", "prob": 90 },
-	  { "item": "Foximpbatterycell", "prob": 25 }
+      { "item": "Foximpbatterycell", "prob": 25 }
     ]
   },
   {
@@ -62,17 +108,17 @@
     "subtype": "collection",
     "entries": [
       { "item": "FoxDeSGAkawakamicookbook", "prob": 10 },
-	  { "item": "FoxESGAkawakami", "prob": 25 },
-	  { "item": "FoxESGAkawakamicookbook", "prob": 25 },
+      { "item": "FoxESGAkawakami", "prob": 25 },
+      { "item": "FoxESGAkawakamicookbook", "prob": 25 },
       { "item": "FoxJapanesebook", "prob": 10 },
-	  { "item": "FoxKanjidictionary", "prob": 5 },
-	  { "item": "FoxCollegeJapanese", "prob": 5 },
-	  { "item": "FoxESGAesstech", "prob": 10 },
-	  { "item": "FoxESGAarakawa", "prob": 5 },
-	  { "item": "FoxESGAseburo", "prob": 5 },
+      { "item": "FoxKanjidictionary", "prob": 5 },
+      { "item": "FoxCollegeJapanese", "prob": 5 },
+      { "item": "FoxESGAesstech", "prob": 10 },
+      { "item": "FoxESGAarakawa", "prob": 5 },
+      { "item": "FoxESGAseburo", "prob": 5 },
       { "item": "FoxEIkw", "prob": 10 },
-	  { "item": "FoxEIed", "prob": 10 },
-	  { "item": "FoxESGAesstheory", "prob": 10 }
+      { "item": "FoxEIed", "prob": 10 },
+      { "item": "FoxESGAesstheory", "prob": 10 }
     ]
   },
   {
@@ -81,16 +127,26 @@
     "subtype": "collection",
     "entries": [
       { "item": "FoxDeSGAkawakamicookbook", "prob": 10 },
-	  { "item": "FoxESGAkawakami", "prob": 25 },
+      { "item": "FoxESGAkawakami", "prob": 25 },
       { "item": "FoxJapanesebook", "prob": 50 },
-	  { "item": "FoxKanjidictionary", "prob": 20 },
-	  { "item": "FoxESGAesstech", "prob": 10 },
-	  { "item": "FoxESGAarakawa", "prob": 5 },
-	  { "item": "FoxESGAseburo", "prob": 5 },
+      { "item": "FoxKanjidictionary", "prob": 20 },
+      { "item": "FoxESGAesstech", "prob": 10 },
+      { "item": "FoxESGAarakawa", "prob": 5 },
+      { "item": "FoxESGAseburo", "prob": 5 },
       { "item": "FoxEIkw", "prob": 80 },
-	  { "item": "FoxEIed", "prob": 80 },
-	  { "item": "Foxofficerdatapadlocked", "prob": 80 },
-	  { "item": "FoxESGAesstheory", "prob": 10 }
+      { "item": "FoxEIed", "prob": 80 },
+      { "item": "Foxofficerdatapadlocked", "prob": 80 },
+      { "item": "FoxESGAesstheory", "prob": 10 }
+    ]
+  },
+  {
+    "id": "FoxdropsimpofficerZombified",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "FoxEIkw", "prob": 80 },
+      { "item": "FoxEIed", "prob": 80 },
+      { "item": "Foxofficerdatapadlocked", "prob": 80 }
     ]
   },
   {
@@ -111,6 +167,114 @@
     "subtype": "collection",
     "entries": [
       { "item": "bone_human", "prob": 99, "count": [ 1, 20 ] }
+    ]
+  },
+  {
+    "id": "Foxreapercamppersonal",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "sleeping_bag" },
+          { "item": "portable_game", "prob": 50 },
+          { "item": "reading_light", "prob": 20 },
+          { "item": "manual_speech", "prob": 15 },
+          { "item": "manual_business", "prob": 15 },
+          { "item": "novel_romance", "prob": 5 },
+          { "item": "novel_erotic", "prob": 5 },
+          { "item": "novel_spy", "prob": 5 },
+          { "item": "novel_samurai", "prob": 5 },
+          { "item": "novel_swash", "prob": 5 },
+          { "item": "novel_western", "prob": 5 },
+          { "item": "novel_war", "prob": 5 },
+          { "item": "novel_adventure", "prob": 5 },
+          { "item": "novel_fantasy", "prob": 5 },
+          { "item": "novel_scifi", "prob": 5 },
+          { "item": "cookbook_italian", "prob": 5 },
+          { "item": "cookbook_sushi", "prob": 5 },
+          { "item": "manual_computers", "prob": 10 },
+          { "item": "computer_science", "prob": 5 },
+          { "item": "textbook_computer", "prob": 5 },
+          { "item": "camisole", "prob": 25 },
+          { "item": "stockings", "prob": 35 },
+          { "item": "vibrator", "prob": 20 },
+          { "item": "candle", "prob": 25 },
+          { "item": "leather_cat_ears", "prob": 5 },
+          { "item": "leather_collar", "prob": 5 },
+          { "item": "leather_cat_tail", "prob": 5 },
+          { "item": "corset", "prob": 5 },
+          { "item": "mag_porn", "prob": 40 },
+          { "item": "bondage_mask_zipped", "prob": 5 },
+          { "item": "condom", "prob": 40 }
+    ]
+  },
+  {
+    "id": "Foxreapercampfood",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foximperialrationbad", "count": [ 80, 150 ] },
+          { "item": "dry_fruit", "count": [ 60, 120 ] },
+          { "item": "dry_meat", "count": [ 40, 70 ] },
+          { "item": "dry_veggy", "count": [ 20, 50 ] },
+          { "item": "lard", "count": [ 5, 10 ] },
+          { "item": "flour", "count": [ 10, 30 ] },
+          { "item": "peanut", "count": [ 10, 20 ] },
+          { "item": "pine_nuts", "count": [ 10, 20 ] },
+          { "item": "Foxtrenchwine", "count": [ 2, 5 ] },
+          { "item": "Foxslag", "count": [ 4, 10 ] },
+          { "item": "rock_quern", "count": [ 1, 2 ] },
+          { "item": "mess_tin", "count": [ 2, 3 ] },
+          { "item": "pot" },
+          { "item": "knife_butcher" }
+    ]
+  },
+  {
+    "id": "Foxreapercampmeds",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "strong_antibiotic", "count": [ 20, 40 ] },
+          { "item": "Foxbattleshot", "count": [ 1, 8 ] },
+          { "item": "Foxmedshot", "count": [ 4, 12 ] },
+          { "item": "Foxpainshot", "count": [ 5, 15 ] },
+          { "item": "Foxstimshot", "count": [ 1, 4 ] },
+          { "item": "Foxvitaminshot", "count": [ 1, 4 ] },
+          { "item": "Foxautoinjector", "count": [ 1, 2 ] },
+          { "item": "scalpel", "count": [ 1, 2 ] },
+          { "item": "scissors", "count": [ 1, 2 ] },
+          { "item": "saline", "count": [ 5, 8 ] },
+          { "item": "bandages", "count": [ 40, 60 ] },
+          { "item": "Foximpmedigel", "count": [ 30, 40 ] }
+    ]
+  },
+  {
+    "id": "Foxreapercampelectronics",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "adv_UPS_off", "count": [ 1, 2 ] },
+          { "item": "medium_battery_cell", "count": [ 1, 2 ] },
+          { "item": "light_battery_cell", "count": [ 1, 2 ] },
+          { "item": "food_processor", "count": [ 1, 2 ] },
+          { "item": "adv_UPS_off", "count": [ 1, 2 ] },
+          { "item": "Foximpbattery", "count": [ 1, 2 ] },
+          { "item": "Foximpbatterymicro", "count": [ 1, 2 ] },
+          { "item": "Foximpbatterydevice", "count": [ 1, 2 ] },
+          { "item": "Foximpbatterycell", "count": [ 1, 2 ] },
+          { "item": "Foximpbatterypack", "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "id": "Foxreapercamptools",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foximpetool", "count": [ 1, 4 ] },
+          { "item": "Foximpcombatknife", "count": [ 1, 2 ] },
+          { "item": "Foximpwastelandpack", "prob": 25 },
+          { "item": "Foximpgasmask", "count": [ 1, 2 ] },
+          { "item": "Foxtoolboxmachining" },
+          { "item": "Foximpgogglesdetection", "prob": 5 }
     ]
   }
 ]

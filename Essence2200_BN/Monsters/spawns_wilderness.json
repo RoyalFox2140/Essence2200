@@ -1,0 +1,21 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_FOREST",
+    "default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "FoxmonImperialReaperlost", "freq": 10, "cost_multiplier": 2 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE",
+    "default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "FoxmonZombifiedReaper", "freq": 10, "cost_multiplier": 10, "pack_size": [ 2, 5 ] },
+      { "monster": "FoxmonZombifiedReaperCO", "freq": 5, "cost_multiplier": 5 }
+    ]
+  }
+]

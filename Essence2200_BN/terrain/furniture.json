@@ -375,6 +375,86 @@
     "name": "Install Advanced Alloying Barrel"
   },
   {
+    "id": "Foxdigging_sludgepit",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [
+      { "item": "Foxmotordewsludge", "count": [ 72, 88 ] }
+    ]
+  },
+  {
+    "type": "terrain",
+    "id": "Foxt_sludgepit",
+    "looks_like": "t_claymound_underground",
+    "name": "sludge pit",
+    "description": "A deep filled pit full of a mud consisting of motordew and particulates, you can build a sludge pump on here if you have one, or dig it up for a mud you can dry into motordew and tarcrete.",
+    "symbol": ".",
+    "color": "light_red",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT" ],
+    "digging_result": "Foxdigging_sludgepit",
+    "bash": {
+      "sound": "thump",
+      "ter_set": "t_pit",
+      "str_min": 500,
+      "str_max": 900,
+      "str_min_supported": 500,
+      "items": [ { "item": "Foxmotordewsludge", "count": [ 10, 20 ] } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxfgridsludgepump",
+    "looks_like": "t_machinery_light",
+    "name": "grid sludge pump",
+    "symbol": "U",
+    "description": "A sludge pump connected to a natural deposit of motordew. You can easily deconstruct it but you're going to lose the pipeline.",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 10,
+    "required_str": -1,
+    "crafting_pseudo_item": "Foxfake_sludgepump",
+    "flags": [ "TRANSPARENT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": {
+      "items": [ { "item": "Foxsludgepump", "count": 1 }, { "item": "cable", "charges": 5 } ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "Foxsludgepump", "count": 1 },
+        { "item": "cable", "charges": 5 }
+      ]
+    }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxfgridsludgepump",
+    "group": "Foxplace_Foxfgridsludgepump",
+    "category": "FURN",
+    "required_skills": [ [ "electronics", 1 ] ],
+    "time": "60 m",
+    "qualities": [ 
+    [ { "id": "SCREW", "level": 1 } ],
+    [ { "id": "HAMMER", "level": 2 } ],
+    [ { "id": "WRENCH", "level": 1 } ],
+    [ { "id": "DIG", "level": 2 } ]
+  ],
+    "using": [ [ "soldering_standard", 5 ] ],
+    "components": [ [ [ "Foxsludgepump", 1 ] ], [ [ "cable", 5 ] ], [ [ "pipe", 10 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "dark_craftable": true,
+    "post_furniture": "Foxfgridsludgepump"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_Foxfgridsludgepump",
+    "name": "Install Sludge Pump"
+  },
+  {
     "type": "furniture",
     "id": "Foxfgridnanoforge",
     "looks_like": "f_workbench",

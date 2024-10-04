@@ -478,7 +478,7 @@
     "name": { "str": "SGA multi-hammer", "str_pl": "SGA multi-hammers" },
     "description": "This is a sturdy Adamantine multi-tool hammer with a built-in arc welder thanks to its powerful but small essence reactor. It contains a lot of extra tools, and being from Adamantine allows it to cut through metal as well as a hacksaw.",
     "looks_like": "multitool",
-    "weight": "2500 g",
+    "weight": "500 g",
     "volume": "1000 ml",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -489,7 +489,7 @@
     "color": "red",
     "ammo": "battery",
     "sub": "welder",
-    "charges_per_use": 5,
+    "charges_per_use": 0,
     "initial_charges": 100,
     "max_charges": 6000,
     "relic_data": { "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 100 } ] },
@@ -526,6 +526,48 @@
       }
      ],
      "flags": [ "BELT_CLIP" ]
+  },
+  {
+    "id": "FoxSGAmechwrench",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "2H_SWORDS", "MEDIEVAL_SWORDS" ],
+    "name": { "str": "Mechanist electro-wrench" },
+    "description": "A large and deadly two-handed wrench with a serious amount of tools hidden inside the long handle, designed to pack a powerful punch against armor and apply electric shock on strike. May cause serious burns to enemies on impact.",
+    "weight": "3176 g",
+    "volume": "2000 ml",
+    "price": "1600 USD",
+    "price_postapoc": "95 USD",
+    "to_hit": 2,
+    "bashing": 40,
+    "cutting": 1,
+    "material": "FoxAdamantine",
+    "symbol": "/",
+    "color": "light_gray",
+    "techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP" ],
+    "qualities": [
+      [ "CUT", 3 ],
+      [ "HAMMER", 6 ],
+      [ "SAW_M", 5 ],
+      [ "SAW_W", 5 ],
+      [ "AXE", 6 ],
+      [ "CHISEL", 6 ],
+      [ "WRENCH", 5 ],
+      [ "SCREW", 4 ],
+      [ "PRY", 6 ],
+      [ "DRILL", 6 ],
+      [ "HAMMER_FINE", 4 ],
+      [ "SAW_M_FINE", 4 ],
+      [ "WRENCH_FINE", 4 ],
+      [ "SCREW_FINE", 4 ],
+      [ "BUTCHER", 80 ],
+      [ "FILE", 5 ],
+      [ "REAM", 4 ],
+      [ "CUT_FINE", 5 ],
+      [ "COOK", 1 ],
+      [ "FoxMachining", 3 ]
+    ],
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "ALWAYS_TWOHAND", "NONCONDUCTIVE" ]
   },
   {
     "id": "FoxSGAmesskit",
@@ -767,7 +809,7 @@
     "color": "dark_gray",
     "covers": [ "torso", "arms" ],
     "coverage": 100,
-    "encumbrance": 15,
+    "encumbrance": 12,
     "storage": "6 L",
     "warmth": 20,
     "material_thickness": 2,
@@ -800,13 +842,23 @@
     "color": "light_blue",
     "covers": [ "torso", "arms", "hands", "legs", "feet" ],
     "coverage": 100,
-    "encumbrance": 10,
+    "encumbrance": 8,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Store gun",
+      "holster_msg": "You put your %1$s in your %2$s",
+      "multi": 2,
+      "min_volume": "50 ml",
+      "max_volume": "800 ml",
+      "draw_cost": 100,
+      "skills": [ "pistol", "smg", "shotgun" ]
+    },
     "warmth": 20,
     "storage": "10 L",
     "material_thickness": 2,
     "environmental_protection": 20,
     "valid_mods" : ["furred", "wooled"],
-    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
+    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE", "CLIMATE_CONTROL" ]
   },
   {
     "id": "FoxSGAashigaruhelmet",
@@ -823,13 +875,13 @@
     "color": "light_blue",
     "covers": [ "head", "mouth", "eyes" ],
     "coverage": 100,
-    "encumbrance": 10,
+    "encumbrance": 8,
     "warmth": 20,
     "material_thickness": 2,
     "environmental_protection": 30,
     "qualities": [ [ "GLARE", 2 ] ],
     "valid_mods" : ["furred", "wooled"],
-    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE", "PARTIAL_DEAF" ]
+    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "SWIM_GOGGLES", "ELECTRIC_IMMUNE", "PARTIAL_DEAF", "PSYSHIELD_PARTIAL", "REBREATHER", "CLIMATE_CONTROL" ]
   },
   {
     "id": "FoxSGAagentsuit",
@@ -846,13 +898,23 @@
     "color": "light_blue",
     "covers": [ "torso", "arms", "hands", "legs", "feet" ],
     "coverage": 100,
-    "encumbrance": 10,
+    "encumbrance": 8,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Store gun",
+      "holster_msg": "You put your %1$s in your %2$s",
+      "multi": 2,
+      "min_volume": "50 ml",
+      "max_volume": "800 ml",
+      "draw_cost": 100,
+      "skills": [ "pistol", "smg", "shotgun" ]
+    },
     "warmth": 20,
     "storage": "10 L",
     "material_thickness": 3,
     "environmental_protection": 30,
     "valid_mods" : ["furred", "wooled"],
-    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
+    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE", "CLIMATE_CONTROL" ]
   },
   {
     "id": "FoxSGAagenthelmet",
@@ -875,7 +937,7 @@
     "environmental_protection": 30,
     "valid_mods" : ["furred", "wooled"],
     "qualities": [ [ "GLARE", 2 ] ],
-    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE", "PARTIAL_DEAF" ]
+    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "SWIM_GOGGLES", "PSYSHIELD_PARTIAL", "REBREATHER", "ELECTRIC_IMMUNE", "PARTIAL_DEAF", "CLIMATE_CONTROL" ]
   },
   {
     "id": "FoxSGAmaiddress",
@@ -901,6 +963,7 @@
       "min_volume": "1 ml",
       "max_volume": "1500 ml",
       "draw_cost": 100,
+      "skills": [ "pistol", "smg", "shotgun" ],
       "flags": [ "BELT_CLIP", "SHEATH_KNIFE", "RECHARGE" ]
     },
     "encumbrance": 2,

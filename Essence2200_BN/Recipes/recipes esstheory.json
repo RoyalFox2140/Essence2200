@@ -359,5 +359,50 @@
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "rag", -1 ] ] ],
     "components": [ [ [ "Foxacidlemon", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxmotordew",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxDrying",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 1 ] ],
+    "difficulty": 1,
+    "charges": 200,
+    "byproducts": [ [ "Foxtarcrete", 1 ] ],
+    "time": "15 m",
+    "autolearn": true,
+    "batch_time_factors": [ 90, 4 ],
+    "tools": [ [ [ "water_boiling_heat", 10, "LIST" ] ] ],
+    "components": [
+    [ [ "Foxmotordewsludge", 1 ] ]
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxmotordew",
+    "id_suffix": "FoxSludgePumping",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "computer",
+    "difficulty": 0,
+    "charges": 2000,
+    "time": "30 m",
+    "tools": [ [ [ "Foxfake_sludgepump", 500 ] ] ],
+    "autolearn": true
+  },
+  {
+    "type": "recipe",
+    "result": "Foxmotordewsludge",
+    "id_suffix": "FoxSludgePumping",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "computer",
+    "difficulty": 0,
+    "charges": 10,
+    "time": "10 m",
+    "tools": [ [ [ "Foxfake_sludgepump", 50 ] ] ],
+    "autolearn": true
   }
 ]

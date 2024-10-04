@@ -419,7 +419,8 @@
           "mx_point_burned_ground": 500,
           "mx_casings": 30,
           "mx_corpses": 30,
-          "mx_mass_grave": 5
+          "mx_mass_grave": 5,
+          "Foxmximperialreaperslost": 5
         }
       },
       "forest_thick": {
@@ -447,7 +448,8 @@
           "mx_point_burned_ground": 500,
           "mx_casings": 30,
           "mx_corpses": 30,
-          "mx_mass_grave": 5
+          "mx_mass_grave": 5,
+          "Foxmximperialreaperslost": 5
         }
       },
       "forest_water": {
@@ -475,7 +477,8 @@
           "mx_casings": 30,
           "mx_corpses": 30,
           "mx_nest_dermatik": 10,
-          "mx_mass_grave": 5
+          "mx_mass_grave": 5,
+          "Foxmximperialreaperslost": 5
         }
       },
       "field": {
@@ -499,7 +502,10 @@
           "mx_casings": 20,
           "mx_corpses": 3,
           "mx_mass_grave": 5,
-          "mx_grave": 5
+          "mx_grave": 5,
+          "Foxmximperialreapers": 20,
+          "Foxmximperialinvasionfailed": 20,
+          "Foxmximperialreaperslost": 10
         }
       },
       "road": {

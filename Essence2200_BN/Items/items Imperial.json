@@ -228,7 +228,6 @@
   },
   {
     "id": "adv_UPS_off",
-    "copy-from": "adv_UPS_off",
     "type": "TOOL",
     "category": "tools",
     "name": { "str": "Imperial UPS", "str_pl": "Imperial UPS's" },
@@ -244,9 +243,9 @@
     "color": "light_gray",
     "ammo": "battery",
     "magazines": [
-      [ "battery", [ "Foximpbattery", "Foximpbatteryadvanced" ] ]
+      [ "battery", [ "Foximpbattery", "Foximpbatteryadvanced", "Foximpbatterycell", "Foximpbatterypack" ] ]
     ],
-    "magazine_well": "500 ml",
+    "magazine_well": "2000 ml",
     "flags": [ "IS_UPS" ]
   },
   {
@@ -254,9 +253,9 @@
     "type": "MAGAZINE",
     "category": "battery",
     "name": { "str": "Krupp Works rifle battery", "str_pl": "Krupp Works rifle batteries" },
-    "description": "Yup, it's still just a cut crystal of essence inside a steel casing. 800 years of simplicity is baffling. You can insert this battery into a UPS to fire ",
+    "description": "Yup, it's still just a cut crystal of essence inside a steel casing. 800 years of simplicity is baffling. It's shape ensures it's only useful in a UPS.",
     "ascii_picture": "heavy_battery",
-    "weight": "1000 g",
+    "weight": "750 g",
     "volume": "500 ml",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -264,7 +263,7 @@
     "symbol": "=",
     "color": "yellow",
     "ammo_type": "battery",
-    "capacity": 1500,
+    "capacity": 2250,
     "looks_like": "battery",
     "flags": [ "NO_UNLOAD", "RECHARGE" ]
   },
@@ -283,7 +282,7 @@
     "symbol": "=",
     "color": "yellow",
     "ammo_type": "battery",
-    "capacity": 3000,
+    "capacity": 4500,
     "looks_like": "battery",
     "flags": [ "NO_UNLOAD", "RECHARGE", "NO_REPAIR" ]
   },
@@ -294,7 +293,7 @@
     "name": { "str": "Imperial micro battery", "str_pl": "Imperial micro batteries" },
     "description": "An essence crystal battery cell equivalent to an ultra-light battery.",
     "ascii_picture": "light_battery",
-    "weight": "30 g",
+    "weight": "75 g",
     "volume": "50 ml",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -302,7 +301,7 @@
     "symbol": "=",
     "color": "yellow",
     "ammo_type": "battery",
-    "capacity": 150,
+    "capacity": 225,
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE", "MAG_COMPACT" ]
   },
@@ -313,7 +312,7 @@
     "name": { "str": "Imperial device battery", "str_pl": "Imperial device batteries" },
     "description": "An essence crystal battery cell equivalent to a small battery.",
     "ascii_picture": "light_battery",
-    "weight": "30 g",
+    "weight": "150 g",
     "volume": "100 ml",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -321,7 +320,7 @@
     "symbol": "=",
     "color": "yellow",
     "ammo_type": "battery",
-    "capacity": 300,
+    "capacity": 450,
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE", "MAG_COMPACT" ]
   },
@@ -332,7 +331,7 @@
     "name": { "str": "Imperial battery cell", "str_pl": "Imperial battery cells" },
     "description": "An essence crystal battery cell equivalent to a medium battery.",
     "ascii_picture": "light_battery",
-    "weight": "30 g",
+    "weight": "750 g",
     "volume": "500 ml",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -340,7 +339,7 @@
     "symbol": "=",
     "color": "yellow",
     "ammo_type": "battery",
-    "capacity": 1500,
+    "capacity": 2250,
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE", "MAG_COMPACT" ]
   },
@@ -351,7 +350,7 @@
     "name": { "str": "Imperial battery pack", "str_pl": "Imperial battery packs" },
     "description": "An essence crystal battery pack equivalent to a heavy battery.",
     "ascii_picture": "light_battery",
-    "weight": "30 g",
+    "weight": "1500 g",
     "volume": "1 L",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -359,7 +358,7 @@
     "symbol": "=",
     "color": "yellow",
     "ammo_type": "battery",
-    "capacity": 3000,
+    "capacity": 4500,
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE", "MAG_COMPACT" ]
   },

@@ -184,5 +184,23 @@
           "tools_needed": { "Foxautoinjector": 1 },
           "moves": 100
         }
+      },
+      {
+        "id": "Foximpmedigel",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "name": { "str_sp": "Imperial medigel" },
+        "description": "This fast acting gel quickly cleans and seals wounds, stopping bleeding and fighting infections in a relatively idiot-proof fashion.",
+        "weight": "27 g",
+        "volume": "250 ml",
+        "price": "2 USD",
+        "price_postapoc": "2 USD",
+        "charges": 50,
+        "material": "powder",
+        "symbol": "!",
+        "color": "white",
+        "container": "bottle_plastic_small",
+        "flags": [ "NO_INGEST" ],
+        "use_action": { "type": "heal", "bandages_power": 5, "disinfectant_power": 5, "bleed": 0.9, "bite": 0.95, "move_cost": 100 }
       }
 ]

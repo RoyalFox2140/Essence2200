@@ -57,7 +57,7 @@
     "name": "The Infinite Empire",
     "likes_u": 15,
     "respects_u": 15,
-    "known_by_u": false,
+    "known_by_u": true,
     "size": 500000,
     "//": "500K manpower seems reasonable enough, the actual manpower in New England will be much lower as this is a global problem. Be happy that other regions won't be represented and coded, or I'd put Central Command on the California coastline.",
     "//2": "In the wasteland total conversion this will end up in the millions and we'll represent the various departments and families separately, this unified faction will be used for Warrens security.",
@@ -77,6 +77,6 @@
       { "power_min": 0, "power_max": 99, "id": "Fox_epilogue_IMP_0" },
       { "power_min": 100, "id": "Fox_epilogue_IMP_115" }
     ],
-    "description": "A former Empire turned military junta, born from the 2068 nuclear apocalypse. Their central leader was assassinated during the 2124 apocalypse. Originally formed from Soviet and American resistance, Wehrmacht officers sympathetic to a global regime change, and collaborators, their descendants are just as evil as the government they fought against."
+    "description": "Born from the 2068 nuclear apocalypse, this mess of a military junta has fallen into disorganization and branch-based feuds ever since Empress Katherine was assassinated by Savant, sparking the second apocalypse of 2125. Originally formed from Soviet and American resistance fighters, Wehrmacht officers disgussted with their homeland, and collaborators of occupied nations, their descendants are just as evil as the Reich they fought against."
   }
 ]
