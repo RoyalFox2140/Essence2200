@@ -230,6 +230,25 @@
     "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
   },
   {
+    "id": "Foxportablealtar",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "Portable runecrafting altar" },
+    "description": "A large chunk of crystallized essence with a magic circule chiseled into it.",
+    "weight": "160 g",
+    "volume": "2 L",
+    "looks_like": "rock",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -5,
+    "bashing": 1,
+    "material": "FoxDivineMaterial",
+    "symbol": ";",
+    "color": "dark_gray",
+    "qualities": [ [ "FoxRunecrafting", 2 ] ],
+    "flags": [ "BELT_CLIP"  ]
+  },
+  {
     "id": "Foxintermediateartificing",
     "type": "TOOL",
     "name": "Intermediate Artificing",
