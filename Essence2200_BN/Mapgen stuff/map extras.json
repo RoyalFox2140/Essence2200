@@ -157,5 +157,27 @@
       { "field": "fd_gibs_flesh", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 100, 150 ] }
     ]
     }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "lab_finale_loot",
+    "weight": 100,
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "rows": [
+        "r  ",
+        "r  ",
+        "R  "
+      ],
+      "palettes": [ "lab_palette" ],
+      "mapping": {
+        "r": { "item": [ { "item": "FoxKolibriPapers", "chance": 100, "repeat": [ 15, 25 ] } ] },
+        "R": { "item": [
+           { "item": "FoxSGAlocktopus", "chance": 100 },
+           { "item": "Foxnanoaugcanistergeneric", "chance": 100, "repeat": [ 1, 3 ] }
+        ] }
+      }
+    }
   }
 ]
