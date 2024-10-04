@@ -58,7 +58,7 @@
         "use_action": {
           "type": "consume_drug",
           "activation_message": "You inject a med-shot.",
-          "effects": [ { "id": "Foxmedshot", "duration": "3600 s" } ],
+          "effects": [ { "id": "Foxmedshot", "duration": "300 s" } ],
           "tools_needed": { "Foxautoinjector": 1 },
           "moves": 100
         }

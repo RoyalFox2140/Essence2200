@@ -135,6 +135,7 @@
       { "item": "FoxESGAseburo", "prob": 5 },
       { "item": "FoxEIkw", "prob": 80 },
       { "item": "FoxEIed", "prob": 80 },
+      { "item": "FoxKolibriPapers", "count": [ 1, 5 ] },
       { "item": "Foxofficerdatapadlocked", "prob": 80 },
       { "item": "FoxESGAesstheory", "prob": 10 }
     ]
@@ -146,6 +147,7 @@
     "entries": [
       { "item": "FoxEIkw", "prob": 80 },
       { "item": "FoxEIed", "prob": 80 },
+      { "item": "FoxKolibriPapers", "count": [ 1, 2 ] },
       { "item": "Foxofficerdatapadlocked", "prob": 80 }
     ]
   },

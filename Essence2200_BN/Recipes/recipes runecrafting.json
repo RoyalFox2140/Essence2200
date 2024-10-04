@@ -180,6 +180,7 @@
     "difficulty": 0,
     "result_mult": 50,
     "time": "10 m",
+    "tools": [ [ [ "Fox_spellbooks_First", -1 ] ] ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
     "components": [
     [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 5000 ] ] 
@@ -195,6 +196,7 @@
   "difficulty": 0,
   "result_mult": 50,
   "time": "10 m",
+  "tools": [ [ [ "Fox_spellbooks_First", -1 ] ] ],
   "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
   "components": [
   [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 5000 ] ], [ [ "charcoal", 1 ] ] 

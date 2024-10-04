@@ -10,6 +10,7 @@
     "result_mult": 4,
     "time": "5 m",
     "autolearn": true,
+    "obsolete": true, 
     "batch_time_factors": [ 80, 2 ],
     "qualities": [ { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 3, "LIST" ] ] ],

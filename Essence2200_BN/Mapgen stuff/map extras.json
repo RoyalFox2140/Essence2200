@@ -78,6 +78,7 @@
         { "monster": "FoxmonImperialReaper", "x": [ 3, 22 ], "y": [ 3, 22 ], "repeat": [ 3, 4 ] },
         { "monster": "FoxmonImperialReaper", "x": [ 3, 22 ], "y": [ 3, 22 ], "repeat": [ 1, 2 ] },
         { "monster": "FoxmonImperialReaperRadio", "x": [ 3, 22 ], "y": [ 3, 22 ] },
+        { "monster": "FoxmonImperialReaperSergeant", "x": [ 3, 22 ], "y": [ 3, 22 ] },
         { "monster": "FoxmonImperialReaper", "x": [ 3, 22 ], "y": [ 3, 22 ], "repeat": [ 1, 3 ] }
       ],"items": {
         "e": [
