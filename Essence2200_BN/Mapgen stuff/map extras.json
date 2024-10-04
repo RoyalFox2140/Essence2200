@@ -126,7 +126,7 @@
   {
     "id": "Foxmximperialinvasionfailed",
     "type": "map_extra",
-    "name": { "str": "Failed invasion sited" },
+    "name": { "str": "Failed invasion site" },
     "description": "A failed destination site full of monsters.  Interdimensional travel is more of an art than a science.",
     "generator": { "generator_method": "update_mapgen", "generator_id": "Foxmximperialinvasionfailed" },
     "sym": "F",
