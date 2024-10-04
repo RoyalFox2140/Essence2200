@@ -503,9 +503,9 @@
           "mx_corpses": 3,
           "mx_mass_grave": 5,
           "mx_grave": 5,
-          "Foxmximperialreapers": 20,
-          "Foxmximperialinvasionfailed": 20,
-          "Foxmximperialreaperslost": 10
+          "Foxmximperialreapers": 4,
+          "Foxmximperialinvasionfailed": 2,
+          "Foxmximperialreaperslost": 5
         }
       },
       "road": {
