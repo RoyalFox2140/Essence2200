@@ -467,6 +467,28 @@
     "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
   },
   {
+    "id": "Foximpwastelandsmock",
+    "type": "ARMOR",
+    "name": { "str": "Imperial wasteland smock" },
+    "description": "This tan patterned suit lacks boots and gloves, and is reminiscient of a Gorka suit was designed in response to the harsh environmental conditions of Earth after two thirds of it became wasteland. Combined with a gas mask it renders the wearer strong resistance or outright immunity to wind, rain, chemical weapons, acid attacks, radiation, fire, electrical weapons, and airborne mutagenics. While it carries significant ballistic protection, critics argue the lack of protection from modern energy weapons led to its obsoletion. Modern optics rendered camouflage obsolete, reflected in this design.",
+    "weight": "1000 g",
+    "volume": "12 L",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxBallisticWeave" ],
+    "symbol": "[",
+    "looks_like": "hazmat_suit",
+    "color": "light_red",
+    "covers": [ "head", "torso", "arms", "legs" ],
+    "coverage": 100,
+    "encumbrance": 15,
+    "warmth": 20,
+    "storage": "10 L",
+    "material_thickness": 2,
+    "environmental_protection": 20,
+    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
+  },
+  {
     "id": "Foximpwastelandpack",
     "type": "ARMOR",
     "name": { "str": "Imperial wasteland pack" },

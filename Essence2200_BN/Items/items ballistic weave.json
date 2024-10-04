@@ -191,7 +191,7 @@
     "price_postapoc": "2 USD",
     "to_hit": -1,
     "bashing": 1,
-    "material": [ "FoxBallisticWeave", "FoxAdamantine" ],
+    "material": [ "FoxBallisticWeave" ],
     "symbol": "[",
     "looks_like": "boots_combat",
     "color": "dark_gray",
@@ -202,7 +202,7 @@
     "material_thickness": 2,
     "environmental_protection": 2,
     "valid_mods" : ["furred", "wooled"],
-    "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ]
+    "flags": [ "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
   },
   {
     "id": "Foxglovestactical",
@@ -246,7 +246,7 @@
     "warmth": 20,
     "material_thickness": 2,
     "valid_mods" : ["furred", "wooled", "Foxadamantinemod"],
-    "flags": [ "VARSIZE", "STURDY" ]
+    "flags": [ "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
   },
   {
     "id": "Foxsocks",
