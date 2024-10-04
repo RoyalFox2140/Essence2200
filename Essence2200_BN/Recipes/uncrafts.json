@@ -69,8 +69,7 @@
     "components": [
       [ [ "Foximpmechparts", 5 ] ],
       [ [ "Foximpelectronics", 8 ] ],
-      [ [ "Foximplaserparts", 15 ] ],
-      [ [ "Foximpgrease", 1 ] ]
+      [ [ "Foximplaserparts", 15 ] ]
     ]
   },
   {
@@ -83,8 +82,7 @@
     "components": [
       [ [ "Foximpmechparts", 5 ] ],
       [ [ "Foximpelectronics", 12 ] ],
-      [ [ "Foximplaserparts", 18 ] ],
-      [ [ "Foximpgrease", 1 ] ]
+      [ [ "Foximplaserparts", 18 ] ]
     ]
   },
   {
@@ -98,8 +96,7 @@
       [ [ "Foximpmechparts", 20 ] ],
       [ [ "Foximpelectronics", 80 ] ],
       [ [ "Foximplaserparts", 80 ] ],
-      [ [ "Foximperialsteelchunk", 20 ] ],
-      [ [ "Foximpgrease", 1 ] ]
+      [ [ "Foximperialsteelchunk", 20 ] ]
     ]
   },
   {
@@ -112,8 +109,7 @@
     "components": [
       [ [ "Foximpmechparts", 5 ] ],
       [ [ "Foximpelectronics", 11 ] ],
-      [ [ "Foximplaserparts", 12 ] ],
-      [ [ "Foximpgrease", 1 ] ]
+      [ [ "Foximplaserparts", 12 ] ]
     ]
   },
   {
@@ -126,8 +122,7 @@
     "components": [
       [ [ "Foximpmechparts", 5 ] ],
       [ [ "Foximpelectronics", 11 ] ],
-      [ [ "Foximplaserparts", 12 ] ],
-      [ [ "Foximpgrease", 1 ] ]
+      [ [ "Foximplaserparts", 12 ] ]
     ]
   },
   {
@@ -140,8 +135,7 @@
     "components": [
       [ [ "Foximpmechparts", 5 ] ],
       [ [ "Foximpelectronics", 11 ] ],
-      [ [ "Foximplaserparts", 12 ] ],
-      [ [ "Foximpgrease", 1 ] ]
+      [ [ "Foximplaserparts", 12 ] ]
     ]
   }
 ]
