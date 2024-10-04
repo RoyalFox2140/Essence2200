@@ -371,16 +371,74 @@
     "name": { "str": "SGA 120mm AT-Grounder 2" },
     "symbol": "=",
     "color": "dark_gray",
-    "description": "A 120mm high explosive rocket adapted for the Grounder mark two.  Having stripped most of it's air guidance systems in favor of a radio receiver, it was designed to convert old air defense launchers into an armor and golem defeating role.  It relies on the launcher to track targets.",
-    "material": [ "steel", "powder" ],
+    "description": "A 120mm Anti-tank rocket adapted for the Grounder mark two. It will shred anything near the blast zone and pierce most armor.  Having stripped most of it's air guidance systems in favor of a radio receiver, it was designed to convert old air defense launchers into an armor and golem defeating role.  It relies on the launcher to track targets.",
+    "material": [ "FoxAdamantine" ],
     "volume": "1250 ml",
-    "weight": "3200 g",
+    "weight": "800 g",
     "ammo_type": "FoxSGA120mm",
     "damage": { "damage_type": "bullet", "amount": 200, "armor_multiplier": 0.1 },
     "range": 120,
     "dispersion": 0,
     "recoil": 450,
     "stack_size": 1,
-    "effects": [ "COOKOFF", "EXPLOSIVE_BIG", "NEVER_MISFIRES" ]
+    "effects": [ "COOKOFF", "FoxGrounderATexplode", "NEVER_MISFIRES" ]
+  },
+  {
+    "id": "FoxGrounderATexplode",
+    "type": "ammo_effect",
+    "explosion": { "damage": 110, "radius": 3 }
+  },
+  {
+    "type": "AMMO",
+    "id": "FoxSGA120mmHE",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "looks_like": "RPG-7_ammo",
+    "name": { "str": "SGA 120mm HE-Grounder 2" },
+    "symbol": "=",
+    "color": "dark_gray",
+    "description": "A 120mm high explosive rocket adapted for the Grounder mark two.  The range is huge and it does immense damage, be careful.  Having stripped most of it's air guidance systems in favor of a radio receiver, it was designed to convert old air defense launchers into an armor and golem defeating role.  It relies on the launcher to track targets.",
+    "material": [ "FoxAdamantine" ],
+    "volume": "1250 ml",
+    "weight": "800 g",
+    "ammo_type": "FoxSGA120mm",
+    "damage": { "damage_type": "bullet", "amount": 100 },
+    "range": 120,
+    "dispersion": 0,
+    "recoil": 450,
+    "stack_size": 1,
+    "effects": [ "COOKOFF", "FoxGrounderHEexplode", "NEVER_MISFIRES" ]
+  },
+  {
+    "id": "FoxGrounderHEexplode",
+    "type": "ammo_effect",
+    "explosion": { "damage": 210, "radius": 7 }
+  },
+  {
+    "type": "AMMO",
+    "id": "FoxSGA120mmI",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "looks_like": "RPG-7_ammo",
+    "name": { "str": "SGA 120mm I-Grounder 2" },
+    "symbol": "=",
+    "color": "dark_gray",
+    "description": "A 120mm incendiary rocket adapted for the Grounder mark two.  This will ingulf a huge area in fire, be careful.  Having stripped most of it's air guidance systems in favor of a radio receiver, it was designed to convert old air defense launchers into an armor and golem defeating role.  It relies on the launcher to track targets.",
+    "material": [ "FoxAdamantine" ],
+    "volume": "1250 ml",
+    "weight": "800 g",
+    "ammo_type": "FoxSGA120mm",
+    "damage": { "damage_type": "bullet", "amount": 100 },
+    "range": 120,
+    "dispersion": 0,
+    "recoil": 450,
+    "stack_size": 1,
+    "effects": [ "COOKOFF", "FoxGrounderIexplode", "NEVER_MISFIRES" ]
+  },
+  {
+    "id": "FoxGrounderIexplode",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 1, "radius": 5 },
+    "explosion": { "damage": 50, "radius": 4 }
   }
 ]
