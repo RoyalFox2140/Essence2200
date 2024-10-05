@@ -470,6 +470,10 @@
         "nomex", 
         "kevlar", 
         "kevlar_rigid",
+        "FoxAdamantine",
+        "FoxImperialSteel",
+        "FoxShadowSteel",
+        "FoxBallisticWeave",
         "neoprene", 
         "gutskin" 
       ],

@@ -467,6 +467,60 @@
     "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
   },
   {
+    "id": "Foximpwelder",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "Imperial welder" },
+    "description": "This is an arc welder made from Imperial parts, powerful enough to repair and weld up adamantine or shadowsteel.  It also works with rifle batteries.",
+    "weight": "600 g",
+    "volume": "500 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -1,
+    "bashing": 7,
+    "material": "steel",
+    "symbol": ";",
+    "color": "red",
+    "ammo": "battery",
+    "charges_per_use": 5,
+    "qualities": [ [ "WELD", 3 ] ],
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [
+          "iron",
+          "steel",
+          "budget_steel",
+          "hardsteel",
+          "aluminum",
+          "copper",
+          "bronze",
+          "silver",
+          "gold",
+          "platinum",
+          "superalloy",
+          "FoxAdamantine",
+          "FoxImperialSteel",
+          "FoxShadowSteel",
+          "glass"
+        ],
+        "skill": "fabrication",
+        "tool_quality": 10,
+        "cost_scaling": 0.1,
+        "move_cost": 500
+      }
+    ],
+    "flags": [ "ALLOWS_REMOTE_USE" ],
+    "magazines": [
+      [
+        "battery",
+        [ "Foximpbatterycell", "Foximpbatteryadvanced", "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      ]
+    ],
+    "magazine_well": "500 ml"
+  },
+  {
     "id": "Foximpwastelandsmock",
     "type": "ARMOR",
     "name": { "str": "Imperial wasteland smock" },

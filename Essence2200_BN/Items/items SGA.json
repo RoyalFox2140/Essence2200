@@ -518,7 +518,7 @@
       {
         "type": "repair_item",
         "item_action_type": "repair_metal",
-        "materials": [ "iron", "steel", "hardsteel", "aluminum", "copper", "bronze", "silver", "gold", "platinum", "superalloy", "glass" ],
+        "materials": [ "iron", "steel", "hardsteel", "aluminum", "copper", "bronze", "silver", "gold", "platinum", "superalloy", "FoxAdamantine", "FoxShadowSteel", "FoxImperialSteel", "glass" ],
         "skill": "fabrication",
         "tool_quality": 10,
         "cost_scaling": 0.1,
@@ -559,6 +559,7 @@
       [ "HAMMER_FINE", 4 ],
       [ "SAW_M_FINE", 4 ],
       [ "WRENCH_FINE", 4 ],
+      [ "WELD", 3 ],
       [ "SCREW_FINE", 4 ],
       [ "BUTCHER", 80 ],
       [ "FILE", 5 ],
@@ -567,7 +568,19 @@
       [ "COOK", 1 ],
       [ "FoxMachining", 3 ]
     ],
-    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "ALWAYS_TWOHAND", "NONCONDUCTIVE" ]
+    "use_action": [ 
+      "HAMMER",
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [ "iron", "steel", "hardsteel", "aluminum", "copper", "bronze", "silver", "gold", "platinum", "superalloy", "FoxAdamantine", "FoxShadowSteel", "FoxImperialSteel", "glass" ],
+        "skill": "fabrication",
+        "tool_quality": 10,
+        "cost_scaling": 0.1,
+        "move_cost": 500
+      }
+     ],
+    "flags": [ "DURABLE_MELEE", "ALWAYS_TWOHAND", "NONCONDUCTIVE" ]
   },
   {
     "id": "FoxSGAmesskit",
