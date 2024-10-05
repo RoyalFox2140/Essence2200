@@ -31,7 +31,6 @@
     "difficulty": 2,
     "skills_required": [ [ "tailor", 8 ] ],
     "time": "3 h",
-    "reversible": true,
     "book_learn": [ [ "FoxDeIed", 2 ] ],
     "using": [ [ "sewing_standard", 8 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
@@ -46,7 +45,6 @@
     "difficulty": 2,
     "skills_required": [ [ "tailor", 7 ] ],
     "time": "1 h 30 m",
-    "reversible": true,
     "book_learn": [ [ "FoxDeIed", 2 ] ],
     "using": [ [ "sewing_standard", 8 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
@@ -151,7 +149,6 @@
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "40 m",
-    "reversible": true,
     "autolearn": true,
     "using": [ [ "sewing_standard", 15 ] ],
     "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ] ]
@@ -242,7 +239,6 @@
     "skill_used": "tailor",
     "difficulty": 3,
     "time": "30 m",
-    "reversible": true,
     "autolearn": true,
     "using": [ [ "sewing_standard", 10 ] ],
     "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ] ]
@@ -283,7 +279,6 @@
     "skill_used": "tailor",
     "difficulty": 6,
     "time": "55 m",
-    "reversible": true,
     "autolearn": true,
     "using": [ [ "sewing_standard", 20 ] ],
     "components": [ [ [ "FoxBallisticWeaveSheet", 10 ] ] ]
