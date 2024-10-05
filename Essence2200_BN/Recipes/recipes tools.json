@@ -27,6 +27,7 @@
     "components": [
       [ [ "FoxBallisticWeaveSheet", 2 ] ],
       [ [ "Foximpmechparts", 1 ] ],
+      [ [ "Foximpmicroelectronics", 4 ] ],
       [ [ "Foximpelectronics", 3 ] ]
     ]
   },
@@ -45,6 +46,7 @@
     "components": [
       [ [ "FoxBallisticWeaveSheet", 2 ] ],
       [ [ "Foximpmechparts", 1 ] ],
+      [ [ "Foximpmicroelectronics", 10 ] ],
       [ [ "Foximpelectronics", 6 ] ]
     ]
   },
