@@ -113,6 +113,18 @@
   },
   {
     "type": "uncraft",
+    "result": "Foxsmalltentkit",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "time": "20 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "FoxBallisticWeaveSheet", 20 ] ],
+      [ [ "FoxAdamantinechunk", 6 ] ]
+    ]
+  },
+  {
+    "type": "uncraft",
     "result": "Foximpwastelandsmock",
     "skill_used": "tailor",
     "difficulty": 1,
