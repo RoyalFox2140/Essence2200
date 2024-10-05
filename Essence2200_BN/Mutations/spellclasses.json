@@ -11,7 +11,7 @@
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceBulk", 1 ], [ "Fox_Elemental_Firebolt", 1 ], [ "Fox_Elemental_Icebolt", 1 ], [ "Fox_Elemental_Lightningbolt", 1 ], [ "Fox_Elemental_Water", 1 ], [ "Fox_Elemental_Climatecontrol", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1] ],
     "flags": [ "PSYCHOPATH" ],
     "anger_relations": [ [ "FoxImperial", 20 ] ],
-    "mana_modifier": 2000
+    "mana_modifier": 1500
   },
   {
     "type": "mutation",
@@ -25,7 +25,7 @@
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceBulk", 1 ], [ "Fox_Spirit_Soothe", 1 ], [ "Fox_Spirit_Flay", 1 ], [ "Fox_Spirit_Darkvisiondispel", 1 ], [ "Fox_Pale_portalnexus", 1 ], [ "Fox_Pale_teleport", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1] ],
     "flags": [ "PSYCHOPATH" ],
     "anger_relations": [ [ "FoxImperial", 20 ] ],
-    "mana_modifier": 2000
+    "mana_modifier": 1500
   },
   {
     "type": "mutation",
@@ -39,7 +39,7 @@
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_EssenceBulk", 1 ], [ "Fox_Transmutation_EssenceToken", 1 ], [ "Fox_Transmutation_EssenceTokenBulk", 1 ], [ "Fox_Transmutation_Lead_Attack", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1], [ "Fox_Transmutation_LogWall", 1 ], [ "Fox_Transmutation_LogRoof", 1 ] ],
     "flags": [ "PSYCHOPATH" ],
     "anger_relations": [ [ "FoxImperial", 20 ] ],
-    "mana_modifier": 2000
+    "mana_modifier": 1500
   },
   {
     "type": "mutation",

@@ -168,7 +168,34 @@
     "initial_charges": 1,
     "max_charges": 10000,
     "charges_per_use": 5,
-    "use_action": "OXYTORCH",
+    "use_action": [
+      "OXYTORCH",
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [
+          "iron",
+          "steel",
+          "budget_steel",
+          "hardsteel",
+          "aluminum",
+          "copper",
+          "bronze",
+          "silver",
+          "gold",
+          "platinum",
+          "superalloy",
+          "FoxAdamantine",
+          "FoxImperialSteel",
+          "FoxShadowSteel",
+          "glass"
+        ],
+        "skill": "fabrication",
+        "tool_quality": 10,
+        "cost_scaling": 0.1,
+        "move_cost": 500
+      }
+    ],
     "qualities": [ [ "WELD", 4 ] ],
     "flags": [ "TRADER_AVOID", "NO_UNLOAD", "NO_RELOAD", "RECHARGE", "BELT_CLIP"  ]
   },

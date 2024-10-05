@@ -218,7 +218,7 @@
     "starting_trait": false,
     "visibility": 0,
     "ugliness": 0,
-    "mana_modifier": -10000,
+    "mana_modifier": -6000,
     "healing_awake": -0.5,
     "healing_resting": -0.5,
     "hp_adjustment": -150,
