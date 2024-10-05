@@ -61,6 +61,52 @@
   },
   {
     "type": "uncraft",
+    "result": "Foximpwastelandsmock",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "10 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "FoxBallisticWeaveSheet", 18 ] ],
+      [ [ "Foximperialsteelchunk", 5 ] ]
+    ]
+  },
+  {
+    "type": "uncraft",
+    "result": "Foximpwastelandpack",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "10 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "FoxBallisticWeaveSheet", 20 ] ],
+      [ [ "Foximperialsteelchunk", 5 ] ]
+    ]
+  },
+  {
+    "type": "uncraft",
+    "result": "Foxglovestactical",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "2 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "FoxBallisticWeaveSheet", 2 ] ]
+    ]
+  },
+  {
+    "type": "uncraft",
+    "result": "Foxbootscombat",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "5 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "FoxBallisticWeaveSheet", 10 ] ]
+    ]
+  },
+  {
+    "type": "uncraft",
     "result": "FoximpKW21404U",
     "skill_used": "fabrication",
     "difficulty": 3,
