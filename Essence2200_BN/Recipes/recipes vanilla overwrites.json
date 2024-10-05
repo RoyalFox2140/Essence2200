@@ -131,5 +131,18 @@
     "autolearn": true,
     "flags": [ "BLIND_HARD" ],
     "components": [ [ [ "cable", 10 ], [ "wire", 1 ] ], [ [ "hotplate", 1 ] ], [ [ "chemistry_set_basic", 1 ] ] ]
+  },
+  {
+    "result": "noodles_fast",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": "40 m",
+    "batch_time_factors": [ 60, 3 ],
+    "autolearn": true,
+    "tools": [ [ [ "surface_heat", 30, "LIST" ] ], [ [ "pastaextruder", -1 ] ] ],
+    "components": [ [ [ "flour", 10 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   }
 ]

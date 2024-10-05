@@ -693,6 +693,23 @@
     }
   },
   {
+    "type": "GENERIC",
+    "id": "Foxsoulbench",
+    "name": { "str": "soulbench" },
+    "description": "A workbench set up with a number of human souls and a pocket dimension to store items and make it weigh less. It helps you craft extremely fast.",
+    "weight": "4000 g",
+    "to_hit": -8,
+    "color": "red",
+    "symbol": "0",
+    "material": [ "steel" ],
+    "flags": [ "TRADER_AVOID", "FLAT_SURFACE" ],
+    "volume": "10500 ml",
+    "bashing": 6,
+    "category": "veh_parts",
+    "price": "2 USD",
+    "price_postapoc": "2 USD"
+  },
+  {
     "id": "FoxTinyPocketDimension",
     "type": "ARMOR",
     "name": { "str": "Tiny Pocket Dimension", "str_pl": "Tiny Pocket Dimensions" },

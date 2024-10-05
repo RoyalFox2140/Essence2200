@@ -124,5 +124,31 @@
     "breaks_into": [ {"item": "FoxVicPocketDimensionitem"} ],
     "damage_reduction": { "all": 44444 },
     "description": "This pocket dimension is usable once it is mounted and stabilized to a vehicle. It will hold 500 Liters without weighing your vehicle down."
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxvicsoulbench",
+    "name": { "str": "soulbench" },
+    "symbol": "#",
+    "looks_like": "workbench",
+    "color": "red",
+    "broken_symbol": "#",
+    "broken_color": "light_gray",
+    "damage_modifier": 60,
+    "durability": 300,
+    "size": "300 L",
+    "item": "Foxsoulbench",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "15 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "15 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
+    },
+    "flags": [ "CARGO", "OBSTACLE", "FLAT_SURF", "WORKBENCH" ],
+    "breaks_into": [
+      { "item": "Foxsoulbench" }
+    ],
+    "workbench": { "multiplier": 2, "mass": "5000 kg", "volume": "960L" },
+    "damage_reduction": { "all": 29 }
   }
 ]

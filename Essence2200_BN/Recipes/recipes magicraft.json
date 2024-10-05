@@ -411,5 +411,20 @@
     "components": [
       [ [ "FoxEssencenormal", 20000 ] ]
     ]
+  },
+  {
+    "result": "Foxsoulbench",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 7,
+    "time": "45 m",
+    "autolearn": true,
+    "components": [
+      [ [ "workbench", 1 ] ],
+      [ [ "Foxhumansoul", 10 ] ],
+      [ [ "FoxLesserPocketDimension", 1 ] ]
+    ]
   }
 ]
