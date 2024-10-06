@@ -442,7 +442,7 @@
     "warmth": 20,
     "material_thickness": 2,
     "environmental_protection": 20,
-	"flags": [ "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
+	"flags": [ "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF" ]
   },
   {
     "id": "Foximpwastelandsuit",
@@ -464,7 +464,7 @@
     "storage": "10 L",
     "material_thickness": 2,
     "environmental_protection": 20,
-    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
+    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF" ]
   },
   {
     "id": "Foximpwelder",
@@ -540,7 +540,7 @@
     "storage": "10 L",
     "material_thickness": 2,
     "environmental_protection": 20,
-    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
+    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF" ]
   },
   {
     "id": "Foximpwastelandpack",
