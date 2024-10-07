@@ -5,7 +5,7 @@
     "name": "Nightwalker",
     "description": "Savant created you as the ultimate soldier to kill every last Imperial so she could reclaim Earth. But the plan to hide this soldier in Imperial society failed. Nobody knows how you got to this dimension, and the apocalypse came before those powers could be fully manifested. You always felt somehow you were different, but it really sunk in after you accidentally murdered someone and had to go into hiding. Living in abandoned buildings and the sewers wasn't fun but for someone immortal and immune to disease it was easy. Now all that angst and paranoia paid off, you're not trapped out here with them, they're trapped out here with YOU!",
     "points": 444,
-    "traits": [ "FoxNightwalker", "FoxNightwalkerBody", "FoxNightwalkerPsionics", "FoxNightwalkerUpbringing", "FoxNightwalkerRestrictions", "FoxNightwalkerExtremeFatigue", "FoxSchoolsElemental", "FoxSchoolsSpirit", "FoxSchoolsTransmutation", "FoxSchoolsPale", "LOVES_BOOKS", "PROJUNK", "GOURMAND", "NONADDICTIVE", "FACIAL_HAIR_NONE", "eye_red", "MASOCHIST", "INFRESIST", "PARAIMMUNE", "PSYCHOPATH", "STYLISH", "hair_black_long", "SKIN_LIGHT" ],
+    "traits": [ "FoxNightwalker", "FoxNightwalkerBody", "FoxNightwalkerPsionics", "FoxNightwalkerUpbringing", "FoxNightwalkerRestrictions", "FoxNightwalkerExtremeFatigue", "FoxApostleApprentice", "FoxSchoolsElemental", "FoxSchoolsSpirit", "FoxSchoolsTransmutation", "FoxSchoolsPale", "LOVES_BOOKS", "PROJUNK", "GOURMAND", "NONADDICTIVE", "FACIAL_HAIR_NONE", "eye_red", "MASOCHIST", "INFRESIST", "PARAIMMUNE", "PSYCHOPATH", "STYLISH", "hair_black_long", "SKIN_LIGHT" ],
     "items": {
         "male": [
           "FoxSGAgrenadeactiveremover"
@@ -54,7 +54,7 @@
     "//": "A professional ex special forces and mage with no background in hard labor, has significant training with most weapons and is a survival expert. Any non-combat skills from lore are negated here, after a long coma. All combat skills adjusted downward for said coma.",
     "description": "After growing up an orphan in Imperial society and being used as a child soldier, you eventually ditched the Imperial Army and became a rogue agent. You founded a conglomerate of clans comprised of likeminded warriors and later ignored the goals of your creator and her rebel followers when she stepped out of hiding. Traversing dimensions flung your clans and Savant's followers forward nearly a thousand years, landing you in a Milky Way you chose to abandon. You got very curious as to why this Dimension also parallels Old Earth, and why the Imperials invaded here. The clans will follow you in later, you went in alone to investigate quietly.",
     "points": 444,
-    "traits": [ "FoxNightwalker", "FoxNightwalkerBody", "FoxNightwalkerPsionics", "FoxNightwalkerUpbringing", "FoxNightwalkerRestrictions", "FoxNightwalkerExtremeFatigue", "FoxSchoolsElemental", "FoxSchoolsSpirit", "FoxSchoolsTransmutation", "FoxSchoolsPale", "FoxClanKawakami", "LOVES_BOOKS", "PROJUNK", "GOURMAND", "NONADDICTIVE", "FACIAL_HAIR_NONE", "eye_red", "MASOCHIST", "INFRESIST", "PARAIMMUNE", "PSYCHOPATH", "STYLISH", "hair_black_long", "SKIN_LIGHT" ],
+    "traits": [ "FoxNightwalker", "FoxNightwalkerBody", "FoxNightwalkerPsionics", "FoxNightwalkerUpbringing", "FoxNightwalkerRestrictions", "FoxNightwalkerExtremeFatigue", "FoxApostleExpert", "FoxSchoolsElemental", "FoxSchoolsSpirit", "FoxSchoolsTransmutation", "FoxSchoolsPale", "FoxClanKawakami", "LOVES_BOOKS", "PROJUNK", "GOURMAND", "NONADDICTIVE", "FACIAL_HAIR_NONE", "eye_red", "MASOCHIST", "INFRESIST", "PARAIMMUNE", "PSYCHOPATH", "STYLISH", "hair_black_long", "SKIN_LIGHT" ],
     "skills": [
       { "level": 8, "name": "melee" },
       { "level": 8, "name": "cutting" },
@@ -189,7 +189,7 @@
     "name": "Arakawa Warrior",
     "description": "As a warrior of Clan Arakawa, you're familiar with the effects of essence and it's uncontrolled mutations on the living. You're sent in to purge every last mutant that may threaten the locals before it evolves into something worse. Report back if you find survivors.",
     "points": 444,
-    "traits": [ "FoxClanArakawa", "FoxThresh_Nightstalker", "FoxNightstalkerPhysiology", "FoxNightstalkerResistance", "FoxNightstalkerMind", "FoxNightstalkerPsionics", "FoxNightstalkerMagic", "FoxSchoolsElemental" ],
+    "traits": [ "FoxClanArakawa", "FoxThresh_Nightstalker", "FoxNightstalkerPhysiology", "FoxNightstalkerResistance", "FoxNightstalkerMind", "FoxNightstalkerPsionics", "FoxNightstalkerMagic", "FoxApostleSkilled", "FoxSchoolsElemental" ],
     "skills": [
       { "level": 8, "name": "melee" },
       { "level": 6, "name": "cutting" },
@@ -253,7 +253,7 @@
     "name": "Seburo Technician",
     "description": "You're a field technician of Clan Seburo, bored with a life of fixing things and making more things to break you volunteered to go in and search for technology and information. Though your combat skills are limited, you'll at least have that chance to improve them if you die.",
     "points": 444,
-    "traits": [ "FoxClanSeburo", "FoxThresh_Nightstalker", "FoxNightstalkerPhysiology", "FoxNightstalkerResistance", "FoxNightstalkerMind", "FoxNightstalkerPsionics", "FoxNightstalkerMagic", "FoxSchoolsTransmutation" ],
+    "traits": [ "FoxClanSeburo", "FoxThresh_Nightstalker", "FoxNightstalkerPhysiology", "FoxNightstalkerResistance", "FoxNightstalkerMind", "FoxNightstalkerPsionics", "FoxNightstalkerMagic", "FoxApostleSkilled", "FoxSchoolsTransmutation" ],
     "skills": [
       { "level": 4, "name": "melee" },
       { "level": 1, "name": "cutting" },

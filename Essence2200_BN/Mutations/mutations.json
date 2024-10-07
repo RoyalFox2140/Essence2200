@@ -520,6 +520,21 @@
     "description": "The director of the Shi, undisputed leader of all clans, and sole member by blood of Clan Kawakami. They all know your face, even arbiters will react with fear while many low ranked Imperials will flee in abject terror.",
     "valid": false,
     "purifiable": false,
+    "spells_learned": [ 
+      [ "Fox_Transmutation_Essence_expert", 10 ], 
+      [ "Fox_Transmutation_EssenceTokenExpert", 10 ],
+      [ "Fox_Elemental_Firebolt", 20 ], 
+      [ "Fox_Elemental_Icebolt", 20 ], 
+      [ "Fox_Elemental_Lightningbolt", 20 ], 
+      [ "Fox_Elemental_Thunder", 20 ],
+      [ "Fox_Elemental_Boulder", 20 ],
+      [ "Fox_Elemental_Water", 10 ],
+      [ "Fox_Pale_portalnexus", 1 ], 
+      [ "Fox_Pale_teleport", 1 ], 
+      [ "Fox_Pale_Lesser_SOL", 20 ], 
+      [ "Fox_Pale_Greater_SOL", 20 ],
+      [ "Fox_Pale_Shockwave", 20 ]
+    ],
     "visibility": 0,
     "ugliness": 0
   },
@@ -542,6 +557,15 @@
     "description": "A born and raised soldier of the warrior clan Arakawa. Though your name is unknown, your clan is feared among Imperials for brutality and lack of mercy.",
     "valid": false,
     "purifiable": false,
+    "spells_learned": [ 
+      [ "Fox_Elemental_Firebolt", 20 ], 
+      [ "Fox_Elemental_Icebolt", 20 ], 
+      [ "Fox_Elemental_Lightningbolt", 20 ],
+      [ "Fox_Elemental_Thunder", 10 ], 
+      [ "Fox_Elemental_Water", 5 ],
+      [ "Fox_Transmutation_Essence_skilled", 1 ],
+      [ "Fox_Pale_teleport", 1 ]
+    ],
     "visibility": 0,
     "ugliness": 0
   },
@@ -553,6 +577,14 @@
     "description": "A born and raised technician of the engineer clan Seburo. Though your name is unknown, your clan is respected for their diligence and devotion to R&D.",
     "valid": false,
     "purifiable": false,
+    "spells_learned": [ 
+      [ "Fox_Transmutation_Essence_expert", 5 ], 
+      [ "Fox_Transmutation_EssenceTokenExpert", 5 ],
+      [ "Fox_Elemental_Lightningbolt", 10 ],
+      [ "Fox_Elemental_Water", 5 ],
+      [ "Fox_Pale_portalnexus", 1 ], 
+      [ "Fox_Pale_teleport", 1 ]
+    ],
     "visibility": 0,
     "ugliness": 0
   },
@@ -564,6 +596,12 @@
     "description": "A born and raised mechanic of the engineer clan Fujiwara. Though your name is unknown, your clan is respected for their work on cars and dreams of flying, and feared for the same reason.",
     "valid": false,
     "purifiable": false,
+    "spells_learned": [ 
+      [ "Fox_Transmutation_Essence_expert", 5 ], 
+      [ "Fox_Transmutation_EssenceTokenExpert", 5 ],
+      [ "Fox_Elemental_Water", 5 ],
+      [ "Fox_Pale_teleport", 1 ]
+    ],
     "visibility": 0,
     "ugliness": 0
   },
@@ -575,6 +613,15 @@
     "description": "A born and raised agent of the intelligence clan Ishikawa. Though your name is unknown, your clan is respected for their skill at conflict resolution and subterfuge.",
     "valid": false,
     "purifiable": false,
+    "spells_learned": [ 
+      [ "Fox_Transmutation_Essence_skilled", 10 ], 
+      [ "Fox_Transmutation_EssenceTokenSkilled", 10 ],
+      [ "Fox_Elemental_Water", 5 ],
+      [ "Fox_Pale_teleport", 1 ],
+      [ "Fox_Pale_portalnexus", 1 ], 
+      [ "Fox_Spirit_Darkvision", 10 ], 
+      [ "Fox_Spirit_Soothe", 10 ]
+    ],
     "visibility": 0,
     "ugliness": 0
   },

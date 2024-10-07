@@ -61,7 +61,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 6000 ] ], [ [ "FoxEssencenormal", 10500 ], [ "FoxLesserPocketDimension", 1 ] ]
+      [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ]
   },
   {
@@ -74,7 +74,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 6500 ] ], [ [ "FoxEssencenormal", 10500 ], [ "FoxLesserPocketDimension", 1 ] ]
+      [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ]
   },
   {
@@ -87,7 +87,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 6500 ] ], [ [ "FoxEssencenormal", 10500 ], [ "FoxLesserPocketDimension", 1 ] ]
+      [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ]
   },
   {
@@ -100,7 +100,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 6500 ] ], [ [ "FoxEssencenormal", 10500 ], [ "FoxLesserPocketDimension", 1 ] ]
+      [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ]
   },
   {
@@ -113,7 +113,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 6500 ] ], [ [ "FoxEssencenormal", 10500 ], [ "FoxLesserPocketDimension", 1 ] ]
+      [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ]
   },
   {
@@ -126,7 +126,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 6500 ] ], [ [ "FoxEssencenormal", 10500 ], [ "FoxLesserPocketDimension", 1 ] ]
+      [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ]
   },
   {
@@ -139,7 +139,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 6500 ] ], [ [ "FoxEssencenormal", 10500 ], [ "FoxLesserPocketDimension", 1 ] ]
+      [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ]
   },
   {
@@ -165,7 +165,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "Foxhumansoul", 20 ] ], [ [ "FoxEssencenormal", 26500 ], [ "FoxGreaterPocketDimension", 1 ] ]
+      [ [ "Foxhumansoul", 10 ] ], [ [ "FoxGreaterPocketDimension", 1 ] ]
     ]
   },
   {
@@ -178,7 +178,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "Foxhumansoul", 30 ] ], [ [ "FoxHugePocketDimension", 1 ] ]
+      [ [ "Foxhumansoul", 20 ] ], [ [ "FoxHugePocketDimension", 1 ] ]
     ]
   },
   {
@@ -191,7 +191,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 20000 ] ], [ [ "FoxEssencenormal", 12500 ], [ "FoxGreaterCanteenDimension", 1 ] ]
+      [ [ "Foxhumansoul", 10 ] ], [ [ "FoxEssencenormal", 12500 ], [ "FoxGreaterCanteenDimension", 1 ] ]
     ]
   },
   {
@@ -204,7 +204,8 @@
     "time": "45 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 100000 ] ]
+      [ [ "FoxEssencenormal", 40000 ] ],
+      [ [ "Foxhumansoul", 10 ] ]
     ]
   },
   {
@@ -232,7 +233,8 @@
     "time": "15 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
+      [ [ "FoxEssencenormal", 5000 ] ],
+      [ [ "Foxhumansoul", 1 ] ]
     ]
   },
   {
@@ -245,7 +247,8 @@
     "time": "15 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
+      [ [ "FoxEssencenormal", 5000 ] ],
+      [ [ "Foxhumansoul", 2 ] ]
     ]
   },
   {
@@ -258,7 +261,8 @@
     "time": "10 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
+      [ [ "FoxEssencenormal", 5000 ] ],
+      [ [ "Foxhumansoul", 2 ] ]
     ]
   },
   {
@@ -271,7 +275,8 @@
     "time": "10 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
+      [ [ "FoxEssencenormal", 5000 ] ],
+      [ [ "Foxhumansoul", 1 ] ]
     ]
   },
   {
@@ -325,7 +330,7 @@
     "time": "45 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 1500 ] ], [ [ "FoxEssencenormal", 1000 ], [ "Foxnoviceartificing", 1 ] ]
+      [ [ "Foxhumansoul", 1 ] ], [ [ "FoxEssencenormal", 1000 ], [ "Foxnoviceartificing", 1 ] ]
     ]
   },
   {
@@ -338,7 +343,7 @@
     "time": "55 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 2500 ] ], [ [ "FoxEssencenormal", 2500 ], [ "Foxintermediateartificing", 1 ] ]
+      [ [ "Foxhumansoul", 2 ] ], [ [ "Foxintermediateartificing", 1 ] ]
     ]
   },
   {
@@ -351,7 +356,8 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 1000 ] ]
+      [ [ "FoxEssencenormal", 1000 ] ],
+      [ [ "Foxhumansoul", 1 ] ]
     ]
   },
   {
@@ -378,10 +384,10 @@
     "autolearn": true,
     "components": [
       [ [ "FoxEssencenormal", 10000 ] ],
-      [ [ "FoxEssencenormal", 5000 ], [ "Foxadvancedartificing", 1 ] ],
-      [ [ "FoxEssencenormal", 1000 ], [ "Foxfleshmanipulation", 1 ] ],
-      [ [ "FoxEssencenormal", 5000 ], [ "Foxmagicsoldering", 1 ] ],
-      [ [ "FoxEssencenormal", 5000 ], [ "Foxmagicwelder", 1 ] ],
+      [ [ "Foxadvancedartificing", 1 ] ],
+      [ [ "Foxfleshmanipulation", 1 ] ],
+      [ [ "Foxmagicsoldering", 1 ] ],
+      [ [ "Foxmagicwelder", 1 ] ],
       [ [ "FoxEssencenormal", 1000 ], [ "Foxjackingtool", 1 ] ],
       [ [ "FoxEssencenormal", 500 ],  [ "Foxmagiclighter", 1 ] ]
     ]

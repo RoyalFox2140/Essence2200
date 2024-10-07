@@ -738,6 +738,7 @@
     "contains": "10 L",
     "seals": true,
     "watertight": true,
+    "preserves": true,
     "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE",  "AURA", "WATER_FRIENDLY" ],
     "armor_data": { "covers": [ "leg_either" ], "coverage": 0, "encumbrance": 0, "material_thickness": 2 }
   },
@@ -946,6 +947,7 @@
     "contains": "100 L",
     "seals": true,
     "watertight": true,
+    "preserves": true,
     "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE",  "AURA", "WATER_FRIENDLY" ],
     "armor_data": { "covers": [ "leg_either" ], "coverage": 0, "encumbrance": 0, "material_thickness": 2 }
   },
@@ -993,6 +995,7 @@
     "contains": "1000 L",
     "seals": true,
     "watertight": true,
+    "preserves": true,
     "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE",  "AURA", "WATER_FRIENDLY" ],
     "armor_data": { "covers": [ "leg_either" ], "coverage": 0, "encumbrance": 0, "material_thickness": 2 }
   },
@@ -1598,9 +1601,7 @@
 		"Fox_Elemental_Icebolt",
 		"Fox_Elemental_Lightningbolt",
 		"Fox_Elemental_Rockbolt",
-		"Fox_Elemental_Climatecontrol",
-    "Fox_Transmutation_Essence",
-    "Fox_Transmutation_EssenceBulk"
+		"Fox_Elemental_Climatecontrol"
       ]
     }
   },
@@ -1644,8 +1645,6 @@
 		"Fox_Spirit_Cure",
 		"Fox_Spirit_Respite",
     "Fox_Spirit_Paininhibitor",
-    "Fox_Transmutation_Essence",
-    "Fox_Transmutation_EssenceBulk",
     "Fox_Pale_portalnexus",
     "Fox_Pale_teleport"
       ]
@@ -1810,7 +1809,7 @@
     "symbol": ",",
     "color": "white",
     "name": { "str": "How-to Magic" },
-    "description": "Magic wasn't so hard, you think you know what you're doing enough to make any spellbook including ones not in your school, but perhaps you should first awaken the other schools of magic to gain more power.",
+    "description": "Magic wasn't so hard, you think you know what you're doing enough to make any spellbook and practice further.",
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "material": "paper",
@@ -1855,7 +1854,10 @@
       "type": "learn_spell",
       "spells": [
         "Fox_Pale_Lesser_SOL",
-        "Fox_Pale_Greater_SOL"
+        "Fox_Pale_Greater_SOL",
+        "Fox_Pale_Shockwave",
+        "Fox_Pale_portalnexus",
+        "Fox_Pale_teleport"
       ]
     }
   },

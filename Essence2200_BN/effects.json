@@ -188,9 +188,21 @@
   {
     "type": "effect_type",
     "id": "FoxSpiritTremble",
-    "rating": "good",
+    "rating": "bad",
     "base_mods": {
       "speed_mod": [ -50 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxElementalThermalTaze",
+    "rating": "bad",
+    "name": [ "Thermal taze" ],
+    "desc": [ "Your body is overwhelmed by the sensation of cold, slowing your speed." ],
+    "apply_message": "Your body struggles with the intense cold, and you slow down.",
+    "remove_message": "Your body no longer struggles with the intense cold.",
+    "base_mods": {
+      "speed_mod": [ -25 ]
     }
   },
   {

@@ -16,7 +16,7 @@
     "max_level": 1,
     "min_damage": 800,
     "max_damage": 800,
-    "min_range": 1,
+    "min_range": 2,
     "max_range": 2
   },
   {
