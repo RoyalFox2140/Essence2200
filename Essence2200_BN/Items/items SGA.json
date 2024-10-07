@@ -169,8 +169,26 @@
     "volume": "50 ml",
     "bashing": 4,
     "cutting": 30,
+    "thrown_damage": [ { "damage_type": "stab", "amount": 20 } ],
     "price": "2 USD",
     "price_postapoc": "2 USD"
+  },
+  {
+    "id": "FoxShadowsteelknuckles",
+    "looks_like": "knuckle_brass",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "FIST_WEAPONS" ],
+    "symbol": "3",
+    "color": "yellow",
+    "name": { "str": "pair of Shadowsteel knuckles", "str_pl": "pairs of Shadowsteel knuckles" },
+    "description": "A fist weapon made of Shadowsteel designed to augment your strikes to have greater damage.",
+    "material": "brass",
+    "weight": "200 g",
+    "volume": "100 ml",
+    "bashing": 30,
+    "price_postapoc": "2 USD",
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "BELT_CLIP" ]
   },
   {
     "id": "FoxThunderhammer",

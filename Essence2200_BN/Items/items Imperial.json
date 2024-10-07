@@ -575,6 +575,23 @@
     "flags": [ "BELTED", "WATER_FRIENDLY" ]
   },
   {
+    "id": "FoxImperialknuckles",
+    "looks_like": "knuckle_brass",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "FIST_WEAPONS" ],
+    "symbol": "3",
+    "color": "yellow",
+    "name": { "str": "pair of Imperial Steel knuckles", "str_pl": "pairs of Imperial Steel knuckles" },
+    "description": "A fist weapon made of Imperial Steel designed to augment your strikes to have greater damage.",
+    "material": "FoxImperialSteel",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "bashing": 18,
+    "price_postapoc": "2 USD",
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "BELT_CLIP" ]
+  },
+  {
     "id": "Foximpcombatknife",
     "type": "GENERIC",
     "category": "weapons",
