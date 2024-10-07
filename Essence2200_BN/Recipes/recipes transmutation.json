@@ -1372,11 +1372,11 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_TRANSMUTATION",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 6,
+    "difficulty": 8,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "FoxEssencenormal", 10000 ] ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "FoxEssencenormal", 20000 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
   {
