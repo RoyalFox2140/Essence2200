@@ -61,7 +61,7 @@
     "max_level": 21,
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "learn_spells": { "Fox_Transmutation_Essence_skilled": 1, "Fox_Transmutation_Weaving2": 1 },
+    "learn_spells": { "Fox_Transmutation_Essence_skilled": 20, "Fox_Transmutation_Weaving2": 20 },
     "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
   },
   {
@@ -84,7 +84,7 @@
     "max_level": 21,
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "learn_spells": { "Fox_Transmutation_Essence_expert": 1, "Fox_Transmutation_Weaving3": 1 },
+    "learn_spells": { "Fox_Transmutation_Essence_expert": 20, "Fox_Transmutation_Weaving3": 20 },
     "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
   },
   {
@@ -107,7 +107,7 @@
     "max_level": 21,
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "learn_spells": { "Fox_Transmutation_EssenceBulk": 1, "Fox_Transmutation_Weaving4": 1 },
+    "learn_spells": { "Fox_Transmutation_EssenceBulk": 20, "Fox_Transmutation_Weaving4": 20 },
     "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
   },
   {
@@ -153,7 +153,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "learn_spells": { "Fox_Transmutation_EssenceTokenSkilled": 1, "Fox_Transmutation_Weaving2": 1 },
+    "learn_spells": { "Fox_Transmutation_EssenceTokenSkilled": 20, "Fox_Transmutation_Weaving2": 20 },
     "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
   },
   {
@@ -177,7 +177,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "learn_spells": { "Fox_Transmutation_EssenceTokenExpert": 1, "Fox_Transmutation_Weaving3": 1 },
+    "learn_spells": { "Fox_Transmutation_EssenceTokenExpert": 20, "Fox_Transmutation_Weaving3": 20 },
     "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
   },
   {
@@ -201,7 +201,7 @@
     "spell_class": "FoxSchoolsTransmutation",
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "learn_spells": { "Fox_Transmutation_EssenceTokenBulk": 1, "Fox_Transmutation_Weaving4": 1 },
+    "learn_spells": { "Fox_Transmutation_EssenceTokenBulk": 20, "Fox_Transmutation_Weaving4": 20 },
     "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
   },
   {
