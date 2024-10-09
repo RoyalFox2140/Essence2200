@@ -1671,6 +1671,60 @@
     }
   },
   {
+    "id": "Fox_spellbooks_Weaving2",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Weaving II",
+    "description": "Contains the ability to train the skilled tier of Essence weaving and transmutation runes.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_EssenceTokenSkilled",
+    "Fox_Transmutation_Essence_skilled"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Weaving3",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Weaving III",
+    "description": "Contains the ability to train the expert tier of Essence weaving and transmutation runes.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_EssenceTokenExpert",
+    "Fox_Transmutation_Essence_expert"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Weaving4",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Weaving IV",
+    "description": "Contains the ability to train the master tier of Essence weaving and transmutation runes.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_EssenceTokenBulk",
+    "Fox_Transmutation_EssenceBulk"
+      ]
+    }
+  },
+  {
     "id": "Fox_spellbooks_Transmutation",
     "type": "GENERIC",
     "category": "spellbooks",
