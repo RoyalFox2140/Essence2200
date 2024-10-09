@@ -3,6 +3,7 @@
         "id": "Foxmon_skeleton",
         "type": "MONSTER",
         "name": { "str": "skeleton minion" },
+        "looks_like": "mon_skeleton",
         "description": "A human skeleton conjured from the bones of the nearby dead, though weak it is not expensive to create.",
         "default_faction": "player",
         "bodytype": "human",
