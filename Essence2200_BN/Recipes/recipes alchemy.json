@@ -182,8 +182,8 @@
     "subcategory": "CSC_ESSMAGIC_ALCHEMY",
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 3,
+    "autolearn": true,
     "time": "6 h",
-    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 } ],
     "components": [ [ [ "FoxEssencenormal", 20000 ] ], [ [ "Foxhumansoul", 5 ] ] ]
   },
   {
@@ -194,8 +194,8 @@
     "subcategory": "CSC_ESSMAGIC_ALCHEMY",
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 6,
+    "autolearn": true,
     "time": "8 h",
-    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 } ],
     "components": [ [ [ "FoxEssencenormal", 40000 ] ], [ [ "Foxhumansoul", 10 ] ] ]
   },
   {
@@ -206,6 +206,7 @@
     "subcategory": "CSC_ESSMAGIC_ALCHEMY",
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 10,
+    "autolearn": true,
     "time": "12 h",
     "batch_time_factors": [ 80, 2 ],
     "components": [ [ [ "FoxEssencenormal", 40000 ] ], [ [ "Foxhumansoul", 25 ] ] ]
