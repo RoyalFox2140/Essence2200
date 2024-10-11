@@ -961,7 +961,7 @@
     "move_cost_mod": 2,
     "required_str": 1,
     "name": "magic lamp (on)",
-    "looks_like": "f_floor_lamp",
+    "looks_like": "f_floor_lamp_on",
     "deconstruct": { "items": [ { "item": "Foxlightorbbig", "count": 1 } ] },
     "flags": [ "TRANSPARENT", "PLACE_ITEM", "EASY_DECONSTRUCT" ],
     "description": "Disguised as a floor lamp, this orb makes light without power. It's on.",

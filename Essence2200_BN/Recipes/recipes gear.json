@@ -314,7 +314,7 @@
     "reversible": true,
     "autolearn": true,
     "using": [ [ "sewing_standard", 10 ] ],
-    "components": [ [ [ "FoxBallisticWeaveSheet", 3 ] ] ]
+    "components": [ [ [ "FoxBallisticWeaveSheet", 6 ] ] ]
   },
   {
     "result": "FoxSGAmaidhat",

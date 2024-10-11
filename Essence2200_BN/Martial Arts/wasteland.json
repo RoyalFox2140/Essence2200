@@ -200,12 +200,12 @@
         "skill_requirements": [ { "name": "melee", "level": 8 } ],
         "bonus_dodges": 4,
         "flat_bonuses": [  
-          { "stat": "movecost", "scaling-stat": "str", "scale": -1 },
-          { "stat": "damage", "type": "cut", "scale": 5 },
+          { "stat": "movecost", "scaling-stat": "str", "scale": -2 },
           { "stat": "damage", "type": "stab", "scale": -10 },
-          { "stat": "damage", "type": "bash", "scale": 5 },
+          { "stat": "damage", "type": "cut", "scaling-stat": "str", "scale": 2 },
+          { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 2 },
           { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 1 },
-          { "stat": "arpen", "type": "stab", "scaling-stat": "str", "scale": 1 }
+          { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 1 }
           
         ]
       }
