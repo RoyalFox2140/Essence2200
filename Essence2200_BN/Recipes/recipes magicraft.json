@@ -9,7 +9,7 @@
     "time": "15 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 2500 ] ]
+      [ [ "FoxEssencenormal", 4000 ] ]
     ]
   },
   {
@@ -22,7 +22,20 @@
     "time": "15 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 2500 ] ]
+      [ [ "FoxEssencenormal", 4000 ] ]
+    ]
+  },
+  {
+    "result": "FoxSmallCanteenDimension",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 1,
+    "time": "15 m",
+    "autolearn": true,
+    "components": [
+      [ [ "FoxEssencenormal", 16000 ] ], [ [ "FoxEssencenormal", 4000 ], [ "FoxTinyPocketDimension", 1 ] ]
     ]
   },
   {
@@ -35,7 +48,7 @@
     "time": "15 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 3000 ] ], [ [ "FoxEssencenormal", 2500 ], [ "FoxTinyPocketDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 16000 ] ], [ [ "FoxEssencenormal", 4000 ], [ "FoxTinyPocketDimension", 1 ] ]
     ]
   },
   {
@@ -44,11 +57,11 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
+    "difficulty": 4,
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 5000 ] ], [ [ "FoxEssencenormal", 5500 ], [ "FoxSmallPocketDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 20000 ] ], [ [ "FoxEssencenormal", 20000 ], [ "FoxSmallPocketDimension", 1 ] ]
     ]
   },
   {
@@ -57,7 +70,7 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
+    "difficulty": 5,
     "time": "30 m",
     "autolearn": true,
     "components": [
@@ -70,7 +83,7 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
+    "difficulty": 5,
     "time": "30 m",
     "autolearn": true,
     "components": [
@@ -83,7 +96,7 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
+    "difficulty": 5,
     "time": "30 m",
     "autolearn": true,
     "components": [
@@ -96,7 +109,7 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
+    "difficulty": 5,
     "time": "30 m",
     "autolearn": true,
     "components": [
@@ -109,7 +122,7 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
+    "difficulty": 5,
     "time": "30 m",
     "autolearn": true,
     "components": [
@@ -122,7 +135,7 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
+    "difficulty": 5,
     "time": "30 m",
     "autolearn": true,
     "components": [
@@ -135,7 +148,7 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
+    "difficulty": 5,
     "time": "30 m",
     "autolearn": true,
     "components": [
@@ -148,11 +161,11 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 1,
+    "difficulty": 5,
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 10000 ] ], [ [ "FoxEssencenormal", 2500 ], [ "FoxTinyCanteenDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 20000 ] ], [ [ "FoxEssencenormal", 20000 ], [ "FoxSmallCanteenDimension", 1 ] ]
     ]
   },
   {
