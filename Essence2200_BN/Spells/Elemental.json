@@ -154,7 +154,7 @@
     "id": "Fox_Elemental_Water",
     "type": "SPELL",
     "name": { "str": "E: Condense Water" },
-    "description": "This spell condenses the water in the air into a pure drinkable form, gives 15 units of water or enough to fill a gallon jug.",
+    "description": "Defunct, will be removed eventually.",
     "valid_targets": [ "self" ],
     "min_damage": 15,
     "max_damage": 15,
