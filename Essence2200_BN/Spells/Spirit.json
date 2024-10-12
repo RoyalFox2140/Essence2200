@@ -182,7 +182,7 @@
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
     "base_casting_time": 500,
-    "base_energy_cost": 250,
+    "base_energy_cost": 500,
     "min_duration": 6000,
     "max_duration": 36000,
     "duration_increment": 600,
