@@ -482,6 +482,7 @@
     "symbol": ";",
     "color": "red",
     "ammo": "battery",
+    "sub": "welder",
     "charges_per_use": 5,
     "qualities": [ [ "WELD", 3 ] ],
     "use_action": [
