@@ -186,6 +186,53 @@
         }
       },
       {
+        "id": "Foxstimclear",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "name": "Imperial stim-clear",
+        "description": "A serious dose of sedatives that will remove up to 30 stim value, it is designed to prevent overdose from combat stims and save lives, but could act as a sleep aid if you're brave.",
+        "weight": "2 g",
+        "volume": "50 ml",
+        "price": "2 USD",
+        "price_postapoc": "2 USD",
+        "charges": 1,
+        "stim": -30,
+        "healthy": -5,
+        "symbol": "!",
+        "color": "dark_gray",
+        "flags": [ "NO_INGEST" ],
+        "use_action": {
+          "type": "consume_drug",
+          "activation_message": "You inject a stim-clear.",
+          "tools_needed": { "Foxautoinjector": 1 },
+          "moves": 100
+        }
+      },
+      {
+        "id": "Foxblackout",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "name": "Blackout",
+        "description": "An elusive and incredibly dangerous hardcore drug that beats out heroin, fentanyl or amphetamines.  Historically known to cause deaths from overdoses, it gives the most powerful and addicting high seen in humans.  Consumption is banned everywhere, which never stopped smugglers.",
+        "weight": "2 g",
+        "volume": "50 ml",
+        "price": "2 USD",
+        "price_postapoc": "2 USD",
+        "charges": 1,
+        "stim": 60,
+        "healthy": -5,
+        "symbol": "!",
+        "color": "dark_gray",
+        "flags": [ "NO_INGEST" ],
+        "use_action": {
+          "type": "consume_drug",
+          "activation_message": "You inject blackout.",
+          "effects": [ { "id": "Foxblackout", "duration": "3600 s" } ],
+          "tools_needed": { "Foxautoinjector": 1 },
+          "moves": 100
+        }
+      },
+      {
         "id": "Foximpmedigel",
         "type": "COMESTIBLE",
         "comestible_type": "MED",

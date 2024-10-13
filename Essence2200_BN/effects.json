@@ -309,6 +309,33 @@
     }
   },
   {
+    "type": "effect_type",
+    "id": "Foxblackout",
+    "name": [ "Blackout" ],
+    "desc": [ "You're fucking high as a kite dude, but you're not gonna be awake for too long." ],
+    "rating": "good",
+    "morale": "morale_high",
+    "int_add_val": 1,
+    "max_intensity": 1,
+    "base_mods": {
+      "health_min": [ -1 ],
+      "health_tick": [ 60 ],
+      "speed_mod": [ 25 ],
+      "str_mod": [ 8 ],
+      "int_mod": [ -6 ],
+      "morale": [ 100 ],
+      "h_mod_min": [ -1 ],
+      "h_mod_min_val": [ -50 ],
+      "h_mod_tick": [ 120 ],
+      "fatigue_min": [ 10 ],
+      "fatigue_tick": [ 60 ],
+      "hunger_min": [ 3 ],
+      "hunger_tick": [ 60 ],
+      "thirst_min": [ 5 ],
+      "thirst_tick": [ 120 ]
+    }
+  },
+  {
     "type": "ter_furn_transform",
     "id": "FoxLogWallt",
     "terrain": [

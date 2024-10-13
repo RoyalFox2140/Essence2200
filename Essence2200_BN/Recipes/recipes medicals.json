@@ -196,6 +196,22 @@
   },
   {
     "type": "recipe",
+    "result": "Foxstimclear",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_DRUGS",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 4 ] ],
+    "difficulty": 3,
+    "time": "30 m",
+    "result_mult": 10,
+    "batch_time_factors": [ 75, 4 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [ [ [ "Foxcompoundh", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "Foxmindshot",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_DRUGS",
@@ -227,6 +243,22 @@
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "//": "Get some essence in there so the mixture goes from healing wounds to vitamins and the like.",
     "components": [ [ [ "Foxcompounde", 2 ] ], [ [ "FoxEssencenormal", 250 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxblackout",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_DRUGS",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 3 ] ],
+    "difficulty": 3,
+    "time": "4 h", 
+    "result_mult": 10,
+    "byproducts": [ [ "FoxessenceRDX", 4 ] ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 }, { "id": "DISTILL", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 80, "LIST" ] ] ],
+    "components": [ [ [ "bleach", 2 ] ], [ [ "ether", 100 ] ], [ [ "chem_muriatic_acid", 2 ] ], [ [ "chem_nitric_acid", 4 ] ], [ [ "Foxstormfern", 20 ] ], [  [ "Foxsmugglersroot", 5 ] ], [  [ "Foxstimgrass", 5 ] ] ]
   },
   {
     "type": "recipe",
