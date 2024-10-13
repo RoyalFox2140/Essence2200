@@ -319,6 +319,102 @@
   },
   {
     "type": "profession",
+    "id": "FoxXedraApostle",
+    "name": "Apostle experiment",
+    "description": "In an effort to create the next generation of soldier, XEDRA conducted horrible experiments on your body and tortured you to break you. Your body changed and you gained magical power, at some point you escaped and hid from the world for a long time, but you were never the same mentally. Your powers helped you remain undetected and now they will keep you alive in a new world.",
+    "points": 8,
+    "traits": [  "FoxApostleSkilled", "FoxSchoolsElemental", "FoxSchoolsSpirit", "FoxSchoolsTransmutation", "INFRESIST", "PARAIMMUNE", "PSYCHOPATH" ],
+    "spells": [ 
+      { "id": "Fox_Transmutation_Essence_skilled", "level": 5 },
+      { "id": "Fox_Transmutation_EssenceTokenSkilled", "level": 5 },
+      { "id": "Fox_Elemental_Rockbolt", "level": 5 },
+      { "id": "Fox_Spirit_Onrush", "level": 5 }
+    ],
+    "skills": [
+      { "level": 2, "name": "melee" },
+      { "level": 1, "name": "cutting" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "bashing" },
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "unarmed" },
+      { "level": 1, "name": "throw" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 2, "name": "swimming" },
+      { "level": 3, "name": "tailor" },
+      { "level": 3, "name": "fabrication" },
+      { "level": 3, "name": "survival" },
+      { "level": 6, "name": "FoxEssSpellcasting" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "FoxLesserPocketDimension",
+          "FoxTinyCanteenDimension",
+          "FoxTinyCanteenDimension",
+          "Foxnoviceartificing",
+          "Foxlightorboff",
+          "Foxmagiclighter",
+          "needle_wood",
+          "mortar_pestle",
+          "cloak_fur",
+          "scarf_fur",
+          "gloves_fur",
+          "mocassins",
+          "socks_wool",
+          "spear_stone",
+          "fur_blanket",
+          "fur_rollmat"
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "camisole", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "FoxRichApostle",
+    "name": "Rich Apostle",
+    "description": "You were born into a wealthy family of the old world, and your family had enough money and power to be involved in XEDRA's experiments. As they experimented on humans to give them magical power, you used your family's influence to safely become an apostle. Then the world ended, that's rough. At least you have transmutation and elemental spells.",
+    "points": 12,
+    "traits": [ "FoxApostleSkilled", "FoxSchoolsElemental", "FoxSchoolsTransmutation" ],
+    "skills": [
+      { "level": 4, "name": "FoxEssSpellcasting" }
+    ],
+    "spells": [ 
+      { "id": "Fox_Transmutation_Essence_skilled", "level": 5 },
+      { "id": "Fox_Transmutation_EssenceTokenSkilled", "level": 5 },
+      { "id": "Fox_Elemental_Firebolt", "level": 5 },
+      { "id": "Fox_Elemental_Icebolt", "level": 5 },
+      { "id": "Fox_Elemental_Climatecontrol", "level": 2 }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "FoxLesserPocketDimension",
+          "Foxintermediateartificing",
+          "FoxGreaterCanteenDimension",
+          "FoxDeSGAesstechbasic",
+          "FoxDeSGAesstheorybasic",
+          "FoxDeSGAesstechadvanced",
+          "gasdiscount_platinum",
+          "gold_necklace",
+          "gold_watch"
+        ],
+        "entries": [
+          { "item": "FoxSeburoS12", "ammo-item": "Fox9mmSGA", "charges": 20 },
+          { "item": "FoxSGA9mmmag", "ammo-item": "Fox9mmSGA", "charges": 20 },
+          { "item": "FoxSGA9mmmag", "ammo-item": "Fox9mmSGA", "charges": 20 },
+          { "item": "Fox9mmSGA", "charges": 100 },
+          { "item": "Foxhumansoul", "charges": 20 },
+          { "item": "cash_card", "charges": 5000000 }
+        ]
+      },
+      "male": [ "boxer_shorts", "tux", "dress_shoes", "socks" ],
+      "female": [ "bra", "panties", "stockings", "gown", "heels" ]
+    }
+  },
+  {
+    "type": "profession",
     "id": "FoxReaper",
     "name": "Reaper Deserter",
     "description": "You were a poorly trained clone soldier that was sent to this dimension as part of a large invasion. That went awry when most of your platoon died on arrival, your neural chip fried and you ran for the hills. You won't be going home but you have a chance at freedom.",
@@ -384,5 +480,25 @@
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
     }
+  },
+  {
+    "type": "scenario",
+    "id": "FoxCave",
+    "name": "Cave",
+    "points": 0,
+    "description": "You find yourself in a cave.  The screaming and the moaning is fainter this far from civilization, but you'd better know what you're doing out here.",
+    "allowed_locs": [
+      "Foxsloc_cave"
+    ],
+    "start_name": "Cave",
+    "flags": [ "LONE_START" ]
+  },
+  {
+    "type": "start_location",
+    "id": "Foxsloc_cave",
+    "name": "Cave",
+    "terrain": [
+      { "om_terrain": "cave_underground", "om_terrain_match_type": "PREFIX" }
+    ]
   }
 ]
