@@ -104,7 +104,7 @@
     "looks_like": "material_rocksalt",
     "category": "spare_parts",
     "name": { "str": "powdered Essence" },
-    "description": "A fine powder made of essence, either ground up from crystals or refined and dried from liquid with sand to keep it physically bound, it needs a little more help to be used as an effective explosive.",
+    "description": "A fine powder made of essence, either ground up from crystals or refined and dried from liquid with sand to keep it physically bound, it can be used like gunpowder but needs a little more help to be used as something like RDX or in warheads.",
     "weight": "1 g",
     "volume": "250 ml",
     "price": "2 USD",
