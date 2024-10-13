@@ -80,7 +80,10 @@
         [ "acorns_cooked", 8 ],
         [ "oats", 16 ],
         [ "starch", 4 ],
-        [ "dry_rice", 20 ]
+        [ "dry_rice", 20 ],
+        [ "rice_bran", 20 ],
+        [ "pine_nuts", 16 ],
+        [ "Foxediblebark", 16 ]
       ]
     ]
   },
@@ -105,7 +108,10 @@
         [ "acorns_cooked", 80 ],
         [ "oats", 160 ],
         [ "starch", 40 ],
-        [ "dry_rice", 200 ]
+        [ "dry_rice", 200 ],
+        [ "rice_bran", 200 ],
+        [ "pine_nuts", 160 ],
+        [ "Foxediblebark", 160 ]
       ]
     ]
   },
