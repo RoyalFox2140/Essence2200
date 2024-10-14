@@ -327,6 +327,7 @@
     "spells": [ 
       { "id": "Fox_Transmutation_Essence_skilled", "level": 5 },
       { "id": "Fox_Transmutation_EssenceTokenSkilled", "level": 5 },
+      { "id": "Fox_Transmutation_Weaving2", "level": 1 },
       { "id": "Fox_Elemental_Rockbolt", "level": 5 },
       { "id": "Fox_Spirit_Onrush", "level": 5 }
     ],
@@ -383,6 +384,7 @@
     "spells": [ 
       { "id": "Fox_Transmutation_Essence_skilled", "level": 5 },
       { "id": "Fox_Transmutation_EssenceTokenSkilled", "level": 5 },
+      { "id": "Fox_Transmutation_Weaving2", "level": 1 },
       { "id": "Fox_Elemental_Firebolt", "level": 5 },
       { "id": "Fox_Elemental_Icebolt", "level": 5 },
       { "id": "Fox_Elemental_Climatecontrol", "level": 2 }

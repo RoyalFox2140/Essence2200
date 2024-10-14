@@ -523,6 +523,7 @@
     "spells_learned": [ 
       [ "Fox_Transmutation_Essence_expert", 10 ], 
       [ "Fox_Transmutation_EssenceTokenExpert", 10 ],
+      [ "Fox_Transmutation_Weaving3", 1 ],
       [ "Fox_Elemental_Firebolt", 20 ], 
       [ "Fox_Elemental_Icebolt", 20 ], 
       [ "Fox_Elemental_Lightningbolt", 20 ], 
@@ -562,6 +563,7 @@
       [ "Fox_Elemental_Lightningbolt", 20 ],
       [ "Fox_Elemental_Thunder", 10 ], 
       [ "Fox_Transmutation_Essence_skilled", 1 ],
+      [ "Fox_Transmutation_Weaving2", 1 ],
       [ "Fox_Pale_teleport", 1 ]
     ],
     "visibility": 0,
@@ -578,6 +580,7 @@
     "spells_learned": [ 
       [ "Fox_Transmutation_Essence_expert", 5 ], 
       [ "Fox_Transmutation_EssenceTokenExpert", 5 ],
+      [ "Fox_Transmutation_Weaving3", 1 ],
       [ "Fox_Elemental_Lightningbolt", 10 ],
       [ "Fox_Pale_portalnexus", 1 ], 
       [ "Fox_Pale_teleport", 1 ]
@@ -596,6 +599,7 @@
     "spells_learned": [ 
       [ "Fox_Transmutation_Essence_expert", 5 ], 
       [ "Fox_Transmutation_EssenceTokenExpert", 5 ],
+      [ "Fox_Transmutation_Weaving3", 1 ],
       [ "Fox_Pale_teleport", 1 ]
     ],
     "visibility": 0,
@@ -612,6 +616,7 @@
     "spells_learned": [ 
       [ "Fox_Transmutation_Essence_skilled", 10 ], 
       [ "Fox_Transmutation_EssenceTokenSkilled", 10 ],
+      [ "Fox_Transmutation_Weaving2", 1 ],
       [ "Fox_Pale_teleport", 1 ],
       [ "Fox_Pale_portalnexus", 1 ], 
       [ "Fox_Spirit_Darkvision", 10 ], 
