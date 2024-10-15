@@ -103,7 +103,7 @@
     "vision_night": 8,
     "harvest": "FoxImperial",
     "anger_triggers": [ "HURT", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
-    "starting_ammo": { "rock": 3 },
+    "starting_ammo": { "rock": 5 },
     "special_attacks": [
       [ "PARROT_AT_DANGER", 5 ],
       {
