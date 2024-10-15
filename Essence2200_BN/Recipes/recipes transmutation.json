@@ -1423,5 +1423,35 @@
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "rag", 20 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
+  },
+  {
+    "type": "recipe",
+    "result": "leather",
+    "id_suffix": "FoxTransmutation",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 5,
+    "time": "10 m",
+    "result_mult": 20,
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "cured_hide", 20 ] ] ],
+    "flags": ["NUTRIENT_OVERRIDE"]
+  },
+  {
+    "type": "recipe",
+    "result": "fur",
+    "id_suffix": "FoxTransmutation",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 5,
+    "time": "10 m",
+    "result_mult": 20,
+    "batch_time_factors": [ 80, 2 ],
+    "autolearn": true,
+    "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "cured_pelt", 20 ] ] ],
+    "flags": ["NUTRIENT_OVERRIDE"]
   }
 ]
