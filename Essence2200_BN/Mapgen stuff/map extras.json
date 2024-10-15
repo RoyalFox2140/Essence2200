@@ -159,6 +159,53 @@
     }
   },
   {
+    "id": "Foxmxsludgepit",
+    "type": "map_extra",
+    "name": { "str": "Sludge pit" },
+    "description": "A pit of sludge, excellent source of motordew.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "Foxmxsludgepit" },
+    "sym": "S",
+    "color": "brown",
+    "autonote": true
+  },
+  {
+    "method": "json",
+    "type": "mapgen",
+    "update_mapgen_id": "Foxmxsludgepit", 
+    "object": {
+      "rows": [
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaabbbbbbbbbbaaaaaaa",
+        "aaaaabbbbbbbbbbbbbbaaaaa",
+        "aaaabbbbbbbbbbbbbbbbaaaa",
+        "aaabbbbbbbbbbbbbbbbbbaaa",
+        "aaabbbbbbbbbbbbbbbbbbaaa",
+        "aabbbbbbbbbbbbbbbbbbbbaa",
+        "aabbbbbbbbbbbbbbbbbbbbaa",
+        "aabbbbbbbbbbbbbbbbbbbbaa",
+        "aabbbbbbbbbbbbbbbbbbbbaa",
+        "aabbbbbbbbbbbbbbbbbbbbaa",
+        "aabbbbbbbbbbbbbbbbbbbbaa",
+        "aabbbbbbbbbbbbbbbbbbbbaa",
+        "aabbbbbbbbbbbbbbbbbbbbaa",
+        "aabbbbbbbbbbbbbbbbbbbbaa",
+        "aabbbbbbbbbbbbbbbbbbbbaa",
+        "aabbbbbbbbbbbbbbbbbbbbaa",
+        "aabbbbbbbbbbbbbbbbbbbbaa",
+        "aaabbbbbbbbbbbbbbbbbbaaa",
+        "aaabbbbbbbbbbbbbbbbbbaaa",
+        "aaaabbbbbbbbbbbbbbbbaaaa",
+        "aaaaabbbbbbbbbbbbbbaaaaa",
+        "aaaaaaabbbbbbbbbbaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa"
+      ],
+      "terrain": { 
+        "a": [ "t_dirt" ], 
+        "b": [ "Foxt_sludgepit" ]
+      }
+    }
+  },
+  {
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "lab_finale_loot",
