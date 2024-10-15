@@ -34,6 +34,24 @@
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED" ],
     "death_drops": "FoxmonImperialdropslost",
     "death_function": [ "NORMAL" ],
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 4,
+        "move_cost": 100,
+        "fake_skills": [ [ "gun", 3 ], [ "throw", 3 ] ],
+        "gun_type": "FoxReaperrock",
+        "ammo_type": "rock",
+        "no_ammo_sound": "",
+        "require_targeting_player": false,
+        "ranges": [ [ 2, 10, "DEFAULT" ] ],
+        "fake_dex": 10,
+        "fake_per": 10,
+        "description": "The Reaper hastily throws a rock! What a loser!",
+        "no_crits": true
+      }
+    ],
+    "starting_ammo": { "rock": 10 },
     "flags": [
       "SEES",
       "HEARS",
@@ -47,6 +65,40 @@
       "PATH_AVOID_DANGER_2",
       "BLEED",
       "FILTHY"
+    ]
+  },
+  {
+    "id": "FoxReaperrock",
+    "weapon_category": [ "ELASTIC" ],
+    "type": "GUN",
+    "symbol": "%",
+    "color": "red",
+    "name": { "str": "reaper rock" },
+    "description": "These losers really do find any way to fight back, huh?.",
+    "material": [ "stone" ],
+    "ammo": [ "rock" ],
+    "ammo_effects": [ "NO_PENETRATE_OBSTACLES", "NEVER_MISFIRES" ],
+    "skill": "throw",
+    "clip_size": 1,
+    "ranged_damage": { "damage_type": "bash", "amount": 2 },
+    "weight": "1 g",
+    "volume": "1 ml",
+    "bashing": 1,
+    "to_hit": 1,
+    "loudness": 2,
+    "range": 10,
+    "dispersion": 120,
+    "durability": 8,
+    "flags": [
+      "PRIMITIVE_RANGED_WEAPON",
+      "NEVER_JAMS",
+      "NONCONDUCTIVE",
+      "NO_REPAIR",
+      "WATERPROOF_GUN",
+      "NO_SALVAGE",
+      "NO_UNLOAD",
+      "WATERPROOF_GUN",
+      "NEVER_JAMS"
     ]
   },
   {
