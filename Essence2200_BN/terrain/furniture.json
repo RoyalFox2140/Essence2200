@@ -423,7 +423,7 @@
     "type": "item_group",
     "subtype": "collection",
     "items": [
-      { "item": "Foxmotordewsludge", "count": [ 72, 88 ] }
+      { "item": "Foxmotordewsludge", "count": [ 82, 200 ] }
     ]
   },
   {
@@ -443,7 +443,7 @@
       "str_min": 500,
       "str_max": 900,
       "str_min_supported": 500,
-      "items": [ { "item": "Foxmotordewsludge", "count": [ 10, 20 ] } ]
+      "items": [ { "item": "Foxmotordewsludge", "count": [ 80, 200 ] } ]
     }
   },
   {
