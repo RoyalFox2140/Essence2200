@@ -35,7 +35,7 @@
     "time": "15 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 16000 ] ], [ [ "FoxEssencenormal", 4000 ], [ "FoxTinyPocketDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 16000 ] ], [ [ "FoxEssencenormal", 4000 ], [ "FoxTinyCanteenDimension", 1 ] ]
     ]
   },
   {
