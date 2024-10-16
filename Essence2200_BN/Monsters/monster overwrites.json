@@ -3,9 +3,239 @@
     "id": "mon_zombie_soldier",
     "copy-from": "mon_zombie_soldier",
     "type": "MONSTER",
+    "melee_skill": 6,
+    "melee_dice": 3,
     "armor_bash": 6,
     "armor_cut": 6,
-    "armor_bullet": 35,
     "//": "Kevlar vests are not inherently stabproof like stab vests are, their melee armor is lowered to police zeds."
+  },
+  {
+    "id": "mon_zombie_flamer",
+    "copy-from": "mon_zombie_flamer",
+    "type": "MONSTER",
+    "death_function": [ "NORMAL" ],
+    "armor_bash": 6,
+    "armor_cut": 6,
+    "delete": { "flags": [ "DRIPS_NAPALM" ] },
+    "//": "Removing the fireball death explosion until only ballistic and heat damage triggers it. Melee should not cause an explosion.  Kevlar IS NOT KNIFE PROOF, not unless the military spent the extra money for stab resistance."
+  },
+  {
+    "id": "mon_gas_zombie",
+    "copy-from": "mon_gas_zombie",
+    "type": "MONSTER",
+    "delete": { "flags": [ "DRIPS_GASOLINE" ] }
+  },
+  {
+    "id": "mon_zombie_soldier_blackops_1",
+    "copy-from": "mon_zombie_soldier_blackops_1",
+    "type": "MONSTER",
+    "melee_skill": 8,
+    "melee_dice": 4,
+    "delete": { "flags": [ "NIGHT_INVISIBILITY" ] },
+    "//": "Night invisibility doesn't take account perception, magic ability, detection goggles, or other such details and is best removed from the mod. Requiring thermal vision is not the answer."
+  },
+  {
+    "id": "mon_zombie_brute_ninja",
+    "copy-from": "mon_zombie_brute_ninja",
+    "type": "MONSTER",
+    "delete": { "flags": [ "NIGHT_INVISIBILITY" ] },
+    "//": "In the future I would redo the Night invisibility with lua, to allow high perception to negate it, and magic skill. Night vision or thermal would also negate it."
+  },
+  {
+    "id": "mon_zombie_shady",
+    "copy-from": "mon_zombie_shady",
+    "type": "MONSTER",
+    "delete": { "flags": [ "NIGHT_INVISIBILITY" ] }
+  },
+  {
+    "id": "mon_mothman",
+    "copy-from": "mon_mothman",
+    "type": "MONSTER",
+    "delete": { "flags": [ "NIGHT_INVISIBILITY" ] }
+  },
+  {
+    "id": "mon_amigara_horror",
+    "copy-from": "mon_amigara_horror",
+    "type": "MONSTER",
+    "delete": { "special_attacks": [ "FEAR_PARALYZE" ] },
+    "//": "This caused a death loop when 5 spawned. I'm removing it without question. I will never allow it back unless I can fix it to allow traits that block it."
+  },
+  {
+    "id": "mon_blood_sacrifice",
+    "copy-from": "mon_blood_sacrifice",
+    "type": "MONSTER",
+    "delete": { "special_attacks": [ "FEAR_PARALYZE" ] },
+    "//": "The fact it works at all against nightwalker is problematic and lore breaking, but also against any apostle is fairly problematic."
+  },
+  {
+    "id": "mon_flesh_angel",
+    "copy-from": "mon_flesh_angel",
+    "type": "MONSTER",
+    "delete": { "special_attacks": [ "FEAR_PARALYZE" ] }
+  },
+  {
+    "id": "mon_gozu",
+    "copy-from": "mon_gozu",
+    "type": "MONSTER",
+    "delete": { "special_attacks": [ "FEAR_PARALYZE" ] }
+  },
+  {
+    "id": "mon_feral_labsecurity_flashlight",
+    "copy-from": "mon_feral_labsecurity_flashlight",
+    "//": "Flashlights have batteries. They run out after a day at most Apocalypse was at least a week according to lore.",
+    "type": "MONSTER",
+    "luminance": 0
+  },
+  {
+    "id": "mon_feral_survivalist",
+    "copy-from": "mon_feral_survivalist",
+    "//": "Maybe they had more, and looted more, but a week is a week.",
+    "type": "MONSTER",
+    "luminance": 0
+  },
+  {
+    "id": "mon_feral_militia",
+    "copy-from": "mon_feral_militia",
+    "type": "MONSTER",
+    "luminance": 0
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "scratch",
+    "cooldown": 20,
+    "move_cost": 150,
+    "damage_max_instance": [ { "damage_type": "cut", "amount": 8,  "armor_penetration": 5 } ],
+    "body_parts": [
+      [ "foot_l", 2 ],
+      [ "foot_r", 2 ],
+      [ "leg_l", 3 ],
+      [ "leg_r", 3 ],
+      [ "hand_l", 2 ],
+      [ "hand_r", 2 ],
+      [ "head", 3 ],
+      [ "eyes", 2 ],
+      [ "mouth", 1 ],
+      [ "arm_l", 3 ],
+      [ "arm_r", 3 ],
+      [ "torso", 4 ]
+    ],
+    "hit_dmg_u": "The %1$s claws at you!",
+    "hit_dmg_npc": "The %1$s claws at <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to claw at you, but fails to.",
+    "no_dmg_msg_npc": "The %1$s tries to claw <npcname>, but fails to."
+  },
+  {
+    "id": "mon_zombie",
+    "copy-from": "mon_zombie",
+    "type": "MONSTER",
+    "melee_skill": 6,
+    "melee_dice": 4,
+    "grab_strength": 3,
+    "special_attacks": [ 
+    {
+      "type": "bite",
+      "move_cost": 120,
+      "cooldown": 5,
+      "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
+    },
+      [ "GRAB", 7 ], 
+      [ "scratch", 20 ] 
+    ]
+  },
+  {
+    "id": "mon_zombie_cop",
+    "copy-from": "mon_zombie_cop",
+    "type": "MONSTER",
+    "melee_skill": 7,
+    "melee_dice": 4,
+    "grab_strength": 3
+  },
+  {
+    "id": "mon_zombie_crawler",
+    "copy-from": "mon_zombie_crawler",
+    "type": "MONSTER",
+    "melee_skill": 3,
+    "melee_dice": 3,
+    "special_attacks": [ 
+    {
+      "type": "bite",
+      "move_cost": 120,
+      "cooldown": 5,
+      "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
+    },
+      [ "scratch", 20 ] 
+    ]
+  },
+  {
+    "id": "mon_zombie_fat",
+    "copy-from": "mon_zombie_fat",
+    "type": "MONSTER",
+    "melee_skill": 6,
+    "melee_dice": 3,
+    "grab_strength": 3,
+    "special_attacks": [ 
+    {
+      "type": "bite",
+      "move_cost": 120,
+      "cooldown": 5,
+      "min_mul": 0.75,
+      "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
+    },
+    [ "GRAB", 7 ], 
+    [ "scratch", 20 ] 
+    ]
+  },
+  {
+    "id": "mon_zombie_fireman",
+    "copy-from": "mon_zombie_fireman",
+    "type": "MONSTER",
+    "melee_dice": 4,
+    "grab_strength": 4,
+    "special_attacks": [
+    [ "GRAB", 7 ], 
+    [ "scratch", 20 ] 
+    ]
+  },
+  {
+    "id": "mon_zombie_hazmat",
+    "copy-from": "mon_zombie_hazmat",
+    "type": "MONSTER",
+    "melee_skill": 4,
+    "melee_dice": 4,
+    "grab_strength": 3
+  },
+  {
+    "id": "mon_zombie_rot",
+    "copy-from": "mon_zombie_rot",
+    "type": "MONSTER",
+    "melee_skill": 4,
+    "melee_dice": 3
+  },
+  {
+    "id": "mon_zombie_swat",
+    "copy-from": "mon_zombie_swat",
+    "type": "MONSTER",
+    "melee_dice": 3,
+    "grab_strength": 3
+  },
+  {
+    "id": "mon_zombie_tough",
+    "copy-from": "mon_zombie_tough",
+    "type": "MONSTER",
+    "melee_skill": 6,
+    "melee_dice": 5,
+    "grab_strength": 3,
+    "special_attacks": [ 
+    {
+      "type": "bite",
+      "move_cost": 120,
+      "cooldown": 5,
+      "min_mul": 0.7,
+      "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
+    },
+    [ "GRAB", 7 ], 
+    [ "scratch", 20 ] 
+    ]
   }
 ]
