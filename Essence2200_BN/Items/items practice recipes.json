@@ -122,5 +122,45 @@
     "intelligence": 444,
     "time": "400 h",
     "fun": -4444
+  },
+  {
+    "id": "FoxTrainingDummy",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "Strawman" },
+    "description": "A strawman you've yet to unleash upon the world, it awaits you to deploy it somewhere so that you can train your weapon skills on it.",
+    "weight": "40000 g",
+    "volume": "20000 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "use_action": {
+    "type": "place_monster",
+    "monster_id": "FoxTrainingDummy",
+    "difficulty": 400,
+    "hostile_msg": "Holy shit, that thing looks pissed!",
+    "friendly_msg": "You talked that strawman into being nice for a change.",
+    "moves": 100 
+},
+    "to_hit": -9,
+    "bashing": 1,
+    "material": "steel",
+    "symbol": "x",
+    "color": "white"
+  },
+  {
+    "id": "FoxTrainingDummyBeaten",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "Strawman (beaten)" },
+    "description": "A strawman which was utterly thrashed. You'll have to fix it.",
+    "weight": "40000 g",
+    "volume": "20000 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -9,
+    "bashing": 1,
+    "material": "steel",
+    "symbol": "x",
+    "color": "white"
   }
 ]

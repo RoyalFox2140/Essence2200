@@ -1,0 +1,27 @@
+[
+  {
+    "id": "FoxTrainingDummy",
+    "type": "MONSTER",
+    "name": { "str": "Strawman" },
+    "description": "A big jackass you built to train combat skills on, it can regenerate health slowly but has no armor and will be destroyed if you hit it too hard. Not to be confused with strawman arguments, which are indestructible forms of jackassery.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 400,
+    "speed": 1,
+    "material": [ "flesh" ],
+    "symbol": "X",
+    "color": "white",
+    "aggression": -100,
+    "morale": -100,
+    "melee_cut": 0,
+    "vision_day": 1,
+    "harvest": "exempt",
+    "death_drops": "FoxmonImperialdropslost",
+    "death_function": [ "NORMAL" ],
+    "regenerates": 20,
+    "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -1 } ],
+    "flags": [ "IMMOBILE", "NOT_HALLUCINATION" ]
+  }
+]
