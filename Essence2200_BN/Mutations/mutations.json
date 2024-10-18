@@ -635,5 +635,17 @@
     "purifiable": false,
     "visibility": 0,
     "ugliness": 0
+  },
+  {
+    "type": "mutation",
+    "id": "FoxNOTashigaru",
+    "name": { "str": "NOT AN Ashigaru" },
+    "points": 0,
+    "description": "You're just some random person they let into the bunker but you haven't agreed to be a worthwhile person to talk to. Granted by the bunker guard to non-SGA starts, This lets you get refusal dialogue, is required to get the dialogue to become an Ashigaru, and should not be player visible or I'll be pissed. If you intentionally tamper with this in debug you need to have it to become an Ashigaru.",
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "visibility": 0,
+    "ugliness": 0
   }
 ]

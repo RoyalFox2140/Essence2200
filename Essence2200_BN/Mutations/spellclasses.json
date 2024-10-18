@@ -12,7 +12,8 @@
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1], [ "Fox_Transmutation_EssenceToken", 1] ],
     "flags": [ "PSYCHOPATH" ],
     "anger_relations": [ [ "FoxImperial", 1 ] ],
-    "mana_modifier": 4500,
+    "passive_mods": { "int_mod": 1 },
+    "mana_modifier": 4400,
     "mana_regen_multiplier": 0.33
   },
   {
@@ -29,7 +30,8 @@
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1], [ "Fox_Transmutation_EssenceToken", 1] ],
     "flags": [ "PSYCHOPATH" ],
     "anger_relations": [ [ "FoxImperial", 5 ] ],
-    "mana_modifier": 9000,
+    "passive_mods": { "int_mod": 2 },
+    "mana_modifier": 8800,
     "mana_regen_multiplier": 0.5
   },
   {
@@ -46,7 +48,8 @@
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1], [ "Fox_Transmutation_EssenceToken", 1] ],
     "flags": [ "PSYCHOPATH" ],
     "anger_relations": [ [ "FoxImperial", 10 ] ],
-    "mana_modifier": 15000,
+    "passive_mods": { "int_mod": 3 },
+    "mana_modifier": 14700,
     "mana_regen_multiplier": 0.67
   },
   {
@@ -61,8 +64,9 @@
     "prereqs": [ "FoxApostleExpert" ],
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1], [ "Fox_Transmutation_EssenceToken", 1] ],
     "flags": [ "PSYCHOPATH" ],
+    "passive_mods": { "int_mod": 4 },
     "anger_relations": [ [ "FoxImperial", 5000 ] ],
-    "mana_modifier": 30000
+    "mana_modifier": 29600
   },
   {
     "type": "mutation",
