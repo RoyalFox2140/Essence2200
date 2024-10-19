@@ -566,6 +566,7 @@
       [ "LOCKPICK", 100 ],
       [ "GRIND", 4 ],
       [ "PRESSURIZATION", 4 ],
+      [ "HOSE", 3 ],
       [ "LIFT", 800 ],
       [ "JACK", 800 ],
       [ "SMOKE_PIPE", 1 ],
