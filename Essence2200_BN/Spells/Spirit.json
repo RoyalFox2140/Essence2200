@@ -26,7 +26,7 @@
     "id": "Fox_Spirit_Paininhibitor",
     "type": "SPELL",
     "name": "S: Pain inhibitor",
-    "description": "You use your psionic powers to trick the target mind into thinking they aren't in pain, whether they're wounded or not.",
+    "description": "You use your psionic powers to trick the target mind into thinking they aren't in as much pain as they used to be, whether they're wounded or not. Higher levels remove more pain from victims.",
     "valid_targets": [ "self", "ally" ],
     "flags": [ "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
     "effect": "recover_energy",
