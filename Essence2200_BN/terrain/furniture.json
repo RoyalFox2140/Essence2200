@@ -1177,5 +1177,44 @@
     "pre_note": "Will only work if constructed in a building with an electric grid.",
     "pre_special": "check_empty",
     "post_furniture": "Foxf_storagebattery"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxfpreppedcorpsepit",
+    "looks_like": "f_leather_tarp",
+    "name": "covered corpse pit",
+    "symbol": "U",
+    "description": "A corpse pit covered with a leather tarp, now you're ready to do some magic.",
+    "color": "light_red",
+    "move_cost_mod": 0,
+    "required_str": 3,
+    "crafting_pseudo_item": "Foxcorpsepititem",
+    "flags": [ "TRANSPARENT", "EASY_DECONSTRUCT" ],
+    "deconstruct": {
+      "items": [ { "item": "leather_tarp", "count": 1 } ]
+    },
+    "bash": {
+      "str_min": 5,
+      "str_max": 10,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "leather_tarp", "count": [ 1, 1 ] } ]
+    }
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconstr_coveredcorpsepit",
+    "name": "Cover corpse pit with tarp"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_coveredcorpsepit",
+    "group": "Foxconstr_coveredcorpsepit",
+    "category": "CONSTRUCT",
+    "time": "1 m",
+    "components": [[ [ "leather_tarp", 1 ] ] ],
+    "pre_note": "Can be deconstructed without tools.",
+    "pre_terrain": "t_pit_corpsed",
+    "post_furniture": "Foxfpreppedcorpsepit"
   }
 ]

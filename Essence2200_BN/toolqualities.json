@@ -26,6 +26,11 @@
   },
   {
     "type": "tool_quality",
+    "id": "FoxCorpsepit",
+    "name": { "str": "Covered corpse pit" }
+  },
+  {
+    "type": "tool_quality",
     "id": "FoxRavensclawtool",
     "name": { "str": "Raven's Claw" }
   },

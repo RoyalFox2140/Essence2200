@@ -1375,6 +1375,7 @@
     "difficulty": 8,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
+    "qualities": [ { "id": "FoxCorpsepit", "level": 1 } ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "FoxEssencenormal", 20000 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]

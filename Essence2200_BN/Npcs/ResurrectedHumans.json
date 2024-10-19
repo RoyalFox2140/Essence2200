@@ -1,0 +1,32 @@
+[
+  {
+    "type": "npc_class",
+    "id": "Fox_ResurrectedVictim",
+    "name": { "str": "Victim" },
+    "job_description": "This loser died, and you brought them back.",
+    "traits": [ { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "common": false,
+    "bonus_str": { "rng": [ -4, 6 ] },
+    "bonus_dex": { "rng": [ -4, 6 ] },
+    "bonus_per": { "rng": [ -4, 6 ] },
+    "bonus_int": { "rng": [ -4, 6 ] },
+    "skills": [ { "skill": "ALL", "level": { "sum": [ { "dice": [ 1, 1 ] }, { "constant": -30 } ] } } ],
+    "worn_override": "Fox_Victimsdontownthings",
+    "carry_override": "Fox_Victimsdontownthings",
+    "weapon_override": "Fox_Victimsdontownthings"
+  },
+  {
+    "type": "item_group",
+    "id": "Fox_Victimsdontownthings"
+  },
+  {
+    "type": "npc",
+    "id": "Fox_ResurrectedVictim",
+    "name_suffix": "Survivor",
+    "class": "Fox_ResurrectedVictim",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "Fox_Talk_Victim",
+    "faction": "no_faction"
+  }
+]

@@ -226,5 +226,53 @@
         ] }
       }
     }
+  },
+  {
+    "id": "FoxmxTESTINZONE",
+    "type": "map_extra",
+    "name": { "str": "TESTIN ZONE" },
+    "description": "LETS GET TESTIN.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "FoxmxTESTINZONE" },
+    "sym": "S",
+    "color": "brown",
+    "autonote": true
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "FoxmxTESTINZONE", 
+    "object": {
+      "rows": [
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaabaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaaaaaaaaaa"
+      ],
+      "terrain": { 
+        "a": [ "t_dirt" ],
+        "b": [ "t_dirt" ]
+      },
+      "npcs": { "b": { "class": "FoxSGA_Undertaker" } }
+    }
   }
 ]

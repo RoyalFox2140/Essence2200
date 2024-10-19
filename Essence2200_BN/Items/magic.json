@@ -1956,5 +1956,47 @@
         "Fox_Prayer_INT"
       ]
     }
+  },
+  {
+    "id": "FoxResurrectedHuman",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "Resurrected Human" },
+    "description": "A person you brought back to life.",
+    "weight": "40000 g",
+    "volume": "65000 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "use_action": {
+        "type": "place_npc",
+        "summon_msg": "You put the person down and wake them up.",
+        "npc_class_id": "Fox_ResurrectedVictim",
+        "moves": 100 
+    },
+    "to_hit": -9,
+    "bashing": 1,
+    "material": "steel",
+    "symbol": "x",
+    "color": "white"
+  },
+  {
+    "id": "Foxcorpsepititem",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "corpse pit fake item" },
+    "description": "Having one of these is a bug or you cheated it in. You can only find it at a corpse pit.",
+    "looks_like": "toolbox",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -2,
+    "bashing": 8,
+    "material": "FoxImperialSteel",
+    "symbol": ";",
+    "color": "red",
+    "qualities": [
+      [ "FoxCorpsepit", 1 ]
+    ]
   }
 ]

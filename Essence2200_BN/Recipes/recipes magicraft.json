@@ -445,5 +445,20 @@
       [ [ "Foxhumansoul", 10 ] ],
       [ [ "FoxLesserPocketDimension", 1 ] ]
     ]
+  },
+  {
+    "result": "FoxResurrectedHuman",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": true,
+    "qualities": [ { "id": "FoxCorpsepit", "level": 1 } ],
+    "components": [
+      [ [ "FoxEssencenormal", 20000 ] ],
+      [ [ "Foxhumansoul", 1 ] ]
+    ]
   }
 ]

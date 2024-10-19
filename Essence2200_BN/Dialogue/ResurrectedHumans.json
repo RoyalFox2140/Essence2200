@@ -1,0 +1,23 @@
+[
+  {
+    "type": "talk_topic",
+    "id": "Fox_Talk_Victim",
+    "dynamic_line": [
+      "Huh, wuh? How long was I..."
+    ],
+    "responses": [
+      {
+        "text": "It's the apocalypse, I brought you back to life. Let's get out of here. I can take you somewhere safe.",
+        "topic": "Fox_Talk_VictimFollow",
+        "effect": "follow"
+      },
+      { "text": "It's the apocalypse, I brought you back to life. Have a good one, I'm leaving.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "Fox_Talk_VictimFollow",
+    "dynamic_line": "Okay. Please give me clothes.",
+    "responses": [ { "text": "Let's get moving.", "topic": "TALK_DONE" } ]
+  }
+]
