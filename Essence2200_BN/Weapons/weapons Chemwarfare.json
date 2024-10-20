@@ -19,7 +19,6 @@
         "ranged_damage": { "damage_type": "heat", "amount": 10 },
         "range": 12,
         "dispersion": 150,
-        "aim_speed": 1,
         "durability": 10,
         "loudness": 3,
         "reload": 3,
