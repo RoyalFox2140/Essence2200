@@ -516,5 +516,20 @@
       [ [ "Foxtargas", 250 ] ],
       [ [ "FoxTaroline", 250 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "Fox_CWCfueltank",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "1 h",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "blacksmithing_standard", 10 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 5 ] ] ],
+    "components": [ [ [ "Foximperialsteelchunk", 2 ] ] ]
   }
 ]

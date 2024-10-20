@@ -129,8 +129,8 @@
     "symbol": "=",
     "color": "pink_magenta",
     "ammo_type": "FoxEssencenormal",
-    "damage": { "damage_type": "heat", "amount": 10, "armor_penetration": 10 },
-    "range": 4,
+    "damage": { "damage_type": "heat", "amount": 30, "armor_penetration": 30 },
+    "range": 6,
     "effects": [ "FLAME", "STREAM", "INCENDIARY", "NEVER_MISFIRES" ],
     "fuel": {
       "energy": 75,
@@ -162,7 +162,7 @@
     "symbol": "=",
     "color": "light_red",
     "ammo_type": "FoxEssencenormal",
-    "damage": { "damage_type": "heat", "amount": 6, "armor_penetration": 5 },
+    "damage": { "damage_type": "heat", "amount": 18, "armor_penetration": 30 },
     "range": 4,
     "effects": [ "FLAME", "STREAM", "INCENDIARY", "NEVER_MISFIRES" ],
     "fuel": {
@@ -189,7 +189,7 @@
     "symbol": "=",
     "color": "magenta",
     "ammo_type": "FoxEssencenormal",
-    "damage": { "damage_type": "heat", "amount": 30, "armor_penetration": 30 },
+    "damage": { "damage_type": "heat", "amount": 45, "armor_penetration": 30 },
     "range": 15,
     "effects": [ "FLAME", "STREAM", "INCENDIARY", "NEVER_MISFIRES" ],
     "fuel": {

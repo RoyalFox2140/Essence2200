@@ -332,7 +332,7 @@
     "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 8 ], [ "electronics", 6 ], [ "mechanics", 4 ] ],
     "difficulty": 5,
     "time": "8 h",
-    "book_learn": [ [ "FoxmanualSGAgear", 5 ], [ "FoxDeSGAseburo", 5 ] ],
+    "book_learn": [ [ "FoxmanualSGAgear", 5 ], [ "FoxDeSGAseburo", 5 ], [ "FoxDeSGAkawakami", 6 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "FoxSGAmechparts", 5 ] ],
@@ -554,6 +554,29 @@
       [ [ "Foximpballisticparts", 6 ] ],
       [ [ "Foximpgrease", 1 ] ],
       [ [ "2x4", 1 ] ]
+    ]
+  },
+  {
+    "result": "Fox_CWCflamer",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "mechanics", 2 ] ],
+    "difficulty": 2,
+    "time": "4 h",
+    "decomp_learn": 2,
+    "book_learn": [ [ "FoxDeIed", 2 ], [ "FoxDeSGAkawakami", 2 ] ],
+    "using": [ [ "soldering_standard", 4 ] ],
+    "tools": [ [ [ "Foxmachiningstation", 15 ] ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 5 ] ],
+      [ [ "Foximpballisticparts", 2 ] ],
+      [ [ "Foximpelectronics", 2 ] ],
+      [ [ "Foxtarrubber", 2 ] ],
+      [ [ "Foximperialsteelchunk", 4 ] ],
+      [ [ "Foximpgrease", 1 ] ]
     ]
   }
 ]
