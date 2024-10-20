@@ -465,7 +465,8 @@
       [ [ "receiver", 1 ] ],
       [ [ "amplifier", 1 ] ],
       [ [ "FoxSGAelectronics", 5 ] ],
-      [ [ "FoxEssencenormal", 500 ] ],
+      [ [ "FoxEssencenormal", 250 ] ],
+      [ [ "FoxessenceRDX", 250 ] ],
       [ [ "FoxAdamantinechunk", 4 ] ],
       [ [ "FoxShadowsteelchunk", 1 ] ]
     ]
@@ -487,7 +488,8 @@
       [ [ "receiver", 1 ] ],
       [ [ "amplifier", 1 ] ],
       [ [ "FoxSGAelectronics", 5 ] ],
-      [ [ "FoxEssencenormal", 750 ] ],
+      [ [ "FoxEssencenormal", 250 ] ],
+      [ [ "FoxessenceRDX", 500 ] ],
       [ [ "FoxAdamantinechunk", 4 ] ]
     ]
   },
@@ -508,7 +510,8 @@
       [ [ "receiver", 1 ] ],
       [ [ "amplifier", 1 ] ],
       [ [ "FoxSGAelectronics", 5 ] ],
-      [ [ "FoxEssencenormal", 500 ] ],
+      [ [ "FoxEssencenormal", 250 ] ],
+      [ [ "FoxessenceRDX", 100 ] ],
       [ [ "FoxAdamantinechunk", 4 ] ],
       [ [ "Foxtargas", 250 ] ],
       [ [ "FoxTaroline", 250 ] ]
