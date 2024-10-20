@@ -1,11 +1,12 @@
 [
     {
         "id": "Fox_CWCflamer",
-        "copy-from": "flamethrower_base",
         "type": "GUN",
         "name": { "str": "CWC Assault Flamer" },
         "weapon_category": [ "FLAMETHROWERS" ],
         "looks_like": "rm451_flamethrower",
+        "symbol": "#",
+        "color": "light_gray",
         "reload_noise": "slosh.",
         "description": "Designed for dangerous mutants, this flamethrower is used by the Chemical Corps to incinerate everything and everyone they decide are mutants. Accepts Taroline and other essence-based fuels.",
         "weight": "2000 g",
