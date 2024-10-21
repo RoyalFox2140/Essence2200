@@ -290,12 +290,12 @@
     "name": { "str": "acid lemon" },
     "category": "chems",
     "description": "Though it may look like a lemon, these fruits contain taroline and are thus a naturally-occuring combustible fuel that very angry individuals have used to burn homes and military equipment with.",
-    "weight": "200 g",
+    "weight": "400 g",
     "to_hit": -3,
     "color": "light_red",
     "symbol": ",",
     "material": [ "veggy" ],
-    "volume": "250 ml",
+    "volume": "500 ml",
     "price": "2 USD",
      "price_postapoc": "2 USD"
   }
