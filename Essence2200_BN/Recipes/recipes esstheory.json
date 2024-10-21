@@ -417,8 +417,8 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
     "autolearn": true,
-    "qualities": [ { "id": "BOIL", "level": 2 }, { "id": "DISTILL", "level": 2 } ],
-    "tools": [ [ [ "water_boiling_heat", 21, "LIST" ] ] ],
+    "qualities": [ { "id": "BOIL", "level": 2 }, { "id": "CHEM", "level": 2 } ],
+    "tools": [ [ [ "water_boiling_heat", 10, "LIST" ] ] ],
     "components": [ [ [ "FoxTaroline", 200 ] ], [ [ "Foxstimgrass", 1 ] ] ]
   }
 ]
