@@ -346,7 +346,7 @@
     "batch_time_factors": [ 75, 4 ],
     "autolearn": true,
     "qualities": [ { "id": "COOK", "level": 3 }, { "id": "CONTAIN", "level": 1 } ],
-    "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "food_processor", 2 ] ] ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "food_processor", 2 ], [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ] ] ],
     "components": [ 
       [ [ "Foxcairnroot", 1 ] ],
       [ [ "water_clean", 1 ] ] ]
