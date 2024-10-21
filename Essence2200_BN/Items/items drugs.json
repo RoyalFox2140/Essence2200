@@ -58,7 +58,14 @@
         "use_action": {
           "type": "consume_drug",
           "activation_message": "You inject a med-shot.",
-          "effects": [ { "id": "Foxmedshot", "duration": "300 s" } ],
+          "effects": [
+             { "id": "Foxmedshot", "duration": "300 s", "bp": "torso" },
+             { "id": "Foxmedshot", "duration": "300 s", "bp": "head" },
+             { "id": "Foxmedshot", "duration": "300 s", "bp": "arm_l" },
+             { "id": "Foxmedshot", "duration": "300 s", "bp": "arm_r" },
+             { "id": "Foxmedshot", "duration": "300 s", "bp": "leg_l" },
+             { "id": "Foxmedshot", "duration": "300 s", "bp": "leg_r" }
+            ],
           "tools_needed": { "Foxautoinjector": 1 },
           "moves": 100
         }
@@ -249,5 +256,42 @@
         "container": "bottle_plastic_small",
         "flags": [ "NO_INGEST" ],
         "use_action": { "type": "heal", "bandages_power": 5, "disinfectant_power": 5, "bleed": 0.9, "bite": 0.95, "move_cost": 100 }
+      },
+      {
+        "id": "Foxswampjelly",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "name": { "str_sp": "Swamp jelly" },
+        "looks_like": "cattail_jelly",
+        "description": "An old remedy from the swamps, the power of jellyweed and brineweed cleanly disinfects wounds and can stop bleeding. It's not useful as proper bandages or disinfectant.",
+        "weight": "25 g",
+        "volume": "250 ml",
+        "price": "2 USD",
+        "price_postapoc": "2 USD",
+        "charges": 10,
+        "material": "powder",
+        "symbol": "!",
+        "color": "white",
+        "flags": [ "NO_INGEST" ],
+        "use_action": { "type": "heal", "bandages_power": 1, "disinfectant_power": 3, "bleed": 0.6, "bite": 0.80, "move_cost": 200 }
+      },
+      {
+        "id": "Foxswampbandages",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "looks_like": "bandages",
+        "name": { "str": "Swamp bandage" },
+        "description": "Best you can do without tape, these simple bandages are made with just rags and swamp jelly, and can reliably stop bleeding but take more skill to use.",
+        "weight": "60 g",
+        "volume": "250 ml",
+        "price": "2 USD",
+        "price_postapoc": "2 USD",
+        "material": "cotton",
+        "symbol": "!",
+        "color": "white",
+        "charges": 3,
+        "stack_size": 6,
+        "flags": [ "NO_INGEST" ],
+        "use_action": { "type": "heal", "bandages_power": 3, "bleed": 0.9, "move_cost": 400 }
       }
 ]

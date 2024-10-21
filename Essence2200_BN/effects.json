@@ -226,13 +226,13 @@
     "type": "effect_type",
     "id": "Foxmedshot",
     "name": [ "Med-shot" ],
-    "desc": [ "Your body is being healed." ],
+    "desc": [ "Your body is being healed by the med-shot, it will remove pain and damage on each body part. Your body will report that it hurts greatly while the healing process takes effect, do not be alarmed." ],
     "rating": "good",
     "base_mods": {
-      "hurt_min": [ -5 ],
-      "hurt_tick": [ 5 ],
-      "pain_min": [ -5 ],
-      "pain_tick": [ 10 ]
+      "hurt_min": [ -4 ],
+      "hurt_tick": [ 60 ],
+      "pain_min": [ -2 ],
+      "pain_tick": [ 30 ]
     }
   },
   {
