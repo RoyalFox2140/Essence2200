@@ -349,8 +349,9 @@
   {
     "type": "recipe",
     "result": "FoxTaroline",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_DRINKS",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxitsaLEMON",
     "skill_used": "cooking",
     "difficulty": 1,
     "charges": 150,
