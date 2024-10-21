@@ -189,6 +189,7 @@
     "difficulty": 1,
     "time": "1 m",
     "book_learn": [ [ "FoxmanualSGAgear", 1 ] ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
     "components": [
       [ [ "paper", 1 ] ]
     ]
