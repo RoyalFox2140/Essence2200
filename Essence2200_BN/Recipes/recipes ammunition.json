@@ -444,7 +444,7 @@
     "time": "20 m",
     "batch_time_factors": [ 80, 5 ],
     "autolearn": true,
-    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
+    "qualities": [ { "id": "CHEM", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "food_processor", 5 ] ] ],
     "components": [ [ [ "Foxbangtailstalk", 1 ] ] ]
   },
@@ -461,7 +461,7 @@
     "time": "40 m",
     "batch_time_factors": [ 80, 5 ],
     "autolearn": true,
-    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
+    "qualities": [ { "id": "CHEM", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ] ] ],
     "components": [ [ [ "Foxbangtailstalk", 1 ] ] ]
   },
