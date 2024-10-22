@@ -255,7 +255,7 @@
       "time": "40 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 16 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 8 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -269,7 +269,7 @@
       "time": "40 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 16 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 8 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -283,7 +283,7 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -297,7 +297,7 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -311,7 +311,7 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -325,7 +325,7 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -339,7 +339,7 @@
       "time": "35 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -352,7 +352,7 @@
       "difficulty": 4,
       "time": "40 m",
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -366,7 +366,7 @@
       "time": "10 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -380,7 +380,7 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -394,7 +394,7 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -408,7 +408,7 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -422,7 +422,7 @@
       "time": "45 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 3 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -435,7 +435,7 @@
       "difficulty": 4,
       "time": "30 m",
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 10 ] ],
+      "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -449,7 +449,7 @@
       "time": "40 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 20 ] ],
+      "using": [ [ "Foxsewing_Mage", 14 ] ],
       "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 7 ] ], [ [ "FoxAdamantinechunk", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -464,7 +464,7 @@
       "time": "40 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 3 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -478,7 +478,7 @@
       "time": "2 h",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 40 ] ],
+      "using": [ [ "Foxsewing_Mage", 50 ] ],
       "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 25 ] ], [ [ "FoxAdamantinechunk", 8 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -506,7 +506,7 @@
       "time": "4 h 30 m",
       "reversible": true,
       "book_learn": [ [ "FoxmanualSGAgear", 2 ], [ "FoxDeSGAseburo", 2 ] ],
-      "using": [ [ "Foxsewing_Mage", 8 ] ],
+      "using": [ [ "Foxsewing_Mage", 60 ] ],
       "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
       "components": [ 
        [ [ "FoxBallisticWeaveSheet", 30 ] ],
@@ -527,7 +527,7 @@
       "time": "4 h 30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 10 ] ],
+      "using": [ [ "Foxsewing_Mage", 12 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 6 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
@@ -541,7 +541,7 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_Mage", 3 ] ],
+      "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     }
 ]
