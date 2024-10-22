@@ -4,8 +4,8 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "item": "Foximpwastelandsuit", "prob": 75, "damage": [ 0, 2 ] },
-      { "item": "Foximpwastelandpack", "prob": 50, "damage": [ 0, 2 ] },
+      { "item": "FoxBallisticWeavescrap", "count": [ 50, 100 ] },
+      { "item": "Foximpgasmask", "prob": 80, "damage": [ 2, 4 ] },
       { "group": "Foxreapergear", "prob": 90 },
       { "item": "Foximperialrationgood", "prob": 75 },
       { "item": "Foximperialrationbad", "prob": 99 },
@@ -22,8 +22,7 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "item": "Foximpwastelandsuit", "prob": 75, "damage": [ 0, 2 ] },
-      { "item": "Foximpwastelandpack", "prob": 50, "damage": [ 0, 2 ] },
+      { "item": "FoxBallisticWeavescrap", "count": [ 20, 50 ] },
       { "item": "Foximpetool" },
       { "item": "Foximperialrationbad", "prob": 99 },
       { "item": "water_clean", "container-item": "canteen", "prob": 90, "charges": [ 0, 6 ] }
@@ -34,8 +33,8 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "item": "Foximpwastelandsuit", "prob": 75, "damage": [ 0, 2 ] },
-      { "item": "Foximpwastelandpack", "prob": 50, "damage": [ 0, 2 ] },
+      { "item": "FoxBallisticWeavescrap", "count": [ 50, 100 ] },
+      { "item": "Foximpgasmask", "prob": 80, "damage": [ 2, 4 ] },
       { "group": "Foxreapergear", "prob": 90 },
       { "item": "Foximperialrationgood", "prob": 75 },
       { "item": "Foximperialrationbad", "prob": 99 },
@@ -52,11 +51,9 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "item": "Foximpwastelandsuit", "prob": 75, "damage": [ 0, 2 ] },
-      { "item": "Foximpwastelandpack", "prob": 50, "damage": [ 0, 2 ] },
+      { "item": "FoxBallisticWeavescrap", "count": [ 10, 20 ] },
       { "group": "Foxreapergear", "prob": 90 },
       { "item": "Foximperialrationbad", "prob": 99 },
-      { "item": "adv_UPS_off", "prob": 25 },
       { "item": "water_clean", "container-item": "canteen", "prob": 80, "charges": [ 0, 6 ] },
       { "group": "Foxdropsimpbattery", "prob": 30 },
       { "group": "infantry_medical_gear", "prob": 30 },
@@ -68,12 +65,10 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "item": "Foximpwastelandsuit", "prob": 75, "damage": [ 0, 2 ] },
-      { "item": "Foximpwastelandpack", "prob": 50, "damage": [ 0, 2 ] },
+      { "item": "FoxBallisticWeavescrap", "count": [ 30, 40 ] },
       { "group": "Foxreapergear", "prob": 90 },
       { "item": "Foximperialrationgood", "prob": 75 },
       { "item": "Foximperialrationbad", "prob": 99 },
-      { "item": "adv_UPS_off", "prob": 45 },
       { "item": "water_clean", "container-item": "canteen", "prob": 90, "charges": [ 0, 6 ] },
       { "group": "Foxdropsimpbattery", "prob": 30 },
       { "group": "infantry_medical_gear", "prob": 30 },
@@ -87,7 +82,6 @@
     "subtype": "collection",
     "entries": [
       { "item": "Foximpetool", "prob": 95 },
-      { "item": "Foximpgasmask", "prob": 100, "damage": [ 1, 3 ] },
       { "item": "two_way_radio", "prob": 90 },
       { "item": "binoculars", "prob": 40 },
       { "item": "sheath", "contents-item": "Foximpcombatknife", "prob": 80 }

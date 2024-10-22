@@ -2,7 +2,7 @@
   {
     "id": "Foxhoodie",
     "type": "ARMOR",
-    "name": { "str": "Ballistic Weave Hoodie" },
+    "name": { "str": "Enchanted Hoodie" },
     "description": "A hoodie made from ballistic weave. Sometimes style is more important than practicality, activate to store tools.",
     "weight": "240 g",
     "volume": "3 L",
@@ -33,7 +33,7 @@
   {
     "id": "Foxbscabbard",
     "type": "ARMOR",
-    "name": { "str": "Ballistic Weave back scabbard" },
+    "name": { "str": "Enchanted back scabbard" },
     "description": "A ballistic weave scabbard, big enough for almost any sword.  Designed to be strapped to the back, people claimed its impossible to draw a sword from, but mages can telekinetic grab and ignore that fact.  Activate to sheath/draw a sword.",
     "weight": "300 g",
     "volume": "2250 ml",
@@ -62,7 +62,7 @@
   {
     "id": "Foxtanktop",
     "type": "ARMOR",
-    "name": { "str": "Ballistic Weave tank top" },
+    "name": { "str": "Enchanted tank top" },
     "description": "A sleeveless ballistic weave shirt.  Very easy to move in.",
     "weight": "30 g",
     "volume": "250 ml",
@@ -81,7 +81,7 @@
   {
     "id": "Foxpantscargo",
     "type": "ARMOR",
-    "name": { "str_sp": "Ballistic Weave cargo pants" },
+    "name": { "str_sp": "Enchanted cargo pants" },
     "description": "A pair of pants lined with pockets, offering lots of storage and protection.",
     "weight": "240 g",
     "volume": "2250 ml",
@@ -103,7 +103,7 @@
   {
     "id": "Foxpanties",
     "type": "ARMOR",
-    "name": { "str_sp": "Ballistic Weave panties" },
+    "name": { "str_sp": "Enchanted panties" },
     "description": "Underwear designed to be worn by women.  You need to protect yourself in this economy.",
     "weight": "10 g",
     "volume": "250 ml",
@@ -123,7 +123,7 @@
   {
     "id": "Foxboxershorts",
     "type": "ARMOR",
-    "name": { "str_sp": "Ballistic Weave boxer shorts" },
+    "name": { "str_sp": "Enchanted boxer shorts" },
     "description": "Men's boxer shorts.  More fashionable and bulletproof than briefs and just as comfortable.",
     "weight": "10 g",
     "volume": "250 ml",
@@ -163,7 +163,7 @@
   {
     "id": "Foxsportsbra",
     "type": "ARMOR",
-    "name": { "str": "Ballistic Weave sports bra" },
+    "name": { "str": "Enchanted sports bra" },
     "description": "A sturdy ballistic weave bra to provide additional support and protection during physical movement.  Typically worn when exercising, it clings to the skin and is easy to wear.",
     "weight": "20 g",
     "volume": "500 ml",
@@ -181,9 +181,9 @@
     "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY" ]
   },
   {
-    "id": "Foxbootscombat",
+    "id": "Foxbootsenchanted",
     "type": "ARMOR",
-    "name": { "str": "Ballistic Weave combat boots", "str_pl": "pairs of Ballistic Weave combat boots" },
+    "name": { "str": "Enchanted combat boots", "str_pl": "pairs of Enchanted combat boots" },
     "description": "Modern reinforced tactical combat boots made from greater materials.  Extremely durable.",
     "weight": "200 g",
     "volume": "2 L",
@@ -205,9 +205,9 @@
     "flags": [ "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
   },
   {
-    "id": "Foxglovestactical",
+    "id": "Foxglovesenchanted",
     "type": "ARMOR",
-    "name": { "str": "pair of Ballistic Weave gloves", "str_pl": "pairs of Ballistic Weave gloves" },
+    "name": { "str": "pair of Enchanted gloves", "str_pl": "pairs of Enchanted gloves" },
     "description": "A pair of reinforced Ballistic Weave tactical gloves.",
     "weight": "40 g",
     "volume": "500 ml",
@@ -229,7 +229,7 @@
   {
     "id": "Foxglovestacticalfingerless",
     "type": "ARMOR",
-    "name": { "str": "pair of fingerless Ballistic Weave gloves", "str_pl": "pairs of fingerless Ballistic Weave gloves" },
+    "name": { "str": "pair of fingerless Enchanted gloves", "str_pl": "pairs of fingerless Enchanted gloves" },
     "description": "A pair of fingerless reinforced Ballistic Weave tactical gloves.",
     "weight": "40 g",
     "volume": "500 ml",
@@ -251,7 +251,7 @@
   {
     "id": "Foxsocks",
     "type": "ARMOR",
-    "name": { "str": "pair of Ballistic Weave socks", "str_pl": "pairs of Ballistic Weave socks" },
+    "name": { "str": "pair of Enchanted socks", "str_pl": "pairs of Ballistic Weave socks" },
     "description": "Socks.  Now your feet won't get shot off.",
     "weight": "10 g",
     "volume": "100 ml",
@@ -271,7 +271,7 @@
   {
     "id": "Foxstockings",
     "type": "ARMOR",
-    "name": { "str": "pair of Ballistic Weave stockings", "str_pl": "pairs of Ballistic Weave stockings" },
+    "name": { "str": "pair of Enchanted stockings", "str_pl": "pairs of Ballistic Weave stockings" },
     "description": "Now you can look great and also not get shot.",
     "weight": "10 g",
     "volume": "250 ml",
@@ -291,7 +291,7 @@
   {
     "id": "Foxhatcotton",
     "type": "ARMOR",
-    "name": { "str": "Ballistic Weave hat" },
+    "name": { "str": "Enchanted hat" },
     "description": "A snug-fitting Ballistic Weave hat.  Quite warm.",
     "weight": "20 g",
     "volume": "250 ml",
@@ -314,7 +314,7 @@
     "category": "clothing",
     "symbol": "[",
     "color": "dark_gray",
-    "name": { "str": "Ballistic Weave scarf", "str_pl": "Ballistic Weave scarves" },
+    "name": { "str": "Enchanted scarf", "str_pl": "Ballistic Weave scarves" },
     "description": "A long knitted Ballistic Weave scarf, worn over the mouth for warmth.  Use it to loosen it if you get too warm.",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -339,7 +339,7 @@
     "repairs_like": "knit_scarf",
     "symbol": "[",
     "color": "dark_gray",
-    "name": { "str": "Ballistic Weave scarf (loose)", "str_pl": "Ballistic Weave scarves (loose)" },
+    "name": { "str": "Enchanted scarf (loose)", "str_pl": "Ballistic Weave scarves (loose)" },
     "description": "A long knitted Ballistic Weave scarf, worn over the mouth for warmth.  Use it to wear it tighter if you get too cold.",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -361,7 +361,7 @@
   {
     "id": "Foxbalaclava",
     "type": "ARMOR",
-    "name": { "str": "balaclava" },
+    "name": { "str": "Enchanted balaclava" },
     "description": "A warm covering that protects the head and face from the cold, now from ballistic weave.",
     "weight": "20 g",
     "volume": "250 ml",
@@ -383,13 +383,13 @@
   {
     "id": "Foxholster",
     "type": "ARMOR",
-    "name": { "str": "Ballistic Weave holster" },
+    "name": { "str": "Enchanted holster" },
     "description": "A ballistic weave strap worn on the hip for holding pistol sized guns.  Activate to holster/draw a gun.",
     "weight": "100 g",
     "volume": "500 ml",
     "price": "2 USD",
     "price_postapoc": "2 USD",
-    "material": [ "leather" ],
+    "material": [ "FoxBallisticWeave" ],
     "symbol": "[",
     "looks_like": "holster",
     "color": "light_gray",

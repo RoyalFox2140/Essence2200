@@ -60,6 +60,18 @@
     "components": [ [ [ "FoxEssencenormal", 20000 ] ] ]
   },
   {
+    "result": "FoxBallisticWeaveSheet",
+    "type": "uncraft",
+    "time": "5 m",
+    "components": [ [ [ "FoxBWthread", 100 ] ] ]
+  },
+  {
+    "result": "FoxBallisticWeavescrap",
+    "type": "uncraft",
+    "time": "1 m",
+    "components": [ [ [ "FoxBWthread", 10 ] ] ]
+  },
+  {
     "type": "uncraft",
     "result": "Foximpgogglesdetection",
     "skill_used": "electronics",

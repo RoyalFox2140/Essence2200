@@ -30,7 +30,25 @@
     "vision_day": 20,
     "vision_night": 8,
     "harvest": "FoxImperialZombie",
-    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.8 } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5, "min_mul": 0.8 },
+      {
+        "type": "gun",
+        "cooldown": 4,
+        "move_cost": 100,
+        "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+        "gun_type": "FoxReaperrock",
+        "ammo_type": "rock",
+        "no_ammo_sound": "",
+        "require_targeting_player": false,
+        "ranges": [ [ 2, 8, "DEFAULT" ] ],
+        "fake_dex": 6,
+        "fake_per": 6,
+        "description": "The Zombified Reaper hastily throws a rock! I bet you almost feel bad for them!",
+        "no_crits": true
+      }
+    ],
+    "starting_ammo": { "rock": 10 },
     "death_drops": "FoxmonImperialdropsZombified",
     "death_function": [ "NORMAL" ],
     "flags": [
@@ -53,7 +71,7 @@
     "type": "MONSTER",
     "name": { "str": "Zombified Reaper Officer" },
     "looks_like": "mon_zombie_soldier",
-    "description": "Somehow this Reaper zombie is different, with extra body armor you can tell it was probably an officer. Their brain holds valuable knowledge and you might find more in their pockets.",
+    "description": "Somehow this Reaper zombie is different, with extra body armor and weaponry you can tell it was probably an officer. Their brain holds valuable knowledge and you might find more in their pockets.",
     "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
@@ -79,9 +97,27 @@
     "vision_day": 30,
     "vision_night": 8,
     "harvest": "FoxImperialZombieOfficer",
-    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.8 } ],
     "death_drops": "FoxmonImperialofficerdropsZombified",
     "death_function": [ "NORMAL" ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5, "min_mul": 0.8 },
+      {
+        "type": "gun",
+        "cooldown": 8,
+        "move_cost": 100,
+        "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+        "gun_type": "FoximpED31U",
+        "ammo_type": "9mm",
+        "no_ammo_sound": "",
+        "require_targeting_player": true,
+        "ranges": [ [ 2, 8, "DEFAULT" ] ],
+        "fake_dex": 8,
+        "fake_per": 6,
+        "description": "The Zombified Officer fires their sidearm!",
+        "no_crits": true
+      }
+    ],
+    "starting_ammo": { "9mm": 4 },
     "flags": [
       "SEES",
       "HEARS",
