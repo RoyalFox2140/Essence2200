@@ -255,8 +255,8 @@
       "time": "40 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 8 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 8 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxpantscargo",
@@ -269,8 +269,8 @@
       "time": "40 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 8 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 8 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxtanktop",
@@ -283,8 +283,8 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxpanties",
@@ -297,8 +297,8 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxboxershorts",
@@ -311,8 +311,8 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxboyshorts",
@@ -325,8 +325,8 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxsportsbra",
@@ -339,8 +339,8 @@
       "time": "35 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxglovesenchanted",
@@ -352,8 +352,8 @@
       "difficulty": 4,
       "time": "40 m",
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxsocks",
@@ -366,8 +366,8 @@
       "time": "10 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxstockings",
@@ -380,8 +380,8 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxhatcotton",
@@ -394,8 +394,8 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxbalaclava",
@@ -408,8 +408,8 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxknitscarf",
@@ -422,8 +422,8 @@
       "time": "45 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 3 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 3 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxglovestacticalfingerless",
@@ -435,8 +435,8 @@
       "difficulty": 4,
       "time": "30 m",
       "autolearn": true,
-      "using": [ [ "sewing_standard", 10 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 10 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxbscabbard",
@@ -449,9 +449,9 @@
       "time": "40 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 20 ] ],
+      "using": [ [ "Foxsewing_Mage", 20 ] ],
       "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 7 ] ], [ [ "FoxAdamantinechunk", 1 ] ] ]
+      "components": [ [ [ "FoxBallisticWeaveSheet", 7 ] ], [ [ "FoxAdamantinechunk", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxholster",
@@ -464,8 +464,8 @@
       "time": "40 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_BW", 15 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 3 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 15 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 3 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "FoxSGAtrenchcoat",
@@ -478,9 +478,9 @@
       "time": "2 h",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "sewing_standard", 40 ] ],
+      "using": [ [ "Foxsewing_Mage", 40 ] ],
       "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 25 ] ], [ [ "FoxAdamantinechunk", 8 ] ] ]
+      "components": [ [ [ "FoxBallisticWeaveSheet", 25 ] ], [ [ "FoxAdamantinechunk", 8 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "Foxbootscombat",
@@ -492,8 +492,8 @@
       "difficulty": 4,
       "time": "55 m",
       "autolearn": true,
-      "using": [ [ "sewing_standard", 20 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 10 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 20 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 10 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "FoxSGAashigarusuit",
@@ -506,10 +506,11 @@
       "time": "4 h 30 m",
       "reversible": true,
       "book_learn": [ [ "FoxmanualSGAgear", 2 ], [ "FoxDeSGAseburo", 2 ] ],
-      "using": [ [ "Foxsewing_BW", 8 ] ],
+      "using": [ [ "Foxsewing_Mage", 8 ] ],
       "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
       "components": [ 
        [ [ "FoxBallisticWeaveSheet", 30 ] ],
+       [ [ "FoxTransmutationrune", 1 ] ],
        [ [ "FoxAdamantinechunk", 5 ] ],
        [ [ "FoxSGAelectronics", 4 ] ],
        [ [ "FoxSGAessreactortiny", 1 ], [ "FoxMagicCapacitor", 1 ] ] 
@@ -526,8 +527,8 @@
       "time": "4 h 30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_BW", 10 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 6 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 10 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 6 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
       "result": "FoxSGAmaidhat",
@@ -540,7 +541,7 @@
       "time": "30 m",
       "reversible": true,
       "autolearn": true,
-      "using": [ [ "Foxsewing_BW", 3 ] ],
-      "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ] ]
+      "using": [ [ "Foxsewing_Mage", 3 ] ],
+      "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     }
 ]
