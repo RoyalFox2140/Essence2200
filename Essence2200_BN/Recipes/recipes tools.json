@@ -84,8 +84,7 @@
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
     "components": [
-      [ [ "Foximperialsteelchunk", 2 ] ],
-      [ [ "FoxBallisticWeaveSheet", 1 ] ]
+      [ [ "Foximperialsteelchunk", 3 ] ]
     ]
   },
   {
