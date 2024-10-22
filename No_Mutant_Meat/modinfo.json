@@ -1,0 +1,384 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "NoMutantMeat",
+    "name": "<color_pink>No Mutant Meat</color>",
+    "authors": [ "RoyalFox" ],
+    "maintainers": [ "RoyalFox" ],
+    "description": "Forces all mutant harvests to grant normal meat instead.",
+    "category": "rebalance"
+  },
+  {
+    "id": "mutant_mammal_small_fur",
+    "//": "does not drop stomach or other small organs",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.28 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.05 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  },
+  {
+    "id": "mutant_mammal_leather",
+    "//": "drops regular stomach",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.3 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.03 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "stomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "raw_leather", "type": "skin", "mass_ratio": 0.02 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  },
+  {
+    "id": "mutant_mammal_fur",
+    "//": "drops regular stomach",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.3 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.03 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "stomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  },
+  {
+    "id": "mutant_mammal_toothy_fur",
+    "//": "drops regular stomach",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.3 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.03 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "stomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "teeth_serrated", "type": "bone", "mass_ratio": 0.02 },
+      { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  },
+  {
+    "id": "mutant_mammal_large_leather",
+    "//": "drops large stomach",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "sweetbread", "type": "flesh", "mass_ratio": 0.002 },
+      { "drop": "kidney", "type": "offal", "mass_ratio": 0.002 },
+      { "drop": "stomach_large", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone_heavy", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "raw_leather", "type": "skin", "mass_ratio": 0.04 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  },
+  {
+    "id": "mutant_animal_large_scute",
+    "//": "drops large stomach",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "sweetbread", "type": "flesh", "mass_ratio": 0.002 },
+      { "drop": "kidney", "type": "offal", "mass_ratio": 0.002 },
+      { "drop": "stomach_large", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone_heavy", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "scute_piece", "type": "skin", "mass_ratio": 0.02 },
+      { "drop": "raw_leather", "type": "skin", "mass_ratio": 0.02 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  },
+  {
+    "id": "mutant_mammal_toothy_large_scute",
+    "//": "drops large stomach",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "sweetbread", "type": "flesh", "mass_ratio": 0.002 },
+      { "drop": "kidney", "type": "offal", "mass_ratio": 0.002 },
+      { "drop": "stomach_large", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone_heavy", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "teeth_serrated", "type": "bone", "mass_ratio": 0.02 },
+      { "drop": "scute_piece", "type": "skin", "mass_ratio": 0.04 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  },
+  {
+    "id": "mammal_large_chitin",
+    "//": "Mutant mammals with chitin armor.  It's not an exoskeleton, so much less than from insects of same mass.  Brain is not mutated.",
+    "type": "harvest",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "stomach_large", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone_heavy", "type": "bone", "mass_ratio": 0.2 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.1 }
+    ]
+  },
+  {
+    "id": "mutant_mammal_large_fur",
+    "//": "drops large stomach",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "stomach_large", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone_heavy", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  },
+  {
+    "id": "mutant_mammal_large_toothy_fur",
+    "//": "drops large stomach",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "stomach_large", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone_heavy", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "teeth_serrated", "type": "bone", "mass_ratio": 0.02 },
+      { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  },
+  {
+    "id": "mutant_animal_large_noskin",
+    "//": "for those vertebrates that don't have something you can skin off of them",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "sweetbread", "type": "flesh", "mass_ratio": 0.002 },
+      { "drop": "kidney", "type": "offal", "mass_ratio": 0.002 },
+      { "drop": "stomach_large", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone_heavy", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  },
+  {
+    "id": "meatslug",
+    "//": "no bones or organs",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.4 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "fat", "type": "offal", "mass_ratio": 0.1 }
+    ]
+  },
+  {
+    "id": "bird_large",
+    "type": "harvest",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.3 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.03 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.18 },
+      { "drop": "feather", "type": "skin", "mass_ratio": 0.02 },
+      { "drop": "bone", "type": "bone", "mass_ratio": 0.1 }
+    ]
+  },
+  {
+    "id": "acidant_queen",
+    "type": "harvest",
+    "message": "<acidant_harvest>",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.33 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.04 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "acidchitin_piece", "type": "skin", "mass_ratio": 0.15 }
+    ]
+  },
+  {
+    "id": "arachnid",
+    "type": "harvest",
+    "message": "<arachnid_harvest>",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.33 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.04 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.015 },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.15 }
+    ]
+  },
+  {
+    "id": "arachnid_acid",
+    "type": "harvest",
+    "message": "<acidant_harvest>",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.33 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.04 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "acidchitin_piece", "type": "skin", "mass_ratio": 0.15 }
+    ]
+  },
+  {
+    "id": "arachnid_bee",
+    "type": "harvest",
+    "message": "What appeared to be insect hairs on the chitin of this creature look more like tiny feathers as you pare them back.  Inside is a bundle of bubble-like tissue sacs that appear to be floating, which doesn't fit with what you know about real bees.",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.23 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "sweetbread", "type": "flesh", "mass_ratio": 0.02 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.015 },
+      { "drop": "bee_sting", "base_num": [ 0, 1 ], "type": "bone" },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.15 }
+    ]
+  },
+  {
+    "id": "arachnid_wasp",
+    "type": "harvest",
+    "message": "<wasp_harvest>",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.3 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "sweetbread", "type": "flesh", "mass_ratio": 0.02 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.03 },
+      { "drop": "wasp_sting", "base_num": [ 0, 1 ], "type": "bone" },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.15 }
+    ]
+  },
+  {
+    "id": "arachnid_wasp_queen",
+    "type": "harvest",
+    "message": "<wasp_queen_harvest>",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "sweetbread", "type": "flesh", "mass_ratio": 0.02 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.03 },
+      { "drop": "wasp_sting", "base_num": [ 0, 1 ], "type": "bone" },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.15 },
+      { "drop": "egg_wasp", "type": "offal", "base_num": [ 10, 30 ], "scale_num": [ 5, 5 ] }
+    ]
+  },
+  {
+    "id": "arachnid_dragonfly_mega",
+    "type": "harvest",
+    "message": "<arachnid_flying_harvest>",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.15 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.04 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "sweetbread", "type": "flesh", "mass_ratio": 0.02 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0045 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.025 },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.15 },
+      { "drop": "egg_dragonfly", "type": "offal", "base_num": [ 5, 35 ], "scale_num": [ 0.3, 0.5 ] }
+    ]
+  },
+  {
+    "id": "arachnid_firefly",
+    "type": "harvest",
+    "message": "<firefly_harvest>",
+    "//": "copied from arachnid_flying+egg",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "sweetbread", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.015 },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.15 },
+      { "drop": "egg_firefly", "type": "offal", "base_num": [ 0, 3 ] }
+    ]
+  },
+  {
+    "id": "arachnid_centipede",
+    "type": "harvest",
+    "message": "<centipede_harvest>",
+    "//": "More legs = more sinew, less rest",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.05 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.12 }
+    ]
+  },
+  {
+    "id": "arachnid_centipede_mom",
+    "type": "harvest",
+    "message": "<centipede_mom_harvest>",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.05 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.12 },
+      { "drop": "egg_centipede", "type": "offal", "base_num": [ 3, 10 ], "scale_num": [ 0.5, 1 ], "max": 30 }
+    ]
+  },
+  {
+    "id": "arachnid_centipede_mega",
+    "type": "harvest",
+    "message": "<centipede_mega_harvest>",
+    "//": "Chitin plate comes here, lots of muscle",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.4 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.015 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.05 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.3 },
+      { "drop": "egg_centipede", "type": "offal", "base_num": [ 0, 3 ], "scale_num": [ 0.5, 1 ], "max": 10 }
+    ]
+  }
+]
