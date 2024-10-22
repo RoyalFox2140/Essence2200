@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Deadly_Zeds",
+    "name": "<color_red>Deadlier Zombies</color>",
+    "authors": [ "RoyalFox" ],
+    "maintainers": [ "RoyalFox" ],
+    "description": "'This game is too hard' Oh then we'll make it easier. 'This game is too easy'.",
+    "category": "content",
+    "dependencies": [ "bn" ]
+  }
+]
