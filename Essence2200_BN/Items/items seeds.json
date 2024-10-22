@@ -1,8 +1,25 @@
 [
   {
+    "abstract": "Foxseedabstract",
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "name": { "str_sp": "Fox Seed abstract" },
+    "category": "seeds",
+    "volume": "250 ml",
+    "weight": "1 g",
+    "price": "1 cent",
+    "price_postapoc": "1 cent",
+    "stack_size": 100,
+    "material": "veggy",
+    "primary_material": "dried_vegetable",
+    "symbol": ".",
+    "color": "brown",
+    "flags": [ "NUTRIENT_OVERRIDE", "PLANTABLE_SEED", "UNSAFE_CONSUME" ]
+  },
+  {
     "type": "COMESTIBLE",
     "id": "Foxseed_bangtail",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "bangtail seeds" },
     "description": "Some bangtail seeds.",
@@ -12,7 +29,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_mireweed",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "mireweed seeds" },
     "description": "Some mireweed seeds.",
@@ -22,7 +39,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_brineweed",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "brineweed seeds" },
     "description": "Some brineweed seeds.",
@@ -32,7 +49,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_lunarweed",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "lunarweed seeds" },
     "description": "Some lunarweed seeds.",
@@ -42,7 +59,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_jellyweed",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "jellyweed seeds" },
     "description": "Some jellyweed seeds.",
@@ -52,7 +69,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_fishweed",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "fishweed seeds" },
     "description": "Some fishweed seeds.",
@@ -62,7 +79,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_stormfern",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "storm fern seeds" },
     "description": "Some stormfern seeds.",
@@ -72,7 +89,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_mireroot",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "mireroot seeds" },
     "description": "Some mireroot seeds.",
@@ -82,7 +99,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_cairnroot",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "cairnroot seeds" },
     "description": "Some cairnroot seeds.",
@@ -92,7 +109,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_smugglersroot",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "smugglers root seeds" },
     "description": "Some smugglers root seeds.",
@@ -102,7 +119,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_bloodgrass",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "blood grass seeds" },
     "description": "Some bloodgrass seeds.",
@@ -112,7 +129,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_stimgrass",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "stim grass seeds" },
     "description": "Some stim grass seeds.",
@@ -122,7 +139,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_woegrass",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "woe grass seeds" },
     "description": "Some woe grass seeds.",
@@ -132,7 +149,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_broomgrass",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "broom grass seeds" },
     "description": "Some broom grass seeds.",
@@ -142,7 +159,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_whitewound",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "white wound seeds" },
     "description": "Some white wound seeds.",
@@ -152,7 +169,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_corpsefuzz",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "corpse fuzz seeds" },
     "description": "Some corpse fuzz seeds.",
@@ -162,7 +179,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_ghostthistle",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "ghost thistle seeds" },
     "description": "Some ghost thistle seeds.",
@@ -172,7 +189,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_gravebaneshrub",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "gravebane shrub seeds" },
     "description": "Some gravebane shrub seeds.",
@@ -182,7 +199,7 @@
   {
     "type": "COMESTIBLE",
     "id": "Foxseed_acidlemon",
-    "copy-from": "seed",
+    "copy-from": "Foxseedabstract",
     "price": "2 USD",
     "name": { "str_sp": "acid lemon seeds" },
     "description": "Some acid lemon seeds.",
