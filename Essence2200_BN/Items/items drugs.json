@@ -273,7 +273,7 @@
         "symbol": "!",
         "color": "white",
         "flags": [ "NO_INGEST" ],
-        "use_action": { "type": "heal", "bandages_power": 1, "disinfectant_power": 3, "bleed": 0.6, "bite": 0.80, "move_cost": 200 }
+        "use_action": { "type": "heal", "disinfectant_power": 3, "bleed": 0.6, "bite": 0.80, "move_cost": 200 }
       },
       {
         "id": "Foxswampbandages",
