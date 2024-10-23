@@ -35,7 +35,7 @@
     "comestible_type": "FOOD",
     "name": { "str": "Edible bark" },
     "looks_like": "willowbark",
-    "description": "A piece of the edible layer that you find on tree bark, roasted and ready to eat.  You can make this into flour if you'd like.",
+    "description": "A piece of the edible layer that you find on tree bark, roasted and ready to eat, containing 100 calories despite which bark it's from.  You can make this into flour if you'd like.",
     "weight": "200 g",
     "volume": "250 ml",
     "price": "0 cent",
