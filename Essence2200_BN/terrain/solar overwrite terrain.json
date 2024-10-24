@@ -1,0 +1,26 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_solar_unit",
+    "copy-from": "f_solar_unit",
+    "name": "mounted solar panel",
+    "description": "A mounted solar panel connected to building's electric grid.",
+    "symbol": "#",
+    "color": "yellow",
+    "looks_like": "f_solar_unit",
+    "move_cost_mod": 2,
+    "required_str": -1,
+    "active": [ "solar", { "power": 20 } ]
+  },
+  {
+    "type": "furniture",
+    "id": "f_solar_unit_v2",
+    "copy-from": "f_solar_unit_v2",
+    "name": "mounted upgraded solar panel",
+    "description": "A mounted upgraded solar panel connected to building's electric grid.",
+    "symbol": "#",
+    "looks_like": "f_solar_unit_v2",
+    "color": "yellow",
+    "active": [ "solar", { "power": 40 } ]
+  }
+]

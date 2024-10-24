@@ -1,0 +1,13 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "solar_panel",
+    "name": { "str": "solar panel" },
+    "copy-from": "solar_panel",
+    "symbol": "#",
+    "color": "yellow",
+    "broken_symbol": "x",
+    "broken_color": "yellow",
+    "epower": 20
+  }
+]

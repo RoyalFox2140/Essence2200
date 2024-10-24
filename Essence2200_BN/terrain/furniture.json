@@ -1216,5 +1216,44 @@
     "pre_note": "Can be deconstructed without tools.",
     "pre_terrain": "t_pit_corpsed",
     "post_furniture": "Foxfpreppedcorpsepit"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_crystal_panel",
+    "name": "mounted crystal panel",
+    "looks_like": "f_solar_unit",
+    "description": "A mounted solar panel connected to building's electric grid.",
+    "symbol": "#",
+    "color": "yellow",
+    "move_cost_mod": 2,
+    "required_str": -1,
+    "active": [ "solar", { "power": 80 } ],
+    "flags": [ "TRANSPARENT" ],
+    "deconstruct": {
+      "items": [
+        { "item": "solder_wire", "charges": 20 },
+        { "item": "plastic_chunk", "count": 2 },
+        { "item": "steel_chunk", "count": 5 },
+        { "item": "pipe", "count": 4 },
+        { "item": "Foxcrystalpanel", "count": 1 }
+      ]
+    },
+    "bash": {
+      "str_min": 10,
+      "str_max": 20,
+      "sound": "whack!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "solder_wire", "charges": [ 10, 20 ] },
+        { "item": "Foxcrystallizedessence", "count": [ 1, 10 ] },
+        { "item": "scrap", "count": [ 3, 6 ] },
+        { "item": "amplifier", "prob": 50 },
+        { "item": "cable", "charges": [ 10, 15 ] },
+        { "item": "power_supply", "prob": 50 },
+        { "item": "scrap", "count": [ 4, 6 ] },
+        { "item": "plastic_chunk", "count": [ 1, 2 ] },
+        { "item": "steel_chunk", "count": 3 }
+      ]
+    }
   }
 ]
