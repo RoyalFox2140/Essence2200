@@ -423,8 +423,8 @@
     "weight": "500 g",
     "volume": "1000 ml",
     "skill": "FoxEssTech",
-    "required_level": 4,
-    "max_level": 9,
+    "required_level": 5,
+    "max_level": 10,
     "intelligence": 12,
     "time": "45 m",
     "fun": 1

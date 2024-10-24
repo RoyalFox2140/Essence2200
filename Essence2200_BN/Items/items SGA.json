@@ -253,7 +253,7 @@
     "looks_like": "heavy_atomic_battery_cell",
     "description": "An unlocked rare computer which contains a tank of controllable self replicating nanomachines that can consume any constituent matter to replicate and convert one matter into another, it can additonally solder and weld both because of the nanomachines and controlled heat generation.  A carefully guarded secret, it can only be unlocked by a unique 512 character password sent on an exact radio frequency, it explodes after any failed attempt.  The nanites can convert an item into another before burning out and will produce more so long as it has electricity. It's unique battery will recharge slowly thanks to an essence reactor.",
     "category": "tools",
-    "weight": "1000 g",
+    "weight": "4000 g",
     "volume": "1500 ml",
     "material": [ "FoxAdamantine" ],
     "symbol": "*",

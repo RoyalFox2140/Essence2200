@@ -460,5 +460,24 @@
       [ [ "FoxEssencenormal", 20000 ] ],
       [ [ "Foxhumansoul", 1 ] ]
     ]
+  },
+  {
+    "result": "FoxNanoForge",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "id_suffix": "FoxMagicNanoForge",
+    "skills_required": [ [ "FoxEssTheory", 10 ], [ "FoxEssTech", 10 ], [ "fabrication", 10 ], [ "mechanics", 10 ], [ "computer", 10 ], [ "electronics", 10 ] ],
+    "difficulty": 10,
+    "time": "30 h",
+    "autolearn": true,
+    "components": [
+      [ [ "Foxhumansoul", 200 ] ],
+      [ [ "FoxSGAmechparts", 5 ] ],
+      [ [ "FoxSGAlaserparts", 25 ] ],
+      [ [ "FoxSGAelectronics", 20 ] ],
+      [ [ "FoxSGAessreactortiny", 20 ], [ "FoxMagicCapacitor", 20 ] ]
+    ]
   }
 ]
