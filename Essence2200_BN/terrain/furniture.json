@@ -1255,5 +1255,24 @@
         { "item": "steel_chunk", "count": 3 }
       ]
     }
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconstr_crystalpanel",
+    "name": "Install Crystal Panel"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_crystalpanel",
+    "group": "Foxconstr_crystalpanel",
+    "category": "WORKSHOP",
+    "required_skills": [ [ "fabrication", 4 ], [ "electronics", 1 ] ],
+    "time": "30 m",
+    "qualities": [ [ { "id": "SCREW", "level": 1 } ] ],
+    "using": [ [ "soldering_standard", 20 ] ],
+    "components": [ [ [ "steel_chunk", 5 ] ], [ [ "plastic_chunk", 2 ] ], [ [ "pipe", 4 ] ], [ [ "Foxcrystalpanel", 1 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "Foxf_crystal_panel"
   }
 ]
