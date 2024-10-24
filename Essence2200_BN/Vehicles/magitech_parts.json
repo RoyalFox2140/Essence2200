@@ -150,5 +150,25 @@
     ],
     "workbench": { "multiplier": 2, "mass": "5000 kg", "volume": "960L" },
     "damage_reduction": { "all": 29 }
+  }, 
+  {
+    "id": "FoxAdamantinerotors",
+    "looks_like": "heavy_duty_military_rotor",
+    "type": "vehicle_part",
+    "name": "Adamantine Rotors",
+    "item": "FoxAdamantinerotors",
+    "//": "rotor diameter is in meters because of kevin and erk I guess, to be removed if deprecated by BN",
+    "description": "A set of Adamantine helicopter rotor blades, used to provide lift by rotation.",
+    "rotor_diameter": 16,
+    "durability": 1050,
+    "damage_modifier": 80,
+    "location": "on_roof",
+    "symbol": "X",
+    "color": "light_blue",
+    "broken_symbol": "O",
+    "broken_color": "light_gray",
+    "flags": [ "ROTOR" ],
+    "breaks_into": [ { "item": "FoxAdamantinechunk", "count": [ 300, 380 ] } ],
+    "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
   }
 ]

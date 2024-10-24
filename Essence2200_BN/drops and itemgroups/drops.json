@@ -110,6 +110,8 @@
       { "item": "FoxESGAesstech", "prob": 10 },
       { "item": "FoxESGAarakawa", "prob": 5 },
       { "item": "FoxESGAseburo", "prob": 5 },
+      { "item": "FoxESGAishikawa", "prob": 4 },
+      { "item": "FoxESGAfujiwara", "prob": 20 },
       { "item": "FoxEIkw", "prob": 10 },
       { "item": "FoxEIed", "prob": 10 },
       { "item": "FoxESGAesstheory", "prob": 10 }

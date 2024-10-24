@@ -231,6 +231,21 @@
   },
   {
     "type": "recipe",
+    "result": "FoxDeSGAfujiwara",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "qualities": [ { "id": "FoxSGAopAccess", "level": 2 } ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
     "result": "FoxDeSGAkawakami",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_TRADING",

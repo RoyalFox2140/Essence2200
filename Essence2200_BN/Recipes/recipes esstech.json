@@ -135,6 +135,21 @@
   },
   {
     "type": "recipe",
+    "result": "FoxAdamantinerotors",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "fabrication",
+    "skills_required": [ "mechanics", 8 ],
+    "difficulty": 6,
+    "id_suffix": "Foxforged",
+    "time": "12 h",
+    "book_learn": [ [ "FoxDeSGAfujiwara", 6 ], [ "FoxKolibriProject", 6 ] ],
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 1000 ] ] ],
+    "components": [ [ [ "FoxAdamantinechunk", 400 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "Foxadamantineplate",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_ESSTECH",

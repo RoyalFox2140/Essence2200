@@ -161,6 +161,7 @@
     "id": "Foxcarbattery",
     "type": "MAGAZINE",
     "category": "battery",
+    "looks_like": "battery_car",
     "name": { "str": "essence car battery", "str_pl": "essence car batteries" },
     "description": "An equivalent 12v lead-acid battery made with 5 liters of liquid essence, resulting in higher capacity.",
     "weight": "1 kg",
@@ -179,6 +180,7 @@
     "id": "Foxessencelargebattery",
     "type": "MAGAZINE",
     "category": "battery",
+    "looks_like": "storage_battery",
     "name": { "str": "essence large storage battery", "str_pl": "essence large storage batteries" },
     "description": "An equivalent large storage battery containing 45 liters of liquid essence, for use in vehicles and homes.",
     "weight": "15 kg",
@@ -197,6 +199,7 @@
     "type": "GENERIC",
     "id": "Foxcrystalpanel",
     "name": { "str": "crystal panel" },
+    "looks_like": "solar_panel",
     "description": "A hybrid solar panel made with essence crystals instead of photovoltaic cells, it holds higher efficiency but maintains the same fragile design.",
     "weight": "2000 g",
     "to_hit": -4,
@@ -208,5 +211,20 @@
     "category": "veh_parts",
     "price": "2 USD",
     "price_postapoc": "2 USD"
+  },
+  {
+    "id": "FoxAdamantinerotors",
+    "type": "GENERIC",
+    "category": "veh_parts",
+    "looks_like": "heavy_duty_military_rotor",
+    "name": { "str": "Adamantine heli-rotors", "str_pl": "sets of Adamantine heli-rotors" },
+    "description": "A set of rotor blades made purely from Adamantine.",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "weight": "2000 g",
+    "volume": "450000 ml",
+    "material": "steel",
+    "symbol": "X",
+    "color": "dark_gray"
   }
 ]
