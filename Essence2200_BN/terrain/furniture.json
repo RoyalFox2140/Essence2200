@@ -1094,6 +1094,7 @@
     "coverage": 60,
     "required_str": -1,
     "active": [ "battery", { "max_stored": 30000 } ],
+    "examine_action": "check_power",
     "flags": [ "TRANSPARENT" ],
     "deconstruct": {
       "items": [
@@ -1128,6 +1129,7 @@
     "coverage": 60,
     "required_str": -1,
     "active": [ "battery", { "max_stored": 270000 } ],
+    "examine_action": "check_power",
     "flags": [ "TRANSPARENT" ],
     "deconstruct": {
       "items": [
