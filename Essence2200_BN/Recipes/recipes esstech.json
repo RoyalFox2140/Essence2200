@@ -144,8 +144,8 @@
     "id_suffix": "Foxforged",
     "time": "12 h",
     "book_learn": [ [ "FoxDeSGAfujiwara", 6 ], [ "FoxKolibriProject", 6 ] ],
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 1000 ] ] ],
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 1000 ] ], [ [ "Foxmachiningstation", 500 ] ] ],
     "components": [ [ [ "FoxAdamantinechunk", 400 ] ] ]
   },
   {
