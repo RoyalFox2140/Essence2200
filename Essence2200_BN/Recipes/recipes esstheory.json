@@ -54,6 +54,26 @@
   },
   {
     "type": "recipe",
+    "result": "Foxmotordew",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxFractionalSludge",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 0,
+    "result_mult": 300,
+    "//": "Same shit different sludge",
+    "byproducts": [ [ "Foxrefinedmotordew", 6 ], [ "Foxtargas", 60 ], [ "material_sand", 80 ], [ "clay_lump", 40 ], [ "Foxtarcrete", 20 ] ],
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "water_boiling_heat", 1800, "LIST" ] ] ],
+    "qualities": [ { "id": "FoxEssenceStill", "level": 1 } ],
+    "components": [
+    [ [ "Foxmotordewsludge", 80 ] ]
+  ]
+  },
+  {
+    "type": "recipe",
     "result": "Foxrefinedmotordew",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_ESSTHEORY",
@@ -357,8 +377,8 @@
     "charges": 300,
     "time": "3 m",
     "autolearn": true,
+    "batch_time_factors": [ 80, 3 ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
-    "tools": [ [ [ "rag", -1 ] ] ],
     "components": [ [ [ "Foxacidlemon", 1 ] ] ]
   },
   {
@@ -374,7 +394,7 @@
     "byproducts": [ [ "Foxtarcrete", 1 ] ],
     "time": "15 m",
     "autolearn": true,
-    "batch_time_factors": [ 90, 4 ],
+    "batch_time_factors": [ 90, 3 ],
     "tools": [ [ [ "water_boiling_heat", 10, "LIST" ] ] ],
     "components": [
     [ [ "Foxmotordewsludge", 1 ] ]
@@ -388,8 +408,8 @@
     "subcategory": "CSC_ESSTECH_ESSTECH",
     "skill_used": "computer",
     "difficulty": 0,
-    "charges": 2000,
-    "time": "30 m",
+    "charges": 2500,
+    "time": "20 m",
     "tools": [ [ [ "Foxfake_sludgepump", 500 ] ] ],
     "autolearn": true
   },
@@ -401,8 +421,8 @@
     "subcategory": "CSC_ESSTECH_ESSTECH",
     "skill_used": "computer",
     "difficulty": 0,
-    "charges": 10,
-    "time": "10 m",
+    "charges": 20,
+    "time": "5 m",
     "tools": [ [ [ "Foxfake_sludgepump", 50 ] ] ],
     "autolearn": true
   },
