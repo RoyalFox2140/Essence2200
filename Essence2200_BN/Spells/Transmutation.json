@@ -33,13 +33,12 @@
     "base_energy_cost": 100,
     "difficulty": 1,
     "max_level": 20,
-    "min_damage": 10,
-    "max_damage": 50,
+    "min_damage": 30,
+    "max_damage": 70,
     "damage_increment": 2,
     "damage_type": "acid",
-    "min_range": 3,
-    "max_range": 8,
-    "range_increment": 1
+    "min_range": 1,
+    "max_range": 1
   },
   {
     "id": "Fox_Transmutation_Essence",
