@@ -487,7 +487,41 @@
       [ "COOK", 1 ],
       [ "FoxMachining", 3 ]
     ],
-    "use_action": [ "HAMMER", "CROWBAR" ]
+    "use_action": [ 
+      "HAMMER", 
+      "CROWBAR",
+      {
+        "type": "salvage", 
+        "moves_per_part": 1000, 
+        "material_whitelist": [
+          "steel",
+          "hardsteel",
+          "budget_steel",
+          "tin",
+          "silver",
+          "gold",
+          "copper",
+          "iron",
+          "acidchitin",
+          "alien_resin",
+          "bone",
+          "chitin",
+          "cotton",
+          "faux_fur",
+          "fur",
+          "kevlar",
+          "kevlar_rigid",
+          "leather",
+          "neoprene",
+          "nomex",
+          "nylon",
+          "plastic",
+          "rubber",
+          "wood",
+          "wool"
+        ]
+       } 
+    ]
   },
   {
     "id": "FoxSGAmultihammer",
@@ -549,13 +583,14 @@
     "id": "FoxSGAmechwrench",
     "type": "GENERIC",
     "category": "weapons",
-    "weapon_category": [ "2H_SWORDS", "MEDIEVAL_SWORDS" ],
+    "weapon_category": [ "2H_HAMMERS" ],
+    "looks_like": "warhammer",
     "name": { "str": "Mechanist electro-wrench" },
     "description": "A large and deadly two-handed wrench with a serious amount of tools hidden inside the long handle, designed to pack a powerful punch against armor and apply electric shock on strike. May cause serious burns to enemies on impact.",
     "weight": "3176 g",
     "volume": "2000 ml",
-    "price": "1600 USD",
-    "price_postapoc": "95 USD",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
     "to_hit": 2,
     "bashing": 40,
     "cutting": 1,

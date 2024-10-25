@@ -14,6 +14,37 @@
   },
   {
     "type": "item_group",
+    "id": "mansion_safe",
+    "subtype": "collection",
+    "items": [
+      [ "sa_cryptology_key", 90 ],
+      { "item": "Foxnanoaugcanistergeneric", "prob": 100, "count": [ 1, 2 ] },
+      [ "FoxDeSGAkawakamicookbook", 90 ],
+      [ "FoxSGAlocktopus", 50 ],
+      [ "FoxSGAmultihammer", 40 ],
+      [ "FoxSGAmesskit", 40 ],
+      [ "FoxSGAdatathief", 40 ],
+      [ "FoxDeSGAesstheorybasic", 25 ],
+      [ "FoxDeSGAesstechbasic", 25 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mansion_gunsafe",
+    "subtype": "collection",
+    "items": [
+      { "group": "Foxnested_SeburoC37", "prob": 20 },
+      { "group": "Foxnested_ClannerM4", "prob": 75 },
+      { "item": "FoxSGAgrenade", "prob": 25, "count": [ 1, 6 ] },
+      [ "FoxSeburoS12", 10 ],
+      [ "FoxArakawaR7", 25 ],
+      [ "Fox_CWCflamer", 5 ],
+      [ "FoximpKW21402U", 50 ],
+      [ "adv_UPS_off", 50 ]
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "lab_bookshelves",
     "subtype": "distribution",
     "items": [
