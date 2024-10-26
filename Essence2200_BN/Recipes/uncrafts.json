@@ -97,6 +97,7 @@
     "components": [
       [ [ "FoxBallisticWeaveSheet", 2 ] ],
       [ [ "Foximpmechparts", 1 ] ],
+      [ [ "Foximperialsteelchunk", 1 ] ],
       [ [ "Foximpmicroelectronics", 2 ] ],
       [ [ "Foximpelectronics", 6 ] ]
     ]

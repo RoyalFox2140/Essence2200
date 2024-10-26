@@ -461,7 +461,7 @@
     "category": "clothing",
     "name": { "str": "Imperial wasteland mask" },
     "description": "A full gas mask that covers the face and eyes.  Provides excellent protection from smoke, teargas, chemical weapons, radiation, and airborne mutagenics, without making it much harder to breathe. The filter never needs changing thanks to its unique materials.",
-    "weight": "900 g",
+    "weight": "1000 g",
     "volume": "1 L",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -476,7 +476,7 @@
     "warmth": 20,
     "material_thickness": 2,
     "environmental_protection": 20,
-	"flags": [ "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF" ]
+    "flags": [ "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF" ]
   },
   {
     "id": "Foximpwastelandsuit",
