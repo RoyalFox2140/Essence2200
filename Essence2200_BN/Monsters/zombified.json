@@ -48,7 +48,6 @@
         "no_crits": true
       }
     ],
-    "starting_ammo": { "rock": 10 },
     "death_drops": "FoxmonImperialdropsZombified",
     "death_function": [ "NORMAL" ],
     "flags": [

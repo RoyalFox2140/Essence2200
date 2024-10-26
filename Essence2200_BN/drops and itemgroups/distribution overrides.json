@@ -263,7 +263,7 @@
     "//": "Additional items potentially being studied by the mi-go, effectively the finale content.",
     "entries": [
       { "group": "FoxClannerTech", "prob": 20, "count": [ 1, 2 ] },
-      { "item": "FoxKolibriPapers", "count": [ 1, 4 ] },
+      { "item": "FoxKolibriPapers" },
       { "group": "FoxImpTech", "prob": 45, "count": [ 5, 6 ] },
       { "group": "FoxExoticImpTech", "prob": 10, "count": [ 3, 4 ] }
     ]
