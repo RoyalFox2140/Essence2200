@@ -18,7 +18,7 @@
     "type": "GENERIC",
     "id": "Foximpmicroelectronics",
     "category": "spare_parts",
-    "name": { "str_sp": "Imperial Micro-electronics" },
+    "name": { "str_sp": "Imperial micro-electronics" },
     "description": "These powerful electronics let you build some more complex devices from Imperial technology. Unfortunately, being very brittle they burn out easily and are rare to recover from finished products.",
     "looks_like": "e_scrap",
     "price": "2 USD",
