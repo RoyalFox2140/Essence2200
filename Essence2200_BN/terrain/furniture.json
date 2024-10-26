@@ -336,7 +336,8 @@
     "coverage": 10,
     "required_str": -1,
     "crafting_pseudo_item": "Foxfake_machiningstation",
-    "flags": [ "TRANSPARENT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
+    "flags": [ "TRANSPARENT", "MOUNTABLE", "FLAT_SURF", "EASY_DECONSTRUCT" ],
+    "workbench": { "multiplier": 1.4, "mass": "1000 kg", "volume": "950L" },
     "deconstruct": {
       "items": [ { "item": "Foxmachiningstation", "count": 1 }, { "item": "cable", "charges": 5 } ]
     },
