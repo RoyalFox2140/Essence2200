@@ -8,13 +8,13 @@
     "skills_required": [ [ "cooking", 3 ] ],
     "difficulty": 2,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 80, 5 ],
     "autolearn": true,
     "//": "It MUST be done raw. Any other pre-processing will alter chemical properties and purity. Example is swamp cigs loses hallucinogenics but gains an impure stimulant.",
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ], [ [ "food_processor", 20 ] ] ],
-    "components": [ [ [ "saline", 10 ] ], [ [ "Foxmireweed", 10 ], [ "Foxstormfern", 10 ], [ "Foxbloodgrass", 10 ], [ "Foxstimgrass", 5 ] ] ]
+    "components": [ [ [ "saline", 5 ] ], [ [ "Foxmireweed", 10 ], [ "Foxstormfern", 10 ], [ "Foxbloodgrass", 10 ], [ "Foxstimgrass", 5 ] ] ]
   },
   {
     "type": "recipe",
@@ -25,12 +25,12 @@
     "skills_required": [ [ "cooking", 3 ] ],
     "difficulty": 2,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 80, 5 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ], [ [ "food_processor", 20 ] ] ],
-    "components": [ [ [ "saline", 10 ] ], [ [ "Foxjellyweed", 10 ], [ "Foxcairnroot", 10 ], [ "Foxwhitewound", 20 ] ] ]
+    "components": [ [ [ "saline", 5 ] ], [ [ "Foxjellyweed", 10 ], [ "Foxcairnroot", 10 ], [ "Foxwhitewound", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -41,12 +41,12 @@
     "skills_required": [ [ "cooking", 3 ] ],
     "difficulty": 2,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 80, 5 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ], [ [ "food_processor", 20 ] ] ],
-    "components": [ [ [ "saline", 10 ] ], [ [ "Foxlunarweed", 10 ], [ "Foxgravebaneshrub", 5 ] ] ]
+    "components": [ [ [ "saline", 5 ] ], [ [ "Foxlunarweed", 10 ], [ "Foxgravebaneshrub", 5 ] ] ]
   },
   {
     "type": "recipe",
@@ -57,12 +57,12 @@
     "skills_required": [ [ "cooking", 3 ] ],
     "difficulty": 2,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 80, 5 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ], [ [ "food_processor", 20 ] ] ],
-    "components": [ [ [ "saline", 10 ] ], [ [ "Foxjellyweed", 10 ], [ "Foxbroomgrass", 10 ] ] ]
+    "components": [ [ [ "saline", 5 ] ], [ [ "Foxjellyweed", 10 ], [ "Foxbroomgrass", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -73,12 +73,12 @@
     "skills_required": [ [ "cooking", 3 ] ],
     "difficulty": 2,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 80, 5 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ], [ [ "food_processor", 20 ] ] ],
-    "components": [ [ [ "saline", 10 ] ], [ [ "Foxbrineweed", 10 ], [ "Foxbloodgrass", 10 ], [ "Foxbroomgrass", 10 ], [ "Foxcorpsefuzz", 10 ] ] ]
+    "components": [ [ [ "saline", 5 ] ], [ [ "Foxbrineweed", 10 ], [ "Foxbloodgrass", 10 ], [ "Foxbroomgrass", 10 ], [ "Foxcorpsefuzz", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -89,12 +89,12 @@
     "skills_required": [ [ "cooking", 3 ] ],
     "difficulty": 2,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 80, 5 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ], [ [ "food_processor", 20 ] ] ],
-    "components": [ [ [ "saline", 10 ] ], [ [ "Foxbangtailrhizome", 10 ], [ "Foxsmugglersroot", 10 ], [ "Foxstimgrass", 10 ], [ "Foxghostthistle", 10 ] ] ]
+    "components": [ [ [ "saline", 5 ] ], [ [ "Foxbangtailrhizome", 10 ], [ "Foxsmugglersroot", 10 ], [ "Foxstimgrass", 10 ], [ "Foxghostthistle", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -105,12 +105,12 @@
     "skills_required": [ [ "cooking", 3 ] ],
     "difficulty": 2,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 80, 5 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ], [ [ "food_processor", 20 ] ] ],
-    "components": [ [ [ "saline", 10 ] ], [ [ "Foxmireroot", 10 ], [ "Foxwhitewound", 10 ], [ "Foxcorpsefuzz", 10 ] ] ]
+    "components": [ [ [ "saline", 5 ] ], [ [ "Foxmireroot", 10 ], [ "Foxwhitewound", 10 ], [ "Foxcorpsefuzz", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -121,12 +121,12 @@
     "skills_required": [ [ "cooking", 3 ] ],
     "difficulty": 2,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 80, 5 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ], [ [ "food_processor", 20 ] ] ],
-    "components": [ [ [ "saline", 10 ] ], [ [ "Foxfishweed", 10 ], [ "Foxwoegrass", 10 ] ] ]
+    "components": [ [ [ "saline", 5 ] ], [ [ "Foxfishweed", 10 ], [ "Foxwoegrass", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -137,7 +137,7 @@
     "skills_required": [ [ "cooking", 4 ] ],
     "difficulty": 3,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 75, 4 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
@@ -154,7 +154,7 @@
     "skills_required": [ [ "cooking", 4 ] ],
     "difficulty": 3,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 75, 4 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
@@ -170,7 +170,7 @@
     "skills_required": [ [ "cooking", 4 ] ],
     "difficulty": 3,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 75, 4 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
@@ -187,7 +187,7 @@
     "skills_required": [ [ "cooking", 4 ] ],
     "difficulty": 3,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 75, 4 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
@@ -203,7 +203,7 @@
     "skills_required": [ [ "cooking", 4 ] ],
     "difficulty": 3,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 75, 4 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
@@ -219,7 +219,7 @@
     "skills_required": [ [ "cooking", 4 ] ],
     "difficulty": 3,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 75, 4 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
@@ -236,7 +236,7 @@
     "skills_required": [ [ "cooking", 4 ] ],
     "difficulty": 3,
     "time": "30 m",
-    "result_mult": 10,
+    "result_mult": 5,
     "batch_time_factors": [ 75, 4 ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
@@ -253,7 +253,7 @@
     "skills_required": [ [ "cooking", 3 ] ],
     "difficulty": 3,
     "time": "4 h", 
-    "result_mult": 10,
+    "result_mult": 5,
     "byproducts": [ [ "FoxessenceRDX", 4 ] ],
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 }, { "id": "DISTILL", "level": 1 } ],

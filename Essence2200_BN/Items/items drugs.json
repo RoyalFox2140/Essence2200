@@ -216,6 +216,32 @@
         }
       },
       {
+        "id": "Foxstaminadrink",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "name": "Imperial energy drink",
+        "description": "A 250 ml drink of essence boiled down and concentrated into sugar, in order to allow easily metabolized energy that the body can use to recover. Grants massive stamina recovery for 10 minutes.",
+        "weight": "4 g",
+        "price": "2 USD",
+        "price_postapoc": "2 USD",
+        "volume": "250 ml",
+        "phase": "liquid",
+        "container": "bottle_plastic",
+        "charges": 1,
+        "fun": 2,
+        "symbol": "!",
+        "color": "dark_gray",
+        "flags": [ "NO_INGEST" ],
+        "use_action": {
+          "type": "consume_drug",
+          "activation_message": "You chug an Imperial energy drink.",
+          "effects": [
+            { "id": "Foxenergydrink", "duration": "600 s" }
+          ],
+          "moves": 100
+        }
+      },
+      {
         "id": "Foxblackout",
         "type": "COMESTIBLE",
         "comestible_type": "MED",

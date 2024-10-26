@@ -150,5 +150,21 @@
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "components": [ [ [ "fish", 2 ] ], [ [ "Foxmotordew", 400 ] ], [ [ "onion", 1 ] ], [ [ "potato", 2 ] ], [ [ "carrot", 4 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxstaminadrink",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_COOKING",
+    "skill_used": "FoxEssTheory",
+    "difficulty": 0,
+    "skills_required": [ [ "cooking", 2 ] ],
+    "time": "30 m",
+    "charges": 1,
+    "autolearn": true,
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "COOK", "level": 3 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [ [ [ "FoxEssencenormal", 1000 ] ], [ [ "sugar", 10 ] ] ]
   }
 ]
