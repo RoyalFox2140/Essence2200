@@ -2,7 +2,7 @@
     {
     "id": "Fox_Hidden_NanoXEDRAskin",
     "type": "SPELL",
-    "name": "Xedra Aug: Skin",
+    "name": "XEDRA Aug: Skin",
     "description": "a!",
     "message": "Your vision blurs as your body hardens.",
     "valid_targets": [ "self" ],
@@ -15,7 +15,7 @@
     {
     "id": "Fox_Hidden_NanoXEDRAvision",
     "type": "SPELL",
-    "name": "Xedra Aug: Vision",
+    "name": "XEDRA Aug: Vision",
     "description": "a!",
     "message": "Your vision blurs and the sun becomes bright.",
     "valid_targets": [ "self" ],
@@ -28,7 +28,7 @@
     {
     "id": "Fox_Hidden_NanoXEDRApersonality",
     "type": "SPELL",
-    "name": "Xedra Aug: Personality",
+    "name": "XEDRA Aug: Personality",
     "description": "a!",
     "message": "You realize only your personal survival and needs matter.",
     "valid_targets": [ "self" ],
@@ -41,7 +41,7 @@
     {
     "id": "Fox_Hidden_NanoXEDRAmind",
     "type": "SPELL",
-    "name": "Xedra Aug: Mind",
+    "name": "XEDRA Aug: Mind",
     "description": "a!",
     "message": "This stupid canister did nothing. Your crowbar starts explaining they didn't have time to finish designing it.",
     "valid_targets": [ "self" ],
@@ -54,7 +54,7 @@
     {
     "id": "Fox_Hidden_NanoXEDRAdiet",
     "type": "SPELL",
-    "name": "Xedra Aug: Dietary",
+    "name": "XEDRA Aug: Dietary",
     "description": "a!",
     "message": "Now you REALLY want some prick pie, maybe some chili con cabron.",
     "valid_targets": [ "self" ],
