@@ -314,5 +314,46 @@
       [ [ "Foxcrystallizedessence", 20 ] ],
       [ [ "cable", 20 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxFujiwaraMotorStandard",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 8 ], [ "fabrication", 6 ], [ "mechanics", 8 ], [ "computer", 3 ], [ "electronics", 6 ] ],
+    "difficulty": 8,
+    "time": "40 h",
+    "book_learn": [ [ "FoxDeSGAfujiwara", 6 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 3 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [[ [ "Foxmachiningstation", 800 ] ] ],
+    "components": [
+      [ [ "FoxSGAmechparts", 40 ] ],
+      [ [ "FoxSGAelectronics", 60 ] ],
+      [ [ "FoxAdamantinechunk", 40 ] ], 
+      [ [ "Foxtarrubber", 20 ] ],
+      [ [ "FoxSGAessreactortiny", 10 ], [ "FoxMagicCapacitor", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxFujiwaraMotorSuper",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssSpellcasting",
+    "skills_required": [ [ "FoxEssTech", 8 ], [ "FoxEssTheory", 8 ], [ "fabrication", 6 ], [ "mechanics", 8 ], [ "computer", 3 ], [ "electronics", 6 ] ],
+    "difficulty": 8,
+    "time": "60 h",
+    "book_learn": [ [ "FoxDeSGAfujiwara", 6 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 3 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [[ [ "Foxmachiningstation", 1200 ] ] ],
+    "components": [
+      [ [ "Foxhumansoul", 250 ] ],
+      [ [ "FoxSGAmechparts", 5 ] ],
+      [ [ "FoxSGAelectronics", 100 ] ],
+      [ [ "FoxAdamantinechunk", 50 ] ], 
+      [ [ "Foxtarrubber", 20 ] ],
+      [ [ "FoxSGAessreactortiny", 20 ], [ "FoxMagicCapacitor", 20 ] ]
+    ]
   }
 ]

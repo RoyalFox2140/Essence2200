@@ -170,5 +170,83 @@
     "flags": [ "ROTOR" ],
     "breaks_into": [ { "item": "FoxAdamantinechunk", "count": [ 300, 380 ] } ],
     "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
+  },
+  {
+    "abstract": "Foxelectricmotor",
+    "type": "vehicle_part",
+    "name": { "str": "abstract" },
+    "symbol": "*",
+    "color": "yellow",
+    "broken_color": "red",
+    "item": "motor",
+    "location": "engine_block",
+    "description": "An abstract item.",
+    "noise_factor": 5,
+    "m2c": 90,
+    "fuel_type": "battery",
+    "flags": [ "ENGINE", "E_HIGHER_SKILL", "E_HEATER" ]
+  },
+  {
+    "id": "FoxFujiwaraMotorStandard",
+    "copy-from": "Foxelectricmotor",
+    "type": "vehicle_part",
+    "looks_like": "engine_electric_super",
+    "name": { "str": "Fujiwara standard electric motor" },
+    "item": "FoxFujiwaraMotorStandard",
+    "description": "An advanced electric motor with efficient and sophisticated components, with more power and less electrical consumption than competitors. its power will not diminish even when multiple of them are installed.",
+    "durability": 1050,
+    "power": 600000,
+    "energy_consumption": 300000,
+    "damage_modifier": 80,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 6 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 6 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 5 ] ]
+      }
+    },
+    "breaks_into": [
+      { "item": "FoxSGAmechparts", "count": [ 30, 40 ] },
+      { "item": "FoxSGAelectronics", "count": [ 30, 60 ] },
+      { "item": "FoxAdamantinechunk", "count": [ 30, 40 ] },
+      { "item": "Foxtarrubber", "count": [ 12, 20 ] },
+      { "item": "FoxSGAessreactortiny", "charges": [ 10, 20 ] }
+    ],
+    "extend": { "flags": [ "E_NO_POWER_DECAY" ] },
+    "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
+  },
+  {
+    "id": "FoxFujiwaraMotorSuper",
+    "copy-from": "Foxelectricmotor",
+    "type": "vehicle_part",
+    "looks_like": "engine_electric_super",
+    "name": { "str": "Fujiwara super electric motor" },
+    "item": "FoxFujiwaraMotorSuper",
+    "description": "A massively powerful electric motor sustained only by the power of 250 human souls which provide a continuous feedback loop of electricity. its power will not diminish even when multiple of them are installed.",
+    "durability": 1050,
+    "power": 4500000,
+    "energy_consumption": 500000,
+    "damage_modifier": 80,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 6 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 6 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 5 ] ]
+      }
+    },
+    "breaks_into": [
+      { "item": "Foxhumansoul", "count": [ 240, 250 ] },
+      { "item": "FoxSGAmechparts", "count": [ 30, 40 ] },
+      { "item": "FoxSGAelectronics", "count": [ 60, 100 ] },
+      { "item": "FoxAdamantinechunk", "count": [ 40, 50 ] },
+      { "item": "Foxtarrubber", "count": [ 12, 20 ] },
+      { "item": "FoxSGAessreactortiny", "charges": [ 10, 20 ] }
+    ],
+    "extend": { "flags": [ "E_NO_POWER_DECAY" ] },
+    "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
   }
 ]

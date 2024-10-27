@@ -223,8 +223,38 @@
     "price_postapoc": "2 USD",
     "weight": "2000 g",
     "volume": "450000 ml",
-    "material": "steel",
+    "material": "FoxAdamantine",
     "symbol": "X",
     "color": "dark_gray"
+  },
+  {
+    "type": "GENERIC",
+    "id": "FoxFujiwaraMotorStandard",
+    "looks_like": "motor_super",
+    "name": { "str": "Fujiwara standard electric motor" },
+    "description": "A powerful clan Fujiwara electric motor.",
+    "color": "yellow",
+    "symbol": "#",
+    "material": [ "FoxAdamantine" ],
+    "weight": "5 kg",
+    "volume": "40 L",
+    "bashing": 1,
+    "category": "veh_parts",
+    "price_postapoc": "2 USD"
+  },
+  {
+    "type": "GENERIC",
+    "id": "FoxFujiwaraMotorSuper",
+    "looks_like": "motor_super",
+    "name": { "str": "Fujiwara super electric motor" },
+    "description": "An ultra-powerful clan Fujiwara electric motor.",
+    "color": "yellow",
+    "symbol": "#",
+    "material": [ "FoxAdamantine" ],
+    "weight": "6 kg",
+    "volume": "40 L",
+    "bashing": 1,
+    "category": "veh_parts",
+    "price_postapoc": "2 USD"
   }
 ]
