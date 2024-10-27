@@ -621,7 +621,7 @@
     "material_thickness": 2,
     "environmental_protection": 2,
     "valid_mods" : ["furred", "wooled"],
-    "flags": [ "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
+    "flags": [ "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "RAD_PROOF" ]
   },
   {
     "id": "Foxholsterimperial",
