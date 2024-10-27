@@ -16,7 +16,7 @@
     "material": [ "flesh" ],
     "symbol": "Z",
     "color": "light_green_green",
-    "aggression": 5,
+    "aggression": -1,
     "morale": 100,
     "diff": 15,
     "melee_skill": 2,
