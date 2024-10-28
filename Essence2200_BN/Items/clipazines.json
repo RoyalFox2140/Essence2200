@@ -135,7 +135,7 @@
     "material": "FoxAdamantine",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "Fox556mmSGA" ],
+    "ammo_type": [ "223", "Fox556mmSGA" ],
     "capacity": 30,
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]
