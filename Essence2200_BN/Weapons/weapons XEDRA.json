@@ -33,7 +33,7 @@
           "survivor223mag"
         ]
       ]
-    ]
+    ],
     "description": "Based off the M4A1, this rifle is machined from Adamantine/Shadowsteel parts and lacks MAG-tech and recoil dampeners for easier fabrication and maintenance. Being of superior materials it will fire SGA ammunition, it contains much more sophisticated components to manage the recoil.",
     "ranged_damage": { "damage_type": "bullet", "amount": 2 }
   }
