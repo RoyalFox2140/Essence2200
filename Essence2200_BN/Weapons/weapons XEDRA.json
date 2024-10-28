@@ -7,6 +7,33 @@
     "weight": "2800 g",
     "looks_like": "m4a1",
     "material": [ "FoxShadowSteel", "FoxAdamantine" ],
+    "ammo": [ "223", "Fox556mmSGA" ],
+    "magazines": [
+      [
+        "Fox556mmSGA",
+        [
+          "FoxSGA556mag"
+        ]
+      ],
+      [
+        "223",
+        [
+          "stanag30",
+          "stanag5",
+          "stanag10",
+          "stanag20",
+          "stanag40",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "survivor223mag"
+        ]
+      ]
+    ]
     "description": "Based off the M4A1, this rifle is machined from Adamantine/Shadowsteel parts and lacks MAG-tech and recoil dampeners for easier fabrication and maintenance. Being of superior materials it will fire SGA ammunition, it contains much more sophisticated components to manage the recoil.",
     "ranged_damage": { "damage_type": "bullet", "amount": 2 }
   }
