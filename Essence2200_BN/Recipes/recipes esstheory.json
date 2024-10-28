@@ -17,6 +17,19 @@
   },
   {
     "type": "recipe",
+    "result": "Foxpowderedessence",
+    "id_suffix": "FoxHammerCrush",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "time": "20 m",
+    "autolearn": true,
+    "charges": 100,
+    "batch_time_factors": [ 80, 3 ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "Foxcrystallizedessence", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "FoxEssencepure",
     "id_suffix": "FoxRefinement",
     "category": "CC_ESSTECH",
