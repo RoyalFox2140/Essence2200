@@ -30,7 +30,7 @@
     "color": "yellow",
     "broken_symbol": "x",
     "broken_color": "yellow",
-    "epower": 18
+    "epower": 36
   },
   {
     "type": "vehicle_part",
@@ -41,6 +41,6 @@
     "color": "yellow",
     "broken_symbol": "x",
     "broken_color": "yellow",
-    "epower": 36
+    "epower": 18
   }
 ]
