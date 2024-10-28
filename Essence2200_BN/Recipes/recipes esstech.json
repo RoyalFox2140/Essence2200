@@ -349,7 +349,7 @@
     "tools": [[ [ "Foxmachiningstation", 1200 ] ] ],
     "components": [
       [ [ "Foxhumansoul", 250 ] ],
-      [ [ "FoxSGAmechparts", 5 ] ],
+      [ [ "FoxSGAmechparts", 40 ] ],
       [ [ "FoxSGAelectronics", 100 ] ],
       [ [ "FoxAdamantinechunk", 50 ] ], 
       [ [ "Foxtarrubber", 20 ] ],
