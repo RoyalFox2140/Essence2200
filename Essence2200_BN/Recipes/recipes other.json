@@ -337,5 +337,53 @@
     "autolearn": true,
     "components": [ [ [ "Foxnanoaugcanistergeneric", 2 ] ] ],
     "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxnanoaugcanisterimmunityone",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 s",
+    "autolearn": true,
+    "components": [ [ [ "Foxnanoaugcanistergeneric", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxnanoaugcanisterimmunitytwo",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 s",
+    "autolearn": true,
+    "components": [ [ [ "Foxnanoaugcanistergeneric", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxnanoaugcanisterimmunitythree",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 s",
+    "autolearn": true,
+    "components": [ [ [ "Foxnanoaugcanistergeneric", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxnanoaugcanistersanity",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 s",
+    "autolearn": true,
+    "components": [ [ [ "Foxnanoaugcanistergeneric", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
   }
 ]

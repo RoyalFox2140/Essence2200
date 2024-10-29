@@ -114,7 +114,8 @@
     "effect": "mutate",
     "effect_str": "Foxnanoeffstaone",
     "min_damage": 10000,
-    "max_damage": 10000
+    "max_damage": 10000,
+    "extra_effects": [ { "id": "Fox_Hidden_Nanowakeful" } ]
     },
     {
     "id": "Fox_Hidden_NanoStatwo",
@@ -270,7 +271,8 @@
     "effect": "mutate",
     "effect_str": "Foxnanoeffintone",
     "min_damage": 10000,
-    "max_damage": 10000
+    "max_damage": 10000,
+    "extra_effects": [ { "id": "Fox_Hidden_Nanoorganization" } ]
     },
     {
     "id": "Fox_Hidden_NanoInttwo",
@@ -322,7 +324,8 @@
 	"effect": "mutate",
     "effect_str": "Foxnanoeffdextwo",
 	"min_damage": 10000,
-    "max_damage": 10000
+    "max_damage": 10000,
+    "extra_effects": [ { "id": "Fox_Hidden_Nanoparkour" } ]
     },
     {
     "id": "Fox_Hidden_NanoDexthree",
@@ -334,6 +337,138 @@
     "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
 	"effect": "mutate",
     "effect_str": "Foxnanoeffdexthree",
+	"min_damage": 10000,
+    "max_damage": 10000
+    },
+    {
+    "id": "Fox_Hidden_Nanoimmunityone",
+    "type": "SPELL",
+    "name": "Nano Aug: Immunization I",
+    "description": "a!",
+    "message": "You feel a sense of wellness wash over your body.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+    "effect": "mutate",
+    "effect_str": "Foxnanoeffimmunityone",
+    "min_damage": 10000,
+    "max_damage": 10000
+    },
+    {
+    "id": "Fox_Hidden_Nanoimmunitytwo",
+    "type": "SPELL",
+    "name": "Nano Aug: Immunization II",
+    "description": "a!",
+	"message": "You feel a sense of wellness wash over your body.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+	"effect": "mutate",
+    "effect_str": "Foxnanoeffimmunitytwo",
+	"min_damage": 10000,
+    "max_damage": 10000,
+    "extra_effects": [ { "id": "Fox_Hidden_Nanoparasites" }, { "id": "Fox_Hidden_Nanoinfection" } ]
+    },
+    {
+    "id": "Fox_Hidden_Nanoimmunitythree",
+    "type": "SPELL",
+    "name": "Nano Aug: Immunization III",
+    "description": "a!",
+	"message": "You feel a sense of wellness wash over your body.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+	"effect": "mutate",
+    "effect_str": "Foxnanoeffimmunitythree",
+	"min_damage": 10000,
+    "max_damage": 10000,
+    "extra_effects": [ { "id": "Fox_Hidden_Nanohappy" } ]
+    },
+    {
+    "id": "Fox_Hidden_Nanosanity",
+    "type": "SPELL",
+    "name": "Nano Aug: Sanity I",
+    "description": "a!",
+	"message": "You feel your mind at ease, and your neurotic tendencies fade.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+	"effect": "mutate",
+    "effect_str": "Foxnanoeffsanity",
+	"min_damage": 10000,
+    "max_damage": 10000
+    },
+    {
+    "id": "Fox_Hidden_Nanoparasites",
+    "type": "SPELL",
+    "name": "Nano Aug: Parasite Immunity",
+    "description": "a!",
+    "message": "You don't feel any different, but the label said parasites won't affect you.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+    "effect": "mutate",
+    "effect_str": "PARAIMMUNE",
+    "min_damage": 10000,
+    "max_damage": 10000
+    },
+    {
+    "id": "Fox_Hidden_Nanoinfection",
+    "type": "SPELL",
+    "name": "Nano Aug: Infection Immunity",
+    "description": "a!",
+	"message": "You don't feel any different, but the label said you can't become infected.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+	"effect": "mutate",
+    "effect_str": "INFRESIST",
+	"min_damage": 10000,
+    "max_damage": 10000
+    },
+    {
+    "id": "Fox_Hidden_Nanoorganization",
+    "type": "SPELL",
+    "name": "Nano Aug: Organization",
+    "description": "a!",
+	"message": "You suddenly realize how stupid your organizational techniques are.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+	"effect": "mutate",
+    "effect_str": "PACKMULE",
+	"min_damage": 10000,
+    "max_damage": 10000
+    },
+    {
+    "id": "Fox_Hidden_Nanoparkour",
+    "type": "SPELL",
+    "name": "Nano Aug: Organization",
+    "description": "a!",
+	"message": "You suddenly realize you can parkour like a God.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+	"effect": "mutate",
+    "effect_str": "PACKMULE",
+	"min_damage": 10000,
+    "max_damage": 10000
+    },
+    {
+    "id": "Fox_Hidden_Nanohappy",
+    "type": "SPELL",
+    "name": "Nano Aug: Optimism",
+    "description": "a!",
+	"message": "You suddenly realize life isn't so bad.  Now now, stiff upper lip.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+	"effect": "mutate",
+    "effect_str": "PACKMULE",
+	"min_damage": 10000,
+    "max_damage": 10000
+    },
+    {
+    "id": "Fox_Hidden_Nanowakeful",
+    "type": "SPELL",
+    "name": "Nano Aug: Wakeful",
+    "description": "a!",
+	"message": "You feel less tired overall.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+	"effect": "mutate",
+    "effect_str": "WAKEFUL",
 	"min_damage": 10000,
     "max_damage": 10000
     }
