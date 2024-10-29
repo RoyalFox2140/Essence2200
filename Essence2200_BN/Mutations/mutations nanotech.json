@@ -7,7 +7,7 @@
     "description": "The first level of strength augmentation attempts to maintain your existing muscle mass during periods of inactivity, it won't build you up but bodybuilders could take a few days off every week without losing mass. You will also deal with heavy weights without straining yourself as much.",
     "valid": false,
     "purifiable": false,
-    "cancels": [ "BADBACK" ],
+    "cancels": [ "BADBACK", "BADKNEES" ],
     "passive_mods": { "str_mod": 4 }
   },
   {
@@ -38,7 +38,7 @@
     "description": "The first level of stamina augmentation regulates blood oxygen content in your body and waste product removal, ensuring you recover from activity fast.",
     "valid": false,
     "purifiable": false,
-    "cancels": [ "BADCARDIO" ],
+    "cancels": [ "BADCARDIO", "SLEEPY" ],
     "stamina_regen_modifier": 0.25,
     "max_stamina_modifier": 2
   },
@@ -50,6 +50,7 @@
     "description": "The second level of stamina augmentation improves the abilities of your lungs and heart, your body will perform better under heavy exercise.",
     "valid": false,
     "purifiable": false,
+    "cancels": [ "ASTHMA" ],
     "stamina_regen_modifier": 0.25,
     "max_stamina_modifier": 2
   },
@@ -72,7 +73,7 @@
     "description": "The first level of Perception augmentation corrects any vision impairment and maintains your eyes for optimal vision.",
     "valid": false,
     "purifiable": false,
-    "cancels": [ "MYOPIC" ],
+    "cancels": [ "MYOPIC", "HYPEROPIC" ],
     "night_vision_range": 5,
     "overmap_sight": 1,
     "passive_mods": { "per_mod": 4 }
@@ -82,9 +83,10 @@
     "id": "Foxnanoeffpertwo",
     "name": { "str": "Nano Perception II" },
     "points": 0,
-    "description": "The second level of Perception augmentation delicately upgrades your vision and optic nerves beyond human limits.",
+    "description": "The second level of Perception augmentation delicately upgrades your vision and optic nerves beyond human limits.  This additionally cancels hearing impairment.",
     "valid": false,
     "purifiable": false,
+    "cancels": [ "DEAF", "HYPEROPIC", "BADHEARING" ],
     "night_vision_range": 5,
     "passive_mods": { "per_mod": 4 }
   },
@@ -108,7 +110,7 @@
     "description": "The first level of Durability augmentation corrects genetic weaknesses, preparing the body for greater injury protection.",
     "valid": false,
     "purifiable": false,
-    "cancels": [ "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW" ],
+    "cancels": [ "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW", "CHAOTIC_BAD" ],
     "hp_adjustment": 20
   },
   {
@@ -119,7 +121,8 @@
     "description": "The second level of Durability augmentation improves flesh and bone density harmlessly, whilst hardening against physical trauma.",
     "valid": false,
     "purifiable": false,
-    "armor": [ { "parts": "ALL", "physical": 20 } ],
+    "armor": [ { "parts": "ALL", "physical": 8 } ],
+    "cancels": [ "SLOWHEALER", "SLOWHEALER2", "SLOWHEALER3", "THINSKIN" ],
     "hp_adjustment": 20
   },
   {
@@ -130,7 +133,8 @@
     "description": "The third level of Durability augmentation prepares the body for gunshot wound and extreme physical trauma to organic limits.",
     "valid": false,
     "purifiable": false,
-    "armor": [ { "parts": "ALL", "physical": 20, "bullet": 35 } ],
+    "cancels": [ "MORE_PAIN", "MORE_PAIN2", "MORE_PAIN3" ],
+    "armor": [ { "parts": "ALL", "physical": 12, "bullet": 35 } ],
     "hp_adjustment": 20
   },
   {
@@ -138,9 +142,10 @@
     "id": "Foxnanoeffecone",
     "name": { "str": "Nano Electrochem I" },
     "points": 0,
-    "description": "The first level of Electrochemical augmentation prepares the nervous system for electric shock, and minor chemical burns.",
+    "description": "The first level of Electrochemical augmentation prepares the nervous system for electric shock, and minor chemical burns, it also fixes a lack of skin pigmentation",
     "valid": false,
     "purifiable": false,
+    "cancels": [ "ALBINO" ],
     "armor": [ { "parts": "ALL", "acid": 10, "electric": 20 } ]
   },
   {
@@ -171,6 +176,7 @@
     "description": "The first level of intelligence augmentation improves your short-term memory, reading comprehension, and attention to small details, allowing you to learn and work more efficiently.",
     "valid": false,
     "purifiable": false,
+    "cancels": [ "SLOWLEARNER", "DISORGANIZED", "SLOWREADER" ],
     "passive_mods": { "int_mod": 4 }
   },
   {
@@ -181,6 +187,7 @@
     "description": "The second level of intelligence augmentation improves the formation of long-term memories and your ability to recollect.",
     "valid": false,
     "purifiable": false,
+    "cancels": [ "ILLITERATE" ],
     "passive_mods": { "int_mod": 4 }
   },
   {
@@ -188,9 +195,10 @@
     "id": "Foxnanoeffintthree",
     "name": { "str": "Nano Intelligence III" },
     "points": 0,
-    "description": "The third level of intelligence augmentation grants you a photograhic memory and reaches the limits of biology.",
+    "description": "The third level of intelligence augmentation grants you a photograhic memory, cures brain damage and chemical instability, and reaches the limits of biology.",
     "valid": false,
     "purifiable": false,
+    "cancels": [ "UNOBSERVANT", "CHEMIMBALANCE", "SCHIZOPHRENIC", "NARCOLEPTIC", "SAVANT" ],
     "passive_mods": { "int_mod": 6 }
   },
   {
@@ -201,6 +209,7 @@
     "description": "The first level of dexterity augmentation improves general flexibility, balance, and muscle memory.",
     "valid": false,
     "purifiable": false,
+    "cancels": [ "CLUMSY", "JITTERY", "SLOWRUNNER" ],
     "passive_mods": { "dex_mod": 4 }
   },
   {
@@ -232,6 +241,7 @@
     "description": "Thanks to that upgrade your skin turned a dark grayish color and metallic shine not unlike imperial steel or ballistic weave, your eyes are now red from increased nanite infused blood to protect them. It no longer conducts electricity, has less thermal conductivity and won't be damaged by acid. Your eyes don't see as well now, and most people think you're ugly and won't trust a metal demon.",
     "valid": false,
     "purifiable": true,
+    "cancels": [ "ALBINO" ],
     "social_modifiers": { "lie": -15, "persuade": -25, "intimidate": 10 },
     "passive_mods": { "per_mod": -4 },
     "armor": [ { "parts": "ALL", "heat": 20, "cold": 20, "acid": 400, "electric": 400 } ]
@@ -247,5 +257,45 @@
     "purifiable": true,
     "night_vision_range": 120,
     "passive_mods": { "per_mod": -8 }
+  },
+  {
+    "type": "mutation",
+    "id": "Foxnanoeffimmunityone",
+    "name": { "str": "Nano Immunizations I" },
+    "points": 0,
+    "description": "The first level of immunizations augmentation cures airborne and foodborne allergies.",
+    "valid": false,
+    "purifiable": false,
+    "cancels": [ "CARNIVORE", "HERBIVORE", "ANTIFRUIT", "MEATARIAN", "LACTOSE", "ANTIJUNK", "ANTIWHEAT", "WOOLALLERGY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "Foxnanoeffimmunitytwo",
+    "name": { "str": "Nano Immunizations II" },
+    "points": 0,
+    "description": "The second level of immunizations augmentation ensures the body is resistant to pathogenic infections and disease.",
+    "valid": false,
+    "purifiable": false,
+    "cancels": [ "SMELLY", "WEAKSTOMACH" ]
+  },
+  {
+    "type": "mutation",
+    "id": "Foxnanoeffimmunitythree",
+    "name": { "str": "Nano Immunizations III" },
+    "points": 0,
+    "description": "The third level of immunizations augmentation combats poor mood and irritability, immunizing the mind from emotional damage but not physical brain damage or chemical imbalances.",
+    "valid": false,
+    "purifiable": false,
+    "cancels": [ "BADTEMPER", "WAYFARER", "BRAWLER", "SQUEAMISH", "HOARDER" ]
+  },
+  {
+    "type": "mutation",
+    "id": "Foxnanoeffsanity",
+    "name": { "str": "Nano Sanity I" },
+    "points": 0,
+    "description": "Nano sanity augmentation combats mental and emotional problems that run far too deep for a generalized immunization treatment to cover.",
+    "valid": false,
+    "purifiable": false,
+    "cancels": [ "NOMAD", "PYROMANIA", "SQUEAMISH", "HOARDER", "PACIFIST", "MOODSWINGS" ]
   }
 ]
