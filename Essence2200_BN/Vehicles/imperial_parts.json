@@ -40,7 +40,7 @@
     },
     "flags": [ "AISLE_LIGHT", "OBSTACLE", "ENABLED_DRAINS_EPOWER" ],
     "breaks_into": [ {"item": "plut_generator_item"} ],
-    "description": "A reliable generator that uses the decay of radioactive elements to generate a reliable trickle of power."
+    "description": "FROM ESSENCE 2200. USE MAINLINE VERSION IF YOU PREFER THAT. A reliable generator that uses the decay of radioactive elements to generate a reliable trickle of power, aisle lights must be turned on to make power."
   },
   {
     "type": "vehicle_part",
