@@ -482,7 +482,7 @@
         }
       },
       "field": {
-        "chance": 6,
+        "chance": 5,
         "extras": {
           "mx_helicopter": 1,
           "mx_military": 2,
@@ -503,7 +503,7 @@
           "mx_corpses": 3,
           "mx_mass_grave": 5,
           "mx_grave": 5,
-          "Foxmximperialreapers": 4,
+          "Foxmximperialreapers": 3,
           "Foxmximperialinvasionfailed": 2,
           "Foxmximperialreaperslost": 5,
           "Foxmxsludgepit": 10
