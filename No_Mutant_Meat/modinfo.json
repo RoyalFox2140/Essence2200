@@ -380,5 +380,16 @@
       { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.3 },
       { "drop": "egg_centipede", "type": "offal", "base_num": [ 0, 3 ], "scale_num": [ 0.5, 1 ], "max": 10 }
     ]
+  },
+  {
+    "id": "mutant_meatslug",
+    "//": "no bones or organs",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.4 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "fat", "type": "offal", "mass_ratio": 0.1 }
+    ]
   }
 ]
