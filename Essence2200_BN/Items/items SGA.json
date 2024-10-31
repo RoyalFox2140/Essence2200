@@ -674,7 +674,7 @@
     "symbol": "*",
     "color": "green",
     "use_action": {
-      "target": "grenade_act",
+      "target": "FoxSGAgrenadeactive",
       "msg": "You pull the pin on the grenade.",
       "target_charges": 5,
       "active": true,
