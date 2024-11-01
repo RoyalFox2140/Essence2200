@@ -98,7 +98,7 @@
     "description": "The third level of Perception augmentation allows you to see in the near-abscene of light, and your vision becomes telescopic, you will see distant terrain from further away.",
     "valid": false,
     "purifiable": false,
-    "night_vision_range": 40,
+    "night_vision_range": 60,
     "overmap_sight": 4,
     "passive_mods": { "per_mod": 6 }
   },
