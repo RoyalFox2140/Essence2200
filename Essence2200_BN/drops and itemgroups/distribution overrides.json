@@ -75,6 +75,14 @@
   },
   {
     "type": "item_group",
+    "id": "vault_bad",
+    "items": [ 
+      [ "Foxnanoaugcanistergeneric", 10 ],
+      [ "Foxnanoaugcanisterbad", 20 ]
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "energy_weapon_armory",
     "subtype": "distribution",
     "items": [
