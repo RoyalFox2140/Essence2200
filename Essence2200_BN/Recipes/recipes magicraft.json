@@ -442,7 +442,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
+      [ [ "FoxEssencenormal", 4000 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
   },
