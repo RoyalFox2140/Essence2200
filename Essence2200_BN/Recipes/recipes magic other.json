@@ -10,7 +10,8 @@
     "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
     "components": [
       [ [ "FoxEssencenormal", 4000 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "Fox_spellbooks_Elemental2",
@@ -23,7 +24,8 @@
     "autolearn": true,
     "components": [
       [ [ "FoxEssencenormal", 40000 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "Fox_spellbooks_Spirit",
@@ -36,7 +38,8 @@
     "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
     "components": [
       [ [ "FoxEssencenormal", 4000 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "Fox_spellbooks_Spirittwo",
@@ -49,7 +52,8 @@
     "autolearn": true,
     "components": [
       [ [ "FoxEssencenormal", 40000 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "Fox_spellbooks_Transmutation",
@@ -62,7 +66,8 @@
     "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
     "components": [
       [ [ "FoxEssencenormal", 4000 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "Fox_spellbooks_Transmutationtwo",
@@ -75,7 +80,8 @@
     "autolearn": true,
     "components": [
       [ [ "FoxEssencenormal", 40000 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "Fox_spellbooks_Construction",
@@ -88,7 +94,8 @@
     "autolearn": true,
     "components": [
       [ [ "FoxEssencenormal", 8000 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "Fox_spellbooks_Druid",
@@ -101,7 +108,8 @@
     "autolearn": true,
     "components": [
       [ [ "FoxEssencenormal", 8000 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "Fox_spellbooks_Prayer",
@@ -115,7 +123,8 @@
     "autolearn": true,
     "components": [
       [ [ "FoxEssencenormal", 4000 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "Fox_spellbooks_Prayer",
@@ -129,7 +138,8 @@
     "autolearn": true,
     "components": [
       [ [ "FoxDeSGAkawakamiprayer", 1 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "Fox_spellbooks_Necromancy",
@@ -142,6 +152,7 @@
     "autolearn": true,
     "components": [
       [ [ "FoxEssencenormal", 8000 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   }
 ]

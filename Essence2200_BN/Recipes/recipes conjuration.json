@@ -12,7 +12,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -27,7 +27,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -42,7 +42,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -58,7 +58,7 @@
     "batch_time_factors": [ 80, 2 ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -74,7 +74,7 @@
     "batch_time_factors": [ 80, 2 ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -89,7 +89,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -104,7 +104,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -119,7 +119,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -134,7 +134,7 @@
     "result_mult": 4,
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -149,7 +149,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -164,7 +164,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxEssencenormal", 250 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -179,7 +179,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -194,7 +194,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -209,7 +209,7 @@
     "result_mult": 20,
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -224,7 +224,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -239,7 +239,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -254,7 +254,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -269,7 +269,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -284,7 +284,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -299,7 +299,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -314,7 +314,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -329,7 +329,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -344,7 +344,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -359,7 +359,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -374,7 +374,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -389,7 +389,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -404,7 +404,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -419,7 +419,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -434,7 +434,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -450,7 +450,7 @@
     "batch_time_factors": [ 80, 2 ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -466,7 +466,7 @@
     "batch_time_factors": [ 80, 2 ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -481,7 +481,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -496,7 +496,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -511,7 +511,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -526,7 +526,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -541,7 +541,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -556,7 +556,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -571,7 +571,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -586,7 +586,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -601,7 +601,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -616,7 +616,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -631,7 +631,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -646,7 +646,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -661,7 +661,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -676,7 +676,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -691,7 +691,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -706,7 +706,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -721,7 +721,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -736,7 +736,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -751,7 +751,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -766,7 +766,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -781,7 +781,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -796,7 +796,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -811,7 +811,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -826,7 +826,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -841,7 +841,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -856,7 +856,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -871,7 +871,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -886,7 +886,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -901,7 +901,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -916,7 +916,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -931,7 +931,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -946,7 +946,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -961,7 +961,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -976,7 +976,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -991,7 +991,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1006,7 +1006,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1021,7 +1021,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1036,7 +1036,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1051,7 +1051,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1066,7 +1066,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1081,7 +1081,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1096,7 +1096,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1111,7 +1111,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1126,7 +1126,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1141,7 +1141,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1156,7 +1156,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1171,7 +1171,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1186,7 +1186,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1201,7 +1201,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1216,7 +1216,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1231,7 +1231,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1246,7 +1246,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1261,7 +1261,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1276,7 +1276,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1291,7 +1291,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1306,7 +1306,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1321,7 +1321,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1336,7 +1336,7 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -1351,6 +1351,6 @@
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
-    "flags": ["NUTRIENT_OVERRIDE"]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   }
 ]
