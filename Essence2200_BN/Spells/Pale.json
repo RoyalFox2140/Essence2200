@@ -188,6 +188,24 @@
     "max_level": 1,
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
-    "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+  },
+  {
+    "id": "Fox_Pale_Phaseshift",
+    "type": "SPELL",
+    "name": { "str": "P: Phase Shift" },
+    "description": "You break down the barriers between dimensions enough to plant yourself in a new location, including inside walls, moving enemies to your previous position but not allies.",
+    "valid_targets": [ "hostile", "ground" ],
+    "min_range": 10,
+    "max_range": 60,
+    "range_increment": 5,
+    "effect": "target_attack",
+    "base_casting_time": 50,
+    "base_energy_cost": 200,
+    "difficulty": 1,
+    "max_level": 10,
+    "skill": "FoxEssSpellcasting",
+    "energy_source": "MANA",
+    "flags": [ "SILENT", "SWAP_POS", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
   }
 ]

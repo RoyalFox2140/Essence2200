@@ -1657,7 +1657,8 @@
 		"Fox_Spirit_Respite",
     "Fox_Spirit_Paininhibitor",
     "Fox_Pale_portalnexus",
-    "Fox_Pale_teleport"
+    "Fox_Pale_teleport",
+    "Fox_Pale_Phaseshift"
       ]
     }
   },
@@ -1922,7 +1923,8 @@
         "Fox_Pale_Greater_SOL",
         "Fox_Pale_Shockwave",
         "Fox_Pale_portalnexus",
-        "Fox_Pale_teleport"
+        "Fox_Pale_teleport",
+        "Fox_Pale_Phaseshift"
       ]
     }
   },

@@ -25,7 +25,7 @@
     "name": "XEDRA Nano augmentation canister",
     "symbol": "~",
     "color": "red",
-    "description": "A red sickly looking canister containing poorly designed reverse-engineered nano augmentation, just like the original it can be tuned to a specific augmentation. Beware of horrible side effects unless you take the time to reprogram the nanomachines.",
+    "description": "A red sickly looking canister containing poorly designed reverse-engineered nano augmentation, just like the original it can be tuned to a specific augmentation. These nanomachines were entering the public eye for use in experimental regenerative treatments to save trauma victims, or to purify defects, but any attempt to alter human genome and structure was met with nasty side effects and banned for public usage.",
     "volume": "250 ml",
     "weight": "100 g",
     "bashing": 1,

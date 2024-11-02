@@ -9,7 +9,7 @@
     "time": "4 h",
     "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 10000 ] ]
+      [ [ "FoxEssencenormal", 4000 ] ]
     ]
   },
   {
@@ -22,7 +22,7 @@
     "time": "6 h",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 50000 ] ]
+      [ [ "FoxEssencenormal", 40000 ] ]
     ]
   },
   {
@@ -35,7 +35,7 @@
     "time": "4 h",
     "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 10000 ] ]
+      [ [ "FoxEssencenormal", 4000 ] ]
     ]
   },
   {
@@ -48,7 +48,7 @@
     "time": "6 h",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 50000 ] ]
+      [ [ "FoxEssencenormal", 40000 ] ]
     ]
   },
   {
@@ -61,7 +61,7 @@
     "time": "4 h",
     "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 10000 ] ]
+      [ [ "FoxEssencenormal", 4000 ] ]
     ]
   },
   {
@@ -74,7 +74,7 @@
     "time": "6 h",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 50000 ] ]
+      [ [ "FoxEssencenormal", 40000 ] ]
     ]
   },
   {
@@ -87,7 +87,7 @@
     "time": "6 h",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 10000 ] ]
+      [ [ "FoxEssencenormal", 8000 ] ]
     ]
   },
   {
@@ -100,7 +100,7 @@
     "time": "6 h",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 10000 ] ]
+      [ [ "FoxEssencenormal", 8000 ] ]
     ]
   },
   {
@@ -114,7 +114,7 @@
     "time": "6 h",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 5000 ] ]
+      [ [ "FoxEssencenormal", 4000 ] ]
     ]
   },
   {
@@ -141,7 +141,7 @@
     "time": "6 h",
     "autolearn": true,
     "components": [
-      [ [ "FoxEssencenormal", 10000 ] ]
+      [ [ "FoxEssencenormal", 8000 ] ]
     ]
   }
 ]
