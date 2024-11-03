@@ -88,6 +88,18 @@
   },
   {
     "type": "recipe",
+    "result": "purifier_smart_shot",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 s",
+    "autolearn": true,
+    "components": [ [ [ "Foxnanoaugcanisterbad", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "type": "recipe",
     "result": "Foxnanoaugcanisterstrengthone",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_OTHER",
