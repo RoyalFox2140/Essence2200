@@ -271,5 +271,11 @@
       [ [ "Foximpelectronics", 11 ] ],
       [ [ "Foximplaserparts", 12 ] ]
     ]
+  },
+  {
+    "result": "Foximpchip",
+    "type": "uncraft",
+    "time": "1 m",
+    "components": [ [ [ "Foximpmicroelectronics", 1 ] ] ]
   }
 ]
