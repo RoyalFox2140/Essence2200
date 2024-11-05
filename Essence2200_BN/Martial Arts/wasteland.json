@@ -17,7 +17,6 @@
         "quiet": true,
         "bonus_dodges": 2,
         "flat_bonuses": [ 
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }, 
           { "stat": "speed", "scaling-stat": "dex", "scale": 0.5 }
         ]
       },
@@ -32,7 +31,6 @@
         "skill_requirements": [ { "name": "melee", "level": 5 } ],
         "bonus_dodges": 4,
         "flat_bonuses": [ 
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }, 
           { "stat": "speed", "scaling-stat": "dex", "scale": 1 },
           { "stat": "damage", "type": "cut", "scale": -5 },
           { "stat": "damage", "type": "stab", "scale": -5 },
@@ -184,7 +182,6 @@
         "skill_requirements": [ { "name": "melee", "level": 5 } ],
         "bonus_dodges": 4,
         "flat_bonuses": [ 
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }, 
           { "stat": "speed", "scaling-stat": "dex", "scale": 1 },
           { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 1 },
           { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 1 }
