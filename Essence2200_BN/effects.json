@@ -346,6 +346,19 @@
     }
   },
   {
+    "type": "effect_type",
+    "id": "Foxnanokit",
+    "name": [ "Nano-medkit" ],
+    "desc": [ "Your body is being rapidly healed by the nanomachines, it will remove pain and damage on each body part. Your body will report that it hurts greatly while the healing process takes effect, do not be alarmed." ],
+    "rating": "good",
+    "base_mods": {
+      "hurt_min": [ -4 ],
+      "hurt_tick": [ 60 ],
+      "pain_min": [ -5 ],
+      "pain_tick": [ 30 ]
+    }
+  },
+  {
     "type": "ter_furn_transform",
     "id": "FoxLogWallt",
     "terrain": [

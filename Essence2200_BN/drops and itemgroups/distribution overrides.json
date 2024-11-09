@@ -20,6 +20,7 @@
       [ "sa_cryptology_key", 90 ],
       { "item": "Foxnanoaugcanistergeneric", "prob": 100, "count": [ 1, 2 ] },
       { "item": "FoxKolibriPapers", "count": [ 1, 4 ] },
+      { "item": "Foxnanokit", "prob": 80 },
       [ "FoxDeSGAkawakamicookbook", 90 ],
       [ "FoxSGAlocktopus", 50 ],
       [ "FoxSGAmultihammer", 40 ],
@@ -138,7 +139,8 @@
     "id": "surgery",
     "items": [
 	  { "item": "FoxEssencenormal", "prob": 18, "count": [ 1, 3 ], "charges": [ 4000, 8000 ] },
-    { "item": "Foxnanoaugcanisterbad", "prob": 5 },
+    { "item": "Foxnanoaugcanisterbad", "prob": 20 },
+    { "item": "Foxnanokit", "prob": 80 },
     { "item": "FoxKolibriPapers", "prob": 1 },
 	  { "item": "Foximpelectronics", "prob": 10, "count": [ 4, 9 ] },
 	  { "item": "Foximpmicroelectronics", "prob": 12, "count": [ 1, 5 ] },
@@ -151,6 +153,8 @@
     "id": "mut_lab",
     "items": [
     [ "FoxDeSGAesstheorybasic", 10 ],
+    { "item": "Foxnanoaugcanisterbad", "prob": 20 },
+    { "item": "Foxnanokit", "prob": 30 },
     { "item": "FoxKolibriPapers", "prob": 10 },
 	  { "item": "FoxEssencenormal", "prob": 50, "count": [ 2, 5 ], "charges": [ 5000, 10000 ] }
     ]
@@ -163,6 +167,7 @@
 	  { "item": "Foximpelectronics", "prob": 10, "count": [ 4, 9 ] },
 	  { "item": "Foximpmicroelectronics", "prob": 12, "count": [ 1, 5 ] },
 	  { "item": "Foximpchip", "prob": 10, "count": [ 1, 4 ] },
+    { "item": "Foxnanoaugcanisterbad", "prob": 20 },
     { "item": "FoxKolibriPapers", "prob": 5 },
 	  { "item": "Foximpchipofficer", "prob": 5, "count": [ 1, 2 ] }
     ]

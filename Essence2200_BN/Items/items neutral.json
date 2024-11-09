@@ -854,26 +854,39 @@
     "benign": true
   },
   {
-    "id": "Foxmoldtire",
-    "type": "GENERIC",
-    "category": "tools",
-    "name": { "str": "Tar tire mold" },
-    "description": "This is a clay mold for making tar rubber tires. You're not surprised that it's shaped like an inverted tire.",
-    "weight": "320 g",
-    "volume": "20000 ml",
-    "price": "2 USD",
-    "price_postapoc": "2 USD",
-    "to_hit": 1,
-    "bashing": 3,
-    "material": "clay",
-    "symbol": ";",
-    "color": "light_blue"
-  },
-  {
     "id": "Foxrunecraftingaltar",
     "type": "TOOL",
     "copy-from": "fake_item",
     "name": { "str": "runecrafting altar" },
     "qualities": [ [ "FoxRunecrafting", 1 ] ]
+  },
+  {
+    "id": "Foxnanokit",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "looks_like": "syringe",
+    "name": "Imperial nano-medkit",
+    "description": "A single-use shot of nanomachines which will rapidly heal injuries and reduce pain. Difficult to manufacture, XEDRA was in the early stages of nanotech research and it will not be easy to manufacture more.",
+    "weight": "2 g",
+    "volume": "50 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "charges": 1,
+    "symbol": "!",
+    "color": "dark_gray",
+    "flags": [ "NO_INGEST" ],
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You inject a nano-medkit.",
+      "effects": [
+         { "id": "Foxnanokit", "duration": "600 s", "bp": "torso" },
+         { "id": "Foxnanokit", "duration": "600 s", "bp": "head" },
+         { "id": "Foxnanokit", "duration": "600 s", "bp": "arm_l" },
+         { "id": "Foxnanokit", "duration": "600 s", "bp": "arm_r" },
+         { "id": "Foxnanokit", "duration": "600 s", "bp": "leg_l" },
+         { "id": "Foxnanokit", "duration": "600 s", "bp": "leg_r" }
+        ],
+      "moves": 100
+    }
   }
 ]
