@@ -49,5 +49,26 @@
     "calories": 100,
     "//": "MST Extra inspired addition. IRL it does have vitamins. I'm just winging it because I don't care enough and it's nice if we implement vitamins again, the calories are equal, I think its fine, its too negligible.",
     "vitamins": [ [ "calcium", 2 ], [ "iron", 1 ], [ "vitC", 5 ] ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_roach",
+    "name": "roach egg",
+    "copy-from": "egg_insect",
+    "color": "white",
+    "symbol": "%",
+    "spoils_in": "5 days",
+    "healthy": -2,
+    "quench": 3,
+    "description": "A egg from a giant roach, a bit bigger than a chicken one.  Incredibly gross.",
+    "price": "80 cent",
+    "material": "egg"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_roach_plague",
+    "name": "roach egg",
+    "copy-from": "egg_roach",
+    "healthy": -10
   }
 ]
