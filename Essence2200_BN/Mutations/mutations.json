@@ -647,5 +647,27 @@
     "player_display": false,
     "visibility": 0,
     "ugliness": 0
+  },
+  {
+    "type": "mutation",
+    "id": "FoxSiredNishimura",
+    "name": { "str": "Sired: Nishimura" },
+    "points": 0,
+    "description": "Your magical power was sired by Matriarch Nishimura. This will affect dialogue.",
+    "valid": false,
+    "purifiable": false,
+    "visibility": 0,
+    "ugliness": 0
+  },
+  {
+    "type": "mutation",
+    "id": "FoxSiredKawakami",
+    "name": { "str": "Sired: Kawakami" },
+    "points": 0,
+    "description": "Your magical power was sired by Matriarch Kawakami. This will affect dialogue.",
+    "valid": false,
+    "purifiable": false,
+    "visibility": 0,
+    "ugliness": 0
   }
 ]
