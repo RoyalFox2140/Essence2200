@@ -52,6 +52,27 @@
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
   },
   {
+    "id": "Foxabberrantlasereye",
+    "copy-from": "rifle_energy",
+    "type": "GUN",
+    "looks_like": "laser_rifle",
+    "name": { "str": "Laser eyes" },
+    "description": "I'm so mad if you got this in normal gameplay.",
+    "weight": "2800 g",
+    "volume": "3 L",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxImperialSteel" ],
+    "color": "yellow",
+    "range": 45,
+    "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 10 },
+    "dispersion": 10,
+    "modes": [ [ "DEFAULT", "semi", 1 ] ],
+    "loudness": 12,
+    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
+  },
+  {
     "id": "FoximpKolibriFake",
     "copy-from": "rifle_energy",
     "type": "GUN",
