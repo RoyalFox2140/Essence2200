@@ -154,10 +154,11 @@
     "healing_resting": 0.5,
     "mending_modifier": 2.0,
     "attackcost_modifier": 0.9,
+    "falling_damage_multiplier": 0.1,
     "anger_relations": [ [ "FoxImperial", 5000 ], [ "MAMMAL", -50 ], [ "AMPHIBIAN", -50 ], [ "BIRD", -50 ], [ "REPTILE", -50 ], [ "FISH", -50 ], [ "MUTANT", -50 ], [ "INSECT", -50 ], [ "INSECT_FLYING", -50 ], [ "WASP", -50 ], [ "SPIDER", -50 ], [ "WORM", -50 ], [ "HORROR", -50 ], [ "NETHER", -50 ], [ "PLANT", -50 ]],
     "movecost_swim_modifier": 0.5,
     "hp_adjustment": 250,
-    "passive_mods": { "str_mod": 8, "dex_mod": 8, "per_mod": 10 },
+    "passive_mods": { "str_mod": 16, "dex_mod": 16, "per_mod": 16, "int_mod": 4 },
     "armor": [ { "parts": "ALL", "bullet": 50, "heat": 30, "cold": 30, "acid": 400, "electric": 400 } ],
     "social_modifiers": { "intimidate": 10 }
   },
