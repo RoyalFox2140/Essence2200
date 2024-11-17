@@ -84,7 +84,6 @@
     "loudness": 2,
     "range": 10,
     "dispersion": 120,
-    "durability": 8,
     "flags": [
       "PRIMITIVE_RANGED_WEAPON",
       "NEVER_JAMS",
