@@ -1,0 +1,68 @@
+[
+  {
+    "id": "Foxx44fmj",
+    "copy-from": "44fmj",
+    "looks_like": "44fmj",
+    "type": "AMMO",
+    "name": { "str": ".44 Magnum Imperial" },
+    "description": ".44 Magnum FMJ from Imperial Steel. No damage penalty from being FMJ.",
+    "//": "Imperial Steel FMJ suffers no damage penalty, that's it.",
+    "damage": { "damage_type": "bullet", "amount": 50, "armor_penetration": 23 }
+  },
+  {
+    "id": "Fox9mmfmj",
+    "copy-from": "9mmfmj",
+    "looks_like": "9mmfmj",
+    "type": "AMMO",
+    "name": { "str": "9x19mm Imperial" },
+    "description": "9x19mm from Imperial Steel. No damage penalty from being FMJ.",
+    "damage": { "damage_type": "bullet", "amount": 34, "armor_penetration": 15 }
+  },
+  {
+    "id": "Fox10mmfmj",
+    "copy-from": "10mm_fmj",
+    "looks_like": "10mm_fmj",
+    "type": "AMMO",
+    "name": { "str": "10mm Imperial" },
+    "description": "10mm FMJ from Imperial Steel. Bonus damage.",
+    "//": "it doesn't have JHP. Give it 6 points to round it to 40, because I don't care enough.",
+    "damage": { "damage_type": "bullet", "amount": 40, "armor_penetration": 19 }
+  },
+  {
+    "id": "Fox38fmj",
+    "copy-from": "38_fmj",
+    "looks_like": "38_fmj",
+    "type": "AMMO",
+    "name": { "str": ".38 Imperial" },
+    "description": ".38 from Imperial Steel. No damage penalty from being FMJ.",
+    "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 14 }
+  },
+  {
+    "id": "Fox40fmj",
+    "copy-from": "40fmj",
+    "looks_like": "40fmj",
+    "type": "AMMO",
+    "name": { "str": ".40 Imperial" },
+    "description": ".40 from Imperial Steel. No damage penalty from being FMJ.",
+    "damage": { "damage_type": "bullet", "amount": 35, "armor_penetration": 16 }
+  },
+  {
+    "id": "Fox76254R",
+    "copy-from": "762_54R",
+    "looks_like": "762_54R",
+    "type": "AMMO",
+    "name": { "str": "7.62x54mmR Imperial" },
+    "description": "7.62x54mmR from Imperial Steel. Bonus damage.",
+    "//": "it doesn't have JHP because of course it doesn't. Give it 6 points to round it to 60, because I don't care enough.",
+    "damage": { "damage_type": "bullet", "amount": 60, "armor_penetration": 24 }
+  },
+  {
+    "id": "Fox762m87",
+    "copy-from": "762_m87",
+    "looks_like": "762_m87",
+    "type": "AMMO",
+    "name": { "str": "7.62x39mm Imperial" },
+    "description": "7.62x39mm from Imperial Steel. Bonus damage.",
+    "damage": { "damage_type": "bullet", "amount": 53, "armor_penetration": 22 }
+  }
+]

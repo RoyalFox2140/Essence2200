@@ -228,6 +228,20 @@
     "color": "dark_gray"
   },
   {
+    "id": "Foxessencereactor",
+    "type": "TOOL",
+    "looks_like": "t_plut_generator",
+    "name": "Portable Essence Reactor",
+    "description": "A secret of the Old World, this reactor maintains a self-sustaining reaction of converting background Essence into Electricity, effortlessly and endlessly. It is as powerful as 10 plutonium generators and encased in a protective Adamantine shell.",
+    "weight": "5 kg",
+    "volume": "50 L",
+    "price": "1000000 USD",
+    "price_postapoc": "2 USD",
+    "symbol": "X",
+    "color": "dark_gray",
+    "material": "FoxAdamantine"
+  },
+  {
     "type": "GENERIC",
     "id": "FoxFujiwaraMotorStandard",
     "looks_like": "motor_super",

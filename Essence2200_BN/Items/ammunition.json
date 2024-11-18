@@ -440,5 +440,25 @@
     "type": "ammo_effect",
     "aoe": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 1, "radius": 5 },
     "explosion": { "damage": 50, "radius": 4 }
+  },
+  {
+    "id": "FoxSGAshadowsteelrail",
+    "copy-from": "rebar_rail",
+    "looks_like": "rebar_rail",
+    "type": "AMMO",
+    "name": { "str": "Shadowsteel rail" },
+    "description": "This solid rail is forged from Shadowsteel and is compatible with ferromagnetic railguns, but is best used in a Kolibri railgun. It flies through the air effortlessly and due to it's hardness will rip through targets with ease",
+    "weight": "8 g",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "bashing": 1,
+    "cutting": 1,
+    "material": [ "FoxShadowSteel" ],
+    "color": "light_gray",
+    "dispersion": 100,
+    "effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
+    "range": 60,
+    "loudness": 250,
+    "damage": { "damage_type": "stab", "amount": 100, "armor_penetration": 60 }
   }
 ]

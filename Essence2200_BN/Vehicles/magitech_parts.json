@@ -172,6 +172,37 @@
     "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
   },
   {
+    "type": "vehicle_part",
+    "id": "FoxEssReactorVic",
+    "name": { "str": "Vehicle Essence Reactor" },
+    "symbol": "O",
+    "looks_like": "minireactor",
+    "color": "light_green",
+    "broken_symbol": "#",
+    "broken_color": "red",
+    "damage_modifier": 50,
+    "durability": 1050,
+    "epower": 6000,
+    "power": 1000,
+    "location": "center",
+    "//": "It makes the power of 10 plutonium generators 20 minifridges.",
+    "item": "plut_generator_item",
+    "fuel_type": "plut_cell",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 8 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 6 ], [ "electronics", 8 ] ], "time": "20 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "30 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    },
+    "flags": [ "OBSTACLE", "REACTOR", "PERPETUAL" ],
+    "breaks_into": [ {"item": "Foxessencereactor"} ],
+    "damage_reduction": { "all": 105, "cut": 143, "stab": 132 },
+    "description": "A secret of the Old World, this reactor maintains a self-sustaining reaction of converting background Essence into Electricity, effortlessly and endlessly. It is as powerful as 10 plutonium generators and encased in a protective Adamantine shell."
+  },
+  {
     "abstract": "Foxelectricmotor",
     "type": "vehicle_part",
     "name": { "str": "abstract" },

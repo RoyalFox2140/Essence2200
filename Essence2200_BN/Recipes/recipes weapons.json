@@ -700,5 +700,28 @@
       [ [ "Foximperialsteelchunk", 4 ] ],
       [ [ "Foximpgrease", 1 ] ]
     ]
+  },
+  {
+    "result": "Fox_KawakamiFlamer",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "mechanics", 2 ] ],
+    "difficulty": 2,
+    "time": "4 h",
+    "decomp_learn": 2,
+    "book_learn": [ [ "FoxDeSGAkawakami", 2 ] ],
+    "using": [ [ "soldering_standard", 4 ] ],
+    "tools": [ [ [ "Foxmachiningstation", 15 ] ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 6 ] ],
+      [ [ "Foximpballisticparts", 4 ] ],
+      [ [ "Foximpelectronics", 4 ] ],
+      [ [ "Foxtarrubber", 2 ] ],
+      [ [ "Foximperialsteelchunk", 4 ] ],
+      [ [ "Foximpgrease", 1 ] ]
+    ]
   }
 ]

@@ -317,6 +317,27 @@
   },
   {
     "type": "recipe",
+    "result": "Foxessencereactor",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 8 ], [ "fabrication", 8 ], [ "mechanics", 8 ], [ "computer", 4 ], [ "electronics", 8 ] ],
+    "difficulty": 8,
+    "time": "40 h",
+    "book_learn": [ [ "FoxDeSGAfujiwara", 6 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 3 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [[ [ "Foxmachiningstation", 1000 ] ] ],
+    "using": [ [ "soldering_standard", 200 ] ],
+    "components": [
+      [ [ "FoxSGAmechparts", 10 ] ],
+      [ [ "FoxSGAelectronics", 100 ] ],
+      [ [ "FoxAdamantinechunk", 20 ] ], 
+      [ [ "Foxtarrubber", 10 ] ],
+      [ [ "FoxSGAessreactortiny", 50 ], [ "FoxMagicCapacitor", 50 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
     "result": "FoxFujiwaraMotorStandard",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_ESSTECH",
