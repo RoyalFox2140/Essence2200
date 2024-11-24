@@ -190,6 +190,7 @@
     "mana_modifier": 5000,
     "noise_modifier": 0.0,
     "night_vision_range": 120,
+    "stealth_modifier": 50,
     "hearing_modifier": 2,
     "social_modifiers": { "lie": 8, "persuade": 2, "intimidate": 10 }
   },
