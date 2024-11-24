@@ -707,7 +707,7 @@
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_WEAPONS",
     "skill_used": "FoxEssTech",
-    "skills_required": [ [ "fabrication", 8 ], [ "mechanics", 2 ] ],
+    "skills_required": [ [ "fabrication", 8 ], [ "mechanics", 2 ], [ "FoxEssSpellcasting", 2 ] ],
     "difficulty": 2,
     "time": "4 h",
     "decomp_learn": 2,
