@@ -186,7 +186,7 @@
     "power": 1000,
     "location": "center",
     "//": "It makes the power of 10 plutonium generators 20 minifridges.",
-    "item": "plut_generator_item",
+    "item": "Foxessencereactor",
     "fuel_type": "plut_cell",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 8 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },

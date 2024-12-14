@@ -19,7 +19,7 @@
     "id": "FoxPlutGeneratorVic",
     "name": { "str": "vehicle plutonium generator" },
     "symbol": "O",
-    "looks_like": "minireactor",
+    "looks_like": "robot_controls",
     "color": "light_green",
     "broken_symbol": "#",
     "broken_color": "red",
