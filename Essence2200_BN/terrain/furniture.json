@@ -134,6 +134,23 @@
   },
   {
     "type": "construction",
+    "id": "Foxconstr_water_deep",
+    "group": "Foxconjure_water_deep",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "FoxEssSpellcasting", 2 ] ],
+    "time": "20m",
+    "components": [ [ [ "FoxWaterrune", 10 ] ] ],
+    "dark_craftable": true,
+    "pre_terrain": "t_pit_shallow",
+    "post_terrain": "t_water_dp"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconjure_water_deep",
+    "name": "Conjure deep water in pit"
+  },
+  {
+    "type": "construction",
     "id": "Foxconstr_dirt_over_water",
     "group": "Foxconjure_dirt_water",
     "category": "CONSTRUCT",
