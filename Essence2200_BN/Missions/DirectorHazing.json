@@ -1,0 +1,143 @@
+[
+  {
+    "id": "Foxmission_DirectorHazing_cigs",
+    "type": "mission_definition",
+    "name": { "str": "Hazing: Cig hunt" },
+    "description": "Find her some cigarettes to prove you're not a loser.",
+    "goal": "MGOAL_FIND_ITEM",
+    "item": "cig",
+    "count": 160,
+    "difficulty": 1,
+    "value": 0,
+    "start": {
+      "effect": [
+      { "u_buy_item": "rm20" },
+      { "u_buy_item": "20x66_20_mag" },
+      { "u_buy_item": "20x66_shot", "count": 60 }
+      ]
+    },
+    "end": {
+      "effect": [
+        { "u_buy_item": "20x66_shot", "count": 60 }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "followup": "Foxmission_DirectorHazing_codeine",
+    "dialogue": {
+      "describe": "I guess you could use some work, huh? Don't know if I can trust you not to hurt yourself though.",
+      "offer": "Here's a useless shotgun I don't want, show me you aren't completely useless by finding me 8 packs of cigarettes. That's 160 in case you didn't learn math, and swamp cigs don't count because I can make tons of those.",
+      "accepted": "Yeah I got a feeling you'll be back.",
+      "rejected": "Useless loser.",
+      "advice": "Ask someone who lives here where they keep the fucking cigs, who do you think I am?",
+      "inquire": "Time is money.",
+      "success": "Wow you actually did it. I guess I have more work for you then, and the rest of the shells.",
+      "success_lie": "I could kill you where you stand, just for the hell of it. Nobody would care if I made you disappear.",
+      "failure": "Go play in a minefield."
+    }
+},
+{
+  "id": "Foxmission_DirectorHazing_codeine",
+  "type": "mission_definition",
+  "name": { "str": "Hazing: Drug run" },
+  "description": "Find or make 200 codeine pills to prove you're resourceful.",
+  "goal": "MGOAL_FIND_ITEM",
+  "item": "codeine",
+  "count": 20,
+  "difficulty": 1,
+  "value": 0,
+  "start": {
+    "effect": [
+    { "u_buy_item": "textbook_chemistry" },
+    { "u_buy_item": "chemistry_set" },
+    { "u_buy_item": "medium_battery_cell" },
+    { "u_learn_recipe": "codeine" }
+    ]
+  },
+  "end": {
+    "effect": [
+      { "u_buy_item": "FoxSGAmechwrench" },
+      { "u_buy_item": "FoxSGAgrenade", "count": 4 }
+    ]
+  },
+  "origins": [ "ORIGIN_SECONDARY" ],
+  "followup": "Foxmission_DirectorHazing_cleansereapers",
+  "dialogue": {
+    "describe": "You're not useless but that doesn't make you resourceful. Let's see if you can prove me wrong.",
+    "offer": "I ate shit from an RPG to the face a few years ago and I've been in pain since. Take a chemistry set I looted and make me 200 codeine pills from the various plants around here. The recipe is easy. Hospitals probably have it too if you wanna cheat.",
+    "accepted": "We extract a close-enough codeine from poppies with some cairn root and white wound... And what else? Shit.",
+    "rejected": "Useless loser.",
+    "advice": "Poppies, cairn root, white wound, maybe some blood grass? Kristen always cooked this stuff up, can't recall the ratios.",
+    "inquire": "Time heals all wounds, EXCEPT MY FUCKING HANDS!",
+    "success": "Hey, this is pretty good. I have one last job. You can have these grenades and my extra electro-wrench.",
+    "success_lie": "I could kill you where you stand, just for the hell of it. Nobody would care if I made you disappear.",
+    "failure": "Yeah I bet you can't even boil water, pussy."
+  }
+},
+{
+  "id": "Foxmission_DirectorHazing_cleansereapers",
+  "type": "mission_definition",
+  "name": { "str": "Hazing: 20 lives" },
+  "description": "Kill 20 reapers to prove your loyalty to the cause.",
+  "goal": "MGOAL_FIND_ITEM",
+  "item": "Foximpchip",
+  "count": 20,
+  "difficulty": 1,
+  "value": 0,
+  "start": {
+    "effect": [
+    { "u_buy_item": "Fox_KawakamiFlamer" }
+    ]
+  },
+  "end": {
+    "effect": [
+      { "u_buy_item": "20x66_shot", "count": 60 }
+    ]
+  },
+  "origins": [ "ORIGIN_SECONDARY" ],
+  "dialogue": {
+    "describe": "I was just fucking with you for the hell of it with those other jobs. Let's get you some real work.",
+    "offer": "Bag 20 reapers and I'll let you join us. You go through the door boy and it'll be a lot harder. You can cut 'em down however ya want but I'm not taking your word for it. I want their brain chips so better learn to cut 'em up.",
+    "accepted": "Give 'em a great leap forward they won't soon forget. Oh, here's a flamethrower. I'll be watching so put on a good show. If you set yourself on fire I'll be here laughing.",
+    "rejected": "Useless loser.",
+    "advice": "If you're a pussy just use a truck or a tank. In all my years I never saw a man survive a truck going 90 kilometers an hour. Put a machine gun on it too, make a technical like those shitboxes in Afghanistan and Syria.",
+    "inquire": "Not dead yet, huh?",
+    "success": "Good work on that then. I'll give you my card. Show it to the door boy and he'll let you in or I'll kick his ass.",
+    "success_lie": "I could kill you where you stand, just for the hell of it. Nobody would care if I made you disappear.",
+    "failure": "Too much of a pussy to even do it with a truck, huh?"
+  }
+},
+{
+  "id": "Foxmission_Director_NeedsofMany",
+  "type": "mission_definition",
+  "name": { "str": "The Needs of the Many!" },
+  "description": "Steal the Imperial copy of the Kolibri Project from their Archives.",
+  "goal": "MGOAL_FIND_ITEM",
+  "item": "FoxKolibriProjectImperial",
+  "count": 1,
+  "difficulty": 1,
+  "value": 0,
+  "start": {
+    "effect": [
+    { "u_buy_item": "FoxSGAdatathief" }
+    ]
+  },
+  "end": {
+    "effect": [
+      { "u_buy_item": "FoxKolibriautorail", "count": 1 },
+      { "u_buy_item": "FoxKolibriProject", "count": 1 }
+    ]
+  },
+  "origins": [ "ORIGIN_SECONDARY" ],
+  "dialogue": {
+    "describe": "Steal us back the Imperial copy of the Kolibri project.",
+    "offer": "Savant's Archives had a full record of the Kolibri project but we lost it when She was assassinated. We only have an incomplete set I snatched from a rebel. It holds the secrets to hyperspace gates, and a bunch of weapons you'd use.",
+    "accepted": "Lassar will want the whole drive, but it's heavy and I have my doubts you can rip it out of the wall without blowing up. I just need the Kolibri data. If we grab this then the Old Guard can leave the system once they have orbital infrastructure.",
+    "rejected": "Useless loser.",
+    "advice": "There will be at least a dozen Arbiters and a Captain. If you don't find a flash drive with the records then you'll have to download them.",
+    "inquire": "Don't waste my time.",
+    "success": "That wasn't too bad I hope. You can have my railgun since we can make more now.",
+    "success_lie": "I could kill you where you stand, just for the hell of it. Nobody would care if I made you disappear.",
+    "failure": "Yeah, that's what I expect out of you."
+  }
+}
+]

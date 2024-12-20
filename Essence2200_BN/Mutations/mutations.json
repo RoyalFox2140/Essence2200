@@ -666,7 +666,7 @@
     "id": "FoxSiredKawakami",
     "name": { "str": "Sired: Kawakami" },
     "points": 0,
-    "description": "Your magical power was sired by Matriarch Kawakami. This will affect dialogue.",
+    "description": "Your magical power was sired by Matriarch Kawakami. There will be unforeseen consequences.",
     "valid": false,
     "purifiable": false,
     "visibility": 0,

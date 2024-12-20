@@ -351,5 +351,54 @@
     "Fox_Transmutation_EssenceToken"
       ]
     }
+  },
+  {
+    "id": "FoxServerRackArchives",
+    "type": "AMMO",
+    "looks_like": "steel_chunk",
+    "category": "spare_parts",
+    "name": { "str": "Imperial Archives server", "str_pl": "Imperial Archives servers" },
+    "description": "An entire server rack, disconnected and ripped out of the wall, containing almost the entire breadth of Imperial knowledge.",
+    "weight": "30 kg",
+    "volume": "20000 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "bashing": 8,
+    "to_hit": -2,
+    "stack_size": 1,
+    "material": "FoxShadowSteel",
+    "symbol": ",",
+    "color": "black",
+    "ammo_type": "components"
+  },
+  {
+    "type": "GENERIC",
+    "id": "FoxSGADirectorrecommendationUndertaker",
+    "category": "spare_parts",
+    "name": { "str_sp": "SGA door clearance (Undertaker)" },
+    "description": "This card lets you in the front door if you talk to the guard. It holds a few words in the Shi native language. The back has an engraving: 'I guess you aren't a loser'",
+    "looks_like": "cash_card",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "color": "dark_gray"
+  },
+  {
+    "type": "GENERIC",
+    "id": "FoxSGADirectorrecommendationLassar",
+    "category": "spare_parts",
+    "name": { "str_sp": "SGA door clearance (Lassar)" },
+    "description": "This card lets you in the front door if you talk to the guard. It holds a few words in the Shi native language and a stamp of the Archivist's emblem. Guess she was too busy to write anything on it.",
+    "looks_like": "cash_card",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "color": "dark_gray"
   }
 ]
