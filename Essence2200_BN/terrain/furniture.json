@@ -151,6 +151,23 @@
   },
   {
     "type": "construction",
+    "id": "Foxconstr_floating_dirt",
+    "group": "Foxconjure_floating_dirt",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "FoxEssSpellcasting", 6 ] ],
+    "time": "30m",
+    "components": [ [ [ "FoxEarthrune", 10 ] ], [ [ "FoxQuantumrune", 20 ] ] ],
+    "dark_craftable": true,
+    "pre_terrain": "t_open_air",
+    "post_terrain": "t_dirt"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconjure_floating_dirt",
+    "name": "Create floating dirt island"
+  },
+  {
+    "type": "construction",
     "id": "Foxconstr_dirt_over_water",
     "group": "Foxconjure_dirt_water",
     "category": "CONSTRUCT",
