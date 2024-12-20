@@ -134,6 +134,23 @@
   },
   {
     "type": "construction",
+    "id": "Foxconstr_dirt_over_water",
+    "group": "Foxconjure_dirt_water",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "FoxEssSpellcasting", 1 ] ],
+    "time": "20m",
+    "components": [ [ [ "FoxEarthrune", 10 ] ] ],
+    "dark_craftable": true,
+    "pre_flags": "LIQUID",
+    "post_terrain": "t_dirt"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconjure_dirt_water",
+    "name": "Conjure dirt over liquids"
+  },
+  {
+    "type": "construction",
     "id": "Foxconstr_dirt_on_rock_place",
     "group": "Foxplace_dirt_on_rock",
     "category": "CONSTRUCT",
