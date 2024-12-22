@@ -1,5 +1,34 @@
 [
   {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "Fox_radcough",
+    "cooldown": 6,
+    "move_cost": 150,
+    "damage_max_instance": [ { "damage_type": "bash", "amount": 1,  "armor_penetration": 16 } ],
+    "effects": [
+      { "id": "Fox_zomzomrads", "duration": 60, "chance": 100 }
+    ],
+    "body_parts": [
+      [ "foot_l", 2 ],
+      [ "foot_r", 2 ],
+      [ "leg_l", 3 ],
+      [ "leg_r", 3 ],
+      [ "hand_l", 2 ],
+      [ "hand_r", 2 ],
+      [ "head", 3 ],
+      [ "eyes", 2 ],
+      [ "mouth", 1 ],
+      [ "arm_l", 3 ],
+      [ "arm_r", 3 ],
+      [ "torso", 4 ]
+    ],
+    "hit_dmg_u": "The %1$s coughs sickly air on you!",
+    "hit_dmg_npc": "The %1$s coughs sickly air on <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to cough on you, but fails to get enough on you.",
+    "no_dmg_msg_npc": "The %1$s tries to cough on <npcname>, but fails to get enough on them."
+  },
+  {
     "id": "mon_zombie_soldier",
     "copy-from": "mon_zombie_soldier",
     "type": "MONSTER",
@@ -7,7 +36,18 @@
     "melee_dice": 3,
     "armor_bash": 6,
     "armor_cut": 6,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ],
     "//": "Kevlar vests are not inherently stabproof like stab vests are, their melee armor is lowered to police zeds."
+  },
+  {
+    "type": "effect_type",
+    "id": "Fox_zomzomrads",
+    "int_add_val": 1,
+    "max_intensity": 10,
+    "base_mods": { "rad_min": [ 1 ], "rad_max": [ 2 ], "rad_tick": [ 120 ] },
+    "scaling_mods": { "rad_tick": [ -3 ] }
   },
   {
     "id": "mon_zombie_flamer",
@@ -16,6 +56,9 @@
     "death_function": [ "NORMAL" ],
     "armor_bash": 6,
     "armor_cut": 6,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ],
     "delete": { "flags": [ "DRIPS_NAPALM" ] },
     "//": "Removing the fireball death explosion until only ballistic and heat damage triggers it. Melee should not cause an explosion.  Kevlar IS NOT KNIFE PROOF, not unless the military spent the extra money for stab resistance."
   },
@@ -23,6 +66,9 @@
     "id": "mon_gas_zombie",
     "copy-from": "mon_gas_zombie",
     "type": "MONSTER",
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ],
     "delete": { "flags": [ "DRIPS_GASOLINE" ] }
   },
   {
@@ -31,6 +77,9 @@
     "type": "MONSTER",
     "melee_skill": 8,
     "melee_dice": 4,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ],
     "delete": { "flags": [ "NIGHT_INVISIBILITY" ] },
     "//": "Night invisibility doesn't take account perception, magic ability, detection goggles, or other such details and is best removed from the mod. Requiring thermal vision is not the answer."
   },
@@ -39,6 +88,9 @@
     "copy-from": "mon_zombie_brute_ninja",
     "type": "MONSTER",
     "delete": { "flags": [ "NIGHT_INVISIBILITY" ] },
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ],
     "//": "In the future I would redo the Night invisibility with lua, to allow high perception to negate it, and magic skill. Night vision or thermal would also negate it."
   },
   {
@@ -47,6 +99,9 @@
     "type": "MONSTER",
     "melee_skill": 8,
     "melee_dice": 5,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ],
     "delete": { "flags": [ "NIGHT_INVISIBILITY" ] }
   },
   {
@@ -108,6 +163,9 @@
     "cooldown": 20,
     "move_cost": 150,
     "damage_max_instance": [ { "damage_type": "cut", "amount": 8,  "armor_penetration": 5 } ],
+    "effects": [
+      { "id": "Fox_zomzomrads", "duration": 60, "chance": 80 }
+    ],
     "body_parts": [
       [ "foot_l", 2 ],
       [ "foot_r", 2 ],
@@ -142,7 +200,8 @@
       "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
     },
       [ "GRAB", 7 ], 
-      [ "scratch", 20 ] 
+      [ "scratch", 20 ],
+      [ "Fox_radcough", 6 ]
     ]
   },
   {
@@ -151,7 +210,10 @@
     "type": "MONSTER",
     "melee_skill": 7,
     "melee_dice": 4,
-    "grab_strength": 3
+    "grab_strength": 3,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ]
   },
   {
     "id": "mon_zombie_crawler",
@@ -166,7 +228,8 @@
       "cooldown": 5,
       "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
     },
-      [ "scratch", 20 ] 
+      [ "scratch", 20 ],
+      [ "Fox_radcough", 6 ] 
     ]
   },
   {
@@ -185,7 +248,8 @@
       "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
     },
     [ "GRAB", 7 ], 
-    [ "scratch", 20 ] 
+    [ "scratch", 20 ],
+    [ "Fox_radcough", 6 ] 
     ]
   },
   {
@@ -196,7 +260,8 @@
     "grab_strength": 4,
     "special_attacks": [
     [ "GRAB", 7 ], 
-    [ "scratch", 20 ] 
+    [ "scratch", 20 ],
+    [ "Fox_radcough", 6 ]  
     ]
   },
   {
@@ -205,21 +270,30 @@
     "type": "MONSTER",
     "melee_skill": 4,
     "melee_dice": 4,
-    "grab_strength": 3
+    "grab_strength": 3,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ]
   },
   {
     "id": "mon_zombie_rot",
     "copy-from": "mon_zombie_rot",
     "type": "MONSTER",
     "melee_skill": 4,
-    "melee_dice": 3
+    "melee_dice": 3,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ]
   },
   {
     "id": "mon_zombie_swat",
     "copy-from": "mon_zombie_swat",
     "type": "MONSTER",
     "melee_dice": 3,
-    "grab_strength": 3
+    "grab_strength": 3,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ]
   },
   {
     "id": "mon_zombie_tough",
@@ -237,7 +311,8 @@
       "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
     },
     [ "GRAB", 7 ], 
-    [ "scratch", 20 ] 
+    [ "scratch", 20 ],
+    [ "Fox_radcough", 6 ]
     ]
   },
   {
@@ -245,41 +320,59 @@
     "copy-from": "mon_zombie_brute",
     "type": "MONSTER",
     "melee_dice": 5,
-    "grab_strength": 4
+    "grab_strength": 4,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ]
   },
   {
     "id": "mon_zombie_brute_grappler",
     "copy-from": "mon_zombie_brute_grappler",
     "type": "MONSTER",
     "melee_dice": 5,
-    "grab_strength": 4
+    "grab_strength": 4,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ]
   },
   {
     "id": "mon_zombie_hulk",
     "copy-from": "mon_zombie_hulk",
     "type": "MONSTER",
     "melee_dice": 6,
-    "grab_strength": 8
+    "grab_strength": 8,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ]
   },
   {
     "id": "mon_zombie_hunter",
     "copy-from": "mon_zombie_hunter",
     "type": "MONSTER",
     "melee_dice": 4,
-    "grab_strength": 2
+    "grab_strength": 2,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ]
   },
   {
     "id": "mon_zombie_runner",
     "copy-from": "mon_zombie_runner",
     "type": "MONSTER",
     "melee_dice": 6,
-    "grab_strength": 2
+    "grab_strength": 2,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ]
   },
   {
     "id": "mon_zombie_predator",
     "copy-from": "mon_zombie_predator",
     "type": "MONSTER",
     "melee_dice": 6,
-    "grab_strength": 2
+    "grab_strength": 2,
+    "special_attacks": [
+      [ "Fox_radcough", 6 ] 
+    ]
   }
 ]
