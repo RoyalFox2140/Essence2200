@@ -5,9 +5,9 @@
     "id": "Fox_radcough",
     "cooldown": 6,
     "move_cost": 150,
-    "damage_max_instance": [ { "damage_type": "bash", "amount": 1,  "armor_penetration": 16 } ],
+    "damage_max_instance": [ { "damage_type": "bash", "amount": 4,  "armor_penetration": 16 } ],
     "effects": [
-      { "id": "Fox_zomzomrads", "duration": 60, "chance": 100 }
+      { "id": "Fox_zomzomrads", "duration": 600, "chance": 100 }
     ],
     "body_parts": [
       [ "foot_l", 2 ],
@@ -46,7 +46,7 @@
     "id": "Fox_zomzomrads",
     "int_add_val": 1,
     "max_intensity": 10,
-    "base_mods": { "rad_min": [ 1 ], "rad_max": [ 2 ], "rad_tick": [ 120 ] },
+    "base_mods": { "rad_min": [ 1 ], "rad_max": [ 3 ], "rad_tick": [ 120 ] },
     "scaling_mods": { "rad_tick": [ -3 ] }
   },
   {
@@ -164,7 +164,7 @@
     "move_cost": 150,
     "damage_max_instance": [ { "damage_type": "cut", "amount": 8,  "armor_penetration": 5 } ],
     "effects": [
-      { "id": "Fox_zomzomrads", "duration": 60, "chance": 80 }
+      { "id": "Fox_zomzomrads", "duration": 300, "chance": 80 }
     ],
     "body_parts": [
       [ "foot_l", 2 ],
