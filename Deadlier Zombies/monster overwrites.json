@@ -44,6 +44,11 @@
   {
     "type": "effect_type",
     "id": "Fox_zomzomrads",
+    "name": [ "Combat Contamination" ],
+    "max_duration": "48 h",
+    "desc": [ "Combat with zombies and other horrors of the wasteland causes radoactive dust and particles to enter your body, poisoning you longterm from scratches and gas exposure." ],
+    "apply_message": "You feel ill from combat with that zombie.",
+    "remove_message": "Your contamination from battling wasteland horrors has worn off.",
     "int_add_val": 1,
     "max_intensity": 10,
     "base_mods": { "rad_min": [ 1 ], "rad_max": [ 3 ], "rad_tick": [ 120 ] },
