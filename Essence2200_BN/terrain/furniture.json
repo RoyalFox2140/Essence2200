@@ -1173,7 +1173,7 @@
     "type": "furniture",
     "id": "Foxf_storagebattery",
     "looks_like": "f_battery_large",
-    "name": "mounted essence car battery",
+    "name": "mounted essence storage battery",
     "description": "An essence storage battery connected to building's electric grid.",
     "symbol": ":",
     "color": "blue_white",
