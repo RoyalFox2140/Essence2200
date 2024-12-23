@@ -400,5 +400,24 @@
     "to_hit": -3,
     "symbol": "*",
     "color": "dark_gray"
+  },
+  {
+    "id": "FoxImperialNanoCore",
+    "type": "AMMO",
+    "looks_like": "steel_chunk",
+    "category": "spare_parts",
+    "name": { "str": "Imperial NanoCore", "str_pl": "Imperial NanoCores" },
+    "description": "A large brick with numerous ports, weighing far more than it would appear. This device is responsible for the creation of nanotechnology and is capable of effortlessly fabricating an unlimited supply of augmentation canisters or nanoforges.  All the electrical generation of pre-Cataclysm Earth couldn't power this for an hour, you'll have to find someone who can.",
+    "weight": "150 kg",
+    "volume": "30000 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "bashing": 8,
+    "to_hit": -2,
+    "stack_size": 1,
+    "material": "FoxShadowSteel",
+    "symbol": ",",
+    "color": "black",
+    "ammo_type": "components"
   }
 ]

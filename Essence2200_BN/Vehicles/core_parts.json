@@ -8,6 +8,31 @@
     ]
   },
   {
+    "type": "item_group",
+    "id": "Foxsmashedadamantinelow",
+    "subtype": "collection",
+    "entries": [
+      { "item": "FoxAdamantinechunk", "count": [ 2, 5 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxsmashedseat",
+    "subtype": "collection",
+    "entries": [
+      { "item": "FoxAdamantinechunk", "count": [ 10, 10 ] },
+      { "item": "FoxBallisticWeaveSheet", "count": [ 30, 30 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxsmashedseatbelt",
+    "subtype": "collection",
+    "entries": [
+      { "item": "FoxBallisticWeaveSheet", "count": [ 0, 1 ] }
+    ]
+  },
+  {
     "abstract": "Foxadamantineframeveh",
     "type": "vehicle_part",
     "name": { "str": "adamantine frame" },
@@ -886,5 +911,135 @@
       { "item": "scrap", "count": [ 2, 4 ] },
       { "item": "Foxcrystallizedessence", "count": [ 8, 16 ] }
     ]
+  },
+  {
+    "id": "Foxadamantinecontrols",
+    "type": "vehicle_part",
+    "name": { "str": "adamantine controls" },
+    "item": "Foxvehcontrols",
+    "symbol": "$",
+    "color": "light_gray",
+    "folded_volume": "1500 ml",
+    "durability": 1140,
+    "bonus": 30,
+    "//": "Adamantine gets 50% increased dura and damage reduction stats.",
+    "description": "Vehicle controls made of adamantine.",
+    "breaks_into": "Foxsmashedadamantinelow",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "40 m", "using": [ [ "welding_standard", 20 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": "vehicle_weld_removal" },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 10 ] ] }
+    },
+    "flags": [ "CONTROLS", "FOLDABLE" ],
+    "damage_reduction": { "all": 120 }
+  },
+  {
+    "id": "Foxadamantinecontrolselectric",
+    "type": "vehicle_part",
+    "name": { "str": "adamantine electronics control unit" },
+    "item": "Foxvehecontrols",
+    "symbol": "$",
+    "color": "light_gray",
+    "durability": 1140,
+    "folded_volume": "750 ml",
+    "bonus": 30,
+    "epower": -25,
+    "//": "If the damage reduction isn't reasonable, it gets boosted to quarterpanel.",
+    "description": "Some switches and knobs to control the vehicle's electrical systems.",
+    "breaks_into": "Foxsmashedadamantinelow",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ], [ "electronics", 3 ] ], "time": "350 s", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "350 s", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "5 m",
+        "using": [ [ "welding_standard", 1 ], [ "vehicle_repair_electronics", 1 ] ]
+      }
+    },
+    "flags": [ "CTRL_ELECTRONIC", "FOLDABLE", "DOME_LIGHT", "ENABLED_DRAINS_EPOWER" ],
+    "damage_reduction": { "all": 120 }
+  },
+  {
+    "id": "Foxessencedash",
+    "type": "vehicle_part",
+    "name": { "str": "essence plastic dashboard" },
+    "item": "Foxvehdash",
+    "symbol": "$",
+    "color": "light_gray",
+    "bonus": 30,
+    "epower": -25,
+    "durability": 1140,
+    "description": "A sturdier dashboard made from solid essence plastic.",
+    "breaks_into": "Foxsmashedadamantinelow",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ], [ "electronics", 1 ] ], "time": "350 s", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "350 s", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": "5 m",
+        "using": [ [ "welding_standard", 1 ], [ "vehicle_repair_electronics", 1 ] ]
+      }
+    },
+    "flags": [ "CTRL_ELECTRONIC", "DOME_LIGHT", "ENABLED_DRAINS_EPOWER" ],
+    "damage_reduction": { "all": 100 }
+  },
+  {
+    "id": "Foxseatbelt",
+    "type": "vehicle_part",
+    "name": { "str": "ballistic weave seatbelt" },
+    "item": "FoxBallisticWeaveSheet",
+    "symbol": ",",
+    "color": "light_gray",
+    "bonus": 50,
+    "durability": 600,
+    "description": "This seatbelt is sturdier than a five point harness.",
+    "folded_volume": "500 ml",
+    "breaks_into": "Foxsmashedseatbelt",
+    "location": "on_seat",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "150 s", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "150 s", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "5 m", "using": [ [ "welding_standard", 1 ] ] }
+    },
+    "flags": [ "SEATBELT", "FOLDABLE" ],
+    "damage_reduction": { "all": 100 }
+  },
+  {
+    "abstract": "Foxseatabstract",
+    "type": "vehicle_part",
+    "name": { "str": "ballistic weave seat" },
+    "looks_like": "seat",
+    "item": "Foxseat",
+    "location": "center",
+    "color": "red",
+    "durability": 450,
+    "comfort": 8,
+    "floor_bedding_warmth": 800,
+    "size": "6250 ml",
+    "description": "A sturdy and comfortable seat. Being made of such soft material and flexible metal, it offers more space and can fold better for sleep. This is more comfortable than a standard car bed.",
+    "breaks_into": "Foxsmashedseat",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "SEAT", "BOARDABLE", "CARGO", "BED", "BELTABLE" ],
+    "damage_reduction": { "all": 120 }
+  },
+  {
+    "copy-from": "Foxseatabstract",
+    "id": "Foxseatveh",
+    "symbol": "#",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foxseatabstract",
+    "id": "Foxseatvehenchanted",
+    "name": { "str": "enchanted seat" },
+    "item": "Foxseat",
+    "description": "A sturdy and comfortable seat. Not only is it more comfortable than a vehicle bed, but it has a pocket dimension.",
+    "size": "1000000 ml",
+    "symbol": "#",
+    "type": "vehicle_part"
   }
 ]

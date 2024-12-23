@@ -176,7 +176,7 @@
     "id": "FoxEssReactorVic",
     "name": { "str": "Vehicle Essence Reactor" },
     "symbol": "O",
-    "looks_like": "minireactor",
+    "looks_like": "robot_controls",
     "color": "light_green",
     "broken_symbol": "#",
     "broken_color": "red",
@@ -279,5 +279,27 @@
     ],
     "extend": { "flags": [ "E_NO_POWER_DECAY" ] },
     "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxinertialdampenersoul",
+    "name": { "str": "soulbound inertial dampener" },
+    "symbol": ")",
+    "color": "green",
+    "broken_symbol": ")",
+    "broken_color": "green",
+    "description": "A single soul is installed in this location to permanently protect this part of the vehicle from almost any vehicular collision until an apostle chooses to rip it out of the car manually. Note that 'almost any' means even magic has a limit, and it doesn't block projectile weapons but is itself immune to projectile attack.",
+    "durability": 8888,
+    "bonus": 8888,
+    "item": "Foxhumansoul",
+    "location": "armor",
+    "requirements": {
+      "install": { "skills": [ [ "FoxEssSpellcasting", 8 ] ], "time": "60 m" },
+      "removal": { "skills": [ [ "FoxEssSpellcasting", 8 ] ], "time": "20 m" },
+      "repair": { "skills": [ [ "FoxEssSpellcasting", 8 ] ], "time": "60 m" }
+    },
+    "flags": [ "SHOCK_ABSORBER" ],
+    "breaks_into": "Foxsmashedadamantineplating",
+    "damage_reduction": { "all": 8888 }
   }
 ]

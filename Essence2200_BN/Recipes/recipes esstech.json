@@ -376,5 +376,65 @@
       [ [ "Foxtarrubber", 20 ] ],
       [ [ "FoxSGAessreactortiny", 20 ], [ "FoxMagicCapacitor", 20 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxseat",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "fabrication",
+    "skills_required": [ "mechanics", 1 ],
+    "difficulty": 7,
+    "id_suffix": "Foxmachined",
+    "time": "3 h",
+    "autolearn": true,
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 60 ] ], [ [ "Foxmachiningstation", 30 ] ], [ [ "Foxsewingkitballisticweave", 30 ] ] ],
+    "components": [ [ [ "FoxAdamantinechunk", 10 ] ], [ [ "FoxBallisticWeaveSheet", 30 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxvehcontrols",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "FoxEssTheory", 1 ], [ "FoxEssTech", 1 ], [ "mechanics", 4 ] ],
+    "difficulty": 7,
+    "id_suffix": "Foxmachined",
+    "time": "2 h",
+    "autolearn": true,
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 50 ] ], [ [ "Foxmachiningstation", 100 ] ] ],
+    "components": [ [ [ "FoxAdamantinechunk", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxvehecontrols",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "FoxEssTheory", 1 ], [ "FoxEssTech", 1 ], [ "mechanics", 2 ], [ "electronics", 2 ] ],
+    "difficulty": 7,
+    "id_suffix": "Foxmachined",
+    "time": "2 h",
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 100 ] ],
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 120 ] ], [ [ "Foxmachiningstation", 200 ] ] ],
+    "components": [ [ [ "FoxSGAelectronics", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxvehdash",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "FoxEssTheory", 1 ], [ "FoxEssTech", 1 ], [ "mechanics", 2 ] ],
+    "difficulty": 5,
+    "id_suffix": "Foxmachined",
+    "time": "1 h",
+    "autolearn": true,
+    "using": [ [ "surface_heat", 20 ] ],
+    "components": [ [ [ "Foxtarrubber", 20 ] ], [ [ "FoxEssencenormal", 500 ] ], [ [ "Foxvehecontrols", 1 ] ] ]
   }
 ]

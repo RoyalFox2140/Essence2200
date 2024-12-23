@@ -543,5 +543,17 @@
       "autolearn": true,
       "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
+    },
+    {
+      "type": "recipe",
+      "result": "Foxseatsuper",
+      "category": "CC_ESSTECH",
+      "subcategory": "CSC_ESSTECH_ESSTECH",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 6,
+      "id_suffix": "Foxmachined",
+      "time": "10 m",
+      "autolearn": true,
+      "components": [ [ [ "Foxseat", 1 ] ], [ [ "FoxVicPocketDimensionitem", 1 ] ] ]
     }
 ]
