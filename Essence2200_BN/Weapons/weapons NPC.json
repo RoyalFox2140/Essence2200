@@ -43,12 +43,12 @@
     "price_postapoc": "2 USD",
     "material": [ "FoxImperialSteel" ],
     "color": "yellow",
-    "range": 45,
+    "range": 30,
     "ranged_damage": { "damage_type": "heat", "amount": 30, "armor_penetration": 4 },
-    "dispersion": 10,
+    "dispersion": 40,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ],
     "loudness": 12,
-    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "ammo_effects": [ "LASER" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
   },
   {
