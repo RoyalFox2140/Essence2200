@@ -51,7 +51,7 @@
     "result": "Foxlightorboff",
     "type": "uncraft",
     "time": "5 m",
-    "components": [ [ [ "FoxEssencenormal", 5000 ] ] ]
+    "components": [ [ [ "FoxEssencenormal", 4000 ] ] ]
   },
   {
     "result": "Foxlightorbbigoff",
