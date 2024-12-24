@@ -5,7 +5,7 @@
     "id": "Fox_radcough",
     "cooldown": 6,
     "move_cost": 150,
-    "damage_max_instance": [ { "damage_type": "bash", "amount": 4,  "armor_penetration": 16 } ],
+    "damage_max_instance": [ { "damage_type": "bash", "amount": 4,  "armor_penetration": 26 } ],
     "effects": [
       { "id": "Fox_zomzomrads", "duration": 600, "chance": 100 }
     ],
