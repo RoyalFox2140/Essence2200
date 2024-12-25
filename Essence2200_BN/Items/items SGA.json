@@ -183,7 +183,7 @@
     "color": "yellow",
     "name": { "str": "pair of Shadowsteel knuckles", "str_pl": "pairs of Shadowsteel knuckles" },
     "description": "A fist weapon made of Shadowsteel designed to augment your strikes to have greater damage.",
-    "material": "brass",
+    "material": "FoxShadowSteel",
     "weight": "200 g",
     "volume": "100 ml",
     "bashing": 30,
