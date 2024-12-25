@@ -1,0 +1,24 @@
+[
+  {
+    "id": "FoxShadowsteellongbow",
+    "copy-from": "bow_base",
+    "looks_like": "longbow",
+    "type": "GUN",
+    "name": { "str": "Shadowsteel longbow" },
+    "description": "It's the shape and size of a longbow, but Shadowsteel. Only mutants and apostles can hope to match the strength required.",
+    "price": "2 USD",
+    "material": "FoxShadowSteel",
+    "extend": { "flags": [ "BELTED", "COMPACT", "WATER_FRIENDLY", "STR_DRAW" ] },
+    "min_strength": 20,
+    "weight": "300 g",
+    "volume": "3500 ml",
+    "price_postapoc": "30 USD",
+    "bashing": 10,
+    "armor_data": { "covers": [ "torso" ], "encumbrance": 20 },
+    "loudness": 8,
+    "ranged_damage": { "damage_type": "stab", "amount": 85 },
+    "range": 40,
+    "dispersion": 500,
+    "durability": 10
+  }
+]
