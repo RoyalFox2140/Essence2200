@@ -16,6 +16,8 @@ When I reach a comfortable state of polish and most of the mod is finished it wi
 
 Designed for Cataclysm: Bright Nights latest experimental
 
+Graphics can be found here, and must be licensed separately. https://github.com/RoyalFox2140/Graphics-2200
+
 Monsters and factions are a work in progress, please enhance your game difficulty with other mods including Cata++, Secronom, and Really Dark Skies.
 https://github.com/Noctifer-de-Mortem/nocts_cata_mod
 https://github.com/Kenan2000/BrightNights-Structured-Kenan-Modpack
