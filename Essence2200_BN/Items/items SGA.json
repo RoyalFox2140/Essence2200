@@ -528,7 +528,7 @@
     "type": "TOOL",
     "category": "tools",
     "name": { "str": "SGA multi-hammer", "str_pl": "SGA multi-hammers" },
-    "description": "This is a sturdy Adamantine multi-tool hammer with a built-in arc welder thanks to its powerful but small essence reactor. It contains a lot of extra tools, and being from Adamantine allows it to cut through metal as well as a hacksaw.",
+    "description": "This is a sturdy Adamantine multi-tool hammer with a built-in arc welder and limited soldering iron thanks to its powerful but small essence reactor. It contains a lot of extra tools, and being from Adamantine allows it to cut through metal as well as a hacksaw.",
     "looks_like": "multitool",
     "weight": "500 g",
     "volume": "1000 ml",

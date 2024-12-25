@@ -57,7 +57,7 @@
     "id": "soldering_standard",
     "type": "requirement",
     "//": "Soldering metal items",
-    "tools": [ [ [ "soldering_iron", 1 ], [ "toolset", 1 ], [ "Foxmagicsoldering", 1 ], [ "FoxNanoForge", 1 ], [ "Foxultimatetelekinetics", 1 ] ] ],
+    "tools": [ [ [ "soldering_iron", 1 ], [ "toolset", 1 ], [ "FoxSGAmultihammer", 1 ], [ "Foxmagicsoldering", 1 ], [ "FoxNanoForge", 1 ], [ "Foxultimatetelekinetics", 1 ] ] ],
     "components": [ [ [ "solder_wire", 1 ] ] ]
   },
   {
