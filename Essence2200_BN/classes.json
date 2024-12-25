@@ -379,7 +379,7 @@
     "name": "Rich Apostle",
     "description": "You were born into a wealthy family of the old world, and your family had enough money and power to be involved in XEDRA's experiments. As they experimented on humans to give them magical power, you used your family's influence to safely become an apostle. Then the world ended, that's rough. At least you have transmutation and elemental spells.",
     "points": 12,
-    "traits": [ "FoxApostleSkilled", "FoxSchoolsElemental", "FoxSchoolsTransmutation", "Languorous", "BADTEMPER", "DISORGANIZED" ],
+    "traits": [ "FoxApostleSkilled", "FoxSchoolsElemental", "FoxSchoolsTransmutation", "BADCARDIO", "BADTEMPER", "DISORGANIZED" ],
     "skills": [
       { "level": 4, "name": "FoxEssSpellcasting" }
     ],
