@@ -325,7 +325,7 @@
     "name": "Apostle experiment",
     "description": "In an effort to create the next generation of soldier, XEDRA conducted horrible experiments on your body and tortured you to break you. Your body changed and you gained magical power, at some point you escaped and hid from the world for a long time, but you were never the same mentally. Your powers helped you remain undetected and now they will keep you alive in a new world.",
     "points": 8,
-    "traits": [  "FoxApostleSkilled", "FoxSchoolsElemental", "FoxSchoolsSpirit", "FoxSchoolsTransmutation", "INFRESIST", "PARAIMMUNE", "PSYCHOPATH" ],
+    "traits": [  "FoxApostleSkilled", "FoxSchoolsElemental", "FoxSchoolsSpirit", "FoxSchoolsTransmutation", "INFRESIST", "PARAIMMUNE", "PSYCHOPATH", "Weakening", "SNARL", "UGLY" ],
     "spells": [ 
       { "id": "Fox_Transmutation_Essence_skilled", "level": 5 },
       { "id": "Fox_Transmutation_EssenceTokenSkilled", "level": 5 },
@@ -379,7 +379,7 @@
     "name": "Rich Apostle",
     "description": "You were born into a wealthy family of the old world, and your family had enough money and power to be involved in XEDRA's experiments. As they experimented on humans to give them magical power, you used your family's influence to safely become an apostle. Then the world ended, that's rough. At least you have transmutation and elemental spells.",
     "points": 12,
-    "traits": [ "FoxApostleSkilled", "FoxSchoolsElemental", "FoxSchoolsTransmutation" ],
+    "traits": [ "FoxApostleSkilled", "FoxSchoolsElemental", "FoxSchoolsTransmutation", "Languorous", "BADTEMPER", "DISORGANIZED" ],
     "skills": [
       { "level": 4, "name": "FoxEssSpellcasting" }
     ],
