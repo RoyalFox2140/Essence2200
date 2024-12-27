@@ -90,7 +90,7 @@
   },
   "end": {
     "effect": [
-      { "u_buy_item": "20x66_shot", "count": 60 }
+      { "u_buy_item": "FoxSGADirectorrecommendationUndertaker", "count": 1 }
     ]
   },
   "origins": [ "ORIGIN_SECONDARY" ],

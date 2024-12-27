@@ -140,5 +140,65 @@
     },
     "toilets": { "t": {  } },
     "vendingmachines": { "D": { "item_group": "vending_drink" }, "V": { "item_group": "vending_food" } }
+  },
+  {
+    "id": "Foxmx_mass_grave",
+    "type": "map_extra",
+    "name": "Tainted Mass Grave",
+    "description": "A mass grave full of terrifying horrors and corpse fuzz. Beware.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "Foxmx_mass_grave" },
+    "sym": "X",
+    "color": "yellow",
+    "autonote": true
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "Foxmx_mass_grave",
+    "object": {
+      "rows": [
+        "                        ",
+        " cccccccccccccccccccccc ",
+        " c                    c ",
+        " c aaaaaaaaaaaaaaaaaa c ",
+        " c aaaaaaaaaaaaaaaaaa c ",
+        " c aaaaaaaaaaaaaaaaaa c ",
+        " c aaaaaaaaaaaaaaaaaa c ",
+        "   aaaaaaaaaaaaaaaaaa c ",
+        "   aaaaaaaaaaaaaaaaaa c ",
+        "   aaaaaaaaaaaaaaaaaa c ",
+        "   aaaaaaaaaaaaaaaaaa c ",
+        "   aaaaaaaaaaaaaaaaaa c ",
+        "   aaaaaaaaaaaaaaaaaa c ",
+        "   aaaaaaaaaaaaaaaaaa c ",
+        "   aaaaaaaaaaaaaaaaaa c ",
+        "   aaaaaaaaaaaaaaaaaa c ",
+        "   aaaaaaaaaaaaaaaaaa c ",
+        " c aaaaaaaaaaaaaaaaaa c ",
+        " c aaaaaaaaaaaaaaaaaa c ",
+        " c aaaaaaaaaaaaaaaaaa c ",
+        " c aaaaaaaaaaaaaaaaaa c ",
+        " c                    c ",
+        " cccccccccccccccccccccc ",
+        "                        "
+      ],
+      "terrain": { "a": [ "t_pit_corpsed" ], "c": [ "t_fence_barbed" ] },
+      "furniture": {
+        "a": "Foxf_Foxcorpsefuzz"
+      },
+      "place_loot": [
+        { "group": "everyday_corpse", "repeat": [ 9, 17 ], "x": [ 1, 22 ], "y": [ 1, 22 ] }
+      ],
+      "place_monster": [
+        { "monster": "FoxmonZombifiedReaper", "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 3, 8 ] },
+        { "monster": "FoxmonLVAbberration", "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 2 ] },
+        { "monster": "FoxmonAbberantShadow", "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 2, 6 ] }
+      ],
+      "place_fields": [
+        { "field": "fd_blood", "x": [ 3, 4 ], "y": [ 7, 15 ], "repeat": [ 8, 12 ] },
+        { "field": "fd_gibs_flesh", "x": [ 3, 4 ], "y": [ 7, 15 ], "repeat": [ 1, 5 ] },
+        { "field": "fd_blood", "x": [ 3, 4 ], "y": [ 7, 15 ], "repeat": [ 4, 8 ] }
+      ]
+    }
   }
 ]

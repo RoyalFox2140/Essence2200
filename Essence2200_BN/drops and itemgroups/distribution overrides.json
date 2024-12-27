@@ -282,6 +282,16 @@
     ]
   },
   {
+    "id": "toxic_waste",
+    "type": "item_group",
+    "//": "its a distribution, easiest way to do this.",
+    "items": [
+      { "item": "Foxtargas", "container-item": "55gal_drum", "charges": [ 4000, 80000 ], "prob": 500 },
+      { "item": "Foximpgrease", "container-item": "55gal_drum", "charges": [ 4000, 80000 ], "prob": 90 },
+      { "item": "Foxtarrubber", "prob": 110 }
+    ]
+  },
+  {
     "id": "forage_spring",
     "type": "item_group",
     "subtype": "distribution",
