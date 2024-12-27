@@ -433,6 +433,23 @@
   },
   {
     "type": "recipe",
+    "result": "gunpowder",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "FoxEssTheory",
+    "id_suffix": "FoxTargas",
+    "difficulty": 1,
+    "skills_required": [ [ "cooking", 3 ] ],
+    "charges": 454,
+    "time": "45 m",
+    "batch_time_factors": [ 75, 5 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 30, "LIST" ] ] ],
+    "components": [ [ [ "Foxtargas", 400 ] ], [ [ "chem_muriatic_acid", 1 ] ], [ [ "chem_nitric_acid", 1 ] ], [ [ "withered", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "Foxbangtailpowder",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_AMMUNITION",
