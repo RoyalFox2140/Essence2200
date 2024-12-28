@@ -155,7 +155,7 @@
     "type": "GUNMOD",
     "name": { "str": "Auxiliary capacitor bank" },
     "description": "This extra capacitor bank on your rifle will squeeze a little extra juice out of your rifle but is greatly inefficient. 20 damage for 60 UPS.",
-    "weight": "200 g",
+    "weight": "100 g",
     "volume": "100 ml",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -178,7 +178,7 @@
     "type": "GUNMOD",
     "name": { "str": "Krupp Harmonizer system" },
     "description": "This laser accessory will improve the quality of your beam, increasing range by 15 but at a UPS cost of 50.",
-    "weight": "200 g",
+    "weight": "100 g",
     "volume": "100 ml",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -194,6 +194,27 @@
     "install_time": "5 m",
     "range_modifier": 15,
     "ups_charges_modifier": 50
+  },
+  {
+    "id": "FoxLaserFullerauto",
+    "type": "GUNMOD",
+    "name": { "str": "Krupp Rapid-discharge system" },
+    "description": "This laser accessory improves charge rate between shots, enabling an automatic fire of 5 shots at no drawbacks beyond extra weight and size.",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": 1,
+    "bashing": 3,
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "location": "accessories",
+    "mod_target_category": [
+      [ "ENERGY_WEAPONS" ]
+    ],
+    "install_time": "5 m",
+    "mode_modifier": [ [ "AUTO", "auto", 5 ] ]
   },
   {
     "id": "Foxbowstabilizer",

@@ -546,5 +546,21 @@
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "autolearn": true,
     "components": [ [ [ "Foximperialsteelchunk", 1 ] ], [ [ "Foximpelectronics", 1 ] ], [ [ "Foximpmicroelectronics", 6 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxLaserFullerauto",
+    "id_suffix": "FoxManufacturing",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 3 ], [ "fabrication", 6 ], [ "electronics", 6 ] ],
+    "difficulty": 2,
+    "time": "50 m",
+    "batch_time_factors": [ 50, 4 ],
+    "using": [ [ "soldering_standard", 20 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
+    "autolearn": true,
+    "components": [ [ [ "Foximperialsteelchunk", 1 ] ], [ [ "Foximpelectronics", 1 ] ], [ [ "Foximpmicroelectronics", 6 ] ] ]
   }
 ]
