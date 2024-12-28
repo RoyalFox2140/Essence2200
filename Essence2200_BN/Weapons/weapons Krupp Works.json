@@ -19,7 +19,7 @@
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
     "loudness": 12,
     "ups_charges": 500,
-    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "ammo_effects": [ "LASER"],
     "faults": [  ]
   },
   {
@@ -42,7 +42,7 @@
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
     "loudness": 12,
     "ups_charges": 5000,
-    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "ammo_effects": [ "LASER" ],
     "faults": [  ]
   },
   {
@@ -64,7 +64,7 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ],
     "loudness": 12,
     "ups_charges": 50,
-    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "ammo_effects": [ "LASER" ],
     "faults": [  ]
   },
   {
@@ -97,7 +97,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "ammo_effects": [ "LASER" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "faults": [  ]
   },
@@ -120,7 +120,7 @@
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
     "loudness": 12,
     "ups_charges": 100,
-    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "ammo_effects": [ "LASER" ],
     "faults": [  ]
   },
   {
@@ -142,7 +142,7 @@
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
     "loudness": 12,
     "ups_charges": 100,
-    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "ammo_effects": [ "LASER" ],
     "faults": [  ]
   }
 ]

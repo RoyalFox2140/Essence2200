@@ -69,7 +69,7 @@
     "dispersion": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
     "loudness": 12,
-    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "ammo_effects": [ "LASER" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
   },
   {
