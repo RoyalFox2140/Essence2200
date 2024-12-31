@@ -32,7 +32,7 @@
     "id": "Fox_zomzomgas",
     "type": "field_type",
     "intensity_levels": [
-      { "name": "contaminated air","color": "light_green","sym": "8", "transparent": true, "dangerous": false, "translucency": 10, "effects": [ {  "effect_id": "Fox_zomzomrads", "body_part": "mouth", "intensity": 1, "min_duration": "10 seconds", "max_duration": "20 seconds", "immune_inside_vehicle": true, "message": "The air around you feels wrong. Maybe it's radioactive. You need to find a gas mask quick or go inside a car.", "message_type": "bad" } ] }
+      { "name": "contaminated air","color": "light_green","sym": "8", "transparent": true, "dangerous": false, "translucency": 10, "effects": [ {  "effect_id": "Fox_zomzomrads", "body_part": "torso", "intensity": 1, "min_duration": "4 seconds", "max_duration": "10 seconds", "immune_inside_vehicle": true, "message": "The air around you feels wrong. Maybe it's radioactive. You need to find a hazmuat suit AND gas mask quick or go inside a car.", "message_type": "bad" } ] }
     ],
     "decay_amount_factor": 5,
     "percent_spread": 0,
@@ -42,7 +42,7 @@
     "gas_absorption_factor": 3,
     "priority": 8,
     "half_life": "240 hours",
-    "immunity_data": { "body_part_env_resistance": [ [ "mouth", 15 ] ] },
+    "immunity_data": { "body_part_env_resistance": [ [ "torso", 15 ], [ "mouth", 15 ] ] },
     "phase": "gas",
     "display_items": true,
     "display_field": false
@@ -72,15 +72,15 @@
   {
     "type": "effect_type",
     "id": "Fox_zomzomrads",
-    "name": [ "Combat Contamination" ],
+    "name": [ "Contamination" ],
     "max_duration": "480 h",
-    "desc": [ "Longterm exposure and combat with zombies or horrors of the wasteland causes radioactive dust and particles to enter your body, poisoning you longterm from scratches and gas exposure. Contamination will directly apply irradiation every 10 minutes, attack your healthiness every 5 minutes and afflict fatigue every 20 minutes, scaling harshly as your exposure rises." ],
+    "desc": [ "Longterm exposure and combat with zombies or horrors of the wasteland causes radioactive dust and particles to enter your body, poisoning you longterm as gamma radiation destroys your vital organs. Contamination will directly apply irradiation every 10 minutes, attacks your healthiness every 5 minutes, and scales harshly as your exposure rises." ],
     "apply_message": "You feel ill from combat with that zombie, or exposure to where it was.",
     "remove_message": "Your contamination from battling wasteland horrors has worn off.",
     "int_add_val": 1,
     "max_intensity": 20,
-    "base_mods": { "rad_min": [ 1 ], "rad_max": [ 3 ], "rad_tick": [ 600 ], "h_mod_min": [ 1 ], "h_mod_max": [ 3 ], "h_mod_tick": [ 300 ], "fatigue_min": [ 1 ], "fatigue_max": [ 5 ], "fatigue_tick": [ 1200 ] },
-    "scaling_mods": { "rad_tick": [ -3 ], "h_mod_tick": [ -3 ], "fatigue_tick": [ -30 ] }
+    "base_mods": { "rad_min": [ 1 ], "rad_max": [ 3 ], "rad_tick": [ 600 ], "h_mod_min": [ 1 ], "h_mod_tick": [ 300 ] },
+    "scaling_mods": { "rad_tick": [ -3 ], "h_mod_tick": [ -6 ] }
   },
   {
     "id": "mon_zombie_flamer",
