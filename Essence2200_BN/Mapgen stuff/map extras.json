@@ -60,7 +60,7 @@
         "r": [ "t_dirt" ]
       },
       "furniture": {
-        "b": "f_sandbag_half",
+        "b": "f_earthbag_wall",
         "d": "Foxf_canvas_wall",
         "e": "Foxf_groundsheet",
         "f": "Foxf_canvas_door",
