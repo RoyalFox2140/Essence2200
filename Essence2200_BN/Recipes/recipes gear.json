@@ -86,5 +86,20 @@
     "autolearn": true,
     "using": [ [ "Foxsewing_BW", 20 ] ],
     "components": [ [ [ "FoxBallisticWeaveSheet", 10 ] ] ]
+  },
+  {
+    "result": "hazmat_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "id_suffix": "FoxDONOTOVERWRITEME",
+    "difficulty": 8,
+    "skills_required": [ [ "fabrication", 6 ] ],
+    "time": "6 h 30 m",
+    "autolearn": true,
+    "tools": [ [ [ "mold_plastic", -1 ] ],  [ [ "surface_heat", 160, "LIST" ] ], [ [ "soldering_standard", 50, "LIST" ] ] ],
+    "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+    "components": [ [ [ "plastic_chunk", 60 ] ], [ [ "chunk_rubber", 20 ] ] ]
   }
 ]
