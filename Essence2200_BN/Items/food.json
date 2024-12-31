@@ -166,9 +166,9 @@
     "use_action": {
       "type": "consume_drug",
       "activation_message": "You eat some cairn paste.",
-      "effects": [ { "id": "pblue", "duration": 2400 }, { "id": "iodine", "duration": 3600 } ]
+      "effects": [ { "id": "Foxcairnpaste", "duration": 28800 } ]
     },
-    "description": "This is a thick vegetable paste of cairn root which will purge some radiation from your body and render resistance for a short while.",
+    "description": "This is a thick vegetable paste of cairn root which will purge minor radioactivity every 6 minutes, it is known to stick around in your system for 8 hours per dose.",
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "material": "powder",

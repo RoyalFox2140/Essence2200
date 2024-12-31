@@ -218,6 +218,7 @@
     "type": "effect_type",
     "id": "FoxSwampcig",
     "rating": "good",
+    "max_duration": "24 h",
     "base_mods": {
       "sleepdebt_min": [ -2 ]
     }
@@ -227,6 +228,7 @@
     "id": "Foxmedshot",
     "name": [ "Med-shot" ],
     "desc": [ "Your body is being healed by the med-shot, it will remove pain and damage on each body part. Your body will report that it hurts greatly while the healing process takes effect, do not be alarmed." ],
+    "max_duration": "24 h",
     "rating": "good",
     "base_mods": {
       "hurt_min": [ -3 ],
@@ -240,6 +242,7 @@
     "id": "Foxpainshot",
     "name": [ "Pain-shot" ],
     "desc": [ "Your body is undergoing effects." ],
+    "max_duration": "24 h",
     "rating": "good",
     "base_mods": {
       "pain_min": [ -5 ],
@@ -255,6 +258,7 @@
     "id": "Foxbattleshot",
     "name": [ "Battle-shot" ],
     "desc": [ "Your body is undergoing effects." ],
+    "max_duration": "24 h",
     "rating": "good",
     "base_mods": {
       "fatigue_min": [ -10 ],
@@ -272,6 +276,7 @@
     "id": "Foxstimshot",
     "name": [ "Stim-shot" ],
     "desc": [ "Your body is undergoing effects." ],
+    "max_duration": "24 h",
     "rating": "good",
     "base_mods": {
       "fatigue_min": [ -10 ],
@@ -287,6 +292,7 @@
     "id": "Foxmindshot",
     "name": [ "Mind-shot" ],
     "desc": [ "Your body is undergoing effects." ],
+    "max_duration": "24 h",
     "rating": "good",
     "base_mods": {
       "per_mod": [ 4 ],
@@ -302,6 +308,7 @@
     "id": "Foxvitshot",
     "name": [ "Vit-shot" ],
     "desc": [ "Your body is undergoing effects." ],
+    "max_duration": "24 h",
     "rating": "good",
     "base_mods": {
       "health_min": [ 1 ],
@@ -310,8 +317,18 @@
   },
   {
     "type": "effect_type",
+    "id": "Foxcairnpaste",
+    "name": [ "Ate Cairn Paste" ],
+    "desc": [ "Your body purges 1 rad every 6 minutes." ],
+    "max_duration": "12 h",
+    "base_mods": { "rad_min": [ -1 ], "rad_tick": [ 360 ] },
+    "rating": "good"
+  },
+  {
+    "type": "effect_type",
     "id": "Foxblackout",
     "name": [ "Blackout" ],
+    "max_duration": "24 h",
     "desc": [ "You're fucking high as a kite dude, but you're not gonna be awake for too long." ],
     "rating": "good",
     "morale": "morale_high",
@@ -339,6 +356,7 @@
     "type": "effect_type",
     "id": "Foxenergydrink",
     "name": [ "Imperial energy drink" ],
+    "max_duration": "24 h",
     "desc": [ "You feel like you could run a hundred miles while bench-pressing a truck. It will be hard for you to run out of stamina." ],
     "rating": "good",
     "base_mods": {
@@ -354,6 +372,8 @@
     "base_mods": {
       "hurt_min": [ -4 ],
       "hurt_tick": [ 60 ],
+      "rad_min": [ -2 ],
+      "rad_tick": [ 60 ],
       "pain_min": [ -5 ],
       "pain_tick": [ 30 ]
     }
