@@ -32,7 +32,7 @@
     "id": "Fox_zomzomgas",
     "type": "field_type",
     "intensity_levels": [
-      { "name": "contaminated air","color": "light_green","sym": "8", "transparent": true, "dangerous": false, "translucency": 10, "extra_radiation_min": 1, "effects": [ {  "effect_id": "Fox_zomzomrads", "body_part": "mouth", "intensity": 1, "min_duration": "10 seconds", "max_duration": "20 seconds", "immune_inside_vehicle": true, "message": "The air around you feels wrong. Maybe it's radioactive. You need to find a gas mask quick or go inside a car.", "message_type": "bad" } ] }
+      { "name": "contaminated air","color": "light_green","sym": "8", "transparent": true, "dangerous": false, "translucency": 10, "effects": [ {  "effect_id": "Fox_zomzomrads", "body_part": "mouth", "intensity": 1, "min_duration": "10 seconds", "max_duration": "20 seconds", "immune_inside_vehicle": true, "message": "The air around you feels wrong. Maybe it's radioactive. You need to find a gas mask quick or go inside a car.", "message_type": "bad" } ] }
     ],
     "decay_amount_factor": 5,
     "percent_spread": 0,
