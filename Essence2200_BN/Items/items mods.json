@@ -28,6 +28,35 @@
     "loudness_modifier": 50
   },
   {
+    "id": "Foxbatteryconverter",
+    "looks_like": "magazine_battery_light_mod",
+    "type": "TOOLMOD",
+    "category": "spare_parts",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "integral_weight": "0 g",
+    "material": [ "plastic" ],
+    "name": { "str": "Essence battery converter" },
+    "description": "This converter allows you to rewire any electronics to accept any essence batteries.",
+    "symbol": ";",
+    "color": "magenta",
+    "acceptable_ammo": [ "battery" ],
+    "magazine_adaptor": [
+      [
+        "battery",
+        [
+          "FoxSGAbatterycell",
+          "Foximpbattery",
+          "Foximpbatterydevice",
+          "Foximpbatteryadvanced",
+          "Foximpbatterycell",
+          "Foximpbatterypack"
+        ]
+      ]
+    ]
+  },
+  {
     "id": "FoxHellfireEmitter",
     "type": "GUNMOD",
     "name": { "str": "Krupp Hellfire emitter" },
@@ -345,5 +374,49 @@
     "location": "accessories",
     "mod_target_category": [ [ "S_XBOWS" ], [ "M_XBOWS" ] ],
     "reload_modifier": -50
+  },
+  {
+    "id": "FoxSGAtoolstock",
+    "type": "GUNMOD",
+    "name": { "str": "Mechanist tool stock" },
+    "description": "This stock holds a compliment of small tools inside, intended as a replacement to whichever firearm it is installed on. Does not noticeably affect firearm performance, but allows tool access.",
+    "weight": "500 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "integral_weight": "0 g",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": 1,
+    "bashing": 6,
+    "material": [ "FoxAdamantine" ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "location": "stock",
+    "mod_target_category": [
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "MACHINE_GUNS" ],
+      [ "GATLING_GUNS" ],
+      [ "SHOTGUNS" ],
+      [ "M_XBOWS" ],
+      [ "GRENADE_LAUNCHERS" ],
+      [ "ROCKET_LAUNCHERS" ],
+      [ "FLAMETHROWERS" ]
+    ],
+    "qualities": [
+      [ "CUT", 1 ],
+      [ "SAW_M", 2 ],
+      [ "SAW_W", 2 ],
+      [ "CHISEL", 2 ],
+      [ "WRENCH", 2 ],
+      [ "SCREW", 4 ],
+      [ "DRILL", 2 ],
+      [ "SAW_M_FINE", 2 ],
+      [ "WRENCH_FINE", 1 ],
+      [ "SCREW_FINE", 1 ],
+      [ "BUTCHER", 30 ],
+      [ "CUT_FINE", 1 ],
+      [ "PULL", 1 ]
+    ]
   }
 ]

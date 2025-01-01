@@ -562,5 +562,22 @@
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "autolearn": true,
     "components": [ [ [ "Foximperialsteelchunk", 1 ] ], [ [ "Foximpelectronics", 1 ] ], [ [ "Foximpmicroelectronics", 6 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxbatteryconverter",
+    "id_suffix": "FoxManufacturing",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 1 ], [ "electronics", 3 ] ],
+    "difficulty": 1,
+    "time": "30 m",
+    "batch_time_factors": [ 50, 4 ],
+    "using": [ [ "soldering_standard", 5 ], [ "surface_heat", 2 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "autolearn": true,
+    "components": [ [ [ "plastic_chunk", 1 ] ], [ [ "Foximpelectronics", 1 ] ] ]
   }
 ]
