@@ -501,6 +501,28 @@
     "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF" ]
   },
   {
+    "id": "FoximpCWCsuit",
+    "type": "ARMOR",
+    "name": { "str": "Imperial CWC suit" },
+    "description": "An upgraded lime green chemical suit with added electrical resistance compared to the wasteland suit in addition to greater armor across the board. It still needs a separate gas mask.",
+    "weight": "1000 g",
+    "volume": "12 L",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxBallisticWeave" ],
+    "symbol": "[",
+    "looks_like": "hazmat_suit",
+    "color": "light_red",
+    "covers": [ "head", "torso", "arms", "hands", "legs", "feet" ],
+    "coverage": 100,
+    "encumbrance": 15,
+    "warmth": 20,
+    "storage": "10 L",
+    "material_thickness": 3,
+    "environmental_protection": 20,
+    "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF" ]
+  },
+  {
     "id": "Foximpwelder",
     "type": "TOOL",
     "category": "tools",
