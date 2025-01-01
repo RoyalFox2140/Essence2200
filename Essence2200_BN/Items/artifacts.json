@@ -126,7 +126,8 @@
     "initial_charges": 1,
     "max_charges": 10000,
     "charges_per_use": 1,
-    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
+    "use_action": "TOGGLE_HEATS_FOOD",
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD", "HEATS_FOOD_USING_CHARGES" ],
     "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It warms your hands a little and can warm food, but it can't boil water, it's not a chemist. It may stop damage from cold weapons and spells."
   },
   {
@@ -152,7 +153,9 @@
     "initial_charges": 1,
     "max_charges": 10000,
     "charges_per_use": 1,
-    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
+    "sub": "hotplate",
+    "use_action": "TOGGLE_HEATS_FOOD",
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD", "HEATS_FOOD_USING_CHARGES" ],
     "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It's too hot to hold without gloves and it can cook food for you. It will keep you safe from liquid nitrogen and cold spells."
   },
   {
@@ -178,7 +181,9 @@
     "initial_charges": 1,
     "max_charges": 10000,
     "charges_per_use": 1,
-    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
+    "sub": "hotplate",
+    "use_action": "TOGGLE_HEATS_FOOD",
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD", "HEATS_FOOD_USING_CHARGES" ],
     "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You're lucky it doesn't set you on fire, it will protect you from almost all incoming cold damage."
   },
   {

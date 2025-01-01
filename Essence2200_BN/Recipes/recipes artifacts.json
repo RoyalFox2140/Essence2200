@@ -1,0 +1,109 @@
+[
+  {
+    "type": "recipe",
+    "result": "Foxartifactcold2",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxartifactheat2",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxartifactelectric2",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxartifactacid2",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxartifactgrav2",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Fox_ApprenticeKoolaid",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactAwaken",
+    "time": "30 m",
+    "autolearn": true,
+    "components": 
+    [ 
+      [ [ "Foxartifactunstable", 1 ], [ "Foxartifactcold2", 1 ]  ],
+      [ [ "Foxartifactunstable", 1 ], [ "Foxartifactacid2", 1 ]  ],
+      [ [ "Foxartifactunstable", 1 ], [ "Foxartifactheat2", 1 ]  ],
+      [ [ "Foxartifactunstable", 1 ], [ "Foxartifactgrav2", 1 ] ], 
+      [ [ "Foxartifactunstable", 1 ], [ "Foxartifactelectric2", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "water_clean",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "1 s",
+    "autolearn": true,
+    "tools": [ [ [ "Foxartifactcold1", 1 ], [ "Foxartifactcold2", 1 ], [ "Foxartifactcold3", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "acid",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "1 s",
+    "autolearn": true,
+    "tools": [ [ [ "Foxartifactacid1", 1 ], [ "Foxartifactacid2", 1 ], [ "Foxartifactacid3", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "chem_sulphuric_acid",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "1 s",
+    "autolearn": true,
+    "tools": [ [ [ "Foxartifactacid2", 1 ], [ "Foxartifactacid3", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "chem_nitric_acid",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "1 s",
+    "autolearn": true,
+    "tools": [ [ [ "Foxartifactacid2", 2 ], [ "Foxartifactacid3", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "chem_muriatic_acid",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "1 s",
+    "autolearn": true,
+    "tools": [ [ [ "Foxartifactacid2", 2 ], [ "Foxartifactacid3", 2 ] ] ]
+  }
+]
