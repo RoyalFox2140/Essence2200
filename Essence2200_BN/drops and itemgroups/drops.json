@@ -61,6 +61,65 @@
     ]
   },
   {
+    "id": "Foxmonweakartifacts",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "Foxartifactcold1", "prob": 25 },
+      { "item": "Foxartifactheat1", "prob": 15 },
+      { "item": "Foxartifactelectric1", "prob": 25 },
+      { "item": "Foxartifactgrav1", "prob": 10 },
+      { "item": "Foxartifactacid1", "prob": 25 }
+    ]
+  },
+  {
+    "id": "Foxmonstrongartifacts",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "Foxartifactcold2", "prob": 25 },
+      { "item": "Foxartifactheat2", "prob": 15 },
+      { "item": "Foxartifactelectric2", "prob": 25 },
+      { "item": "Foxartifactgrav2", "prob": 10 },
+      { "item": "Foxartifactacid2", "prob": 25 }
+    ]
+  },
+  {
+    "id": "FoxmonAbberantShadowSurfacedrops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "Foxmonweakartifacts", "prob": 5 },
+      { "group": "Foxmonstrongartifacts", "prob": 5 }
+    ]
+  },
+  {
+    "id": "FoxmonAbberationdrops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "Foxmonweakartifacts", "prob": 30 },
+      { "group": "Foxmonstrongartifacts", "prob": 10 }
+    ]
+  },
+  {
+    "id": "FoxmonSpecterweakdrops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "Foxmonweakartifacts", "prob": 8 }
+    ]
+  },
+  {
+    "id": "FoxmonSpecterdrops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "Foxmonweakartifacts", "prob": 10 },
+      { "group": "Foxmonstrongartifacts", "prob": 5 }
+    ]
+  },
+  {
     "id": "FoxmonImperialofficerdropsZombified",
     "type": "item_group",
     "subtype": "collection",

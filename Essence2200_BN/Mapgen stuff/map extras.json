@@ -226,5 +226,26 @@
         ] }
       }
     }
+  },
+  {
+    "id": "Foxmxunstableground",
+    "type": "map_extra",
+    "name": { "str": "Unstable ground" },
+    "description": "An artifact rift is here, which can grant artifacts and summon monsters when stepped on.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "Foxmxunstableground" },
+    "sym": "R",
+    "color": "magenta",
+    "autonote": true
+  },
+  {
+    "method": "json",
+    "type": "mapgen",
+    "update_mapgen_id": "Foxmxunstableground", 
+    "object": {
+      "place_traps": 
+      [ 
+        { "trap": "Foxtr_rift", "x": [ 6, 16 ], "y": [ 6, 16 ] }
+      ]
+    }
   }
 ]

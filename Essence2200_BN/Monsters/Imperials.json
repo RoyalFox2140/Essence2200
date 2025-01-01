@@ -35,5 +35,12 @@
     "base_faction": "human",
     "friendly": [ "FoxImperialArbiter", "FoxImperial", "FoxImperialCleaner" ],
     "neutral": [ "small_animal", "insect", "fish" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "FoxSpecter",
+    "base_faction": "zombie",
+    "neutral": [ "small_animal", "insect", "fish" ],
+    "by_mood": "player"
   }
 ]

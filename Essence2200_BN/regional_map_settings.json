@@ -482,7 +482,7 @@
         }
       },
       "field": {
-        "chance": 5,
+        "chance": 3,
         "extras": {
           "mx_helicopter": 1,
           "mx_military": 2,
@@ -494,7 +494,7 @@
           "mx_crater": 15,
           "mx_portal_in": 1,
           "mx_point_dead_vegetation": 50,
-          "mx_grass": 700,
+          "mx_grass": 500,
           "mx_trees": 100,
           "mx_fallen_shed": 20,
           "mx_pond": 20,
@@ -506,7 +506,8 @@
           "Foxmximperialreapers": 3,
           "Foxmximperialinvasionfailed": 2,
           "Foxmximperialreaperslost": 5,
-          "Foxmxsludgepit": 10
+          "Foxmxsludgepit": 10,
+          "Foxmxunstableground": 5
         }
       },
       "road": {

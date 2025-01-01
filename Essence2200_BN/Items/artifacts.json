@@ -1,0 +1,403 @@
+[
+  {
+    "abstract": "Foxartifactabstract",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "name": { "str_sp": "If you're reading this I didn't name the artifact" },
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. If you're reading this I didn't describe the artifact.",
+    "volume": "500 ml",
+    "weight": "1 g",
+    "price": "1 cent",
+    "price_postapoc": "1 cent",
+    "material": "FoxDivineMaterial",
+    "symbol": ".",
+    "color": "brown",
+    "encumbrance": 2,
+    "covers": [ "torso" ],
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY" ]
+  },
+  {
+    "id": "Foxartifactunstable",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Unstable strong artifact" },
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It flickers and struggles to stay in your world, by exposing it to an element like fire or electrical charge you could create any strong artifact of your choosing."
+  },
+  {
+    "id": "Foxartifactcold1",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Weak cold artifact" },
+    "ammo": "battery",
+    "relic_data": {
+       "recharge_scheme": [ { "type": "time", "req": "none", "interval": "4 h", "rate": 1 } ],
+       "passive_effects": [
+         {
+           "has": "WORN",
+           "condition": "ALWAYS",
+           "values": [
+             { "value": "ARMOR_HEAT", "add": -20 }
+           ]
+         }
+       ] 
+      },
+    "initial_charges": 1,
+    "max_charges": 100,
+    "charges_per_use": 1,
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It seems cold to the touch, and refrigerates the air around you. It also feels damp, you could capture water vapor with this. It can protect against burns."
+  },
+  {
+    "id": "Foxartifactcold2",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Strong cold artifact" },
+    "ammo": "battery",
+    "relic_data": {
+       "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 4 } ],
+       "passive_effects": [
+         {
+           "has": "WORN",
+           "condition": "ALWAYS",
+           "values": [
+             { "value": "ARMOR_HEAT", "add": -50 }
+           ]
+         }
+       ] 
+      },
+    "initial_charges": 1,
+    "max_charges": 1000,
+    "charges_per_use": 1,
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It is very cold to the touch, and freezes the air around you. It also feels damp, you could capture water vapor with this. It protects well against heat and lasers."
+  },
+  {
+    "id": "Foxartifactcold3",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Transcendent cold artifact" },
+    "ammo": "battery",
+    "relic_data": {
+       "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 100 } ],
+       "passive_effects": [
+         {
+           "has": "WORN",
+           "condition": "ALWAYS",
+           "values": [
+             { "value": "ARMOR_HEAT", "add": -9999 }
+           ]
+         }
+       ] 
+      },
+    "initial_charges": 1,
+    "max_charges": 10000,
+    "charges_per_use": 1,
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You can barely hold this without gloves, it will stop almost all incoming heat damage and lasers."
+  },
+  {
+    "id": "Foxartifactheat1",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Weak heat artifact" },
+    "ammo": "battery",
+    "relic_data": { 
+      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 10 } ],
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_COLD", "add": -20 }
+          ]
+        }
+      ]  
+    },
+    "initial_charges": 1,
+    "max_charges": 10000,
+    "charges_per_use": 1,
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It warms your hands a little and can warm food, but it can't boil water, it's not a chemist. It may stop damage from cold weapons and spells."
+  },
+  {
+    "id": "Foxartifactheat2",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Strong heat artifact" },
+    "ammo": "battery",
+    "relic_data": { 
+      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 100 } ],
+      "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ALWAYS",
+        "values": [
+          { "value": "ARMOR_COLD", "add": -50 }
+        ]
+      }
+    ]  
+  },
+    "initial_charges": 1,
+    "max_charges": 10000,
+    "charges_per_use": 1,
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It's too hot to hold without gloves and it can cook food for you. It will keep you safe from liquid nitrogen and cold spells."
+  },
+  {
+    "id": "Foxartifactheat3",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Transcendent heat artifact" },
+    "ammo": "battery",
+    "relic_data": { 
+      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 1000 } ],
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_COLD", "add": -9999 }
+          ]
+        }
+      ] 
+    },
+    "initial_charges": 1,
+    "max_charges": 10000,
+    "charges_per_use": 1,
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You're lucky it doesn't set you on fire, it will protect you from almost all incoming cold damage."
+  },
+  {
+    "id": "Foxartifactelectric1",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Weak electric artifact" },
+    "ammo": "battery",
+    "relic_data": { 
+      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 20 } ],
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_ELEC", "add": -20 }
+          ]
+        }
+      ] 
+    },
+    "initial_charges": 1,
+    "max_charges": 10000,
+    "charges_per_use": 1,
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY" ],
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You can rip raw electricity out of it to place into electrical devices, it will absorb some incoming electric damage but it can only power small devices."
+  },
+  {
+    "id": "Foxartifactelectric2",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Strong electric artifact" },
+    "ammo": "battery",
+    "relic_data": { 
+      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 200 } ],
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_ELEC", "add": -50 }
+          ]
+        }
+      ] 
+    },
+    "initial_charges": 1,
+    "max_charges": 10000,
+    "charges_per_use": 1,
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY" ],
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You can rip raw electricity out of it to place into electrical devices, it will absorb lots of incoming electric damage and can act as a generator."
+  },
+  {
+    "id": "Foxartifactelectric3",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Transcendent electric artifact" },
+    "ammo": "battery",
+    "relic_data": {
+       "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 10000 } ],
+       "passive_effects": [
+         {
+           "has": "WORN",
+           "condition": "ALWAYS",
+           "values": [
+             { "value": "ARMOR_ELEC", "add": -9999 }
+           ]
+         }
+       ] 
+      },
+    "initial_charges": 1,
+    "max_charges": 100000,
+    "charges_per_use": 1,
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY" ],
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification.  You can rip raw electricity out of it to place into electrical devices, it provides electrical immunity and can power an entire base."
+  },
+  {
+    "id": "Foxartifactacid1",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Weak acid artifact" },
+    "ammo": "battery",
+    "relic_data": {
+       "recharge_scheme": [ { "type": "time", "req": "none", "interval": "4 h", "rate": 1 } ],
+       "passive_effects": [
+         {
+           "has": "WORN",
+           "condition": "ALWAYS",
+           "values": [
+             { "value": "ARMOR_ACID", "add": -20 }
+           ]
+         }
+       ] 
+      },
+    "initial_charges": 1,
+    "max_charges": 100,
+    "charges_per_use": 1,
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It tingles when you hold it. It can block some acid damage, you can extract weak acids rarely."
+  },
+  {
+    "id": "Foxartifactacid2",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Strong acid artifact" },
+    "ammo": "battery",
+    "relic_data": {
+       "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 1 } ],
+       "passive_effects": [
+         {
+           "has": "WORN",
+           "condition": "ALWAYS",
+           "values": [
+             { "value": "ARMOR_ACID", "add": -50 }
+           ]
+         }
+       ] 
+      },
+    "initial_charges": 1,
+    "max_charges": 1000,
+    "charges_per_use": 1,
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It burns your skin if you hold it without gloves. It can block a lot of acid damage and creates quite a bit of various acids."
+  },
+  {
+    "id": "Foxartifactacid3",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Transcendent acid artifact" },
+    "ammo": "battery",
+    "relic_data": {
+       "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 20 } ],
+       "passive_effects": [
+         {
+           "has": "WORN",
+           "condition": "ALWAYS",
+           "values": [
+             { "value": "ARMOR_ACID", "add": -9999 }
+           ]
+         }
+       ] 
+      },
+    "initial_charges": 1,
+    "max_charges": 10000,
+    "charges_per_use": 1,
+    "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. Your hands melt if you hold it without gloves. It can block almost all acid damage and is a great source of any acid."
+  },
+  {
+    "id": "Foxartifactgrav1",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "weight_capacity_bonus": "30 kg",
+    "name": { "str_sp": "Weak gravity artifact" },
+    "relic_data": {
+       "passive_effects": [
+         {
+           "has": "WORN",
+           "condition": "ALWAYS",
+           "values": [
+             { "value": "ARMOR_BULLET", "add": -45 }
+           ]
+         }
+       ] 
+      },
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You feel a little lighter from wearing it, and it can stop a pistol round."
+  },
+  {
+    "id": "Foxartifactgrav2",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "weight_capacity_bonus": "200 kg",
+    "name": { "str_sp": "Strong gravity artifact" },
+    "relic_data": {
+       "passive_effects": [
+         {
+           "has": "WORN",
+           "condition": "ALWAYS",
+           "values": [
+             { "value": "ARMOR_BULLET", "add": -80 }
+           ]
+         }
+       ] 
+      },
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You feel a lot lighter from wearing it, and it can stop a powerful rifle round."
+  },
+  {
+    "id": "Foxartifactgrav3",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "looks_like": "spiral_stone",
+    "copy-from": "Foxartifactabstract",
+    "name": { "str_sp": "Transcendent gravity artifact" },
+    "weight_capacity_bonus": "600 kg",
+    "relic_data": {
+       "passive_effects": [
+         {
+           "has": "WORN",
+           "condition": "ALWAYS",
+           "values": [
+             { "value": "ARMOR_BULLET", "add": -9999 }
+           ]
+         }
+       ] 
+      },
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You feel the burdens of gravity disappear, and it can stop most kinetic projectiles."
+  }
+]

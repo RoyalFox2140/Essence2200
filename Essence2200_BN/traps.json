@@ -1,0 +1,17 @@
+[
+  {
+    "type": "trap",
+    "id": "Foxtr_rift",
+    "looks_like": "tr_portal",
+    "name": "artifact rift",
+    "color": "magenta",
+    "symbol": "O",
+    "visibility": 0,
+    "avoidance": 999,
+    "difficulty": 999,
+    "action": "spell",
+    "spell_data": { "id": "Fox_Hidden_PUNISH" },
+    "remove_on_trigger": true, 
+    "trigger_items": [ { "item": "Foxartifactunstable", "quantity": 1 } ]
+  }
+]
