@@ -635,6 +635,7 @@
     "description": "You are a recently-promoted soldier of the Grand Army of the Shi, with legal authority to act on their behalf for the betterment of your homeland.",
     "valid": false,
     "purifiable": false,
+    "anger_relations": [ [ "FoxImperial", 10 ] ],
     "visibility": 0,
     "ugliness": 0
   },
@@ -647,6 +648,20 @@
     "valid": false,
     "purifiable": false,
     "player_display": false,
+    "visibility": 0,
+    "ugliness": 0
+  },
+  {
+    "type": "mutation",
+    "id": "FoxImperialTraitor",
+    "name": { "str": "Imperial Traitor" },
+    "points": 0,
+    "description": "You have shirked your responsibilites, abandoned your post, and rejected your mandatory brainwashing. If they ever see you again it's death on sight. Their neural implants will inform them. Apostles will react differently to you.",
+    "valid": false,
+    "purifiable": false,
+    "player_display": true,
+    "mixed_effect": true,
+    "anger_relations": [ [ "FoxImperial", 5 ] ],
     "visibility": 0,
     "ugliness": 0
   },

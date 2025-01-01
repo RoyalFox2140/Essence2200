@@ -122,7 +122,7 @@
     "dodge": 1,
     "armor_bash": 12,
     "armor_cut": 16,
-    "armor_fire": 30,
+    "armor_fire": 20,
     "armor_bullet": 40,
     "vision_day": 45,
     "vision_night": 8,
