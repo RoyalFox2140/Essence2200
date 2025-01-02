@@ -299,5 +299,27 @@
     "components": [
       [ [ "FoxAdamantinechunk", 12 ] ]
     ]
+  },
+  {
+    "type": "uncraft",
+    "result": "Foxisteelframe",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "10 m",
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximperialsteelchunk", 40 ] ]
+    ]
+  },
+  {
+    "type": "uncraft",
+    "result": "Foxisteelplate",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximperialsteelchunk", 12 ] ]
+    ]
   }
 ]
