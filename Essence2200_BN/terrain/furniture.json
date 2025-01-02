@@ -1328,5 +1328,111 @@
     "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
     "pre_special": "check_empty",
     "post_furniture": "Foxf_crystal_panel"
+  },
+  {
+    "type": "furniture",
+    "id": "Fox_wreck",
+    "name": "Imperial scrap",
+    "looks_like": "f_wreckage",
+    "description": "Some sort of Imperial vehicle was destroyed here and this is smaller pieces, it's too unwieldy to walk or stand on.",
+    "symbol": "#",
+    "color": "cyan",
+    "move_cost_mod": -1,
+    "coverage": 90,
+    "max_volume": "1000 L",
+    "required_str": -1,
+    "flags": [
+      "CONTAINER",
+      "TRANSPARENT",
+      "SEALED",
+      "ALLOW_FIELD_EFFECT",
+      "SHORT",
+      "RUBBLE"
+    ],
+    "examine_action": "rubble",
+    "bash": {
+      "str_min": 300,
+      "str_max": 400,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "Foxisteelplate", "damage": [ 1, 3 ] },
+        { "item": "Foximperialsteelchunk", "count": [ 5, 30 ] },
+        { "item": "Foximpmechparts", "count": [ 1, 6 ], "prob": 25 }
+      ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "Fox_wreckdense",
+    "name": "Imperial wreck",
+    "looks_like": "f_wreckage",
+    "description": "Some sort of Imperial vehicle was destroyed here, it's a dense mess of valuable metal, ocassional electronics, and possibly ballistic weave from the seats.",
+    "symbol": "#",
+    "color": "cyan",
+    "move_cost_mod": -1,
+    "coverage": 90,
+    "max_volume": "1000 L",
+    "required_str": -1,
+    "flags": [
+      "CONTAINER",
+      "SEALED",
+      "ALLOW_FIELD_EFFECT",
+      "SHORT",
+      "RUBBLE"
+    ],
+    "examine_action": "rubble",
+    "bash": {
+      "str_min": 300,
+      "str_max": 400,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "Foxisteelframe", "damage": [ 1, 3 ] },
+        { "item": "Foxisteelplate", "damage": [ 1, 3 ] },
+        { "item": "Foximperialsteelchunk", "charges": [ 5, 30 ] },
+        { "item": "FoxBallisticWeavescrap", "charges": [ 30, 200 ], "prob": 20 },
+        { "item": "Foximpelectronics", "charges": [ 1, 4 ], "prob": 15 },
+        { "item": "Foximpmicroelectronics", "charges": [ 1, 4 ], "prob": 5 },
+        { "item": "Foximpmechparts", "charges": [ 1, 5 ], "prob": 25 },
+        { "item": "cable", "charges": [ 30, 90 ], "prob": 35 }
+      ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "Fox_wreckturbine",
+    "name": "Imperial engine wreck",
+    "looks_like": "f_wreckage",
+    "description": "This is where an engine was, it must have a lot of stuff.",
+    "symbol": "#",
+    "color": "cyan",
+    "move_cost_mod": -1,
+    "coverage": 90,
+    "max_volume": "1000 L",
+    "required_str": -1,
+    "flags": [
+      "CONTAINER",
+      "SEALED",
+      "ALLOW_FIELD_EFFECT",
+      "SHORT",
+      "RUBBLE"
+    ],
+    "examine_action": "rubble",
+    "bash": {
+      "str_min": 300,
+      "str_max": 400,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "Foxisteelframe", "damage": [ 1, 3 ] },
+        { "item": "Foximperialsteelchunk", "charges": [ 200, 300 ] },
+        { "item": "drivebelt", "charges": [ 1, 2 ], "damage": [ 0, 2 ] },
+        { "item": "cable", "charges": [ 90, 300 ] },
+        { "item": "Foximpelectronics", "charges": [ 5, 30 ] },
+        { "item": "Foximpmicroelectronics", "charges": [ 1, 4 ], "prob": 15 },
+        { "item": "Foximpmechparts", "charges": [ 10, 30 ] }
+      ]
+    }
   }
 ]

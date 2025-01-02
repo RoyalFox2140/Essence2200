@@ -494,7 +494,7 @@
           "mx_crater": 15,
           "mx_portal_in": 1,
           "mx_point_dead_vegetation": 50,
-          "mx_grass": 500,
+          "mx_grass": 1200,
           "mx_trees": 100,
           "mx_fallen_shed": 20,
           "mx_pond": 20,
@@ -507,7 +507,8 @@
           "Foxmximperialinvasionfailed": 2,
           "Foxmximperialreaperslost": 5,
           "Foxmxsludgepit": 10,
-          "Foxmxunstableground": 5
+          "Foxmxunstableground": 5,
+          "Foxmximperialwreck": 4
         }
       },
       "road": {

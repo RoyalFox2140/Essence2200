@@ -247,5 +247,58 @@
         { "trap": "Foxtr_rift", "x": [ 6, 16 ], "y": [ 6, 16 ] }
       ]
     }
+  },
+  {
+    "id": "Foxmximperialwreck",
+    "type": "map_extra",
+    "name": { "str": "Imperial wreck" },
+    "description": "An Imperial vehicle was destroyed here.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "Foxmximperialwreck" },
+    "sym": "W",
+    "color": "red",
+    "autonote": true
+  },
+  {
+    "method": "json",
+    "type": "mapgen",
+    "update_mapgen_id": "Foxmximperialwreck", 
+    "object": {
+      "rows": [
+        "........................",
+        "........................",
+        "........................",
+        "...........bbb..........",
+        ".........bbbbbbb........",
+        ".........bbbbbbb........",
+        ".........bbbbbbb........",
+        ".........bbbbbbb........",
+        ".........bbbbbbb........",
+        ".........bbbbbbb........",
+        ".........bbbbbbb........",
+        ".........bcbbbcb........",
+        ".........bbbbbbb........",
+        "..........bbbbb.........",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................"
+      ],
+      "terrain": { 
+        ".": [ "t_region_groundcover" ], 
+        "b": [ "t_region_groundcover" ], 
+        "c": [ "t_region_groundcover" ]
+      },
+      "furniture": {
+        ".": [ [ "f_null", 11 ], "Fox_wreck" ], 
+        "b": [ "Fox_wreckdense" ], 
+        "c": [ "Fox_wreckturbine" ]
+      }
+    }
   }
 ]
