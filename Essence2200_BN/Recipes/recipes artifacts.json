@@ -4,6 +4,7 @@
     "result": "Foxartifactcold2",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactStabilize",
     "time": "5 m",
     "autolearn": true,
     "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
@@ -13,6 +14,7 @@
     "result": "Foxartifactheat2",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactStabilize",
     "time": "5 m",
     "autolearn": true,
     "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
@@ -22,6 +24,7 @@
     "result": "Foxartifactelectric2",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactStabilize",
     "time": "5 m",
     "autolearn": true,
     "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
@@ -31,6 +34,7 @@
     "result": "Foxartifactacid2",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactStabilize",
     "time": "5 m",
     "autolearn": true,
     "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
@@ -40,6 +44,7 @@
     "result": "Foxartifactgrav2",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactStabilize",
     "time": "5 m",
     "autolearn": true,
     "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
@@ -66,6 +71,7 @@
     "result": "water_clean",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifact",
     "time": "1 s",
     "autolearn": true,
     "tools": [ [ [ "Foxartifactcold1", 1 ], [ "Foxartifactcold2", 1 ], [ "Foxartifactcold3", 1 ] ] ]
@@ -75,6 +81,7 @@
     "result": "acid",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifact",
     "time": "1 s",
     "autolearn": true,
     "tools": [ [ [ "Foxartifactacid1", 1 ], [ "Foxartifactacid2", 1 ], [ "Foxartifactacid3", 1 ] ] ]
@@ -84,6 +91,7 @@
     "result": "chem_sulphuric_acid",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifact",
     "time": "1 s",
     "autolearn": true,
     "tools": [ [ [ "Foxartifactacid2", 1 ], [ "Foxartifactacid3", 1 ] ] ]
@@ -93,6 +101,7 @@
     "result": "chem_nitric_acid",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifact",
     "time": "1 s",
     "autolearn": true,
     "tools": [ [ [ "Foxartifactacid2", 2 ], [ "Foxartifactacid3", 2 ] ] ]
@@ -102,6 +111,7 @@
     "result": "chem_muriatic_acid",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifact",
     "time": "1 s",
     "autolearn": true,
     "tools": [ [ [ "Foxartifactacid2", 2 ], [ "Foxartifactacid3", 2 ] ] ]
