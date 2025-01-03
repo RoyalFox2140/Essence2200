@@ -38,7 +38,7 @@
       { "group": "Foxreapergear", "prob": 90 },
       { "item": "Foximperialrationgood", "prob": 75 },
       { "item": "Foximperialrationbad", "prob": 99 },
-      { "item": "Foxmonweakartifacts", "prob": 20 },
+      { "group": "Foxmonweakartifacts", "prob": 20 },
       { "group": "Foxmonstrongartifacts", "prob": 30 },
       { "item": "adv_UPS_off", "prob": 45 },
       { "item": "water_clean", "container-item": "canteen", "prob": 90, "charges": [ 0, 6 ] },
