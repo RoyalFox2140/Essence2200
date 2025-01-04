@@ -327,6 +327,7 @@
       { "item": "pot", "prob": 40 },
       { "item": "pot_canning", "prob": 30 },
       { "item": "mess_tin", "prob": 70, "count": [ 1, 4 ] },
+      { "item": "matches", "prob": 90, "count": [ 1, 2 ] },
       { "item": "knife_chef", "prob": 40 },
       { "item": "cutting_board", "prob": 40 },
       { "item": "funnel", "prob": 60 },
