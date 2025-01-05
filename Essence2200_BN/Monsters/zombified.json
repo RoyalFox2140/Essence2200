@@ -210,7 +210,7 @@
     "type": "MONSTER",
     "name": { "str": "Abberant Night Crawler", "str_pl": "Abberant Night Crawlers" },
     "looks_like": "mon_zombie_sproglodyte",
-    "description": "A form of incredibly tainted human, Essence exposure has given this human keen night vision but it is not very fast, though it is not much stronger than other leapers in combat.",
+    "description": "A form of incredibly tainted human, Essence exposure has given this human keen night vision in exchange for less speed, though it is not much stronger than other leapers in combat.",
     "default_faction": "zombie",
     "species": [ "ABERRATION" ],
     "volume": "875000 ml",
