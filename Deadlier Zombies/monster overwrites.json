@@ -41,7 +41,7 @@
     "has_fume": true,
     "gas_absorption_factor": 3,
     "priority": 8,
-    "half_life": "240 hours",
+    "half_life": "72 hours",
     "immunity_data": { "body_part_env_resistance": [ [ "torso", 15 ], [ "mouth", 15 ] ] },
     "phase": "gas",
     "display_items": true,
