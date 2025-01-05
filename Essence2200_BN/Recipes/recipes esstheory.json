@@ -129,6 +129,23 @@
     "result": "FoxEssencenormal",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxUseWater",
+    "skill_used": "FoxEssTheory",
+    "difficulty": 0,
+    "result_mult": 250,
+    "time": "30 s",
+    "autolearn": true,
+    "qualities": [ { "id": "CONTAIN", "level": 1 } ],
+    "components": [
+    [ [ "Foxcrystallizedessence", 100 ] ],
+    [ [ "water_clean", 1 ] ]
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxEssencenormal",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
     "id_suffix": "FoxDistillmotordew",
     "skill_used": "FoxEssTheory",
     "skills_required": [ [ "cooking", 5 ] ],
