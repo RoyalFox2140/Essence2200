@@ -28,34 +28,6 @@
     "value": true
   },
   {
-    "type": "skill_boost",
-    "stat": "str",
-    "skills": [ "mechanics", "swimming", "bashing", "cutting", "melee", "throw" ],
-    "skill_offset": -3,
-    "scaling_power": 0.4
-  },
-  {
-    "type": "skill_boost",
-    "stat": "dex",
-    "skills": [ "driving", "survival", "tailor", "traps", "dodge", "stabbing", "unarmed", "FoxEssTech" ],
-    "skill_offset": -3,
-    "scaling_power": 0.4
-  },
-  {
-    "type": "skill_boost",
-    "stat": "int",
-    "skills": [ "barter", "computer", "cooking", "electronics", "fabrication", "firstaid", "speech", "FoxEssTheory", "FoxCryptology" ],
-    "skill_offset": -3,
-    "scaling_power": 0.4
-  },
-  {
-    "type": "skill_boost",
-    "stat": "per",
-    "skills": [ "archery", "gun", "launcher", "pistol", "rifle", "shotgun", "smg", "FoxEssSpellcasting" ],
-    "skill_offset": -3,
-    "scaling_power": 0.4
-  },
-  {
     "type": "EXTERNAL_OPTION",
     "name": "FILTHY_WOUNDS",
     "stype": "bool",
