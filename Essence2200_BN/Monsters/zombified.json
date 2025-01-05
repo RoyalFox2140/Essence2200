@@ -180,7 +180,7 @@
     "description": "A form of incredibly tainted human, Shadows retain their human form but are covered in an inky black skin that absorbs light. This skin has incredible thermal resistance and handles pistol rounds well, they hold incredible speed and melee strength but tend to flail violently. They can only see well in the dark. Surface Shadows are weakened by sunlight and tend to be very young, expect far worse down the road.",
     "default_faction": "zombie",
     "species": [ "ABERRATION" ],
-    "volume": "875000 ml",
+    "volume": "87500 ml",
     "weight": "55 kg",
     "hp": 200,
     "speed": 250,
@@ -203,7 +203,7 @@
     "vision_night": 40,
     "death_function": [ "NORMAL" ],
     "harvest": "FoxAbberration",
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS",  "BASHES", "WARM", "PATH_AVOID_DANGER_2" ]
   },
   {
     "id": "FoxmonAbberantnightcrawler",
@@ -213,7 +213,7 @@
     "description": "A form of incredibly tainted human, Essence exposure has given this human keen night vision in exchange for less speed, though it is not much stronger than other leapers in combat.",
     "default_faction": "zombie",
     "species": [ "ABERRATION" ],
-    "volume": "875000 ml",
+    "volume": "87500 ml",
     "weight": "50 kg",
     "hp": 60,
     "speed": 90,
@@ -235,7 +235,7 @@
     "vision_night": 20,
     "death_function": [ "NORMAL" ],
     "harvest": "FoxAbberration",
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "WARM", "PATH_AVOID_DANGER_2" ]
   },
   {
     "id": "FoxmonAbberantLeaper",
@@ -245,7 +245,7 @@
     "description": "A form of incredibly tainted human, Essence exposure has given this human the ability to leap and run at great speed. This early version lacks strength and is near-sighted. It will scream to alert the others.",
     "default_faction": "zombie",
     "species": [ "ABERRATION" ],
-    "volume": "875000 ml",
+    "volume": "87500 ml",
     "weight": "50 kg",
     "hp": 60,
     "speed": 120,
@@ -269,7 +269,7 @@
     "vision_night": 1,
     "death_function": [ "NORMAL" ],
     "harvest": "FoxAbberration",
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "WARM", "PATH_AVOID_DANGER_2" ]
   },
   {
     "id": "FoxmonAbberantLeaperImpaler",
@@ -279,7 +279,7 @@
     "description": "A form of incredibly tainted human, Essence exposure has given this human the ability to leap, run at great speed and impale enemies. This early version lacks strength and is near-sighted. It will scream to alert the others.",
     "default_faction": "zombie",
     "species": [ "ABERRATION" ],
-    "volume": "875000 ml",
+    "volume": "87500 ml",
     "weight": "50 kg",
     "hp": 60,
     "speed": 110,
@@ -316,7 +316,7 @@
     "vision_night": 1,
     "death_function": [ "NORMAL" ],
     "harvest": "FoxAbberration",
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "WARM", "PATH_AVOID_DANGER_2" ]
   },
   {
     "id": "FoxmonAbberantStalker",
@@ -326,7 +326,7 @@
     "description": "A form of incredibly tainted human, Essence exposure has given this human the ability to leap and run at great speed. It hears extremely well, but it lacks strength and is near-sighted. It will scream to alert the others.",
     "default_faction": "zombie",
     "species": [ "ABERRATION" ],
-    "volume": "875000 ml",
+    "volume": "87500 ml",
     "weight": "52 kg",
     "hp": 90,
     "speed": 130,
@@ -350,7 +350,7 @@
     "vision_night": 5,
     "death_function": [ "NORMAL" ],
     "harvest": "FoxAbberration",
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "WARM", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "BASHES", "SMELLS", "WARM", "PATH_AVOID_DANGER_2" ]
   },
   {
     "id": "FoxmonAbberantFleshBall",
@@ -360,7 +360,7 @@
     "description": "A form of incredibly tainted human, Essence exposure is often an uncontrolled process and this beast reflects it. It is a giant lump with legs. This lumbering beast can hardly walk towards you but a single shove will hurt. In combat it screams to lure others.",
     "default_faction": "zombie",
     "species": [ "ABERRATION" ],
-    "volume": "950000 ml",
+    "volume": "95000 ml",
     "weight": "250 kg",
     "hp": 350,
     "speed": 70,
@@ -382,7 +382,7 @@
     "vision_night": 1,
     "death_function": [ "NORMAL" ],
     "harvest": "FoxAbberration",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "STUMBLES", "WARM" ]
   },
   {
     "id": "FoxmonSpecterRift",
@@ -415,7 +415,7 @@
     "luminance": 20,
     "death_function": [ "MELT" ],
     "harvest": "FoxAbberration",
-    "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "WEBWALK", "FLIES", "PATH_AVOID_DANGER_2", "FIREPROOF", "COLDPROOF", "ACIDPROOF" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "WEBWALK", "FLIES", "BASHES", "PATH_AVOID_DANGER_2", "FIREPROOF", "COLDPROOF", "ACIDPROOF" ]
   },
   {
     "id": "FoxmonSpecterSurface",
@@ -448,7 +448,7 @@
     "luminance": 20,
     "death_function": [ "MELT" ],
     "harvest": "FoxAbberration",
-    "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "WEBWALK", "FLIES", "PATH_AVOID_DANGER_2", "FIREPROOF", "COLDPROOF", "ACIDPROOF" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "WEBWALK", "FLIES", "BASHES", "PATH_AVOID_DANGER_2", "FIREPROOF", "COLDPROOF", "ACIDPROOF" ]
   },
   {
     "id": "FoxmonAbberantShadowHellfire",
@@ -480,6 +480,6 @@
     "vision_night": 40,
     "death_function": [ "NORMAL" ],
     "harvest": "FoxAbberration",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "PATH_AVOID_DANGER_2" ]
   }
 ]
