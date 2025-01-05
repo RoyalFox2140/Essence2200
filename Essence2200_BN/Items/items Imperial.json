@@ -482,7 +482,7 @@
     "id": "Foximpwastelandsuit",
     "type": "ARMOR",
     "name": { "str": "Imperial wasteland suit" },
-    "description": "This tan patterned suit reminiscient of a Gorka suit was designed in response to the harsh environmental conditions of Earth after two thirds of it became wasteland. Combined with a gas mask it renders the wearer strong resistance or outright immunity to wind, rain, chemical weapons, acid attacks, radiation, fire, electrical weapons, and airborne mutagenics. While it carries significant ballistic protection, critics argue the lack of protection from modern energy weapons led to its obsoletion. Modern optics rendered camouflage obsolete, reflected in this design.",
+    "description": "This tan patterned suit reminiscient of a Gorka suit was designed in response to the harsh environmental conditions of Earth after two thirds of it became wasteland. Combined with a gas mask it renders the wearer strong resistance or outright immunity to wind, rain, chemical weapons, acid attacks, radiation, fire, and airborne mutagenics. While it carries significant ballistic protection, critics argue the lack of protection from modern energy weapons led to its obsoletion. Modern optics rendered camouflage obsolete, reflected in this design.",
     "weight": "1000 g",
     "volume": "12 L",
     "price": "2 USD",
