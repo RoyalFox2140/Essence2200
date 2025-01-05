@@ -96,6 +96,14 @@
     ]
   },
   {
+    "id": "FoxmonAbberantTowndrops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "Foxmonweakartifacts", "prob": 2 }
+    ]
+  },
+  {
     "id": "FoxmonAbberationdrops",
     "type": "item_group",
     "subtype": "collection",

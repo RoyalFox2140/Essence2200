@@ -292,6 +292,76 @@
     ]
   },
   {
+    "id": "Fox_supplementary_civilian_pistols",
+    "type": "item_group",
+    "subtype": "distribution",
+    "//": "Cheaper handguns, or ones that are way too popular. No deagles, more revolver odds, less on expensive calibers like five seven. Less imports.",
+    "entries": [
+      { "group": "everyday_90two", "prob": 5 },
+      { "group": "everyday_90two40", "prob": 5 },
+      { "group": "everyday_glock_17", "prob": 30 },
+      { "group": "everyday_glock_19", "prob": 20 },
+      { "group": "everyday_hi_power_40", "prob": 5 },
+      { "group": "everyday_hi_power_9mm", "prob": 5 },
+      { "group": "everyday_hptc9", "prob": 10 },
+      { "group": "everyday_hptcf380", "prob": 5 },
+      { "group": "everyday_hptjcp", "prob": 5 },
+      { "group": "everyday_hptjhp", "prob": 5 },
+      { "group": "everyday_kp32", "prob": 10 },
+      { "group": "everyday_kp3at", "prob": 15 },
+      { "group": "everyday_kpf9", "prob": 15 },
+      { "group": "everyday_m1911", "prob": 15 },
+      { "group": "everyday_m1911a1_38super", "prob": 5 },
+      { "group": "everyday_m9", "prob": 10 },
+      { "group": "everyday_model_10_revolver", "prob": 20 },
+      { "group": "everyday_p226_357sig", "prob": 25 },
+      { "group": "everyday_p320_357sig", "prob": 30 },
+      { "group": "everyday_ruger_lcr_22", "prob": 35 },
+      { "group": "everyday_ruger_lcr_38", "prob": 20 },
+      { "group": "everyday_rugerlcp", "prob": 35 },
+      { "group": "everyday_sig_mosquito", "prob": 15 },
+      { "group": "everyday_sw_22", "prob": 20 },
+      { "group": "everyday_sw_619", "prob": 25 },
+      { "group": "everyday_sw629", "prob": 25 },
+      { "group": "everyday_usp_45", "prob": 5 },
+      { "group": "everyday_usp_9mm", "prob": 10 },
+      { "group": "everyday_walther_ccp", "prob": 10 },
+      { "group": "everyday_walther_p22", "prob": 10 }
+    ]
+  },
+  {
+    "id": "map_extra_dead_hunter",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "Fox_supplementary_civilian_pistols", "prob": 100 }
+    ]
+  },
+  {
+    "id": "map_extra_college_camping",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "Fox_supplementary_civilian_pistols", "prob": 40 }
+    ]
+  },
+  {
+    "id": "map_extra_college_sports",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "Fox_supplementary_civilian_pistols", "prob": 25 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "map_extra_science",
+    "entries": [
+      { "group": "Fox_supplementary_civilian_pistols", "prob": 20 }
+    ]
+  },
+  {
     "id": "SUS_evac_shelter_locker",
     "type": "item_group",
     "subtype": "collection",

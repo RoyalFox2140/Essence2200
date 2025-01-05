@@ -30,7 +30,7 @@
         "dispersion": 150,
         "durability": 8
     },
-  {
+   {
     "id": "FoximpKW2140Fake",
     "copy-from": "rifle_energy",
     "type": "GUN",
@@ -51,6 +51,26 @@
     "ammo_effects": [ "LASER" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
   },
+  {
+   "id": "Foxmongunimpale",
+   "copy-from": "rifle_energy",
+   "type": "GUN",
+   "looks_like": "laser_rifle",
+   "name": { "str": "Impale gun" },
+   "description": "I fucking hate this.",
+   "weight": "1 g",
+   "volume": "1 L",
+   "price": "2 USD",
+   "price_postapoc": "2 USD",
+   "material": [ "FoxImperialSteel" ],
+   "color": "yellow",
+   "range": 5,
+   "ranged_damage": { "damage_type": "stab", "amount": 16, "armor_penetration": 30 },
+   "dispersion": 1,
+   "modes": [ [ "DEFAULT", "semi", 1 ] ],
+   "loudness": 1,
+   "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
+ },
   {
     "id": "Foxabberrantlasereye",
     "copy-from": "rifle_energy",
