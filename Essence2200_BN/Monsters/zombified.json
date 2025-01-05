@@ -363,7 +363,7 @@
     "volume": "95000 ml",
     "weight": "250 kg",
     "hp": 350,
-    "speed": 70,
+    "speed": 65,
     "material": [ "flesh" ],
     "symbol": "L",
     "color": "magenta",
