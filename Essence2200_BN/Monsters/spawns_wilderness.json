@@ -14,14 +14,14 @@
     "default": "mon_null",
     "is_animal": true,
     "monsters": [
-      { "monster": "FoxmonAbberantnightcrawler", "freq": 20, "cost_multiplier": 4, "pack_size": [ 1, 3 ] },
-      { "monster": "FoxmonAbberantLeaper", "freq": 10, "cost_multiplier": 3, "pack_size": [ 1, 3 ] },
-      { "monster": "FoxmonAbberantLeaperImpaler", "freq": 15, "cost_multiplier": 4, "pack_size": [ 1, 3 ] },
-      { "monster": "FoxmonAbberantStalker", "freq": 15, "cost_multiplier": 4, "pack_size": [ 1, 3 ] },
-      { "monster": "FoxmonAbberantFleshBall", "freq": 10, "cost_multiplier": 3, "pack_size": [ 2, 4 ] },
-      { "monster": "FoxmonAbberantShadow", "freq": 15, "cost_multiplier": 6, "pack_size": [ 1, 3 ], "starts": 480 },
+      { "monster": "FoxmonAbberantnightcrawler", "freq": 20, "cost_multiplier": 6, "pack_size": [ 1, 3 ] },
+      { "monster": "FoxmonAbberantLeaper", "freq": 10, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+      { "monster": "FoxmonAbberantLeaperImpaler", "freq": 15, "cost_multiplier": 6, "pack_size": [ 1, 3 ] },
+      { "monster": "FoxmonAbberantStalker", "freq": 15, "cost_multiplier": 6, "pack_size": [ 1, 3 ] },
+      { "monster": "FoxmonAbberantFleshBall", "freq": 10, "cost_multiplier": 5, "pack_size": [ 2, 4 ] },
+      { "monster": "FoxmonAbberantShadow", "freq": 15, "cost_multiplier": 8, "pack_size": [ 1, 3 ], "starts": 480 },
       { "monster": "FoxmonLVAbberration", "freq": 10, "cost_multiplier": 8, "starts": 720 },
-      { "monster": "FoxmonZombifiedReaper", "freq": 20, "cost_multiplier": 7, "pack_size": [ 3, 6 ] },
+      { "monster": "FoxmonZombifiedReaper", "freq": 20, "cost_multiplier": 8, "pack_size": [ 3, 5 ] },
       { "monster": "FoxmonZombifiedReaperCO", "freq": 5, "cost_multiplier": 5 }
     ]
   }
