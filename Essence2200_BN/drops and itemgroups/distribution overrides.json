@@ -396,6 +396,14 @@
   {
     "type": "item_group",
     "subtype": "collection",
+    "id": "map_extra_drugdeal",
+    "entries": [
+      { "group": "Fox_supplementary_civilian_pistols", "prob": 25 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
     "id": "map_extra_science",
     "entries": [
       { "group": "Fox_supplementary_civilian_pistols", "prob": 20 }
