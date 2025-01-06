@@ -330,6 +330,46 @@
     ]
   },
   {
+    "id": "Fox_supplementary_civilian_rifles",
+    "type": "item_group",
+    "subtype": "distribution",
+    "//": "See above logic. I want it to feel more like hunting guns with the random self defense AR.",
+    "entries": [
+      { "group": "nested_ar15", "prob": 40 },
+      { "group": "nested_browning_blr", "prob": 30 },
+      { "group": "nested_colt_lightning", "prob": 5 },
+      { "group": "nested_garand", "prob": 30 },
+      { "group": "nested_hipoint_3895", "prob": 20 },
+      { "group": "nested_m1903", "prob": 10 },
+      { "group": "nested_marlin_1894c", "prob": 30 },
+      { "group": "nested_mosin44", "prob": 30 },
+      { "group": "nested_mosin91_30", "prob": 30 },
+      { "group": "nested_remington_700", "prob": 30 },
+      { "group": "nested_remington700_270", "prob": 30 },
+      { "group": "nested_ruger_1022", "prob": 60 },
+      { "group": "nested_savage_111f", "prob": 10 },
+      { "group": "nested_sks", "prob": 20 },
+      { "group": "nested_weatherby_5", "prob": 20 },
+      { "group": "nested_win70", "prob": 10 }
+    ]
+  },
+  {
+    "id": "Fox_supplementary_civilian_shotguns",
+    "type": "item_group",
+    "subtype": "distribution",
+    "//": "Home defense emporium, I prefer not giving gas operated shotguns to civvies as a supplement to what spawns.",
+    "entries": [
+      { "group": "nested_browning_a5", "prob": 10 },
+      { "group": "nested_mossberg_500", "prob": 20 },
+      { "group": "nested_remington_1100", "prob": 5 },
+      { "group": "nested_remington_870_express", "prob": 20 },
+      { "group": "nested_shotgun_d", "prob": 40 },
+      { "group": "nested_shotgun_s", "prob": 20 },
+      { "group": "nested_winchester_1887", "prob": 5 },
+      { "group": "nested_winchester_1897", "prob": 5 }
+    ]
+  },
+  {
     "id": "map_extra_dead_hunter",
     "type": "item_group",
     "subtype": "collection",
@@ -359,6 +399,56 @@
     "id": "map_extra_science",
     "entries": [
       { "group": "Fox_supplementary_civilian_pistols", "prob": 20 }
+    ]
+  },
+  {
+    "id": "SUS_dresser_mens",
+    "type": "item_group",
+    "//": "I don't fully understand where these 4 collections are used, but they mostly appear to overlap? Firearms added to mens, rest to womens. The idea is to make sure two sets of guns don't spawn in the same location.",
+    "subtype": "collection",
+    "entries": [
+      { "group": "Fox_supplementary_civilian_pistols", "prob": 60 },
+      { "group": "Fox_supplementary_civilian_shotguns", "prob": 5 },
+      { "item": "shot_00", "prob": 40, "charges": [ 4, 20 ] },
+      { "item": "9mm", "prob": 30, "charges": [ 11, 50 ] },
+      { "item": "380_JHP", "prob": 30, "charges": [ 11, 50 ] }
+    ]
+  },
+  {
+    "id": "SUS_dresser_womens",
+    "type": "item_group",
+    "//": "I don't fully understand where these 4 collections are used, but they mostly appear to overlap? Firearms added to mens, rest womens. The idea is to make sure two sets of guns don't spawn in the same location",
+    "subtype": "collection",
+    "entries": [
+      { "item": "baton", "prob": 80 },
+      { "item": "tazer", "prob": 70 },
+      { "item": "pockknife", "prob": 80 },
+      { "item": "knife_hunting", "prob": 20 },
+      { "item": "1st_aid", "prob": 10 },
+      { "group": "MRE", "prob": 20, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "id": "SUS_wardrobe_mens",
+    "type": "item_group",
+    "//": "I don't fully understand where these 4 collections are used, but they mostly appear to overlap? Firearms added to mens, rest to womens. The idea is to make sure two sets of guns don't spawn in the same location",
+    "subtype": "collection",
+    "entries": [
+      { "group": "Fox_supplementary_civilian_rifles", "prob": 80 },
+      { "group": "Fox_supplementary_civilian_shotguns", "prob": 50 }
+    ]
+  },
+  {
+    "id": "SUS_wardrobe_womens",
+    "type": "item_group",
+    "//": "I don't fully understand where these 4 collections are used, but they mostly appear to overlap? Firearms added to mens, rest to womens. The idea is to make sure two sets of guns don't spawn in the same location",
+    "subtype": "collection",
+    "entries": [
+      { "item": "hammer", "prob": 40 },
+      { "item": "golf_club", "prob": 60 },
+      { "item": "survival_kit", "prob": 25 },
+      { "item": "handflare", "prob": 40 },
+      { "group": "MRE", "prob": 25, "count": [ 1, 5 ] }
     ]
   },
   {
