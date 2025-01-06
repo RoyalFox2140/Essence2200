@@ -407,7 +407,7 @@
     "//": "I don't fully understand where these 4 collections are used, but they mostly appear to overlap? Firearms added to mens, rest to womens. The idea is to make sure two sets of guns don't spawn in the same location.",
     "subtype": "collection",
     "entries": [
-      { "group": "Fox_supplementary_civilian_pistols", "prob": 60 },
+      { "group": "Fox_supplementary_civilian_pistols", "prob": 40 },
       { "group": "Fox_supplementary_civilian_shotguns", "prob": 5 },
       { "item": "shot_00", "prob": 40, "charges": [ 4, 20 ] },
       { "item": "9mm", "prob": 30, "charges": [ 11, 50 ] },
@@ -434,8 +434,8 @@
     "//": "I don't fully understand where these 4 collections are used, but they mostly appear to overlap? Firearms added to mens, rest to womens. The idea is to make sure two sets of guns don't spawn in the same location",
     "subtype": "collection",
     "entries": [
-      { "group": "Fox_supplementary_civilian_rifles", "prob": 80 },
-      { "group": "Fox_supplementary_civilian_shotguns", "prob": 50 }
+      { "group": "Fox_supplementary_civilian_rifles", "prob": 60 },
+      { "group": "Fox_supplementary_civilian_shotguns", "prob": 40 }
     ]
   },
   {
