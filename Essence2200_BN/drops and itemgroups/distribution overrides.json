@@ -420,9 +420,9 @@
     "//": "I don't fully understand where these 4 collections are used, but they mostly appear to overlap? Firearms added to mens, rest womens. The idea is to make sure two sets of guns don't spawn in the same location",
     "subtype": "collection",
     "entries": [
-      { "item": "baton", "prob": 80 },
-      { "item": "tazer", "prob": 70 },
-      { "item": "pockknife", "prob": 80 },
+      { "item": "baton", "prob": 30 },
+      { "item": "tazer", "prob": 40 },
+      { "item": "pockknife", "prob": 50 },
       { "item": "knife_hunting", "prob": 20 },
       { "item": "1st_aid", "prob": 10 },
       { "group": "MRE", "prob": 20, "count": [ 1, 2 ] }
