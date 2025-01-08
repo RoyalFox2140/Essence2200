@@ -63,7 +63,7 @@
     "to_hit": -10,
     "bashing": 1,
     "cutting": 1,
-    "material": [ "steel" ],
+    "material": [ "cotton" ],
     "symbol": ";",
     "color": "brown"
   },
