@@ -430,7 +430,7 @@
     "entries": [
       { "item": "baton", "prob": 10 },
       { "item": "tazer", "prob": 20 },
-      { "item": "pockknife", "prob": 325 },
+      { "item": "pockknife", "prob": 25 },
       { "item": "knife_hunting", "prob": 10 },
       { "item": "1st_aid", "prob": 5 },
       { "group": "MRE", "prob": 5, "count": [ 1, 2 ] }
