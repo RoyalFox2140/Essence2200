@@ -55,7 +55,7 @@
    "copy-from": "rifle_energy",
    "type": "GUN",
    "looks_like": "laser_rifle",
-   "name": { "str": "Impale gun" },
+   "name": { "str": "Impaler" },
    "description": "I fucking hate this.",
    "weight": "1 g",
    "volume": "1 L",
