@@ -182,7 +182,7 @@
   },
   {
     "type": "recipe",
-    "result": "Foxpracticescrap",
+    "result": "Foxpracticescrapmech",
     "id_suffix": "10",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PRACTICE",
@@ -205,7 +205,7 @@
   },
   {
     "type": "recipe",
-    "result": "Foxpracticescrap",
+    "result": "Foxpracticescrapmech",
     "id_suffix": "11",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PRACTICE",
@@ -228,7 +228,7 @@
   },
   {
     "type": "recipe",
-    "result": "Foxpracticescrap",
+    "result": "Foxpracticescrapmech",
     "id_suffix": "12",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PRACTICE",
@@ -251,7 +251,7 @@
   },
   {
     "type": "recipe",
-    "result": "Foxpracticescrap",
+    "result": "Foxpracticescrapelectro",
     "id_suffix": "21",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PRACTICE",
@@ -265,7 +265,7 @@
   },
   {
     "type": "recipe",
-    "result": "Foxpracticescrap",
+    "result": "Foxpracticescrapelectro",
     "id_suffix": "13",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PRACTICE",
@@ -283,7 +283,7 @@
   },
   {
     "type": "recipe",
-    "result": "Foxpracticescrap",
+    "result": "Foxpracticescrapelectro",
     "id_suffix": "14",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PRACTICE",
@@ -301,7 +301,7 @@
   },
   {
     "type": "recipe",
-    "result": "Foxpracticescrap",
+    "result": "Foxpracticescrapelectro",
     "id_suffix": "15",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PRACTICE",
@@ -319,7 +319,7 @@
   },
   {
     "type": "recipe",
-    "result": "Foxpracticescrap",
+    "result": "Foxpracticescrapelectro",
     "id_suffix": "16",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PRACTICE",
@@ -337,7 +337,7 @@
   },
   {
     "type": "recipe",
-    "result": "Foxpracticescrap",
+    "result": "Foxpracticescraptailor",
     "id_suffix": "17",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PRACTICE",
@@ -354,7 +354,7 @@
   },
   {
     "type": "recipe",
-    "result": "Foxpracticescrap",
+    "result": "Foxpracticescraptailor",
     "id_suffix": "18",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PRACTICE",
@@ -371,7 +371,7 @@
   },
   {
     "type": "recipe",
-    "result": "Foxpracticescrap",
+    "result": "Foxpracticescraptailor",
     "id_suffix": "19",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PRACTICE",
@@ -388,7 +388,7 @@
   },
   {
     "type": "recipe",
-    "result": "Foxpracticescrap",
+    "result": "Foxpracticescraptailor",
     "id_suffix": "20",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PRACTICE",
