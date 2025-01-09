@@ -144,5 +144,49 @@
     "ups_charges": 100,
     "ammo_effects": [ "LASER" ],
     "faults": [  ]
+  },
+  {
+    "id": "FoximpKW2145",
+    "type": "GUN",
+    "name": { "str": "KW-2145 'Phoenix'" },
+    "looks_like": "m4a1",
+    "weapon_category": [ "RIFLES", "ENERGY_WEAPONS" ],
+    "description": "This rather unique prototype energy rifle accepts a magazine with battery bullets that are rechargeable and has special properties, this never made it into standard service.",
+    "weight": "2800 g",
+    "volume": "3 L",
+    "barrel_length": "250 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxImperialSteel" ],
+    "color": "dark_gray",
+    "symbol": "=",
+    "ammo": "FoxImperialHellfirecelllight",
+    "skill": "rifle",
+    "handling": 20,
+    "dispersion": 150,
+    "durability": 6,
+    "loudness": 12,
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "RELOAD_EJECT" ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "emitter", 1 ],
+      [ "grip", 1 ],
+      [ "lens", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "faults": [  ],
+    "magazines": [
+      [
+        "FoxImperialHellfirecelllight",
+        [
+          "Foximpmagphoenix"
+        ]
+      ]
+    ]
   }
 ]

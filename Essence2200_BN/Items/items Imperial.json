@@ -128,11 +128,32 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
-    "weight": "2721 g",
+    "weight": "2000 g",
     "volume": "2500 ml",
     "to_hit": -3,
     "symbol": "*",
     "color": "dark_gray"
+  },
+  {
+    "id": "Foxhellfiresystem",
+    "type": "TOOL",
+    "category": "tools",
+    "looks_like": "laptop",
+    "name": "Hellfire cell recharging system",
+    "description": "This brick recharges hellfire cells, it can be recharged by UPS or grid power.",
+    "symbol": ",",
+    "color": "dark_gray",
+    "material": [ "FoxImperialSteel" ],
+    "weight": "500 g",
+    "volume": "800 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "bashing": 6,
+    "ammo": "battery",
+    "initial_charges": 6000,
+    "max_charges": 10000,
+    "charges_per_use": 1,
+    "flags": [ "WATCH", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
   },
   {
     "id": "Foxofficerdatapad",
@@ -519,7 +540,7 @@
     "warmth": 20,
     "storage": "10 L",
     "material_thickness": 3,
-    "environmental_protection": 20,
+    "environmental_protection": 30,
     "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF" ]
   },
   {

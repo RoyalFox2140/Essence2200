@@ -764,5 +764,26 @@
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ] ],
     "components": [ [ [ "FoxShadowsteelchunk", 8 ] ] ]
+  },
+  {
+    "result": "FoximpKW2145",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "electronics", 4 ], [ "mechanics", 2 ] ],
+    "difficulty": 2,
+    "time": "3 h 40 m",
+    "decomp_learn": 2,
+    "book_learn": [ [ "FoxDeIkw", 2 ], [ "FoxDeSGAesstheorybasic", 2 ] ],
+    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
+    "using": [ [ "soldering_standard", 20 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 7 ] ],
+      [ [ "Foximpelectronics", 8 ] ],
+      [ [ "Foximplaserparts", 12 ] ],
+      [ [ "Foximpgrease", 1 ] ]
+    ]
   }
 ]

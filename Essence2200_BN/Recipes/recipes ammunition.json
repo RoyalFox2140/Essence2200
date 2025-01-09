@@ -630,5 +630,100 @@
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ] ],
     "components": [ [ [ "FoxShadowsteelchunk", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxHellfirecelldepleted",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 5 ] ],
+    "difficulty": 3,
+    "charges": 25,
+    "time": "3 h",
+    "autolearn": true,
+    "using": [ [ "welding_standard", 20 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "Foxcrystallizedessence", 1 ] ], [ [ "Foximperialsteelchunk", 1 ] ] ]
+  },
+  {
+    "result": "FoxImperialHellfirecelllightfocused",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "time": "30 s",
+    "charges": 10,
+    "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 900 ], [ "Foxhellfiresystem", 900 ], [ "FoxSGAdatathief", 900 ] ] ],
+    "components": [
+      [ [ "FoxHellfirecelldepleted", 10 ] ]
+    ]
+  },
+  {
+    "result": "FoxImperialHellfirecelllightscatter",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "time": "30 s",
+    "charges": 10,
+    "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 900 ], [ "Foxhellfiresystem", 900 ], [ "FoxSGAdatathief", 900 ] ] ],
+    "components": [
+      [ [ "FoxHellfirecelldepleted", 10 ] ]
+    ]
+  },
+  {
+    "result": "FoxImperialHellfirecelllightdisruptor",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "time": "30 s",
+    "charges": 10,
+    "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 900 ], [ "Foxhellfiresystem", 900 ], [ "FoxSGAdatathief", 900 ] ] ],
+    "components": [
+      [ [ "FoxHellfirecelldepleted", 10 ] ]
+    ]
+  },
+  {
+    "result": "FoxImperialHellfirecelllightelectro",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "time": "30 s",
+    "charges": 10,
+    "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 900 ], [ "Foxhellfiresystem", 900 ], [ "FoxSGAdatathief", 900 ] ] ],
+    "components": [
+      [ [ "FoxHellfirecelldepleted", 10 ] ]
+    ]
+  },
+  {
+    "result": "FoxImperialHellfirecelllightstun",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "time": "30 s",
+    "charges": 10,
+    "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 900 ], [ "Foxhellfiresystem", 900 ], [ "FoxSGAdatathief", 900 ] ] ],
+    "components": [
+      [ [ "FoxHellfirecelldepleted", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foximpmagphoenix",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "1 h",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "blacksmithing_standard", 20 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "swage", -1 ] ] ],
+    "components": [ [ [ "Foximperialsteelchunk", 1 ] ] ]
   }
 ]

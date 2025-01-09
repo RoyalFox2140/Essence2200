@@ -175,5 +175,23 @@
     "capacity": 30,
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]
+  },
+  {
+    "id": "Foximpmagphoenix",
+    "type": "MAGAZINE",
+    "name": { "str": "Imperial Phoenix magazine" },
+    "looks_like": "stanag30",
+    "description": "A unique battery magazine for the Phoenix rifle, with support for 30 batteries.",
+    "weight": "100 g",
+    "volume": "300 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": "FoxImperialSteel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "FoxImperialHellfirecelllight" ],
+    "capacity": 30,
+    "reliability": 10,
+    "flags": [ "MAG_COMPACT" ]
   }
 ]

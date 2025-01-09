@@ -51,6 +51,26 @@
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
   },
   {
+   "id": "FoximpKW2140Fake2",
+   "copy-from": "rifle_energy",
+   "type": "GUN",
+   "looks_like": "laser_rifle",
+   "name": { "str": "KW-2140-2U 'Workhorse'" },
+   "description": "Those assholes have an upgrade do they?.",
+   "weight": "2800 g",
+   "volume": "3 L",
+   "price": "2 USD",
+   "price_postapoc": "2 USD",
+   "material": [ "FoxImperialSteel" ],
+   "color": "yellow",
+   "range": 40,
+   "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 8 },
+   "dispersion": 900,
+   "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ],
+   "loudness": 12,
+   "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
+ },
+  {
    "id": "Foxmongunimpale",
    "copy-from": "rifle_energy",
    "type": "GUN",

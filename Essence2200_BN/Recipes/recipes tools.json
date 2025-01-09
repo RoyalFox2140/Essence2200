@@ -224,18 +224,46 @@
   },
   {
     "type": "recipe",
+    "result": "FoxHellfirecelldepleted",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TOOLS",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 5 ] ],
+    "difficulty": 3,
+    "result_mult": 2,
+    "time": "1 h 30 m",
+    "autolearn": true,
+    "using": [ [ "welding_standard", 10 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "Foxcrystallizedessence", 1 ] ], [ [ "Foximperialsteelchunk", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "Foximpbatterycell",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_TOOLS",
     "skill_used": "FoxEssTech",
     "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 5 ] ],
     "difficulty": 3,
-    "result_mult": 10,
     "time": "2 h",
     "autolearn": true,
     "using": [ [ "welding_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "components": [ [ [ "FoxEssencenormal", 250 ] ], [ [ "Foximperialsteelchunk", 3 ] ] ]
+    "components": [ [ [ "Foxcrystallizedessence", 2 ] ], [ [ "Foximperialsteelchunk", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foximpbatterypack",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TOOLS",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 5 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+    "autolearn": true,
+    "using": [ [ "welding_standard", 10 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "Foxcrystallizedessence", 4 ] ], [ [ "Foximperialsteelchunk", 2 ] ] ]
   },
   {
     "type": "recipe",
@@ -466,6 +494,26 @@
       [ [ "Foximpmechparts", 1 ] ],
       [ [ "Foximpelectronics", 4 ] ],
       [ [ "plastic_chunk", 1 ] ]
+    ]
+  },
+  {
+    "result": "Foxhellfiresystem",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "electronics", 4 ], [ "mechanics", 2 ] ],
+    "difficulty": 2,
+    "time": "3 h 40 m",
+    "decomp_learn": 2,
+    "book_learn": [ [ "FoxDeIkw", 2 ], [ "FoxDeSGAesstheorybasic", 2 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 4, "LIST" ] ] ],
+    "components": [
+      [ [ "Foximpmechparts", 1 ] ],
+      [ [ "Foximpelectronics", 4 ] ],
+      [ [ "plastic_chunk", 4 ] ]
     ]
   },
   {
