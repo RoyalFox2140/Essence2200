@@ -15,6 +15,36 @@
     }
   },
   {
+    "id": "FoximpmountedKW21402U",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "looks_like": "laser_rifle",
+    "name": { "str": "mounted KW-2140-2U 'Bastion'" },
+    "item": "FoximpKW21402U",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "scrap", "count": 9 }, { "item": "steel_chunk", "count": 4 }, { "item": "steel_lump", "count": 1 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ], [ "electronics", 2 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
+    "id": "FoximpmountedKW21404U",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "looks_like": "laser_rifle",
+    "name": { "str": "mounted KW-2140-4U 'Workhorse'" },
+    "item": "FoximpKW21404U",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "scrap", "count": 9 }, { "item": "steel_chunk", "count": 4 }, { "item": "steel_lump", "count": 1 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ], [ "electronics", 2 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
     "type": "vehicle_part",
     "id": "FoxPlutGeneratorVic",
     "name": { "str": "vehicle plutonium generator" },
