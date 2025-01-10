@@ -85,7 +85,7 @@
     "id": "FoxCrisisEmitter",
     "type": "GUNMOD",
     "name": { "str": "Krupp Crisis emitter" },
-    "description": "This laser emitter inefficiently boosts your laser damage by 150, but it will immediately add 20 UPS cost and double it.",
+    "description": "This laser emitter inefficiently boosts your laser damage by 120, but it will immediately add 30 UPS cost and multiply by 250%.",
     "weight": "200 g",
     "volume": "100 ml",
     "integral_volume": "0 ml",
@@ -102,9 +102,9 @@
       [ "ENERGY_WEAPONS" ]
     ],
     "install_time": "5 m",
-    "damage_modifier": { "damage_type": "heat", "amount": 150 },
-    "ups_charges_modifier": 20,
-    "ups_charges_multiplier": 2,
+    "damage_modifier": { "damage_type": "heat", "amount": 120 },
+    "ups_charges_modifier": 30,
+    "ups_charges_multiplier": 2.5,
     "loudness_modifier": 3
   },
   {
@@ -177,7 +177,7 @@
     ],
     "install_time": "5 m",
     "range_modifier": -20,
-    "damage_modifier": { "damage_type": "heat", "amount": 40 }
+    "damage_modifier": { "damage_type": "heat", "amount": 30 }
   },
   {
     "id": "FoxBonusCapacitors",

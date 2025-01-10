@@ -119,7 +119,7 @@
     "dispersion": 300,
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
     "loudness": 12,
-    "ups_charges": 100,
+    "ups_charges": 150,
     "ammo_effects": [ "LASER" ],
     "faults": [  ]
   },
@@ -141,7 +141,7 @@
     "dispersion": 200,
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
     "loudness": 12,
-    "ups_charges": 100,
+    "ups_charges": 150,
     "ammo_effects": [ "LASER" ],
     "faults": [  ]
   },
