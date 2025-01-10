@@ -41,7 +41,7 @@
     "has_fume": true,
     "gas_absorption_factor": 3,
     "priority": 8,
-    "half_life": "72 hours",
+    "half_life": "2 seconds",
     "immunity_data": { "body_part_env_resistance": [ [ "torso", 15 ], [ "mouth", 15 ] ] },
     "phase": "gas",
     "display_items": true,
@@ -59,7 +59,6 @@
     "id": "mon_zombie_soldier",
     "copy-from": "mon_zombie_soldier",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_skill": 6,
     "melee_dice": 3,
     "armor_bash": 6,
@@ -86,7 +85,6 @@
     "id": "mon_zombie_flamer",
     "copy-from": "mon_zombie_flamer",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "death_function": [ "NORMAL" ],
     "armor_bash": 6,
     "armor_cut": 6,
@@ -100,7 +98,6 @@
     "id": "mon_gas_zombie",
     "copy-from": "mon_gas_zombie",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
     ],
@@ -110,7 +107,6 @@
     "id": "mon_zombie_soldier_blackops_1",
     "copy-from": "mon_zombie_soldier_blackops_1",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_skill": 8,
     "melee_dice": 4,
     "special_attacks": [
@@ -123,7 +119,6 @@
     "id": "mon_zombie_brute_ninja",
     "copy-from": "mon_zombie_brute_ninja",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "delete": { "flags": [ "NIGHT_INVISIBILITY" ] },
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
@@ -134,7 +129,6 @@
     "id": "mon_zombie_shady",
     "copy-from": "mon_zombie_shady",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_skill": 8,
     "melee_dice": 5,
     "special_attacks": [
@@ -227,7 +221,6 @@
     "id": "mon_zombie",
     "copy-from": "mon_zombie",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_skill": 6,
     "melee_dice": 4,
     "grab_strength": 3,
@@ -247,7 +240,6 @@
     "id": "mon_zombie_cop",
     "copy-from": "mon_zombie_cop",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_skill": 7,
     "melee_dice": 4,
     "grab_strength": 3,
@@ -259,7 +251,6 @@
     "id": "mon_zombie_crawler",
     "copy-from": "mon_zombie_crawler",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_skill": 3,
     "melee_dice": 3,
     "special_attacks": [ 
@@ -277,7 +268,6 @@
     "id": "mon_zombie_fat",
     "copy-from": "mon_zombie_fat",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_skill": 6,
     "melee_dice": 3,
     "grab_strength": 3,
@@ -298,7 +288,6 @@
     "id": "mon_zombie_fireman",
     "copy-from": "mon_zombie_fireman",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_dice": 4,
     "grab_strength": 4,
     "special_attacks": [
@@ -311,7 +300,6 @@
     "id": "mon_zombie_hazmat",
     "copy-from": "mon_zombie_hazmat",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_skill": 4,
     "melee_dice": 4,
     "grab_strength": 3,
@@ -323,7 +311,6 @@
     "id": "mon_zombie_rot",
     "copy-from": "mon_zombie_rot",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_skill": 4,
     "melee_dice": 3,
     "special_attacks": [
@@ -334,7 +321,6 @@
     "id": "mon_zombie_swat",
     "copy-from": "mon_zombie_swat",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_dice": 3,
     "grab_strength": 3,
     "special_attacks": [
@@ -345,7 +331,6 @@
     "id": "mon_zombie_tough",
     "copy-from": "mon_zombie_tough",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_skill": 6,
     "melee_dice": 5,
     "grab_strength": 3,
@@ -377,7 +362,6 @@
     "id": "mon_zombie_brute_grappler",
     "copy-from": "mon_zombie_brute_grappler",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_dice": 5,
     "grab_strength": 4,
     "special_attacks": [
@@ -388,7 +372,6 @@
     "id": "mon_zombie_hulk",
     "copy-from": "mon_zombie_hulk",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_dice": 6,
     "grab_strength": 8,
     "special_attacks": [
@@ -399,7 +382,6 @@
     "id": "mon_zombie_hunter",
     "copy-from": "mon_zombie_hunter",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_dice": 4,
     "grab_strength": 2,
     "special_attacks": [
@@ -410,7 +392,6 @@
     "id": "mon_zombie_runner",
     "copy-from": "mon_zombie_runner",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_dice": 6,
     "grab_strength": 2,
     "special_attacks": [
@@ -421,7 +402,6 @@
     "id": "mon_zombie_predator",
     "copy-from": "mon_zombie_predator",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_dice": 6,
     "grab_strength": 2,
     "special_attacks": [
