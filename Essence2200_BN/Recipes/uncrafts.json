@@ -248,6 +248,19 @@
   },
   {
     "type": "uncraft",
+    "result": "FoximpKW21381U",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "20 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 },{ "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 8 ] ],
+      [ [ "Foximpelectronics", 18 ] ],
+      [ [ "Foximplaserparts", 30 ] ]
+    ]
+  },
+  {
+    "type": "uncraft",
     "result": "FoximpED12UGallows",
     "skill_used": "fabrication",
     "difficulty": 3,
