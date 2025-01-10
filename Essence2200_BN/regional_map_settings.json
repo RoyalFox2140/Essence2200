@@ -482,7 +482,7 @@
         }
       },
       "field": {
-        "chance": 40,
+        "chance": 30,
         "extras": {
           "mx_helicopter": 1,
           "mx_military": 2,
