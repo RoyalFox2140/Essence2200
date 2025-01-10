@@ -1,0 +1,756 @@
+[
+  {
+    "type": "item_group",
+    "id": "Foxsmashedimpsteelframe",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foximperialsteelchunk", "count": [ 40, 40 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxsmashedimpsteellow",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foximperialsteelchunk", "count": [ 2, 5 ] }
+    ]
+  },
+  {
+    "abstract": "Foximpsteelframeveh",
+    "type": "vehicle_part",
+    "name": { "str": "Imp.Steel frame" },
+    "looks_like": "hdframe",
+    "item": "Foxisteelframe",
+    "location": "structure",
+    "color": "dark_gray",
+    "durability": 1140,
+    "//": "Imp Steel for now is equivalent dura and damage reduction to Adamantine, but high weight.",
+    "description": "A sturdy metal framework.  Other vehicle components can be mounted on it, and it can be attached to other frames to increase the vehicle's size..",
+    "breaks_into": "Foxsmashedimpsteelframe",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "40 m", "using": [ [ "welding_standard", 20 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": "vehicle_weld_removal" },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 10 ] ] }
+    },
+    "flags": [ "MOUNTABLE" ],
+    "damage_reduction": { "all": 168 }
+  },
+  {
+    "id": "Foximpsteelframeveh_cover",
+    "copy-from": "Foximpsteelframeveh",
+    "looks_like": "hdframe_cover",
+    "type": "vehicle_part",
+    "symbol": "^"
+  },
+  {
+    "id": "Foximpsteelframeveh_cross",
+    "copy-from": "Foximpsteelframeveh",
+    "looks_like": "hdframe_cross",
+    "type": "vehicle_part",
+    "symbol": "c",
+    "extend": { "flags": [ "INITIAL_PART" ] }
+  },
+  {
+    "id": "Foximpsteelframeveh_horizontal",
+    "copy-from": "Foximpsteelframeveh",
+    "looks_like": "hdframe_horizontal",
+    "type": "vehicle_part",
+    "symbol": "h"
+  },
+  {
+    "id": "Foximpsteelframeveh_horizontal_2",
+    "copy-from": "Foximpsteelframeveh",
+    "looks_like": "hdframe_horizontal_2",
+    "type": "vehicle_part",
+    "symbol": "="
+  },
+  {
+    "id": "Foximpsteelframeveh_ne",
+    "copy-from": "Foximpsteelframeveh",
+    "looks_like": "hdframe_ne",
+    "type": "vehicle_part",
+    "symbol": "u"
+  },
+  {
+    "id": "Foximpsteelframeveh_nw",
+    "copy-from": "Foximpsteelframeveh",
+    "looks_like": "hdframe_nw",
+    "type": "vehicle_part",
+    "symbol": "y"
+  },
+  {
+    "id": "Foximpsteelframeveh_se",
+    "copy-from": "Foximpsteelframeveh",
+    "looks_like": "hdframe_se",
+    "type": "vehicle_part",
+    "symbol": "n"
+  },
+  {
+    "id": "Foximpsteelframeveh_sw",
+    "copy-from": "Foximpsteelframeveh",
+    "looks_like": "hdframe_sw",
+    "type": "vehicle_part",
+    "symbol": "b"
+  },
+  {
+    "id": "Foximpsteelframeveh_vertical",
+    "copy-from": "Foximpsteelframeveh",
+    "looks_like": "hdframe_vertical",
+    "type": "vehicle_part",
+    "symbol": "j"
+  },
+  {
+    "id": "Foximpsteelframeveh_vertical_2",
+    "copy-from": "Foximpsteelframeveh",
+    "looks_like": "hdframe_vertical_2",
+    "type": "vehicle_part",
+    "symbol": "H"
+  },
+  {
+    "type": "item_group",
+    "id": "Foxsmashedimpsteelplating",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foximperialsteelchunk", "count": [ 12, 12 ] }
+    ]
+  },
+  {
+    "abstract": "Foximpsteelboard",
+    "type": "vehicle_part",
+    "name": { "str": "Imp.Steel board" },
+    "item": "Foxisteelplate",
+    "location": "center",
+    "color": "dark_gray",
+    "durability": 675,
+    "description": "A strong metal wall.  Keeps zombies outside the vehicle and prevents people from seeing through it.",
+    "breaks_into": "Foxsmashedimpsteelplating",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "OPAQUE", "OBSTACLE", "FULL_BOARD", "NO_ROOF_NEEDED" ],
+    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+  },
+  {
+    "abstract": "Foximpsteelhalfboard",
+    "copy-from": "Foximpsteelboard",
+    "type": "vehicle_part",
+    "name": { "str": "Imp.Steel quarterpanel" },
+    "description": "A half-height strong metal wall.  Keeps zombies outside the vehicle but allows people to see over it.",
+    "proportional": { "durability": 0.8 },
+    "extend": { "flags": [ "HALF_BOARD" ] },
+    "delete": { "flags": [ "OPAQUE", "FULL_BOARD" ] },
+    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+  },
+  {
+    "abstract": "Foximpsteelstowboard",
+    "type": "vehicle_part",
+    "name": { "str": "Imp.Steel stow board" },
+    "item": "Foxisteelplate",
+    "location": "center",
+    "broken_symbol": "#",
+    "color": "brown",
+    "broken_color": "dark_gray",
+    "durability": 498,
+    "size": "62500 ml",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "qualities": [ { "id": "SAW_M", "level": 1 } ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "OBSTACLE", "OPAQUE", "CARGO", "COVERED", "FULL_BOARD", "NO_ROOF_NEEDED", "LOCKABLE_CARGO" ],
+    "damage_reduction": { "all": 108, "cut": 120, "stab": 120 }
+  },
+  {
+    "id": "Foximpsteelstowboard_horizontal",
+    "copy-from": "Foximpsteelstowboard",
+    "type": "vehicle_part",
+    "looks_like": "hdstowboard_horizontal",
+    "symbol": "h"
+  },
+  {
+    "id": "Foximpsteelboard_horizontal",
+    "copy-from": "Foximpsteelboard",
+    "type": "vehicle_part",
+    "looks_like": "hdboard_horizontal",
+    "symbol": "h"
+  },
+  {
+    "id": "Foximpsteelhalfboard_horizontal",
+    "copy-from": "Foximpsteelhalfboard",
+    "type": "vehicle_part",
+    "looks_like": "hdhalfboard_horizontal",
+    "symbol": "h"
+  },
+  {
+    "id": "Foximpsteelhalfboard_horizontal_2",
+    "copy-from": "Foximpsteelhalfboard",
+    "type": "vehicle_part",
+    "looks_like": "hdhalfboard_horizontal_2",
+    "symbol": "="
+  },
+  {
+    "id": "Foximpsteelstowboard_ne",
+    "copy-from": "Foximpsteelstowboard",
+    "type": "vehicle_part",
+    "looks_like": "hdstowboard_ne",
+    "symbol": "u"
+  },
+  {
+    "id": "Foximpsteelboard_ne",
+    "looks_like": "hdboard_ne",
+    "copy-from": "Foximpsteelboard",
+    "type": "vehicle_part",
+    "symbol": "u"
+  },
+  {
+    "id": "Foximpsteelhalfboard_ne",
+    "looks_like": "hdhalfboard_ne",
+    "copy-from": "Foximpsteelhalfboard",
+    "type": "vehicle_part",
+    "symbol": "u"
+  },
+  {
+    "id": "Foximpsteelstowboard_nw",
+    "copy-from": "Foximpsteelstowboard",
+    "type": "vehicle_part",
+    "looks_like": "hdstowboard_nw",
+    "symbol": "y"
+  },
+  {
+    "id": "Foximpsteelboard_nw",
+    "looks_like": "hdboard_nw",
+    "copy-from": "Foximpsteelboard",
+    "type": "vehicle_part",
+    "symbol": "y"
+  },
+  {
+    "id": "Foximpsteelhalfboard_nw",
+    "looks_like": "hdhalfboard_nw",
+    "copy-from": "Foximpsteelhalfboard",
+    "type": "vehicle_part",
+    "symbol": "y"
+  },
+  {
+    "id": "Foximpsteelstowboard_se",
+    "copy-from": "Foximpsteelstowboard",
+    "type": "vehicle_part",
+    "looks_like": "hdstowboard_se",
+    "symbol": "n"
+  },
+  {
+    "id": "Foximpsteelboard_se",
+    "looks_like": "hdboard_se",
+    "copy-from": "Foximpsteelboard",
+    "type": "vehicle_part",
+    "symbol": "n"
+  },
+  {
+    "id": "Foximpsteelhalfboard_se",
+    "looks_like": "hdhalfboard_se",
+    "copy-from": "Foximpsteelhalfboard",
+    "type": "vehicle_part",
+    "symbol": "n"
+  },
+  {
+    "id": "Foximpsteelstowboard_sw",
+    "copy-from": "Foximpsteelstowboard",
+    "type": "vehicle_part",
+    "looks_like": "hdstowboard_sw",
+    "symbol": "b"
+  },
+  {
+    "id": "Foximpsteelboard_sw",
+    "looks_like": "hdboard_sw",
+    "copy-from": "Foximpsteelboard",
+    "type": "vehicle_part",
+    "symbol": "b"
+  },
+  {
+    "id": "Foximpsteelhalfboard_sw",
+    "looks_like": "hdhalfboard_sw",
+    "copy-from": "Foximpsteelhalfboard",
+    "type": "vehicle_part",
+    "symbol": "b"
+  },
+  {
+    "id": "Foximpsteelstowboard_vertical",
+    "copy-from": "Foximpsteelstowboard",
+    "type": "vehicle_part",
+    "looks_like": "hdstowboard_vertical",
+    "symbol": "j"
+  },
+  {
+    "id": "Foximpsteelboard_vertical",
+    "copy-from": "Foximpsteelboard",
+    "type": "vehicle_part",
+    "looks_like": "hdboard_vertical",
+    "symbol": "j"
+  },
+  {
+    "id": "Foximpsteelhalfboard_vertical",
+    "copy-from": "Foximpsteelhalfboard",
+    "type": "vehicle_part",
+    "looks_like": "hdhalfboard_vertical",
+    "symbol": "j"
+  },
+  {
+    "id": "Foximpsteelhalfboard_vertical_2",
+    "copy-from": "Foximpsteelhalfboard",
+    "type": "vehicle_part",
+    "looks_like": "hdhalfboard_vertical_2",
+    "symbol": "H"
+  },
+  {
+    "type": "item_group",
+    "id": "Foxsmashedimpsteeltrunk",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foximperialsteelchunk", "count": [ 24, 24 ] }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foximpsteelfloortrunk",
+    "name": { "str": "Imp.Steel floor trunk" },
+    "symbol": "=",
+    "looks_like": "trunk_floor",
+    "color": "white",
+    "broken_symbol": "#",
+    "broken_color": "light_gray",
+    "durability": 600,
+    "description": "An aisle.  A hatch lets you access a cargo space beneath it.",
+    "size": "87500 ml",
+    "item": "Foxisteeltrunk",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "AISLE", "BOARDABLE", "CARGO", "LOCKABLE_CARGO", "COVERED" ],
+    "breaks_into": "Foxsmashedimpsteeltrunk",
+    "damage_reduction": { "all": 42 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foximpsteelaisle_horizontal",
+    "name": { "str": "Imp.Steel aisle" },
+    "symbol": "=",
+    "looks_like": "aisle_horizontal",
+    "color": "white",
+    "broken_symbol": "#",
+    "broken_color": "light_gray",
+    "durability": 600,
+    "description": "An aisle.",
+    "item": "Foxisteelplate",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "qualities": [ { "id": "SAW_M", "level": 1 } ] },
+      "repair": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ] ]
+      }
+    },
+    "flags": [ "AISLE", "BOARDABLE" ],
+    "breaks_into": "Foxsmashedimpsteelplating",
+    "damage_reduction": { "all": 42 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foximpsteelaisle_vertical",
+    "name": { "str": "Imp.Steel aisle" },
+    "symbol": "H",
+    "looks_like": "aisle_vertical",
+    "color": "white",
+    "broken_symbol": "#",
+    "broken_color": "light_gray",
+    "durability": 600,
+    "description": "An aisle.",
+    "item": "Foxisteelplate",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "30 m", "qualities": [ { "id": "SAW_M", "level": 1 } ] },
+      "repair": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ] ]
+      }
+    },
+    "flags": [ "AISLE", "BOARDABLE" ],
+    "breaks_into": "Foxsmashedimpsteelplating",
+    "damage_reduction": { "all": 42 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foximpsteelarmor",
+    "name": { "str": "Imp.Steel armor plating" },
+    "symbol": ")",
+    "color": "green",
+    "broken_symbol": ")",
+    "broken_color": "green",
+    "durability": 1050,
+    "item": "Foxisteelplate",
+    "location": "armor",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 7 ] ], "time": "60 m", "using": [ [ "welding_standard", 10 ] ] }
+    },
+    "flags": [ "ARMOR" ],
+    "breaks_into": "Foxsmashedimpsteelplating",
+    "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
+  },
+  {
+    "abstract": "Foximpsteeldoorabstract",
+    "breaks_into": "Foxsmashedimpsteelframe",
+    "broken_color": "cyan",
+    "broken_symbol": "&",
+    "color": "cyan",
+    "damage_modifier": 80,
+    "damage_reduction": { "all": 102 },
+    "description": "A strong door.  Has a window so you can see out of it, even when closed.",
+    "durability": 900,
+    "flags": [ "CARGO", "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW" ],
+    "item": "Foxisteelframe",
+    "location": "center",
+    "looks_like": "door",
+    "name": { "str": "Imp.Steel door" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "size": "2500 ml",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "abstract": "Foximpsteeldooropaqueabstract",
+    "breaks_into": "Foxsmashedimpsteelframe",
+    "broken_color": "cyan",
+    "broken_symbol": "&",
+    "color": "cyan",
+    "damage_modifier": 80,
+    "damage_reduction": { "all": 113 },
+    "description": "A strong door.  Solid construction means you can't see through it when closed.",
+    "durability": 990,
+    "flags": [ "CARGO", "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE" ],
+    "item": "Foxisteelframe",
+    "location": "center",
+    "looks_like": "door_opaque",
+    "name": { "str": "Imp.Steel opaque door" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "size": "2500 ml",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "abstract": "Foximpsteelhatchabstract",
+    "breaks_into": "Foxsmashedimpsteelframe",
+    "broken_color": "dark_gray",
+    "broken_symbol": "&",
+    "color": "dark_gray",
+    "damage_modifier": 80,
+    "damage_reduction": { "all": 117 },
+    "description": "A very strong door.  A window lets you see through it when closed.",
+    "durability": 1350,
+    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED" ],
+    "item": "Foxisteelframe",
+    "location": "center",
+    "looks_like": "hatch",
+    "name": { "str": "Imp.Steel hatch" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "size": "37500 ml",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "abstract": "Foximpsteelhatchopaqueabstract",
+    "breaks_into": "Foxsmashedimpsteelframe",
+    "broken_color": "dark_gray",
+    "broken_symbol": "&",
+    "color": "dark_gray",
+    "damage_modifier": 80,
+    "damage_reduction": { "all": 120 },
+    "description": "A very strong door.  Solid construction means you can't see through it when closed.",
+    "durability": 1500,
+    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED", "OPAQUE" ],
+    "item": "Foxisteelframe",
+    "location": "center",
+    "looks_like": "hatch_opaque",
+    "name": { "str": "Imp.Steel opaque hatch" },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "size": "37500 ml",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foximpsteeldoorabstract",
+    "id": "Foximpsteeldoor",
+    "looks_like": "hddoor",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foximpsteeldooropaqueabstract",
+    "id": "Foximpsteeldooropaque",
+    "looks_like": "hddoor_opaque",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foximpsteelhatchabstract",
+    "id": "Foximpsteelhatch",
+    "looks_like": "hdhatch",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foximpsteelhatchopaqueabstract",
+    "id": "Foximpsteelhatchopaque",
+    "looks_like": "hdhatch_opaque",
+    "symbol": "+",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foximpsteeldoorabstract",
+    "id": "Foximpsteeldoor_left",
+    "looks_like": "hddoor_left",
+    "symbol": "L",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foximpsteeldoorabstract",
+    "id": "Foximpsteeldoor_right",
+    "looks_like": "hddoor_right",
+    "symbol": "R",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foximpsteeldooropaqueabstract",
+    "id": "Foximpsteeldooropaque_left",
+    "looks_like": "hddoor_opaque_left",
+    "symbol": "L",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foximpsteeldooropaqueabstract",
+    "id": "Foximpsteeldooropaque_right",
+    "looks_like": "hddoor_opaque_right",
+    "symbol": "R",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foximpsteelhatchabstract",
+    "id": "Foximpsteelhatch_left",
+    "looks_like": "hdhatch_left",
+    "symbol": "L",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foximpsteelhatchabstract",
+    "id": "Foximpsteelhatch_right",
+    "looks_like": "hdhatch_right",
+    "symbol": "R",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foximpsteelhatchopaqueabstract",
+    "id": "Foximpsteelhatchopaque_left",
+    "looks_like": "hdhatch_opaque_left",
+    "symbol": "L",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "Foximpsteelhatchopaqueabstract",
+    "id": "Foximpsteelhatchopaque_right",
+    "looks_like": "hdhatch_opaque_right",
+    "symbol": "R",
+    "type": "vehicle_part"
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxwheelmountimpsteel_medium",
+    "name": { "str": "Imp.Steel wheel hub assembly" },
+    "looks_like": "wheel_mount_medium",
+    "symbol": "-",
+    "color": "light_gray",
+    "location": "axle",
+    "broken_symbol": "X",
+    "broken_color": "light_gray",
+    "damage_modifier": 80,
+    "durability": 180,
+    "description": "Connection where wheels can be connected on.  This particular one is fit for normal car wheels.",
+    "item": "Foxisteelwheelmount_medium",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "45 m", "using": [ [ "welding_standard", 10 ], [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "15 m", "using": [ [ "vehicle_weld_removal", 1 ], [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "WHEEL_MOUNT_MEDIUM", "NEEDS_JACKING" ],
+    "breaks_into": "Foxsmashedimpsteelplating",
+    "damage_reduction": { "all": 45 }
+  },
+  {
+    "id": "Foxwheelmountimpsteel_medium_steerable",
+    "copy-from": "Foxwheelmountimpsteel_medium",
+    "looks_like": "wheel_mount_medium",
+    "type": "vehicle_part",
+    "name": { "str": "Imp.Steel wheel hub assembly (steerable)" },
+    "extend": { "flags": [ "STEERABLE" ] }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foxwheelmountimpsteel_heavy",
+    "looks_like": "wheel_mount_heavy",
+    "name": { "str": "Imp.Steel heavy wheel hub assembly" },
+    "symbol": "-",
+    "color": "light_gray",
+    "location": "axle",
+    "broken_symbol": "X",
+    "broken_color": "light_gray",
+    "damage_modifier": 80,
+    "durability": 180,
+    "description": "Connection where wheels can be connected on.  This particular one is fit for large car wheels.",
+    "item": "Foxisteelwheelmount_heavy",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "welding_standard", 15 ], [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "vehicle_weld_removal", 1 ], [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "WHEEL_MOUNT_HEAVY", "NEEDS_JACKING" ],
+    "breaks_into": "Foxsmashedimpsteelplating",
+    "damage_reduction": { "all": 60 }
+  },
+  {
+    "id": "Foxwheelmountimpsteel_heavy_steerable",
+    "copy-from": "Foxwheelmountimpsteel_heavy",
+    "looks_like": "wheel_mount_heavy",
+    "type": "vehicle_part",
+    "name": { "str": "Imp.Steel heavy wheel hub assembly (steerable)" },
+    "extend": { "flags": [ "STEERABLE" ] }
+  },
+  {
+    "id": "Foxwheelimpsteel",
+    "type": "vehicle_part",
+    "name": { "str": "Imp.Steel wheel" },
+    "item": "Foxwheelisteel",
+    "location": "under",
+    "symbol": "0",
+    "broken_symbol": "x",
+    "color": "dark_gray",
+    "durability": 400,
+    "description": "A wheel.",
+    "damage_modifier": 50,
+    "breaks_into": "Foxsmashedimpsteelplating",
+    "rolling_resistance": 1,
+    "wheel_type": "standard",
+    "contact_area": 153,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "15 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "15 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "15 m", "using": [ [ "welding_standard", 4 ] ] }
+    },
+    "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_MEDIUM" ],
+    "damage_reduction": { "bash": 40 }
+  },
+  {
+    "id": "Foxwheelimpsteelarmored",
+    "type": "vehicle_part",
+    "name": { "str": "Imp.Steel armored wheel" },
+    "item": "Foxwheelisteelarmored",
+    "location": "under",
+    "looks_like": "wheel_armor",
+    "symbol": "0",
+    "broken_symbol": "x",
+    "color": "green",
+    "durability": 1200,
+    "description": "A very strong, armored metal wheel.",
+    "damage_modifier": 50,
+    "breaks_into": "Foxsmashedimpsteelplating",
+    "rolling_resistance": 0.6,
+    "wheel_type": "off-road",
+    "contact_area": 480,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "20 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "20 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 5 ] ],
+        "time": "20 m",
+        "using": [ [ "welding_standard", 5 ] ]
+      }
+    },
+    "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_HEAVY" ],
+    "damage_reduction": { "all": 90, "cut": 45, "stab": 32 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foximpsteelboathull",
+    "name": { "str": "Imp.Steel boat hull" },
+    "description": "A metal sheet that keeps the water out of your boat.",
+    "symbol": "o",
+    "color": "dark_gray",
+    "looks_like": "metal_boat_hull",
+    "broken_symbol": "x",
+    "broken_color": "light_gray",
+    "damage_modifier": 50,
+    "durability": 498,
+    "item": "Foxisteelplate",
+    "location": "under",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "qualities": [ { "id": "SAW_M", "level": 1 } ] },
+      "repair": {
+        "skills": [ [ "mechanics", 5 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ] ]
+      }
+    },
+    "flags": [ "FLOATS" ],
+    "breaks_into": "Foxsmashedimpsteelplating",
+    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "Foximpsteelroof",
+    "name": { "str": "Imp.Steel roof" },
+    "symbol": "#",
+    "color": "light_gray",
+    "broken_symbol": "#",
+    "broken_color": "dark_gray",
+    "durability": 498,
+    "looks_like": "roof",
+    "description": "A metal roof.",
+    "item": "Foxisteelplate",
+    "location": "roof",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "qualities": [ { "id": "SAW_M", "level": 1 } ] },
+      "repair": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ] ]
+      }
+    },
+    "flags": [ "ROOF" ],
+    "breaks_into": "Foxsmashedimpsteelplating",
+    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+  }
+]
