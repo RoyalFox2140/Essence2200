@@ -425,7 +425,7 @@
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_WEAPONS",
     "skill_used": "FoxEssTech",
-    "skills_required": [ [ "fabrication", 8 ], [ "electronics", 4 ], [ "mechanics", 1 ] ],
+    "skills_required": [ [ "fabrication", 8 ], [ "electronics", 6 ], [ "mechanics", 1 ] ],
     "difficulty": 2,
     "time": "15 h",
     "decomp_learn": 2,
@@ -460,6 +460,27 @@
       [ [ "Foximpelectronics", 11 ] ],
       [ [ "Foximplaserparts", 12 ] ],
       [ [ "Foximpgrease", 1 ] ]
+    ]
+  },
+  {
+    "result": "FoximpKW21381U",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_WEAPONS",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "electronics", 5 ], [ "mechanics", 1 ] ],
+    "difficulty": 2,
+    "time": "4 h 30 m",
+    "decomp_learn": 2,
+    "book_learn": [ [ "FoxDeIkw", 2 ] ],
+    "tools": [ [ [ "Foxmachiningstation", 30 ] ] ],
+    "using": [ [ "soldering_standard", 50 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 8 ] ],
+      [ [ "Foximpelectronics", 18 ] ],
+      [ [ "Foximplaserparts", 30 ] ],
+      [ [ "Foximpgrease", 3 ] ]
     ]
   },
   {

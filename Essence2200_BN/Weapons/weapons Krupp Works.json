@@ -34,7 +34,7 @@
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "material": [ "FoxImperialSteel" ],
-    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NO_RELOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "color": "yellow",
     "range": 60,
     "ranged_damage": { "damage_type": "heat", "amount": 1200 },
@@ -188,5 +188,39 @@
         ]
       ]
     ]
+  },
+  {
+    "id": "FoximpKW21381U",
+    "copy-from": "rifle_energy",
+    "type": "GUN",
+    "name": { "str": "KW-2138-1U 'Redoubt'" },
+    "description": "Desiring an energy-based vehicle weapon to combat infantry, this weapon acts closer to an LMG role. It is too unwieldy to fire without mounting but it has a high cycle rate and efficient energy usage.",
+    "weight": "5600 g",
+    "volume": "6 L",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "looks_like": "laser_rifle",
+    "material": [ "FoxImperialSteel" ],
+    "color": "yellow",
+    "range": 50,
+    "ranged_damage": { "damage_type": "heat", "amount": 35, "armor_penetration": 10 },
+    "dispersion": 200,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ], [ "AUTO", "auto", 20 ] ],
+    "loudness": 12,
+    "ups_charges": 100,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "emitter", 1 ],
+      [ "grip", 1 ],
+      [ "lens", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "ammo_effects": [ "LASER" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "MOUNTED_GUN" ],
+    "faults": [  ]
   }
 ]
