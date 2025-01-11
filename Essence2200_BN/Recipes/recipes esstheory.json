@@ -132,12 +132,12 @@
     "id_suffix": "FoxUseWater",
     "skill_used": "FoxEssTheory",
     "difficulty": 0,
-    "result_mult": 250,
+    "charges": 250,
     "time": "30 s",
     "autolearn": true,
     "qualities": [ { "id": "CONTAIN", "level": 1 } ],
     "components": [
-    [ [ "Foxcrystallizedessence", 100 ] ],
+    [ [ "Foxcrystallizedessence", 1 ] ],
     [ [ "water_clean", 1 ] ]
   ]
   },
