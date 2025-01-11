@@ -60,7 +60,7 @@
     "id": "FoxRadiationdebuff5min",
     "type": "ARMOR",
     "name": { "str": "Radiation challenge 5 min" },
-    "description": "If you want challenge, you can keep this worn or in your inventory and it will inflict radiation when you're not underground. You can take it off indoors if you wish.",
+    "description": "If you want challenge, you can keep this worn and it will inflict radiation when you're not underground. You can take it off indoors if you wish.",
     "weight": "0 g",
     "volume": "0 ml",
     "price": "2 USD",
@@ -75,7 +75,7 @@
     "relic_data": {
       "passive_effects": [
         {
-          "has": "HELD",
+          "has": "WORN",
           "condition": "ALWAYS",
           "ench_effects": [ { "effect": "Foxradiation5", "intensity": 1 } ]
         }
@@ -87,7 +87,7 @@
     "id": "FoxRadiationdebuff10min",
     "type": "ARMOR",
     "name": { "str": "Radiation challenge 10 min" },
-    "description": "If you want challenge, you can keep this worn or in your inventory and it will inflict radiation when you're not underground. You can take it off indoors if you wish.",
+    "description": "If you want challenge, you can keep this worn and it will inflict radiation when you're not underground. You can take it off indoors if you wish.",
     "weight": "0 g",
     "volume": "0 ml",
     "price": "2 USD",
@@ -102,7 +102,7 @@
     "relic_data": {
       "passive_effects": [
         {
-          "has": "HELD",
+          "has": "WORN",
           "condition": "ALWAYS",
           "ench_effects": [ { "effect": "Foxradiation10", "intensity": 1 } ]
         }
@@ -114,7 +114,7 @@
     "id": "FoxRadiationdebuff15min",
     "type": "ARMOR",
     "name": { "str": "Radiation challenge 15 min" },
-    "description": "If you want challenge, you can keep this worn or in your inventory and it will inflict radiation when you're not underground. You can take it off indoors if you wish.",
+    "description": "If you want challenge, you can keep this worn and it will inflict radiation when you're not underground. You can take it off indoors if you wish.",
     "weight": "0 g",
     "volume": "0 ml",
     "price": "2 USD",
@@ -129,7 +129,7 @@
     "relic_data": {
       "passive_effects": [
         {
-          "has": "HELD",
+          "has": "WORN",
           "condition": "ALWAYS",
           "ench_effects": [ { "effect": "Foxradiation15", "intensity": 1 } ]
         }
@@ -141,7 +141,7 @@
     "id": "FoxRadiationdebuff30min",
     "type": "ARMOR",
     "name": { "str": "Radiation challenge 30 min" },
-    "description": "If you want challenge, you can keep this worn or in your inventory and it will inflict radiation when you're not underground. You can take it off indoors if you wish.",
+    "description": "If you want challenge, you can keep this worn and it will inflict radiation when you're not underground. You can take it off indoors if you wish.",
     "weight": "0 g",
     "volume": "0 ml",
     "price": "2 USD",
@@ -156,7 +156,7 @@
     "relic_data": {
       "passive_effects": [
         {
-          "has": "HELD",
+          "has": "WORN",
           "condition": "ALWAYS",
           "ench_effects": [ { "effect": "Foxradiation30", "intensity": 1 } ]
         }
