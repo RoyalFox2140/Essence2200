@@ -108,6 +108,7 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
+      { "item": "FoxBallisticWeavescrap", "count": [ 200, 600 ] },
       { "group": "Foxmonweakartifacts", "prob": 30 },
       { "group": "Foxmonstrongartifacts", "prob": 10 }
     ]
