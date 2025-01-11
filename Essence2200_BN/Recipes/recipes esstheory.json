@@ -137,7 +137,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CONTAIN", "level": 1 } ],
     "components": [
-    [ [ "Foxcrystallizedessence", 1 ] ],
+    [ [ "Foxpowderedessence", 100 ] ],
     [ [ "water_clean", 1 ] ]
   ]
   },
