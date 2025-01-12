@@ -488,5 +488,26 @@
     [ [ "Foxtargas", 10000 ] ],
     [ [ "material_soil", 10 ] ]
   ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foximpgrease",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxGreaseSeparation",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 1 ] ],
+    "difficulty": 2,
+    "charges": 400,
+    "byproducts": [ [ "Foxtargas", 100 ] ],
+    "time": "20 m",
+    "autolearn": true,
+    "batch_time_factors": [ 90, 4 ],
+    "tools": [ [ [ "water_boiling_heat", 30, "LIST" ] ] ],
+    "components": [
+    [ [ "edible_tallow_lard", 2, "LIST" ] ],
+    [ [ "Foxmotordew", 200 ] ],
+    [ [ "water_clean", 4 ] ]
+  ]
   }
 ]
