@@ -639,7 +639,7 @@
     "skill_used": "FoxEssTech",
     "skills_required": [ [ "FoxEssTheory", 2 ], [ "fabrication", 5 ] ],
     "difficulty": 3,
-    "charges": 25,
+    "result_mult": 25,
     "time": "3 h",
     "autolearn": true,
     "using": [ [ "welding_standard", 20 ] ],

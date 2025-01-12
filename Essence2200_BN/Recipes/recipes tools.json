@@ -224,7 +224,7 @@
   },
   {
     "type": "recipe",
-    "result": "FoxHellfirecelldepleted",
+    "result": "Foximpbatterydevice",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_TOOLS",
     "skill_used": "FoxEssTech",
