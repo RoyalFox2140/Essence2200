@@ -448,6 +448,34 @@
   },
   {
     "type": "profession",
+    "id": "FoxReaperTech",
+    "name": "Reaper Technician",
+    "description": "Holy shit, you're not trained for this! You were sent in with a toolbox and trained to fix guns, make bullets. Hell broke loose and you just ran.",
+    "points": 4,
+    "traits": [ "FoxImperialTraitor" ],
+    "skills": [
+      { "level": 6, "name": "fabrication" },
+      { "level": 3, "name": "FoxEssTheory" },
+      { "level": 3, "name": "FoxEssTech" },
+      { "level": 2, "name": "mechanics" },
+      { "level": 4, "name": "electronics" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "Foximpwastelandsuit",
+          "Foximpwastelandpack",
+          "Foxtoolboxmachining",
+          "Foximpsteeldrillbits",
+          "press"
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
     "id": "FoxReaperArmed",
     "name": "Reaper Deserter (armed)",
     "description": "You managed to hold onto your rifle while you were fleeing and can still fire it. Sadly you lost your shovel and knife, and your batteries are dead.",
@@ -548,6 +576,7 @@
     "professions": [
       "FoxReaper",
       "FoxReaperOfficer",
+      "FoxReaperTech",
       "FoxReaperArmed"
     ],
     "forced_traits": [ "FoxImperialTraitor" ],
