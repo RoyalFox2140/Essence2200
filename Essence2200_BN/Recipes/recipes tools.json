@@ -547,5 +547,27 @@
       [ [ "portable_game", 1 ] ],
       [ [ "FoxSGAessreactortiny", 1 ], [ "FoxMagicCapacitor", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "chemistry_set",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "id_suffix": "FoxTooling",
+    "skill_used": "fabrication",
+    "skills_required": [ "cooking", 3 ],
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": true,
+    "flags": [ "BLIND_HARD" ],
+    "book_learn": [ [ "adv_chemistry", 1 ], [ "textbook_chemistry", 1 ], [ "reference_cooking", 1 ] ],
+    "components": [ 
+      [ [ "hotplate", 1 ] ], 
+      [ [ "hose", 3 ] ],
+      [ [ "glasses_safety", 1 ] ],
+      [ [ "bottle_glass", 4 ] ],
+      [ [ "jar_glass", 4 ] ], 
+      [ [ "box_small", 1 ], [ "bag_canvas", 1 ], [ "backpack", 1 ] ]
+    ]
   }
 ]
