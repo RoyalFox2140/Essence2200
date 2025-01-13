@@ -40,7 +40,7 @@
     "difficulty": 3,
     "autolearn": true,
     "time": "6 h",
-    "components": [ [ [ "FoxEssencenormal", 20000 ] ], [ [ "Foxhumansoul", 5 ] ] ]
+    "using": [ [ "FoxArtifact_Standard", 6 ] ]
   },
   {
     "type": "recipe",
@@ -52,7 +52,7 @@
     "difficulty": 6,
     "autolearn": true,
     "time": "8 h",
-    "components": [ [ [ "FoxEssencenormal", 40000 ] ], [ [ "Foxhumansoul", 10 ] ] ]
+    "using": [ [ "FoxArtifact_Standard", 15 ] ]
   },
   {
     "type": "recipe",
@@ -64,7 +64,6 @@
     "difficulty": 10,
     "autolearn": true,
     "time": "12 h",
-    "batch_time_factors": [ 80, 2 ],
-    "components": [ [ [ "FoxEssencenormal", 40000 ] ], [ [ "Foxhumansoul", 25 ] ] ]
+    "using": [ [ "FoxArtifact_Standard", 20 ] ]
   }
 ]
