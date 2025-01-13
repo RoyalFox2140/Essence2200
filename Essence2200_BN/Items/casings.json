@@ -13,18 +13,6 @@
     "damage_states": [ 0, 0 ]
   },
   {
-    "abstract": "FoxcasingImpSteel",
-    "type": "GENERIC",
-    "category": "spare_parts",
-	"looks_like": "9mm_casing",
-    "name": { "str": "Casings from Imperial Steel that won't blowout from ultra high pressures. They are heavier, add 25 percent of its base weight, rounded up." },
-    "stackable": true,
-    "material": "FoxImperialSteel",
-    "symbol": "=",
-    "color": "yellow",
-    "damage_states": [ 0, 0 ]
-  },
-  {
     "id": "Fox9mmcasingAdamantine",
     "copy-from": "FoxcasingAdamantine",
     "type": "GENERIC",
