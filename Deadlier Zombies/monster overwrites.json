@@ -360,6 +360,7 @@
     "melee_skill": 6,
     "melee_dice": 4,
     "grab_strength": 3,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [ 
     {
       "type": "bite",
@@ -379,6 +380,7 @@
     "melee_skill": 7,
     "melee_dice": 4,
     "grab_strength": 3,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
     ]
@@ -389,6 +391,7 @@
     "type": "MONSTER",
     "melee_skill": 3,
     "melee_dice": 3,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [ 
     {
       "type": "bite",
@@ -407,6 +410,7 @@
     "melee_skill": 6,
     "melee_dice": 3,
     "grab_strength": 3,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [ 
     {
       "type": "bite",
@@ -426,6 +430,7 @@
     "type": "MONSTER",
     "melee_dice": 4,
     "grab_strength": 4,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
     [ "GRAB", 7 ], 
     [ "scratch", 20 ],
@@ -439,6 +444,7 @@
     "melee_skill": 4,
     "melee_dice": 4,
     "grab_strength": 3,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
     ]
@@ -449,6 +455,7 @@
     "type": "MONSTER",
     "melee_skill": 4,
     "melee_dice": 3,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
     ]
@@ -459,6 +466,7 @@
     "type": "MONSTER",
     "melee_dice": 3,
     "grab_strength": 3,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
     ]
@@ -470,6 +478,7 @@
     "melee_skill": 6,
     "melee_dice": 5,
     "grab_strength": 3,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [ 
     {
       "type": "bite",
@@ -490,6 +499,7 @@
     "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_dice": 5,
     "grab_strength": 4,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
     ]
@@ -500,6 +510,7 @@
     "type": "MONSTER",
     "melee_dice": 5,
     "grab_strength": 4,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
     ]
@@ -510,6 +521,7 @@
     "type": "MONSTER",
     "melee_dice": 6,
     "grab_strength": 8,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
     ]
@@ -520,6 +532,7 @@
     "type": "MONSTER",
     "melee_dice": 4,
     "grab_strength": 2,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
     ]
@@ -530,6 +543,7 @@
     "type": "MONSTER",
     "melee_dice": 6,
     "grab_strength": 2,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
     ]
@@ -540,6 +554,7 @@
     "type": "MONSTER",
     "melee_dice": 6,
     "grab_strength": 2,
+    "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
     ]
