@@ -338,6 +338,143 @@
     ]
   },
   {
+    "result": "Fox44fmj",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "difficulty": 1,
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "charges": 50,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "bullet_forming", 3 ] ],
+    "components": [
+      [ [ "gunpowder", 300 ], [ "Foxbangtailpowder", 300 ] ],
+      [ [ "44_casing", 50 ] ],
+      [ [ "lgpistol_primer", 50 ] ],
+      [ [ "Foximperialsteelchunk", 1 ] ]
+    ]
+  },
+  {
+    "result": "Fox9mmfmj",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "difficulty": 1,
+    "time": "40 m",
+    "charges": 50,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "bullet_forming", 50 ], [ "ammo_9mm", 50 ] ],
+    "components": [
+      [ [ "gunpowder", 150 ], [ "Foxbangtailpowder", 150 ] ],
+      [ [ "Foximperialsteelchunk", 1 ] ]
+    ]
+  },
+  {
+    "result": "Fox10mmfmj",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "difficulty": 1,
+    "time": "40 m",
+    "charges": 50,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "bullet_forming", 50 ], [ "ammo_10mm", 1 ] ],
+    "components": [
+      [ [ "gunpowder", 250 ], [ "Foxbangtailpowder", 250 ] ],
+      [ [ "Foximperialsteelchunk", 1 ] ]
+    ]
+  },
+  {
+    "result": "Fox38fmj",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "difficulty": 1,
+    "time": "40 m",
+    "charges": 50,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "bullet_forming", 50 ] ],
+    "components": [
+      [ [ "38_casing", 1 ] ], 
+      [ [ "smpistol_primer", 1 ] ],
+      [ [ "gunpowder", 100 ], [ "Foxbangtailpowder", 100 ] ],
+      [ [ "Foximperialsteelchunk", 1 ] ]
+    ]
+  },
+  {
+    "result": "Fox40fmj",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "difficulty": 1,
+    "time": "40 m",
+    "charges": 50,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "bullet_forming", 50 ] ],
+    "components": [
+      [ [ "40_casing", 50 ] ], 
+      [ [ "smpistol_primer", 50 ] ],
+      [ [ "gunpowder", 100 ], [ "Foxbangtailpowder", 10 ] ],
+      [ [ "Foximperialsteelchunk", 1 ] ]
+    ]
+  },
+  {
+    "result": "Fox76254R",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "difficulty": 1,
+    "time": "40 m",
+    "charges": 25,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "bullet_forming", 50 ] ],
+    "components": [
+      [ [ "762R_casing", 25 ] ], 
+      [ [ "lgrifle_primer", 25 ] ],
+      [ [ "gunpowder", 175 ], [ "Foxbangtailpowder", 175 ] ],
+      [ [ "Foximperialsteelchunk", 1 ] ]
+    ]
+  },
+  {
+    "result": "Fox762m87",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_AMMUNITION",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "difficulty": 1,
+    "time": "40 m",
+    "charges": 25,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "bullet_forming", 50 ] ],
+    "components": [
+      [ [ "762_casing", 25 ] ], 
+      [ [ "lgrifle_primer", 25 ] ],
+      [ [ "gunpowder", 200 ], [ "Foxbangtailpowder", 200 ] ],
+      [ [ "Foximperialsteelchunk", 1 ] ]
+    ]
+  },
+  {
     "result": "Fox9mmSGA",
     "type": "recipe",
     "category": "CC_ESSTECH",
