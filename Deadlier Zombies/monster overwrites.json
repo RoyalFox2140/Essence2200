@@ -543,5 +543,16 @@
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
     ]
+  },
+  {
+    "id": "mon_zombie_miner",
+    "copy-from": "mon_zombie_miner",
+    "type": "MONSTER",
+    "melee_skill": 6,
+    "melee_dice": 5,
+    "grab_strength": 3,
+    "special_attacks": [ 
+    [ "Fox_radcough", 6 ]
+    ]
   }
 ]
