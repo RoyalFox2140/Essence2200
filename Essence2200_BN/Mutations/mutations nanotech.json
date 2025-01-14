@@ -110,7 +110,7 @@
     "description": "The first level of Durability augmentation corrects genetic weaknesses, preparing the body for greater injury protection.",
     "valid": false,
     "purifiable": false,
-    "cancels": [ "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW", "CHAOTIC_BAD" ],
+    "cancels": [ "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW", "CHAOTIC_BAD", "CHAOTIC", "UNSTABLE" ],
     "hp_adjustment": 20
   },
   {
