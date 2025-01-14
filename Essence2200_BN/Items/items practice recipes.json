@@ -85,6 +85,23 @@
     "color": "brown"
   },
   {
+    "id": "Foxpracticegarbagecomputers",
+    "type": "GENERIC",
+    "looks_like": "splinter",
+    "category": "spare_parts",
+    "name": { "str": "practice garbage computers" },
+    "description": "A printout of computer work you did, serving no purpose beyond fuel.",
+    "weight": "1 g",
+    "volume": "5 ml",
+    "price_postapoc": "1 cent",
+    "to_hit": -10,
+    "bashing": 1,
+    "cutting": 1,
+    "material": [ "wood" ],
+    "symbol": ";",
+    "color": "brown"
+  },
+  {
     "type": "BOOK",
     "id": "FoxPracticeBookFab",
     "category": "books",

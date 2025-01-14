@@ -488,5 +488,53 @@
       [ [ "FoxTrainingDummyBeaten", 1 ] ],
       [ [ "rag", 4 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxpracticegarbage",
+    "id_suffix": "1",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PRACTICE",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "1 h",
+    "autolearn": true,
+    "book_learn": [
+      [ "FoxPracticeBookFab", 1 ]
+    ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "stick", 1 ], [ "2x4", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxpracticegarbagecomputers",
+    "id_suffix": "1",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PRACTICE",
+    "skill_used": "computer",
+    "difficulty": 6,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 100 ], [ "laptop", 100 ], [ "FoxSGAdatathief", 100 ] ] ],
+    "components": [
+      [ [ "paper", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxpracticegarbagecomputers",
+    "id_suffix": "2",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PRACTICE",
+    "skill_used": "computer",
+    "difficulty": 8,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "Foxofficerdatapad", 100 ], [ "laptop", 100 ], [ "FoxSGAdatathief", 100 ] ] ],
+    "components": [
+      [ [ "paper", 1 ] ]
+    ]
   }
 ]
