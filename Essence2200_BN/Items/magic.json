@@ -1758,6 +1758,11 @@
     "Fox_Transmutation_EssenceToken",
     "Fox_Transmutation_Essence",
     "Fox_Transmutation_Lead_Attack",
+    "Fox_Transmutation_Pistolbullet",
+    "Fox_Transmutation_KnifeToss",
+    "Fox_Transmutation_Acidbolt",
+    "Fox_Transmutation_Buckshotwave",
+    "Fox_Transmutation_Acidwave",
     "Fox_Transmutation_Tunnel",
     "Fox_Transmutation_Upturnearth"
       ]
@@ -1779,7 +1784,6 @@
     "Fox_Transmutation_magicaquifer",
     "Fox_Transmutation_magicaquiferbad",
     "Fox_Transmutation_magicsaltaquifer",
-    "Fox_Transmutation_KnifeToss",
     "Fox_Transmutation_KnifeSwarm"
       ]
     }
