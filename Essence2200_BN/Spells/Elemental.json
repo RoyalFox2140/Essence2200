@@ -122,6 +122,28 @@
     "range_increment": 1
   },
   {
+    "id": "Fox_Elemental_Rockfist",
+    "type": "SPELL",
+    "name": "E: Rockfist",
+    "description": "Within melee range you punch the enemy with a giant fist made of rock. It's fast and cheap but you risk getting hit back.",
+    "valid_targets": [ "hostile", "ground" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
+    "effect": "projectile_attack",
+    "spell_class": "FoxSchoolsElemental",
+    "skill": "FoxEssSpellcasting",
+    "energy_source": "MANA",
+    "base_casting_time": 25,
+    "base_energy_cost": 50,
+    "difficulty": 1,
+    "max_level": 10,
+    "min_damage": 65,
+    "max_damage": 95,
+    "damage_increment": 3,
+    "damage_type": "bash",
+    "min_range": 1,
+    "max_range": 1
+  },
+  {
     "id": "Fox_Elemental_Firewave",
     "type": "SPELL",
     "name": "E: Firewave",
