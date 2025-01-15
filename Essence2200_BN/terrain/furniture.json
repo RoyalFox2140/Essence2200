@@ -1434,5 +1434,121 @@
         { "item": "Foximpmechparts", "charges": [ 10, 30 ] }
       ]
     }
+  },
+  {
+    "type": "terrain",
+    "id": "Foxt_Tarcreteroof",
+    "looks_like": "t_strconc_floor",
+    "name": "Tarcrete floor",
+    "description": "A thick section of tarcrete capable of surviving insane punishment.",
+    "symbol": ".",
+    "color": "cyan",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
+    "bash": {
+      "sound": "SMASH!",
+      "ter_set": "t_dirt",
+      "str_min": 600,
+      "str_max": 800,
+      "str_min_supported": 600,
+      "items": [ { "item": "Foxtarcrete", "count": [ 20, 20 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "Foxt_Tarcretefloor",
+    "looks_like": "t_strconc_floor",
+    "name": "Tarcrete floor (no roof)",
+    "description": "A thick section of tarcrete capable of surviving insane punishment, this doesn't have a roof.",
+    "symbol": ".",
+    "color": "cyan",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD" ],
+    "bash": {
+      "sound": "SMASH!",
+      "sound_fail": "whump!",
+      "ter_set": "t_dirt",
+      "str_min": 600,
+      "str_max": 800,
+      "str_min_supported": 600,
+      "items": [ { "item": "Foxtarcrete", "count": [ 20, 20 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "Foxt_Tarcretewall",
+    "looks_like": "t_concrete_wall",
+    "name": "Tarcrete wall",
+    "description": "A thick section of tarcrete capable of surviving insane punishment.",
+    "symbol": "LINE_OXOX",
+    "color": "light_gray",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "t_flat_roof",
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "MINEABLE", "NO_SCENT", "AUTO_WALL_SYMBOL",  "BLOCK_WIND" ],
+    "connects_to": "WALL",
+    "bash": {
+      "str_min": 600,
+      "str_max": 800,
+      "sound": "SMASH!",
+      "sound_fail": "whump!",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "Foxtarcrete", "count": [ 20, 20 ] } ]
+    }
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconstr_Foxttarcreteroof",
+    "name": "Construct Tarcrete roof"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconstr_Foxttarcretefloor",
+    "name": "Construct Tarcrete floor"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconstr_Foxttarcretewall",
+    "name": "Construct Tarcrete wall"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxttarcreteroof",
+    "group": "Foxconstr_Foxttarcreteroof",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 4 ] ],
+    "time": "60 m",
+    "using": [ [ "forging_standard", 20 ] ],
+    "qualities": [ [ { "id": "SMOOTH", "level": 1 } ] ],
+    "components": [ [ [ "Foxtarcrete", 10 ] ] ],
+    "pre_terrain": "t_pit_shallow",
+    "post_terrain": "Foxt_Tarcreteroof"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxttarcretefloor",
+    "group": "Foxconstr_Foxttarcretefloor",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 4 ] ],
+    "time": "60 m",
+    "using": [ [ "forging_standard", 20 ] ],
+    "qualities": [ [ { "id": "SMOOTH", "level": 1 } ] ],
+    "components": [ [ [ "Foxtarcrete", 10 ] ] ],
+    "pre_terrain": "t_pit_shallow",
+    "post_terrain": "Foxt_Tarcretefloor"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxttarcretewall",
+    "group": "Foxconstr_Foxttarcretewall",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 4 ] ],
+    "time": "60 m",
+    "using": [ [ "forging_standard", 20 ] ],
+    "qualities": [ [ { "id": "SMOOTH", "level": 1 } ] ],
+    "components": [ [ [ "Foxtarcrete", 10 ] ] ],
+    "pre_terrain": "t_pit_shallow",
+    "post_terrain": "Foxt_Tarcretewall"
   }
 ]
