@@ -1181,5 +1181,54 @@
     "looks_like": "hdframe_vertical_2",
     "type": "vehicle_part",
     "symbol": "H"
+  },
+  {
+    "copy-from": "kitchen_unit",
+    "id": "kitchen_unit",
+    "symbol": "&",
+    "type": "vehicle_part",
+    "extend": { "flags": [ "SHOCK_IMMUNE" ] }
+  },
+  {
+    "copy-from": "welding_rig",
+    "id": "welding_rig",
+    "symbol": "&",
+    "type": "vehicle_part",
+    "extend": { "flags": [ "SHOCK_IMMUNE" ] }
+  },
+  {
+    "copy-from": "craft_rig",
+    "id": "craft_rig",
+    "symbol": "&",
+    "type": "vehicle_part",
+    "extend": { "flags": [ "SHOCK_IMMUNE" ] }
+  },
+  {
+    "copy-from": "chemlab",
+    "id": "chemlab",
+    "symbol": "&",
+    "type": "vehicle_part",
+    "extend": { "flags": [ "SHOCK_IMMUNE" ] }
+  },
+  {
+    "copy-from": "veh_forge",
+    "id": "veh_forge",
+    "symbol": "&",
+    "type": "vehicle_part",
+    "extend": { "flags": [ "SHOCK_IMMUNE" ] }
+  },
+  {
+    "copy-from": "veh_kiln",
+    "id": "veh_kiln",
+    "symbol": "&",
+    "type": "vehicle_part",
+    "extend": { "flags": [ "SHOCK_IMMUNE" ] }
+  },
+  {
+    "copy-from": "bed",
+    "id": "bed",
+    "symbol": "#",
+    "type": "vehicle_part",
+    "extend": { "flags": [ "SHOCK_IMMUNE" ] }
   }
 ]
