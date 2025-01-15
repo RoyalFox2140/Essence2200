@@ -495,5 +495,39 @@
     "color": "green",
     "diameter": 32,
     "width": 20
+  },
+  {
+    "type": "GENERIC",
+    "id": "Foxsecuritycamera",
+    "looks_like": "omnicamera",
+    "name": { "str": "Imperial camera" },
+    "description": "It's a security camera from Imperial parts.",
+    "weight": "200 g",
+    "to_hit": -5,
+    "color": "light_gray",
+    "symbol": "]",
+    "material": [ "FoxAdamantine" ],
+    "volume": "1 L",
+    "bashing": 15,
+    "category": "veh_parts",
+    "price": "2 USD",
+    "price_postapoc": "2 USD"
+  },
+  {
+    "type": "GENERIC",
+    "id": "Foxcamerasystem",
+    "looks_like": "camera_control",
+    "name": { "str": "Imperial camera system" },
+    "description": "A camera system from Imperial parts.",
+    "weight": "500 g",
+    "to_hit": -5,
+    "color": "light_gray",
+    "symbol": "]",
+    "material": [ "FoxAdamantine" ],
+    "volume": "3 L",
+    "bashing": 15,
+    "category": "veh_parts",
+    "price": "2 USD",
+    "price_postapoc": "2 USD"
   }
 ]

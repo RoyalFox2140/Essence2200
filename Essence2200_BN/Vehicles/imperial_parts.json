@@ -45,6 +45,21 @@
     }
   },
   {
+    "id": "FoximpmountedKW21381U",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "looks_like": "laser_rifle",
+    "name": { "str": "mounted KW-2138-1U 'Redoubt'" },
+    "item": "FoximpKW21381U",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "scrap", "count": 9 }, { "item": "steel_chunk", "count": 4 }, { "item": "steel_lump", "count": 1 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ], [ "electronics", 2 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
     "type": "vehicle_part",
     "id": "FoxPlutGeneratorVic",
     "name": { "str": "vehicle plutonium generator" },
@@ -97,5 +112,57 @@
       { "item": "Foxessencestill", "count": [ 1, 1 ] }
     ],
     "description": "An essence still bolted to a car very carefully. It's not hard to knock off and can't be used in it's current form.."
+  },
+  {
+    "type": "vehicle_part",
+    "id": "FoxCameraSystemVic",
+    "name": { "str": "Imperial camera system" },
+    "symbol": "O",
+    "looks_like": "cam_control",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "red",
+    "damage_modifier": 50,
+    "durability": 400,
+    "epower": -10,
+    "item": "plut_generator_item",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "30 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    },
+    "flags": [ "VISION", "CAMERA", "CAMERA_CONTROL", "ENABLED_DRAINS_EPOWER", "SHOCK_IMMUNE" ],
+    "breaks_into": [ {"item": "plut_generator_item"} ],
+    "description": "This camera system is made from Imperial parts and is sturdier."
+  },
+  {
+    "type": "vehicle_part",
+    "id": "FoxSecuritycameraVic",
+    "name": { "str": "Imperial camera" },
+    "symbol": "O",
+    "looks_like": "omnicam",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "red",
+    "damage_modifier": 50,
+    "durability": 250,
+    "epower": -5,
+    "item": "plut_generator_item",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "30 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    },
+    "flags": [ "VISION", "CAMERA", "ENABLED_DRAINS_EPOWER", "SHOCK_IMMUNE" ],
+    "breaks_into": [ {"item": "plut_generator_item"} ],
+    "description": "This camera is made from Imperial parts and is sturdier."
   }
 ]

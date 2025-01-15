@@ -698,5 +698,42 @@
     "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 120 ] ], [ [ "Foxmachiningstation", 200 ] ] ],
     "components": [ [ [ "Foximperialsteelchunk", 28 ] ], [ [ "Foxtarrubber", 42 ] ] ]
+  },
+  {
+    "result": "Foxsecuritycamera",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "electronics", 7 ], [ "mechanics", 2 ] ],
+    "difficulty": 1,
+    "time": "2 h",
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 4 ] ],
+      [ [ "Foximpelectronics", 10 ] ],
+      [ [ "Foximperialsteelchunk", 1 ] ]
+    ]
+  },
+  {
+    "result": "Foxcamerasystem",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "electronics", 6 ], [ "mechanics", 2 ] ],
+    "difficulty": 2,
+    "time": "3 h",
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 50 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 10 ] ],
+      [ [ "Foximpelectronics", 30 ] ],
+      [ [ "large_lcd_screen", 1 ] ],
+      [ [ "Foximperialsteelchunk", 2 ] ]
+    ]
   }
 ]
