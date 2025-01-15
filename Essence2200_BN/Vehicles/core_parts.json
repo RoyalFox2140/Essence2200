@@ -49,7 +49,7 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": "vehicle_weld_removal" },
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 10 ] ] }
     },
-    "flags": [ "MOUNTABLE" ],
+    "flags": [ "MOUNTABLE", "SHOCK_IMMUNE" ],
     "damage_reduction": { "all": 168 }
   },
   {
@@ -146,7 +146,7 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
     },
-    "flags": [ "OPAQUE", "OBSTACLE", "FULL_BOARD", "NO_ROOF_NEEDED" ],
+    "flags": [ "OPAQUE", "OBSTACLE", "FULL_BOARD", "NO_ROOF_NEEDED", "SHOCK_IMMUNE" ],
     "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
   },
   {
@@ -176,7 +176,7 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "qualities": [ { "id": "SAW_M", "level": 1 } ] },
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
     },
-    "flags": [ "OBSTACLE", "OPAQUE", "CARGO", "COVERED", "FULL_BOARD", "NO_ROOF_NEEDED", "LOCKABLE_CARGO" ],
+    "flags": [ "OBSTACLE", "OPAQUE", "CARGO", "COVERED", "FULL_BOARD", "NO_ROOF_NEEDED", "LOCKABLE_CARGO", "SHOCK_IMMUNE" ],
     "damage_reduction": { "all": 108, "cut": 120, "stab": 120 }
   },
   {
@@ -346,7 +346,7 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
     },
-    "flags": [ "AISLE", "BOARDABLE", "CARGO", "LOCKABLE_CARGO", "COVERED" ],
+    "flags": [ "AISLE", "BOARDABLE", "CARGO", "LOCKABLE_CARGO", "COVERED", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedadamantinetrunk",
     "damage_reduction": { "all": 42 }
   },
@@ -372,7 +372,7 @@
         "using": [ [ "welding_standard", 5 ] ]
       }
     },
-    "flags": [ "AISLE", "BOARDABLE" ],
+    "flags": [ "AISLE", "BOARDABLE", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedadamantineplating",
     "damage_reduction": { "all": 42 }
   },
@@ -398,7 +398,7 @@
         "using": [ [ "welding_standard", 5 ] ]
       }
     },
-    "flags": [ "AISLE", "BOARDABLE" ],
+    "flags": [ "AISLE", "BOARDABLE", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedadamantineplating",
     "damage_reduction": { "all": 42 }
   },
@@ -418,7 +418,7 @@
       "removal": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 7 ] ], "time": "60 m", "using": [ [ "welding_standard", 10 ] ] }
     },
-    "flags": [ "ARMOR" ],
+    "flags": [ "ARMOR", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedadamantineplating",
     "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
   },
@@ -432,7 +432,7 @@
     "damage_reduction": { "all": 102 },
     "description": "A strong door.  Has a window so you can see out of it, even when closed.",
     "durability": 900,
-    "flags": [ "CARGO", "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW" ],
+    "flags": [ "CARGO", "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW", "SHOCK_IMMUNE" ],
     "item": "Foxadamantineframe",
     "location": "center",
     "looks_like": "door",
@@ -456,7 +456,7 @@
     "damage_reduction": { "all": 113 },
     "description": "A strong door.  Solid construction means you can't see through it when closed.",
     "durability": 990,
-    "flags": [ "CARGO", "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE" ],
+    "flags": [ "CARGO", "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE", "SHOCK_IMMUNE" ],
     "item": "Foxadamantineframe",
     "location": "center",
     "looks_like": "door_opaque",
@@ -480,7 +480,7 @@
     "damage_reduction": { "all": 117 },
     "description": "A very strong door.  A window lets you see through it when closed.",
     "durability": 1350,
-    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED" ],
+    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED", "SHOCK_IMMUNE" ],
     "item": "Foxadamantineframe",
     "location": "center",
     "looks_like": "hatch",
@@ -504,7 +504,7 @@
     "damage_reduction": { "all": 120 },
     "description": "A very strong door.  Solid construction means you can't see through it when closed.",
     "durability": 1500,
-    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED", "OPAQUE" ],
+    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED", "OPAQUE", "SHOCK_IMMUNE" ],
     "item": "Foxadamantineframe",
     "location": "center",
     "looks_like": "hatch_opaque",
@@ -613,7 +613,7 @@
     "//": "Based off the quarterpanel, its made of transparent metal.",
     "description": "A sheet of essence glass that lets you see outside the vehicle. Extremely resistant to damage.",
     "durability": 540,
-    "flags": [ "WINDSHIELD", "OBSTACLE", "WINDOW" ],
+    "flags": [ "WINDSHIELD", "OBSTACLE", "WINDOW", "SHOCK_IMMUNE" ],
     "item": "Foxessenceglasssheet",
     "location": "center",
     "looks_like": "windshield",
@@ -677,7 +677,7 @@
       "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "15 m", "using": [ [ "vehicle_weld_removal", 1 ], [ "vehicle_bolt", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ] ] }
     },
-    "flags": [ "WHEEL_MOUNT_MEDIUM", "NEEDS_JACKING" ],
+    "flags": [ "WHEEL_MOUNT_MEDIUM", "NEEDS_JACKING", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedadamantineplating",
     "damage_reduction": { "all": 45 }
   },
@@ -708,7 +708,7 @@
       "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "vehicle_weld_removal", 1 ], [ "vehicle_bolt", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ] ] }
     },
-    "flags": [ "WHEEL_MOUNT_HEAVY", "NEEDS_JACKING" ],
+    "flags": [ "WHEEL_MOUNT_HEAVY", "NEEDS_JACKING", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedadamantineplating",
     "damage_reduction": { "all": 60 }
   },
@@ -741,7 +741,7 @@
       "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "15 m", "using": [ [ "vehicle_bolt", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "15 m", "using": [ [ "welding_standard", 4 ] ] }
     },
-    "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_MEDIUM" ],
+    "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_MEDIUM", "SHOCK_IMMUNE" ],
     "damage_reduction": { "bash": 40 }
   },
   {
@@ -770,7 +770,7 @@
         "using": [ [ "welding_standard", 5 ] ]
       }
     },
-    "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_HEAVY" ],
+    "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_HEAVY", "SHOCK_IMMUNE" ],
     "damage_reduction": { "all": 90, "cut": 45, "stab": 32 }
   },
   {
@@ -796,7 +796,7 @@
         "using": [ [ "welding_standard", 5 ] ]
       }
     },
-    "flags": [ "FLOATS" ],
+    "flags": [ "FLOATS", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedadamantineplating",
     "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
   },
@@ -822,7 +822,7 @@
         "using": [ [ "welding_standard", 5 ] ]
       }
     },
-    "flags": [ "ROOF" ],
+    "flags": [ "ROOF", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedadamantineplating",
     "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
   },
@@ -851,7 +851,7 @@
         "using": [ [ "soldering_standard", 5 ] ]
       }
     },
-    "flags": [ "FOLDABLE" ]
+    "flags": [ "FOLDABLE", "SHOCK_IMMUNE" ]
   },
   {
     "id": "Foxessencelargebattery",
@@ -878,7 +878,7 @@
         "using": [ [ "soldering_standard", 5 ] ]
       }
     },
-    "flags": [ "FOLDABLE" ]
+    "flags": [ "FOLDABLE", "SHOCK_IMMUNE" ]
   },
   {
     "type": "vehicle_part",
@@ -904,7 +904,7 @@
         "using": [ [ "vehicle_screw", 1 ], [ "soldering_standard", 10 ] ]
       }
     },
-    "flags": [ "SOLAR_PANEL" ],
+    "flags": [ "SOLAR_PANEL", "SHOCK_IMMUNE" ],
     "breaks_into": [
       { "item": "steel_lump", "count": [ 2, 4 ] },
       { "item": "steel_chunk", "count": [ 2, 4 ] },
@@ -930,7 +930,7 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": "vehicle_weld_removal" },
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 10 ] ] }
     },
-    "flags": [ "CONTROLS", "FOLDABLE" ],
+    "flags": [ "CONTROLS", "FOLDABLE", "SHOCK_IMMUNE" ],
     "damage_reduction": { "all": 120 }
   },
   {
@@ -956,7 +956,7 @@
         "using": [ [ "welding_standard", 1 ], [ "vehicle_repair_electronics", 1 ] ]
       }
     },
-    "flags": [ "CTRL_ELECTRONIC", "FOLDABLE", "DOME_LIGHT", "ENABLED_DRAINS_EPOWER" ],
+    "flags": [ "CTRL_ELECTRONIC", "FOLDABLE", "DOME_LIGHT", "ENABLED_DRAINS_EPOWER", "SHOCK_IMMUNE" ],
     "damage_reduction": { "all": 120 }
   },
   {
@@ -980,7 +980,7 @@
         "using": [ [ "welding_standard", 1 ], [ "vehicle_repair_electronics", 1 ] ]
       }
     },
-    "flags": [ "CTRL_ELECTRONIC", "DOME_LIGHT", "ENABLED_DRAINS_EPOWER" ],
+    "flags": [ "CTRL_ELECTRONIC", "DOME_LIGHT", "ENABLED_DRAINS_EPOWER", "SHOCK_IMMUNE" ],
     "damage_reduction": { "all": 100 }
   },
   {
@@ -1001,7 +1001,7 @@
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "150 s", "using": [ [ "vehicle_screw", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "5 m", "using": [ [ "welding_standard", 1 ] ] }
     },
-    "flags": [ "SEATBELT", "FOLDABLE" ],
+    "flags": [ "SEATBELT", "FOLDABLE", "SHOCK_IMMUNE" ],
     "damage_reduction": { "all": 100 }
   },
   {
@@ -1023,7 +1023,7 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_bolt", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "welding_standard", 5 ] ] }
     },
-    "flags": [ "SEAT", "BOARDABLE", "CARGO", "BED", "BELTABLE" ],
+    "flags": [ "SEAT", "BOARDABLE", "CARGO", "BED", "BELTABLE", "SHOCK_IMMUNE" ],
     "damage_reduction": { "all": 120 }
   },
   {

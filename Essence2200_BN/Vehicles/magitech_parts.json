@@ -95,7 +95,7 @@
       "removal": { "skills": [ [ "FoxEssSpellcasting", 2 ] ], "time": "5 m" },
       "repair": { "skills": [ [ "FoxEssSpellcasting", 4 ] ], "time": "5 m" }
     },
-    "flags": [ "CARGO", "LOCKABLE_CARGO", "COVERED", "BOARDABLE", "FOLDABLE" ],
+    "flags": [ "CARGO", "LOCKABLE_CARGO", "COVERED", "BOARDABLE", "FOLDABLE", "SHOCK_IMMUNE" ],
     "breaks_into": [ {"item": "FoxVicPocketDimensionitem"} ],
     "damage_reduction": { "all": 44444 },
     "description": "This pocket dimension is usable but much less stable than a properly mounted vehicle dimension, it is completely noncorporeal. It will hold 500 liters without weighing your vehicle down."
@@ -120,7 +120,7 @@
       "removal": { "skills": [ [ "FoxEssSpellcasting", 2 ] ], "time": "5 m" },
       "repair": { "skills": [ [ "FoxEssSpellcasting", 4 ] ], "time": "5 m" }
     },
-    "flags": [ "FLUIDTANK", "FOLDABLE" ],
+    "flags": [ "FLUIDTANK", "FOLDABLE", "SHOCK_IMMUNE" ],
     "breaks_into": [ {"item": "FoxVicPocketDimensionitem"} ],
     "damage_reduction": { "all": 44444 },
     "description": "This pocket dimension is usable once it is mounted and stabilized to a vehicle. It will hold 500 Liters without weighing your vehicle down."
@@ -144,7 +144,7 @@
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "15 m", "using": [ [ "vehicle_bolt", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
     },
-    "flags": [ "CARGO", "OBSTACLE", "FLAT_SURF", "WORKBENCH" ],
+    "flags": [ "CARGO", "OBSTACLE", "FLAT_SURF", "WORKBENCH", "SHOCK_IMMUNE" ],
     "breaks_into": [
       { "item": "Foxsoulbench" }
     ],
@@ -167,7 +167,7 @@
     "color": "light_blue",
     "broken_symbol": "O",
     "broken_color": "light_gray",
-    "flags": [ "ROTOR" ],
+    "flags": [ "ROTOR", "SHOCK_IMMUNE" ],
     "breaks_into": [ { "item": "FoxAdamantinechunk", "count": [ 300, 380 ] } ],
     "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
   },
@@ -197,7 +197,7 @@
         "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
       }
     },
-    "flags": [ "OBSTACLE", "REACTOR", "PERPETUAL" ],
+    "flags": [ "OBSTACLE", "REACTOR", "PERPETUAL", "SHOCK_IMMUNE" ],
     "breaks_into": [ {"item": "Foxessencereactor"} ],
     "damage_reduction": { "all": 105, "cut": 143, "stab": 132 },
     "description": "A secret of the Old World, this reactor maintains a self-sustaining reaction of converting background Essence into Electricity, effortlessly and endlessly. It is as powerful as 10 plutonium generators and encased in a protective Adamantine shell."
@@ -215,7 +215,7 @@
     "noise_factor": 5,
     "m2c": 90,
     "fuel_type": "battery",
-    "flags": [ "ENGINE", "E_HIGHER_SKILL", "E_HEATER" ]
+    "flags": [ "ENGINE", "E_HIGHER_SKILL", "E_HEATER", "SHOCK_IMMUNE" ]
   },
   {
     "id": "FoxFujiwaraMotorStandard",
@@ -298,7 +298,7 @@
       "removal": { "skills": [ [ "FoxEssSpellcasting", 8 ] ], "time": "20 m" },
       "repair": { "skills": [ [ "FoxEssSpellcasting", 8 ] ], "time": "60 m" }
     },
-    "flags": [ "SHOCK_ABSORBER" ],
+    "flags": [ "SHOCK_ABSORBER", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedadamantineplating",
     "damage_reduction": { "all": 8888 }
   }

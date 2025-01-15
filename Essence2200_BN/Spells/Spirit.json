@@ -17,7 +17,7 @@
     "min_damage": -5,
     "max_damage": -45,
     "damage_increment": -2,
-    "damage_type": "none",
+    "damage_type": "true",
     "min_range": 10,
     "max_range": 20,
     "range_increment": 1

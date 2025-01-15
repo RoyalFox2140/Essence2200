@@ -70,7 +70,7 @@
         "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
       }
     },
-    "flags": [ "OBSTACLE", "REACTOR", "PERPETUAL" ],
+    "flags": [ "OBSTACLE", "REACTOR", "PERPETUAL", "SHOCK_IMMUNE" ],
     "breaks_into": [ {"item": "plut_generator_item"} ],
     "description": "FROM ESSENCE 2200. USE MAINLINE VERSION IF YOU PREFER THAT. A reliable generator that uses the decay of radioactive elements to generate a reliable trickle of power, reactor must be turned on to make the equivalent of the grid furniture in power."
   },
@@ -92,7 +92,7 @@
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "5 m", "using": [ [ "vehicle_bolt", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
     },
-    "flags": [ "OBSTACLE" ],
+    "flags": [ "OBSTACLE", "SHOCK_IMMUNE" ],
     "breaks_into": [
       { "item": "Foxessencestill", "count": [ 1, 1 ] }
     ],

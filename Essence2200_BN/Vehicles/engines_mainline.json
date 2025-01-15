@@ -28,7 +28,7 @@
     "fuel_type": "gasoline",
     "fuel_options": [ "FoxEssencenormal", "FoxEssencepure" ],
     "m2c": 60,
-    "flags": [ "ENGINE", "E_HEATER", "E_NO_POWER_DECAY" ],
+    "flags": [ "ENGINE", "E_HEATER", "E_NO_POWER_DECAY", "SHOCK_IMMUNE" ],
     "description": "An UltraTech Essence engine.  Works in anomalous ways, does not backfire, cannot use alternator. Needs no electricity."
   },
   {
