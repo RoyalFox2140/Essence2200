@@ -146,7 +146,7 @@
     "autolearn": true,
     "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 200 ] ] ],
-    "components": [ [ [ "FoxShadowSteel", 40 ] ] ]
+    "components": [ [ [ "FoxShadowsteelchunk", 40 ] ] ]
   },
   {
     "type": "recipe",
