@@ -1230,5 +1230,46 @@
     "symbol": "#",
     "type": "vehicle_part",
     "extend": { "flags": [ "SHOCK_IMMUNE" ] }
+  },
+  {
+    "id": "Foxadamantinetrunk",
+    "type": "vehicle_part",
+    "name": { "str": "adamantine trunk" },
+    "looks_like": "trunk",
+    "item": "Foxadamantineframe",
+    "location": "center",
+    "color": "dark_gray",
+    "symbol": "H",
+    "durability": 1140,
+    "description": "It's a car trunk from Adamantine.",
+    "breaks_into": "Foxsmashedadamantineframe",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "40 m", "using": [ [ "welding_standard", 20 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": "vehicle_weld_removal" },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 10 ] ] }
+    },
+    "flags": [ "CARGO", "LOCKABLE_CARGO", "COVERED", "BOARDABLE", "SHOCK_IMMUNE" ],
+    "damage_reduction": { "all": 168 }
+  },
+  {
+    "id": "Foxadamantinecargospace",
+    "type": "vehicle_part",
+    "name": { "str": "adamantine cargo space" },
+    "looks_like": "cargo_space",
+    "item": "Foxadamantineframe",
+    "location": "center",
+    "color": "dark_gray",
+    "durability": 1140,
+    "symbol": "H",
+    "size": "500 L",
+    "description": "It's a cargo space from Adamantine.",
+    "breaks_into": "Foxsmashedadamantineframe",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "40 m", "using": [ [ "welding_standard", 20 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": "vehicle_weld_removal" },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 10 ] ] }
+    },
+    "flags": [ "BOARDABLE", "CARGO", "COVERED", "SHOCK_IMMUNE" ],
+    "damage_reduction": { "all": 168 }
   }
 ]

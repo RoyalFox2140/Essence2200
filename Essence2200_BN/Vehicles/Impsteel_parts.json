@@ -752,5 +752,47 @@
     "flags": [ "ROOF", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedimpsteelplating",
     "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+  },
+  {
+    "id": "Foximpsteeltrunk",
+    "type": "vehicle_part",
+    "name": { "str": "Imp.Steel trunk" },
+    "looks_like": "trunk",
+    "item": "Foxisteelframe",
+    "location": "center",
+    "symbol": "H",
+    "color": "dark_gray",
+    "size": "162500 ml",
+    "durability": 1140,
+    "description": "It's a car trunk from Imperial Steel.",
+    "breaks_into": "Foxsmashedimpsteelframe",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "40 m", "using": [ [ "welding_standard", 20 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": "vehicle_weld_removal" },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 10 ] ] }
+    },
+    "flags": [ "CARGO", "LOCKABLE_CARGO", "COVERED", "BOARDABLE", "SHOCK_IMMUNE" ],
+    "damage_reduction": { "all": 168 }
+  },
+  {
+    "id": "Foximpsteelcargospace",
+    "type": "vehicle_part",
+    "name": { "str": "Imp.Steel cargo space" },
+    "looks_like": "cargo_space",
+    "item": "Foxisteelframe",
+    "symbol": "H",
+    "location": "center",
+    "color": "dark_gray",
+    "durability": 1140,
+    "size": "500 L",
+    "description": "It's a cargo space from Imperial Steel.",
+    "breaks_into": "Foxsmashedimpsteelframe",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "40 m", "using": [ [ "welding_standard", 20 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": "vehicle_weld_removal" },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 10 ] ] }
+    },
+    "flags": [ "BOARDABLE", "CARGO", "COVERED", "SHOCK_IMMUNE" ],
+    "damage_reduction": { "all": 168 }
   }
 ]
