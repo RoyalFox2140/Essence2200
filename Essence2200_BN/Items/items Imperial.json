@@ -1,6 +1,6 @@
 [
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "Foximpchip",
     "category": "spare_parts",
     "name": { "str": "burnt-out Neural Chip" },
@@ -8,6 +8,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "20 g",
     "volume": "100 ml",
     "to_hit": -3,
@@ -15,7 +17,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "Foximpmicroelectronics",
     "category": "spare_parts",
     "name": { "str_sp": "Imperial micro-electronics" },
@@ -23,6 +25,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "10 g",
     "volume": "50 ml",
     "to_hit": -3,
@@ -30,7 +34,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "Foximpchipofficer",
     "category": "spare_parts",
     "name": { "str": "Officer Neural Chip" },
@@ -38,6 +42,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "20 g",
     "volume": "100 ml",
     "to_hit": -3,
@@ -45,7 +51,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "Foximpchiparbiter",
     "category": "spare_parts",
     "name": { "str": "Arbiter Neural Chip" },
@@ -53,6 +59,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "20 g",
     "volume": "100 ml",
     "to_hit": -3,
@@ -60,7 +68,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "Foximpelectronics",
     "category": "spare_parts",
     "name": { "str_sp": "Imperial electronic scrap" },
@@ -70,12 +78,14 @@
     "price_postapoc": "2 USD",
     "weight": "100 g",
     "volume": "100 ml",
+    "stack_size": 100,
+    "ammo_type": "components",
     "to_hit": -3,
     "symbol": "*",
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "Foximpmechparts",
     "category": "spare_parts",
     "name": { "str_sp": "Imperial mechanical parts" },
@@ -83,6 +93,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "100 g",
     "volume": "100 ml",
     "to_hit": -3,
@@ -90,7 +102,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "Foximpballisticparts",
     "category": "spare_parts",
     "name": { "str_sp": "Imperial ballistic parts" },
@@ -98,6 +110,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "100 g",
     "volume": "100 ml",
     "to_hit": -3,
@@ -105,7 +119,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "Foximplaserparts",
     "category": "spare_parts",
     "name": { "str_sp": "Imperial laser parts" },
@@ -113,6 +127,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "100 g",
     "volume": "100 ml",
     "to_hit": -3,

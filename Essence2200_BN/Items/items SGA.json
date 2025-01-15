@@ -343,7 +343,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "FoxSGAelectronics",
     "category": "spare_parts",
     "name": { "str_sp": "SGA electronic scrap" },
@@ -351,6 +351,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "100 g",
     "volume": "100 ml",
     "to_hit": -3,
@@ -358,7 +360,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "FoxSGArecoildampeners",
     "category": "spare_parts",
     "name": { "str": "SGA recoil dampener" },
@@ -366,6 +368,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "100 g",
     "volume": "100 ml",
     "to_hit": -3,
@@ -373,7 +377,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "FoxSGAmagcomponents",
     "category": "spare_parts",
     "name": { "str_sp": "SGA MAG components" },
@@ -381,6 +385,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "100 g",
     "volume": "100 ml",
     "to_hit": -3,
@@ -388,7 +394,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "FoxSGAmechparts",
     "category": "spare_parts",
     "name": { "str_sp": "SGA mechanical parts" },
@@ -396,6 +402,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "100 g",
     "volume": "100 ml",
     "to_hit": -3,
@@ -403,7 +411,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "FoxSGAballisticparts",
     "category": "spare_parts",
     "name": { "str_sp": "SGA ballistic parts" },
@@ -411,6 +419,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "100 g",
     "volume": "100 ml",
     "to_hit": -3,
@@ -418,7 +428,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "FoxSGAessreactortiny",
     "category": "spare_parts",
     "name": { "str_sp": "device essence reactor" },
@@ -426,6 +436,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "5 g",
     "volume": "10 ml",
     "to_hit": -3,
@@ -433,7 +445,7 @@
     "color": "dark_gray"
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "FoxSGAlaserparts",
     "category": "spare_parts",
     "name": { "str_sp": "SGA laser parts" },
@@ -441,6 +453,8 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "stack_size": 100,
+    "ammo_type": "components",
     "weight": "100 g",
     "volume": "100 ml",
     "to_hit": -3,
@@ -618,8 +632,7 @@
       [ "FILE", 5 ],
       [ "REAM", 4 ],
       [ "CUT_FINE", 5 ],
-      [ "COOK", 1 ],
-      [ "FoxMachining", 3 ]
+      [ "COOK", 1 ]
     ],
     "use_action": [ 
       "HAMMER",
@@ -654,7 +667,7 @@
     "charges_per_use": 5,
     "initial_charges": 100,
     "max_charges": 6000,
-    "relic_data": { "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 100 } ] },
+    "relic_data": { "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 200 } ] },
     "qualities": [ [ "COOK", 2 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ] ],
     "use_action": [ "HOTPLATE", "HEAT_FOOD" ]
   },
