@@ -36,6 +36,23 @@
   },
   {
     "type": "GENERIC",
+    "id": "Foxshadowsteelframe",
+    "looks_like": "frame",
+    "name": { "str": "shadowsteel frame" },
+    "description": "An average car frame made entirely from Shadowsteel, gaining insane integrity.",
+    "weight": "30000 g",
+    "to_hit": -5,
+    "color": "light_gray",
+    "symbol": "]",
+    "material": [ "FoxAdamantine" ],
+    "volume": "10 L",
+    "bashing": 15,
+    "category": "veh_parts",
+    "price": "2 USD",
+    "price_postapoc": "2 USD"
+  },
+  {
+    "type": "GENERIC",
     "id": "Foxadamantineplate",
     "looks_like": "mil_plate",
     "name": { "str_sp": "adamantine plating" },

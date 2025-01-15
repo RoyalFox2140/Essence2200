@@ -1041,5 +1041,124 @@
     "size": "1000000 ml",
     "symbol": "#",
     "type": "vehicle_part"
+  },
+  {
+    "type": "item_group",
+    "id": "Foxsmashedshadowsteelframe",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxshadowsteelframe", "count": [ 40, 40 ] }
+    ]
+  },
+  {
+    "id": "Foxshadowsteelram",
+    "type": "vehicle_part",
+    "name": { "str": "shadowsteel ram" },
+    "looks_like": "ram_hardsteel",
+    "item": "Foxshadowsteelframe",
+    "location": "structure",
+    "color": "dark_gray",
+    "symbol": "^",
+    "durability": 2280,
+    "damage_modifier": 300,
+    "description": "A dense heavy-duty ram that won't break before your car does. Honk honk, asshole.",
+    "breaks_into": "Foxsmashedshadowsteelframe",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "50 m", "using": [ [ "welding_standard", 20 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": "vehicle_weld_removal" },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "welding_standard", 10 ] ] }
+    },
+    "flags": [ "PROTRUSION", "OBSTACLE", "SHOCK_IMMUNE" ],
+    "damage_reduction": { "all": 600 }
+  },
+  {
+    "abstract": "Foxshadowsteelframeveh",
+    "type": "vehicle_part",
+    "name": { "str": "shadowsteel frame" },
+    "looks_like": "hdframe",
+    "item": "Foxshadowsteelframe",
+    "location": "structure",
+    "color": "dark_gray",
+    "durability": 2280,
+    "description": "The rest of the car will break before this frame does.",
+    "breaks_into": "Foxsmashedshadowsteelframe",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "50 m", "using": [ [ "welding_standard", 20 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": "vehicle_weld_removal" },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "welding_standard", 10 ] ] }
+    },
+    "flags": [ "MOUNTABLE", "SHOCK_IMMUNE" ],
+    "damage_reduction": { "all": 600 }
+  },
+  {
+    "id": "Foxshadowsteelframeveh_cover",
+    "copy-from": "Foxshadowsteelframeveh",
+    "looks_like": "hdframe_cover",
+    "type": "vehicle_part",
+    "symbol": "^"
+  },
+  {
+    "id": "Foxshadowsteelframeveh_cross",
+    "copy-from": "Foxshadowsteelframeveh",
+    "looks_like": "hdframe_cross",
+    "type": "vehicle_part",
+    "symbol": "c",
+    "extend": { "flags": [ "INITIAL_PART" ] }
+  },
+  {
+    "id": "Foxshadowsteelframeveh_horizontal",
+    "copy-from": "Foxshadowsteelframeveh",
+    "looks_like": "hdframe_horizontal",
+    "type": "vehicle_part",
+    "symbol": "h"
+  },
+  {
+    "id": "Foxshadowsteelframeveh_horizontal_2",
+    "copy-from": "Foxshadowsteelframeveh",
+    "looks_like": "hdframe_horizontal_2",
+    "type": "vehicle_part",
+    "symbol": "="
+  },
+  {
+    "id": "Foxshadowsteelframeveh_ne",
+    "copy-from": "Foxshadowsteelframeveh",
+    "looks_like": "hdframe_ne",
+    "type": "vehicle_part",
+    "symbol": "u"
+  },
+  {
+    "id": "Foxshadowsteelframeveh_nw",
+    "copy-from": "Foxshadowsteelframeveh",
+    "looks_like": "hdframe_nw",
+    "type": "vehicle_part",
+    "symbol": "y"
+  },
+  {
+    "id": "Foxshadowsteelframeveh_se",
+    "copy-from": "Foxshadowsteelframeveh",
+    "looks_like": "hdframe_se",
+    "type": "vehicle_part",
+    "symbol": "n"
+  },
+  {
+    "id": "Foxshadowsteelframeveh_sw",
+    "copy-from": "Foxshadowsteelframeveh",
+    "looks_like": "hdframe_sw",
+    "type": "vehicle_part",
+    "symbol": "b"
+  },
+  {
+    "id": "Foxshadowsteelframeveh_vertical",
+    "copy-from": "Foxshadowsteelframeveh",
+    "looks_like": "hdframe_vertical",
+    "type": "vehicle_part",
+    "symbol": "j"
+  },
+  {
+    "id": "Foxshadowsteelframeveh_vertical_2",
+    "copy-from": "Foxshadowsteelframeveh",
+    "looks_like": "hdframe_vertical_2",
+    "type": "vehicle_part",
+    "symbol": "H"
   }
 ]

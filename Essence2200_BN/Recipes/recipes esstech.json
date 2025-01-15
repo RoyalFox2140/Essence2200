@@ -135,6 +135,21 @@
   },
   {
     "type": "recipe",
+    "result": "Foxshadowsteelframe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "fabrication",
+    "skills_required": [ "mechanics", 4 ],
+    "difficulty": 4,
+    "id_suffix": "Foxforged",
+    "time": "50 m",
+    "autolearn": true,
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 200 ] ] ],
+    "components": [ [ [ "FoxShadowSteel", 40 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "FoxAdamantinerotors",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_ESSTECH",

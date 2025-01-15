@@ -14,7 +14,7 @@
     "fuel_type": "FoxEssencenormal",
     "fuel_options": [ "FoxEssencenormal", "FoxEssencepure", "FoxTaroline" ],
     "m2c": 60,
-    "flags": [ "ENGINE", "E_COMBUSTION", "E_ALTERNATOR", "E_HIGHER_SKILL", "E_HEATER", "E_NO_POWER_DECAY" ],
+    "flags": [ "ENGINE", "E_COMBUSTION", "E_ALTERNATOR", "E_HIGHER_SKILL", "E_HEATER", "E_NO_POWER_DECAY", "SHOCK_IMMUNE" ],
     "description": "A combustion engine based on essence.  Cannot burn gasoline or diesel, usually converted from a 21st century one."
   },
   {
