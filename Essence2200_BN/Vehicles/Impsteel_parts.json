@@ -33,7 +33,7 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 10 ] ] }
     },
     "flags": [ "MOUNTABLE", "SHOCK_IMMUNE" ],
-    "damage_reduction": { "all": 168 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "id": "Foximpsteelframeveh_cover",
@@ -130,7 +130,7 @@
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
     },
     "flags": [ "OPAQUE", "OBSTACLE", "FULL_BOARD", "NO_ROOF_NEEDED", "SHOCK_IMMUNE" ],
-    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "abstract": "Foximpsteelhalfboard",
@@ -141,7 +141,7 @@
     "proportional": { "durability": 0.8 },
     "extend": { "flags": [ "HALF_BOARD" ] },
     "delete": { "flags": [ "OPAQUE", "FULL_BOARD" ] },
-    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "abstract": "Foximpsteelstowboard",
@@ -160,7 +160,7 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
     },
     "flags": [ "OBSTACLE", "OPAQUE", "CARGO", "COVERED", "FULL_BOARD", "NO_ROOF_NEEDED", "LOCKABLE_CARGO", "SHOCK_IMMUNE" ],
-    "damage_reduction": { "all": 108, "cut": 120, "stab": 120 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "id": "Foximpsteelstowboard_horizontal",
@@ -331,7 +331,7 @@
     },
     "flags": [ "AISLE", "BOARDABLE", "CARGO", "LOCKABLE_CARGO", "COVERED", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedimpsteeltrunk",
-    "damage_reduction": { "all": 42 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "type": "vehicle_part",
@@ -357,7 +357,7 @@
     },
     "flags": [ "AISLE", "BOARDABLE", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedimpsteelplating",
-    "damage_reduction": { "all": 42 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "type": "vehicle_part",
@@ -383,7 +383,7 @@
     },
     "flags": [ "AISLE", "BOARDABLE", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedimpsteelplating",
-    "damage_reduction": { "all": 42 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "type": "vehicle_part",
@@ -403,7 +403,7 @@
     },
     "flags": [ "ARMOR", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedimpsteelplating",
-    "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "abstract": "Foximpsteeldoorabstract",
@@ -412,7 +412,7 @@
     "broken_symbol": "&",
     "color": "cyan",
     "damage_modifier": 80,
-    "damage_reduction": { "all": 102 },
+    "damage_reduction": { "all": 200 },
     "description": "A strong door.  Has a window so you can see out of it, even when closed.",
     "durability": 900,
     "flags": [ "CARGO", "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW", "SHOCK_IMMUNE" ],
@@ -436,7 +436,7 @@
     "broken_symbol": "&",
     "color": "cyan",
     "damage_modifier": 80,
-    "damage_reduction": { "all": 113 },
+    "damage_reduction": { "all": 200 },
     "description": "A strong door.  Solid construction means you can't see through it when closed.",
     "durability": 990,
     "flags": [ "CARGO", "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE", "SHOCK_IMMUNE" ],
@@ -460,7 +460,7 @@
     "broken_symbol": "&",
     "color": "dark_gray",
     "damage_modifier": 80,
-    "damage_reduction": { "all": 117 },
+    "damage_reduction": { "all": 200 },
     "description": "A very strong door.  A window lets you see through it when closed.",
     "durability": 1350,
     "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED", "SHOCK_IMMUNE" ],
@@ -484,7 +484,7 @@
     "broken_symbol": "&",
     "color": "dark_gray",
     "damage_modifier": 80,
-    "damage_reduction": { "all": 120 },
+    "damage_reduction": { "all": 200 },
     "description": "A very strong door.  Solid construction means you can't see through it when closed.",
     "durability": 1500,
     "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED", "OPAQUE", "SHOCK_IMMUNE" ],
@@ -606,7 +606,7 @@
     },
     "flags": [ "WHEEL_MOUNT_MEDIUM", "NEEDS_JACKING", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedimpsteelplating",
-    "damage_reduction": { "all": 45 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "id": "Foxwheelmountimpsteel_medium_steerable",
@@ -637,7 +637,7 @@
     },
     "flags": [ "WHEEL_MOUNT_HEAVY", "NEEDS_JACKING", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedimpsteelplating",
-    "damage_reduction": { "all": 60 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "id": "Foxwheelmountimpsteel_heavy_steerable",
@@ -669,7 +669,7 @@
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "15 m", "using": [ [ "welding_standard", 4 ] ] }
     },
     "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_MEDIUM", "SHOCK_IMMUNE" ],
-    "damage_reduction": { "bash": 40 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "id": "Foxwheelimpsteelarmored",
@@ -698,7 +698,7 @@
       }
     },
     "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_HEAVY", "SHOCK_IMMUNE" ],
-    "damage_reduction": { "all": 90, "cut": 45, "stab": 32 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "type": "vehicle_part",
@@ -725,7 +725,7 @@
     },
     "flags": [ "FLOATS", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedimpsteelplating",
-    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "type": "vehicle_part",
@@ -751,7 +751,7 @@
     },
     "flags": [ "ROOF", "SHOCK_IMMUNE" ],
     "breaks_into": "Foxsmashedimpsteelplating",
-    "damage_reduction": { "all": 113, "cut": 120, "stab": 120 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "id": "Foximpsteeltrunk",
@@ -772,7 +772,7 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 10 ] ] }
     },
     "flags": [ "CARGO", "LOCKABLE_CARGO", "COVERED", "BOARDABLE", "SHOCK_IMMUNE" ],
-    "damage_reduction": { "all": 168 }
+    "damage_reduction": { "all": 200 }
   },
   {
     "id": "Foximpsteelcargospace",
@@ -793,6 +793,6 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 10 ] ] }
     },
     "flags": [ "BOARDABLE", "CARGO", "COVERED", "SHOCK_IMMUNE" ],
-    "damage_reduction": { "all": 168 }
+    "damage_reduction": { "all": 200 }
   }
 ]
