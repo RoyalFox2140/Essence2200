@@ -101,8 +101,8 @@
     "time": "15 m",
     "charges": 1,
     "autolearn": true,
-    "components": [ [ [ "FoxBallisticWeavescrap", 8 ] ] ],
-    "tools": [ [ [ "Foxsewingkitballisticweave", 20 ] ] ]
+    "components": [ [ [ "FoxBallisticWeavescrap", 8 ] ], [ [ "FoxBWthread", 20 ] ] ],
+    "tools": [ [ [ "Foxsewingkitballisticweave", -1 ] ] ]
   },
   {
     "type": "recipe",
