@@ -481,7 +481,7 @@
     "skill_used": "FoxEssTheory",
     "difficulty": 2,
     "charges": 100, 
-    "time": "30 m",
+    "time": "5 m",
     "autolearn": true,
     "byproducts": [ [ "lead", 5 ], [ "clay_lump", 20 ] ],
    "components": [
@@ -508,6 +508,23 @@
     [ [ "edible_tallow_lard", 2, "LIST" ] ],
     [ [ "Foxmotordew", 200 ] ],
     [ [ "water_clean", 4 ] ]
+  ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxtarcrete",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxDirtTarcrete",
+    "skill_used": "FoxEssTheory",
+    "difficulty": 2,
+    "charges": 10, 
+    "time": "2 m",
+    "autolearn": true,
+   "components": [
+    [ [ "Foxtargas", 9000 ] ],
+    [ [ "Foxmotordew", 1000 ] ],
+    [ [ "material_soil", 10 ] ]
   ]
   }
 ]
