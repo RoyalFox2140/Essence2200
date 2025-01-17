@@ -735,5 +735,57 @@
       [ [ "large_lcd_screen", 1 ] ],
       [ [ "Foximperialsteelchunk", 2 ] ]
     ]
+  },
+  {
+    "result": "Foxnutrientsynthesizersystem",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "id_suffix": "FoxMachined",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 6 ], [ "mechanics", 1 ], [ "electronics", 3 ] ],
+    "difficulty": 2,
+    "time": "4 h",
+    "book_learn": [ [ "FoxDeIed", 2 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 10 ] ],
+      [ [ "Foximpelectronics", 20 ] ],
+      [ [ "Foximperialsteelchunk", 8 ] ],
+      [ [ "Foxtarrubber", 20 ] ],
+      [ [ "Foxnanoaugcanistergeneric", 1 ] ],
+      [ [ "Foximpgrease", 1 ] ]
+    ]
+  },
+  {
+    "result": "Foxsludgepump",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "id_suffix": "FoxMachined",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "fabrication", 6 ], [ "electronics", 3 ] ],
+    "difficulty": 2,
+    "time": "3 h",
+    "autolearn": true,
+    "qualities": [ { "id": "FoxMachining", "level": 1 } ],
+    "components": [
+      [ [ "Foximpmechparts", 10 ] ],
+      [ [ "Foximpelectronics", 5 ] ],
+      [ [ "Foximperialsteelchunk", 4 ] ],
+      [ [ "Foximpgrease", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxmotordewsludge",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "id_suffix": "FoxSynthesizer",
+    "charges": 4,
+    "time": "10 m",
+    "autolearn": true,
+    "tools": [ [ [ "Foxnutrientsynthesizersystem", 5000 ] ] ],
+    "components": [ [ [ "material_soil", 1 ] ] ]
   }
 ]

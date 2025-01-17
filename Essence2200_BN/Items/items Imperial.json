@@ -151,6 +151,29 @@
     "color": "dark_gray"
   },
   {
+    "type": "GENERIC",
+    "id": "Foxnutrientsynthesizersystem",
+    "category": "spare_parts",
+    "name": { "str": "Nutrient synthesizer system" },
+    "description": "It's a bank of nanomachines in a box with a chute to insert dirt, and a hopper to output finished nutrient bars. It can only synthesize dirt and only under direct application of high voltage electricity, to avoid destruction of the planet. It could make motordew sludge, but this is wasteful. You MUST install this into a power grid.",
+    "looks_like": "e_scrap",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "weight": "2000 g",
+    "volume": "2500 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "color": "dark_gray"
+  },
+  {
+    "id": "Foxfake_nutrientsynthesizer",
+    "copy-from": "fake_item",
+    "type": "TOOL",
+    "name": { "str": "grid nutrient synthesizer" },
+    "max_charges": 20000,
+    "flags": [ "USES_GRID_POWER" ]
+  },
+  {
     "id": "Foxhellfiresystem",
     "type": "TOOL",
     "category": "tools",

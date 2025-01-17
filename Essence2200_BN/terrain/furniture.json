@@ -541,8 +541,7 @@
     "using": [ [ "soldering_standard", 5 ] ],
     "components": [ [ [ "Foxsludgepump", 1 ] ], [ [ "cable", 5 ] ], [ [ "pipe", 10 ] ] ],
     "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
-    "pre_special": "check_empty",
-    "dark_craftable": true,
+    "pre_terrain": "Foxt_sludgepit",
     "post_furniture": "Foxfgridsludgepump"
   },
   {
@@ -1550,5 +1549,54 @@
     "components": [ [ [ "Foxtarcrete", 10 ] ] ],
     "pre_terrain": "t_pit_shallow",
     "post_terrain": "Foxt_Tarcretewall"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxfgridnutrientsynthesizer",
+    "looks_like": "t_machinery_light",
+    "name": "grid nutrient synthesizer",
+    "symbol": "U",
+    "description": "A nutrient synthesizer connected to the grid, it will turn dirt into food with high voltage.",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 10,
+    "required_str": -1,
+    "crafting_pseudo_item": "Foxfake_nutrientsynthesizer",
+    "flags": [ "TRANSPARENT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": {
+      "items": [ { "item": "Foxnutrientsynthesizersystem", "count": 1 }, { "item": "cable", "charges": 5 }, { "item": "power_supply", "charges": 1 } ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "Foxnutrientsynthesizersystem", "count": 1 },
+        { "item": "cable", "charges": 5 }
+      ]
+    }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxfgridnutrientsynthesizer",
+    "group": "Foxplace_Foxfgridnutrientsynthesizer",
+    "category": "FURN",
+    "required_skills": [ [ "electronics", 1 ] ],
+    "time": "30 m",
+    "qualities": [ 
+    [ { "id": "SCREW", "level": 1 } ]
+  ],
+    "using": [ [ "soldering_standard", 5 ] ],
+    "components": [ [ [ "Foxnutrientsynthesizersystem", 1 ] ], [ [ "cable", 5 ] ], [ [ "power_supply", 1 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "dark_craftable": true,
+    "post_furniture": "Foxfgridnutrientsynthesizer"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_Foxfgridnutrientsynthesizer",
+    "name": "Install Nutrient Synthesizer"
   }
 ]

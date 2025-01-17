@@ -15,6 +15,30 @@
   },
   {
     "type": "recipe",
+    "result": "Foximperialrationbar",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_COOKING",
+    "id_suffix": "FoxSynthesizer",
+    "charges": 20,
+    "time": "10 m",
+    "autolearn": true,
+    "tools": [ [ [ "Foxnutrientsynthesizersystem", 5000 ] ] ],
+    "components": [ [ [ "material_soil", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "vitamins",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_COOKING",
+    "id_suffix": "FoxSynthesizer",
+    "charges": 200,
+    "time": "20 m",
+    "autolearn": true,
+    "tools": [ [ [ "Foxnutrientsynthesizersystem", 10000 ] ] ],
+    "components": [ [ [ "material_soil", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "Foxbangtaildried",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_DRUGS",
