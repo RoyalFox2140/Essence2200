@@ -302,5 +302,22 @@
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
     "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS", "SILENT", "NO_FAIL" ]
+  },
+  {
+    "id": "Fox_Spirit_Farsight",
+    "type": "SPELL",
+    "name": "S: Far-sight",
+    "description": "You use your power to psionically survey a huge area centered around yourself. This takes a long time and quite a bit of mana.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
+    "effect": "map",
+    "spell_class": "FoxSchoolsSpirit",
+    "skill": "FoxEssSpellcasting",
+    "energy_source": "MANA",
+    "base_casting_time": 180000,
+    "base_energy_cost": 1000,
+    "difficulty": 1,
+    "max_level": 1,
+    "min_aoe": 100
   }
 ]
