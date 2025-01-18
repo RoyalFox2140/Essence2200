@@ -118,7 +118,8 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "group": "Foxmonweakartifacts", "prob": 8 }
+      { "group": "Foxmonweakartifacts", "prob": 8 },
+      { "item": "Foxhumansoul", "prob": 100  }
     ]
   },
   {
@@ -127,7 +128,8 @@
     "subtype": "collection",
     "entries": [
       { "group": "Foxmonweakartifacts", "prob": 10 },
-      { "group": "Foxmonstrongartifacts", "prob": 5 }
+      { "group": "Foxmonstrongartifacts", "prob": 5 },
+      { "item": "Foxhumansoul", "prob": 100  }
     ]
   },
   {
