@@ -65,5 +65,41 @@
     "autolearn": true,
     "time": "12 h",
     "using": [ [ "FoxArtifact_Standard", 20 ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Fox_SkilledKoolaid",
+    "id_suffix": "FoxSouls",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ALCHEMY",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 3,
+    "autolearn": true,
+    "time": "6 h",
+    "components": [ [ [ "Foxhumansoul", 100 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Fox_ExpertKoolaid",
+    "id_suffix": "FoxSouls",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ALCHEMY",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 6,
+    "autolearn": true,
+    "time": "8 h",
+    "components": [ [ [ "Foxhumansoul", 250 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Fox_MasterKoolaid",
+    "id_suffix": "FoxSouls",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ALCHEMY",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 10,
+    "autolearn": true,
+    "time": "12 h",
+    "components": [ [ [ "Foxhumansoul", 400 ] ] ]
   }
 ]

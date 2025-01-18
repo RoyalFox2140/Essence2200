@@ -645,6 +645,25 @@
     "ammo_type": "components"
   },
   {
+    "id": "Foxcolossisoul",
+    "type": "AMMO",
+    "looks_like": "steel_chunk",
+    "category": "spare_parts",
+    "name": { "str": "Colossi Soul", "str_pl": "Colossi Souls" },
+    "description": "It's worth 5 souls, craft it into human souls.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "bashing": 1,
+    "to_hit": -10,
+    "stack_size": 4,
+    "material": "FoxShadowSteel",
+    "symbol": ",",
+    "color": "black",
+    "ammo_type": "components"
+  },
+  {
     "id": "Foxhumanmagesoul",
     "type": "AMMO",
     "looks_like": "steel_chunk",

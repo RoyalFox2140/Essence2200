@@ -154,5 +154,19 @@
       [ [ "FoxEssencenormal", 8000 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "Foxhumansoul",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "id_suffix": "FoxShadowOfTheFistOfTheColossusOfTheNorthStar",
+    "time": "1 s",
+    "charges": 5,
+    "autolearn": true,
+    "components": [
+      [ [ "Foxcolossisoul", 1 ] ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   }
 ]

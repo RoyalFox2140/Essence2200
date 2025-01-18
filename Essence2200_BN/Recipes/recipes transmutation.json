@@ -1454,5 +1454,23 @@
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "cured_pelt", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
+  },
+  {
+    "result": "Foxnanoaugcanistergeneric",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_TRANSMUTATION",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 6,
+    "id_suffix": "FoxTransmutation",
+    "time": "3 h",
+    "charges": 1,
+    "autolearn": true,
+    "tools": [ [ [ "Foxnanoaugcanistergeneric", -1 ] ] ],
+    "components": [
+      [ [ "FoxTransmutationrune", 500 ] ],
+      [ [ "steel_lump", 20 ] ],
+      [ [ "copper", 400 ] ]
+    ]
   }
 ]

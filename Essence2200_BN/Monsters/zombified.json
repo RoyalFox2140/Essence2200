@@ -169,7 +169,7 @@
     "vision_night": 1,
     "special_attacks": [ [ "SMASH", 20 ] ],
     "death_function": [ "NORMAL" ],
-    "harvest": "FoxAbberration",
+    "harvest": "FoxColossus",
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "DESTROYS", "ATTACKMON", "PATH_AVOID_DANGER_2", "POISON" ]
   },
   {
