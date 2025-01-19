@@ -162,7 +162,7 @@
       }
     },
     "flags": [ "VISION", "CAMERA", "ENABLED_DRAINS_EPOWER", "SHOCK_IMMUNE" ],
-    "breaks_into": [ {"item": "FoxSecuritycameraVic"} ],
+    "breaks_into": [ {"item": "Foxsecuritycamera"} ],
     "description": "This camera is made from Imperial parts and is sturdier."
   }
 ]
