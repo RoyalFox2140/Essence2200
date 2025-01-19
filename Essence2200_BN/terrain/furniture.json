@@ -1091,28 +1091,6 @@
   },
   {
     "type": "terrain",
-    "id": "Foxt_tarcrete_wall",
-    "looks_like": "t_strconc_wall",
-    "name": "tarcrete wall",
-    "description": "An extremely resilient wall, made from hot tarcrete cooled and dried on the spot.  Stronger than reinforced concrete, only serious explosives and high-speed impacts would be capable of damaging this wall.",
-    "symbol": "LINE_OXOX",
-    "color": "light_gray",
-    "move_cost": 0,
-    "coverage": 100,
-    "roof": "Foxt_tarcrete_roof",
-    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
-    "connects_to": "WALL",
-    "bash": {
-      "str_min": 180,
-      "str_max": 460,
-      "sound": "scrrrash!",
-      "sound_fail": "whump!",
-      "ter_set": "t_null",
-      "items": [ { "item": "rock", "count": [ 10, 22 ] } ]
-    }
-  },
-  {
-    "type": "terrain",
     "id": "Foxt_tarcrete_roof",
     "name": "tarcrete roof",
     "description": "A flat, black tarcrete section of rooftop. Heavily resistant to damage, it would take serious explosives to breach.",
@@ -1437,13 +1415,13 @@
   {
     "type": "terrain",
     "id": "Foxt_Tarcreteroof",
-    "looks_like": "t_strconc_floor",
+    "looks_like": "t_thconc_floor",
     "name": "Tarcrete floor",
     "description": "A thick section of tarcrete capable of surviving insane punishment.",
     "symbol": ".",
     "color": "cyan",
     "move_cost": 2,
-    "roof": "t_flat_roof",
+    "roof": "Foxt_tarcrete_roof",
     "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
     "bash": {
       "sound": "SMASH!",
@@ -1457,7 +1435,7 @@
   {
     "type": "terrain",
     "id": "Foxt_Tarcretefloor",
-    "looks_like": "t_strconc_floor",
+    "looks_like": "t_thconc_floor",
     "name": "Tarcrete floor (no roof)",
     "description": "A thick section of tarcrete capable of surviving insane punishment, this doesn't have a roof.",
     "symbol": ".",
@@ -1484,7 +1462,7 @@
     "color": "light_gray",
     "move_cost": 0,
     "coverage": 100,
-    "roof": "t_flat_roof",
+    "roof": "Foxt_tarcrete_roof",
     "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "MINEABLE", "NO_SCENT", "AUTO_WALL_SYMBOL",  "BLOCK_WIND" ],
     "connects_to": "WALL",
     "bash": {

@@ -125,7 +125,7 @@
     "damage_modifier": 50,
     "durability": 400,
     "epower": -10,
-    "item": "plut_generator_item",
+    "item": "Foxcamerasystem",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "vehicle_screw", 1 ] ] },
@@ -136,7 +136,7 @@
       }
     },
     "flags": [ "VISION", "CAMERA", "CAMERA_CONTROL", "ENABLED_DRAINS_EPOWER", "SHOCK_IMMUNE" ],
-    "breaks_into": [ {"item": "plut_generator_item"} ],
+    "breaks_into": [ {"item": "Foxcamerasystem"} ],
     "description": "This camera system is made from Imperial parts and is sturdier."
   },
   {
@@ -151,7 +151,7 @@
     "damage_modifier": 50,
     "durability": 250,
     "epower": -5,
-    "item": "plut_generator_item",
+    "item": "Foxsecuritycamera",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "vehicle_screw", 1 ] ] },
@@ -162,7 +162,7 @@
       }
     },
     "flags": [ "VISION", "CAMERA", "ENABLED_DRAINS_EPOWER", "SHOCK_IMMUNE" ],
-    "breaks_into": [ {"item": "plut_generator_item"} ],
+    "breaks_into": [ {"item": "FoxSecuritycameraVic"} ],
     "description": "This camera is made from Imperial parts and is sturdier."
   }
 ]

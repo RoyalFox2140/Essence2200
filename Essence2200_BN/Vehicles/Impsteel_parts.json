@@ -121,7 +121,7 @@
     "item": "Foxisteelplate",
     "location": "center",
     "color": "dark_gray",
-    "durability": 675,
+    "durability": 900,
     "description": "A strong metal wall.  Keeps zombies outside the vehicle and prevents people from seeing through it.",
     "breaks_into": "Foxsmashedimpsteelplating",
     "requirements": {
@@ -414,7 +414,7 @@
     "damage_modifier": 80,
     "damage_reduction": { "all": 200 },
     "description": "A strong door.  Has a window so you can see out of it, even when closed.",
-    "durability": 900,
+    "durability": 600,
     "flags": [ "CARGO", "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW", "SHOCK_IMMUNE" ],
     "item": "Foxisteelframe",
     "location": "center",
