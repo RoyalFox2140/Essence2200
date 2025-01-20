@@ -948,7 +948,7 @@
       "min_volume": "1 ml",
       "max_volume": "20 L",
       "draw_cost": 1,
-      "flags": [ "MAG_COMPACT", "SPEEDLOADER" ]
+      "flags": [ "MAG_COMPACT", "SPEEDLOADER", "MAG_BULKY" ]
     },
     "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
     "weight_capacity_bonus": "615 kg"
