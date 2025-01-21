@@ -483,7 +483,7 @@
       "components": [ [ [ "FoxBallisticWeaveSheet", 25 ] ], [ [ "FoxAdamantinechunk", 8 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
     {
-      "result": "Foxbootscombat",
+      "result": "Foxbootsenchanted",
       "type": "recipe",
       "category": "CC_ESSMAGIC",
       "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",

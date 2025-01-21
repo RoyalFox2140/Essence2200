@@ -967,7 +967,7 @@
     "color": "blue",
     "move_cost_mod": 2,
     "required_str": 1,
-    "max_volume": "250 L",
+    "max_volume": "2000 L",
     "flags": [  "FREEZER", "CONTAINER", "PLACE_ITEM", "EASY_DECONSTRUCT" ],
     "deconstruct": { "items": [ { "item": "FoxVicPocketDimensionitem", "count": 1 } ] }
   },
