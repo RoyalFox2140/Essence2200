@@ -3,7 +3,7 @@
     "type": "martial_art",
     "id": "Foxstyle_Wasteland",
     "name": { "str": "Wasteland struggle" },
-    "description": "Your struggles to stay alive in the wasteland wars at a young age taught you to avoid injury as medical supplies were hard to find and your small stature allowed you to evade attacks more easily than most. You are most familiar with shivs and blades but you were often caught fighting with blunt objects. You gain no unique offensive attacks but have disarms and counters, all strikes will be faster and more penetrating.",
+    "description": "Your struggles to stay alive in the wasteland wars at a young age taught you to avoid injury as medical supplies were hard to find and your small stature allowed you to evade attacks more easily than most. You are most familiar with shivs and blades but you were often caught fighting with blunt objects. You gain no unique offensive attacks but have disarms and counters, all strikes will be faster and more penetrating. At high levels you gain true damage.",
     "initiate": [ "You get ready to be nimble and quick.", "%s is a hacker that shouldn't have this martial art, you should kill them with debug." ],
     "learn_difficulty": 1,
     "static_buffs": [
@@ -22,7 +22,7 @@
       },
       {
         "id": "Foxbuff_wasteland2",
-        "name": "Scuffle",
+        "name": "Resist",
         "description": "You remember how to strike and move well, you will strike faster and with great precision but less power, your armor penetration increases with every dex point but you take a penalty to damage dealt.",
         "unarmed_allowed": true,
         "melee_allowed": true,
@@ -35,8 +35,10 @@
           { "stat": "damage", "type": "cut", "scale": -5 },
           { "stat": "damage", "type": "stab", "scale": -5 },
           { "stat": "damage", "type": "bash", "scale": -10 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 1 }
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 2 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 2 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 2 },
+          { "stat": "arpen", "type": "bash", "scaling-stat": "per", "scale": 2 }
         ]
       },
       {
@@ -49,10 +51,13 @@
         "skill_requirements": [ { "name": "melee", "level": 8 } ],
         "bonus_dodges": 4,
         "flat_bonuses": [ 
-          { "stat": "movecost", "scaling-stat": "dex", "scale": -0.5 }, 
+          { "stat": "movecost", "scaling-stat": "dex", "scale": -1 }, 
           { "stat": "speed", "scaling-stat": "dex", "scale": 2 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 2 }
+          { "stat": "damage", "type": "true", "scale": 10 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 2 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 4 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 2 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "per", "scale": 6 }
           
         ]
       }
@@ -150,25 +155,27 @@
     "type": "martial_art",
     "id": "Foxstyle_finalstrike",
     "name": { "str": "Final Strike" },
-    "description": "Your days as a mercenary taught you to quickly and efficiently end combat with a few strong strikes. An art focused on larger and heavier weapons or blunt objects, you gain blocks and damage with every strike but you will not be using this with stabbing weapons or light ones.",
+    "description": "Your days as a mercenary and apostle taught you to quickly and efficiently end combat with a few strong strikes. An art focused on larger and heavier weapons or blunt objects, you gain blocks and damage with every strike but you will not be using this with stabbing weapons or light ones, you also gain elemental attacks.",
     "initiate": [ "Excellent time to create some missing persons. This lot won't take long.", "%s is a hacker that shouldn't have this martial art, you should kill them with debug." ],
     "learn_difficulty": 1,
     "static_buffs": [
       {
         "id": "Foxbuff_finalstrike1",
         "name": "Adapt",
-        "description": "You were always quick to react to any situation and know where to strike, bonus damage and armor penetration based on your strength",
+        "description": "You were always quick to react to any situation and know where to strike, bonus armor penetration based on your strength",
         "unarmed_allowed": true,
         "melee_allowed": true,
         "unarmed_weapons_allowed": true,
         "quiet": true,
         "bonus_dodges": 2,
         "flat_bonuses": [ 
-          { "stat": "damage", "type": "cut", "scale": 10 },
-          { "stat": "damage", "type": "stab", "scale": -10 },
-          { "stat": "damage", "type": "bash", "scale": 10 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 1 },
-          { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 1 }
+          { "stat": "damage", "type": "cut", "scale": 5 },
+          { "stat": "damage", "type": "stab", "scale": 5 },
+          { "stat": "damage", "type": "bash", "scale": 5 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 2 },
+          { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 2 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 2 },
+          { "stat": "arpen", "type": "bash", "scaling-stat": "per", "scale": 2 }
         ]
       },
       {
@@ -182,27 +189,23 @@
         "skill_requirements": [ { "name": "melee", "level": 5 } ],
         "bonus_dodges": 4,
         "flat_bonuses": [ 
-          { "stat": "speed", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 1 },
-          { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 1 }
+          { "stat": "speed", "scaling-stat": "dex", "scale": 1 }
         ]
       },
       {
         "id": "Foxbuff_finalstrike3",
         "name": "Erase",
-        "description": "You're tired of the nameless victims wasting your time, you are more likely to end this with one swing and you will swing much faster.",
+        "description": "You're tired of the nameless victims wasting your time, you are more likely to end this with one swing.",
         "unarmed_allowed": true,
         "melee_allowed": true,
         "unarmed_weapons_allowed": true,
         "skill_requirements": [ { "name": "melee", "level": 8 } ],
         "bonus_dodges": 4,
         "flat_bonuses": [  
-          { "stat": "movecost", "scaling-stat": "str", "scale": -2 },
-          { "stat": "damage", "type": "stab", "scale": -10 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "str", "scale": 2 },
-          { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 2 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 1 },
-          { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 1 }
+          { "stat": "damage", "type": "heat", "scaling-stat": "int", "scale": 3 },
+          { "stat": "damage", "type": "acid", "scaling-stat": "int", "scale": 3 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 4 },
+          { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 4 }
           
         ]
       }
