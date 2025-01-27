@@ -435,6 +435,7 @@
           "Foximpwastelandsuit",
           "Foximpetool",
           "wristwatch",
+          "socks",
           "Foximpwastelandpack"
         ],
         "entries": [
@@ -443,7 +444,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sports_bra", "boxer_shorts" ]
+      "female": [ "sports_bra", "boy_shorts" ]
     }
   },
   {
@@ -467,11 +468,12 @@
           "Foximpwastelandpack",
           "Foxtoolboxmachining",
           "Foximpsteeldrillbits",
+          "socks",
           "press"
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sports_bra", "boxer_shorts" ]
+      "female": [ "sports_bra", "boy_shorts" ]
     }
   },
   {
@@ -493,6 +495,7 @@
           "wristwatch",
           "Foximpwastelandpack",
           "adv_UPS_off",
+          "socks",
           "FoximpKW21402U"
         ],
         "entries": [
@@ -501,7 +504,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sports_bra", "boxer_shorts" ]
+      "female": [ "sports_bra", "boy_shorts" ]
     }
   },
   {
@@ -526,6 +529,7 @@
           "Foxofficerdatapad",
           "FoxDeIed",
           "FoxDeIkw",
+          "socks",
           "Foximpwastelandpack"
         ],
         "entries": [
@@ -534,7 +538,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sports_bra", "boxer_shorts" ]
+      "female": [ "sports_bra", "boy_shorts" ]
     }
   },
   {
