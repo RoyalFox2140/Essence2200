@@ -25,7 +25,7 @@
     "harvest_by_season": [
       {
         "seasons": [ "spring", "summer", "autumn", "winter" ],
-        "entries": [ { "drop": "pine_bough", "base_num": [ 2, 8 ] }, { "drop": "pinecone", "base_num": [ 1, 4 ] }, { "drop": "Foxpinebark", "base_num": [ 2, 8 ] } ]
+        "entries": [ { "drop": "pine_bough", "base_num": [ 2, 8 ] }, { "drop": "pinecone", "base_num": [ 1, 4 ] }, { "drop": "stick_long", "base_num": [ 1, 2 ] }, { "drop": "Foxpinebark", "base_num": [ 2, 8 ] } ]
       }
     ]
   },
