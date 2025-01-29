@@ -435,6 +435,7 @@
           "Foximpwastelandsuit",
           "Foximpetool",
           "wristwatch",
+          "balclava",
           "socks",
           "Foximpwastelandpack"
         ],
@@ -468,6 +469,7 @@
           "Foximpwastelandpack",
           "Foxtoolboxmachining",
           "Foximpsteeldrillbits",
+          "balclava",
           "socks",
           "press"
         ]
@@ -495,6 +497,7 @@
           "wristwatch",
           "Foximpwastelandpack",
           "adv_UPS_off",
+          "balclava",
           "socks",
           "FoximpKW21402U"
         ],
@@ -527,6 +530,7 @@
           "Foximpetool",
           "wristwatch",
           "Foxofficerdatapad",
+          "balclava",
           "FoxDeIed",
           "FoxDeIkw",
           "socks",
@@ -562,6 +566,14 @@
     ]
   },
   {
+    "type": "start_location",
+    "id": "Foxsloc_warehouse",
+    "name": "Warehouse",
+    "terrain": [
+      { "om_terrain": "warehouse", "om_terrain_match_type": "PREFIX" }
+    ]
+  },
+  {
     "type": "scenario",
     "id": "FoxDeserter",
     "name": "Imperial Deserter",
@@ -574,6 +586,7 @@
       "sloc_campground",
       "sloc_deserted_island",
       "sloc_shelter", 
+      "Foxsloc_warehouse",
       "sloc_shelter_vandalized",
       "sloc_lmoe_empty"
     ],
