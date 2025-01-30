@@ -1041,7 +1041,7 @@
     },  
     "weather": {
       "spring_temp": 7,
-      "summer_temp": 12,
+      "summer_temp": 10,
       "autumn_temp": 6, 
       "winter_temp": -20,
       "base_humidity": 75,
