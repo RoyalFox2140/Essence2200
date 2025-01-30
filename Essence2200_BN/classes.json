@@ -612,7 +612,7 @@
     "id": "Foxsloc_warehouse",
     "name": "Warehouse",
     "terrain": [
-      { "om_terrain": "warehouse", "om_terrain_match_type": "PREFIX" }
+      { "om_terrain": "warehouse", "om_terrain_match_type": "TYPE" }
     ]
   },
   {
