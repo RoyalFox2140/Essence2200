@@ -60,7 +60,7 @@
     "id": "FoxHellfireEmitter",
     "type": "GUNMOD",
     "name": { "str": "Krupp Hellfire emitter" },
-    "description": "This laser emitter boosts the damage of a laser rifle by 40 points, at the cost of 80 UPS per shot and a noticeable noise increase from the capacitor bank.",
+    "description": "This laser emitter boosts the damage of a laser rifle by 40 points, at the cost of 80 energy per shot and a noticeable noise increase from the capacitor bank.",
     "weight": "200 g",
     "volume": "100 ml",
     "integral_volume": "0 ml",
@@ -78,14 +78,14 @@
     ],
     "install_time": "5 m",
     "damage_modifier": { "damage_type": "heat", "amount": 40 },
-    "ups_charges_modifier": 80,
+    "ammo_to_fire_modifier": 80,
     "loudness_modifier": 2
   },
   {
     "id": "FoxCrisisEmitter",
     "type": "GUNMOD",
     "name": { "str": "Krupp Crisis emitter" },
-    "description": "This laser emitter inefficiently boosts your laser damage by 120, but it will immediately add 30 UPS cost and multiply by 250%.",
+    "description": "This laser emitter inefficiently boosts your laser damage by 120, but it will immediately add 30 energy cost and multiply by 250%.",
     "weight": "200 g",
     "volume": "100 ml",
     "integral_volume": "0 ml",
@@ -103,15 +103,15 @@
     ],
     "install_time": "5 m",
     "damage_modifier": { "damage_type": "heat", "amount": 120 },
-    "ups_charges_modifier": 30,
-    "ups_charges_multiplier": 2.5,
+    "ammo_to_fire_modifier": 30,
+    "ammo_to_fire_multiplier": 2.5,
     "loudness_modifier": 3
   },
   {
     "id": "FoxSaboteurEmitter",
     "type": "GUNMOD",
     "name": { "str": "Krupp Saboteur emitter" },
-    "description": "This laser emitter slashes base UPS cost by 80%, but foregoes other emitters. It can't be installed on laser lances and tankbusters, nice try.",
+    "description": "This laser emitter slashes base energy cost by 80%, but foregoes other emitters. It can't be installed on laser lances and tankbusters, nice try.",
     "weight": "200 g",
     "volume": "100 ml",
     "integral_volume": "0 ml",
@@ -129,7 +129,7 @@
       [ "ENERGY_WEAPONS" ]
     ],
     "install_time": "5 m",
-    "ups_charges_multiplier": 0.2
+    "ammo_to_fire_multiplier": 0.2
   },
   {
     "id": "FoxLaserAccurizerLens",
@@ -183,7 +183,7 @@
     "id": "FoxBonusCapacitors",
     "type": "GUNMOD",
     "name": { "str": "Auxiliary capacitor bank" },
-    "description": "This extra capacitor bank on your rifle will squeeze a little extra juice out of your rifle but is greatly inefficient. 20 damage for 60 UPS.",
+    "description": "This extra capacitor bank on your rifle will squeeze a little extra juice out of your rifle but is greatly inefficient. 20 damage for 60 energy.",
     "weight": "100 g",
     "volume": "100 ml",
     "price": "2 USD",
@@ -199,14 +199,14 @@
     ],
     "install_time": "5 m",
     "damage_modifier": { "damage_type": "heat", "amount": 20 },
-    "ups_charges_modifier": 60,
+    "ammo_to_fire_modifier": 60,
     "loudness_modifier": 2
   },
   {
     "id": "FoxLaserHarmonizer",
     "type": "GUNMOD",
     "name": { "str": "Krupp Harmonizer system" },
-    "description": "This laser accessory will improve the quality of your beam, increasing range by 15 but at a UPS cost of 50.",
+    "description": "This laser accessory will improve the quality of your beam, increasing range by 15 but at an energy cost of 50.",
     "weight": "100 g",
     "volume": "100 ml",
     "price": "2 USD",
@@ -222,13 +222,13 @@
     ],
     "install_time": "5 m",
     "range_modifier": 15,
-    "ups_charges_modifier": 50
+    "ammo_to_fire_modifier": 50
   },
   {
     "id": "FoxLaserFullerauto",
     "type": "GUNMOD",
     "name": { "str": "Krupp Rapid-discharge system" },
-    "description": "This laser accessory improves charge rate between shots, enabling an automatic fire of 5 shots at no drawbacks beyond extra weight and size.",
+    "description": "This laser accessory improves charge rate between shots, enabling an automatic fire of 8 shots at no drawbacks beyond extra weight and size.",
     "weight": "100 g",
     "volume": "100 ml",
     "price": "2 USD",
@@ -243,7 +243,7 @@
       [ "ENERGY_WEAPONS" ]
     ],
     "install_time": "5 m",
-    "mode_modifier": [ [ "AUTO", "auto", 5 ] ]
+    "mode_modifier": [ [ "AUTO", "auto", 8 ] ]
   },
   {
     "id": "Foxbowstabilizer",

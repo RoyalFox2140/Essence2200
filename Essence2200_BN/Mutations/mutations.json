@@ -142,7 +142,7 @@
     "initial_ma_styles": [ "Foxstyle_finalstrike" ],
     "visibility": 8,
     "ugliness": -8,
-    "weight_capacity_modifier": 100,
+    "weight_capacity_modifier": 30,
     "fatigue_modifier": -0.2,
     "fatigue_regen_modifier": 0.1,
     "overmap_sight": 8,

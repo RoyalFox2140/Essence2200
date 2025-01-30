@@ -23,7 +23,8 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
+          "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ],
+          "values": [ { "value": "BONUS_DODGE", "add": 6 } ]
         }
       ]
     },
@@ -64,7 +65,8 @@
             { "value": "ARMOR_BIO", "add": -10 },
             { "value": "ARMOR_COLD", "add": -20 },
             { "value": "ARMOR_ACID", "add": -20 },
-            { "value": "ARMOR_ELEC", "add": -100 }
+            { "value": "ARMOR_ELEC", "add": -100 },
+            { "value": "BONUS_DODGE", "add": 6 }
           ],
           "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
         }
@@ -107,7 +109,8 @@
             { "value": "ARMOR_BIO", "add": -100 },
             { "value": "ARMOR_COLD", "add": -100 },
             { "value": "ARMOR_ACID", "add": -100 },
-            { "value": "ARMOR_ELEC", "add": -200 }
+            { "value": "ARMOR_ELEC", "add": -200 },
+            { "value": "BONUS_DODGE", "add": 6 }
           ],
           "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
         }
@@ -142,15 +145,16 @@
           "has": "WORN",
           "condition": "ALWAYS",
           "values": [
-            { "value": "ARMOR_HEAT", "add": -250 },
-            { "value": "ARMOR_BULLET", "add": -200 },
+            { "value": "ARMOR_HEAT", "add": -9999 },
+            { "value": "ARMOR_BULLET", "add": -9999 },
             { "value": "ARMOR_BASH", "add": -80 },
             { "value": "ARMOR_CUT", "add": -80 },
             { "value": "ARMOR_STAB", "add": -80 },
             { "value": "ARMOR_BIO", "add": -200 },
-            { "value": "ARMOR_COLD", "add": -200 },
-            { "value": "ARMOR_ACID", "add": -200 },
-            { "value": "ARMOR_ELEC", "add": -500 }
+            { "value": "ARMOR_COLD", "add": -9999 },
+            { "value": "ARMOR_ACID", "add": -9999 },
+            { "value": "ARMOR_ELEC", "add": -9999 },
+            { "value": "BONUS_DODGE", "add": 6 }
           ],
           "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
         }

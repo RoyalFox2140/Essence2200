@@ -453,7 +453,7 @@
     "looks_like": "e_scrap",
     "price": "2 USD",
     "price_postapoc": "2 USD",
-    "stack_size": 100,
+    "stack_size": 1,
     "ammo_type": "components",
     "weight": "100 g",
     "volume": "100 ml",

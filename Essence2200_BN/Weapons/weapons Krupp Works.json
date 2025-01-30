@@ -17,8 +17,21 @@
     "ranged_damage": { "damage_type": "heat", "amount": 200 },
     "dispersion": 300,
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
+    "ammo": "battery",
+    "magazines": [
+      [
+        "battery",
+        [
+          "Foximpbatterytankbuster",
+          "Foximpbatteryadvanced",
+          "Foximpbatterypack",
+          "Foximpbattery"
+        ]
+      ]
+    ],
+    "magazine_well": "1000 ml",
     "loudness": 12,
-    "ups_charges": 500,
+    "ammo_to_fire": 500,
     "ammo_effects": [ "LASER"],
     "faults": [  ]
   },
@@ -61,9 +74,37 @@
     "range": 45,
     "ranged_damage": { "damage_type": "heat", "amount": 30, "armor_penetration": 4 },
     "dispersion": 150,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 4 ] ],
+    "ammo": "battery",
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "medium_battery_cell", 
+          "medium_plus_battery_cell", 
+          "medium_atomic_battery_cell", 
+          "medium_disposable_cell",
+          "Foximpbatteryadvanced",
+          "Foximpbattery",
+          "Foximpbatterymicro",
+          "Foximpbatterytankbuster",
+          "Foximpbatterycell",
+          "Foximpbatterydevice",
+          "Foximpbatterypack"
+
+        ]
+      ]
+    ],
+    "magazine_well": "500 ml",
     "loudness": 12,
-    "ups_charges": 50,
+    "ammo_to_fire": 50,
     "ammo_effects": [ "LASER" ],
     "faults": [  ]
   },
@@ -83,9 +124,20 @@
     "range": 45,
     "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 8 },
     "dispersion": 150,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 4 ] ],
+    "ammo": "battery",
+    "magazines": [
+      [
+        "battery",
+        [
+          "Foximpbatteryadvanced",
+          "Foximpbattery"
+        ]
+      ]
+    ],
+    "magazine_well": "500 ml",
     "loudness": 12,
-    "ups_charges": 100,
+    "ammo_to_fire": 100,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -118,8 +170,34 @@
     "ranged_damage": { "damage_type": "heat", "amount": 20, "armor_penetration": 4 },
     "dispersion": 300,
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
+    "ammo": "battery",
+    "magazines": [
+      [
+        "battery",
+        [
+          "Foximpbattery",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "medium_battery_cell", 
+          "medium_plus_battery_cell", 
+          "medium_atomic_battery_cell", 
+          "medium_disposable_cell",
+          "Foximpbatterytankbuster",
+          "Foximpbatteryadvanced",
+          "Foximpbatterypack",
+          "Foximpbatterymicro",
+          "Foximpbatterydevice"
+        ]
+      ]
+    ],
+    "magazine_well": "500 ml",
     "loudness": 12,
-    "ups_charges": 150,
+    "ammo_to_fire": 150,
     "ammo_effects": [ "LASER" ],
     "faults": [  ]
   },
@@ -140,8 +218,34 @@
     "ranged_damage": { "damage_type": "heat", "amount": 30, "armor_penetration": 4 },
     "dispersion": 200,
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
+    "ammo": "battery",
+    "magazines": [
+      [
+        "battery",
+        [
+          "Foximpbattery",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "medium_battery_cell", 
+          "medium_plus_battery_cell", 
+          "medium_atomic_battery_cell", 
+          "medium_disposable_cell",
+          "Foximpbatterytankbuster",
+          "Foximpbatteryadvanced",
+          "Foximpbatterypack",
+          "Foximpbatterymicro",
+          "Foximpbatterydevice"
+        ]
+      ]
+    ],
+    "magazine_well": "500 ml",
     "loudness": 12,
-    "ups_charges": 150,
+    "ammo_to_fire": 150,
     "ammo_effects": [ "LASER" ],
     "faults": [  ]
   },
@@ -167,7 +271,7 @@
     "durability": 6,
     "loudness": 12,
     "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "RELOAD_EJECT" ],
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -206,8 +310,19 @@
     "ranged_damage": { "damage_type": "heat", "amount": 35, "armor_penetration": 10 },
     "dispersion": 200,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ], [ "AUTO", "auto", 20 ] ],
+    "ammo": "battery",
+    "magazines": [
+      [
+        "battery",
+        [
+          "Foximpbatteryadvanced",
+          "Foximpbattery"
+        ]
+      ]
+    ],
+    "magazine_well": "500 ml",
     "loudness": 12,
-    "ups_charges": 100,
+    "ammo_to_fire": 100,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -221,6 +336,46 @@
     ],
     "ammo_effects": [ "LASER" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "MOUNTED_GUN" ],
+    "faults": [  ]
+  },
+  {
+    "id": "FoximpKW21382U",
+    "copy-from": "pistol_energy",
+    "type": "GUN",
+    "name": { "str": "KW-2138-2U 'Rook'" },
+    "looks_like": "v29",
+    "description": "This reliable backup energy pistol is highly compatible with a wide range of small batteries and may be modified further. It was designed in mind with infiltration, and is best paired with the saboteur emitter while stealing batteries as you go.",
+    "weight": "2800 g",
+    "volume": "500 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxImperialSteel" ],
+    "color": "yellow",
+    "range": 30,
+    "ranged_damage": { "damage_type": "heat", "amount": 20, "armor_penetration": 20 },
+    "dispersion": 150,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 4 ] ],
+    "ammo": "battery",
+    "magazines": [
+      [
+        "battery",
+        [
+          "Foximpbatterymicro",
+          "Foximpbatterydevice",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "500 ml",
+    "loudness": 12,
+    "ammo_to_fire": 30,
+    "ammo_effects": [ "LASER" ],
     "faults": [  ]
   }
 ]
