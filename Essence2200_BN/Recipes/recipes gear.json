@@ -51,6 +51,20 @@
     "components": [ [ [ "FoxBallisticWeaveSheet", 20 ] ], [ [ "Foximperialsteelchunk", 5 ] ] ]
   },
   {
+    "result": "Foximpintelligencesuit",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
+    "skill_used": "FoxEssTech",
+    "difficulty": 2,
+    "skills_required": [ [ "tailor", 9 ] ],
+    "time": "6 h 30 m",
+    "book_learn": [ [ "FoxDeIed", 2 ] ],
+    "using": [ [ "Foxsewing_BW", 10 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "components": [ [ [ "FoxBallisticWeaveSheet", 30 ] ], [ [ "Foximperialsteelchunk", 10 ] ] ]
+  },
+  {
     "result": "Foxglovestactical",
     "type": "recipe",
     "category": "CC_ESSTECH",
@@ -64,6 +78,19 @@
   },
   {
     "result": "Foxholsterimperial",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_GEAR",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "40 m",
+    "reversible": true,
+    "autolearn": true,
+    "using": [ [ "Foxsewing_BW", 15 ] ],
+    "components": [ [ [ "FoxBallisticWeaveSheet", 3 ] ] ]
+  },
+  {
+    "result": "Foxholstershoulderimperial",
     "type": "recipe",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_GEAR",

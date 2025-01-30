@@ -345,7 +345,7 @@
     "name": { "str": "KW-2138-2U 'Rook'" },
     "looks_like": "v29",
     "description": "This reliable backup energy pistol is highly compatible with a wide range of small batteries and may be modified further. It was designed in mind with infiltration, and is best paired with the saboteur emitter while stealing batteries as you go.",
-    "weight": "2800 g",
+    "weight": "500 g",
     "volume": "500 ml",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -353,7 +353,7 @@
     "color": "yellow",
     "range": 30,
     "ranged_damage": { "damage_type": "heat", "amount": 20, "armor_penetration": 20 },
-    "dispersion": 150,
+    "dispersion": 120,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 4 ] ],
     "ammo": "battery",
     "magazines": [

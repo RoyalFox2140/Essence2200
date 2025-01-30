@@ -48,7 +48,7 @@
         "name": { "str_sp": "ED-4-2U 'Hangman'" },
         "description": "A tube-fed semi-automatic shotgun with burst fire, it has high capacity thanks to having two magazine tubes under the barrel.",
         "weight": "1550 g",
-        "volume": "3371 ml",
+        "volume": "2000 ml",
         "price": "2 USD",
         "price_postapoc": "2 USD",
         "bashing": 9,
@@ -58,7 +58,6 @@
         "sight_dispersion": 500,
         "durability": 7,
         "clip_size": 15,
-        "built_in_mods": [ "ksg_aux_shotgun" ],
         "valid_mod_locations": [
           [ "accessories", 4 ],
           [ "barrel", 1 ],
