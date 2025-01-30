@@ -1,8 +1,57 @@
 [
-  
+  {
+    "abstract": "Foxenergypistol",
+    "type": "GUN",
+    "weapon_category": [ "PISTOLS", "ENERGY_WEAPONS" ],
+    "name": { "str": "abstract" },
+    "symbol": "1",
+    "//": "No conventional faults because it uses non-conventional systems.",
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "skill": "pistol",
+    "bashing": 10,
+    "durability": 10,
+    "to_hit": -1,
+    "handling": 15,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "emitter", 1 ],
+      [ "grip", 1 ],
+      [ "lens", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "faults": [  ]
+  },
+  {
+    "abstract": "Foxenergyrifle",
+    "type": "GUN",
+    "weapon_category": [ "RIFLES", "ENERGY_WEAPONS" ],
+    "name": { "str": "abstract" },
+    "symbol": "1",
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "skill": "rifle",
+    "bashing": 10,
+    "durability": 10,
+    "to_hit": -1,
+    "handling": 15,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "emitter", 1 ],
+      [ "grip", 1 ],
+      [ "lens", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "faults": [  ]
+  },
   {
     "id": "FoximpKW21352U",
-    "copy-from": "rifle_energy",
+    "copy-from": "Foxenergyrifle",
     "type": "GUN",
     "name": { "str": "KW-2135-2U 'Tankbuster'" },
     "looks_like": "laser_rifle",
@@ -37,7 +86,7 @@
   },
   {
     "id": "FoximpKW21373U",
-    "copy-from": "rifle_energy",
+    "copy-from": "Foxenergyrifle",
     "type": "GUN",
     "name": { "str": "KW-2137-3U 'Laser Lance'" },
     "looks_like": "laser_rifle",
@@ -60,7 +109,7 @@
   },
   {
     "id": "FoximpKW21402U",
-    "copy-from": "rifle_energy",
+    "copy-from": "Foxenergyrifle",
     "type": "GUN",
     "name": { "str": "KW-2140-2U 'Bastion'" },
     "looks_like": "laser_rifle",
@@ -110,7 +159,7 @@
   },
   {
     "id": "FoximpKW21404U",
-    "copy-from": "rifle_energy",
+    "copy-from": "Foxenergyrifle",
     "type": "GUN",
     "name": { "str": "KW-2140-4U 'Workhorse'" },
     "description": "The 5th rendition of the famous Krupp assault rifle features a heavily increased laser output to combat modern infantry armor, at the cost of magazine capacity.",
@@ -155,7 +204,7 @@
   },
   {
     "id": "FoximpKW2136XM",
-    "copy-from": "rifle_energy",
+    "copy-from": "Foxenergyrifle",
     "type": "GUN",
     "name": { "str": "KW-2136-XM 'Precursor'" },
     "looks_like": "laser_rifle",
@@ -203,7 +252,7 @@
   },
   {
     "id": "FoximpKW2139",
-    "copy-from": "rifle_energy",
+    "copy-from": "Foxenergyrifle",
     "type": "GUN",
     "name": { "str": "KW-2139 'Equality'" },
     "looks_like": "laser_rifle_cheap",
@@ -295,7 +344,7 @@
   },
   {
     "id": "FoximpKW21381U",
-    "copy-from": "rifle_energy",
+    "copy-from": "Foxenergyrifle",
     "type": "GUN",
     "name": { "str": "KW-2138-1U 'Redoubt'" },
     "description": "Desiring an energy-based vehicle weapon to combat infantry, this weapon acts closer to an LMG role. It is too unwieldy to fire without mounting but it has a high cycle rate and efficient energy usage.",
@@ -340,7 +389,7 @@
   },
   {
     "id": "FoximpKW21382U",
-    "copy-from": "pistol_energy",
+    "copy-from": "Foxenergypistol",
     "type": "GUN",
     "name": { "str": "KW-2138-2U 'Rook'" },
     "looks_like": "v29",
