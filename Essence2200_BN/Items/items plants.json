@@ -167,7 +167,7 @@
   {
     "type": "GENERIC",
     "id": "Foxbloodgrass",
-    "name": { "str": "blood grass" },
+    "name": { "str_sp": "blood grass" },
     "category": "chems",
     "description": "Scientists are unsure what advantage the grass gained when it became red, it is used as a coagulant and mild stimulant.  Mages will note it is used as a substitute for human blood.",
     "weight": "200 g",
@@ -182,7 +182,7 @@
   {
     "type": "GENERIC",
     "id": "Foxstimgrass",
-    "name": { "str": "stim grass" },
+    "name": { "str_sp": "stim grass" },
     "category": "chems",
     "description": "This grass turned bright orange and became a powerful stimulant.  It contains a hallucinogenic compound that is not normally observed in unrefined usage, the stimulant chemical is also used in explosives manufacturing either separately or with gravebane shrubs.",
     "weight": "200 g",
@@ -197,7 +197,7 @@
   {
     "type": "GENERIC",
     "id": "Foxwoegrass",
-    "name": { "str": "woe grass" },
+    "name": { "str_sp": "woe grass" },
     "category": "chems",
     "description": "A white grass found in areas of death, it purges parasites on consumption and a sedative is extracted from large amounts of it.",
     "weight": "200 g",
@@ -212,7 +212,7 @@
   {
     "type": "GENERIC",
     "id": "Foxbroomgrass",
-    "name": { "str": "broom grass" },
+    "name": { "str_sp": "broom grass" },
     "category": "chems",
     "description": "Resembling the yellow fibers of an old-fashioned broom, it is known to contain small traces of disinfectants and coagulants.  They are a valuable source of durable fibers for mages",
     "weight": "200 g",
@@ -242,7 +242,7 @@
   {
     "type": "GENERIC",
     "id": "Foxcorpsefuzz",
-    "name": { "str": "corpse fuzz" },
+    "name": { "str_sp": "corpse fuzz" },
     "category": "chems",
     "description": "A white moss which covers and overtakes corpses, it contains small amounts of antibiotics and coagulants which is used for wound dressings.  It is an important industry for many communities to cultivate it via prisoner execution.  It is also a weed that grows around other plants associated with death.",
     "weight": "200 g",
