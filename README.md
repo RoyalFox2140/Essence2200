@@ -14,7 +14,7 @@ In the event of my disappearance, I allow Chaosvolt, Scarf005 and Kenan2000 to f
 
 When I reach a comfortable state of polish and most of the mod is finished it will be eligible to be included in Kenan's structured modpack.
 
-Designed for Cataclysm: Bright Nights latest experimental
+Designed for Cataclysm: Bright Nights latest nightly
 
 Graphics can be found here, and must be licensed separately. https://github.com/RoyalFox2140/Graphics-2200
 
@@ -22,7 +22,5 @@ Monsters and factions are a work in progress, please enhance your game difficult
 https://github.com/Noctifer-de-Mortem/nocts_cata_mod
 https://github.com/Kenan2000/BrightNights-Structured-Kenan-Modpack
 https://github.com/Zlorthishen/Really_Dark_Skies
-
-Code issues that limit the mod functionality is resolved in part by a sponsorship of a main developer of Bright Nights, @Scarf005
 
 https://discord.gg/XW7XhXuZ89
