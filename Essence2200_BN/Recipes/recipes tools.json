@@ -181,6 +181,21 @@
     ]
   },
   {
+    "result": "FoxSGAportaluplink",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TOOLS",
+    "id_suffix": "FoxPrayerBook",
+    "skill_used": "computer",
+    "difficulty": 0,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "FoxDeSGAkawakamiprayer", -1 ], [ "Fox_spellbooks_Prayer", -1 ] ] ],
+    "components": [
+      [ [ "FoxSGAdatathief", 1 ] ]
+    ]
+  },
+  {
     "result": "FoxSGAcipher",
     "type": "recipe",
     "category": "CC_ESSTECH",
