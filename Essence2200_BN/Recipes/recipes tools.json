@@ -203,6 +203,7 @@
     "skill_used": "computer",
     "difficulty": 1,
     "time": "1 m",
+    "flags": [ "SECRET" ],
     "book_learn": [ [ "FoxmanualSGAgear", 1 ] ],
     "qualities": [ { "id": "FoxSGAopAccess", "level": 1 } ],
     "components": [
