@@ -142,7 +142,7 @@
     "id": "Foxnanoeffecone",
     "name": { "str": "Nano Electrochem I" },
     "points": 0,
-    "description": "The first level of Electrochemical augmentation prepares the nervous system for electric shock, and minor chemical burns, it also fixes a lack of skin pigmentation",
+    "description": "The first level of Electrochemical augmentation prepares the nervous system for electric shock, and minor chemical burns, it also protects you from UV rays and cancels the affects of Albino, or other genetic skin defects.",
     "valid": false,
     "purifiable": false,
     "cancels": [ "ALBINO" ],
