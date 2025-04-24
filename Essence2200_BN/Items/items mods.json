@@ -51,7 +51,10 @@
           "Foximpbatterydevice",
           "Foximpbatteryadvanced",
           "Foximpbatterycell",
-          "Foximpbatterypack"
+          "Foximpbatterypack",
+          "Foxartifactbatterysmall",
+          "Foxartifactbatterymedium",
+          "Foxartifactbatteryheavy"
         ]
       ]
     ]

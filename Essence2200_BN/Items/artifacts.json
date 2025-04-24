@@ -404,5 +404,71 @@
        ] 
       },
     "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You feel the burdens of gravity disappear, and it can stop most kinetic projectiles."
+  },
+  {
+    "id": "Foxartifactbatterysmall",
+    "type": "MAGAZINE",
+    "category": "battery",
+    "name": { "str": "small artifact battery", "str_pl": "small artifact batteries" },
+    "description": "An artifact battery cell equivalent to a small battery. Recharges at 4 units per hour, but you get 5 from crafting.",
+    "ascii_picture": "light_battery",
+    "weight": "150 g",
+    "volume": "100 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxImperialSteel" ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": "battery",
+    "relic_data": { 
+      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 4 } ]
+    },
+    "capacity": 450,
+    "looks_like": "battery",
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE", "MAG_COMPACT" ]
+  },
+  {
+    "id": "Foxartifactbatterymedium",
+    "type": "MAGAZINE",
+    "category": "battery",
+    "name": { "str": "medium artifact battery", "str_pl": "medium artifact batteries" },
+    "description": "An artifact battery cell equivalent to a medium battery. Recharges at 20 units per hour.",
+    "ascii_picture": "light_battery",
+    "weight": "750 g",
+    "volume": "500 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxImperialSteel" ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": "battery",
+    "relic_data": { 
+      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 20 } ]
+    },
+    "capacity": 2250,
+    "looks_like": "battery",
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE", "MAG_COMPACT" ]
+  },
+  {
+    "id": "Foxartifactbatteryheavy",
+    "type": "MAGAZINE",
+    "category": "battery",
+    "name": { "str": "heavy artifact battery", "str_pl": "heavy artifact batteries" },
+    "description": "An artifact battery cell equivalent to a heavy battery. Recharges at 40 units per hour, but it costs two artifacts.",
+    "ascii_picture": "light_battery",
+    "weight": "1500 g",
+    "volume": "1 L",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxImperialSteel" ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": "battery",
+    "relic_data": { 
+      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 40 } ]
+    },
+    "capacity": 4500,
+    "looks_like": "battery",
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE", "MAG_COMPACT" ]
   }
 ]
