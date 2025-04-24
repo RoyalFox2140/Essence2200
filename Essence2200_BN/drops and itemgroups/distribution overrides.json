@@ -97,6 +97,7 @@
       [ "FoxDeSGAesstechadvanced", 20 ],
       [ "FoxDeSGAkawakamiprayer", 20 ],
       [ "Foximpgogglesdetection", 8 ],
+      [ "sa_cryptology_key", 3 ],
       { "item": "FoxKolibriPapers", "prob": 35, "count": [ 1, 6 ] },
       [ "FoxXEDRAMAG", 8 ]
     ]
