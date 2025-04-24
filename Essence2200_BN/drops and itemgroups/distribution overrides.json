@@ -61,16 +61,43 @@
   },
   {
     "type": "item_group",
+    "id": "vault",
+    "items": [ { "group": "Foxvault_SUPER", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxvault_SUPER",
+    "subtype": "collection",
+    "items": [
+      [ "FoxDeSGAesstheorybasic", 5 ],
+      { "item": "Foxnanoaugcanistergeneric", "prob": 80, "count": [ 1, 3 ] },
+      { "item": "platinum_small", "prob": 2, "count": [ 1, 2 ] },
+      { "item": "gold_small", "prob": 10, "count": [ 2, 5 ] },
+      { "item": "silver_small", "prob": 20, "count": [ 3, 8 ] },
+      { "item": "money_bundle", "prob": 100, "count": [ 100, 200 ] },
+      { "item": "Foxcocainekey", "prob": 50 },
+      { "group": "carried_guns_smg_common", "prob": 100 },
+      [ "briefcase", 100 ],
+      [ "gold_bracelet", 5 ],
+      [ "silver_bracelet", 10 ],
+      [ "gold_watch", 4 ],
+      [ "sf_watch", 5 ],
+      [ "diamond_ring", 2 ],
+      [ "gold_ring", 4 ]
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "vault_good",
     "subtype": "distribution",
     "items": [
       [ "FoxDeSGAesstheorybasic", 20 ],
-      [ "Foxnanoaugcanistergeneric", 5 ],
+      { "item": "Foxnanoaugcanistergeneric", "prob": 10, "count": [ 2, 4 ] },
       [ "FoxDeSGAesstechbasic", 20 ],
       [ "FoxDeSGAesstechadvanced", 20 ],
       [ "FoxDeSGAkawakamiprayer", 20 ],
       [ "Foximpgogglesdetection", 8 ],
-      { "item": "FoxKolibriPapers", "prob": 35 },
+      { "item": "FoxKolibriPapers", "prob": 35, "count": [ 1, 6 ] },
       [ "FoxXEDRAMAG", 8 ]
     ]
   },

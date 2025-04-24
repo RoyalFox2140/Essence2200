@@ -24,6 +24,12 @@
     "components": [ [ [ "FoxEssencenormal", 1000 ] ] ]
   },
   {
+    "result": "Foxcocainekey",
+    "type": "uncraft",
+    "time": "1 m",
+    "components": [ [ [ "coke", 1000 ] ] ]
+  },
+  {
     "result": "Foxintermediateartificing",
     "type": "uncraft",
     "time": "5 m",

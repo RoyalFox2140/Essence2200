@@ -304,6 +304,24 @@
         "use_action": { "type": "heal", "disinfectant_power": 3, "bleed": 0.6, "bite": 0.80, "move_cost": 200 }
       },
       {
+        "id": "Foxcocainekey",
+        "looks_like": "coke",
+        "type": "GENERIC",
+        "category": "chems",
+        "name": { "str": "key of cocaine", "str_pl": "keys of cocaine" },
+        "description": "A single kilogram of cocaine, known as a key. Uncraft it to get 1000 cocaine.",
+        "weight": "1000 g",
+        "volume": "2500 ml",
+        "//": "SAY GOODNIGHT TO THE BAD GUY",
+        "price": "2000 USD",
+        "price_postapoc": "1000 USD",
+        "bashing": 1,
+        "to_hit": -8,
+        "material": "steel",
+        "symbol": ",",
+        "color": "light_gray"
+      },
+      {
         "id": "Foxswampbandages",
         "type": "COMESTIBLE",
         "comestible_type": "MED",
