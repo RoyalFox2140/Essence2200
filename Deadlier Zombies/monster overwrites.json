@@ -516,7 +516,6 @@
     "id": "mon_zombie_brute",
     "copy-from": "mon_zombie_brute",
     "type": "MONSTER",
-    "emit_fields": [ { "emit_id": "Fox_emitzomzomgas", "delay": "5 s" } ],
     "melee_dice": 5,
     "grab_strength": 4,
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
