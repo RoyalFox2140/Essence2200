@@ -59,8 +59,7 @@
       "CLIMBS",
       "PUSH_MON",
       "PATH_AVOID_DANGER_2",
-      "BLEED",
-      "FILTHY"
+      "BLEED"
     ]
   },
   {
@@ -160,8 +159,7 @@
       "CLIMBS",
       "PUSH_MON",
       "PATH_AVOID_DANGER_2",
-      "BLEED",
-      "FILTHY"
+      "BLEED"
     ]
   },
   {
@@ -231,8 +229,7 @@
       "CLIMBS",
       "PUSH_MON",
       "PATH_AVOID_DANGER_2",
-      "BLEED",
-      "FILTHY"
+      "BLEED"
     ]
   },
   {
@@ -302,8 +299,7 @@
       "CLIMBS",
       "PUSH_MON",
       "PATH_AVOID_DANGER_2",
-      "BLEED",
-      "FILTHY"
+      "BLEED"
     ]
   },
   {
@@ -373,8 +369,7 @@
       "CLIMBS",
       "PUSH_MON",
       "PATH_AVOID_DANGER_2",
-      "BLEED",
-      "FILTHY"
+      "BLEED"
     ]
   }
 ]

@@ -64,8 +64,7 @@
       "BLEED",
       "NO_BREATHE",
       "REVIVES",
-      "PUSH_MON",
-      "FILTHY"
+      "PUSH_MON"
     ]
   },
   {
@@ -134,8 +133,7 @@
       "BLEED",
       "NO_BREATHE",
       "REVIVES",
-      "PUSH_MON",
-      "FILTHY"
+      "PUSH_MON"
     ]
   },
   {
