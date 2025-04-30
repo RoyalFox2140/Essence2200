@@ -286,7 +286,7 @@
     "description": "The third level of immunizations augmentation combats poor mood and irritability, immunizing the mind from emotional damage but not physical brain damage or chemical imbalances.",
     "valid": false,
     "purifiable": false,
-    "cancels": [ "BADTEMPER", "WAYFARER", "BRAWLER", "SQUEAMISH", "HOARDER" ]
+    "cancels": [ "BADTEMPER", "WAYFARER", "BRAWLER", "HOARDER" ]
   },
   {
     "type": "mutation",
@@ -296,6 +296,6 @@
     "description": "Nano sanity augmentation combats mental and emotional problems that run far too deep for a generalized immunization treatment to cover.",
     "valid": false,
     "purifiable": false,
-    "cancels": [ "NOMAD", "PYROMANIA", "SQUEAMISH", "HOARDER", "PACIFIST", "MOODSWINGS" ]
+    "cancels": [ "NOMAD", "PYROMANIA", "HOARDER", "PACIFIST", "MOODSWINGS" ]
   }
 ]

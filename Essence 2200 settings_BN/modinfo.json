@@ -28,12 +28,6 @@
     "value": true
   },
   {
-    "type": "EXTERNAL_OPTION",
-    "name": "FILTHY_WOUNDS",
-    "stype": "bool",
-    "value": false
-  },
-  {
     "type": "monster_adjustment",
     "species": "ZOMBIE",
     "flag": { "name": "REVIVES", "value": false }
