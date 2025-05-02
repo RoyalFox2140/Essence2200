@@ -204,11 +204,11 @@
     "symbol": ",",
     "color": "dark_gray",
     "material": [ "FoxImperialSteel" ],
-    "weight": "2721 g",
+    "weight": "2500 g",
     "volume": "2500 ml",
     "price": "2 USD",
     "price_postapoc": "2 USD",
-    "bashing": 6,
+    "bashing": 1,
     "ammo": "battery",
     "initial_charges": 6000,
     "max_charges": 10000,
@@ -221,11 +221,12 @@
         "msg": "You light up the screen.",
         "active": true,
         "need_charges": 1,
+        "transform_charges": 1,
         "need_charges_msg": "The datapad's batteries need more charge.",
         "type": "transform"
       }
     ],
-    "flags": [ "WATCH", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
+    "flags": [ "WATCH", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "RECHARGE" ]
   },
   {
     "id": "Foxofficerdatapadlit",
@@ -235,13 +236,13 @@
     "name": "Imperial Officer datapad - lit",
     "description": "Now that the encryption is broken, cypher keys can be generated to decrypt Imperial documents, or you could play video games on it. Maybe you'll get 600 FPS with their advanced graphics card.",
     "revert_to": "Foxofficerdatapad",
-    "power_draw": 5000,
+    "power_draw": 4000,
     "use_action": [
       "EINKTABLETPC",
       "PORTABLE_GAME",
       { "target": "Foxofficerdatapad", "msg": "You turn off the screen.", "menu_text": "Turn off", "type": "transform" }
     ],
-    "flags": [ "WATCH", "LIGHT_20", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
+    "flags": [ "WATCH", "LIGHT_20", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "RECHARGE" ]
   },
   {
     "id": "Foxtoolboxmachining",
