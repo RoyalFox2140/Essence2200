@@ -214,7 +214,6 @@
     "max_charges": 10000,
     "charges_per_use": 1,
     "use_action": [
-      "EINKTABLETPC",
       "PORTABLE_GAME",
       {
         "target": "Foxofficerdatapadlit",
@@ -238,7 +237,6 @@
     "revert_to": "Foxofficerdatapad",
     "power_draw": 4000,
     "use_action": [
-      "EINKTABLETPC",
       "PORTABLE_GAME",
       { "target": "Foxofficerdatapad", "msg": "You turn off the screen.", "menu_text": "Turn off", "type": "transform" }
     ],
@@ -403,7 +401,6 @@
     "category": "battery",
     "name": { "str": "Imperial micro battery", "str_pl": "Imperial micro batteries" },
     "description": "An essence crystal battery cell equivalent to an ultra-light battery.",
-    "ascii_picture": "light_battery",
     "weight": "75 g",
     "volume": "50 ml",
     "price": "2 USD",
@@ -422,7 +419,6 @@
     "category": "battery",
     "name": { "str": "Imperial device battery", "str_pl": "Imperial device batteries" },
     "description": "An essence crystal battery cell equivalent to a small battery.",
-    "ascii_picture": "light_battery",
     "weight": "150 g",
     "volume": "100 ml",
     "price": "2 USD",
@@ -441,7 +437,6 @@
     "category": "battery",
     "name": { "str": "Imperial battery cell", "str_pl": "Imperial battery cells" },
     "description": "An essence crystal battery cell equivalent to a medium battery.",
-    "ascii_picture": "light_battery",
     "weight": "750 g",
     "volume": "500 ml",
     "price": "2 USD",
@@ -460,7 +455,6 @@
     "category": "battery",
     "name": { "str": "Imperial battery pack", "str_pl": "Imperial battery packs" },
     "description": "An essence crystal battery pack equivalent to a heavy battery.",
-    "ascii_picture": "light_battery",
     "weight": "1500 g",
     "volume": "1 L",
     "price": "2 USD",

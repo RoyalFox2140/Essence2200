@@ -1211,6 +1211,106 @@
   },
   {
     "type": "furniture",
+    "id": "Foxf_Foxartifactgeneratorgrid",
+    "name": "grid artifact generator",
+    "description": "This artifact is stored in a small box and is hooked to the grid, granting twice the power of a plutonium generator at no maintenance.",
+    "symbol": "#",
+    "color": "yellow",
+    "looks_like": "t_plut_generator",
+    "move_cost_mod": 0,
+    "coverage": 20,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "PERMEABLE" ],
+    "deconstruct": {
+      "items": [
+        { "item": "Foxartifactgenerator", "count": 1 },
+        { "item": "power_supply", "count": 5 },
+        { "item": "cable", "charges": 20 }
+      ]
+    },
+    "bash": {
+      "str_min": 5,
+      "str_max": 20,
+      "explosive": 10,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "Foxartifactgenerator", "count": 1 },
+        { "item": "cable", "charges": 15 }
+      ]
+    },
+    "active": [ "steady_consumer", { "power": -200, "consume_every": "300 s" } ]
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_Foxessreactorgrid",
+    "name": "grid artifact generator",
+    "description": "An essence reactor, connected to the grid, providing limitless electricity.",
+    "symbol": "#",
+    "color": "magenta",
+    "looks_like": "t_plut_generator",
+    "move_cost_mod": 0,
+    "coverage": 20,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "PERMEABLE" ],
+    "deconstruct": {
+      "items": [
+        { "item": "Foxessencereactor", "count": 1 },
+        { "item": "power_supply", "count": 1 },
+        { "item": "cable", "charges": 10 }
+      ]
+    },
+    "bash": {
+      "str_min": 5,
+      "str_max": 20,
+      "explosive": 10,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "Foxessencereactor", "count": 1 },
+        { "item": "cable", "charges": 5 }
+      ]
+    },
+    "active": [ "steady_consumer", { "power": -2000, "consume_every": "300 s" } ]
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxinstall_artifactgen",
+    "name": "Install Artifact Generator"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxinstall_essreactor",
+    "name": "Install Essence Reactor"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxartifactgeneratorgrid",
+    "group": "Foxinstall_artifactgen",
+    "category": "WORKSHOP",
+    "required_skills": [ [ "electronics", 4 ] ],
+    "time": "15 m",
+    "using": [ [ "advanced_electronics_high_voltage", 1 ] ],
+    "components": [ [ [ "Foxartifactgenerator", 1 ] ], [ [ "power_supply", 5 ] ],  [ [ "cable", 20 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "Foxf_Foxartifactgeneratorgrid"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxessreactorgrid",
+    "group": "Foxinstall_essreactor",
+    "category": "WORKSHOP",
+    "required_skills": [ [ "electronics", 8 ] ],
+    "time": "15 m",
+    "using": [ [ "advanced_electronics_high_voltage", 1 ] ],
+    "components": [ [ [ "Foxessencereactor", 1 ] ], [ [ "cable", 10 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "Foxf_Foxessreactorgrid"
+  },
+  {
+    "type": "furniture",
     "id": "Foxfpreppedcorpsepit",
     "looks_like": "f_leather_tarp",
     "name": "covered corpse pit",

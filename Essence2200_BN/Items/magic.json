@@ -1391,6 +1391,7 @@
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "material": [ "FoxDivineMaterial" ],
+    "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "symbol": "[",
     "color": "light_blue",
     "coverage": 0,
@@ -1406,7 +1407,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "ONLY_ONE", "CLIMATE_CONTROL" ]
   },
   {
     "id": "FoxGasaura",
@@ -1419,6 +1420,7 @@
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "material": [ "FoxDivineMaterial" ],
+    "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "symbol": "[",
     "color": "light_blue",
     "coverage": 0,
@@ -1434,7 +1436,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "GAS_PROOF", "ONLY_ONE" ]
   },
   {
     "id": "FoxGlareaura",
@@ -1446,6 +1448,7 @@
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "material": [ "FoxDivineMaterial" ],
+    "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "symbol": "[",
     "color": "light_blue",
     "coverage": 0,
@@ -1489,7 +1492,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "PARTIAL_DEAF", "ONLY_ONE" ]
   },
   {
     "id": "FoxRadiochemicalaura",
@@ -1501,6 +1504,7 @@
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "material": [ "FoxDivineMaterial" ],
+    "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "symbol": "[",
     "color": "light_blue",
     "coverage": 0,
@@ -1517,7 +1521,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "RAD_PROOF", "ONLY_ONE" ]
   },
   {
     "id": "FoxOxygenaura",
@@ -1529,6 +1533,7 @@
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "material": [ "FoxDivineMaterial" ],
+    "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "symbol": "[",
     "color": "light_blue",
     "coverage": 0,
@@ -1547,6 +1552,7 @@
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "material": [ "FoxDivineMaterial" ],
+    "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "symbol": "[",
     "color": "light_blue",
     "coverage": 0,
@@ -1570,7 +1576,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "REBREATHER", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "REBREATHER", "ONLY_ONE",  "GAS_PROOF", "SWIM_GOGGLES", "RAD_PROOF", "PARTIAL_DEAF", "CLIMATE_CONTROL" ]
   },
   {
     "id": "FoxSleepnecklace",

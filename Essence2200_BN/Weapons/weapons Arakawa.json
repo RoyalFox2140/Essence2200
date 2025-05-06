@@ -76,7 +76,6 @@
         "barrel_length": "250 ml",
         "price": "2 USD",
         "price_postapoc": "2 USD",
-        "ascii_picture": "m4a1",
         "material": [ "FoxShadowSteel", "FoxAdamantine" ],
         "color": "dark_gray",
         "ammo": [ "223", "Fox556mmSGA" ],

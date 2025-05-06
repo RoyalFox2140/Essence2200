@@ -859,7 +859,6 @@
     "category": "battery",
     "name": { "str": "SGA battery cell", "str_pl": "SGA battery cells" },
     "description": "A light pure essence battery, containing great amounts of charge in a small package.",
-    "ascii_picture": "light_battery",
     "weight": "50 g",
     "volume": "25ml",
     "price": "2 USD",

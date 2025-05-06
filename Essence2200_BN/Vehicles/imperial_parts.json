@@ -91,6 +91,34 @@
   },
   {
     "type": "vehicle_part",
+    "id": "FoxArtifactGeneratorVic",
+    "name": { "str": "vehicle artifact generator" },
+    "symbol": "O",
+    "looks_like": "robot_controls",
+    "color": "light_green",
+    "broken_symbol": "#",
+    "broken_color": "red",
+    "damage_modifier": 50,
+    "durability": 580,
+    "epower": 1200,
+    "location": "center",
+    "item": "Foxartifactgenerator",
+    "fuel_type": "plut_cell",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "30 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    },
+    "flags": [ "OBSTACLE", "REACTOR", "PERPETUAL", "SHOCK_IMMUNE" ],
+    "breaks_into": [ {"item": "plut_generator_item"} ],
+    "description": "FROM ESSENC."
+  },
+  {
+    "type": "vehicle_part",
     "id": "Foxessencestillcar",
     "name": { "str": "Mounted essence still" },
     "symbol": "#",
