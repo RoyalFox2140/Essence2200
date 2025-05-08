@@ -741,7 +741,7 @@
     "seals": true,
     "watertight": true,
     "preserves": true,
-    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE",  "AURA", "WATER_FRIENDLY" ],
+    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE",  "AURA", "WATER_FRIENDLY", "COMPACT" ],
     "armor_data": { "covers": [ "leg_either" ], "coverage": 0, "encumbrance": 0, "material_thickness": 2 }
   },
   {
@@ -759,7 +759,7 @@
     "seals": true,
     "watertight": true,
     "preserves": true,
-    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE",  "AURA", "WATER_FRIENDLY" ],
+    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE",  "AURA", "WATER_FRIENDLY", "COMPACT" ],
     "armor_data": { "covers": [ "leg_either" ], "coverage": 0, "encumbrance": 0, "material_thickness": 2 }
   },
   {
@@ -968,7 +968,7 @@
     "seals": true,
     "watertight": true,
     "preserves": true,
-    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE",  "AURA", "WATER_FRIENDLY" ],
+    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE",  "AURA", "WATER_FRIENDLY", "COMPACT" ],
     "armor_data": { "covers": [ "leg_either" ], "coverage": 0, "encumbrance": 0, "material_thickness": 2 }
   },
   {
@@ -1016,7 +1016,7 @@
     "seals": true,
     "watertight": true,
     "preserves": true,
-    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE",  "AURA", "WATER_FRIENDLY" ],
+    "flags": [ "TRADER_AVOID", "STURDY", "NO_REPAIR", "NO_SALVAGE",  "AURA", "WATER_FRIENDLY", "COMPACT" ],
     "armor_data": { "covers": [ "leg_either" ], "coverage": 0, "encumbrance": 0, "material_thickness": 2 }
   },
   {
@@ -1316,7 +1316,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "ONLY_ONE", "COMPACT" ]
   },
   {
     "id": "FoxKawakamiprotectionstabs",
@@ -1347,7 +1347,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "ONLY_ONE", "COMPACT" ]
   },
   {
     "id": "FoxKawakamiprotectionelectrochem",
@@ -1379,7 +1379,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "ONLY_ONE", "COMPACT" ]
   },
   {
     "id": "FoxClimateControlaura",
@@ -1407,7 +1407,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "ONLY_ONE", "CLIMATE_CONTROL" ]
+    "flags": [ "STURDY", "AURA", "ONLY_ONE", "CLIMATE_CONTROL", "COMPACT" ]
   },
   {
     "id": "FoxGasaura",
@@ -1436,7 +1436,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "GAS_PROOF", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "GAS_PROOF", "ONLY_ONE", "COMPACT" ]
   },
   {
     "id": "FoxGlareaura",
@@ -1465,7 +1465,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "ONLY_ONE", "COMPACT" ]
   },
   {
     "id": "FoxSoundaura",
@@ -1492,7 +1492,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "PARTIAL_DEAF", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "PARTIAL_DEAF", "ONLY_ONE", "COMPACT", "COMPACT" ]
   },
   {
     "id": "FoxRadiochemicalaura",
@@ -1521,7 +1521,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "RAD_PROOF", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "RAD_PROOF", "ONLY_ONE", "COMPACT" ]
   },
   {
     "id": "FoxOxygenaura",
@@ -1540,7 +1540,7 @@
     "encumbrance": 0,
     "warmth": 0,
     "material_thickness": 1,
-    "flags": [ "STURDY", "AURA", "REBREATHER", "ONLY_ONE" ]
+    "flags": [ "STURDY", "AURA", "REBREATHER", "ONLY_ONE", "COMPACT" ]
   },
   {
     "id": "FoxEnvironmentalaura",
@@ -1576,7 +1576,7 @@
         }
       ]
     },
-    "flags": [ "STURDY", "AURA", "REBREATHER", "ONLY_ONE",  "GAS_PROOF", "SWIM_GOGGLES", "RAD_PROOF", "PARTIAL_DEAF", "CLIMATE_CONTROL" ]
+    "flags": [ "STURDY", "AURA", "REBREATHER", "ONLY_ONE",  "GAS_PROOF", "SWIM_GOGGLES", "RAD_PROOF", "PARTIAL_DEAF", "CLIMATE_CONTROL", "COMPACT" ]
   },
   {
     "id": "FoxSleepnecklace",
