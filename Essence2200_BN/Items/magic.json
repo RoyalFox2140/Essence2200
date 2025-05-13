@@ -252,7 +252,9 @@
       [ "BUTCHER", 30 ],
       [ "WRENCH", 2 ],
       [ "SCREW", 1 ],
-      [ "PRY", 1 ]
+      [ "PRY", 1 ],
+      [ "CUT_M", 1 ],
+      [ "PULL_FINE", 1 ]
     ],
     "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
   },
@@ -344,7 +346,9 @@
       [ "KNIT", 1 ],
       [ "LEATHER_AWL", 1 ],
       [ "COOK", 1 ],
-      [ "FoxMachining", 1 ]
+      [ "FoxMachining", 1 ],
+      [ "CUT_M", 3 ],
+      [ "PULL_FINE", 3 ]
     ],
     "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
   },
@@ -421,7 +425,9 @@
       [ "DISTILL", 2 ],
       [ "CHEM", 3 ],
       [ "BOIL", 2 ],
-      [ "FoxMachining", 3 ]
+      [ "FoxMachining", 3 ],
+      [ "CUT_M", 4 ],
+      [ "PULL_FINE", 4 ]
     ],
     "flags": [ "TRADER_AVOID", "FIRESTARTER", "BELT_CLIP"  ]
   },
@@ -580,6 +586,9 @@
       [ "CHROMATOGRAPHY", 3 ],
       [ "EXTRACT", 3 ],
       [ "FILTER", 3 ],
+      [ "WELD", 5 ],
+      [ "CUT_M", 5 ],
+      [ "PULL_FINE", 5 ],
       [ "FoxEssenceStill", 3 ],
       [ "FoxEssenceCracker", 3 ],
       [ "FoxMachining", 3 ],
