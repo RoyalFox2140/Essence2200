@@ -218,20 +218,7 @@
         "Foxf_wastetuberplant": 3,
         "Foxf_deserttobaccoplant": 1,
         "Foxf_cactusplant": 6,
-        "Foxf_Foxcairnroot": 3,
-        "f_black_eyed_susan": 3,
-        "f_lily": 3,
-        "f_flower_tulip": 3,
-        "f_flower_spurge": 3.5,
-        "f_chicory": 3,
-        "f_mutpoppy": 3.5,
-        "f_bluebell": 3.5,
-        "f_dahlia": 3.5,
-        "f_datura": 0.2,
-        "f_dandelion": 5,
-        "f_burdock": 2,
-        "f_sunflower": 3.5,
-        "f_mustard": 0.2
+        "Foxf_Foxcairnroot": 3
       },
       "boosted_other_percent": 50
     },
