@@ -203,8 +203,8 @@
         "f_region_weed": 49,
         "f_region_flower": 37
       },
-      "boost_chance": 0.833,
-      "boosted_percent_coverage": 2.5,
+      "boost_chance": 1.5,
+      "boosted_percent_coverage": 5.5,
       "boosted_other": {
         "Foxf_wasteberrybush": 5,
         "Foxf_wastenutbush": 3,
@@ -216,7 +216,7 @@
         "Foxf_cactusplant": 6,
         "Foxf_Foxcairnroot": 3
       },
-      "boosted_other_percent": 50
+      "boosted_other_percent": 90
     },
     "overmap_lake_settings": {
       "noise_threshold_lake": 0.25,
