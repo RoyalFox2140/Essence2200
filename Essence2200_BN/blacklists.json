@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MONSTER_BLACKLIST",
+    "monsters": [ 
+      "mon_cougar",
+      "mon_bear",
+      "mon_turkey",
+      "mon_moose",
+      "mon_deer",
+      "mon_deer_fawn"
+    ]
+  }
+]

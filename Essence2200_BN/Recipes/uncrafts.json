@@ -340,5 +340,26 @@
     "components": [
       [ [ "Foximperialsteelchunk", 12 ] ]
     ]
+  },
+  {
+    "result": "Foxwastewood",
+    "type": "uncraft",
+    "time": "15 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "stick_long", 1 ] ], [ [ "splinter", 5 ] ] ]
+  },
+  {
+    "result": "Foxdesertcottonboll",
+    "type": "uncraft",
+    "time": "10 m",
+    "tools": [ [ [ "carding_paddles", -1 ] ] ],
+    "components": [ [ [ "cotton_ball", 4 ] ], [ [ "Foxseed_desertcotton", 8 ] ] ]
+  },
+  {
+    "result": "Fox_wastedirt",
+    "type": "uncraft",
+    "time": "20 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "material_sand", 200 ] ], [ [ "Fox_LETSGOGAMBLINGseeds", 2 ] ] ]
   }
 ]

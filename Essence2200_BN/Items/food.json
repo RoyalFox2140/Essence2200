@@ -300,5 +300,25 @@
     "flags": [ "UNSAFE_CONSUME", "EATEN_COLD" ],
     "fun": 10,
     "vitamins": [ [ "calcium", 10 ], [ "iron", 10 ] ]
+  },
+  {
+    "id": "Foxcactusjerky",
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "looks_like": "cactus_pad",
+    "name": { "str": "cactus jerky" },
+    "description": "THIS FUCKING SUCKS! It'll never spoil, but you're not sure that's a good quality anymore.",
+    "weight": "50 g",
+    "volume": "50 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "healthy": 2,
+    "fun": -2,
+    "quench": -10,
+    "material": [ "veggy" ],
+    "symbol": "%",
+    "color": "green",
+    "flags": [ "NUTRIENT_OVERRIDE" ],
+    "calories": 20
   }
 ]

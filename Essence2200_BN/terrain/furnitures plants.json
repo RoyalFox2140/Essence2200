@@ -359,5 +359,178 @@
       }
     ],
     "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
-  }  
+  },
+  {
+    "type": "terrain",
+    "id": "Foxt_wastelandshrub",
+    "looks_like": "t_shrub",
+    "name": "wasteland shrub",
+    "description": "A small sickly shrub, useful for sticks and fiber.",
+    "symbol": "#",
+    "color": "green",
+    "move_cost": 8,
+    "coverage": 40,
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "NOCOLLIDE", "SHRUB", "SHORT" ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 15,
+      "sound": "crunch.",
+      "sound_fail": "brush.",
+      "ter_set": "Foxt_wastelandsoil",
+      "items": [ { "item": "Foxwastewood", "count": [ 0, 1 ] }, { "item": "plant_fibre", "count": [ 2, 4 ] } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_wasteberrybush",
+    "name": "wasteberry bush",
+    "description": "A bush with handfuls of wasteberries growing on them. Not ideal, but it works. Harvesting it will kill it!",
+    "symbol": "f",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxwasteberry", "base_num": [ 3, 5 ] }, { "drop": "Foxwastewood", "base_num": [ 0, 2 ] }, { "drop": "plant_fibre", "base_num": [ 0, 2 ] }, { "drop": "Foxseed_wasteberry", "base_num": [ 1, 2 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_wastenutbush",
+    "name": "waste nut bush",
+    "description": "A small bush of waste nuts. A healthy but salty source of protein. Harvesting it will kill it!",
+    "symbol": "f",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxwastenuts", "base_num": [ 2, 9 ] }, { "drop": "plant_fibre", "base_num": [ 0, 2 ] }, { "drop": "Foxseed_wastenut", "base_num": [ 1, 2 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_desertcottonplant",
+    "name": "desert cotton",
+    "description": "A small bush of desert cotton, excellent source of thread.  Harvesting it will kill it!",
+    "symbol": "f",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxdesertcottonboll", "base_num": [ 1, 2 ] }, { "drop": "Foxseed_desertcotton", "base_num": [ 1, 2 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_wastewoodsapling",
+    "name": "wastewood sapling",
+    "description": "A small sapling of wastewood. Miserable, but wood is wood. Harvesting it will kill it!",
+    "symbol": "f",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxwastewood", "base_num": [ 1, 4 ] }, { "drop": "plant_fibre", "base_num": [ 0, 2 ] }, { "drop": "Foxseed_wastewood", "base_num": [ 1, 2 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_deadwoodsapling",
+    "name": "deadwood sapling",
+    "description": "A small sapling of deadwood. Anomalous, and spooky.  Harvesting it will kill it!",
+    "symbol": "f",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxdeadwood", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_deadwood", "base_num": [ 1, 2 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_wastetuberplant",
+    "name": "waste tuber bush",
+    "description": "A small bush of flowering waste tubers, with them growing underneath. Harvesting it will kill it!",
+    "symbol": "f",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxwastetuber", "base_num": [ 1, 5 ] }, { "drop": "plant_fibre", "base_num": [ 0, 2 ] }, { "drop": "Foxseed_wastetuber", "base_num": [ 1, 2 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_deserttobaccoplant",
+    "name": "desert tobacco",
+    "description": "A small patch of desert tobacco, you could get some special seeds and some normal tobacco. Harvesting it will kill it!",
+    "symbol": "f",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "tobacco_raw", "base_num": [ 2, 8 ] }, { "drop": "Foxseed_deserttobacco", "base_num": [ 1, 2 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_cactusplant",
+    "looks_like": "f_mutcactus_test",
+    "name": "desert cactus",
+    "description": "A desert cactus, full of water. You could grow more too, for a sustainable source of water. Harvesting it will kill it!",
+    "symbol": "f",
+    "color": "light_blue",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE"  ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "Foxwastecactus", "base_num": [ 4, 6 ] }, { "drop": "Foxcactusfruit", "base_num": [ 0, 1 ] }, { "drop": "Foxseed_wastecactus", "base_num": [ 1, 2 ] } ]
+      }
+    ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  }
 ]

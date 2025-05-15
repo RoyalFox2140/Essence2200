@@ -907,5 +907,51 @@
         ],
       "moves": 100
     }
+  },
+  {
+    "type": "AMMO",
+    "id": "Fox_wastedirt",
+    "copy-from": "material_soil",
+    "looks_like": "material_soil",
+    "name": { "str_sp": "waste dirt" },
+    "symbol": "=",
+    "color": "yellow",
+    "description": "This soil is dried out and lacks most of the organic matter you'd expect.  Much of the top soil was dried out and blown away by the winds, with the infertile lower layer having gotten scorched in the hot sun. It has a higher sand content, you could fix the soil with fertilizer.",
+    "material": "soil",
+    "weight": "4500 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "Foxwastefertilizer",
+    "looks_like": "material_soil",
+    "name": { "str": "wasteland fertilizer" },
+    "description": "Tailor-made to revitalize the soil with a mix of bonemeal, charcoal, and saltpeter, with some water for moisture.",
+    "material": "soil",
+    "flags": [ "TRADER_AVOID", "FIREWOOD" ],
+    "bashing": 1,
+    "to_hit": -5,
+    "weight": "1500 g",
+    "volume": "1000 ml",
+    "symbol": "/",
+    "color": "brown",
+    "category": "soil",
+    "stackable": true
+  },
+  {
+    "id": "Fox_LETSGOGAMBLINGseeds",
+    "type": "GENERIC",
+    "category": "tools",
+    "looks_like": "seed_strawberries",
+    "name": { "str": "organic matter bundle" },
+    "description": "Looks like a small packed cluster of weird bits. You might find seeds here, or nothing of value.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": "veggy",
+    "symbol": "#",
+    "color": "green",
+    "use_action": { "type": "unpack", "group": "Fox_organicbundle" },
+    "flags": [ "NO_REPAIR", "NO_SALVAGE" ]
   }
 ]

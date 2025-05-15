@@ -1,0 +1,190 @@
+[
+  {
+    "type": "terrain",
+    "id": "Foxt_wastelandsoil",
+    "looks_like": "t_searth_test",
+    "name": "wasteland soil",
+    "description": "This abused and dry soil lacks all nutrients and usability. Very little can possibly grow here, and you're not sure if you can learn how to farm in this. Copious quantities of fertilizer could fix this. You can deconstruct it into a pit via construction menu, or fertilize it.",
+    "symbol": ".",
+    "color": "yellow",
+    "move_cost": 2,
+    "flags": [ 
+      "TRANSPARENT", 
+      "FLAT",
+      "FOX_WASTEDIRT",
+      "VEH_TREAT_AS_BASH_BELOW",
+      "ADV_DECONSTRUCT"
+    ],
+    "bash": { "sound": "thump", "ter_set": "Foxt_wastelandpit_shallow", "str_min": 100, "str_max": 200, "str_min_supported": 150 },
+    "deconstruct": { "ter_set": "Foxt_wastelandpit_shallow", 
+    "items": [ 
+      { "item": "Fox_wastedirt", "charges": 10 }, 
+      { "item": "Fox_LETSGOGAMBLINGseeds", "count": [ 0, 4 ] },
+      { "item": "rock", "count": [ 0, 3 ] },
+      { "item": "pebble", "count": [ 20, 70 ] }
+      ] }
+  },
+  {
+    "type": "terrain",
+    "id": "Foxt_wastelandpit_shallow",
+    "looks_like": "t_pit_shallow",
+    "name": "shallow wasteland pit",
+    "description": "A fairly shallow pit of useless wasteland soil you can deconstruct to make deeper, or construct to fill in.",
+    "symbol": "0",
+    "color": "brown",
+    "move_cost": 8,
+    "flags": [ "TRANSPARENT", "VEH_TREAT_AS_BASH_BELOW", "ADV_DECONSTRUCT" ],
+    "bash": { "sound": "thump", "ter_set": "Foxt_wastelandpit", "str_min": 100, "str_max": 200, "str_min_supported": 150 },
+    "deconstruct": { "ter_set": "Foxt_wastelandpit", "items": [ { "item": "Fox_wastedirt", "charges": 50 } ] }
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconstr_fertiledirt",
+    "name": "Make fertile dirt"
+  },
+  {
+    "type": "construction",
+    "id": "Fox_makedirt",
+    "category": "FOXSPECIAL",
+    "time": "10 m",
+    "qualities": [ { "id": "DIG", "level": 2 } ],
+    "components": [ [ [ "Foxwastefertilizer", 1 ] ] ],
+    "pre_terrain": "Foxt_wastelandsoil",
+    "post_terrain": "t_dirt",
+    "group": "Foxconstr_fertiledirt"
+  },
+  {
+    "type": "construction",
+    "id": "Fox_digwastesoil_shallow",
+    "category": "OTHER",
+    "time": "30 m",
+    "qualities": [ { "id": "DIG", "level": 1 } ],
+    "pre_terrain": "Foxt_wastelandsoil",
+    "pre_special": "check_deconstruct",
+    "post_flags": [ "keep_items" ],
+    "post_special": "done_deconstruct",
+    "group": "advanced_object_deconstruction"
+  },
+  {
+    "type": "construction",
+    "id": "Fox_digwastesoil_deep",
+    "//": "It's the only way.",
+    "category": "OTHER",
+    "time": "60 m",
+    "qualities": [ { "id": "DIG", "level": 2 } ],
+    "pre_terrain": "Foxt_wastelandpit_shallow",
+    "pre_special": "check_deconstruct",
+    "post_flags": [ "keep_items" ],
+    "post_special": "done_deconstruct",
+    "group": "advanced_object_deconstruction"
+  },
+  {
+    "type": "terrain",
+    "id": "Foxt_wastelandpit",
+    "looks_like": "t_pit",
+    "name": "wasteland pit",
+    "description": "A very deep hole you dug through wasteland soil, you could reach groundwater or add planks to bridge the gap via the construction menu. Deconstruct it to fill it in.",
+    "symbol": "0",
+    "color": "brown",
+    "move_cost": 10,
+    "trap": "tr_pit",
+    "flags": [ "TRANSPARENT" ]
+  },
+  {
+    "type": "terrain",
+    "id": "Foxt_wastelandpit_covered",
+    "looks_like": "t_pit_covered",
+    "name": "covered wasteland pit",
+    "description": "You placed boards over this gap, you can walk or drive past it. Deconstruct it to get the planks back.",
+    "symbol": "#",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "ROAD", "EASY_DECONSTRUCT" ],
+    "deconstruct": {
+      "ter_set": "Foxt_wastelandpit",
+      "items": [
+        { "item": "2x4", "count": 2 }
+      ]
+    },
+    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+  },
+  {
+    "type": "terrain",
+    "id": "Foxt_wastelandpit_spiked",
+    "looks_like": "t_pit_spiked",
+    "name": "spiked wasteland pit",
+    "description": "A big mean pit full of death, useful to nobody except the people hiding on the other side. Deconstruct it to get the spikes back",
+    "symbol": "1",
+    "color": "brown",
+    "move_cost": 10,
+    "trap": "tr_spike_pit",
+    "deconstruct": {
+      "ter_set": "Foxt_wastelandpit",
+      "items": [
+        { "item": "pointy_stick", "count": 4 }
+      ]
+    },
+    "flags": [ "TRANSPARENT", "EASY_DECONSTRUCT" ]
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconstr_coveredpitgroup",
+    "name": "Add planks to wasteland pit"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconstr_spikedpitgroup",
+    "name": "Add spikes to wasteland pit"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_coveredpit",
+    "group": "Foxconstr_coveredpitgroup",
+    "category": "FOXSPECIAL",
+    "time": "20 s",
+    "components": [ [ [ "2x4", 2 ] ] ],
+    "pre_terrain": "Foxt_wastelandpit",
+    "post_terrain": "Foxt_wastelandpit_covered"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_spikedpit",
+    "group": "Foxconstr_spikedpitgroup",
+    "category": "FOXSPECIAL",
+    "required_skills": [ [ "survival", 2 ] ],
+    "time": "20 m",
+    "qualities": [ [ { "id": "DIG", "level": 2 } ] ],
+    "components": [ [ [ "pointy_stick", 4 ] ] ],
+    "pre_terrain": "Foxt_wastelandpit",
+    "post_terrain": "Foxt_wastelandpit_spiked"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconstr_fillpitshallowgroup",
+    "name": "Fill shallow wasteland pit"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconstr_fillpitdeepgroup",
+    "name": "Fill wasteland pit"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_fillpitshallow",
+    "group": "Foxconstr_fillpitshallowgroup",
+    "category": "FOXSPECIAL",
+    "time": "5 m",
+    "pre_terrain": "Foxt_wastelandpit_shallow",
+    "post_terrain": "Foxt_wastelandsoil"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_fillpitdeep",
+    "group": "Foxconstr_fillpitdeepgroup",
+    "category": "FOXSPECIAL",
+    "time": "20 m",
+    "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
+    "pre_terrain": "Foxt_wastelandpit",
+    "post_terrain": "Foxt_wastelandsoil"
+  }
+]

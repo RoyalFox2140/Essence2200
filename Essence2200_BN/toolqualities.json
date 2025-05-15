@@ -195,6 +195,42 @@
     ]
   },
   {
+    "id": "sweet_fruit_fresh",
+    "type": "requirement",
+    "//": "Sweet, unprocessed fruit, roughly by mass.",
+    "components": [
+      [
+        [ "apple", 1 ],
+        [ "apricot", 1 ],
+        [ "banana", 1 ],
+        [ "blackberries", 1 ],
+        [ "blueberries", 1 ],
+        [ "cherries", 1 ],
+        [ "cranberries", 1 ],
+        [ "grapefruit", 1 ],
+        [ "grapes", 1 ],
+        [ "kiwi", 2 ],
+        [ "mango", 1 ],
+        [ "melon", 1 ],
+        [ "orange", 1 ],
+        [ "papaya", 1 ],
+        [ "peach", 1 ],
+        [ "pear", 1 ],
+        [ "pineapple", 1 ],
+        [ "plums", 1 ],
+        [ "pomegranate", 1 ],
+        [ "raspberries", 1 ],
+        [ "rose_hips", 1 ],
+        [ "strawberries", 1 ],
+        [ "huckleberries", 1 ],
+        [ "mulberries", 1 ],
+        [ "elderberries", 1 ],
+        [ "watermelon", 1 ],
+        [ "Foxwasteberry", 1 ]
+      ]
+    ]
+  },
+  {
     "id": "volatile_explosive",
     "type": "requirement",
     "//": "This should contain all the explosives you can set off with only a fuse, 10g tnt equivalent.",
