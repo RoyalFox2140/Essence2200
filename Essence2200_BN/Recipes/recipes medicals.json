@@ -356,7 +356,7 @@
     "id_suffix": "esstheory",
     "skill_used": "FoxEssTheory",
     "skills_required": [ [ "cooking", 3 ] ],
-    "difficulty": 1,
+    "difficulty": 0,
     "time": "40 m",
     "batch_time_factors": [ 75, 4 ],
     "autolearn": true,
