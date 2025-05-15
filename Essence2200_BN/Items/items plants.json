@@ -378,7 +378,6 @@
     "quench": -5,
     "healthy": -20,
     "calories": 160,
-    "spoils_in": "20 days",
     "flags": [ "SMOKABLE", "RAW" ],
     "color": "brown",
     "symbol": "%",
