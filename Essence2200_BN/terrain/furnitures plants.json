@@ -365,7 +365,7 @@
     "id": "Foxt_wastelandshrub",
     "looks_like": "t_shrub",
     "name": "wasteland shrub",
-    "description": "A small sickly shrub, useful for sticks and fiber.",
+    "description": "A small sickly shrub, useful for sticks and fiber. Maybe you'll find wasteberry seeds.",
     "symbol": "#",
     "color": "green",
     "move_cost": 8,
@@ -377,7 +377,7 @@
       "sound": "crunch.",
       "sound_fail": "brush.",
       "ter_set": "Foxt_wastelandsoil",
-      "items": [ { "item": "Foxwastewood", "count": [ 0, 1 ] }, { "item": "plant_fibre", "count": [ 2, 4 ] } ]
+      "items": [ { "item": "Foxwastewood", "count": [ 0, 1 ] }, { "item": "plant_fibre", "count": [ 2, 4 ] }, { "item": "Foxseed_wasteberry", "count": [ 0, 1 ] } ]
     }
   },
   {

@@ -203,8 +203,8 @@
         "f_region_weed": 49,
         "f_region_flower": 37
       },
-      "boost_chance": 1.5,
-      "boosted_percent_coverage": 4.5,
+      "boost_chance": 1.0,
+      "boosted_percent_coverage": 3.5,
       "boosted_other": {
         "Foxf_wasteberrybush": 5,
         "Foxf_wastenutbush": 3,
