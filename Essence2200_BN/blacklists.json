@@ -117,5 +117,11 @@
     "id": "ws_survivor_camp_place",
     "copy-from": "ws_survivor_camp_place",
     "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "stream_mutable",
+    "copy-from": "stream_mutable",
+    "occurrences": [ 0, 0 ]
   }
 ]
