@@ -520,7 +520,7 @@
     "special_attacks": [
     {
       "type": "gun",
-      "cooldown": 10,
+      "cooldown": 14,
       "move_cost": 10,
       "gun_type": "Foxmongunshambler",
       "fake_skills": [ [ "gun", 1 ], [ "rifle", 1 ] ],
