@@ -114,7 +114,7 @@
         "ranges": [ [ 2, 8, "DEFAULT" ] ],
         "fake_dex": 8,
         "fake_per": 6,
-        "description": "The Zombified Officer fires their sidearm!",
+        "description": "The Zombified Reaper fires their sidearm!",
         "no_crits": true
       }
     ],
@@ -405,6 +405,21 @@
     "symbol": "S",
     "color": "dark_gray_red",
     "death_drops": "FoxmonSpecterweakdrops",
+    "special_attacks": [
+    {
+      "type": "gun",
+      "cooldown": 5,
+      "move_cost": 10,
+      "gun_type": "Foxmongunspecter",
+      "fake_skills": [ [ "gun", 1 ], [ "rifle", 1 ] ],
+      "fake_dex": 8,
+      "ranges": [ [ 0, 4, "DEFAULT" ] ],
+      "require_targeting_player": false,
+      "laser_lock": false,
+      "no_crits": true,
+      "no_ammo_sound": "a chk!"
+    }
+    ],
     "aggression": 100,
     "morale": 100,
     "melee_skill": 7,
@@ -439,6 +454,21 @@
     "symbol": "S",
     "color": "dark_gray_red",
     "death_drops": "FoxmonSpecterdrops",
+    "special_attacks": [
+    {
+      "type": "gun",
+      "cooldown": 5,
+      "move_cost": 10,
+      "gun_type": "Foxmongunspecter",
+      "fake_skills": [ [ "gun", 1 ], [ "rifle", 1 ] ],
+      "fake_dex": 8,
+      "ranges": [ [ 0, 4, "DEFAULT" ] ],
+      "require_targeting_player": false,
+      "laser_lock": false,
+      "no_crits": true,
+      "no_ammo_sound": "a chk!"
+    }
+    ],
     "aggression": 100,
     "morale": 100,
     "melee_skill": 6,

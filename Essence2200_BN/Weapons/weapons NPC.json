@@ -151,6 +151,27 @@
   "loudness": 1,
   "flags": [ "NEVER_JAMS", "NO_UNLOAD" ]
 },
+{
+ "id": "Foxmongunspecter",
+ "copy-from": "fake_item",
+ "type": "GUN",
+ "looks_like": "laser_rifle",
+ "name": { "str": "ice beam" },
+ "description": "I still hate fake guns.",
+ "weight": "1 g",
+ "volume": "1 L",
+ "price": "2 USD",
+ "price_postapoc": "2 USD",
+ "material": [ "FoxImperialSteel" ],
+ "color": "yellow",
+ "range": 30,
+ "skill": "rifle",
+ "ranged_damage": [ { "damage_type": "cold", "amount": 2, "armor_penetration": 30 } ],
+ "dispersion": 1000,
+ "modes": [ [ "DEFAULT", "semi", 1 ] ],
+ "loudness": 1,
+ "flags": [ "NEVER_JAMS", "NO_UNLOAD" ]
+},
   {
     "id": "Foxabberrantlasereye",
     "copy-from": "rifle_energy",

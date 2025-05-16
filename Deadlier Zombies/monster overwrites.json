@@ -165,6 +165,27 @@
     "flags": [ "AURA", "ONLY_ONE" ]
   },
   {
+   "id": "Foxmongunrockzombs",
+   "copy-from": "fake_item",
+   "type": "GUN",
+   "looks_like": "laser_rifle",
+   "name": { "str": "rock" },
+   "description": "I still hate fake guns.",
+   "weight": "1 g",
+   "volume": "1 L",
+   "price": "2 USD",
+   "price_postapoc": "2 USD",
+   "material": [ "FoxImperialSteel" ],
+   "color": "yellow",
+   "range": 10,
+   "skill": "rifle",
+   "ranged_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 10 } ],
+   "dispersion": 3000,
+   "modes": [ [ "DEFAULT", "semi", 1 ] ],
+   "loudness": 1,
+   "flags": [ "NEVER_JAMS", "NO_UNLOAD" ]
+  },
+  {
     "id": "Fox_zomzomgas",
     "type": "field_type",
     "intensity_levels": [
@@ -372,6 +393,20 @@
       "cooldown": 5,
       "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
     },
+    {
+      "type": "gun",
+      "cooldown": 7,
+      "move_cost": 100,
+      "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+      "gun_type": "Foxmongunrockzombs",
+      "no_ammo_sound": "",
+      "require_targeting_player": false,
+      "ranges": [ [ 1, 5, "DEFAULT" ] ],
+      "fake_dex": 6,
+      "fake_per": 6,
+      "description": "The zombie throws a rock!",
+      "no_crits": true
+    },
       [ "GRAB", 7 ], 
       [ "scratch", 20 ],
       [ "Fox_radcough", 6 ]
@@ -408,7 +443,21 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
-      [ "Fox_radcough", 6 ] 
+      [ "Fox_radcough", 6 ],
+      {
+        "type": "gun",
+        "cooldown": 7,
+        "move_cost": 100,
+        "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+        "gun_type": "Foxmongunrockzombs",
+        "no_ammo_sound": "",
+        "require_targeting_player": false,
+        "ranges": [ [ 1, 5, "DEFAULT" ] ],
+        "fake_dex": 6,
+        "fake_per": 6,
+        "description": "The zombie throws a rock!",
+        "no_crits": true
+      }
     ]
   },
   {
@@ -447,6 +496,20 @@
       "min_mul": 0.75,
       "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
     },
+    {
+      "type": "gun",
+      "cooldown": 7,
+      "move_cost": 100,
+      "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+      "gun_type": "Foxmongunrockzombs",
+      "no_ammo_sound": "",
+      "require_targeting_player": false,
+      "ranges": [ [ 1, 5, "DEFAULT" ] ],
+      "fake_dex": 6,
+      "fake_per": 6,
+      "description": "The zombie throws a rock!",
+      "no_crits": true
+    },
     [ "GRAB", 7 ], 
     [ "scratch", 20 ],
     [ "Fox_radcough", 6 ] 
@@ -462,6 +525,20 @@
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
     [ "GRAB", 7 ], 
+    {
+      "type": "gun",
+      "cooldown": 7,
+      "move_cost": 100,
+      "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+      "gun_type": "Foxmongunrockzombs",
+      "no_ammo_sound": "",
+      "require_targeting_player": false,
+      "ranges": [ [ 1, 5, "DEFAULT" ] ],
+      "fake_dex": 6,
+      "fake_per": 6,
+      "description": "The zombie throws a rock!",
+      "no_crits": true
+    },
     [ "scratch", 20 ],
     [ "Fox_radcough", 6 ]  
     ]
@@ -476,7 +553,21 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
-      [ "Fox_radcough", 6 ] 
+      [ "Fox_radcough", 6 ],
+      {
+        "type": "gun",
+        "cooldown": 7,
+        "move_cost": 100,
+        "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+        "gun_type": "Foxmongunrockzombs",
+        "no_ammo_sound": "",
+        "require_targeting_player": false,
+        "ranges": [ [ 1, 5, "DEFAULT" ] ],
+        "fake_dex": 6,
+        "fake_per": 6,
+        "description": "The zombie throws a rock!",
+        "no_crits": true
+      }
     ]
   },
   {
@@ -488,7 +579,21 @@
     "extend": { "flags": [ "GOODHEARING", "VENOM" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
-      [ "Fox_radcough", 6 ] 
+      [ "Fox_radcough", 6 ],
+      {
+        "type": "gun",
+        "cooldown": 7,
+        "move_cost": 100,
+        "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+        "gun_type": "Foxmongunrockzombs",
+        "no_ammo_sound": "",
+        "require_targeting_player": false,
+        "ranges": [ [ 1, 5, "DEFAULT" ] ],
+        "fake_dex": 6,
+        "fake_per": 6,
+        "description": "The zombie throws a rock!",
+        "no_crits": true
+      }
     ]
   },
   {
@@ -500,7 +605,21 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
-      [ "Fox_radcough", 6 ] 
+      [ "Fox_radcough", 6 ],
+      {
+        "type": "gun",
+        "cooldown": 7,
+        "move_cost": 100,
+        "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+        "gun_type": "Foxmongunrockzombs",
+        "no_ammo_sound": "",
+        "require_targeting_player": false,
+        "ranges": [ [ 1, 5, "DEFAULT" ] ],
+        "fake_dex": 6,
+        "fake_per": 6,
+        "description": "The zombie throws a rock!",
+        "no_crits": true
+      }
     ]
   },
   {
@@ -520,6 +639,20 @@
       "min_mul": 0.7,
       "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
     },
+    {
+      "type": "gun",
+      "cooldown": 7,
+      "move_cost": 100,
+      "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+      "gun_type": "Foxmongunrockzombs",
+      "no_ammo_sound": "",
+      "require_targeting_player": false,
+      "ranges": [ [ 1, 5, "DEFAULT" ] ],
+      "fake_dex": 6,
+      "fake_per": 6,
+      "description": "The zombie throws a rock!",
+      "no_crits": true
+    },
     [ "GRAB", 7 ], 
     [ "scratch", 20 ],
     [ "Fox_radcough", 6 ]
@@ -534,7 +667,21 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
-      [ "Fox_radcough", 6 ] 
+      [ "Fox_radcough", 6 ],
+      {
+        "type": "gun",
+        "cooldown": 7,
+        "move_cost": 100,
+        "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+        "gun_type": "Foxmongunrockzombs",
+        "no_ammo_sound": "",
+        "require_targeting_player": false,
+        "ranges": [ [ 1, 5, "DEFAULT" ] ],
+        "fake_dex": 6,
+        "fake_per": 6,
+        "description": "The zombie throws a rock!",
+        "no_crits": true
+      } 
     ]
   },
   {
@@ -546,7 +693,21 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
-      [ "Fox_radcough", 6 ] 
+      [ "Fox_radcough", 6 ],
+      {
+        "type": "gun",
+        "cooldown": 7,
+        "move_cost": 100,
+        "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+        "gun_type": "Foxmongunrockzombs",
+        "no_ammo_sound": "",
+        "require_targeting_player": false,
+        "ranges": [ [ 1, 5, "DEFAULT" ] ],
+        "fake_dex": 6,
+        "fake_per": 6,
+        "description": "The zombie throws a rock!",
+        "no_crits": true
+      }
     ]
   },
   {
@@ -558,7 +719,21 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
-      [ "Fox_radcough", 6 ] 
+      [ "Fox_radcough", 6 ],
+      {
+        "type": "gun",
+        "cooldown": 7,
+        "move_cost": 100,
+        "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+        "gun_type": "Foxmongunrockzombs",
+        "no_ammo_sound": "",
+        "require_targeting_player": false,
+        "ranges": [ [ 1, 5, "DEFAULT" ] ],
+        "fake_dex": 6,
+        "fake_per": 6,
+        "description": "The zombie throws a rock!",
+        "no_crits": true
+      }
     ]
   },
   {
@@ -570,7 +745,21 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
-      [ "Fox_radcough", 6 ] 
+      [ "Fox_radcough", 6 ],
+      {
+        "type": "gun",
+        "cooldown": 7,
+        "move_cost": 100,
+        "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+        "gun_type": "Foxmongunrockzombs",
+        "no_ammo_sound": "",
+        "require_targeting_player": false,
+        "ranges": [ [ 1, 5, "DEFAULT" ] ],
+        "fake_dex": 6,
+        "fake_per": 6,
+        "description": "The zombie throws a rock!",
+        "no_crits": true
+      }
     ]
   },
   {
@@ -582,7 +771,21 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
-      [ "Fox_radcough", 6 ] 
+      [ "Fox_radcough", 6 ],
+      {
+        "type": "gun",
+        "cooldown": 6,
+        "move_cost": 100,
+        "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+        "gun_type": "Foxmongunrockzombs",
+        "no_ammo_sound": "",
+        "require_targeting_player": false,
+        "ranges": [ [ 1, 5, "DEFAULT" ] ],
+        "fake_dex": 6,
+        "fake_per": 6,
+        "description": "The zombie throws a rock!",
+        "no_crits": true
+      }
     ]
   },
   {
@@ -607,7 +810,21 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "stab", "amount": 6, "armor_penetration": 5, "armor_multiplier": 0.1 } ],
     "special_attacks": [ 
-    [ "Fox_radcough", 6 ]
+    [ "Fox_radcough", 6 ],
+    {
+      "type": "gun",
+      "cooldown": 7,
+      "move_cost": 100,
+      "fake_skills": [ [ "gun", 2 ], [ "throw", 2 ] ],
+      "gun_type": "Foxmongunrockzombs",
+      "no_ammo_sound": "",
+      "require_targeting_player": false,
+      "ranges": [ [ 1, 5, "DEFAULT" ] ],
+      "fake_dex": 6,
+      "fake_per": 6,
+      "description": "The zombie throws a rock!",
+      "no_crits": true
+    }
     ]
   }
 ]
