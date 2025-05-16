@@ -443,11 +443,11 @@
     "//": "I don't fully understand where these 4 collections are used, but they mostly appear to overlap? Firearms added to mens, rest to womens. The idea is to make sure two sets of guns don't spawn in the same location.",
     "subtype": "collection",
     "entries": [
-      { "group": "Fox_supplementary_civilian_pistols", "prob": 20 },
-      { "group": "Fox_supplementary_civilian_shotguns", "prob": 5 },
-      { "item": "shot_00", "prob": 20, "charges": [ 4, 20 ] },
-      { "item": "9mm", "prob": 10, "charges": [ 11, 50 ] },
-      { "item": "380_JHP", "prob": 10, "charges": [ 11, 50 ] }
+      { "group": "Fox_supplementary_civilian_pistols", "prob": 10 },
+      { "group": "Fox_supplementary_civilian_shotguns", "prob": 2 },
+      { "item": "shot_00", "prob": 10, "charges": [ 4, 20 ] },
+      { "item": "9mm", "prob": 5, "charges": [ 11, 50 ] },
+      { "item": "380_JHP", "prob": 5, "charges": [ 11, 50 ] }
     ]
   },
   {
@@ -456,12 +456,12 @@
     "//": "I don't fully understand where these 4 collections are used, but they mostly appear to overlap? Firearms added to mens, rest womens. The idea is to make sure two sets of guns don't spawn in the same location",
     "subtype": "collection",
     "entries": [
-      { "item": "baton", "prob": 10 },
-      { "item": "tazer", "prob": 20 },
-      { "item": "pockknife", "prob": 25 },
-      { "item": "knife_hunting", "prob": 10 },
-      { "item": "1st_aid", "prob": 5 },
-      { "group": "MRE", "prob": 5, "count": [ 1, 2 ] }
+      { "item": "baton", "prob": 5 },
+      { "item": "tazer", "prob": 4 },
+      { "item": "pockknife", "prob": 15 },
+      { "item": "knife_hunting", "prob": 5 },
+      { "item": "1st_aid", "prob": 4 },
+      { "group": "MRE", "prob": 2, "count": [ 1, 2 ] }
     ]
   },
   {
@@ -470,8 +470,8 @@
     "//": "I don't fully understand where these 4 collections are used, but they mostly appear to overlap? Firearms added to mens, rest to womens. The idea is to make sure two sets of guns don't spawn in the same location",
     "subtype": "collection",
     "entries": [
-      { "group": "Fox_supplementary_civilian_rifles", "prob": 20 },
-      { "group": "Fox_supplementary_civilian_shotguns", "prob": 10 }
+      { "group": "Fox_supplementary_civilian_rifles", "prob": 8 },
+      { "group": "Fox_supplementary_civilian_shotguns", "prob": 5 }
     ]
   },
   {
@@ -480,11 +480,11 @@
     "//": "I don't fully understand where these 4 collections are used, but they mostly appear to overlap? Firearms added to mens, rest to womens. The idea is to make sure two sets of guns don't spawn in the same location",
     "subtype": "collection",
     "entries": [
-      { "item": "hammer", "prob": 20 },
-      { "item": "golf_club", "prob": 30 },
-      { "item": "survival_kit", "prob": 15 },
-      { "item": "handflare", "prob": 20 },
-      { "group": "MRE", "prob": 15, "count": [ 1, 5 ] }
+      { "item": "hammer", "prob": 8 },
+      { "item": "golf_club", "prob": 10 },
+      { "item": "survival_kit", "prob": 7 },
+      { "item": "handflare", "prob": 10 },
+      { "group": "MRE", "prob": 5, "count": [ 1, 5 ] }
     ]
   },
   {
