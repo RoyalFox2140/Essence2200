@@ -13,15 +13,17 @@
     "name": "GROUP_ZOMBIE",
     "default": "mon_null",
     "monsters": [
-      { "monster": "FoxmonAbberantnightcrawler", "freq": 6, "cost_multiplier": 4, "pack_size": [ 1, 3 ] },
-      { "monster": "FoxmonAbberantLeaper", "freq": 6, "cost_multiplier": 4, "pack_size": [ 1, 3 ] },
-      { "monster": "FoxmonAbberantLeaperImpaler", "freq": 6, "cost_multiplier": 4, "pack_size": [ 1, 3 ] },
-      { "monster": "FoxmonAbberantStalker", "freq": 6, "cost_multiplier": 4, "pack_size": [ 1, 3 ] },
-      { "monster": "FoxmonAbberantFleshBall", "freq": 5, "cost_multiplier": 4, "pack_size": [ 2, 4 ] },
-      { "monster": "FoxmonAbberantShadow", "freq": 7, "cost_multiplier": 6, "pack_size": [ 1, 3 ], "starts": 480 },
-      { "monster": "FoxmonLVAbberration", "freq": 4, "cost_multiplier": 6, "starts": 720 },
-      { "monster": "FoxmonZombifiedReaper", "freq": 5, "cost_multiplier": 6, "pack_size": [ 3, 5 ] },
-      { "monster": "FoxmonZombifiedReaperCO", "freq": 5, "cost_multiplier": 5 }
+      { "monster": "FoxmonAbberantnightcrawler", "freq": 6, "cost_multiplier": 3, "pack_size": [ 1, 3 ] },
+      { "monster": "FoxmonAbberantLeaper", "freq": 6, "cost_multiplier": 3, "pack_size": [ 1, 3 ] },
+      { "monster": "FoxmonAbberantLeaperImpaler", "freq": 6, "cost_multiplier": 3, "pack_size": [ 1, 3 ] },
+      { "monster": "FoxmonAbberantStalker", "freq": 6, "cost_multiplier": 3, "pack_size": [ 1, 3 ] },
+      { "monster": "FoxmonAbberantFleshBall", "freq": 6, "cost_multiplier": 3, "pack_size": [ 2, 4 ] },
+      { "monster": "FoxmonAbberantShambler", "freq": 5, "cost_multiplier": 1, "pack_size": [ 12, 30 ] },
+      { "monster": "FoxmonAbberantShambler", "freq": 12, "cost_multiplier": 1, "pack_size": [ 3, 7 ] },
+      { "monster": "FoxmonAbberantShadow", "freq": 7, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+      { "monster": "FoxmonLVAbberration", "freq": 4, "cost_multiplier": 5 },
+      { "monster": "FoxmonZombifiedReaper", "freq": 5, "cost_multiplier": 5, "pack_size": [ 3, 5 ] },
+      { "monster": "FoxmonZombifiedReaperCO", "freq": 5, "cost_multiplier": 4 }
     ]
   }
 ]

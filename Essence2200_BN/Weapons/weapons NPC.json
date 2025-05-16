@@ -130,6 +130,27 @@
    "loudness": 1,
    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
  },
+ {
+  "id": "Foxmongunshambler",
+  "copy-from": "fake_item",
+  "type": "GUN",
+  "looks_like": "laser_rifle",
+  "name": { "str": "Shambler thorns" },
+  "description": "I still hate fake guns.",
+  "weight": "1 g",
+  "volume": "1 L",
+  "price": "2 USD",
+  "price_postapoc": "2 USD",
+  "material": [ "FoxImperialSteel" ],
+  "color": "yellow",
+  "range": 30,
+  "skill": "rifle",
+  "ranged_damage": [ { "damage_type": "acid", "amount": 3, "armor_penetration": 30 }, { "damage_type": "stab", "amount": 2 } ],
+  "dispersion": 2000,
+  "modes": [ [ "DEFAULT", "semi", 1 ] ],
+  "loudness": 1,
+  "flags": [ "NEVER_JAMS", "NO_UNLOAD" ]
+},
   {
     "id": "Foxabberrantlasereye",
     "copy-from": "rifle_energy",

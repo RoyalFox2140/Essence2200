@@ -33,7 +33,7 @@
     "symbol": "0",
     "color": "brown",
     "move_cost": 8,
-    "flags": [ "TRANSPARENT", "VEH_TREAT_AS_BASH_BELOW", "ADV_DECONSTRUCT" ],
+    "flags": [ "TRANSPARENT", "VEH_TREAT_AS_BASH_BELOW", "ADV_DECONSTRUCT", "PIT_SHALLOW" ],
     "bash": { "sound": "thump", "ter_set": "Foxt_wastelandpit", "str_min": 100, "str_max": 200, "str_min_supported": 150 },
     "deconstruct": { "ter_set": "Foxt_wastelandpit", "items": [ { "item": "Fox_wastedirt", "charges": 50 } ] }
   },
@@ -88,7 +88,7 @@
     "color": "brown",
     "move_cost": 10,
     "trap": "tr_pit",
-    "flags": [ "TRANSPARENT" ]
+    "flags": [ "TRANSPARENT", "PIT_DEEP" ]
   },
   {
     "type": "terrain",
