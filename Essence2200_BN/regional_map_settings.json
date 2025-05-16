@@ -419,41 +419,35 @@
         }
       },
       "road": {
-        "chance": 75,
+        "chance": 30,
         "extras": {
           "mx_helicopter": 1,
-          "mx_military": 25,
-          "mx_science": 40,
-          "mx_collegekids": 50,
-          "mx_roadblock": 100,
-          "mx_bandits_block": 80,
-          "mx_drugdeal": 30,
-          "mx_supplydrop": 10,
-          "mx_crater": 10,
-          "mx_roadworks": 100,
-          "mx_mayhem": 50,
+          "mx_roadblock": 10,
+          "mx_bandits_block": 5,
+          "mx_crater": 180,
+          "mx_roadworks": 5,
+          "mx_mayhem": 30,
           "mx_casings": 100,
-          "mx_prison_bus": 15
+          "mx_prison_bus": 1
         }
       },
       "bridgehead_ground": { "chance": 5, "extras": { "mx_minefield": 100 } },
       "build": {
-        "chance": 45,
+        "chance": 20,
         "extras": {
-          "mx_house_spider": 40,
-          "mx_military": 5,
-          "mx_science": 12,
-          "mx_collegekids": 15,
+          "mx_house_spider": 5,
+          "mx_military": 2,
+          "mx_science": 1,
+          "mx_collegekids": 10,
           "mx_jabberwock": 1,
-          "mx_crater": 90,
-          "mx_point_burned_ground": 5,
+          "mx_crater": 120,
           "mx_looters": 10,
-          "mx_corpses": 30
+          "mx_corpses": 20
         }
       },
       "marloss": { "chance": 20, "extras": { "mx_marloss_pilgrimage": 100 } },
       "subway": {
-        "chance": 75,
+        "chance": 30,
         "extras": { "mx_military": 5, "mx_science": 12, "mx_collegekids": 15, "mx_casings": 30 }
       },
       "research_facility_lot": {
