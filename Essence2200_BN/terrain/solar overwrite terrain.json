@@ -22,5 +22,15 @@
     "looks_like": "f_solar_unit_v2",
     "color": "yellow",
     "active": [ "solar", { "power": 40 } ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_water_pool",
+    "copy-from": "t_water_pool",
+    "name": "pool water",
+    "description": "A deep pool full of water.  Never swim without a lifeguard present.  Even though monsters probably ate them.",
+    "symbol": "~",
+    "color": "light_blue",
+    "extend": { "flags": [ "SALT_WATER" ] }
   }
 ]
