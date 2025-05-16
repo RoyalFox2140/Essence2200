@@ -9,5 +9,113 @@
       "mon_deer",
       "mon_deer_fawn"
     ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Isherwood Farms",
+    "copy-from": "Isherwood Farms",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Cabin_Lapin",
+    "copy-from": "Cabin_Lapin",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Strangle Temple",
+    "copy-from": "Strangle Temple",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Standing stones",
+    "copy-from": "Standing stones",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Bee Hive",
+    "copy-from": "Bee Hive",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Strange Cabin",
+    "copy-from": "Strange Cabin",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "St_Johns_farm",
+    "copy-from": "St_Johns_farm",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Spider Pit",
+    "copy-from": "Spider Pit",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Rat Cave",
+    "copy-from": "Rat Cave",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "hub_01",
+    "copy-from": "hub_01",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Occupied Lumbermill",
+    "copy-from": "Occupied Lumbermill",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Occupied Chem Lab",
+    "copy-from": "Occupied Chem Lab",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Derelict Property",
+    "copy-from": "Derelict Property",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "campsite_field_biker_destroyed",
+    "copy-from": "campsite_field_biker_destroyed",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "campsite_field_biker",
+    "copy-from": "campsite_field_biker",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Hunting Blind",
+    "copy-from": "Hunting Blind",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "ws_survivor_bunker_place",
+    "copy-from": "ws_survivor_bunker_place",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "ws_survivor_camp_place",
+    "copy-from": "ws_survivor_camp_place",
+    "occurrences": [ 0, 0 ]
   }
 ]
