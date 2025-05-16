@@ -8,5 +8,19 @@
     "description": "'This game is too hard' Oh then we'll make it easier. 'This game is too easy'.",
     "category": "content",
     "dependencies": [ "bn" ]
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "PLAYER_HEALING_RATE",
+    "info": "Set base player healing rate per turn. Default: 0.0001",
+    "stype": "float",
+    "value": 0.00001
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "NPC_HEALING_RATE",
+    "info": "Set base NPC healing rate per turn. Default: 0.0001",
+    "stype": "float",
+    "value": 0.00001
   }
 ]
