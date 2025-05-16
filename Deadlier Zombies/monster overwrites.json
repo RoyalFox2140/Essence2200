@@ -307,6 +307,7 @@
   {
     "id": "mon_feral_labsecurity_flashlight",
     "copy-from": "mon_feral_labsecurity_flashlight",
+    "extend": { "flags": [ "GOODHEARING", "VENOM" ] },
     "//": "Flashlights have batteries. They run out after a day at most Apocalypse was at least a week according to lore.",
     "type": "MONSTER",
     "luminance": 0
@@ -314,12 +315,14 @@
   {
     "id": "mon_feral_survivalist",
     "copy-from": "mon_feral_survivalist",
+    "extend": { "flags": [ "GOODHEARING", "VENOM" ] },
     "//": "Maybe they had more, and looted more, but a week is a week.",
     "type": "MONSTER",
     "luminance": 0
   },
   {
     "id": "mon_feral_militia",
+    "extend": { "flags": [ "GOODHEARING", "VENOM" ] },
     "copy-from": "mon_feral_militia",
     "type": "MONSTER",
     "luminance": 0
@@ -360,6 +363,7 @@
     "melee_skill": 6,
     "melee_dice": 4,
     "grab_strength": 3,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [ 
     {
@@ -380,6 +384,7 @@
     "melee_skill": 8,
     "melee_dice": 5,
     "grab_strength": 3,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [ 
     {
@@ -400,6 +405,7 @@
     "melee_skill": 7,
     "melee_dice": 4,
     "grab_strength": 3,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
@@ -411,6 +417,7 @@
     "type": "MONSTER",
     "melee_skill": 3,
     "melee_dice": 3,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [ 
     {
@@ -430,6 +437,7 @@
     "melee_skill": 6,
     "melee_dice": 3,
     "grab_strength": 3,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [ 
     {
@@ -450,6 +458,7 @@
     "type": "MONSTER",
     "melee_dice": 4,
     "grab_strength": 4,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
     [ "GRAB", 7 ], 
@@ -464,6 +473,7 @@
     "melee_skill": 4,
     "melee_dice": 4,
     "grab_strength": 3,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
@@ -475,6 +485,7 @@
     "type": "MONSTER",
     "melee_skill": 4,
     "melee_dice": 3,
+    "extend": { "flags": [ "GOODHEARING", "VENOM" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
@@ -486,6 +497,7 @@
     "type": "MONSTER",
     "melee_dice": 3,
     "grab_strength": 3,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
@@ -498,6 +510,7 @@
     "melee_skill": 6,
     "melee_dice": 5,
     "grab_strength": 3,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [ 
     {
@@ -518,6 +531,7 @@
     "type": "MONSTER",
     "melee_dice": 5,
     "grab_strength": 4,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
@@ -529,6 +543,7 @@
     "type": "MONSTER",
     "melee_dice": 5,
     "grab_strength": 4,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
@@ -540,6 +555,7 @@
     "type": "MONSTER",
     "melee_dice": 6,
     "grab_strength": 8,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
@@ -551,6 +567,7 @@
     "type": "MONSTER",
     "melee_dice": 4,
     "grab_strength": 2,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
@@ -562,6 +579,7 @@
     "type": "MONSTER",
     "melee_dice": 6,
     "grab_strength": 2,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
@@ -573,6 +591,7 @@
     "type": "MONSTER",
     "melee_dice": 6,
     "grab_strength": 2,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ] 
@@ -585,6 +604,7 @@
     "melee_skill": 6,
     "melee_dice": 5,
     "grab_strength": 3,
+    "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "stab", "amount": 6, "armor_penetration": 5, "armor_multiplier": 0.1 } ],
     "special_attacks": [ 
     [ "Fox_radcough", 6 ]
