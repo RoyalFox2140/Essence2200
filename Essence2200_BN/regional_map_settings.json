@@ -438,16 +438,15 @@
       },
       "bridgehead_ground": { "chance": 5, "extras": { "mx_minefield": 100 } },
       "build": {
-        "chance": 90,
+        "chance": 45,
         "extras": {
           "mx_house_spider": 40,
           "mx_military": 5,
           "mx_science": 12,
           "mx_collegekids": 15,
           "mx_jabberwock": 1,
-          "mx_crater": 60,
+          "mx_crater": 90,
           "mx_point_burned_ground": 5,
-          "mx_casings": 30,
           "mx_looters": 10,
           "mx_corpses": 30
         }
