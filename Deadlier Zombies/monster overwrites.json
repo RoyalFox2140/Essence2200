@@ -826,5 +826,42 @@
       "no_crits": true
     }
     ]
+  },
+  {
+    "id": "mon_zombie_dog",
+    "copy-from": "mon_zombie_dog",
+    "type": "MONSTER",
+    "melee_skill": 6,
+    "melee_dice": 2,
+    "hp": 70,
+    "extend": { "flags": [ "GOODHEARING" ] },
+    "special_attacks": [ 
+    [ "Fox_radcough", 6 ]
+    ]
+  },
+  {
+    "id": "mon_dog_skeleton",
+    "copy-from": "mon_dog_skeleton",
+    "type": "MONSTER",
+    "melee_skill": 6,
+    "melee_dice": 2,
+    "hp": 60,
+    "extend": { "flags": [ "GOODHEARING" ] },
+    "special_attacks": [ 
+    [ "Fox_radcough", 6 ]
+    ]
+  },
+  {
+    "id": "mon_dog_zombie_cop",
+    "copy-from": "mon_dog_zombie_cop",
+    "type": "MONSTER",
+    "melee_skill": 6,
+    "melee_dice": 2,
+    "grab_strength": 3,
+    "hp": 70,
+    "extend": { "flags": [ "GOODHEARING" ] },
+    "special_attacks": [ 
+    [ "Fox_radcough", 6 ]
+    ]
   }
 ]
