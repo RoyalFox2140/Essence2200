@@ -199,6 +199,25 @@
   },
   {
     "type": "recipe",
+    "result": "Foxtarrubber",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "id_suffix": "FoxDistillmicro",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 1,
+    "result_mult": 2,
+    "time": "1 h",
+    "autolearn": true,
+    "tools": [ [ [ "water_boiling_heat", 10, "LIST" ] ] ],
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 }, { "id": "CHEM", "level": 2 } ],
+    "components": [
+    [ [ "salt_water", 1 ] ],
+    [ [ "Foxmotordewsludge", 1 ] ]
+  ]
+  },
+  {
+    "type": "recipe",
     "result": "Foximperialsteelchunk",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_ESSTHEORY",
