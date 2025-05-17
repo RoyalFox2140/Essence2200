@@ -409,7 +409,7 @@
       "description": "The zombie throws a rock!",
       "no_crits": true
     },
-      [ "GRAB", 7 ], 
+      [ "GRAB", 2 ], 
       [ "scratch", 10 ],
       [ "Fox_radcough", 6 ]
     ]
@@ -431,7 +431,7 @@
         "no_infection_chance": 2,
         "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
       },
-      [ "GRAB", 7 ], 
+      [ "GRAB", 2 ], 
       [ "scratch", 10 ],
       [ "Fox_radcough", 6 ]
     ]
@@ -447,6 +447,7 @@
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ],
+      [ "GRAB", 2 ], 
       {
         "type": "gun",
         "cooldown": 7,
@@ -513,7 +514,7 @@
       "description": "The zombie throws a rock!",
       "no_crits": true
     },
-    [ "GRAB", 7 ], 
+    [ "GRAB", 2 ], 
     [ "scratch", 10 ],
     [ "Fox_radcough", 6 ] 
     ]
@@ -527,7 +528,7 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
-    [ "GRAB", 7 ], 
+    [ "GRAB", 2 ], 
     {
       "type": "gun",
       "cooldown": 7,
@@ -663,7 +664,7 @@
       "description": "The zombie throws a rock!",
       "no_crits": true
     },
-    [ "GRAB", 7 ], 
+    [ "GRAB", 2 ], 
     [ "scratch", 20 ],
     [ "Fox_radcough", 6 ]
     ]
@@ -678,6 +679,7 @@
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ],
+      [ "GRAB", 2 ], 
       {
         "type": "bite",
         "move_cost": 80,
@@ -711,6 +713,7 @@
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ],
+      [ "GRAB", 2 ], 
       {
         "type": "bite",
         "move_cost": 80,
@@ -770,6 +773,7 @@
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ],
+      [ "GRAB", 2 ], 
       {
         "type": "bite",
         "move_cost": 80,
@@ -803,6 +807,7 @@
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ],
+      [ "GRAB", 2 ], 
       {
         "type": "bite",
         "move_cost": 80,
@@ -835,7 +840,8 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
-      [ "Fox_radcough", 6 ] 
+      [ "Fox_radcough", 6 ],
+      [ "GRAB", 2 ]
     ]
   },
   {
@@ -849,6 +855,7 @@
     "melee_damage": [ { "damage_type": "stab", "amount": 6, "armor_penetration": 5, "armor_multiplier": 0.1 } ],
     "special_attacks": [ 
     [ "Fox_radcough", 6 ],
+    [ "GRAB", 2 ], 
     {
       "type": "gun",
       "cooldown": 7,
