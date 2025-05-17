@@ -195,7 +195,7 @@
         }
       }
     },
-    "river_scale": 1,
+    "river_scale": 0.1,
     "field_coverage": {
       "percent_coverage": 0.05,
       "default_ter": "Foxt_wastelandshrub",
@@ -219,8 +219,8 @@
       "boosted_other_percent": 80
     },
     "overmap_lake_settings": {
-      "noise_threshold_lake": 0.25,
-      "lake_size_min": 20,
+      "noise_threshold_lake": 0.70,
+      "lake_size_min": 5,
       "lake_depth": -5,
       "shore_extendable_overmap_terrain": [ "forest", "forest_thick", "forest_water", "field" ],
       "shore_extendable_overmap_terrain_aliases": [
