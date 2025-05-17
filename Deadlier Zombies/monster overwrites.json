@@ -356,7 +356,8 @@
     "move_cost": 150,
     "damage_max_instance": [ { "damage_type": "cut", "amount": 8,  "armor_penetration": 5 } ],
     "effects": [
-      { "id": "Fox_zomzomrads", "duration": 300, "chance": 80 }
+      { "id": "Fox_zomzomrads", "duration": 300, "chance": 80 },
+      { "id": "bleed", "duration": 300, "bp": "torso", "chance": 80 }
     ],
     "body_parts": [
       [ "foot_l", 2 ],
@@ -389,8 +390,9 @@
     "special_attacks": [ 
     {
       "type": "bite",
-      "move_cost": 120,
-      "cooldown": 5,
+      "move_cost": 80,
+      "cooldown": 3,
+      "no_infection_chance": 2,
       "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
     },
     {
@@ -408,7 +410,7 @@
       "no_crits": true
     },
       [ "GRAB", 7 ], 
-      [ "scratch", 20 ],
+      [ "scratch", 10 ],
       [ "Fox_radcough", 6 ]
     ]
   },
@@ -422,14 +424,15 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [ 
-    {
-      "type": "bite",
-      "move_cost": 120,
-      "cooldown": 5,
-      "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
-    },
+      {
+        "type": "bite",
+        "move_cost": 80,
+        "cooldown": 3,
+        "no_infection_chance": 2,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
+      },
       [ "GRAB", 7 ], 
-      [ "scratch", 20 ],
+      [ "scratch", 10 ],
       [ "Fox_radcough", 6 ]
     ]
   },
@@ -475,7 +478,7 @@
       "cooldown": 5,
       "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
     },
-      [ "scratch", 20 ],
+      [ "scratch", 10 ],
       [ "Fox_radcough", 6 ] 
     ]
   },
@@ -488,14 +491,14 @@
     "grab_strength": 3,
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
-    "special_attacks": [ 
-    {
-      "type": "bite",
-      "move_cost": 120,
-      "cooldown": 5,
-      "min_mul": 0.75,
-      "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
-    },
+    "special_attacks": [
+      {
+        "type": "bite",
+        "move_cost": 80,
+        "cooldown": 3,
+        "no_infection_chance": 2,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
+      },
     {
       "type": "gun",
       "cooldown": 7,
@@ -511,7 +514,7 @@
       "no_crits": true
     },
     [ "GRAB", 7 ], 
-    [ "scratch", 20 ],
+    [ "scratch", 10 ],
     [ "Fox_radcough", 6 ] 
     ]
   },
@@ -539,7 +542,7 @@
       "description": "The zombie throws a rock!",
       "no_crits": true
     },
-    [ "scratch", 20 ],
+    [ "scratch", 5 ],
     [ "Fox_radcough", 6 ]  
     ]
   },
@@ -580,6 +583,13 @@
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ],
+      {
+        "type": "bite",
+        "move_cost": 80,
+        "cooldown": 3,
+        "no_infection_chance": 1,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
+      },
       {
         "type": "gun",
         "cooldown": 7,
@@ -632,13 +642,13 @@
     "extend": { "flags": [ "GOODHEARING" ] },
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [ 
-    {
-      "type": "bite",
-      "move_cost": 120,
-      "cooldown": 5,
-      "min_mul": 0.7,
-      "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
-    },
+      {
+        "type": "bite",
+        "move_cost": 80,
+        "cooldown": 3,
+        "no_infection_chance": 2,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
+      },
     {
       "type": "gun",
       "cooldown": 7,
@@ -669,6 +679,13 @@
     "special_attacks": [
       [ "Fox_radcough", 6 ],
       {
+        "type": "bite",
+        "move_cost": 80,
+        "cooldown": 3,
+        "no_infection_chance": 2,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 10, "armor_penetration": 8 } ]
+      },
+      {
         "type": "gun",
         "cooldown": 7,
         "move_cost": 100,
@@ -694,6 +711,13 @@
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ],
+      {
+        "type": "bite",
+        "move_cost": 80,
+        "cooldown": 3,
+        "no_infection_chance": 2,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 10, "armor_penetration": 8 } ]
+      },
       {
         "type": "gun",
         "cooldown": 7,
@@ -747,6 +771,13 @@
     "special_attacks": [
       [ "Fox_radcough", 6 ],
       {
+        "type": "bite",
+        "move_cost": 80,
+        "cooldown": 3,
+        "no_infection_chance": 2,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
+      },
+      {
         "type": "gun",
         "cooldown": 7,
         "move_cost": 100,
@@ -772,6 +803,13 @@
     "melee_damage": [ { "damage_type": "bash", "amount": 2, "armor_penetration": 4, "armor_multiplier": 0.2 } ],
     "special_attacks": [
       [ "Fox_radcough", 6 ],
+      {
+        "type": "bite",
+        "move_cost": 80,
+        "cooldown": 2,
+        "no_infection_chance": 2,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 4, "armor_penetration": 8 } ]
+      },
       {
         "type": "gun",
         "cooldown": 6,
@@ -836,6 +874,13 @@
     "hp": 70,
     "extend": { "flags": [ "GOODHEARING" ] },
     "special_attacks": [ 
+      {
+        "type": "bite",
+        "move_cost": 80,
+        "cooldown": 3,
+        "no_infection_chance": 2,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
+      },
     [ "Fox_radcough", 6 ]
     ]
   },
@@ -860,6 +905,13 @@
     "hp": 70,
     "extend": { "flags": [ "GOODHEARING" ] },
     "special_attacks": [ 
+      {
+        "type": "bite",
+        "move_cost": 80,
+        "cooldown": 3,
+        "no_infection_chance": 2,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
+      },
     [ "Fox_radcough", 6 ]
     ]
   },
@@ -872,6 +924,13 @@
     "hp": 70,
     "extend": { "flags": [ "GOODHEARING" ] },
     "special_attacks": [ 
+      {
+        "type": "bite",
+        "move_cost": 80,
+        "cooldown": 3,
+        "no_infection_chance": 2,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 6, "armor_penetration": 8 } ]
+      },
     [ "Fox_radcough", 6 ]
     ]
   }
