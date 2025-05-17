@@ -40,6 +40,38 @@
     "name": { "str": "SGA Operations Access" }
   },
   {
+    "type": "tool_quality",
+    "id": "FoxMagicSalvage",
+    "name": { "str": "Telekinetic salvage" },
+    "salvagable_materials": [
+      "steel",
+      "hardsteel",
+      "budget_steel",
+      "tin",
+      "silver",
+      "gold",
+      "copper",
+      "iron",
+      "acidchitin",
+      "alien_resin",
+      "bone",
+      "chitin",
+      "cotton",
+      "faux_fur",
+      "fur",
+      "kevlar",
+      "kevlar_rigid",
+      "leather",
+      "neoprene",
+      "nomex",
+      "nylon",
+      "plastic",
+      "rubber",
+      "wood",
+      "wool"
+    ]
+  },
+  {
     "id": "Foxsewing_BW",
     "type": "requirement",
     "//": "Crafting and repairing of ballistic weave clothing",
