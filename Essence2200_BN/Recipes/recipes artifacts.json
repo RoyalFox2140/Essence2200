@@ -51,6 +51,109 @@
   },
   {
     "type": "recipe",
+    "result": "Foxartifactcold2",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactMachineSystem",
+    "time": "30 m",
+    "autolearn": true,
+    "tools": [ [ [ "Foxfake_artifactstabilizersystem", 30000 ] ] ],
+    "components": [ [ [ "Foxartifactcold1", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxartifactheat2",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactMachineSystem",
+    "time": "30 m",
+    "autolearn": true,
+    "tools": [ [ [ "Foxfake_artifactstabilizersystem", 30000 ] ] ],
+    "components": [ [ [ "Foxartifactheat1", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxartifactelectric2",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactMachineSystem",
+    "time": "30 m",
+    "autolearn": true,
+    "tools": [ [ [ "Foxfake_artifactstabilizersystem", 30000 ] ] ],
+    "components": [ [ [ "Foxartifactelectric1", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxartifactacid2",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactMachineSystem",
+    "time": "30 m",
+    "autolearn": true,
+    "tools": [ [ [ "Foxfake_artifactstabilizersystem", 30000 ] ] ],
+    "components": [ [ [ "Foxartifactacid1", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxartifactgrav2",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactMachineSystem",
+    "time": "30 m",
+    "autolearn": true,
+    "tools": [ [ [ "Foxfake_artifactstabilizersystem", 30000 ] ] ],
+    "components": [ [ [ "Foxartifactgrav1", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxArtifactstudyheat",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactStudy",
+    "time": "5 m",
+    "autolearn": true,
+    "using": [ [ "FoxDocwriting", 5 ] ],
+    "tools": [ [ [ "Foxartifactheat2", -1 ] ] ],
+    "components": [ [ [ "paper", 10 ] ], [ [ "Foxartifactunstable", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxArtifactstudycold",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactStudy",
+    "time": "5 m",
+    "autolearn": true,
+    "using": [ [ "FoxDocwriting", 5 ] ],
+    "tools": [ [ [ "Foxartifactcold2", -1 ] ] ],
+    "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxArtifactstudyelectric",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactStudy",
+    "time": "5 m",
+    "autolearn": true,
+    "using": [ [ "FoxDocwriting", 5 ] ],
+    "tools": [ [ [ "Foxartifactelectric2", -1 ] ] ],
+    "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxArtifactstudyacid",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifactStudy",
+    "time": "5 m",
+    "autolearn": true,
+    "using": [ [ "FoxDocwriting", 5 ] ],
+    "tools": [ [ [ "Foxartifactacid2", -1 ] ] ],
+    "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "Fox_ApprenticeKoolaid",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
@@ -59,11 +162,83 @@
     "autolearn": true,
     "components": 
     [ 
-      [ [ "Foxartifactunstable", 1 ], [ "Foxartifactcold2", 1 ]  ],
-      [ [ "Foxartifactunstable", 1 ], [ "Foxartifactacid2", 1 ]  ],
-      [ [ "Foxartifactunstable", 1 ], [ "Foxartifactheat2", 1 ]  ],
-      [ [ "Foxartifactunstable", 1 ], [ "Foxartifactgrav2", 1 ] ], 
-      [ [ "Foxartifactunstable", 1 ], [ "Foxartifactelectric2", 1 ] ]
+      [ [ "FoxArtifactstudyheat", 1 ]  ],
+      [ [ "FoxArtifactstudycold", 1 ]  ],
+      [ [ "FoxArtifactstudyelectric", 1 ]  ],
+      [ [ "FoxArtifactstudyacid", 1 ] ], 
+      [ [ "Foxcolossisoul", 1 ] ]
+    ]
+  },
+  {
+    "result": "FoxClimateControlartifact",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "10 m",
+    "autolearn": true,
+    "reversible": true,
+    "components": [
+      [ [ "string_36", 2 ] ],
+      [ [ "Foxartifactcold2", 1 ] ],
+      [ [ "Foxartifactheat2", 1 ] ]
+    ]
+  },
+  {
+    "result": "Foxartifactoven",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "1 m",
+    "autolearn": true,
+    "reversible": true,
+    "components": [
+      [ [ "oven", 1 ] ],
+      [ [ "Foxartifactheat2", 1 ] ]
+    ]
+  },
+  {
+    "result": "Foxartifactfreezer",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "1 m",
+    "autolearn": true,
+    "reversible": true,
+    "components": [
+      [ [ "freezer", 1 ] ],
+      [ [ "Foxartifactcold2", 1 ] ]
+    ]
+  },
+  {
+    "result": "Foxartifactstabilizer",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "6 h",
+    "autolearn": true,
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "fabrication", 8 ], [ "electronics", 8 ], [ "mechanics", 6 ], [ "computer", 6 ], [ "FoxEssTheory", 3 ] ],
+    "difficulty": 2,
+    "using": [ [ "soldering_standard", 400 ], [ "welding_standard", 300 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 } ],
+    "components": [
+      [ [ "sheet_metal", 20 ] ],
+      [ [ "Foximperialsteelchunk", 20 ] ],
+      [ [ "cable", 3 ] ],
+      [ [ "hose", 4 ] ],
+      [ [ "condensor_coil", 4 ] ],
+      [ [ "evaporator_coil", 4 ] ],
+      [ [ "refrigerant_tank", 4 ] ],
+      [ [ "thermostat", 2 ] ],
+      [ [ "RAM", 20 ] ],
+      [ [ "large_lcd_screen", 2 ] ],
+      [ [ "e_scrap", 100 ] ],
+      [ [ "circuit", 20 ] ],
+      [ [ "amplifier", 10 ] ],
+      [ [ "power_supply", 20 ] ],
+      [ [ "element", 20 ] ],
+      [ [ "cable", 400 ] ],
+      [ [ "motor", 1 ] ]
     ]
   },
   {

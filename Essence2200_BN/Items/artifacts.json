@@ -361,7 +361,7 @@
          }
        ] 
       },
-    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You feel a little lighter from wearing it, and it can stop a pistol round."
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You feel a little lighter from wearing it. If you understood magic you could make ballistic protection armor."
   },
   {
     "id": "Foxartifactgrav2",
@@ -382,7 +382,7 @@
          }
        ] 
       },
-    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You feel a lot lighter from wearing it, and it can stop a powerful rifle round."
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You feel a lot lighter from wearing it. If you understood magic you could make ballistic protection armor."
   },
   {
     "id": "Foxartifactgrav3",
@@ -403,7 +403,7 @@
          }
        ] 
       },
-    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You feel the burdens of gravity disappear, and it can stop most kinetic projectiles."
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You feel the burdens of gravity disappear. If you understood magic you could make ballistic protection armor."
   },
   {
     "id": "Foxartifactbatterysmall",
@@ -467,5 +467,151 @@
     "capacity": 4500,
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE", "MAG_COMPACT" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "FoxArtifactstudyheat",
+    "category": "spare_parts",
+    "name": { "str_sp": "Artifact Study: Heat" },
+    "description": "You've studied this artifact and wrote your findings on paper, you feel a greater understanding of magic. Use all 4 studies to become an Apostle.",
+    "looks_like": "cash_card",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "color": "dark_gray"
+  },
+  {
+    "type": "GENERIC",
+    "id": "FoxArtifactstudycold",
+    "category": "spare_parts",
+    "name": { "str_sp": "Artifact Study: Cold" },
+    "description": "You've studied this artifact and wrote your findings on paper, you feel a greater understanding of magic. Use all 4 studies to become an Apostle.",
+    "looks_like": "cash_card",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "color": "dark_gray"
+  },
+  {
+    "type": "GENERIC",
+    "id": "FoxArtifactstudyelectric",
+    "category": "spare_parts",
+    "name": { "str_sp": "Artifact Study: Electric" },
+    "description": "You've studied this artifact and wrote your findings on paper, you feel a greater understanding of magic. Use all 4 studies to become an Apostle.",
+    "looks_like": "cash_card",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "color": "dark_gray"
+  },
+  {
+    "type": "GENERIC",
+    "id": "FoxArtifactstudyacid",
+    "category": "spare_parts",
+    "name": { "str_sp": "Artifact Study: Acid" },
+    "description": "You've studied this artifact and wrote your findings on paper, you feel a greater understanding of magic. Use all 4 studies to become an Apostle.",
+    "looks_like": "cash_card",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "color": "dark_gray"
+  },
+  {
+    "id": "FoxClimateControlartifact",
+    "type": "ARMOR",
+    "name": { "str": "Climate Control belt" },
+    "description": "Combining a cold and heat artifact with string and carrying it at your side lets you be protected from temperature. Disassemble to get the artifacts back.",
+    "weight": "2 g",
+    "volume": "1000 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "FoxDivineMaterial" ],
+    "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
+    "symbol": "[",
+    "color": "light_blue",
+    "coverage": 0,
+    "encumbrance": 0,
+    "warmth": 0,
+    "material_thickness": 1,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "ench_effects": [ { "effect": "FoxClimateControl", "intensity": 1 } ]
+        }
+      ]
+    },
+    "flags": [ "STURDY", "AURA", "ONLY_ONE", "CLIMATE_CONTROL", "COMPACT" ]
+  },
+  {
+    "id": "Foxartifactoven",
+    "type": "TOOL",
+    "looks_like": "oven",
+    "name": "artifact oven",
+    "description": "You modified the oven with a heat artifact, it can cook forever if you place it on the ground.",
+    "weight": "60 kg",
+    "volume": "45000 ml",
+    "price_postapoc": "2 USD",
+    "material": "FoxDivineMaterial",
+    "symbol": "#",
+    "color": "dark_gray",
+    "category": "scrap_electronics"
+  },
+  {
+    "id": "Foxartifactfreezer",
+    "type": "TOOL",
+    "looks_like": "f_fridge",
+    "name": "artifact freezer",
+    "description": "You modified the freezer with a cold artifact, keeping its contents frozen indefinitely.",
+    "weight": "80 kg",
+    "volume": "210000 ml",
+    "price_postapoc": "5 USD",
+    "material": "steel",
+    "symbol": "{",
+    "color": "blue",
+    "category": "scrap_electronics"
+  },
+  {
+    "id": "Foxartifactstabilizer",
+    "type": "TOOL",
+    "looks_like": "f_NMR",
+    "name": "artifact stabilizer system",
+    "description": "This sophisticated and expensive machine lets you manipulate artifact properties and convert them into higher tiers. It can blast artifacts with powerful magnetic fields, freeze or heat them to incredible temperatures, and pour megawatts of power into them. It can only be placed on a grid.",
+    "weight": "250 kg",
+    "volume": "200000 ml",
+    "price_postapoc": "2 USD",
+    "material": "FoxDivineMaterial",
+    "symbol": "#",
+    "color": "dark_gray",
+    "category": "scrap_electronics"
+  },
+  {
+    "id": "Foxfake_artifactoven",
+    "copy-from": "fake_item",
+    "type": "TOOL",
+    "name": { "str": "artifact oven" },
+    "max_charges": 1000,
+    "flags": [ "USES_GRID_POWER" ]
+  },
+  {
+    "id": "Foxfake_artifactstabilizersystem",
+    "copy-from": "fake_item",
+    "type": "TOOL",
+    "name": { "str": "artifact stabilizer system" },
+    "max_charges": 1000000,
+    "flags": [ "USES_GRID_POWER" ]
   }
 ]

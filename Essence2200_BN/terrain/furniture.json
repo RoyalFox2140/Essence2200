@@ -1264,7 +1264,7 @@
   {
     "type": "furniture",
     "id": "Foxf_Foxessreactorgrid",
-    "name": "grid artifact generator",
+    "name": "grid essence generator",
     "description": "An essence reactor, connected to the grid, providing limitless electricity.",
     "symbol": "#",
     "color": "magenta",
@@ -1696,5 +1696,99 @@
     "type": "construction_group",
     "id": "Foxplace_Foxfgridnutrientsynthesizer",
     "name": "Install Nutrient Synthesizer"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_artifactfreezer",
+    "name": "artifact freezer",
+    "looks_like": "f_freezer_on",
+    "symbol": "{",
+    "description": "This is a freezer with a cold artifact keeping it frozen. It takes no power.",
+    "color": "blue",
+    "move_cost_mod": 2,
+    "required_str": 10,
+    "max_volume": "2000 L",
+    "flags": [ "FREEZER", "CONTAINER", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "Foxartifactfreezer", "count": 1 } ] }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_artifactfreezer",
+    "group": "Foxplace_artifactfreezer",
+    "category": "FOXESSMAGIC",
+    "time": "1 m",
+    "components": [ [ [ "Foxartifactfreezer", 1 ] ] ],
+    "dark_craftable": true,
+    "pre_special": "check_empty",
+    "post_furniture": "Foxf_artifactfreezer"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_artifactfreezer",
+    "name": "Place artifact freezer"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_artifactoven",
+    "looks_like": "f_oven",
+    "name": "artifact oven",
+    "symbol": "#",
+    "description": "This is an oven with a heat artifact smartly heating stuff placed inside or on top if you turn it on. It seems to understand what you want.",
+    "color": "dark_gray",
+    "move_cost_mod": 2,
+    "coverage": 60,
+    "required_str": 10,
+    "crafting_pseudo_item": "Foxfake_artifactoven",
+    "flags": [ "TRANSPARENT", "CONTAINER", "MOUNTABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "Foxartifactoven", "count": 1 } ] },
+    "max_volume": "40 L"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_artifactoven",
+    "group": "Foxplace_artifactoven",
+    "category": "FOXESSMAGIC",
+    "time": "1 m",
+    "components": [ [ [ "Foxartifactoven", 1 ] ] ],
+    "dark_craftable": true,
+    "pre_special": "check_empty",
+    "post_furniture": "Foxf_artifactoven"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_artifactoven",
+    "name": "Place artifact oven"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_artifactstabilizer",
+    "looks_like": "f_NMR",
+    "name": "artifact stabilizer system",
+    "symbol": "#",
+    "description": "This sophisticated and expensive machine lets you manipulate artifact properties and convert them into higher tiers.",
+    "color": "dark_gray",
+    "move_cost_mod": -1,
+    "coverage": 100,
+    "required_str": -1,
+    "crafting_pseudo_item": "Foxfake_artifactstabilizersystem",
+    "flags": [  "CONTAINER", "MOUNTABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "Foxartifactoven", "count": 1 } ] },
+    "max_volume": "40 L"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_artifactstabilizer",
+    "group": "Foxplace_artifactstabilizer",
+    "category": "FOXKOLIBRI",
+    "time": "1 m",
+    "components": [ [ [ "Foxartifactstabilizer", 1 ] ] ],
+    "dark_craftable": true,
+    "pre_special": "check_empty",
+    "post_furniture": "Foxf_artifactstabilizer"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_artifactstabilizer",
+    "name": "Place artifact stabilizer system"
   }
 ]
