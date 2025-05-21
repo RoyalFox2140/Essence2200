@@ -26,6 +26,17 @@
   },
   {
     "type": "terrain",
+    "id": "t_dirt",
+    "copy-from": "t_dirt",
+    "name": "dirt",
+    "description": "It's dirt.  Looks like some fine soil for tillage.  Could also be dug out for construction projects.  Seems wasteland plants have no trouble growing here.",
+    "symbol": ".",
+    "color": "brown",
+    "move_cost": 2,
+    "extend": { "flags": [ "FOX_WASTEDIRT" ] }
+  },
+  {
+    "type": "terrain",
     "id": "Foxt_wastelandpit_shallow",
     "looks_like": "t_pit_shallow",
     "name": "shallow wasteland pit",

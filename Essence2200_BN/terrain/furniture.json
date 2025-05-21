@@ -900,7 +900,7 @@
     "looks_like": "t_dirtmound",
     "move_cost_mod": 1,
     "required_str": -1,
-    "flags": [ "TRANSPARENT", "PLANTABLE", "FLAT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
+    "flags": [ "TRANSPARENT", "FOX_WASTEDIRT", "PLANTABLE", "FLAT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
     "deconstruct": { "items": [ { "item": "material_soil", "count": 40 } ] },
     "examine_action": "dirtmound",
     "plant_data": { "transform": "Foxf_dirtpileseed" }
@@ -916,7 +916,7 @@
     "looks_like": "f_plant_seed",
     "required_str": -1,
     "examine_action": "aggie_plant",
-    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEED" ],
+    "flags": [ "PLANT", "SEALED", "FOX_WASTEDIRT", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEED" ],
     "plant_data": { "transform": "Foxf_dirtpileseedling", "base": "Foxf_dirtpile" }
   },
   {
@@ -930,7 +930,7 @@
     "required_str": -1,
     "looks_like": "f_plant_seedling",
     "examine_action": "aggie_plant",
-    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEEDLING" ],
+    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "FOX_WASTEDIRT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEEDLING" ],
     "plant_data": { "transform": "Foxf_dirtpilemature", "base": "Foxf_dirtpile" }
   },
   {
@@ -944,7 +944,7 @@
     "required_str": -1,
     "looks_like": "f_plant_mature",
     "examine_action": "aggie_plant",
-    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_MATURE" ],
+    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "FOX_WASTEDIRT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_MATURE" ],
     "plant_data": { "transform": "Foxf_dirtpileharvest", "base": "Foxf_dirtpile" }
   },
   {
@@ -958,7 +958,7 @@
     "required_str": -1,
     "looks_like": "f_plant_harvest",
     "examine_action": "aggie_plant",
-    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_HARVEST" ],
+    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "FOX_WASTEDIRT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_HARVEST" ],
     "plant_data": { "transform": "Foxf_dirtpile", "base": "Foxf_dirtpile" }
   },
   {

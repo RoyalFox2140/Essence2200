@@ -427,6 +427,90 @@
   },
   {
     "type": "recipe",
+    "result": "FoxpainpillFAST",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_DRUGS",
+    "id_suffix": "esstheory",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 2,
+    "time": "30 m",
+    "charges": 20,
+    "batch_time_factors": [ 80, 5 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
+    "components": [ 
+      [ [ "saline", 1 ] ],
+      [ [ "flour", 2 ] ],
+      [ [ "Foxcompoundb", 2 ] ] 
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "FoxpainpillSLOW",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_DRUGS",
+    "id_suffix": "esstheory",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 2,
+    "time": "30 m",
+    "charges": 20,
+    "batch_time_factors": [ 80, 5 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
+    "components": [ 
+      [ [ "saline", 1 ] ],
+      [ [ "flour", 2 ] ],
+      [ [ "sugar", 4 ] ],
+      [ [ "Foxcompoundb", 1 ] ] 
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxcombatpill",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_DRUGS",
+    "id_suffix": "esstheory",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 5 ] ],
+    "difficulty": 2,
+    "time": "30 m",
+    "charges": 20,
+    "batch_time_factors": [ 80, 5 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
+    "components": [ 
+      [ [ "saline", 1 ] ],
+      [ [ "flour", 2 ] ],
+      [ [ "Foxcompounda", 2 ] ] 
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxwastedisinfectant",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_DRUGS",
+    "id_suffix": "esstheory",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 4 ] ],
+    "difficulty": 2,
+    "time": "45 m",
+    "charges": 10,
+    "batch_time_factors": [ 80, 5 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
+    "components": [ 
+      [ [ "saline", 1 ] ],
+      [ [ "Foxcompoundd", 2 ] ] 
+    ]
+  },
+  {
+    "type": "recipe",
     "result": "antifungal",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_DRUGS",

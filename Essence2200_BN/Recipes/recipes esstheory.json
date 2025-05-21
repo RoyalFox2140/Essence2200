@@ -61,7 +61,7 @@
     "tools": [ [ [ "water_boiling_heat", 1800, "LIST" ] ] ],
     "qualities": [ { "id": "FoxEssenceStill", "level": 1 } ],
     "components": [
-    [ [ "material_soil", 10 ] ],
+    [ [ "material_soil", 10 ], [ "Fox_wastedirt", 10 ] ],
     [ [ "water_sewage", 400 ] ]
   ]
   },
@@ -412,7 +412,7 @@
     "components": [
     [ [ "Foxtargas", 20000 ] ],
     [ [ "rock", 200 ] ],
-    [ [ "material_soil", 10 ] ]
+    [ [ "material_soil", 10 ], [ "Fox_wastedirt", 10 ] ]
   ]
   },
   {
@@ -505,7 +505,7 @@
     "byproducts": [ [ "lead", 5 ], [ "clay_lump", 20 ] ],
    "components": [
     [ [ "Foxtargas", 10000 ] ],
-    [ [ "material_soil", 10 ] ]
+    [ [ "material_soil", 10 ], [ "Fox_wastedirt", 10 ] ]
   ]
   },
   {
@@ -543,7 +543,7 @@
    "components": [
     [ [ "Foxtargas", 9000 ] ],
     [ [ "Foxmotordew", 1000 ] ],
-    [ [ "material_soil", 10 ] ]
+    [ [ "material_soil", 10 ], [ "Fox_wastedirt", 10 ] ]
   ]
   }
 ]

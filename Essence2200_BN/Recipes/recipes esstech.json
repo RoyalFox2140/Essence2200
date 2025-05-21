@@ -786,6 +786,6 @@
     "time": "10 m",
     "autolearn": true,
     "tools": [ [ [ "Foxnutrientsynthesizersystem", 5000 ] ] ],
-    "components": [ [ [ "material_soil", 1 ] ] ]
+    "components": [ [ [ "material_soil", 1 ], [ "Fox_wastedirt", 1 ] ] ]
   }
 ]
