@@ -231,7 +231,7 @@
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "tongs", -1 ] ] ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
     "components": [
-    [ [ "Foxtarrubber", 1 ] ]
+    [ [ "Foxtarrubber", 2 ] ]
   ]
   },
   {

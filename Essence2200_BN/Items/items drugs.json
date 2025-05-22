@@ -339,8 +339,8 @@
         "stim": -4,
         "use_action": {
           "type": "consume_drug",
-          "activation_message": "You take some codeine.",
-          "effects": [ { "id": "pkill3", "duration": 900 } ]
+          "activation_message": "You take a painkiller.",
+          "effects": [ { "id": "pkill3", "duration": 600 } ]
         }
       },
       {
@@ -349,7 +349,7 @@
         "comestible_type": "MED",
         "looks_like": "codeine",
         "name": { "str_sp": "Imperial field painkiller" },
-        "description": "This slow-release painkiller will keep you on your feet, it's safer than combat pills.",
+        "description": "This slow-release painkiller will keep you on your feet, it's safer than combat pills because the dosage has a limit.",
         "weight": "1 g",
         "volume": "250 ml",
         "price_postapoc": "2 USD",
@@ -361,7 +361,7 @@
         "stim": -2,
         "use_action": {
           "type": "consume_drug",
-          "activation_message": "You take some codeine.",
+          "activation_message": "You take a painkiller.",
           "effects": [ { "id": "pkill_l", "duration": 1200 } ]
         }
       },
