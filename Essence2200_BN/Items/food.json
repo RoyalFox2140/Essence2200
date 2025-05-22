@@ -366,5 +366,25 @@
     "color": "green",
     "flags": [ "NUTRIENT_OVERRIDE" ],
     "calories": 20
+  },
+  {
+    "id": "Foxcactuspaste",
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "looks_like": "cactus_pad",
+    "name": { "str": "cactus paste" },
+    "description": "Dried cactus soaked and baked with vegetable oil and smoothed into a paste. It can't spoil, you can cook with it.",
+    "weight": "52 g",
+    "volume": "50 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "healthy": 1,
+    "fun": -4,
+    "quench": -10,
+    "material": [ "veggy" ],
+    "symbol": "%",
+    "color": "green",
+    "flags": [ "NUTRIENT_OVERRIDE" ],
+    "calories": 147
   }
 ]
