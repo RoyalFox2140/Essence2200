@@ -777,6 +777,29 @@
     ]
   },
   {
+    "result": "Fox_1cylinder_waste",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTECH",
+    "skill_used": "FoxEssTech",
+    "difficulty": 0,
+    "skills_required": [ [ "fabrication", 4 ], [ "mechanics", 4 ], [ "FoxEssTheory", 1 ] ],
+    "time": "40 m",
+    "autolearn": true,
+    "reversible": true,
+    "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "drivebelt", 2 ] ],
+      [ [ "filter_air", 1 ] ],
+      [ [ "filter_liquid", 1 ] ],
+      [ [ "well_pump", 1 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "engine_block_tiny", 1 ] ],
+      [ [ "metal_tank_little", 1 ] ],
+      [ [ "Foximpgrease", 900 ] ]
+    ]
+  },
+  {
     "type": "recipe",
     "result": "Foxmotordewsludge",
     "category": "CC_ESSTECH",

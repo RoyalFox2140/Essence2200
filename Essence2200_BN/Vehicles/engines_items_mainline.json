@@ -107,5 +107,22 @@
     "volume": "95 L",
     "price_postapoc": "75 USD",
     "displacement": 11995
+  },
+  {
+    "id": "Fox_1cylinder_waste",
+    "copy-from": "engine_gasoline",
+    "type": "ENGINE",
+    "name": { "str": "1-cylinder wasteland engine" },
+    "description": "A shitty single cylinder engine. Can't even support an alternator, but it doesn't use electricity.",
+    "weight": "15000 g",
+    "volume": "1100 ml",
+    "price_postapoc": "2 USD",
+    "displacement": 29,
+    "faults": [
+      "fault_engine_belt_drive",
+      "fault_engine_filter_air",
+      "fault_engine_filter_fuel",
+      "fault_engine_pump_fuel"
+    ]
   }
 ]

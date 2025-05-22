@@ -25,11 +25,53 @@
     "color": "light_red",
     "broken_color": "red",
     "noise_factor": 15,
-    "fuel_type": "gasoline",
+    "fuel_type": "FoxEssencenormal",
     "fuel_options": [ "FoxEssencenormal", "FoxEssencepure" ],
     "m2c": 60,
     "flags": [ "ENGINE", "E_HEATER", "E_NO_POWER_DECAY", "SHOCK_IMMUNE" ],
     "description": "An UltraTech Essence engine.  Works in anomalous ways, does not backfire, cannot use alternator. Needs no electricity."
+  },
+  {
+    "abstract": "Foxengine_wasteland",
+    "type": "vehicle_part",
+    "location": "engine_block",
+    "symbol": "*",
+    "color": "light_red",
+    "broken_color": "red",
+    "damage_modifier": 80,
+    "backfire_threshold": 0.25,
+    "backfire_freq": 20,
+    "noise_factor": 15,
+    "damaged_power_factor": 0.25,
+    "fuel_type": "FoxEssencenormal",
+    "fuel_options": [ "FoxEssencenormal", "FoxEssencepure", "lamp_oil", "motor_oil", "gasoline", "diesel", "biodiesel", "jp8", "avgas", "chem_ethanol", "denat_alcohol", "chem_methanol" ],
+    "m2c": 40,
+    "flags": [ "ENGINE", "E_COMBUSTION", "E_HIGHER_SKILL", "SHOCK_IMMUNE" ],
+    "description": "A combustion engine that can burn anything, but it's not efficient."
+  },
+  {
+    "id": "Foxengine_1cylinder_waste",
+    "copy-from": "Foxengine_wasteland",
+    "type": "vehicle_part",
+    "item": "Fox_1cylinder_waste",
+    "durability": 160,
+    "epower": 0,
+    "power": 5350,
+    "energy_consumption": 14425,
+    "folded_volume": "1 L",
+    "breaks_into": [
+      { "item": "engine_block_tiny" },
+      { "item": "steel_lump", "count": [ 0, 1 ] },
+      { "item": "Foxtarrubber", "count": [ 0, 1 ] },
+      { "item": "scrap", "count": [ 0, 4 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "qualities": [ { "id": "WRENCH", "level": 1 } ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "qualities": [ { "id": "WRENCH", "level": 1 } ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ] }
+    },
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "damage_reduction": { "all": 42 }
   },
   {
     "id": "Foxengine_1cyl_large",
