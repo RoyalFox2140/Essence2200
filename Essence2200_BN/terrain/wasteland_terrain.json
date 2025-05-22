@@ -21,7 +21,7 @@
       { "item": "Fox_wastedirt", "charges": 10 }, 
       { "item": "Fox_LETSGOGAMBLINGseeds", "count": [ 0, 4 ] },
       { "item": "rock", "count": [ 0, 3 ] },
-      { "item": "pebble", "count": [ 20, 70 ] }
+      { "item": "pebble", "charges": [ 20, 70 ] }
       ] }
   },
   {
