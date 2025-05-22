@@ -528,7 +528,7 @@
       "type": "consume_drug",
       "activation_message": "You eat some cactus fruit. Yeaaaah dude.",
       "do_weed_msg": true,
-      "stat_adjustments": { "fatigue": 4, "thirst": 3, "hunger": 44  },
+      "stat_adjustments": { "fatigue": 4, "thirst": -3, "hunger": -44  },
       "effects": [
         { "id": "weed_high", "duration": "9 m" },
         { "id": "pkill1", "duration": "4 m" }

@@ -340,6 +340,7 @@
         "use_action": {
           "type": "consume_drug",
           "activation_message": "You take a painkiller.",
+          "stat_adjustments": { "thirst": 20, "hunger": 100  },
           "effects": [ { "id": "pkill3", "duration": 600 } ]
         }
       },
@@ -362,6 +363,7 @@
         "use_action": {
           "type": "consume_drug",
           "activation_message": "You take a painkiller.",
+          "stat_adjustments": { "thirst": 20, "hunger": 50  },
           "effects": [ { "id": "pkill_l", "duration": 1200 } ]
         }
       },
@@ -383,7 +385,7 @@
         "stim": 14,
         "use_action": {
           "type": "consume_drug",
-          "stat_adjustments": { "fatigue": 50, "thirst": -20, "hunger": -200  },
+          "stat_adjustments": { "fatigue": -50, "thirst": 20, "hunger": 200  },
           "activation_message": "You take a combat stim."
         }
       },
