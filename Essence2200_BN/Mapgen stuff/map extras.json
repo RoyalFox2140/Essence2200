@@ -42,22 +42,22 @@
       ],
       "terrain": { 
         "a": [ "t_pit" ], 
-        "b": [ "t_dirt" ], 
-        "c": [ "t_dirt" ],
-        "d": [ "t_dirt" ],
-        "e": [ "t_dirt" ],
-        "f": [ "t_dirt" ],
-        "g": [ "t_dirt" ],
-        "h": [ "t_dirt" ],
-        "i": [ "t_dirt" ],
+        "b": [ "Foxt_wastelandsoil" ], 
+        "c": [ "Foxt_wastelandsoil" ],
+        "d": [ "Foxt_wastelandsoil" ],
+        "e": [ "Foxt_wastelandsoil" ],
+        "f": [ "Foxt_wastelandsoil" ],
+        "g": [ "Foxt_wastelandsoil" ],
+        "h": [ "Foxt_wastelandsoil" ],
+        "i": [ "Foxt_wastelandsoil" ],
         "j": [ "t_plut_generator" ],
-        "k": [ "t_dirt" ],
-        "l": [ "t_dirt" ],
-        "m": [ "t_dirt" ],
+        "k": [ "Foxt_wastelandsoil" ],
+        "l": [ "Foxt_wastelandsoil" ],
+        "m": [ "Foxt_wastelandsoil" ],
         "o": [ "Foxt_sludgepit" ],
-        "p": [ "t_dirt" ],
-        "q": [ "t_dirt" ],
-        "r": [ "t_dirt" ]
+        "p": [ "Foxt_wastelandsoil" ],
+        "q": [ "Foxt_wastelandsoil" ],
+        "r": [ "Foxt_wastelandsoil" ]
       },
       "furniture": {
         "b": "f_earthbag_wall",
@@ -200,7 +200,7 @@
         "aaaaaaaaaaaaaaaaaaaaaaaa"
       ],
       "terrain": { 
-        "a": [ "t_dirt" ], 
+        "a": [ "Foxt_wastelandsoil" ], 
         "b": [ "Foxt_sludgepit" ]
       }
     }
