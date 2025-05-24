@@ -539,6 +539,20 @@
     "category": "scrap_electronics"
   },
   {
+    "id": "Foxartifactfridge",
+    "type": "TOOL",
+    "looks_like": "f_fridge",
+    "name": "artifact refrigerator",
+    "description": "You modified this refrigerator with a weak cold artifact, keeping its contents cool indefinitely.",
+    "weight": "80 kg",
+    "volume": "210000 ml",
+    "price_postapoc": "5 USD",
+    "material": "steel",
+    "symbol": "{",
+    "color": "blue",
+    "category": "scrap_electronics"
+  },
+  {
     "id": "Foxartifactstabilizer",
     "type": "TOOL",
     "looks_like": "f_NMR",

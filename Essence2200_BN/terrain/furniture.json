@@ -1755,11 +1755,20 @@
     "symbol": "{",
     "description": "This is a freezer with a cold artifact keeping it frozen. It takes no power.",
     "color": "blue",
-    "move_cost_mod": 2,
+    "move_cost_mod": -1,
     "required_str": 10,
     "max_volume": "2000 L",
     "flags": [ "FREEZER", "CONTAINER", "EASY_DECONSTRUCT" ],
-    "deconstruct": { "items": [ { "item": "Foxartifactfreezer", "count": 1 } ] }
+    "deconstruct": { "items": [ { "item": "Foxartifactfreezer", "count": 1 } ] },
+    "bash": {
+      "str_min": 8,
+      "str_max": 10,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "Foxartifactfreezer", "count": 1 }
+      ]
+    }
   },
   {
     "type": "construction",
@@ -1776,6 +1785,45 @@
     "type": "construction_group",
     "id": "Foxplace_artifactfreezer",
     "name": "Place artifact freezer"
+  },
+  {
+    "type": "furniture",
+    "id": "Foxf_artifactfridge",
+    "name": "artifact fridge",
+    "looks_like": "f_freezer_on",
+    "symbol": "{",
+    "description": "This is a fridge with a cold artifact keeping it cool. It takes no power.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "required_str": 10,
+    "max_volume": "2000 L",
+    "flags": [ "FRIDGE", "CONTAINER", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "Foxartifactfridge", "count": 1 } ] },
+    "bash": {
+      "str_min": 8,
+      "str_max": 10,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "Foxartifactfridge", "count": 1 }
+      ]
+    }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_artifactfridge",
+    "group": "Foxplace_artifactfridge",
+    "category": "FOXESSMAGIC",
+    "time": "1 m",
+    "components": [ [ [ "Foxartifactfridge", 1 ] ] ],
+    "dark_craftable": true,
+    "pre_special": "check_empty",
+    "post_furniture": "Foxf_artifactfridge"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_artifactfridge",
+    "name": "Place artifact fridge"
   },
   {
     "type": "furniture",
