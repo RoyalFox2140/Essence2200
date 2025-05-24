@@ -1538,6 +1538,7 @@
         { "item": "Foxisteelframe", "damage": [ 1, 3 ] },
         { "item": "Foxisteelplate", "damage": [ 1, 3 ] },
         { "item": "Foximperialsteelchunk", "charges": [ 5, 30 ] },
+        { "item": "Foxtarrubber", "charges": [ 2, 10 ] },
         { "item": "FoxBallisticWeavescrap", "charges": [ 30, 200 ], "prob": 20 },
         { "item": "Foximpelectronics", "charges": [ 1, 4 ], "prob": 15 },
         { "item": "Foximpmicroelectronics", "charges": [ 1, 4 ], "prob": 5 },
@@ -1576,6 +1577,7 @@
         { "item": "Foximperialsteelchunk", "charges": [ 200, 300 ] },
         { "item": "drivebelt", "charges": [ 1, 2 ], "damage": [ 0, 2 ] },
         { "item": "cable", "charges": [ 90, 300 ] },
+        { "item": "Foxtarrubber", "charges": [ 4, 6 ] },
         { "item": "Foximpelectronics", "charges": [ 5, 30 ] },
         { "item": "Foximpmicroelectronics", "charges": [ 1, 4 ], "prob": 15 },
         { "item": "Foximpmechparts", "charges": [ 10, 30 ] }

@@ -261,6 +261,7 @@
   {
     "type": "AMMO",
     "id": "Foxtarrubber",
+    "looks_like": "chunk_rubber",
     "category": "spare_parts",
     "price": "2 USD",
     "name": { "str": "chunk of tar rubber", "str_pl": "chunks of tar rubber" },
