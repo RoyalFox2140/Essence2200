@@ -24,7 +24,7 @@
     "price": "2 USD",
     "name": { "str_sp": "bangtail seeds" },
     "description": "Some bangtail seeds.",
-    "seed_data": { "plant_name": "bangtail", "fruit": "Foxbangtailrhizome", "byproducts": [ "Foxbangtailstalk" ],"grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "bangtail", "fruit": "Foxbangtailrhizome", "byproducts": [ "Foxbangtailstalk", "Foxseed_bangtail" ],"grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -35,7 +35,7 @@
     "price": "2 USD",
     "name": { "str_sp": "mireweed seeds" },
     "description": "Some mireweed seeds.",
-    "seed_data": { "plant_name": "mireweed", "fruit": "Foxmireweed","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "mireweed", "fruit": "Foxmireweed","grow": "12 days", "byproducts": [ "Foxseed_mireweed" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -46,7 +46,7 @@
     "price": "2 USD",
     "name": { "str_sp": "brineweed seeds" },
     "description": "Some brineweed seeds.",
-    "seed_data": { "plant_name": "brineweed", "fruit": "Foxbrineweed","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "brineweed", "fruit": "Foxbrineweed","grow": "12 days", "byproducts": [ "Foxseed_brineweed" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -57,7 +57,7 @@
     "price": "2 USD",
     "name": { "str_sp": "lunarweed seeds" },
     "description": "Some lunarweed seeds.",
-    "seed_data": { "plant_name": "lunarweed", "fruit": "Foxlunarweed","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "lunarweed", "fruit": "Foxlunarweed","grow": "12 days", "byproducts": [ "Foxseed_lunarweed" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -68,7 +68,7 @@
     "price": "2 USD",
     "name": { "str_sp": "jellyweed seeds" },
     "description": "Some jellyweed seeds.",
-    "seed_data": { "plant_name": "jellyweed", "fruit": "Foxjellyweed","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "jellyweed", "fruit": "Foxjellyweed","grow": "12 days", "byproducts": [ "Foxseed_jellyweed" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -79,7 +79,7 @@
     "price": "2 USD",
     "name": { "str_sp": "fishweed seeds" },
     "description": "Some fishweed seeds.",
-    "seed_data": { "plant_name": "fishweed", "fruit": "Foxfishweed","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "fishweed", "fruit": "Foxfishweed","grow": "12 days", "byproducts": [ "Foxseed_fishweed" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -90,7 +90,7 @@
     "price": "2 USD",
     "name": { "str_sp": "storm fern seeds" },
     "description": "Some stormfern seeds.",
-    "seed_data": { "plant_name": "stormfern", "fruit": "Foxstormfern","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "stormfern", "fruit": "Foxstormfern","grow": "12 days", "byproducts": [ "Foxseed_stormfern" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -101,7 +101,7 @@
     "price": "2 USD",
     "name": { "str_sp": "mireroot seeds" },
     "description": "Some mireroot seeds.",
-    "seed_data": { "plant_name": "mireroot", "fruit": "Foxmireroot","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "mireroot", "fruit": "Foxmireroot","grow": "12 days", "byproducts": [ "Foxseed_mireroot" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -112,7 +112,7 @@
     "price": "2 USD",
     "name": { "str_sp": "cairnroot seeds" },
     "description": "Some cairnroot seeds.",
-    "seed_data": { "plant_name": "cairnroot", "fruit": "Foxcairnroot","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "cairnroot", "fruit": "Foxcairnroot","grow": "12 days", "byproducts": [ "Foxseed_cairnroot" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -123,7 +123,7 @@
     "price": "2 USD",
     "name": { "str_sp": "smugglers root seeds" },
     "description": "Some smugglers root seeds.",
-    "seed_data": { "plant_name": "smugglers root", "fruit": "Foxsmugglersroot","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "smugglers root", "fruit": "Foxsmugglersroot","grow": "12 days", "byproducts": [ "Foxseed_smugglersroot" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -134,7 +134,7 @@
     "price": "2 USD",
     "name": { "str_sp": "blood grass seeds" },
     "description": "Some bloodgrass seeds.",
-    "seed_data": { "plant_name": "blood grass", "fruit": "Foxbloodgrass","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "blood grass", "fruit": "Foxbloodgrass","grow": "12 days", "byproducts": [ "Foxseed_bloodgrass" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -145,7 +145,7 @@
     "price": "2 USD",
     "name": { "str_sp": "stim grass seeds" },
     "description": "Some stim grass seeds.",
-    "seed_data": { "plant_name": "stim grass", "fruit": "Foxstimgrass","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "stim grass", "fruit": "Foxstimgrass","grow": "12 days", "byproducts": [ "Foxseed_stimgrass" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -156,7 +156,7 @@
     "price": "2 USD",
     "name": { "str_sp": "woe grass seeds" },
     "description": "Some woe grass seeds.",
-    "seed_data": { "plant_name": "woe grass", "fruit": "Foxwoegrass","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "woe grass", "fruit": "Foxwoegrass","grow": "12 days", "byproducts": [ "Foxseed_woegrass" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -167,7 +167,7 @@
     "price": "2 USD",
     "name": { "str_sp": "broom grass seeds" },
     "description": "Some broom grass seeds.",
-    "seed_data": { "plant_name": "broom grass", "fruit": "Foxbroomgrass","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "broom grass", "fruit": "Foxbroomgrass","grow": "12 days", "byproducts": [ "Foxseed_broomgrass" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -178,7 +178,7 @@
     "price": "2 USD",
     "name": { "str_sp": "white wound seeds" },
     "description": "Some white wound seeds.",
-    "seed_data": { "plant_name": "white wound", "fruit": "Foxwhitewound", "byproducts": [ "Foxcorpsefuzz" ], "grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "white wound", "fruit": "Foxwhitewound", "byproducts": [ "Foxcorpsefuzz", "Foxseed_whitewound" ], "grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -189,7 +189,7 @@
     "price": "2 USD",
     "name": { "str_sp": "corpse fuzz seeds" },
     "description": "Some corpse fuzz seeds.",
-    "seed_data": { "plant_name": "corpse fuzz", "fruit": "Foxcorpsefuzz","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "corpse fuzz", "fruit": "Foxcorpsefuzz","grow": "12 days", "byproducts": [ "Foxseed_corpsefuzz" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -200,7 +200,7 @@
     "price": "2 USD",
     "name": { "str_sp": "ghost thistle seeds" },
     "description": "Some ghost thistle seeds.",
-    "seed_data": { "plant_name": "ghost thistle", "fruit": "Foxghostthistle", "byproducts": [ "Foxcorpsefuzz" ], "grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "ghost thistle", "fruit": "Foxghostthistle", "byproducts": [ "Foxcorpsefuzz", "Foxseed_ghostthistle" ], "grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -211,7 +211,7 @@
     "price": "2 USD",
     "name": { "str_sp": "gravebane shrub seeds" },
     "description": "Some gravebane shrub seeds.",
-    "seed_data": { "plant_name": "gravebane shrub", "fruit": "Foxgravebaneshrub", "byproducts": [ "Foxcorpsefuzz" ], "grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "gravebane shrub", "fruit": "Foxgravebaneshrub", "byproducts": [ "Foxcorpsefuzz", "Foxseed_gravebaneshrub" ], "grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -222,7 +222,7 @@
     "price": "2 USD",
     "name": { "str_sp": "acid lemon seeds" },
     "description": "Some acid lemon seeds.",
-    "seed_data": { "plant_name": "acid lemon bush", "fruit": "Foxacidlemon","grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "seed_data": { "plant_name": "acid lemon bush", "fruit": "Foxacidlemon","grow": "12 days", "byproducts": [ "Foxseed_acidlemon" ], "required_terrain_flag": "FOX_WASTEDIRT" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
@@ -263,7 +263,7 @@
     "price": "2 USD",
     "name": { "str_sp": "waste wood seeds" },
     "description": "Some waste wood seeds.",
-    "seed_data": { "plant_name": "waste wood", "fruit": "Foxwastewood", "byproducts": [ "plant_fibre" ], "grow": "14 days", "required_terrain_flag": "FOX_WASTEDIRT" }
+    "seed_data": { "plant_name": "waste wood", "fruit": "Foxwastewood", "byproducts": [ "plant_fibre", "Foxseed_wastewood" ], "grow": "14 days", "required_terrain_flag": "FOX_WASTEDIRT" }
   },
   {
     "type": "COMESTIBLE",
@@ -273,7 +273,7 @@
     "price": "2 USD",
     "name": { "str_sp": "deadwood seeds" },
     "description": "Some deadwood seeds.",
-    "seed_data": { "plant_name": "deadwood", "fruit": "Foxdeadwood", "grow": "20 days", "required_terrain_flag": "FOX_WASTEDIRT" }
+    "seed_data": { "plant_name": "deadwood", "fruit": "Foxdeadwood", "grow": "20 days", "byproducts": [ "Foxseed_deadwood" ], "required_terrain_flag": "FOX_WASTEDIRT" }
   },
   {
     "type": "COMESTIBLE",
@@ -293,7 +293,7 @@
     "price": "2 USD",
     "name": { "str_sp": "desert tobacco seeds" },
     "description": "Some desert tobacco seeds.",
-    "seed_data": { "plant_name": "desert tobacco", "fruit": "tobacco_raw", "grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" }
+    "seed_data": { "plant_name": "desert tobacco", "fruit": "tobacco_raw", "grow": "12 days", "byproducts": [ "Foxseed_deserttobacco" ], "required_terrain_flag": "FOX_WASTEDIRT" }
   },
   {
     "type": "COMESTIBLE",
