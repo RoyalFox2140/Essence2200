@@ -110,12 +110,40 @@
       "repair": {
         "skills": [ [ "mechanics", 4 ] ],
         "time": "30 m",
-        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+        "using": [ [ "welding_standard", 5 ] ]
       }
     },
     "flags": [ "OBSTACLE", "REACTOR", "PERPETUAL", "SHOCK_IMMUNE" ],
-    "breaks_into": [ {"item": "plut_generator_item"} ],
-    "description": "FROM ESSENC."
+    "breaks_into": [ {"item": "Foxartifactgenerator"} ],
+    "description": "This artifact provides power to your vehicle perpetually."
+  },
+  {
+    "type": "vehicle_part",
+    "id": "FoxArtifactGeneratorVictiny",
+    "name": { "str": "vehicle artifact generator (weak)" },
+    "symbol": "O",
+    "looks_like": "robot_controls",
+    "color": "light_green",
+    "broken_symbol": "#",
+    "broken_color": "red",
+    "damage_modifier": 50,
+    "durability": 580,
+    "epower": 100,
+    "location": "center",
+    "item": "Foxartifactgeneratortiny",
+    "fuel_type": "plut_cell",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "30 m",
+        "using": [ [ "welding_standard", 5 ] ]
+      }
+    },
+    "flags": [ "OBSTACLE", "REACTOR", "PERPETUAL", "SHOCK_IMMUNE" ],
+    "breaks_into": [ {"item": "Foxartifactgeneratortiny"} ],
+    "description": "This artifact provides a small trickle of power perpetually."
   },
   {
     "type": "vehicle_part",

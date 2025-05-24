@@ -370,6 +370,19 @@
   },
   {
     "type": "recipe",
+    "result": "Foxartifactgeneratortiny",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TOOLS",
+    "skill_used": "FoxEssTech",
+    "skills_required": [ [ "FoxEssTheory", 1 ], [ "fabrication", 5 ] ],
+    "difficulty": 0,
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "Foxartifactelectric1", 1 ] ], [ [ "Foximperialsteelchunk", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "FoxSGAbatterycell",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_TOOLS",

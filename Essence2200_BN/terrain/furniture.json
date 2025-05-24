@@ -1263,6 +1263,38 @@
   },
   {
     "type": "furniture",
+    "id": "Foxf_Foxartifactgeneratorgridtiny",
+    "name": "grid artifact generator",
+    "description": "This artifact is stored in a small box and is hooked to the grid, granting twice the power of a plutonium generator at no maintenance.",
+    "symbol": "#",
+    "color": "yellow",
+    "looks_like": "t_plut_generator",
+    "move_cost_mod": 0,
+    "coverage": 20,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "PERMEABLE" ],
+    "deconstruct": {
+      "items": [
+        { "item": "Foxartifactgeneratortiny", "count": 1 },
+        { "item": "power_supply", "count": 1 },
+        { "item": "cable", "charges": 5 }
+      ]
+    },
+    "bash": {
+      "str_min": 5,
+      "str_max": 20,
+      "explosive": 10,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "Foxartifactgeneratortiny", "count": 1 },
+        { "item": "cable", "charges": 5 }
+      ]
+    },
+    "active": [ "steady_consumer", { "power": -30, "consume_every": "300 s" } ]
+  },
+  {
+    "type": "furniture",
     "id": "Foxf_Foxessreactorgrid",
     "name": "grid essence generator",
     "description": "An essence reactor, connected to the grid, providing limitless electricity.",
@@ -1300,6 +1332,11 @@
   },
   {
     "type": "construction_group",
+    "id": "Foxinstall_artifactgentiny",
+    "name": "Install Artifact Generator (weak)"
+  },
+  {
+    "type": "construction_group",
     "id": "Foxinstall_essreactor",
     "name": "Install Essence Reactor"
   },
@@ -1315,6 +1352,19 @@
     "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
     "pre_special": "check_empty",
     "post_furniture": "Foxf_Foxartifactgeneratorgrid"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxartifactgeneratorgridtiny",
+    "group": "Foxinstall_artifactgentiny",
+    "category": "FOXESSTECH",
+    "required_skills": [ [ "electronics", 4 ] ],
+    "time": "10 m",
+    "using": [ [ "advanced_electronics_high_voltage", 1 ] ],
+    "components": [ [ [ "Foxartifactgeneratortiny", 1 ] ], [ [ "power_supply", 1 ] ],  [ [ "cable", 5 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "Foxf_Foxartifactgeneratorgridtiny"
   },
   {
     "type": "construction",
