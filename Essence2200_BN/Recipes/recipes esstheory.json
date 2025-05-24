@@ -592,13 +592,13 @@
     "skills_required": [ [ "cooking", 1 ] ],
     "difficulty": 2,
     "charges": 400,
-    "byproducts": [ [ "Foxtargas", 100 ] ],
+    "byproducts": [ [ "Foxtargas", 1 ] ],
     "time": "20 m",
     "autolearn": true,
     "batch_time_factors": [ 90, 4 ],
     "tools": [ [ [ "water_boiling_heat", 30, "LIST" ] ] ],
     "components": [
-    [ [ "edible_tallow_lard", 2, "LIST" ] ],
+    [ [ "edible_tallow_lard", 2, "LIST" ], [ "cooking_oil", 2 ] ],
     [ [ "Foxmotordew", 200 ] ],
     [ [ "water_clean", 4 ] ]
   ]
