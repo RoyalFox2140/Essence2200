@@ -1,0 +1,19 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Magical_Nights_2200",
+    "name": "Essence 2200 + Magical Nights",
+    "authors": [ "RoyalFox" ],
+    "maintainers": [ "RoyalFox" ],
+    "description": "Patches various lore entries to bridge the two mods. Doesn't touch balance currently.",
+    "category": "content",
+    "dependencies": [ "bn", "Essence2200_BN", "MagicalNights" ]
+  },
+  {
+    "type": "skill",
+    "id": "spellcraft",
+    "name": "Apostle studies",
+    "display_category": "display_ranged",
+    "description": "Your general knowledge and mastery of apostle magic.  Apostle magic includes any spells that fall outside of traditional Imperial doctrine. Dozens, possibly hundreds of classifications of magical schools exists.  A higher skill increases how quickly you can learn spells, and decreases their spell failure chance.  You learn this skill by studying books or spells."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "type": "mutation",
+    "id": "MAGUS",
+    "name": "Apostle: Magus",
+    "copy-from": "MAGUS",
+    "description": "A tradition as old as magic, the Magus focuses on binding and shaping the energy of the universe to their will.  An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "anger_relations": [ [ "FoxImperial", 20 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "ANIMIST",
+    "name": { "str": "Apostle: Animist" },
+    "copy-from": "ANIMIST",
+    "description": "The animist tradition is a relatively new school of magical thought, formed through combination of many older ways that focus on harmony and connection to the natural world.  This does not mean that animists are passive: the natural world is a savage place.  An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "anger_relations": [ [ "FoxImperial", 20 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "KELVINIST",
+    "name": "Apostle: Kelvinist",
+    "copy-from": "KELVINIST",
+    "description": "Disciples of the great Archwizard Lord Kelvin.  Kelvinists focus their magic on manipulation and control of the temperature of their environment, leading to spectacularly powerful explosions or bone-chilling cold.  An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "anger_relations": [ [ "FoxImperial", 20 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "STORMSHAPER",
+    "name": "Apostle: Stormshaper",
+    "copy-from": "STORMSHAPER",
+    "description": "Stormshapers follow ancient arcane disciplines of meditation and harmony with the winds and tides that shape the planet.  Through their deep connection to these forces, they can request powerful changes.  An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "anger_relations": [ [ "FoxImperial", 20 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "TECHNOMANCER",
+    "name": "Apostle: Technomancer",
+    "copy-from": "TECHNOMANCER",
+    "description": "Technomancers are the new breed of modern magician, blending their arcane might with their advanced knowledge of the fundamental nature of the universe.  They use technology to enhance their magic and vice versa.  An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "anger_relations": [ [ "FoxImperial", 20 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "EARTHSHAPER",
+    "name": "Apostle: Earthshaper",
+    "copy-from": "EARTHSHAPER",
+    "description": "Earthshapers have allowed their minds to sink deep within the stones and metals of the planet, and become one with its secrets.  To a master Earthshaper, spells can be as permanent as the stones they are created from, and time is measured in geological eras.  An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "anger_relations": [ [ "FoxImperial", 20 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "BIOMANCER",
+    "name": { "str": "Apostle: Biomancer" },
+    "copy-from": "BIOMANCER",
+    "description": "The Biomancer focuses on manipulating and even absorbing flesh; their own, and that of other living or dead things.  Most other wizards find their powers gross and disturbing, but no one can question the potency of their abilities, and certainly not their adaptability to any situation.  An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "anger_relations": [ [ "FoxImperial", 20 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "DRUID",
+    "name": "Apostle: Druid",
+    "copy-from": "DRUID",
+    "description": "Druids follow a wild tradition of allegiance and rebirth within the world of nature, especially the cycle of death and rebirth that is the plant world.  A powerful Druid is as much a part of that world as the human one.  An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "anger_relations": [ [ "FoxImperial", 20 ] ]
+  }
+]
