@@ -34,22 +34,13 @@
     "name": { "str_sp": "Weak cold artifact" },
     "ammo": "battery",
     "relic_data": {
-       "recharge_scheme": [ { "type": "time", "req": "none", "interval": "4 h", "rate": 1 } ],
-       "passive_effects": [
-         {
-           "has": "WORN",
-           "condition": "ALWAYS",
-           "values": [
-             { "value": "ARMOR_HEAT", "add": -20 }
-           ]
-         }
-       ] 
+       "recharge_scheme": [ { "type": "time", "req": "none", "interval": "4 h", "rate": 1 } ]
       },
     "initial_charges": 1,
     "max_charges": 100,
     "charges_per_use": 1,
     "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD" ],
-    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It seems cold to the touch, and refrigerates the air around you. It also feels damp, you could capture water vapor with this. It can protect against burns."
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It seems cold to the touch, and refrigerates the air around you. It also feels damp, you could capture water vapor with this."
   },
   {
     "id": "Foxartifactcold2",
@@ -112,23 +103,15 @@
     "name": { "str_sp": "Weak heat artifact" },
     "ammo": "battery",
     "relic_data": { 
-      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 10 } ],
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "values": [
-            { "value": "ARMOR_COLD", "add": -20 }
-          ]
-        }
-      ]  
+      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 10 } ]
     },
     "initial_charges": 1,
     "max_charges": 10000,
     "charges_per_use": 1,
+    "sub": "hotplate",
     "use_action": "TOGGLE_HEATS_FOOD",
     "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY", "NO_UNLOAD", "NO_RELOAD", "HEATS_FOOD_USING_CHARGES" ],
-    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It warms your hands a little and can warm food, but it can't boil water, it's not a chemist. It may stop damage from cold weapons and spells."
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. It warms your hands a little and can cook food."
   },
   {
     "id": "Foxartifactheat2",
@@ -195,22 +178,13 @@
     "name": { "str_sp": "Weak electric artifact" },
     "ammo": "battery",
     "relic_data": { 
-      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 20 } ],
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "values": [
-            { "value": "ARMOR_ELEC", "add": -20 }
-          ]
-        }
-      ] 
+      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 20 } ]
     },
     "initial_charges": 1,
     "max_charges": 10000,
     "charges_per_use": 1,
     "flags": [ "COMPACT", "WAIST", "WATER_FRIENDLY" ],
-    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You can rip raw electricity out of it to place into electrical devices, it will absorb some incoming electric damage but it can only power small devices."
+    "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You can rip raw electricity out of it to place into electrical devices."
   },
   {
     "id": "Foxartifactelectric2",
@@ -273,16 +247,7 @@
     "name": { "str_sp": "Weak acid artifact" },
     "ammo": "battery",
     "relic_data": {
-       "recharge_scheme": [ { "type": "time", "req": "none", "interval": "4 h", "rate": 1 } ],
-       "passive_effects": [
-         {
-           "has": "WORN",
-           "condition": "ALWAYS",
-           "values": [
-             { "value": "ARMOR_ACID", "add": -20 }
-           ]
-         }
-       ] 
+       "recharge_scheme": [ { "type": "time", "req": "none", "interval": "4 h", "rate": 1 } ]
       },
     "initial_charges": 1,
     "max_charges": 100,
@@ -350,17 +315,6 @@
     "copy-from": "Foxartifactabstract",
     "weight_capacity_bonus": "30 kg",
     "name": { "str_sp": "Weak gravity artifact" },
-    "relic_data": {
-       "passive_effects": [
-         {
-           "has": "WORN",
-           "condition": "ALWAYS",
-           "values": [
-             { "value": "ARMOR_BULLET", "add": -45 }
-           ]
-         }
-       ] 
-      },
     "description": "An artifact is a strange misshapen object that is colored randomly and glows a random color that may also be different. It exhibits immensely powerful properties on the wearer and surroundings. No two artifacts ever look alike, even among the same classification. You feel a little lighter from wearing it. If you understood magic you could make ballistic protection armor."
   },
   {
