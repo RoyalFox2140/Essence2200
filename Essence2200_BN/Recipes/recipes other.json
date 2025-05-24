@@ -438,6 +438,7 @@
     "difficulty": 0,
     "time": "5 m",
     "autolearn": true,
+    "result_mult": 4,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "Foxwasteberry", 1 ] ] ],
     "flags": [ "ALLOW_ROTTEN" ]
@@ -451,6 +452,7 @@
     "difficulty": 2,
     "time": "3 m",
     "autolearn": true,
+    "result_mult": 2,
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
     "components": [ [ [ "Foxwastenuts", 1 ] ] ],
     "flags": [ "ALLOW_ROTTEN" ]
@@ -464,6 +466,7 @@
     "difficulty": 1,
     "time": "6 m",
     "autolearn": true,
+    "result_mult": 4,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "Foxwastetuber", 1 ] ] ],
     "flags": [ "ALLOW_ROTTEN" ]
@@ -477,6 +480,7 @@
     "difficulty": 0,
     "time": "2 m",
     "autolearn": true,
+    "result_mult": 2,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "Foxwastecactus", 1 ] ] ],
     "flags": [ "ALLOW_ROTTEN" ]
