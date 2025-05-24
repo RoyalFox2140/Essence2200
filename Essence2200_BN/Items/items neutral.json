@@ -991,6 +991,6 @@
     "capacity": 2000,
     "count": 2000,
     "reliability": 10,
-    "flags": [ "NO_UNLOAD", "NO_RELOAD", "MAG_BULKY" ]
+    "flags": [ "MAG_BULKY" ]
   }
 ]
