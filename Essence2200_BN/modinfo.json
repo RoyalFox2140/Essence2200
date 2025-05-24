@@ -19,6 +19,20 @@
     "companion_survival_rank_factor": 1,
     "companion_skill_practice": [ { "skill": "hunting", "weight": 1 }, { "skill": "combat", "weight": 1 } ]
   },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "MANA_REGEN_IS_FLAT",
+    "info": "A boolean for whether mana regen is a flat rate or based on regenerating all your mana in a given number of hours",
+    "stype": "bool",
+    "value": true
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "MANA_REGEN_FLAT",
+    "info": "The integer flat rate for mana regen (per hour) that should be used as a baseline if enabled.",
+    "stype": "int",
+    "value": 100
+  },
    {
     "type": "skill",
     "id": "FoxEssTech",

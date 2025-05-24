@@ -4,7 +4,7 @@
     "id": "FoxApostleApprentice",
     "name": "Apostle: Apprentice",
     "points": 5,
-    "description": "You are a novice at magic, your mana restores 67% slower than the baseline of 8 hours and you gain a boost of 4500 points in addition to any other modifier. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "description": "You are a novice at magic, your mana restores at the baseline of 100 points per hour and you have 5000 max mana in addition to any modifiers such as intelligence. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": true,
     "purifiable": false,
     "valid": true,
@@ -14,15 +14,14 @@
     "flags": [ "PSYCHOPATH" ],
     "anger_relations": [ [ "FoxImperial", 1 ] ],
     "passive_mods": { "int_mod": 1 },
-    "mana_modifier": 4400,
-    "mana_regen_multiplier": 0.33
+    "mana_modifier": 5000
   },
   {
     "type": "mutation",
     "id": "FoxApostleSkilled",
     "name": "Apostle: Skilled",
     "points": 5,
-    "description": "You are skilled at magic, your mana restores 50% slower than the baseline of 8 hours and you gain a boost of 9000 points in addition to any other modifier. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "description": "You are skilled at magic, your mana restores twice as fast, at 200 points per hour and you have 10000 max mana in addition to any modifiers such as intelligence. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": false,
     "purifiable": false,
     "valid": true,
@@ -34,14 +33,14 @@
     "anger_relations": [ [ "FoxImperial", 5 ] ],
     "passive_mods": { "int_mod": 2 },
     "mana_modifier": 8800,
-    "mana_regen_multiplier": 0.5
+    "mana_regen_multiplier": 2
   },
   {
     "type": "mutation",
     "id": "FoxApostleExpert",
     "name": "Apostle: Expert",
     "points": 5,
-    "description": "You are an expert at magic, your mana restores 33% slower than the baseline of 8 hours and you gain a boost of 15000 points in addition to any other modifier. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "description": "You are an expert at magic, your mana restores at 400 points per hour and you have 20000 max mana in addition to any modifiers such as intelligence. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": false,
     "purifiable": false,
     "valid": true,
@@ -52,15 +51,15 @@
     "flags": [ "PSYCHOPATH" ],
     "anger_relations": [ [ "FoxImperial", 10 ] ],
     "passive_mods": { "int_mod": 3 },
-    "mana_modifier": 14700,
-    "mana_regen_multiplier": 0.67
+    "mana_modifier": 20000,
+    "mana_regen_multiplier": 4
   },
   {
     "type": "mutation",
     "id": "FoxApostleMaster",
     "name": "Apostle: Master",
     "points": 5,
-    "description": "You are a master at magic, your mana restores fully in 8 hours and you gain a boost of 30000 points in addition to any other modifier. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "description": "You are a master at magic, your mana restores at 1000 points per hour and you have 50000 max mana in addition to any modifiers such as intelligence. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": false,
     "purifiable": false,
     "valid": true,
@@ -70,7 +69,8 @@
     "flags": [ "PSYCHOPATH" ],
     "passive_mods": { "int_mod": 4 },
     "anger_relations": [ [ "FoxImperial", 5000 ] ],
-    "mana_modifier": 29600
+    "mana_modifier": 50000,
+    "mana_regen_multiplier": 10
   },
   {
     "type": "mutation",
