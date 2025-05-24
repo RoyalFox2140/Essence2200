@@ -113,8 +113,8 @@
     "time": "5 m",
     "autolearn": true,
     "using": [ [ "FoxDocwriting", 5 ] ],
-    "tools": [ [ [ "Foxartifactheat2", -1 ] ] ],
-    "components": [ [ [ "paper", 10 ] ], [ [ "Foxartifactunstable", 1 ] ] ]
+    "tools": [ [ [ "Foxartifactheat2", -1 ] ], [ [ "Foxartifactunstable", 1 ] ] ],
+    "components": [ [ [ "paper", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -125,8 +125,8 @@
     "time": "5 m",
     "autolearn": true,
     "using": [ [ "FoxDocwriting", 5 ] ],
-    "tools": [ [ [ "Foxartifactcold2", -1 ] ] ],
-    "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
+    "tools": [ [ [ "Foxartifactcold2", -1 ] ], [ [ "Foxartifactunstable", 1 ] ] ],
+    "components": [ [ [ "paper", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -137,8 +137,8 @@
     "time": "5 m",
     "autolearn": true,
     "using": [ [ "FoxDocwriting", 5 ] ],
-    "tools": [ [ [ "Foxartifactelectric2", -1 ] ] ],
-    "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
+    "tools": [ [ [ "Foxartifactelectric2", -1 ] ], [ [ "Foxartifactunstable", 1 ] ] ],
+    "components": [ [ [ "paper", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -149,8 +149,8 @@
     "time": "5 m",
     "autolearn": true,
     "using": [ [ "FoxDocwriting", 5 ] ],
-    "tools": [ [ [ "Foxartifactacid2", -1 ] ] ],
-    "components": [ [ [ "Foxartifactunstable", 1 ] ] ]
+    "tools": [ [ [ "Foxartifactacid2", -1 ] ], [ [ "Foxartifactunstable", 1 ] ] ],
+    "components": [ [ [ "paper", 10 ] ] ]
   },
   {
     "type": "recipe",
