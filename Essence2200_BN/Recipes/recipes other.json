@@ -484,5 +484,105 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "Foxwastecactus", 1 ] ] ],
     "flags": [ "ALLOW_ROTTEN" ]
+  },
+  {
+    "type": "recipe",
+    "result": "steel_lump",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 2 ] ],
+    "id_suffix": "FoxBULKMETAl",
+    "difficulty": 3,
+    "time": "20 m",
+    "batch_time_factors": [ 90, 2 ],
+    "result_mult": 20,
+    "autolearn": true,
+    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
+    "components": [
+      [ [ "frame", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "steel_chunk",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 2 ] ],
+    "id_suffix": "FoxBULKMETAl",
+    "difficulty": 3,
+    "time": "20 m",
+    "batch_time_factors": [ 90, 2 ],
+    "result_mult": 4,
+    "autolearn": true,
+    "tools": [ [ [ "Foxmachiningstation", 4 ] ] ],
+    "components": [
+      [ [ "steel_lump", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "scrap",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 2 ] ],
+    "id_suffix": "FoxBULKMETAl",
+    "difficulty": 3,
+    "time": "20 m",
+    "batch_time_factors": [ 90, 2 ],
+    "result_mult": 5,
+    "autolearn": true,
+    "tools": [ [ [ "Foxmachiningstation", 3 ] ] ],
+    "components": [
+      [ [ "steel_chunk", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "pipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 2 ] ],
+    "id_suffix": "FoxBULKMETAl",
+    "difficulty": 3,
+    "time": "30 m",
+    "batch_time_factors": [ 80, 4 ],
+    "autolearn": true,
+    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 2 ], [ "steel_tiny", 2 ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sheet_metal",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 2 ] ],
+    "id_suffix": "FoxBULKMETAl",
+    "difficulty": 3,
+    "time": "30 m",
+    "batch_time_factors": [ 80, 4 ],
+    "autolearn": true,
+    "tools": [ [ [ "Foxmachiningstation", 40 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "using": [ [ "blacksmithing_standard", 5 ], [ "steel_standard", 6 ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "wire",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 2 ] ],
+    "id_suffix": "FoxBULKMETAl",
+    "difficulty": 3,
+    "time": "30 m",
+    "batch_time_factors": [ 80, 4 ],
+    "autolearn": true,
+    "tools": [ [ [ "Foxmachiningstation", 20 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 2 ] ],
+    "components": [ [ [ "scrap", 3 ] ] ]
   }
 ]
