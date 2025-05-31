@@ -12,8 +12,8 @@
     "id": "FoxImperial",
     "name": { "str": "Imperial soldier" },
     "flags": [ "LIGHTPROOF" ],
-    "anger_triggers": [ "FRIEND_DIED", "HURT" ],
-    "description": "a brain-chipped or otherwise loyal pure-blood human, free of mutation."
+    "anger_triggers": [ "FRIEND_DIED", "MEAT", "FIRE", "FRIEND_ATTACKED" ],
+    "description": "A brain-chipped or otherwise loyal pure-blood human, free of mutation."
   },
   {
     "type": "MONSTER_FACTION",
@@ -24,11 +24,27 @@
     "by_mood": "player"
   },
   {
+    "type": "SPECIES",
+    "id": "FoxImperialCleaner",
+    "name": { "str": "Imperial Cleaner" },
+    "flags": [ "PSIPROOF", "LIGHTPROOF", "BIOPROOF", "ACIDPROOF" ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "FIRE", "PLAYER_WEAK" ],
+    "description": "Elite Imperial special forces, able to operate in town without being hostile to monsters."
+  },
+  {
     "type": "MONSTER_FACTION",
     "name": "FoxImperialArbiter",
     "base_faction": "human",
     "friendly": [ "FoxImperial", "FoxImperialWarrens", "FoxImperialCleaner" ],
     "neutral": [ "small_animal", "insect", "fish" ]
+  },
+  {
+    "type": "SPECIES",
+    "id": "FoxImperialArbiter",
+    "name": { "str": "Imperial Arbiter" },
+    "flags": [ "DARKPROOF", "PSIPROOF", "LIGHTPROOF", "BIOPROOF", "COLDPROOF", "ACIDPROOF" ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "PLAYER_CLOSE", "HURT", "MEAT", "FIRE", "PLAYER_WEAK" ],
+    "description": "You feel like you're about to have a bad time."
   },
   {
     "type": "MONSTER_FACTION",
@@ -38,10 +54,26 @@
     "neutral": [ "small_animal", "insect", "fish" ]
   },
   {
+    "type": "SPECIES",
+    "id": "FoxImperialWarrens",
+    "name": { "str": "Warren Guard" },
+    "flags": [ "PSIPROOF", "LIGHTPROOF", "BIOPROOF", "COLDPROOF", "ACIDPROOF" ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "PLAYER_CLOSE", "HURT", "MEAT", "FIRE", "PLAYER_WEAK" ],
+    "description": "Security forces for Central Command. Looks difficult."
+  },
+  {
     "type": "MONSTER_FACTION",
     "name": "FoxSpecter",
     "base_faction": "zombie",
     "neutral": [ "small_animal", "insect", "fish" ],
     "by_mood": "player"
+  },
+  {
+    "type": "SPECIES",
+    "id": "FoxSpecter",
+    "name": { "str": "Specter" },
+    "flags": [ "DARKPROOF", "PSIPROOF" ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "PLAYER_CLOSE", "HURT" ],
+    "description": "A very angry ghost."
   }
 ]
