@@ -11,6 +11,7 @@
     "type": "SPECIES",
     "id": "FoxImperial",
     "name": { "str": "Imperial soldier" },
+    "flags": [ "LIGHTPROOF" ],
     "anger_triggers": [ "FRIEND_DIED", "HURT" ],
     "description": "a brain-chipped or otherwise loyal pure-blood human, free of mutation."
   },
@@ -18,6 +19,7 @@
     "type": "MONSTER_FACTION",
     "name": "FoxImperialCleaner",
     "base_faction": "human",
+    "flags": [ "PSIPROOF", "LIGHTPROOF", "BIOPROOF", "ACIDPROOF" ],
     "friendly": [ "FoxImperial", "FoxImperialWarrens", "FoxImperialArbiter" ],
     "neutral": [ "small_animal", "insect", "fish" ],
     "by_mood": "player"
@@ -26,6 +28,7 @@
     "type": "MONSTER_FACTION",
     "name": "FoxImperialArbiter",
     "base_faction": "human",
+    "flags": [ "DARKPROOF", "PSIPROOF", "LIGHTPROOF", "BIOPROOF", "COLDPROOF", "ACIDPROOF" ],
     "friendly": [ "FoxImperial", "FoxImperialWarrens", "FoxImperialCleaner" ],
     "neutral": [ "small_animal", "insect", "fish" ]
   },
@@ -33,6 +36,7 @@
     "type": "MONSTER_FACTION",
     "name": "FoxImperialWarrens",
     "base_faction": "human",
+    "flags": [ "PSIPROOF", "LIGHTPROOF", "BIOPROOF", "COLDPROOF", "ACIDPROOF" ],
     "friendly": [ "FoxImperialArbiter", "FoxImperial", "FoxImperialCleaner" ],
     "neutral": [ "small_animal", "insect", "fish" ]
   },
@@ -40,6 +44,7 @@
     "type": "MONSTER_FACTION",
     "name": "FoxSpecter",
     "base_faction": "zombie",
+    "flags": [ "DARKPROOF", "PSIPROOF" ],
     "neutral": [ "small_animal", "insect", "fish" ],
     "by_mood": "player"
   }

@@ -269,6 +269,24 @@
     ]
   },
   {
+    "id": "nuts_tasty",
+    "type": "requirement",
+    "//": "nuts that taste good enough to be eaten as is, either processed or raw.",
+    "components": [
+      [
+        [ "nuts_cooked", 1, "LIST" ],
+        [ "almond", 1 ],
+        [ "walnut", 1 ],
+        [ "peanut", 1 ],
+        [ "beech_nuts", 1 ],
+        [ "cashews", 1 ],
+        [ "pecan", 1 ],
+        [ "pistachio", 1 ],
+        [ "Foxwastenutsboiled", 1 ]
+      ]
+    ]
+  },
+  {
     "id": "veggy_any_fresh_uncooked",
     "type": "requirement",
     "components": [
@@ -311,6 +329,7 @@
         [ "carrot_wild", 1 ],
         [ "grape_leaves", 1 ],
         [ "spinach", 1 ],
+        [ "Foxwastetuber", 1 ],
         [ "Foxwastecactusdry", 1 ]
       ]
     ]

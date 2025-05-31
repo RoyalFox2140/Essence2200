@@ -33,6 +33,81 @@
     "stype": "int",
     "value": 100
   },
+  {
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "DARKPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "PSIPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ROBOT",
+    "flag": { "name": "DARKPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ROBOT",
+    "flag": { "name": "PSIPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ROBOT",
+    "flag": { "name": "LIGHTPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ROBOT",
+    "flag": { "name": "BIOPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "HORROR",
+    "flag": { "name": "DARKPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "HORROR",
+    "flag": { "name": "PSIPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ABERRATION",
+    "flag": { "name": "DARKPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ABERRATION",
+    "flag": { "name": "PSIPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "NETHER",
+    "flag": { "name": "DARKPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment", 
+    "species": "NETHER",
+    "flag": { "name": "PSIPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "BLOB",
+    "flag": { "name": "DARKPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "BLOB",
+    "flag": { "name": "PSIPROOF", "value": true }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "HUMAN",
+    "flag": { "name": "LIGHTPROOF", "value": true }
+  },
    {
     "type": "skill",
     "id": "FoxEssTech",

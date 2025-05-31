@@ -3,7 +3,7 @@
     "type": "mutation",
     "id": "FoxApostleApprentice",
     "name": "Apostle: Apprentice",
-    "points": 5,
+    "points": 3,
     "description": "You are a novice at magic, your mana restores at the baseline of 100 points per hour and you have 5000 max mana in addition to any modifiers such as intelligence. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": true,
     "purifiable": false,
