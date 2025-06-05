@@ -168,7 +168,7 @@
     "special_attacks": [ [ "SMASH", 20 ] ],
     "death_function": [ "NORMAL" ],
     "harvest": "FoxColossus",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "DESTROYS", "PATH_AVOID_DANGER_2", "POISON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "PUSH_MON", "WARM", "BASHES", "DESTROYS", "PATH_AVOID_DANGER_2", "POISON" ]
   },
   {
     "id": "FoxmonAbberantShadow",
