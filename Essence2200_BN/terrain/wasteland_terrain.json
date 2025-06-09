@@ -16,13 +16,31 @@
       "ADV_DECONSTRUCT"
     ],
     "bash": { "sound": "thump", "ter_set": "Foxt_wastelandpit_shallow", "str_min": 100, "str_max": 200, "str_min_supported": 150 },
-    "deconstruct": { "ter_set": "Foxt_wastelandpit_shallow", 
+    "digging_results": {
+    "digging_min": 1,
+    "result_ter": "Foxt_wastelandpit_shallow",
+    "num_minutes": 20,
+    "items": "Foxdigging_pitshallow"
+  }
+  },
+  {
+    "id": "Foxdigging_pitshallow",
+    "type": "item_group",
+    "subtype": "collection",
     "items": [ 
       { "item": "Fox_wastedirt", "charges": 10 }, 
       { "item": "Fox_LETSGOGAMBLINGseeds", "count": [ 0, 4 ] },
       { "item": "rock", "count": [ 0, 3 ] },
       { "item": "pebble", "charges": [ 20, 70 ] }
-      ] }
+      ]
+  },
+  {
+    "id": "Foxdigging_pitdeep",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [
+      { "item": "Fox_wastedirt", "charges": 50 }
+    ]
   },
   {
     "type": "terrain",
@@ -44,9 +62,16 @@
     "symbol": "0",
     "color": "brown",
     "move_cost": 8,
+    "fill_result": "Foxt_wastelandsoil",
+    "fill_minutes": 5, 
     "flags": [ "TRANSPARENT", "VEH_TREAT_AS_BASH_BELOW", "ADV_DECONSTRUCT", "PIT_SHALLOW" ],
-    "bash": { "sound": "thump", "ter_set": "Foxt_wastelandpit", "str_min": 100, "str_max": 200, "str_min_supported": 150 },
-    "deconstruct": { "ter_set": "Foxt_wastelandpit", "items": [ { "item": "Fox_wastedirt", "charges": 50 } ] }
+    "digging_results": {
+    "digging_min": 2,
+    "result_ter": "Foxt_wastelandpit",
+    "num_minutes": 60,
+    "items": "Foxdigging_pitdeep"
+  },
+    "bash": { "sound": "thump", "ter_set": "Foxt_wastelandpit", "str_min": 100, "str_max": 200, "str_min_supported": 150 }
   },
   {
     "type": "construction_group",
@@ -65,31 +90,6 @@
     "group": "Foxconstr_fertiledirt"
   },
   {
-    "type": "construction",
-    "id": "Fox_digwastesoil_shallow",
-    "category": "OTHER",
-    "time": "30 m",
-    "qualities": [ { "id": "DIG", "level": 1 } ],
-    "pre_terrain": "Foxt_wastelandsoil",
-    "pre_special": "check_deconstruct",
-    "post_flags": [ "keep_items" ],
-    "post_special": "done_deconstruct",
-    "group": "advanced_object_deconstruction"
-  },
-  {
-    "type": "construction",
-    "id": "Fox_digwastesoil_deep",
-    "//": "It's the only way.",
-    "category": "OTHER",
-    "time": "60 m",
-    "qualities": [ { "id": "DIG", "level": 2 } ],
-    "pre_terrain": "Foxt_wastelandpit_shallow",
-    "pre_special": "check_deconstruct",
-    "post_flags": [ "keep_items" ],
-    "post_special": "done_deconstruct",
-    "group": "advanced_object_deconstruction"
-  },
-  {
     "type": "terrain",
     "id": "Foxt_wastelandpit",
     "looks_like": "t_pit",
@@ -99,6 +99,8 @@
     "color": "brown",
     "move_cost": 10,
     "trap": "tr_pit",
+    "fill_result": "Foxt_wastelandpit_shallow",
+    "fill_minutes": 20, 
     "flags": [ "TRANSPARENT", "PIT_DEEP" ]
   },
   {
@@ -168,35 +170,6 @@
     "components": [ [ [ "pointy_stick", 4 ] ] ],
     "pre_terrain": "Foxt_wastelandpit",
     "post_terrain": "Foxt_wastelandpit_spiked"
-  },
-  {
-    "type": "construction_group",
-    "id": "Foxconstr_fillpitshallowgroup",
-    "name": "Fill shallow wasteland pit"
-  },
-  {
-    "type": "construction_group",
-    "id": "Foxconstr_fillpitdeepgroup",
-    "name": "Fill wasteland pit"
-  },
-  {
-    "type": "construction",
-    "id": "Foxconstr_fillpitshallow",
-    "group": "Foxconstr_fillpitshallowgroup",
-    "category": "FOXSPECIAL",
-    "time": "5 m",
-    "pre_terrain": "Foxt_wastelandpit_shallow",
-    "post_terrain": "Foxt_wastelandsoil"
-  },
-  {
-    "type": "construction",
-    "id": "Foxconstr_fillpitdeep",
-    "group": "Foxconstr_fillpitdeepgroup",
-    "category": "FOXSPECIAL",
-    "time": "20 m",
-    "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
-    "pre_terrain": "Foxt_wastelandpit",
-    "post_terrain": "Foxt_wastelandsoil"
   },
   {
     "type": "construction",

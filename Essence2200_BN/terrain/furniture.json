@@ -71,7 +71,7 @@
     "components": [
       [ [ "FoxTelekineticrune", 1 ] ]
     ],
-    "pre_flags": "DIGGABLE",
+    "needs_diggable": true,
     "pre_special": "check_down_OK",
     "post_special": "done_dig_stair"
   },
@@ -507,8 +507,13 @@
     "symbol": ".",
     "color": "light_red",
     "move_cost": 2,
-    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT" ],
-    "digging_result": "Foxdigging_sludgepit",
+    "flags": [ "TRANSPARENT", "FLAT" ],
+    "digging_results": {
+    "digging_min": 1,
+    "result_ter": "Foxt_wastelandpit_shallow",
+    "num_minutes": 20,
+    "items": "Foxdigging_sludgepit"
+  },
     "bash": {
       "sound": "thump",
       "ter_set": "t_pit",
