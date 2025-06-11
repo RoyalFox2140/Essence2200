@@ -1,0 +1,377 @@
+[
+    {
+    "id": "Fox_spellbooks_Elemental",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Elemental I",
+    "description": "Your Repository of novice Elemental spells, contains a few basic one's but you'll need to experiment to learn better ones.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Elemental_Firebolt",
+		"Fox_Elemental_Icebolt",
+		"Fox_Elemental_Lightningbolt",
+		"Fox_Elemental_Rockbolt",
+		"Fox_Elemental_Rockfist",
+    "Fox_Elemental_Firewave",
+    "Fox_Elemental_Icewave",
+    "Fox_Elemental_Lightningwave",
+    "Fox_Elemental_Rockwave",
+		"Fox_Elemental_Climatecontrol"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Elemental2",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Elemental II",
+    "description": "Your Repository of Intermediate Elemental spells, you're starting to get the hang of this.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Elemental_Fireball",
+    "Fox_Elemental_Wildfire",
+		"Fox_Elemental_Smokescreen",
+    "Fox_Elemental_Boulder",
+    "Fox_Elemental_Thunder"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Spirit",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Spirit I",
+    "description": "Your Repository of novice Spirit spells, contains a few basic one's but you'll need to experiment to learn better ones.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Spirit_Soothe",
+		"Fox_Spirit_Darkvision",
+		"Fox_Spirit_Respite",
+    "Fox_Spirit_Paininhibitor",
+    "Fox_Pale_portalnexus",
+    "Fox_Pale_teleport",
+    "Fox_Spirit_holybolt",
+    "Fox_Spirit_deathbolt",
+    "Fox_Spirit_psibolt",
+    "Fox_Spirit_holywave",
+    "Fox_Spirit_deathwave",
+    "Fox_Spirit_psiwave",
+    "Fox_Pale_Phaseshift"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Spirittwo",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Spirit II",
+    "description": "Your Repository of intermediate Spirit spells.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Spirit_Tremble",
+    "Fox_Spirit_Onrush",
+		"Fox_Spirit_Cure",
+    "Fox_Spirit_Recuperate",
+    "Fox_Spirit_Farsight"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Weaving2",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Weaving II",
+    "description": "Contains the ability to train the skilled tier of Essence weaving and transmutation runes.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_EssenceTokenSkilled",
+    "Fox_Transmutation_Essence_skilled"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Weaving3",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Weaving III",
+    "description": "Contains the ability to train the expert tier of Essence weaving and transmutation runes.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_EssenceTokenExpert",
+    "Fox_Transmutation_Essence_expert"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Weaving4",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Weaving IV",
+    "description": "Contains the ability to train the master tier of Essence weaving and transmutation runes.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_EssenceTokenBulk",
+    "Fox_Transmutation_EssenceBulk"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Transmutation",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Transmutation I",
+    "description": "Your first Repository of Transmutation spells, contains a few basic one's but you'll need to experiment to learn better ones.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_EssenceToken",
+    "Fox_Transmutation_Essence",
+    "Fox_Transmutation_Lead_Attack",
+    "Fox_Transmutation_Pistolbullet",
+    "Fox_Transmutation_KnifeToss",
+    "Fox_Transmutation_Acidbolt",
+    "Fox_Transmutation_Spikebolt",
+    "Fox_Transmutation_Buckshotwave",
+    "Fox_Transmutation_Knifewave",
+    "Fox_Transmutation_Spikewave",
+    "Fox_Transmutation_Acidwave",
+    "Fox_Transmutation_Tunnel",
+    "Fox_Transmutation_Upturnearth"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Transmutationtwo",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Transmutation II",
+    "description": "Your Repository of Intermediate Transmutation spells.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_magicaquifer",
+    "Fox_Transmutation_magicaquiferbad",
+    "Fox_Transmutation_magicsaltaquifer",
+    "Fox_Transmutation_KnifeSwarm",
+    "Fox_Transmutation_FullAuto"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Construction",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Construction",
+    "description": "Your Repository of Construction magic, a type of transmutation.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_LogWall",
+    "Fox_Transmutation_LogRoof",
+    "Fox_Transmutation_WoodWall",
+    "Fox_Transmutation_WoodRoof",
+    "Fox_Transmutation_StoneWall",
+    "Fox_Transmutation_RockWall",
+    "Fox_Transmutation_BrickWall",
+    "Fox_Transmutation_MetalWall",
+    "Fox_Transmutation_MetalRoof",
+    "Fox_Transmutation_SConcreteWall",
+    "Fox_Transmutation_SConcreteRoof",
+    "Fox_Transmutation_RConcreteWall",
+    "Fox_Transmutation_RConcreteRoof",
+    "Fox_Transmutation_Toilet",
+    "Fox_Transmutation_Bathtub",
+    "Fox_Transmutation_Sink",
+    "Fox_Transmutation_Shower",
+    "Fox_Transmutation_Tunnel",
+    "Fox_Transmutation_Tunnelbig",
+    "Fox_Transmutation_Tunnelhuge"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Druid",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Druidic trees",
+    "description": "Your Repository of Druidic tree magic, a type of transmutation.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Transmutation_Treeapple",
+    "Fox_Transmutation_Treeapricot",
+    "Fox_Transmutation_Treecherry",
+    "Fox_Transmutation_Treepeach",
+    "Fox_Transmutation_Treeplum",
+    "Fox_Transmutation_Treepear",
+    "Fox_Transmutation_Treeelderberry",
+    "Fox_Transmutation_Treemulberry",
+    "Fox_Transmutation_Treehickory",
+    "Fox_Transmutation_Treebeech",
+    "Fox_Transmutation_Treewalnut",
+    "Fox_Transmutation_Treechestnut",
+    "Fox_Transmutation_Treehazelnut",
+    "Fox_Transmutation_Treecoffee",
+    "Fox_Transmutation_Treemaple",
+    "Fox_Transmutation_Treewillow",
+    "Fox_Transmutation_Treebirch",
+    "Fox_Transmutation_Treeblackjack",
+    "Fox_Transmutation_Tree"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Necromancy",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Necromancy",
+    "description": "Your Repository of Necromancy magic, focused around summoning monsters.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Spirit_Skeleton",
+    "Fox_Spirit_Skeleton10",
+    "Fox_Spirit_SkeletalHorse"
+      ]
+    }
+  },
+  {
+    "type": "BOOK",
+    "id": "Fox_spellbooks_First",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": { "str": "How-to Magic" },
+    "description": "Magic wasn't so hard, you think you know what you're doing enough to make any spellbook and practice further.",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": "paper",
+    "weight": "50 g",
+    "volume": "100 ml",
+    "skill": "FoxEssSpellcasting",
+    "max_level": 5,
+    "intelligence": 10,
+    "time": "15 m",
+    "fun": 1
+  },
+  {
+    "type": "BOOK",
+    "id": "Fox_spellbooks_ForbiddenFaith",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": { "str": "Forbidden Faith" },
+    "description": "After days of studying and meditation, you've discovered an alternative source of knowledge and power. But what does He want from you?",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": "paper",
+    "weight": "50 g",
+    "volume": "100 ml",
+    "skill": "FoxEssSpellcasting",
+    "max_level": 5,
+    "intelligence": 10,
+    "time": "15 m",
+    "fun": 1
+  },
+  {
+    "id": "Fox_spellbooks_Pale",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Pale I",
+    "description": "Your first Repository of Pale spells, contains a few basic one's but you'll need to experiment to learn better ones.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "Fox_Pale_Lesser_SOL",
+        "Fox_Pale_Greater_SOL",
+        "Fox_Pale_Shockwave",
+        "Fox_Pale_portalnexus",
+        "Fox_Pale_teleport",
+        "Fox_Pale_Phaseshift"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Prayer",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "SGA Prayer book (unlocked)",
+    "description": "An entirely unencrypted book detailing instructions on how to psionically contact the patron guardian and director of the Shi to offer a significant amount of your mana to pray for assistance in combat. You understand how to use this.",
+    "weight": "500 g",
+    "volume": "1000 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "Fox_Prayer_ProtectRanged",
+        "Fox_Prayer_ProtectMelee",
+        "Fox_Prayer_ProtectElectrochem",
+        "Fox_Prayer_ProtectTemperature",
+        "Fox_Prayer_STR",
+        "Fox_Prayer_DEX",
+        "Fox_Prayer_PER",
+        "Fox_Prayer_INT"
+      ]
+    }
+  }
+]
