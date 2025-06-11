@@ -63,15 +63,12 @@
 		"Fox_Spirit_Darkvision",
 		"Fox_Spirit_Respite",
     "Fox_Spirit_Paininhibitor",
-    "Fox_Pale_portalnexus",
-    "Fox_Pale_teleport",
     "Fox_Spirit_holybolt",
     "Fox_Spirit_deathbolt",
     "Fox_Spirit_psibolt",
     "Fox_Spirit_holywave",
     "Fox_Spirit_deathwave",
-    "Fox_Spirit_psiwave",
-    "Fox_Pale_Phaseshift"
+    "Fox_Spirit_psiwave"
       ]
     }
   },
@@ -92,7 +89,10 @@
     "Fox_Spirit_Onrush",
 		"Fox_Spirit_Cure",
     "Fox_Spirit_Recuperate",
-    "Fox_Spirit_Farsight"
+    "Fox_Spirit_Farsight",
+    "Fox_Pale_Phaseshift",
+    "Fox_Pale_portalnexus",
+    "Fox_Pale_teleport"
       ]
     }
   },
@@ -297,7 +297,7 @@
     "symbol": ",",
     "color": "white",
     "name": { "str": "How-to Magic" },
-    "description": "Magic wasn't so hard, you think you know what you're doing enough to make any spellbook and practice further.",
+    "description": "You can practice your Essence Control if you read this, or you can use the Item Action Menu to learn basic spells. Activating it will only let you read the book.",
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "material": "paper",
@@ -307,6 +307,14 @@
     "max_level": 5,
     "intelligence": 10,
     "time": "15 m",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+		"Fox_Elemental_Rockbolt",
+    "Fox_Transmutation_EssenceToken",
+    "Fox_Transmutation_Essence"
+      ]
+    },
     "fun": 1
   },
   {
