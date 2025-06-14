@@ -110,7 +110,7 @@
     "entries": [
       { "group": "Foxmonweakartifacts", "prob": 1 },
       { "group": "default_zombie_clothes" },
-      { "group": "default_zombie_items", "prob": 70, "count": [ 0, 3 ] }
+      { "group": "default_zombie_items", "prob": 70 }
     ]
   },
   {
