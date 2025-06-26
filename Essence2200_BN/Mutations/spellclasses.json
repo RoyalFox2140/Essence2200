@@ -1,6 +1,18 @@
 [
   {
     "type": "mutation",
+    "id": "FoxApostleBargain",
+    "name": "Forbidden Faith",
+    "points": 0,
+    "description": "Maybe you shouldn't have bargained to a higher being for magical power. He is waiting for his due, as always. You get different prayers and spells.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": true,
+    "spells_learned": [ [ "Fox_Pale_Shockwave", 1 ], [ "Fox_Pale_Lesser_SOL", 1 ], [ "Fox_Transmutation_ForbiddenFaith", 1 ] ],
+    "flags": [ "PSYCHOPATH" ]
+  },
+  {
+    "type": "mutation",
     "id": "FoxApostleApprentice",
     "name": "Apostle: Apprentice",
     "points": 3,

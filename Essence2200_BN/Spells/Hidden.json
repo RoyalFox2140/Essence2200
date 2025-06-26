@@ -24,6 +24,38 @@
     "max_damage": 10000
   },
   {
+    "id": "Fox_Hidden_ApostleBargain",
+    "type": "SPELL",
+    "name": "Forbidden Faith ritual",
+    "description": "Are you ready for power at any cost?",
+    "message": "You feel His presence. He waits for his due. 'There are no free lunches in this world'.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+    "effect": "mutate",
+    "effect_str": "FoxApostleBargain",
+    "blocker_mutations": [ "FoxApostleBargain", "FoxSiredKawakami", "FoxApostleApprentice", "FoxApostleSkilled", "FoxApostleExpert", "FoxApostleMaster" ],
+    "base_casting_time": 6000,
+    "min_damage": 10000,
+    "max_damage": 10000,
+    "extra_effects": [ { "id": "Fox_Hidden_Apprenticeawakening" } ]
+  },
+  {
+    "id": "Fox_Hidden_KawakamiBargain",
+    "type": "SPELL",
+    "name": "Siring ritual",
+    "description": "Are you ready for power, at a small cost?",
+    "message": "You feel Her presence. Like a Mother watching their child play in the sandbox. You will be useful in time.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+    "effect": "mutate",
+    "effect_str": "FoxSiredKawakami",
+    "blocker_mutations": [ "FoxApostleBargain", "FoxSiredKawakami" ],
+    "base_casting_time": 6000,
+    "min_damage": 10000,
+    "max_damage": 10000,
+    "extra_effects": [ { "id": "Fox_Hidden_Apprenticeawakening" } ]
+  },
+  {
     "id": "Fox_Hidden_Apprenticeawakening",
     "type": "SPELL",
     "name": "Apostle Awakening",

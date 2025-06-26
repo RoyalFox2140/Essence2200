@@ -156,6 +156,107 @@
     "flags": [ "BLIND_EASY" ]
   },
   {
+    "result": "FoxMeditationAbrahamic",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "autolearn": true,
+    "time": "9 h",
+    "tools": [ 
+      [ [ "holybook_bible1", -1 ] ], 
+      [ [ "holybook_bible2", -1 ] ], 
+      [ [ "holybook_bible3", -1 ] ], 
+      [ [ "holybook_bible4", -1 ] ], 
+      [ [ "holybook_mormon", -1 ] ], 
+      [ [ "holybook_hadith", -1 ] ], 
+      [ [ "holybook_quran", -1 ] ], 
+      [ [ "holybook_talmud", -1 ] ], 
+      [ [ "holybook_tanakh", -1 ] ]
+    ]
+  },
+  {
+    "result": "FoxMeditationDharmic",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "autolearn": true,
+    "time": "5 h",
+    "tools": [ 
+      [ [ "holybook_sutras", -1 ] ], 
+      [ [ "holybook_tripitaka", -1 ] ], 
+      [ [ "holybook_granth", -1 ] ],
+      [ [ "holybook_upanishads", -1 ] ], 
+      [ [ "holybook_vedas", -1 ] ]
+    ]
+  },
+  {
+    "result": "FoxMeditationEastAsia",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "autolearn": true,
+    "time": "3 h",
+    "tools": [  
+      [ [ "holybook_kojiki", -1 ] ], 
+      [ [ "holybook_taoism", -1 ] ],
+      [ [ "holybook_confucianism", -1 ] ] 
+    ]
+  },
+  {
+    "result": "FoxMeditationOther",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "autolearn": true,
+    "time": "4 h",
+    "tools": [ 
+      [ [ "holybook_satanic", -1 ] ], 
+      [ [ "holybook_havamal", -1 ] ], 
+      [ [ "holybook_paganism", -1 ] ], 
+      [ [ "holybook_shamanism", -1 ] ] 
+    ]
+  },
+  {
+    "result": "Fox_spellbook_SiredForbidden",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "autolearn": true,
+    "time": "1 h",
+    "tools": [ 
+      [ [ "FoxMeditationAbrahamic", -1 ] ], 
+      [ [ "FoxMeditationDharmic", -1 ] ], 
+      [ [ "FoxMeditationEastAsia", -1 ] ], 
+      [ [ "FoxMeditationOther", -1 ] ] 
+    ]
+  },
+  {
+    "result": "Fox_spellbook_SiredKawakami",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "autolearn": true,
+    "time": "1 h",
+    "tools": [ 
+      [ [ "FoxMeditationAbrahamic", -1 ] ], 
+      [ [ "FoxMeditationDharmic", -1 ] ], 
+      [ [ "FoxMeditationEastAsia", -1 ] ], 
+      [ [ "FoxMeditationOther", -1 ] ] , 
+      [ [ "FoxDeSGAkawakamiprayer", -1 ], [ "Fox_spellbooks_Prayer", -1 ] ] 
+    ]
+  },
+  {
+    "result": "Fox_spellbooks_ForbiddenPrayers",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "autolearn": true,
+    "time": "1 m",
+    "components": [
+      [ [ "Fox_spellbooks_ForbiddenFaith", 1 ] ]
+    ]
+  },
+  {
     "result": "Foxhumansoul",
     "type": "recipe",
     "category": "CC_ESSMAGIC",

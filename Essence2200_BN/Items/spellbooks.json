@@ -318,25 +318,6 @@
     "fun": 1
   },
   {
-    "type": "BOOK",
-    "id": "Fox_spellbooks_ForbiddenFaith",
-    "category": "books",
-    "symbol": ",",
-    "color": "white",
-    "name": { "str": "Forbidden Faith" },
-    "description": "After days of studying and meditation, you've discovered an alternative source of knowledge and power. But what does He want from you?",
-    "price": "2 USD",
-    "price_postapoc": "2 USD",
-    "material": "paper",
-    "weight": "50 g",
-    "volume": "100 ml",
-    "skill": "FoxEssSpellcasting",
-    "max_level": 5,
-    "intelligence": 10,
-    "time": "15 m",
-    "fun": 1
-  },
-  {
     "id": "Fox_spellbooks_Pale",
     "type": "GENERIC",
     "category": "spellbooks",
@@ -379,6 +360,78 @@
         "Fox_Prayer_DEX",
         "Fox_Prayer_PER",
         "Fox_Prayer_INT"
+      ]
+    }
+  },
+  {
+    "type": "BOOK",
+    "id": "Fox_spellbooks_ForbiddenFaith",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": { "str": "Forbidden Faith" },
+    "description": "What does He want from you?",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": "paper",
+    "weight": "50 g",
+    "volume": "100 ml",
+    "skill": "FoxEssSpellcasting",
+    "max_level": 8,
+    "intelligence": 8,
+    "time": "12 m",
+    "fun": 1
+  },
+  {
+    "id": "Fox_spellbook_SiredForbidden",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Forbidden Ritual book",
+    "description": "This ritual will contact a higher being to form a contract for magical power. it's clear you will annoy people with this, Is this really such a good idea?",
+    "weight": "1 g",
+    "volume": "10 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "Fox_Hidden_ApostleBargain"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbook_SiredKawakami",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Siring ritual book",
+    "description": "This ritual will let you psionically contact the patron guardian and director of the Shi to offer yourself to Her in exchange for magical power. Perhaps it's not the best idea.",
+    "weight": "1 g",
+    "volume": "10 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "Fox_Hidden_KawakamiBargain"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_ForbiddenPrayers",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Forbidden Prayers",
+    "description": "Pray to your new master for help while you still can. Do you dare to spit in God's eye and live another day?",
+    "weight": "500 g",
+    "volume": "1000 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "Fox_Prayer_Rage",
+        "Fox_Prayer_Hatred",
+        "Fox_Prayer_Misery"
       ]
     }
   }

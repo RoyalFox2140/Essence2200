@@ -671,7 +671,7 @@
     "id": "FoxSiredNishimura",
     "name": { "str": "Sired: Nishimura" },
     "points": 0,
-    "description": "Your magical power was sired by Matriarch Nishimura. This will affect dialogue.",
+    "description": "Your magical power was sired by Matriarch Nishimura. We stand as one to face the night, to protect those who cannot.",
     "valid": false,
     "purifiable": false,
     "visibility": 0,
@@ -682,10 +682,13 @@
     "id": "FoxSiredKawakami",
     "name": { "str": "Sired: Kawakami" },
     "points": 0,
-    "description": "Your magical power was sired by Matriarch Kawakami. There will be unforeseen consequences.",
+    "description": "Your magical power was sired by Matriarch Kawakami. Now, kneel before Her, and bark like a good dog. She will grant you armor from bullets and energy weapons, but you will lose some mana recovery",
     "valid": false,
     "purifiable": false,
     "visibility": 0,
-    "ugliness": 0
+    "ugliness": 0,
+    "mana_regen_multiplier": 0.9,
+    "spells_learned": [ [ "Fox_Pale_Phaseshift", 10 ], [ "Fox_Prayer_Awaken", 1] ],
+    "armor": [ { "parts": "ALL", "bullet": 40, "heat": 30, "cold": 30, "electric": 400 } ]
   }
 ]

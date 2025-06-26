@@ -256,5 +256,23 @@
     "skill": "FoxEssSpellcasting",
     "energy_source": "MANA",
     "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
+  },
+  {
+    "id": "Fox_Transmutation_ForbiddenFaith",
+    "type": "SPELL",
+    "name": { "str": "U: Forbidden Faith Tome" },
+    "description": "This will grant you a tome for learning Essence Control, it turns into the new prayer book via crafting.",
+    "valid_targets": [ "self" ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "effect": "spawn_item",
+    "effect_str": "Fox_spellbooks_ForbiddenFaith",
+    "base_casting_time": 6000,
+    "base_energy_cost": 500,
+    "difficulty": 1,
+    "max_level": 0,
+    "skill": "FoxEssSpellcasting",
+    "energy_source": "MANA",
+    "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ]
   }
 ]

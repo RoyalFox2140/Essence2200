@@ -167,7 +167,7 @@
     "type": "MONSTER",
     "name": { "str": "Reaper Radioman" },
     "looks_like": "mon_zombie_soldier",
-    "description": "A reaper with a radio pack. Ion storms knock out most electronics and communications which occur randomly and plague worlds twisted from Essence exposure. These radios communicate with the radome on a modified AWACS plane or gunship which daisy chains back to command and control nodes.",
+    "description": "A reaper with a radio pack and a ballistic rifle. Ion storms knock out most electronics and communications which occur randomly and plague worlds twisted from Essence exposure. These radios communicate with the radome on a modified AWACS plane or gunship which daisy chains back to command and control nodes.",
     "default_faction": "FoxImperial",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
