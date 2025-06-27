@@ -88,7 +88,7 @@
           "type": "consume_drug",
           "activation_message": "You inject a pain-shot.",
           "effects": [ { "id": "Foxpainshot", "duration": "600 s" } ],
-          "tools_needed": { "Foxautoinjector": 1 },
+          "tools_needed": { "Foxautoinjector": -1 },
           "moves": 100
         }
       },
@@ -118,7 +118,7 @@
             { "id": "cough_suppress", "duration": 1000 },
             { "id": "Foxbattleshot", "duration": "1800 s" }
           ],
-          "tools_needed": { "Foxautoinjector": 1 },
+          "tools_needed": { "Foxautoinjector": -1 },
           "moves": 100
         }
       },
@@ -142,7 +142,7 @@
           "type": "consume_drug",
           "activation_message": "You inject a stim-shot.",
           "effects": [ { "id": "Foxstimshot", "duration": "900 s" } ],
-          "tools_needed": { "Foxautoinjector": 1 },
+          "tools_needed": { "Foxautoinjector": -1 },
           "moves": 100
         }
       },
@@ -165,7 +165,7 @@
           "type": "consume_drug",
           "activation_message": "You inject a mind-shot.",
           "effects": [ { "id": "Foxmindshot", "duration": "3600 s" } ],
-          "tools_needed": { "Foxautoinjector": 1 },
+          "tools_needed": { "Foxautoinjector": -1 },
           "moves": 100
         }
       },
@@ -188,7 +188,7 @@
           "type": "consume_drug",
           "activation_message": "You inject a vit-shot.",
           "effects": [ { "id": "Foxvitshot", "duration": "1800 s" } ],
-          "tools_needed": { "Foxautoinjector": 1 },
+          "tools_needed": { "Foxautoinjector": -1 },
           "moves": 100
         }
       },
@@ -211,7 +211,7 @@
         "use_action": {
           "type": "consume_drug",
           "activation_message": "You inject a stim-clear.",
-          "tools_needed": { "Foxautoinjector": 1 },
+          "tools_needed": { "Foxautoinjector": -1 },
           "moves": 100
         }
       },
@@ -261,7 +261,7 @@
           "type": "consume_drug",
           "activation_message": "You inject blackout.",
           "effects": [ { "id": "Foxblackout", "duration": "3600 s" } ],
-          "tools_needed": { "Foxautoinjector": 1 },
+          "tools_needed": { "Foxautoinjector": -1 },
           "moves": 100
         }
       },
@@ -424,5 +424,97 @@
         "stack_size": 6,
         "flags": [ "NO_INGEST" ],
         "use_action": { "type": "heal", "bandages_power": 3, "bleed": 0.9, "move_cost": 400 }
+      },
+      {
+        "id": "Foxbadfeelscure",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "name": "Broad-spectrum antivirals",
+        "description": "Inject this concentrated dose of antivirals to cure any terrible feelings from possible viral infections and gain temporary immunity to re-infection. It can't save you from infections that have progressed.",
+        "weight": "2 g",
+        "volume": "50 ml",
+        "price": "2 USD",
+        "price_postapoc": "2 USD",
+        "charges": 1,
+        "healthy": -5,
+        "symbol": "!",
+        "color": "dark_gray",
+        "flags": [ "NO_INGEST" ],
+        "use_action": {
+          "type": "consume_drug",
+          "activation_message": "You inject a mind-shot.",
+          "effects": [ { "id": "FoxAntivirals", "duration": "24 h" } ],
+          "tools_needed": { "syringe": -1 },
+          "moves": 100
+        }
+      },
+      {
+        "id": "FoxRedrotcure",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "name": "Red rot antivirals",
+        "description": "Inject this targeted spectrum of antivirals to cure existing symptoms of blood fever and gain temporary immunity to re-infection. It can't save you from stage 3.",
+        "weight": "2 g",
+        "volume": "50 ml",
+        "price": "2 USD",
+        "price_postapoc": "2 USD",
+        "charges": 1,
+        "healthy": -5,
+        "symbol": "!",
+        "color": "dark_gray",
+        "flags": [ "NO_INGEST" ],
+        "use_action": {
+          "type": "consume_drug",
+          "activation_message": "You inject a mind-shot.",
+          "effects": [ { "id": "FoxRedRotcure", "duration": "48 h" } ],
+          "tools_needed": { "syringe": -1 },
+          "moves": 100
+        }
+      },
+      {
+        "id": "FoxBlackrotcure",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "name": "Black rot antivirals",
+        "description": "Inject this targeted spectrum of antivirals to cure existing symptoms of gangrene and gain temporary immunity to re-infection. It can't save you from stage 3.",
+        "weight": "2 g",
+        "volume": "50 ml",
+        "price": "2 USD",
+        "price_postapoc": "2 USD",
+        "charges": 1,
+        "healthy": -5,
+        "symbol": "!",
+        "color": "dark_gray",
+        "flags": [ "NO_INGEST" ],
+        "use_action": {
+          "type": "consume_drug",
+          "activation_message": "You inject a mind-shot.",
+          "effects": [ { "id": "FoxBlackrotcure", "duration": "48 h" } ],
+          "tools_needed": { "syringe": -1 },
+          "moves": 100
+        }
+      },
+      {
+        "id": "FoxBluerotcure",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "name": "Blue rot antivirals",
+        "description": "Inject this targeted spectrum of antivirals to cure existing symptoms of cytokine storm and gain temporary immunity to re-infection. It can't save you from stage 3.",
+        "weight": "2 g",
+        "volume": "50 ml",
+        "price": "2 USD",
+        "price_postapoc": "2 USD",
+        "charges": 1,
+        "healthy": -5,
+        "symbol": "!",
+        "color": "dark_gray",
+        "flags": [ "NO_INGEST" ],
+        "use_action": {
+          "type": "consume_drug",
+          "activation_message": "You inject a mind-shot.",
+          "effects": [ { "id": "FoxBluerotcure", "duration": "48 h" } ],
+          "tools_needed": { "syringe": -1 },
+          "moves": 100
+        }
       }
 ]

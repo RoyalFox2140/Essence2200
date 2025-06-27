@@ -1,0 +1,263 @@
+[
+  {
+    "type": "effect_type",
+    "id": "Fox_RedRot1",
+    "name": [ "Lightheadedness" ],
+    "desc": [ "You feel lightheaded and your breath doesn't came back so fast. You better find medicine." ],
+    "blood_analysis_description": "Hypotension",
+    "rating": "bad",
+    "max_duration": "48 h",
+    "effects_on_remove": [ { "allow_on_remove": false, "allow_on_decay": true, "inherit_duration": false, "effect_type": "Fox_RedRot2", "duration": "24 h" } ],
+    "base_mods": {
+      "hurt_min": [ -1 ],
+      "hurt_tick": [ 600 ],
+      "health_min": [ -1 ],
+      "health_tick": [ 600 ],
+      "fatigue_min": [ 1 ],
+      "fatigue_chance": [ 50 ],
+      "fatigue_tick": [ 30 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Fox_BlackRot1",
+    "name": [ "Inflammation" ],
+    "desc": [ "Your skin is inflammed and you feel generally unwell." ],
+    "blood_analysis_description": "Liquefactive necrosis",
+    "effects_on_remove": [ { "allow_on_remove": false, "allow_on_decay": true, "inherit_duration": false, "effect_type": "Fox_BlackRot2", "duration": "24 h" } ],
+    "rating": "bad",
+    "max_duration": "48 h",
+    "base_mods": {
+      "hurt_min": [ -2 ],
+      "hurt_tick": [ 900 ],
+      "health_min": [ -1 ],
+      "health_tick": [ 600 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Fox_BlueRot1",
+    "name": [ "Breathing discomfort" ],
+    "desc": [ "Your lungs feel wrong. You better find medicine." ],
+    "blood_analysis_description": "Cytokine storm",
+    "effects_on_remove": [ { "allow_on_remove": false, "allow_on_decay": true, "inherit_duration": false, "effect_type": "Fox_BlueRot2", "duration": "24 h" } ],
+    "rating": "bad",
+    "max_duration": "48 h",
+    "base_mods": {
+      "health_min": [ -1 ],
+      "health_tick": [ 600 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Fox_RedRot2",
+    "name": [ "Blood fever" ],
+    "desc": [ "You're vomiting blood and you have a fever. You really need to find medicine." ],
+    "blood_analysis_description": "Viral hemorrhagic fever",
+    "apply_memorial_log": "Received a Viral hemorrhagic fever.",
+    "remove_memorial_log": "Recovered from a Viral hemorrhagic fever.",
+    "effects_on_remove": [ { "allow_on_remove": false, "allow_on_decay": true, "inherit_duration": false, "effect_type": "Fox_RedRot3", "duration": "4800 h" } ],
+    "rating": "bad",
+    "max_duration": "24 h",
+    "base_mods": {
+      "hurt_min": [ -1 ],
+      "hurt_tick": [ 600 ],
+      "pain_chance": [ 300 ],
+      "pain_min": [ 5 ],
+      "pain_max_val": [ 30 ],
+      "health_min": [ -1 ],
+      "health_tick": [ 600 ],
+      "vomit_chance": [ 20 ],
+      "vomit_tick": [ 10 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Fox_BlackRot2",
+    "name": [ "Gangrene" ],
+    "desc": [ "Your feet and hands are swelling, changing color and emitting a foul odor! You really need to find medicine." ],
+    "blood_analysis_description": "Wet gangrene",
+    "apply_memorial_log": "Received Gangrene.",
+    "remove_memorial_log": "Recovered from Gangrene.",
+    "effects_on_remove": [ { "allow_on_remove": false, "allow_on_decay": true, "inherit_duration": false, "effect_type": "Fox_BlackRot3", "duration": "4800 h" } ],
+    "rating": "bad",
+    "max_duration": "24 h",
+    "base_mods": {
+      "hurt_min": [ -1 ],
+      "hurt_tick": [ 600 ],
+      "pain_chance": [ 300 ],
+      "pain_min": [ 5 ],
+      "pain_max_val": [ 100 ],
+      "health_min": [ -2 ],
+      "health_tick": [ 600 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Fox_BlueRot2",
+    "name": [ "Flu" ],
+    "desc": [ "You have a pretty bad cough and flu-like symptoms." ],
+    "blood_analysis_description": "Cytokine storm",
+    "apply_memorial_log": "Received Cytokine storm.",
+    "remove_memorial_log": "Recovered from Cytokine storm.",
+    "effects_on_remove": [ { "allow_on_remove": false, "allow_on_decay": true, "inherit_duration": false, "effect_type": "Fox_BlueRot3", "duration": "4800 h" } ],
+    "rating": "bad",
+    "harmful_cough": false,
+    "max_duration": "24 h",
+    "base_mods": {
+      "hurt_min": [ -1 ],
+      "hurt_tick": [ 600 ],
+      "pain_chance": [ 300 ],
+      "pain_min": [ 5 ],
+      "pain_max_val": [ 40 ],
+      "health_min": [ -5 ],
+      "health_tick": [ 300 ],
+      "cough_chance": [ 60 ],
+      "cough_tick": [ 5 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Fox_RedRot3",
+    "name": [ "Red Rot" ],
+    "desc": [ "An Imperial Bioweapon. Your blood cells are dying on mass, You are vomiting blood and bleeding internally. You're not surviving this without nanotechnology." ],
+    "blood_analysis_description": "Red Rot",
+    "apply_memorial_log": "Received Red rot.",
+    "remove_memorial_log": "Recovered from a bite wound.",
+    "rating": "bad",
+    "max_duration": "4800 h",
+    "base_mods": {
+      "hurt_min": [ -1 ],
+      "hurt_tick": [ 40 ],
+      "health_min": [ -1 ],
+      "health_tick": [ 5 ],
+      "vomit_chance": [ 10 ],
+      "vomit_tick": [ 10 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Fox_BlackRot3",
+    "name": [ "Black rot" ],
+    "desc": [ "An Imperial Bioweapon. Your body is gangrenous and you will die from septic shock. You're not surviving this without nanotechnology." ],
+    "blood_analysis_description": "Black Rot",
+    "apply_memorial_log": "Received Black rot.",
+    "remove_memorial_log": "Recovered from Black rot.",
+    "rating": "bad",
+    "harmful_cough": true,
+    "max_duration": "4800 h",
+    "base_mods": {
+      "hurt_min": [ -1 ],
+      "hurt_tick": [ 5 ],
+      "health_min": [ -1 ],
+      "health_tick": [ 5 ],
+      "vomit_chance": [ 30 ],
+      "vomit_tick": [ 10 ],
+      "cough_chance": [ 30 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Fox_BlueRot3",
+    "name": [ "Blue Rot" ],
+    "desc": [ "An Imperial Bioweapon. Your lungs are scarring from Cytokine storm, you can't stop coughing and vomiting. You're not surviving this without nanotechnology." ],
+    "blood_analysis_description": "Blue Rot",
+    "apply_memorial_log": "Received Blue Rot.",
+    "remove_memorial_log": "Recovered from Blue Rot.",
+    "rating": "bad",
+    "max_duration": "4800 h",
+    "base_mods": {
+      "hurt_min": [ -1 ],
+      "hurt_tick": [ 90 ],
+      "health_min": [ -1 ],
+      "health_tick": [ 5 ],
+      "vomit_chance": [ 10 ],
+      "vomit_tick": [ 10 ],
+      "cough_chance": [ 5 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxAntivirals",
+    "name": [ "Broad-spectrum Antivirals" ],
+    "desc": [ "Your body is being cleansed of viral infections." ],
+    "max_duration": "24 h",
+    "apply_message": "Your body is being cleansed of viral infections.",
+    "remove_message": "Your body has finished cleansing itself of viral infections.",
+    "rating": "good",
+    "removes_effects": [
+    "Fox_RedRot1",
+    "Fox_BlackRot1",
+    "Fox_BlueRot1"
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxRedRotcure",
+    "name": [ "Red rot antivirals" ],
+    "desc": [ "Your body is being cleansed of Red rot." ],
+    "max_duration": "48 h",
+    "apply_message": "Your body is being cleansed of Red rot.",
+    "remove_message": "Your body has finished cleansing itself of Red rot.",
+    "rating": "good",
+    "removes_effects": [
+    "Fox_RedRot1",
+    "Fox_RedRot2"
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxBlackrotcure",
+    "name": [ "Black rot antivirals" ],
+    "desc": [ "Your body is being cleansed of Black rot." ],
+    "max_duration": "48 h",
+    "apply_message": "Your body is being cleansed of Black rot.",
+    "remove_message": "Your body has finished cleansing itself of Black rot.",
+    "rating": "good",
+    "removes_effects": [
+    "Fox_BlackRot1",
+    "Fox_BlackRot2"
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxBluerotcure",
+    "name": [ "Blue rot antivirals" ],
+    "desc": [ "Your body is being cleansed of Blue rot." ],
+    "max_duration": "48 h",
+    "apply_message": "Your body is being cleansed of Blue rot.",
+    "remove_message": "Your body has finished cleansing itself of Blue rot.",
+    "rating": "good",
+    "removes_effects": [
+    "Fox_BlueRot1",
+    "Fox_BlueRot2"
+    ]
+  },
+  {
+    "type": "disease_type",
+    "id": "Fox_RedRot",
+    "min_duration": "48 h",
+    "max_duration": "48 h",
+    "min_intensity": 1,
+    "max_intensity": 1,
+    "symptoms": "Fox_RedRot1"
+  },
+  {
+    "type": "disease_type",
+    "id": "Fox_BlackRot",
+    "min_duration": "48 h",
+    "max_duration": "48 h",
+    "min_intensity": 1,
+    "max_intensity": 1,
+    "symptoms": "Fox_BlackRot1"
+  },
+  {
+    "type": "disease_type",
+    "id": "Fox_BlueRot",
+    "min_duration": "48 h",
+    "max_duration": "48 h",
+    "min_intensity": 1,
+    "max_intensity": 1,
+    "symptoms": "Fox_BlueRot1"
+  }
+]
