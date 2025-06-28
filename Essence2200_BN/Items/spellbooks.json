@@ -307,14 +307,6 @@
     "max_level": 5,
     "intelligence": 10,
     "time": "15 m",
-    "use_action": {
-      "type": "learn_spell",
-      "spells": [
-		"Fox_Elemental_Rockbolt",
-    "Fox_Transmutation_EssenceToken",
-    "Fox_Transmutation_Essence"
-      ]
-    },
     "fun": 1
   },
   {
