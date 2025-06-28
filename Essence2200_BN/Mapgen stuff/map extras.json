@@ -106,7 +106,7 @@
     "description": "A group of confused and lost reapers are loitering.",
     "generator": { "generator_method": "update_mapgen", "generator_id": "Foxmximperialreaperslost" },
     "sym": "R",
-    "color": "light_red",
+    "color": "brown",
     "autonote": true
   },
   {
