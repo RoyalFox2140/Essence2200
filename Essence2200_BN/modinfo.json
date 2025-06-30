@@ -103,11 +103,6 @@
     "species": "BLOB",
     "flag": { "name": "PSIPROOF", "value": true }
   },
-  {
-    "type": "monster_adjustment",
-    "species": "HUMAN",
-    "flag": { "name": "LIGHTPROOF", "value": true }
-  },
    {
     "type": "skill",
     "id": "FoxEssTech",
