@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Fox2200BaseRegion",
+    "name": "<color_pink>Essence 2200: Standard Region</color>",
+    "authors": [ "RoyalFox" ],
+    "maintainers": [ "RoyalFox" ],
+    "description": "DELETE 2200's BLACKLIST.JSON file. Replaces the wasteland with the base game region.",
+    "category": "content",
+    "dependencies": [ "bn", "Essence2200_BN" ]
+  }
+]
