@@ -84,6 +84,34 @@
     "flags": [ "BLIND_EASY" ]
   },
   {
+    "result": "Fox_spellbooks_Bolt",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 1,
+    "time": "4 h",
+    "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
+    "components": [
+      [ [ "FoxEssencenormal", 4000 ] ]
+    ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "Fox_spellbooks_Flow",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 1,
+    "time": "4 h",
+    "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
+    "components": [
+      [ [ "FoxEssencenormal", 6000 ] ]
+    ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
     "result": "Fox_spellbooks_Construction",
     "type": "recipe",
     "category": "CC_ESSMAGIC",

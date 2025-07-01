@@ -12,15 +12,7 @@
     "use_action": {
       "type": "learn_spell",
       "spells": [
-    "Fox_Elemental_Firebolt",
-		"Fox_Elemental_Icebolt",
-		"Fox_Elemental_Lightningbolt",
-		"Fox_Elemental_Rockbolt",
 		"Fox_Elemental_Rockfist",
-    "Fox_Elemental_Firewave",
-    "Fox_Elemental_Icewave",
-    "Fox_Elemental_Lightningwave",
-    "Fox_Elemental_Rockwave",
 		"Fox_Elemental_Climatecontrol"
       ]
     }
@@ -62,13 +54,7 @@
     "Fox_Spirit_Soothe",
 		"Fox_Spirit_Darkvision",
 		"Fox_Spirit_Respite",
-    "Fox_Spirit_Paininhibitor",
-    "Fox_Spirit_holybolt",
-    "Fox_Spirit_deathbolt",
-    "Fox_Spirit_psibolt",
-    "Fox_Spirit_holywave",
-    "Fox_Spirit_deathwave",
-    "Fox_Spirit_psiwave"
+    "Fox_Spirit_Paininhibitor"
       ]
     }
   },
@@ -151,6 +137,60 @@
     }
   },
   {
+    "id": "Fox_spellbooks_Bolt",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Conveyance of Current and Capacity",
+    "description": "The most basic forms of magic, bolt magic launches a chosen energy in a controlled shape at a target, while blast magic amplifies this to explosive magnitude.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Elemental_Firebolt",
+		"Fox_Elemental_Icebolt",
+		"Fox_Elemental_Lightningbolt",
+		"Fox_Elemental_Rockbolt",
+    "Fox_Spirit_holybolt",
+    "Fox_Spirit_deathbolt",
+    "Fox_Spirit_psibolt",
+    "Fox_Transmutation_Pistolbullet",
+    "Fox_Transmutation_KnifeToss",
+    "Fox_Transmutation_Acidbolt",
+    "Fox_Transmutation_Spikebolt"
+      ]
+    }
+  },
+  {
+    "id": "Fox_spellbooks_Flow",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": "Spell Tome: Amplification of Force and Flow",
+    "description": "This research describes in detail how to amplify and shape magical energy into a wave or around a melee attack, controlling the flow to cover a large area or the surface of a weapon.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+    "Fox_Elemental_Firewave",
+    "Fox_Elemental_Icewave",
+    "Fox_Elemental_Lightningwave",
+    "Fox_Elemental_Rockwave",
+    "Fox_Spirit_holywave",
+    "Fox_Spirit_deathwave",
+    "Fox_Spirit_psiwave",
+    "Fox_Transmutation_Buckshotwave",
+    "Fox_Transmutation_Knifewave",
+    "Fox_Transmutation_Spikewave",
+    "Fox_Transmutation_Acidwave"
+      ]
+    }
+  },
+  {
     "id": "Fox_spellbooks_Transmutation",
     "type": "GENERIC",
     "category": "spellbooks",
@@ -166,14 +206,6 @@
     "Fox_Transmutation_EssenceToken",
     "Fox_Transmutation_Essence",
     "Fox_Transmutation_Lead_Attack",
-    "Fox_Transmutation_Pistolbullet",
-    "Fox_Transmutation_KnifeToss",
-    "Fox_Transmutation_Acidbolt",
-    "Fox_Transmutation_Spikebolt",
-    "Fox_Transmutation_Buckshotwave",
-    "Fox_Transmutation_Knifewave",
-    "Fox_Transmutation_Spikewave",
-    "Fox_Transmutation_Acidwave",
     "Fox_Transmutation_Tunnel",
     "Fox_Transmutation_Upturnearth"
       ]
