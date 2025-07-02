@@ -693,6 +693,7 @@
         "pool_5": 200,
         "pool_6": 200,
         "skate_park": 100,
+        "vending_park": 70,
         "small_wooded_trail": 1,
         "pavilion": 1,
         "pavilion_1": 1,
@@ -713,7 +714,7 @@
         "public_pond_city": 50,
         "cemetery_religious_city": 25,
         "cs_private_park": 1,
-        "cs_public_art_piece": 100,
+        "cs_public_art_piece": 10,
         "cs_public_space": 100,
         "cs_city_dump_small": 400,
         "cs_open_sewer": 100
