@@ -4,6 +4,9 @@
     "monsters": [ 
       "mon_cougar",
       "mon_bear",
+      "mon_graboid",
+      "mon_worm",
+      "mon_halfworm",
       "mon_turkey",
       "mon_moose",
       "mon_deer",
