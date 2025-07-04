@@ -1000,6 +1000,103 @@
     ]
   },
   {
+    "type": "ter_furn_transform",
+    "id": "Foxtreepine",
+    "terrain": [
+      {
+        "result": "t_tree_pine",
+        "valid_flags": [ "PLOWABLE" ],
+        "message": "The world bends to your power, a tree forms and rises."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxRejuvenatesoiltosoil",
+    "terrain": [
+      {
+        "result": "t_dirt",
+        "valid_terrain": [ "Foxt_wastelandsoil" ],
+        "message": "You revive the dirt, completely worthless to mostly worthless."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxRejuvenatesoilgrass",
+    "terrain": [
+      {
+        "result": [ 
+          [ "t_dirt", 1 ], 
+          [ "t_grass", 25 ], 
+          [ "t_grass_long", 10 ],
+          [ "t_grass_tall", 10 ],
+          [ "t_shrub", 4 ],
+          [ "t_shrub_blueberry", 2 ],
+          [ "t_shrub_strawberry", 2 ],
+          [ "t_shrub_raspberry", 2 ],
+          [ "t_shrub_blackberry", 2 ],
+          [ "t_shrub_rose", 2 ],
+          [ "t_shrub_grape", 1 ],
+          [ "t_shrub_peanut", 2 ],
+          [ "t_tree", 2 ],
+          [ "t_tree_apple", 1 ],
+          [ "t_tree_maple", 2 ],
+          [ "t_tree_pine", 2 ],
+          [ "t_tree_pear", 1 ],
+          [ "t_tree_birch", 2 ],
+          [ "t_tree_willow", 2 ]
+         ],
+        "valid_terrain": [ "Foxt_wastelandsoil" ],
+        "message": "You breathe life into this dead world."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxRejuvenatesoilgrasslong",
+    "terrain": [
+      {
+        "result": "t_grass_long",
+        "valid_terrain": [ "Foxt_wastelandsoil" ],
+        "message": "You breathe life into this dead world."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxRejuvenatesoilgrasstall",
+    "terrain": [
+      {
+        "result": "t_grass_tall",
+        "valid_terrain": [ "Foxt_wastelandsoil" ],
+        "message": "You breathe life into this dead world."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxRejuvenatesoiltree",
+    "terrain": [
+      {
+        "result": "t_tree",
+        "valid_terrain": [ "Foxt_wastelandsoil" ],
+        "message": "You breathe life into this dead world."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "FoxRejuvenatesoilshrub",
+    "terrain": [
+      {
+        "result": "t_shrub",
+        "valid_terrain": [ "Foxt_wastelandsoil" ],
+        "message": "You breathe life into this dead world."
+      }
+    ]
+  },
+  {
     "type": "effect_type",
     "id": "FoxKoolaidpoison",
     "name": [ "Awakening Sickness" ],
