@@ -408,8 +408,8 @@
     "qualities": [ { "id": "HAMMER_FINE", "level": 1 } ],
     "using": [ [ "bullet_forming", 50 ] ],
     "components": [
-      [ [ "38_casing", 1 ] ], 
-      [ [ "smpistol_primer", 1 ] ],
+      [ [ "38_casing", 50 ] ], 
+      [ [ "smpistol_primer", 50 ] ],
       [ [ "gunpowder", 100 ], [ "Foxbangtailpowder", 100 ] ],
       [ [ "Foximperialsteelchunk", 1 ] ]
     ]
