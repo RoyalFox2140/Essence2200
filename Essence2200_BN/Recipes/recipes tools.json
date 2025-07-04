@@ -717,6 +717,6 @@
     "time": "10 m",
     "autolearn": true,
     "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 2, "LIST" ] ] ],
-    "components": [ [ [ "hose", 1 ] ], [ [ "metal_tank_little", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
+    "components": [ [ [ "hose", 1 ] ], [ [ "metal_tank_little", 1 ] ], [ [ "plastic_chunk", 1 ] ], [ [ "FoxEssencenormal", 2000 ] ] ]
   }
 ]
