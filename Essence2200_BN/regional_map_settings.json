@@ -950,8 +950,8 @@
       }
     },  
     "weather": {
-      "spring_temp": 4,
-      "summer_temp": 18,
+      "spring_temp": 8,
+      "summer_temp": 15,
       "autumn_temp": 10, 
       "winter_temp": -25,
       "base_humidity": 35,
