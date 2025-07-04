@@ -263,6 +263,7 @@
     "type": "recipe",
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_OTHER",
+    "id_suffix": "FoxResearchishard",
     "autolearn": true,
     "time": "1 h",
     "tools": [ 
@@ -271,6 +272,18 @@
       [ [ "FoxMeditationEastAsia", -1 ] ], 
       [ [ "FoxMeditationOther", -1 ] ] , 
       [ [ "FoxDeSGAkawakamiprayer", -1 ], [ "Fox_spellbooks_Prayer", -1 ] ] 
+    ]
+  },
+  {
+    "result": "Fox_spellbook_SiredKawakami",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "id_suffix": "FoxAlreadyknowit",
+    "autolearn": true,
+    "time": "1 h",
+    "tools": [ 
+      [ [ "Fox_spellbooks_Prayer", -1 ] ] 
     ]
   },
   {
