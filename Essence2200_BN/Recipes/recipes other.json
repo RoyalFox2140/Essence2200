@@ -413,6 +413,18 @@
   },
   {
     "type": "recipe",
+    "result": "Foxnanoaugcanisterregen",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 s",
+    "autolearn": true,
+    "components": [ [ [ "Foxnanoaugcanistergeneric", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "type": "recipe",
     "result": "Foxwastefertilizer",
     "category": "CC_OTHER",
     "subcategory": "CSC_CHEM_CHEMICALS",

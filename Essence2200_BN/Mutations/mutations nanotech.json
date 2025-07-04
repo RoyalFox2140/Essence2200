@@ -122,7 +122,7 @@
     "valid": false,
     "purifiable": false,
     "armor": [ { "parts": "ALL", "physical": 8 } ],
-    "cancels": [ "SLOWHEALER", "SLOWHEALER2", "SLOWHEALER3", "THINSKIN" ],
+    "cancels": [ "THINSKIN" ],
     "hp_adjustment": 20
   },
   {
@@ -297,5 +297,18 @@
     "valid": false,
     "purifiable": false,
     "cancels": [ "NOMAD", "PYROMANIA", "HOARDER", "PACIFIST", "MOODSWINGS" ]
+  },
+  {
+    "type": "mutation",
+    "id": "Foxnanoeffregen",
+    "name": { "str": "Nano Regeneration I" },
+    "points": 0,
+    "description": "Nano regeneration automatically repairs and mends the body, curing aging, cancer, permanent wounds from physical trauma other problems from the passage of time, but it can't cure illnesses nor brain damage from sources such as genetic disease. This also maintains implants and cybernetics, granting an effective biological immortality and lack of needed maintenance.",
+    "valid": false,
+    "purifiable": false,
+    "cancels": [ "SLOWHEALER", "SLOWHEALER2", "SLOWHEALER3" ],
+    "healing_awake": 3,
+    "healing_resting": 2,
+    "mending_modifier": 2
   }
 ]

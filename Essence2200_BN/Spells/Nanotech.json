@@ -395,6 +395,19 @@
     "max_damage": 10000
     },
     {
+    "id": "Fox_Hidden_Nanoregen",
+    "type": "SPELL",
+    "name": "Nano Aug: Regen I",
+    "description": "a!",
+	"message": "You feel pain fade and your body recover.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+	"effect": "mutate",
+    "effect_str": "Foxnanoeffregen",
+	"min_damage": 10000,
+    "max_damage": 10000
+    },
+    {
     "id": "Fox_Hidden_Nanoparasites",
     "type": "SPELL",
     "name": "Nano Aug: Parasite Immunity",
