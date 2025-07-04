@@ -175,7 +175,7 @@
    "volume": "1 L",
    "price": "2 USD",
    "price_postapoc": "2 USD",
-   "material": [ "FoxImperialSteel" ],
+   "material": [ "steel" ],
    "color": "yellow",
    "range": 10,
    "skill": "rifle",
