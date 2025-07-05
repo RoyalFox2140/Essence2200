@@ -213,6 +213,16 @@
   },
   {
     "type": "item_group",
+    "id": "SUS_business_bookcase",
+    "subtype": "collection",
+    "items": [
+      [ "FoxJapanesebook", 45 ],
+      [ "FoxKanjidictionary", 10 ],
+      [ "FoxCollegeJapanese", 5 ]
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "manuals",
     "subtype": "distribution",
     "items": [
