@@ -41,7 +41,7 @@
         "aaaaaaaaaaaccaaaaaaaaaaa"
       ],
       "terrain": { 
-        "a": [ "t_pit" ], 
+        "a": [ "Foxt_wastelandpit" ], 
         "b": [ "Foxt_wastelandsoil" ], 
         "c": [ "Foxt_wastelandsoil" ],
         "d": [ "Foxt_wastelandsoil" ],
@@ -60,7 +60,7 @@
         "r": [ "Foxt_wastelandsoil" ]
       },
       "furniture": {
-        "b": "f_earthbag_wall",
+        "b": "f_sandbag_wall",
         "d": "Foxf_canvas_wall",
         "e": "Foxf_groundsheet",
         "f": "Foxf_canvas_door",
