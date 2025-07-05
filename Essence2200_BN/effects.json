@@ -638,6 +638,17 @@
   },
   {
     "type": "ter_furn_transform",
+    "id": "FoxMetalDoor",
+    "terrain": [
+      {
+        "result": "t_door_metal_c",
+        "valid_flags": [ "FLAT", "MINEABLE", "WALL", "SUPPORTS_ROOF", "FLAMMABLE", "NOITEM", "NO_SCENT", "BARRICADABLE_WINDOW", "CONNECT_TO_WALL", "BLOCK_WIND", "FLAMMABLE", "NOITEM", "NO_SCENT", "BARRICADABLE_WINDOW", "CONNECT_TO_WALL", "BLOCK_WIND", "TRANSPARENT", "NO_FLOOR" ],
+        "message": "The world bends to your power, the wall you desire is formed here."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
     "id": "FoxLogRooft",
     "terrain": [
       {

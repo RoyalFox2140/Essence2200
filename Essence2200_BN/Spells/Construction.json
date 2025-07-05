@@ -227,6 +227,26 @@
     "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
   },
   {
+    "id": "Fox_Transmutation_Metaldoor",
+    "type": "SPELL",
+    "name": { "str": "T: Metal door" },
+    "description": "You turn the ground in front of you into a metal door, ignoring what was once there. This has the same quality as a constructed one.",
+    "valid_targets": [ "ground" ],
+    "min_range": 5,
+    "max_range": 7,
+    "effect": "ter_transform",
+    "effect_str": "FoxMetalDoor",
+    "base_casting_time": 60000,
+    "base_energy_cost": 40,
+    "scale_int": true,
+    "difficulty": 1,
+    "max_level": 1,
+    "spell_class": "FoxSchoolsTransmutation",
+    "skill": "FoxEssSpellcasting",
+    "energy_source": "MANA",
+    "flags": [ "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+  },
+  {
     "id": "Fox_Transmutation_LogRoof",
     "type": "SPELL",
     "name": { "str": "T: Log Roof" },
