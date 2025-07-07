@@ -41,7 +41,7 @@
     "name": "DISABLE_ROBOT_RESPONSE",
     "info": "Disables robot spawning from alerts and from being wanted.",
     "stype": "bool",
-    "value": false
+    "value": true
   },
   {
     "type": "EXTERNAL_OPTION",
