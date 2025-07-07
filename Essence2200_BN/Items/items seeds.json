@@ -233,7 +233,8 @@
     "price": "2 USD",
     "name": { "str_sp": "wasteberry seeds" },
     "description": "Some wasteberry seeds.",
-    "seed_data": { "plant_name": "wasteberry bush", "fruit": "Foxwasteberry", "byproducts": [ "Foxwastewood", "plant_fibre" ], "grow": "9 days", "required_terrain_flag": "FOX_WASTEDIRT" }
+    "seed_data": { "plant_name": "wasteberry bush", "fruit": "Foxwasteberry", "byproducts": [ "Foxwastewood", "plant_fibre" ], "grow": "9 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
     "type": "COMESTIBLE",
@@ -283,7 +284,8 @@
     "price": "2 USD",
     "name": { "str_sp": "waste tuber seeds" },
     "description": "Some seeds.",
-    "seed_data": { "plant_name": "waste tuber", "fruit": "Foxwastetuber", "byproducts": [ "plant_fibre" ], "grow": "10 days", "required_terrain_flag": "FOX_WASTEDIRT" }
+    "seed_data": { "plant_name": "waste tuber", "fruit": "Foxwastetuber", "byproducts": [ "plant_fibre" ], "grow": "10 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   },
   {
     "type": "COMESTIBLE",
@@ -304,5 +306,16 @@
     "name": { "str_sp": "waste cactus seeds" },
     "description": "Some waste cactus seeds.",
     "seed_data": { "plant_name": "waste cactus", "fruit": "Foxwastecactus", "byproducts": [ "Foxcactusfruit" ], "grow": "12 days", "required_terrain_flag": "FOX_WASTEDIRT" }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "Foxseed_cavebeans",
+    "copy-from": "Foxseedabstract",
+    "looks_like": "seed_strawberries",
+    "price": "2 USD",
+    "name": { "str_sp": "cave bean seeds" },
+    "description": "Some seeds.",
+    "seed_data": { "plant_name": "cave beans", "fruit": "Foxcavebeans", "grow": "10 days", "required_terrain_flag": "FOX_WASTEDIRT" },
+    "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   }
 ]
