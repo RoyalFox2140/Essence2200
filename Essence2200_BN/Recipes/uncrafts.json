@@ -359,8 +359,8 @@
     "result": "Fox_wastedirt",
     "type": "uncraft",
     "time": "20 m",
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "DIG", "level": 2 } ],
-    "tools": [ [ [ "wire_mesh", -1 ] ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "DIG", "level": 1 } ],
+    "tools": [ [ [ "Foxdirtmesh", -1 ] ] ],
     "components": [ [ [ "material_sand", 400 ] ], [ [ "clay_lump", 2 ] ], [ [ "Fox_LETSGOGAMBLINGseeds", 2 ] ] ]
   }
 ]

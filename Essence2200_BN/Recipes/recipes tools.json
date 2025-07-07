@@ -710,5 +710,20 @@
       [ [ "element", 2 ] ], 
       [ [ "FoxEssencenormal", 2000 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxdirtmesh",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "stick", 4 ] ],
+      [ [ "filament", 200, "LIST" ] ]
+    ]
   }
 ]

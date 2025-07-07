@@ -440,6 +440,23 @@
     "qualities": [ [ "FoxEssenceCracker", 1 ] ]
   },
   {
+    "id": "Foxdirtmesh",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "Dirt mesh" },
+    "description": "A mesh made of sticks and string, you can sift dirt to separate sand from clay.",
+    "weight": "1000 g",
+    "volume": "2000 ml",
+    "looks_like": "wire_mesh",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -10,
+    "bashing": 1,
+    "material": "iron",
+    "symbol": "#",
+    "color": "dark_gray"
+  },
+  {
     "id": "Foxalloybarrel",
     "type": "TOOL",
     "category": "tools",
