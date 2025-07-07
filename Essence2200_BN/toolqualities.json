@@ -97,6 +97,18 @@
     "tools": [ [ [ "pen", -1 ], [ "survival_marker", 2 ], [ "permanent_marker", 1 ] ] ]
   },
   {
+    "id": "FoxEquivalentEssencePower",
+    "type": "requirement",
+    "//": "For when its all the same energy and we really don't care what form it is.",
+    "components": [
+      [
+        [ "FoxEssencenormal", 250 ],
+        [ "Foxpowderedessence", 100 ],
+        [ "Foxcrystallizedessence", 1 ]
+      ]
+    ]
+  },
+  {
     "id": "soldering_standard",
     "type": "requirement",
     "//": "Soldering metal items",

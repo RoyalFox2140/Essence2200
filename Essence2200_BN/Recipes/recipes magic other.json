@@ -8,9 +8,7 @@
     "difficulty": 1,
     "time": "4 h",
     "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
-    "components": [
-      [ [ "FoxEssencenormal", 4000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 16 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -22,9 +20,7 @@
     "difficulty": 2,
     "time": "6 h",
     "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 40000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 160 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -36,9 +32,7 @@
     "difficulty": 1,
     "time": "4 h",
     "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
-    "components": [
-      [ [ "FoxEssencenormal", 4000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 16 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -50,9 +44,7 @@
     "difficulty": 2,
     "time": "6 h",
     "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 40000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 160 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -64,9 +56,7 @@
     "difficulty": 1,
     "time": "4 h",
     "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
-    "components": [
-      [ [ "FoxEssencenormal", 4000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 16 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -78,9 +68,7 @@
     "difficulty": 2,
     "time": "6 h",
     "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 40000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 160 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -92,9 +80,7 @@
     "difficulty": 1,
     "time": "4 h",
     "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
-    "components": [
-      [ [ "FoxEssencenormal", 4000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 16 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -106,9 +92,7 @@
     "difficulty": 1,
     "time": "4 h",
     "book_learn": [ [ "Fox_spellbooks_First", 1 ] ],
-    "components": [
-      [ [ "FoxEssencenormal", 6000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 24 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -120,9 +104,7 @@
     "difficulty": 2,
     "time": "6 h",
     "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 8000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 32 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -134,9 +116,7 @@
     "difficulty": 2,
     "time": "6 h",
     "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 8000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 32 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -149,9 +129,7 @@
     "difficulty": 1,
     "time": "6 h",
     "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 4000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 16 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -178,9 +156,7 @@
     "difficulty": 2,
     "time": "6 h",
     "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 8000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 32 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {

@@ -1377,7 +1377,8 @@
     "batch_time_factors": [ 80, 2 ],
     "qualities": [ { "id": "FoxCorpsepit", "level": 1 } ],
     "autolearn": true,
-    "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "FoxEssencenormal", 20000 ] ] ],
+    "using": [ [ "FoxEquivalentEssencePower", 80 ] ],
+    "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
   {

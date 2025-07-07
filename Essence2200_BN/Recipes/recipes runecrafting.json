@@ -10,8 +10,9 @@
         "time": "30 m",
         "autolearn": true,
         "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+        "using": [ [ "FoxEquivalentEssencePower", 200 ] ],
         "components": [
-        [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 50000 ] ] 
+        [ [ "clay_lump", 1 ] ]
       ]
     },
     {
@@ -25,8 +26,9 @@
         "time": "30 m",
         "autolearn": true,
         "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+        "using": [ [ "FoxEquivalentEssencePower", 200 ] ],
         "components": [
-        [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 50000 ] ] 
+        [ [ "clay_lump", 1 ] ]
       ]
     },
     {
@@ -40,8 +42,9 @@
         "time": "30 m",
         "autolearn": true,
         "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+        "using": [ [ "FoxEquivalentEssencePower", 200 ] ],
         "components": [
-        [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 50000 ] ], [ [ "bone", 10 ], [ "bone_human", 10 ], [ "bone_tainted", 10 ] ]
+        [ [ "clay_lump", 1 ] ], [ [ "bone", 10 ], [ "bone_human", 10 ], [ "bone_tainted", 10 ] ]
       ]
     },
     {
@@ -55,8 +58,9 @@
         "time": "30 m",
         "autolearn": true,
         "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+        "using": [ [ "FoxEquivalentEssencePower", 200 ] ],
         "components": [
-        [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 50000 ] ], [ [ "pine_bough", 10 ] ] 
+        [ [ "clay_lump", 1 ] ], [ [ "pine_bough", 10 ] ] 
       ]
     },
     {
@@ -70,8 +74,9 @@
         "time": "30 m",
         "autolearn": true,
         "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+        "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
         "components": [
-        [ [ "FoxLiferune", 250 ] ], [ [ "FoxDeathrune", 250 ] ], [ [ "FoxEssencenormal", 1000 ] ] 
+        [ [ "FoxLiferune", 250 ] ], [ [ "FoxDeathrune", 250 ] ] 
       ]
     },
     {
@@ -85,8 +90,9 @@
         "time": "30 m",
         "autolearn": true,
         "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+        "using": [ [ "FoxEquivalentEssencePower", 200 ] ],
         "components": [
-        [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 50000 ] ], [ [ "charcoal", 10 ] ] 
+        [ [ "clay_lump", 1 ] ], [ [ "charcoal", 10 ] ] 
       ]
     },
     {
@@ -100,8 +106,9 @@
         "time": "30 m",
         "autolearn": true,
         "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+        "using": [ [ "FoxEquivalentEssencePower", 200 ] ],
         "components": [
-        [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 50000 ] ], [ [ "water_clean", 4 ] ] 
+        [ [ "clay_lump", 1 ] ], [ [ "water_clean", 4 ] ] 
       ]
     },
     {
@@ -115,8 +122,9 @@
         "time": "30 m",
         "autolearn": true,
         "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+        "using": [ [ "FoxEquivalentEssencePower", 200 ] ],
         "components": [
-        [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 50000 ] ], [ [ "rock", 10 ] ] 
+        [ [ "clay_lump", 1 ] ], [ [ "rock", 10 ] ] 
       ]
     },
     {
@@ -130,8 +138,9 @@
         "time": "30 m",
         "autolearn": true,
         "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+        "using": [ [ "FoxEquivalentEssencePower", 200 ] ],
         "components": [
-        [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 50000 ] ] 
+        [ [ "clay_lump", 1 ] ] 
       ]
     },
     {
@@ -145,14 +154,14 @@
         "time": "30 m",
         "autolearn": true,
         "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+        "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
         "components": [
             [ [ "FoxFirerune", 100 ] ], 
             [ [ "FoxWaterrune", 100 ] ], 
             [ [ "FoxAirrune", 100 ] ], 
             [ [ "FoxEarthrune", 100 ] ], 
             [ [ "FoxSpiritrune", 100 ] ], 
-            [ [ "FoxTelekineticrune", 100 ] ], 
-            [ [ "FoxEssencenormal", 1000 ] ] 
+            [ [ "FoxTelekineticrune", 100 ] ]
       ]
     },
     {
@@ -166,8 +175,9 @@
         "time": "30 m",
         "autolearn": true,
         "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+        "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
         "components": [
-        [ [ "FoxTelekineticrune", 250 ] ], [ [ "FoxSpiritrune", 250 ] ], [ [ "FoxEssencenormal", 1000 ] ] 
+        [ [ "FoxTelekineticrune", 250 ] ], [ [ "FoxSpiritrune", 250 ] ] 
       ]
     },
   {
@@ -182,8 +192,9 @@
     "time": "10 m",
     "tools": [ [ [ "Fox_spellbooks_First", -1 ] ] ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+        "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
     "components": [
-    [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 5000 ] ] 
+    [ [ "clay_lump", 1 ] ] 
   ]
 },
 {
@@ -198,8 +209,9 @@
   "time": "10 m",
   "tools": [ [ [ "Fox_spellbooks_First", -1 ] ] ],
   "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+        "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
   "components": [
-  [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 5000 ] ], [ [ "charcoal", 1 ] ] 
+  [ [ "clay_lump", 1 ] ], [ [ "charcoal", 1 ] ] 
 ]
 },
 {
@@ -213,8 +225,9 @@
   "time": "5 m",
   "autolearn": true,
   "qualities": [ { "id": "FoxRunecrafting", "level": 1 } ],
+        "using": [ [ "FoxEquivalentEssencePower", 40 ] ],
   "components": [
-  [ [ "clay_lump", 1 ] ], [ [ "FoxEssencenormal", 10000 ] ] 
+  [ [ "clay_lump", 1 ] ] 
 ]
 }
 ]

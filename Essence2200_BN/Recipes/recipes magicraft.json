@@ -8,9 +8,7 @@
     "difficulty": 1,
     "time": "15 m",
     "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 4000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 16 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -22,9 +20,7 @@
     "difficulty": 1,
     "time": "15 m",
     "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 4000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 16 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -36,8 +32,9 @@
     "difficulty": 2,
     "time": "15 m",
     "autolearn": true,
+    "using": [ [ "FoxEquivalentEssencePower", 64 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 16000 ] ], [ [ "FoxEssencenormal", 4000 ], [ "FoxTinyCanteenDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 4000 ], [ "Foxpowderedessence", 1600 ], [ "Foxcrystallizedessence", 16 ], [ "FoxTinyCanteenDimension", 1 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -50,8 +47,9 @@
     "difficulty": 2,
     "time": "15 m",
     "autolearn": true,
+    "using": [ [ "FoxEquivalentEssencePower", 64 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 16000 ] ], [ [ "FoxEssencenormal", 4000 ], [ "FoxTinyPocketDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 4000 ], [ "Foxpowderedessence", 1600 ], [ "Foxcrystallizedessence", 16 ], [ "FoxTinyPocketDimension", 1 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -64,8 +62,9 @@
     "difficulty": 4,
     "time": "30 m",
     "autolearn": true,
+    "using": [ [ "FoxEquivalentEssencePower", 80 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 20000 ] ], [ [ "FoxEssencenormal", 20000 ], [ "FoxSmallPocketDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 20000 ], [ "Foxpowderedessence", 8000 ], [ "Foxcrystallizedessence", 80 ], [ "FoxSmallPocketDimension", 1 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -176,8 +175,9 @@
     "difficulty": 5,
     "time": "30 m",
     "autolearn": true,
+    "using": [ [ "FoxEquivalentEssencePower", 80 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 20000 ] ], [ [ "FoxEssencenormal", 20000 ], [ "FoxSmallCanteenDimension", 1 ] ]
+      [ [ "FoxEssencenormal", 20000 ], [ "Foxpowderedessence", 8000 ], [ "Foxcrystallizedessence", 80 ], [ "FoxSmallCanteenDimension", 1 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -219,7 +219,7 @@
     "time": "30 m",
     "autolearn": true,
     "components": [
-      [ [ "Foxhumansoul", 10 ] ], [ [ "FoxEssencenormal", 12500 ], [ "FoxGreaterCanteenDimension", 1 ] ]
+      [ [ "Foxhumansoul", 10 ] ], [ [ "FoxEssencenormal", 12500 ], [ "Foxpowderedessence", 5000 ], [ "Foxcrystallizedessence", 50 ],  [ "FoxGreaterCanteenDimension", 1 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -232,8 +232,8 @@
     "difficulty": 5,
     "time": "45 m",
     "autolearn": true,
+    "using": [ [ "FoxEquivalentEssencePower", 160 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 40000 ] ],
       [ [ "Foxhumansoul", 10 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
@@ -262,8 +262,8 @@
     "difficulty": 4,
     "time": "15 m",
     "autolearn": true,
+    "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 5000 ] ],
       [ [ "Foxhumansoul", 1 ] ]
     ]
   },
@@ -276,8 +276,8 @@
     "difficulty": 4,
     "time": "15 m",
     "autolearn": true,
+    "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 5000 ] ],
       [ [ "Foxhumansoul", 2 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
@@ -291,8 +291,8 @@
     "difficulty": 4,
     "time": "10 m",
     "autolearn": true,
+    "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 5000 ] ],
       [ [ "Foxhumansoul", 2 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
@@ -306,8 +306,8 @@
     "difficulty": 3,
     "time": "10 m",
     "autolearn": true,
+    "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 5000 ] ],
       [ [ "Foxhumansoul", 1 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
@@ -336,9 +336,7 @@
     "time": "30 m",
     "tools": [ [ [ "Fox_spellbooks_First", -1 ] ] ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
-    "components": [
-      [ [ "FoxEssencenormal", 500 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 2 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -350,9 +348,7 @@
     "difficulty": 1,
     "time": "30 m",
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
-    "components": [
-      [ [ "FoxEssencenormal", 1000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -365,7 +361,7 @@
     "time": "45 m",
     "autolearn": true,
     "components": [
-      [ [ "Foxhumansoul", 1 ] ], [ [ "FoxEssencenormal", 1000 ], [ "Foxnoviceartificing", 1 ] ]
+      [ [ "Foxhumansoul", 1 ] ], [ [ "FoxEssencenormal", 1000 ], [ "Foxpowderedessence", 400 ], [ "Foxcrystallizedessence", 4 ], [ "Foxnoviceartificing", 1 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -392,8 +388,8 @@
     "difficulty": 1,
     "time": "30 m",
     "autolearn": true,
+    "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 1000 ] ],
       [ [ "Foxhumansoul", 1 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
@@ -407,9 +403,7 @@
     "difficulty": 1,
     "time": "30 m",
     "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 1000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -421,14 +415,14 @@
     "difficulty": 6,
     "time": "50 m",
     "autolearn": true,
+    "using": [ [ "FoxEquivalentEssencePower", 40 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 10000 ] ],
       [ [ "Foxadvancedartificing", 1 ] ],
       [ [ "Foxfleshmanipulation", 1 ] ],
       [ [ "Foxmagicsoldering", 1 ] ],
       [ [ "Foxmagicwelder", 1 ] ],
-      [ [ "FoxEssencenormal", 1000 ], [ "Foxjackingtool", 1 ] ],
-      [ [ "FoxEssencenormal", 500 ],  [ "Foxmagiclighter", 1 ] ]
+      [ [ "FoxEssencenormal", 1000 ], [ "Foxpowderedessence", 400 ], [ "Foxcrystallizedessence", 4 ], [ "Foxjackingtool", 1 ] ],
+      [ [ "FoxEssencenormal", 500 ], [ "Foxpowderedessence", 200 ], [ "Foxcrystallizedessence", 2 ],  [ "Foxmagiclighter", 1 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -441,9 +435,7 @@
     "difficulty": 2,
     "time": "30 m",
     "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 4000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 16 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -455,9 +447,7 @@
     "difficulty": 3,
     "time": "45 m",
     "autolearn": true,
-    "components": [
-      [ [ "FoxEssencenormal", 20000 ] ]
-    ],
+    "using": [ [ "FoxEquivalentEssencePower", 80 ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -485,8 +475,8 @@
     "time": "2 h",
     "autolearn": true,
     "qualities": [ { "id": "FoxCorpsepit", "level": 1 } ],
+    "using": [ [ "FoxEquivalentEssencePower", 80 ] ],
     "components": [
-      [ [ "FoxEssencenormal", 20000 ] ],
       [ [ "Foxhumansoul", 1 ] ]
     ]
   },
