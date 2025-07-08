@@ -906,7 +906,7 @@
     "move_cost_mod": 1,
     "required_str": -1,
     "flags": [ "TRANSPARENT", "FOX_WASTEDIRT", "PLANTABLE", "FLAT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
-    "deconstruct": { "items": [ { "item": "Fox_wastedirt", "count": 40 } ] },
+    "deconstruct": { "items": [ { "item": "Fox_wastedirt", "count": 20 } ] },
     "examine_action": "dirtmound",
     "plant_data": { "transform": "Foxf_wastedirtpileseed" }
   },
@@ -972,7 +972,7 @@
     "group": "Foxplace_wastedirtpile_on_floor",
     "category": "FOXSPECIAL",
     "time": "5 m",
-    "components": [ [ [ "Fox_wastedirt", 40 ] ] ],
+    "components": [ [ [ "Fox_wastedirt", 20 ] ] ],
     "dark_craftable": true,
     "pre_flags": [ "FLAT" ],
     "post_furniture": "Foxf_wastedirtpile"
@@ -993,7 +993,7 @@
     "move_cost_mod": 1,
     "required_str": -1,
     "flags": [ "TRANSPARENT", "FOX_WASTEDIRT", "PLANTABLE", "FLAT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
-    "deconstruct": { "items": [ { "item": "material_soil", "count": 40 } ] },
+    "deconstruct": { "items": [ { "item": "material_soil", "count": 20 } ] },
     "examine_action": "dirtmound",
     "plant_data": { "transform": "Foxf_dirtpileseed" }
   },
@@ -1059,7 +1059,7 @@
     "group": "Foxplace_dirtpile_on_floor",
     "category": "FOXSPECIAL",
     "time": "5 m",
-    "components": [ [ [ "material_soil", 40 ] ] ],
+    "components": [ [ [ "material_soil", 20 ] ] ],
     "dark_craftable": true,
     "pre_flags": [ "FLAT" ],
     "post_furniture": "Foxf_dirtpile"
