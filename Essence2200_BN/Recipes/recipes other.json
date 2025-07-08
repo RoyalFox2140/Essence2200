@@ -596,5 +596,21 @@
     "tools": [ [ [ "Foxmachiningstation", 20 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "using": [ [ "blacksmithing_intermediate", 2 ] ],
     "components": [ [ [ "scrap", 3 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "mortar_adobe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required": [ "survival", 3 ],
+    "id_suffix": "Foxwastedirt",
+    "difficulty": 1,
+    "time": "5 m",
+    "autolearn": true,
+    "byproducts": [ [ "material_sand", 4 ], [ "Fox_LETSGOGAMBLINGseeds", 2 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "DIG", "level": 1 } ],
+    "tools": [ [ [ "Foxdirtmesh", -1 ] ] ],
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "Fox_wastedirt", 1 ] ] ]
   }
 ]
