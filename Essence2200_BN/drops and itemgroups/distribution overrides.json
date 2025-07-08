@@ -764,7 +764,7 @@
       { "item": "Foxseed_desertcotton", "prob": 1, "charges": [ 2, 3 ] },
       { "item": "Foxseed_wastewood", "prob": 1, "charges": [ 2, 3 ] },
       { "item": "Foxseed_deadwood", "prob": 1, "charges": [ 2, 3 ] },
-      { "item": "Foxseed_deserttobacco", "prob": 1, "charges": [ 2, 3 ] },
+      { "item": "Foxseed_wastetuber", "prob": 1, "charges": [ 2, 3 ] },
       { "item": "Foxseed_deserttobacco", "prob": 1, "charges": [ 2, 3 ] },
       { "item": "Foxseed_wastecactus", "prob": 1, "charges": [ 2, 3 ] },
       { "item": "Foxseed_cavebeans", "prob": 1, "charges": [ 2, 3 ] }
