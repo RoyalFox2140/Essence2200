@@ -758,7 +758,16 @@
       { "item": "Foxseed_corpsefuzz", "prob": 1, "charges": [ 2, 3 ] },
       { "item": "Foxseed_ghostthistle", "prob": 1, "charges": [ 2, 3 ] },
       { "item": "Foxseed_gravebaneshrub", "prob": 1, "charges": [ 2, 3 ] },
-      { "item": "Foxseed_acidlemon", "prob": 1, "charges": [ 2, 3 ] }
+      { "item": "Foxseed_acidlemon", "prob": 1, "charges": [ 2, 3 ] },
+      { "item": "Foxseed_wasteberry", "prob": 1, "charges": [ 2, 3 ] },
+      { "item": "Foxseed_wastenut", "prob": 1, "charges": [ 2, 3 ] },
+      { "item": "Foxseed_desertcotton", "prob": 1, "charges": [ 2, 3 ] },
+      { "item": "Foxseed_wastewood", "prob": 1, "charges": [ 2, 3 ] },
+      { "item": "Foxseed_deadwood", "prob": 1, "charges": [ 2, 3 ] },
+      { "item": "Foxseed_deserttobacco", "prob": 1, "charges": [ 2, 3 ] },
+      { "item": "Foxseed_deserttobacco", "prob": 1, "charges": [ 2, 3 ] },
+      { "item": "Foxseed_wastecactus", "prob": 1, "charges": [ 2, 3 ] },
+      { "item": "Foxseed_cavebeans", "prob": 1, "charges": [ 2, 3 ] }
     ]
   }
 ]
