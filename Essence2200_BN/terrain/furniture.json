@@ -575,6 +575,26 @@
     "name": "Install Sludge Pump"
   },
   {
+    "type": "construction",
+    "id": "Foxconstr_Foxt_sludgepit",
+    "group": "Foxdig_Foxt_sludgepit",
+    "category": "FOXSPECIAL",
+    "required_skills": [ [ "fabrication", 6 ] ],
+    "tools": [ [ [ "jackhammer", 400 ], [ "elec_jackhammer", 10000 ] ] ],
+    "time": "3 h",
+    "qualities": [ 
+    [ { "id": "DIG", "level": 3 } ]
+  ],
+    "components": [ [ [ "pipe", 20 ] ] ],
+    "pre_terrain": "Foxt_wastelandsoil",
+    "post_terrain": "Foxt_sludgepit"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxdig_Foxt_sludgepit",
+    "name": "Dig Sludge pit"
+  },
+  {
     "type": "furniture",
     "id": "Foxfgridnanoforge",
     "looks_like": "f_workbench",
