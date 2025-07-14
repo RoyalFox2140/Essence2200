@@ -1780,10 +1780,10 @@
     "category": "FOXESSTECH",
     "required_skills": [ [ "fabrication", 4 ] ],
     "time": "60 m",
-    "using": [ [ "forging_standard", 20 ] ],
+    "using": [ [ "forging_standard", 24 ] ],
     "qualities": [ [ { "id": "SMOOTH", "level": 1 } ] ],
-    "components": [ [ [ "Foxtarcrete", 10 ] ] ],
-    "pre_terrain": "t_pit_shallow",
+    "components": [ [ [ "Foxtarcrete", 12 ] ] ],
+    "pre_flags": [ "FLAT" ],
     "post_terrain": "Foxt_Tarcreteroof"
   },
   {
@@ -1792,11 +1792,11 @@
     "group": "Foxconstr_Foxttarcretefloor",
     "category": "FOXESSTECH",
     "required_skills": [ [ "fabrication", 4 ] ],
-    "time": "60 m",
-    "using": [ [ "forging_standard", 20 ] ],
+    "time": "50 m",
+    "using": [ [ "forging_standard", 16 ] ],
     "qualities": [ [ { "id": "SMOOTH", "level": 1 } ] ],
-    "components": [ [ [ "Foxtarcrete", 10 ] ] ],
-    "pre_terrain": "t_pit_shallow",
+    "components": [ [ [ "Foxtarcrete", 8 ] ] ],
+    "pre_flags": [ "FLAT" ],
     "post_terrain": "Foxt_Tarcretefloor"
   },
   {
@@ -1809,7 +1809,7 @@
     "using": [ [ "forging_standard", 20 ] ],
     "qualities": [ [ { "id": "SMOOTH", "level": 1 } ] ],
     "components": [ [ [ "Foxtarcrete", 10 ] ] ],
-    "pre_terrain": "t_pit_shallow",
+    "pre_flags": [ "FLAT" ],
     "post_terrain": "Foxt_Tarcretewall"
   },
   {
