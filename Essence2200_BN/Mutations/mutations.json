@@ -708,5 +708,18 @@
     "mana_regen_multiplier": 0.9,
     "spells_learned": [ [ "Fox_Pale_Phaseshift", 10 ], [ "Fox_Prayer_Awaken", 1] ],
     "armor": [ { "parts": "ALL", "bullet": 40, "heat": 30, "cold": 30, "electric": 400 } ]
+  },
+  {
+    "type": "mutation",
+    "id": "FoxManaburn",
+    "name": { "str": "Manaburn" },
+    "points": -5,
+    "description": "Your body doesn't take well to essence, you will simply never recover mana automatically, no matter how skilled you become. You'll need to consume it as food, weaving is still possible but may be a net loss. This also doesn't grant magic usage.",
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": true,
+    "visibility": 0,
+    "ugliness": 0,
+    "mana_regen_multiplier": 0.0
   }
 ]
