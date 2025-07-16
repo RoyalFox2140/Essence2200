@@ -93,7 +93,7 @@
     "subtype": "distribution",
     "items": [
       [ "FoxDeSGAesstheorybasic", 20 ],
-      { "item": "Foxnanoaugcanistergeneric", "prob": 10, "count": [ 2, 4 ] },
+      { "item": "Foxnanoaugcanistergeneric", "prob": 20, "count": [ 2, 4 ] },
       [ "FoxDeSGAesstechbasic", 20 ],
       [ "FoxDeSGAesstechadvanced", 20 ],
       [ "FoxDeSGAkawakamiprayer", 20 ],
@@ -107,7 +107,7 @@
     "type": "item_group",
     "id": "vault_bad",
     "items": [ 
-      [ "Foxnanoaugcanistergeneric", 10 ],
+      { "item": "Foxnanoaugcanistergeneric", "prob": 30, "count": [ 1, 2 ] },
       [ "Foxnanoaugcanisterbad", 20 ]
     ]
   },
