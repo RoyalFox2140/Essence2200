@@ -334,10 +334,9 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 0,
     "time": "30 m",
-    "tools": [ [ [ "Fox_spellbooks_First", -1 ] ] ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 2 ] ],
-    "flags": [ "BLIND_EASY" ]
+    "flags": [ "BLIND_EASY", "SECRET" ]
   },
   {
     "result": "Foxnoviceartificing",

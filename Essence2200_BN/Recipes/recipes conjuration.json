@@ -54,11 +54,10 @@
     "difficulty": 0,
     "time": "10 m",
     "result_mult": 20,
-    "tools": [ [ [ "Fox_spellbooks_First", -1 ] ] ],
     "batch_time_factors": [ 80, 2 ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY", "SECRET"  ]
   },
   {
     "type": "recipe",
@@ -70,11 +69,10 @@
     "difficulty": 0,
     "time": "10 m",
     "result_mult": 20,
-    "tools": [ [ [ "Fox_spellbooks_First", -1 ] ] ],
     "batch_time_factors": [ 80, 2 ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY", "SECRET"  ]
   },
   {
     "type": "recipe",
@@ -446,11 +444,10 @@
     "difficulty": 0,
     "time": "10 m",
     "result_mult": 5,
-    "tools": [ [ [ "Fox_spellbooks_First", -1 ] ] ],
     "batch_time_factors": [ 80, 2 ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY", "SECRET"  ]
   },
   {
     "type": "recipe",
@@ -462,11 +459,10 @@
     "difficulty": 0,
     "time": "10 m",
     "result_mult": 5,
-    "tools": [ [ [ "Fox_spellbooks_First", -1 ] ] ],
     "batch_time_factors": [ 80, 2 ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
-    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
+    "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY", "SECRET" ]
   },
   {
     "type": "recipe",

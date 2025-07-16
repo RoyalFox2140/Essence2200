@@ -108,6 +108,26 @@
     "max_damage": 10000
   },
   {
+    "id": "Fox_Manapotion",
+    "type": "SPELL",
+    "name": "Mana potion",
+    "description": "You've got the power and you've got the might, so get ready for battle.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "NO_EXPLOSION_VFX" ],
+    "effect": "recover_energy",
+    "effect_str": "MANA",
+    "skill": "FoxEssSpellcasting",
+    "message": "You feel power surge through you.",
+    "energy_source": "MANA",
+    "min_damage": 250,
+    "max_damage": 250,
+    "base_casting_time": 0,
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "difficulty": 1,
+    "max_level": 1
+  },
+  {
     "id": "Fox_Hidden_PUNISH",
     "type": "SPELL",
     "name": { "str": "PULL THE BOYS, ITS TIME TO ZERG RUSH" },

@@ -190,7 +190,7 @@
     "difficulty": 0,
     "result_mult": 50,
     "time": "10 m",
-    "tools": [ [ [ "Fox_spellbooks_First", -1 ] ] ],
+    "flags": [ "SECRET" ],
     "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
         "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
     "components": [
@@ -207,7 +207,7 @@
   "difficulty": 0,
   "result_mult": 40,
   "time": "10 m",
-  "tools": [ [ [ "Fox_spellbooks_First", -1 ] ] ],
+    "flags": [ "SECRET" ],
   "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
         "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
   "components": [

@@ -30,5 +30,23 @@
     "volume": "100 ml",
     "weight": "100 g",
     "stackable": true
+  },
+  {
+    "type": "AMMO",
+    "id": "Foxdeadwoodashes",
+    "category": "chems",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "name": { "str": "deadwood ashes" },
+    "symbol": "=",
+    "color": "dark_gray",
+    "description": "The product of burning deadwood in a controlled method, it is the basis of all magic potions.",
+    "container": "bottle_plastic",
+    "material": "powder",
+    "volume": "250 ml",
+    "weight": "1 g",
+    "ammo_type": "components",
+    "count": 400,
+    "effects": [ "COOKOFF" ]
   }
 ]

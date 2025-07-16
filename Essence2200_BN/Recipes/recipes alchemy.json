@@ -101,5 +101,38 @@
     "autolearn": true,
     "time": "12 h",
     "components": [ [ [ "Foxhumansoul", 400 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxmanapotion",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ALCHEMY",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 0,
+    "time": "30 m",
+    "charges": 1,
+    "flags": [ "SECRET" ],
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "COOK", "level": 3 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [ [ [ "FoxEssencenormal", 1000 ] ], [ [ "Foxdeadwoodashes", 40 ] ], [ [ "sugar", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxdeadwoodashes",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ALCHEMY",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 0 ] ],
+    "id_suffix": "Fox",
+    "difficulty": 0,
+    "charges": 400,
+    "time": "30 m",
+    "batch_time_factors": [ 90, 5 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 1 }, { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [ [ [ "Foxdeadwood", 1 ] ] ]
   }
 ]
