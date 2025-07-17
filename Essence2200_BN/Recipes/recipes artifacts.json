@@ -314,5 +314,60 @@
     "autolearn": true,
     "tools": [ [ [ "Foxartifactacid1", 2 ], [ "Foxartifactacid2", 1 ], [ "Foxartifactacid3", 1 ] ] ],
     "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxartifactsoldering",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifact",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "components": [ 
+      [ [ "nail", 1 ] ],
+      [ [ "rag", 1 ] ],
+      [ [ "string_6", 1 ] ],
+      [ [ "Foxartifactheat1", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxartifactacetylene",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifact",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "FoxEssTheory", 1 ], [ "mechanics", 1 ] ],
+    "difficulty": 4,
+    "time": "45 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "DRILL", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [ 
+      [ [ "pipe", 1 ] ],
+      [ [ "Foxtarrubber", 1 ] ],
+      [ [ "plastic_chunk", 1 ] ],
+      [ [ "Foxartifactheat2", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxartifacttank",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifact",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 20, "LIST" ] ] ],
+    "components": [ 
+      [ [ "plastic_chunk", 4 ] ], 
+      [ [ "metal_tank", 1 ] ], 
+      [ [ "Foxartifactcold1", 1 ] ]
+    ]
   }
 ]
