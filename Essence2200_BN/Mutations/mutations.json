@@ -202,6 +202,7 @@
     "night_vision_range": 120,
     "stealth_modifier": 50,
     "hearing_modifier": 2,
+    "spells_learned": [ [ "Fox_Pale_Phaseshift", 5 ] ],
     "social_modifiers": { "lie": 8, "persuade": 2, "intimidate": 10 }
   },
   {
@@ -721,5 +722,27 @@
     "visibility": 0,
     "ugliness": 0,
     "mana_regen_multiplier": 0.0
+  },
+  {
+    "type": "mutation",
+    "id": "Foxartifactscav",
+    "name": { "str": "Artifact scavenger" },
+    "points": 1,
+    "description": "You found a weak heat and weak electric artifact before you got here, adding this to your starting items. You can craft some devices with them but gain no additional benefits.",
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": true,
+    "visibility": 0,
+    "ugliness": 0
+  },
+  {
+    "type": "profession_item_substitutions",
+    "item": "Foxartifactheat1",
+    "bonus": { "present": [ "Foxartifactscav" ] }
+  },
+  {
+    "type": "profession_item_substitutions",
+    "item": "Foxartifactelectric1",
+    "bonus": { "present": [ "Foxartifactscav" ] }
   }
 ]

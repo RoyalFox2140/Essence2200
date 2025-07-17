@@ -581,5 +581,92 @@
     "name": { "str": "artifact stabilizer system" },
     "max_charges": 1000000,
     "flags": [ "USES_GRID_POWER" ]
+  },
+  {
+    "id": "Foxartifactsoldering",
+    "type": "TOOL",
+    "looks_like": "soldering_iron",
+    "name": "artifact soldering iron",
+    "description": "This heat artifact had a nail carefully driven into it with a rag as a handle, it warms the nail to soldering temperatures when held.",
+    "weight": "50 g",
+    "volume": "250 ml",
+    "material": "FoxDivineMaterial",
+    "price": "2 USD",
+    "symbol": ",",
+    "color": "yellow",
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [ "plastic", "lead", "tin", "zinc" ],
+        "skill": "fabrication",
+        "cost_scaling": 0,
+        "move_cost": 1500
+      },
+      { "flame": false, "type": "cauterize" }
+    ],
+    "flags": [ "TRADER_AVOID", "NO_UNLOAD", "NO_RELOAD", "RECHARGE", "BELT_CLIP"  ]
+  },
+  {
+    "id": "Foxartifactacetylene",
+    "type": "TOOL",
+    "looks_like": "oxy_torch",
+    "name": "artifact welder",
+    "description": "This heat artifact had a pipe drilled into it and is capable of igniting the oxygen in a controlled enough fashion to perfectly mimic oxyacetylene, once again proving these artifacts may understand what you want out of them.",
+    "weight": "700 g",
+    "volume": "1000 ml",
+    "material": "FoxDivineMaterial",
+    "price": "2 USD",
+    "symbol": ",",
+    "color": "yellow",
+    "use_action": [
+      "OXYTORCH",
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [
+          "iron",
+          "steel",
+          "budget_steel",
+          "hardsteel",
+          "aluminum",
+          "copper",
+          "bronze",
+          "silver",
+          "gold",
+          "platinum",
+          "superalloy",
+          "FoxAdamantine",
+          "FoxImperialSteel",
+          "FoxShadowSteel",
+          "glass"
+        ],
+        "skill": "fabrication",
+        "tool_quality": 10,
+        "cost_scaling": 0,
+        "move_cost": 500
+      }
+    ],
+    "qualities": [ [ "WELD", 2 ] ],
+    "flags": [ "TRADER_AVOID", "BELT_CLIP"  ]
+  },
+  {
+    "id": "Foxartifacttank",
+    "type": "CONTAINER",
+    "category": "container",
+    "name": { "str": "artifact liquid tank", "str_pl": "artifact liquid tanks" },
+    "description": "This 60 liter tank has an artifact attached to the side with plastic, prevents food stored inside it from ever spoiling.",
+    "weight": "6000 g",
+    "volume": "61 L",
+    "price_postapoc": "2 USD",
+    "to_hit": -10,
+    "bashing": 1,
+    "material": [ "FoxDivineMaterial" ],
+    "symbol": ",",
+    "color": "yellow",
+    "contains": "60L",
+    "seals": true,
+    "watertight": true,
+    "preserves": true
   }
 ]
