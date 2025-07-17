@@ -209,7 +209,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "lab_finale_loot",
-    "weight": 100,
+    "weight": 800,
     "object": {
       "mapgensize": [ 3, 3 ],
       "rows": [
@@ -222,6 +222,14 @@
         "r": { "item": [ { "item": "FoxKolibriPapers", "chance": 100, "repeat": [ 15, 25 ] } ] },
         "R": { "item": [
            { "item": "FoxSGAlocktopus", "chance": 100 },
+           { "item": "Foxartifactunstable", "chance": 100, "repeat": [ 3, 7 ] },
+           { "item": "FoximpKW21382U", "chance": 100 },
+           { "item": "FoxSGAportaluplink", "chance": 100 },
+           { "item": "FoxDeIed", "chance": 100 },
+           { "item": "FoxDeIkw", "chance": 100 },
+           { "item": "Foximpchip", "chance": 100, "repeat": [ 100, 200 ] },
+           { "item": "Foximpchipofficer", "chance": 100, "repeat": [ 20, 30 ] },
+           { "item": "Foxessencereactor", "chance": 100 },
            { "item": "Foxnanoaugcanistergeneric", "chance": 100, "repeat": [ 1, 3 ] }
         ] }
       }
