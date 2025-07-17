@@ -26,5 +26,35 @@
       { "monster": "FoxmonZombifiedReaper", "freq": 5, "cost_multiplier": 5, "pack_size": [ 3, 5 ] },
       { "monster": "FoxmonZombifiedReaperCO", "freq": 5, "cost_multiplier": 4 }
     ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_LAB_CYBORG",
+    "default": "mon_broken_cyborg",
+    "monsters": [
+      { "monster": "FoxmonZombifiedReaperCO", "freq": 200, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_LAB",
+    "default": "mon_zombie_scientist",
+    "monsters": [
+      { "monster": "FoxmonAbberantShambler", "freq": 50, "cost_multiplier": 0, "pack_size": [ 5, 11 ] },
+      { "monster": "FoxmonAbberantShadow", "freq": 20, "cost_multiplier": 0 },
+      { "monster": "FoxmonAbberantFleshBall", "freq": 50, "cost_multiplier": 0, "pack_size": [ 2, 3 ] },
+      { "monster": "FoxmonLVAbberration", "freq": 10, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_CENTRAL_LAB",
+    "default": "mon_zombie_scientist",
+    "monsters": [
+      { "monster": "FoxmonAbberantShambler", "freq": 50, "cost_multiplier": 0, "pack_size": [ 5, 11 ] },
+      { "monster": "FoxmonAbberantShadow", "freq": 20, "cost_multiplier": 0 },
+      { "monster": "FoxmonAbberantFleshBall", "freq": 50, "cost_multiplier": 0, "pack_size": [ 2, 3 ] },
+      { "monster": "FoxmonLVAbberration", "freq": 10, "cost_multiplier": 0 }
+    ]
   }
 ]
