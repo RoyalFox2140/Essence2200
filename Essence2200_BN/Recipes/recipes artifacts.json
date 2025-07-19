@@ -369,5 +369,21 @@
       [ [ "metal_tank", 1 ] ], 
       [ [ "Foxartifactcold1", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxartifacthotplate",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "id_suffix": "FoxArtifact",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "components": [
+      [ [ "sheet_metal", 1 ] ],
+      [ [ "Foxartifactheat1", 1 ] ]
+    ]
   }
 ]

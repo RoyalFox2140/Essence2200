@@ -605,7 +605,7 @@
       },
       { "flame": false, "type": "cauterize" }
     ],
-    "flags": [ "TRADER_AVOID", "NO_UNLOAD", "NO_RELOAD", "RECHARGE", "BELT_CLIP"  ]
+    "flags": [ "TRADER_AVOID", "BELT_CLIP"  ]
   },
   {
     "id": "Foxartifactacetylene",
@@ -668,5 +668,20 @@
     "seals": true,
     "watertight": true,
     "preserves": true
+  },
+  {
+    "id": "Foxartifacthotplate",
+    "type": "TOOL",
+    "looks_like": "hotplate",
+    "name": "artifact hotplate",
+    "description": "This heat artifact was crudely encased in a piece of metal pounded into being flat on the top and bottom side, which allows heat to rise upward and cook food.",
+    "weight": "6000 g",
+    "volume": "1000 ml",
+    "material": "FoxDivineMaterial",
+    "price": "2 USD",
+    "symbol": ",",
+    "color": "yellow",
+    "use_action": "HOTPLATE",
+    "flags": [ "TRADER_AVOID"  ]
   }
 ]
