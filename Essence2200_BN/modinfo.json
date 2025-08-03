@@ -5,8 +5,9 @@
     "name": "<color_pink>Essence 2200 BN</color>",
     "authors": [ "RoyalFox" ],
     "maintainers": [ "RoyalFox" ],
-    "description": "A huge content mod.",
+    "description": "A brutal unforgiving MagiTech & Desert overhaul.",
     "category": "content",
+    "license": "All Rights Reserved",
     "dependencies": [ "bn" ]
   },
   {
