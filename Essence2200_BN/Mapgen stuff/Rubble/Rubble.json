@@ -44,7 +44,7 @@
     "items": {
       "M": { "item": "Foxrubbledeadguy", "chance": 100 },
       "L": { "item": "Foxrubblelocker", "chance": 100 },
-      "n": { "item": "Foxmonlostreaperbed", "chance": 100 },
+      "N": { "item": "Foxmonlostreaperbed", "chance": 100 },
       "s": { "item": "Foxmonlostreapergroundstuff", "chance": 100 },
       "l": { "item": "Foxrubblelockerfood", "chance": 100 }
     }
