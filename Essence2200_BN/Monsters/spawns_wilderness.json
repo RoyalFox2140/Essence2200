@@ -56,5 +56,11 @@
       { "monster": "FoxmonAbberantFleshBall", "freq": 50, "cost_multiplier": 0, "pack_size": [ 2, 3 ] },
       { "monster": "FoxmonLVAbberration", "freq": 10, "cost_multiplier": 0 }
     ]
+  },
+  {
+    "name": "Foxgroup_LostReapers",
+    "type": "monstergroup",
+    "default": "FoxmonImperialReaperlost",
+    "monsters": [ { "monster": "FoxmonImperialReaperlost", "freq": 100, "cost_multiplier": 0 } ]
   }
 ]

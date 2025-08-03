@@ -9,6 +9,7 @@
       { "group": "Foxreapergear", "prob": 90 },
       { "item": "Foximperialrationgood", "prob": 75 },
       { "item": "Foximperialrationbad", "prob": 99 },
+      { "item": "FoxReaperManual", "prob": 99 },
       { "item": "adv_UPS_off", "prob": 35 },
       { "item": "water_clean", "container-item": "canteen", "prob": 90, "charges": [ 0, 6 ] },
       { "group": "Foxdropsimpbattery", "prob": 30 },
@@ -27,6 +28,7 @@
       { "item": "Foximpetool" },
       { "group": "Foxmonweakartifacts", "prob": 4 },
       { "item": "Foximperialrationbad", "prob": 99 },
+      { "item": "FoxReaperManual", "prob": 99 },
       { "item": "water_clean", "container-item": "canteen", "prob": 90, "charges": [ 0, 6 ] },
       { "item": "Foxhumansoul", "prob": 100  }
     ]
@@ -41,6 +43,7 @@
       { "group": "Foxreapergear", "prob": 90 },
       { "item": "Foximperialrationgood", "prob": 75 },
       { "item": "Foximperialrationbad", "prob": 99 },
+      { "item": "FoxReaperManual", "prob": 99 },
       { "group": "Foxmonweakartifacts", "prob": 20 },
       { "group": "Foxmonstrongartifacts", "prob": 30 },
       { "item": "adv_UPS_off", "prob": 45 },
@@ -60,6 +63,7 @@
       { "item": "FoxBallisticWeavescrap", "count": [ 10, 20 ] },
       { "group": "Foxreapergear", "prob": 90 },
       { "item": "Foximperialrationbad", "prob": 99 },
+      { "item": "FoxReaperManual", "prob": 99 },
       { "item": "water_clean", "container-item": "canteen", "prob": 80, "charges": [ 0, 6 ] },
       { "group": "Foxdropsimpbattery", "prob": 30 },
       { "group": "infantry_medical_gear", "prob": 30 },

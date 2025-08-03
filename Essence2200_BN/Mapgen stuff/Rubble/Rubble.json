@@ -1,0 +1,182 @@
+[
+  {
+    "type": "palette",
+    "id": "Foxwasteruins",
+    "terrain": {
+      " ": "t_region_groundcover",
+      "L": "t_region_groundcover",
+      "l": "t_region_groundcover",
+      "C": "t_region_groundcover",
+      "M": "t_region_groundcover",
+      "m": "t_region_groundcover",
+      "N": "t_region_groundcover",
+      "n": "t_region_groundcover",
+      "T": "t_region_groundcover",
+      "F": "t_region_groundcover",
+      "X": "t_region_groundcover",
+      "s": "t_region_groundcover",
+      "B": "t_brick_wall",
+      "b": "t_brick_wall_halfway",
+      "r": "t_drystone_wall_half",
+      ".": "t_thconc_floor_no_roof",
+      "g": "t_railroad_rubble",
+      "R": [ [ "t_region_groundcover", 8 ], [ "t_brick_wall", 1 ], [ "t_brick_wall_halfway", 1 ] ],
+      "-": [ [ "t_region_groundcover", 4 ], [ "t_door_frame", 1 ] ],
+      "+": "t_door_frame",
+      "w": "t_window_empty",
+      ">": "t_stairs_up",
+      "<": "t_stairs_down",
+      ")": "t_ladder_up",
+      "(": "t_ladder_down"
+    },
+    "furniture": {
+      "T": "f_table",
+      "C": "f_chair",
+      "L": "f_locker",
+      "l": "f_locker",
+      "X": "f_butcher_rack",
+      "M": "f_floor_mattress",
+      "m": "f_floor_mattress",
+      "N": "f_floor_mattress",
+      "n": "f_floor_mattress",
+      "F": "f_30gal_firebarrel"
+    },
+    "items": {
+      "M": { "item": "Foxrubbledeadguy", "chance": 100 },
+      "L": { "item": "Foxrubblelocker", "chance": 100 },
+      "n": { "item": "Foxmonlostreaperbed", "chance": 100 },
+      "s": { "item": "Foxmonlostreapergroundstuff", "chance": 100 },
+      "l": { "item": "Foxrubblelockerfood", "chance": 100 }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Foxrubble" ],
+    "weight": 100,
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "   BB  BBBB  bBBB+BBBB  ",
+        "                     B  ",
+        "   B                    ",
+        "                        ",
+        "              B         ",
+        "   B          B      B  ",
+        "   B          B         ",
+        "   B          B      B  ",
+        "   B          B    BBB  ",
+        "                     B  ",
+        "                     B  ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "Foxwasteruins" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Foxrubble" ],
+    "weight": 200,
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "   BB  BBBB  bBBB+BBBB  ",
+        "              r    nNB  ",
+        "   B          r     sr  ",
+        "              r      r  ",
+        "              B     sr  ",
+        "   B          B    nNB  ",
+        "   B          Bn F  sr  ",
+        "   B          BNs  nNB  ",
+        "   BRRRRRRRRR-BrrrrBBB  ",
+        "   R                 B  ",
+        "   R                 B  ",
+        "   R                    ",
+        "   R                    ",
+        "   R                    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "Foxwasteruins" ],
+      "place_monster": [
+        { "monster": "FoxmonImperialReaperlost", "x": [ 19, 20 ], "y": [ 3, 3 ] },
+        { "monster": "FoxmonImperialReaperlost", "x": [ 19, 20 ], "y": [ 7, 7 ] },
+        { "monster": "FoxmonImperialReaperlost", "x": [ 19, 20 ], "y": [ 9, 9 ] },
+        { "monster": "FoxmonImperialReaperlost", "x": [ 15, 15 ], "y": [ 8, 8 ] }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Foxrubble" ],
+    "weight": 300,
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "   BB  BBBB  bBBB+BBBB  ",
+        "                   LlB  ",
+        "   B                 R  ",
+        "                     R  ",
+        "              B      R  ",
+        "   B          B     CB  ",
+        "   B          BT F   R  ",
+        "   B          BT   mMB  ",
+        "   BRRRRRRRRR-BRRRRBBB  ",
+        "   R                 B  ",
+        "   R                 B  ",
+        "   R                    ",
+        "   R                    ",
+        "   R                    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "Foxwasteruins" ]
+    }
+  },
+  {
+    "type": "overmap_special",
+    "id": "rubble",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "Foxrubble_north" }
+    ],
+    "locations": [ "field" ],
+    "city_distance": [ 3, 50 ],
+    "city_sizes": [ 0, 12 ],
+    "occurrences": [ 0, 15 ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "Foxrubble" ],
+    "name": "wasteland rubble",
+    "sym": "R",
+    "color": "light_gray",
+    "see_cost": 4
+  }
+]

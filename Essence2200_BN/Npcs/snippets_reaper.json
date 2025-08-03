@@ -1,0 +1,67 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "FoxReaperManual",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": { "str": "Reaper Field Manual page" },
+    "snippet_category": "FoxReaperSnippet",
+    "description": "The Imperial Army prints this field manual for their Reaper counter-terrorist unit. While it's very informative, it's not very useful to you.",
+    "price": 0,
+    "price_postapoc": 10,
+    "material": "paper",
+    "weight": "3 g",
+    "volume": "1 ml"
+  },
+  {
+    "type": "snippet",
+    "category": "FoxReaperSnippet",
+    "text": [
+      {
+        "id": "FoxReaperSnippet_1",
+        "text": "Welcome to the service in the 29th millenium. You are a counter-terrorist agent sent to combat a rogue state which posesses weapons of mass destruction."
+      },
+      {
+        "id": "FoxReaperSnippet_2",
+        "text": "Our grand history begins with the two great apocalypses of 2068 and 2125. After worldwide atomic warfare, humanity nearly went extinct. You are a clone, everyone you work with is a clone. We seek to safeguard mankind from itself and you are the iron hand of justice."
+      },
+      {
+        "id": "FoxReaperSnippet_3",
+        "text": "This land is twisted and broken, rife with mutation. Kill everyone, no one is safe from infection. Though the monsters you fight may be overwhelming, take heart and fight on for we shield our home from these horrors."
+      },
+      {
+        "id": "FoxReaperSnippet_4",
+        "text": "We have reason to suspect terrorists are hiding out among the dead, preparing their next move. Seize explosives and weapons, terminate the enemy."
+      },
+      {
+        "id": "FoxReaperSnippet_5",
+        "text": "You have been given vaccinations to combat terrible diseases within the groundwater and meat supply. This may not provide immunity for all individuals. Handle all food with care and avoid contact with locals, be they undead or alive. Creatures referred to as shamblers are suspected carriers, plague bearers are known vectors of transmission."
+      },
+      {
+        "id": "FoxReaperSnippet_6",
+        "text": "Apostles are those gifted with what we can only describe as magic, but are otherwise enemies of the government. Such individuals are inconceivably dangerous and herald the end of society."
+      },
+      {
+        "id": "FoxReaperSnippet_7",
+        "text": "The foul beasts that which run rampant in our homeland appear absent here. Do not fool yourself into a false sense of security."
+      },
+      {
+        "id": "FoxReaperSnippet_8",
+        "text": "Do not attempt removal of your anti-mutation neural chip, even if successful you bear the risk of permanent mutation. One needs only to look at any given city here to remember we are here to protect you."
+      },
+      {
+        "id": "FoxReaperSnippet_9",
+        "text": "Should you meet a clanner do not attempt combat unless they enter your camp or base. You are ill-equipped to fight them without fire support. Should they enter a secure perimeter they are interested in violence and acquiring supplies. In this situation you are going to die."
+      },
+      {
+        "id": "FoxReaperSnippet_10",
+        "text": "Apostles are known for eating other humans as their magic converts human flesh to that of livestock. Clanners are known to re-synthesize flesh to other forms of food. If you encounter a hungry or sufficiently bored Apostle: Run."
+      },
+      {
+        "id": "FoxReaperSnippet_11",
+        "text": "All cash bounties still apply. Do not fight one another for kill credit, all participants gain the full bounty."
+      }
+    ]
+  }
+]

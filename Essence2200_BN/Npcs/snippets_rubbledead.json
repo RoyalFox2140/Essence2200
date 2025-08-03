@@ -1,0 +1,99 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "FoxRubbledead",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": { "str": "rubble note" },
+    "snippet_category": "FoxRubblenote",
+    "description": "Some unfortunate note left by the dead.",
+    "price": 0,
+    "price_postapoc": 10,
+    "material": "paper",
+    "weight": "3 g",
+    "volume": "1 ml"
+  },
+  {
+    "type": "snippet",
+    "category": "FoxRubblenote",
+    "text": [
+      {
+        "id": "FoxRubblenote_1",
+        "text": "It hurts. please"
+      },
+      {
+        "id": "FoxRubblenote_2",
+        "text": "I'm the last one, everything hurts and the bleeding won't stop. Something is in the meat."
+      },
+      {
+        "id": "FoxRubblenote_3",
+        "text": "God is dead. We dragged him down from Heaven and killed him."
+      },
+      {
+        "id": "FoxRubblenote_4",
+        "text": "makeitstopmakeitstopmakeitstop"
+      },
+      {
+        "id": "FoxRubblenote_5",
+        "text": "It's airborne, stay away from them. The army is burning it out."
+      },
+      {
+        "id": "FoxRubblenote_6",
+        "text": "I can't feel my legs."
+      },
+      {
+        "id": "FoxRubblenote_7",
+        "text": "FUCK YOU!"
+      },
+      {
+        "id": "FoxRubblenote_8",
+        "text": "They abandoned us."
+      },
+      {
+        "id": "FoxRubblenote_9",
+        "text": "Approached the tan soldiers for help after we ran out of food. They fired beams of light at us."
+      },
+      {
+        "id": "FoxRubblenote_10",
+        "text": "Don't drink the water. They put something in it to kill us."
+      },
+      {
+        "id": "FoxRubblenote_11",
+        "text": "THEY DID THIS TO US! THOSE TAN BASTARDS! THE GOVERNMENT KNEW!"
+      },
+      {
+        "id": "FoxRubblenote_12",
+        "text": "Fled here when the plague was near. The dead started walking, so the government shelled us."
+      },
+      {
+        "id": "FoxRubblenote_13",
+        "text": "They scorched and trashed the state, maybe to stop the spread. The CDC shoot at us."
+      },
+      {
+        "id": "FoxRubblenote_14",
+        "text": "Smoke blotted the sun, ash and soot coating the ground. When it blew away, just sand and dust remained."
+      },
+      {
+        "id": "FoxRubblenote_15",
+        "text": "Weeks after the deluge of fire these strange new plants are cropping up, can't wait any longer for food."
+      },
+      {
+        "id": "FoxRubblenote_16",
+        "text": "Whatever we're dealing with is viral, antibiotics won't work."
+      },
+      {
+        "id": "FoxRubblenote_17",
+        "text": "From contact with other groups I've identified at least three strains of plague, each with dramatic and unique symptoms. It has to be manmade."
+      },
+      {
+        "id": "FoxRubblenote_18",
+        "text": "Watch out for the green suits, they tried to burn me."
+      },
+      {
+        "id": "FoxRubblenote_19",
+        "text": "It's over, you'll be joining me soon too."
+      }
+    ]
+  }
+]

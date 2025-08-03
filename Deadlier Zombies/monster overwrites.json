@@ -282,6 +282,13 @@
     "//": "Removing the fireball death explosion until only ballistic and heat damage triggers it. Melee should not cause an explosion.  Kevlar IS NOT KNIFE PROOF, not unless the military spent the extra money for stab resistance."
   },
   {
+    "id": "mon_zombie_technician",
+    "copy-from": "mon_zombie_technician",
+    "type": "MONSTER",
+    "delete": { "special_attacks": [ "PULL_METAL_WEAPON" ] },
+    "//": "I don't generally agree with robbing player agency from stealing a ferromagnetic weapon based on player strength. Yes you can avoid it, but I don't like it."
+  },
+  {
     "id": "mon_gas_zombie",
     "copy-from": "mon_gas_zombie",
     "type": "MONSTER",

@@ -219,5 +219,282 @@
       { "item": "Foxseed_acidlemon", "prob": 10, "charges": [ 4, 8 ] },
       { "item": "Foxacidlemon", "count": [ 6, 8 ] }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxplaguesampledistribution",
+    "subtype": "distribution",
+    "items": [
+      { "item": "Foxplaguesamplesred", "prob": 100 },
+      { "item": "Foxplaguesamplesblue", "prob": 20 },
+      { "item": "Foxplaguesamplesblack", "prob": 50 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxrubbledeadguy",
+    "subtype": "collection",
+    "items": [
+      { "item": "bone_human", "prob": 100, "count": [ 30, 40 ] },
+      { "item": "FoxRubbledead", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxbasementrubbledeadguy",
+    "subtype": "collection",
+    "items": [
+      { "item": "bone_human", "prob": 100, "count": [ 30, 40 ] },
+      { "group": "Foxplaguesampledistribution", "prob": 100 },
+      { "item": "FoxRubbledead", "prob": 100 },
+      { "item": "pillow", "prob": 90 },
+      { "item": "blanket", "prob": 90 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxnestedrevolver",
+    "subtype": "collection",
+    "items": [
+      { "item": "FoxRwastelanderrevolver", "prob": 100 },
+      { "item": "Fox10mmfmj", "prob": 100, "charges": [ 20, 40 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxnested9mmpipe",
+    "subtype": "collection",
+    "items": [
+      { "item": "rifle_9mm", "prob": 100 },
+      { "item": "9mm", "prob": 100, "charges": [ 20, 50 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxnestedshotpipe",
+    "subtype": "collection",
+    "items": [
+      { "item": "pipe_shotgun", "prob": 100 },
+      { "item": "shot_00", "prob": 100, "charges": [ 20, 40 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxnestedashot",
+    "subtype": "collection",
+    "items": [
+      { "item": "ashot", "prob": 100 },
+      { "item": "shot_00", "prob": 100, "charges": [ 10, 30 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxrubblelocker",
+    "subtype": "collection",
+    "items": [
+      { "group": "Foxnestedrevolver", "prob": 10 },
+      { "group": "Foxnested9mmpipe", "prob": 80 },
+      { "group": "Foxnestedshotpipe", "prob": 40 },
+      { "group": "Foxnestedashot", "prob": 10 },
+      { "item": "spear_pipe", "prob": 20 },
+      { "item": "spear_stone", "prob": 80, "count": [ 1, 3 ] },
+      { "item": "javelin", "prob": 80, "count": [ 2, 5 ] },
+      { "item": "hammer", "prob": 20 },
+      { "item": "makeshift_hammer", "prob": 90 },
+      { "item": "stone_chisel", "prob": 70 },
+      { "item": "screwdriver", "prob": 90 },
+      { "item": "makeshift_crowbar", "prob": 90 },
+      { "item": "multitool", "prob": 30 },
+      { "item": "pockknife", "prob": 40 },
+      { "item": "pliers", "prob": 60 },
+      { "item": "light_battery_cell", "prob": 20, "count": [ 1, 3 ] },
+      { "item": "nail", "prob": 50, "charges": [ 100, 100 ] },
+      { "item": "wrench", "prob": 60 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxrubblelockermore",
+    "subtype": "collection",
+    "items": [
+      { "item": "backpack", "prob": 80 },
+      { "item": "cowboy_hat", "prob": 60 },
+      { "item": "sheath", "prob": 60 },
+      { "item": "canteen", "prob": 60 },
+      { "item": "bandolier_rifle", "prob": 50 },
+      { "item": "bandolier_pistol", "prob": 10 },
+      { "item": "bandolier_shotgun", "prob": 20 },
+      { "item": "torso_bandolier_shotgun", "prob": 30 },
+      { "item": "bandolier_rifle", "prob": 50 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxrubblelockerfood",
+    "subtype": "collection",
+    "items": [
+      { "item": "matches", "prob": 10, "count": [ 1, 2 ] },
+      { "item": "makeshift_knife", "prob": 60 },
+      { "item": "fire_drill", "prob": 60 },
+      { "item": "pot", "prob": 20 },
+      { "item": "pot_makeshift", "prob": 90 },
+      { "item": "flour", "count": [ 1, 4 ] },
+      { "item": "dry_fruit", "count": [ 4, 10 ] },
+      { "item": "Foxwastenutsboiled", "count": [ 1, 6 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxrubblerack",
+    "subtype": "collection",
+    "items": [
+      { "item": "jar_glass", "prob": 40, "count": [ 1, 6 ] },
+      { "item": "wrapper", "prob": 90, "count": [ 20, 30 ] },
+      { "item": "bag_plastic", "prob": 80, "count": [ 10, 20 ] },
+      { "item": "can_medium_unsealed", "prob": 90, "count": [ 30, 60 ] },
+      { "item": "can_food_unsealed", "prob": 90, "count": [ 20, 50 ] },
+      { "item": "can_food_big", "prob": 90, "count": [ 10, 20 ] },
+      { "item": "bottle_plastic", "prob": 80, "count": [ 2, 10 ] },
+      { "item": "jug_plastic", "prob": 40, "count": [ 1, 4 ] },
+      { "item": "wrapper", "prob": 90, "count": [ 20, 30 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxrubblecupboard",
+    "subtype": "collection",
+    "items": [
+      { "item": "jar_glass", "prob": 40, "count": [ 1, 6 ] },
+      { "item": "ceramic_mug", "prob": 80, "count": [ 1, 1 ] },
+      { "item": "ceramic_bowl", "prob": 80, "count": [ 2, 3 ] },
+      { "item": "ceramic_plate", "prob": 80, "count": [ 2, 3 ] },
+      { "item": "battery_charger", "prob": 40 },
+      { "item": "knife_chef", "prob": 40 },
+      { "item": "pot", "prob": 30 },
+      { "item": "kettle", "prob": 40 },
+      { "item": "pot_canning", "prob": 40 },
+      { "item": "stock_pot", "prob": 10 },
+      { "item": "bottle_plastic", "prob": 60, "count": [ 2, 10 ] },
+      { "item": "jug_plastic", "prob": 30, "count": [ 1, 4 ] },
+      { "item": "scissors", "prob": 40 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxrubbledesk",
+    "subtype": "collection",
+    "items": [
+      { "item": "novel_romance", "prob": 15 },
+      { "item": "novel_erotic", "prob": 15 },
+      { "item": "novel_spy", "prob": 15 },
+      { "item": "novel_samurai", "prob": 15 },
+      { "item": "novel_swash", "prob": 15 },
+      { "item": "novel_western", "prob": 15 },
+      { "item": "novel_war", "prob": 15 },
+      { "item": "novel_adventure", "prob": 15 },
+      { "item": "novel_fantasy", "prob": 15 },
+      { "item": "novel_scifi", "prob": 15 },
+      { "item": "paper", "prob": 70, "charges": [ 100, 300 ] },
+      { "item": "pen", "prob": 70, "charges": [ 1, 3 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxrubblebathroom",
+    "subtype": "collection",
+    "items": [
+      { "item": "hairbrush", "prob": 90 },
+      { "item": "comb_pocket", "prob": 80 },
+      { "item": "scissors", "prob": 50 },
+      { "item": "rag", "prob": 50, "count": [ 1, 6 ] },
+      { "item": "bandages_makeshift", "prob": 60, "charges": [ 4, 8 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxjerrycanbunker",
+    "subtype": "collection",
+    "items": [
+      { "item": "jerrycan", "prob": 100, "count": [ 6, 9 ] },
+      { "item": "gasoline", "container-item": "jerrycan", "prob": 100, "charges": [ 1, 9000 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxgeneratorroomrack",
+    "subtype": "collection",
+    "items": [
+      { "item": "can_medium_unsealed", "prob": 30, "count": [ 30, 60 ] },
+      { "item": "can_food_unsealed", "prob": 30, "count": [ 20, 50 ] },
+      { "item": "can_food_big", "prob": 30, "count": [ 10, 20 ] },
+      { "item": "steel_chunk", "prob": 80, "count": [ 5, 25 ] },
+      { "item": "rebar", "prob": 80, "count": [ 2, 20 ] },
+      { "item": "scrap", "prob": 80, "count": [ 30, 80 ] }
+    ]
+  },
+  {
+    "id": "Foxmonlostreapergroundstuff",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "Foxrubbledesk", "prob": 70 },
+      { "group": "Foxrubblebathroom", "prob": 70 },
+      { "item": "multitool", "prob": 20 },
+      { "item": "pockknife", "prob": 30 },
+      { "item": "pliers", "prob": 20 },
+      { "item": "Foxwastenutsboiled", "prob": 70, "count": [ 1, 4 ] },
+      { "item": "water_clean", "container-item": "canteen", "prob": 90, "charges": [ 1, 6 ] }
+    ]
+  },
+  {
+    "id": "Foxmonlostreaperbed",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "sleeping_bag" },
+      { "item": "pillow", "prob": 60 }
+    ]
+  },
+  {
+    "id": "Foxrubbleclothesmale",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "masks_unisex", "prob": 25 },
+      { "group": "gloves_unisex" },
+      { "group": "scarfs_unisex" },
+      { "group": "pants_unisex" },
+      { "group": "coats_unisex", "prob": 30 },
+      { "group": "shirts_unisex" },
+      { "group": "socks_unisex" },
+      { "group": "shoes_unisex" },
+      { "group": "underwear_unisex" },
+      { "group": "underwear_mens" },
+      { "group": "accesories_personal_unisex", "prob": 60, "count": [ 1, 2 ] },
+      { "group": "accesories_personal_mens" }
+    ]
+  },
+  {
+    "id": "Foxrubbleclothesfemale",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "masks_unisex", "prob": 25 },
+      { "group": "gloves_unisex" },
+      { "group": "scarfs_unisex" },
+      { "group": "pants_unisex" },
+      { "group": "pants_womens" },
+      { "group": "coats_unisex", "prob": 30 },
+      { "group": "shirts_unisex" },
+      { "group": "shirts_womens" },
+      { "group": "socks_unisex" },
+      { "group": "dresses_womens" },
+      { "group": "shoes_unisex" },
+      { "group": "shoes_womens" },
+      { "group": "underwear_unisex" },
+      { "group": "underwear_womens" },
+      { "group": "accesories_personal_unisex", "prob": 60, "count": [ 1, 2 ] },
+      { "group": "accesories_personal_womens" }
+    ]
   }
 ]
