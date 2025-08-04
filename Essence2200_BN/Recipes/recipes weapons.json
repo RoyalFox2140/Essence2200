@@ -645,6 +645,7 @@
     "difficulty": 8,
     "time": "5 h 30 m",
     "autolearn": true,
+    "tools": [ [ [ "Foxmachiningstation", 10 ] ] ],
     "qualities": [ { "id": "FoxMachining", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 4 ] ],
@@ -663,7 +664,7 @@
     "difficulty": 6,
     "time": "3 h 30 m",
     "autolearn": true,
-    "qualities": [ { "id": "FoxMachining", "level": 1 } ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 4 ] ],
       [ [ "Foximpballisticparts", 4 ] ],
@@ -680,7 +681,7 @@
     "difficulty": 6,
     "time": "3 h",
     "autolearn": true,
-    "qualities": [ { "id": "FoxMachining", "level": 1 } ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 4 ] ],
       [ [ "Foximpballisticparts", 3 ] ],
@@ -697,7 +698,7 @@
     "difficulty": 5,
     "time": "2 h 30 m",
     "autolearn": true,
-    "qualities": [ { "id": "FoxMachining", "level": 1 } ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 2 ] ],
       [ [ "Foximpballisticparts", 2 ] ],
@@ -714,7 +715,7 @@
     "difficulty": 6,
     "time": "2 h 30 m",
     "autolearn": true,
-    "qualities": [ { "id": "FoxMachining", "level": 1 } ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 2 ] ],
       [ [ "Foximpballisticparts", 3 ] ],
@@ -731,7 +732,7 @@
     "difficulty": 7,
     "time": "3 h 30 m",
     "autolearn": true,
-    "qualities": [ { "id": "FoxMachining", "level": 1 } ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 2 ] ],
       [ [ "Foximpballisticparts", 3 ] ],
@@ -749,7 +750,7 @@
     "difficulty": 8,
     "time": "4 h 30 m",
     "autolearn": true,
-    "qualities": [ { "id": "FoxMachining", "level": 1 } ],
+    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 5 ] ],
       [ [ "Foximpballisticparts", 5 ] ],
