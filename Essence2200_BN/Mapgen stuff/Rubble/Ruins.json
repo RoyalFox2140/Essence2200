@@ -4,6 +4,7 @@
     "id": "Foxwastebunkerupstairs",
     "terrain": {
       " ": "t_region_groundcover",
+      "q": "t_region_groundcover",
       "C": "t_region_groundcover",
       "T": "t_region_groundcover",
       "L": "t_region_groundcover",
@@ -26,6 +27,8 @@
       "(": "t_ladder_down"
     },
     "furniture": {
+      " ": [ [ "f_null", 60 ], [ "f_region_flower", 1 ], [ "f_region_weed", 2 ] ],
+      "q": [ [ "f_null", 80 ], [ "f_region_flower", 1 ], [ "f_region_weed", 2 ] ],
       "T": "f_table",
       "C": "f_chair",
       "L": "f_locker",
@@ -38,7 +41,9 @@
     "items": {
       "M": { "item": "Foxrubbledeadguy", "chance": 100 },
       "L": { "item": "Foxrubblelocker", "chance": 100 },
-      "l": { "item": "Foxrubblelockerfood", "chance": 100 }
+      "l": { "item": "Foxrubblelockerfood", "chance": 100 },
+      "q": { "item": "Foxrubblejunk", "chance": 20 },
+      " ": { "item": "Foxrubblerock", "chance": 2 }
     }
   },
   {
@@ -58,6 +63,8 @@
       "n": "t_thconc_floor",
       "L": "t_thconc_floor",
       "l": "t_thconc_floor",
+      "K": "t_thconc_floor",
+      "k": "t_thconc_floor",
       "M": "t_thconc_floor",
       "m": "t_thconc_floor",
       "F": "t_thconc_floor",
@@ -102,6 +109,8 @@
       ",": "f_olight_off",
       "M": "f_floor_mattress",
       "m": "f_floor_mattress",
+      "K": "f_bed",
+      "k": "f_bed",
       "F": "f_30gal_firebarrel",
       "H": "f_water_heater",
       "R": "f_rack",
@@ -128,6 +137,7 @@
       "R": { "item": "Foxrubblerack", "chance": 100 },
       "j": { "item": "Foxjerrycanbunker", "chance": 100 },
       "c": { "item": "Foxrubblecupboard", "chance": 100 },
+      "f": { "item": "Foxwoodstovesticks", "chance": 100 },
       "r": { "item": "Foxrubbledesk", "chance": 100 },
       "E": { "item": "Foxrubbledesk", "chance": 100 },
       "n": { "item": "Foxrubblebathroom", "chance": 70 },
@@ -147,14 +157,14 @@
         "                        ",
         "                        ",
         "   BBRRBBBBBBbBBB+BBBB  ",
-        "   R         <       B  ",
-        "   B                 R  ",
-        "   R  T X            R  ",
-        "   R          B         ",
-        "   B          B      B  ",
-        "   B          B      R  ",
-        "   B          B      B  ",
-        "   B         RBRRRRBBB  ",
+        "   Rqqqqqqqqq<qqqqqqqB  ",
+        "   BqqqqqqqqqqqqqqqqqR  ",
+        "   RqqTqXqqqqqqqqqqqqR  ",
+        "   RqqqqqqqqqqBqqqqqqq  ",
+        "   BqqqqqqqqqqBqqqqqqB  ",
+        "   BqqqqqqqqqqBqqqqqqR  ",
+        "   BqqqqqqqqqqBqqqqqqB  ",
+        "   BRRRRR   -RBRRRRBBB  ",
         "                     B  ",
         "                     B  ",
         "                        ",
@@ -278,6 +288,41 @@
     }
   },
   {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Foxtinybunkerdown" ],
+    "weight": 100,
+    "object": {
+      "rows": [
+        "       BBBBBBBBBBBBB    ",
+        "       Bjgg.BloOBvSB    ",
+        "       B....B.,.B.,B    ",
+        "       B..,.+.).+..B    ",
+        "       B.Hw.B...BnsB    ",
+        "       BBBBBBB+BBBBB    ",
+        "        Bz.......rKB    ",
+        "        BR..,CTC..KB    ",
+        "        B..........B    ",
+        "        BcfcBWWLUUUB    ",
+        "        BBBBBBBBBBBB    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "Foxwastebunker" ]
+    }
+  },
+  {
     "type": "overmap_special",
     "id": "ruined basement",
     "overmaps": [
@@ -302,8 +347,20 @@
     "occurrences": [ 0, 8 ]
   },
   {
+    "type": "overmap_special",
+    "id": "tiny ruined bunker",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "Foxbunkerup_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "Foxtinybunkerdown_north" }
+    ],
+    "locations": [ "field" ],
+    "city_distance": [ 3, 50 ],
+    "city_sizes": [ 0, 12 ],
+    "occurrences": [ 0, 4 ]
+  },
+  {
     "type": "overmap_terrain",
-    "id": [ "Foxbasementup", "Foxbunkerup" ],
+    "id": [ "Foxbasementup", "Foxbunkerup", "Foxtinybunkerdown" ],
     "name": "wasteland rubble",
     "sym": "R",
     "color": "light_gray",

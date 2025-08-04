@@ -236,7 +236,7 @@
     "subtype": "collection",
     "items": [
       { "item": "bone_human", "prob": 100, "count": [ 30, 40 ] },
-      { "item": "FoxRubbledead", "prob": 100 }
+      { "item": "FoxRubbledead", "prob": 30 }
     ]
   },
   {
@@ -245,10 +245,19 @@
     "subtype": "collection",
     "items": [
       { "item": "bone_human", "prob": 100, "count": [ 30, 40 ] },
-      { "group": "Foxplaguesampledistribution", "prob": 100 },
+      { "group": "Foxplaguesampledistribution", "prob": 50 },
       { "item": "FoxRubbledead", "prob": 100 },
       { "item": "pillow", "prob": 90 },
       { "item": "blanket", "prob": 90 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxbasementrubblebed",
+    "subtype": "collection",
+    "items": [
+      { "item": "pillow" },
+      { "item": "blanket" }
     ]
   },
   {
@@ -433,6 +442,14 @@
     ]
   },
   {
+    "type": "item_group",
+    "id": "Foxwoodstovesticks",
+    "subtype": "collection",
+    "items": [
+      { "item": "stick", "count": [ 3, 9 ] }
+    ]
+  },
+  {
     "id": "Foxmonlostreapergroundstuff",
     "type": "item_group",
     "subtype": "collection",
@@ -495,6 +512,35 @@
       { "group": "underwear_womens" },
       { "group": "accesories_personal_unisex", "prob": 60, "count": [ 1, 2 ] },
       { "group": "accesories_personal_womens" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxrubblemetal",
+    "subtype": "collection",
+    "entries": [
+      { "item": "scrap", "count": [ 50, 100 ] },
+      { "item": "steel_chunk", "count": [ 1, 40 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxrubblejunk",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "brick", "count": [ 5, 20 ], "prob": 40 },
+      { "group": "Foxrubblemetal", "prob": 30 },
+      { "item": "rock", "count": [ 1, 20 ], "prob": 10 },
+      { "item": "cu_pipe", "count": [ 1, 3 ], "prob": 20 },
+      { "item": "pipe", "count": [ 1, 2 ], "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "Foxrubblerock",
+    "subtype": "collection",
+    "entries": [
+      { "item": "rock" }
     ]
   }
 ]

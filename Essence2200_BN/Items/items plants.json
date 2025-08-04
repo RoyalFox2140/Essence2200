@@ -509,7 +509,7 @@
     "name": { "str": "waste cactus fruit" },
     "looks_like": "strawberries",
     "comestible_type": "MED",
-    "description": "A fruit from a waste cactus. It'll make you high if you eat it. The risk of stupid decisions and potential problems is high.",
+    "description": "A fruit from a waste cactus. It'll make you high if you eat it. Containing a similiar composition to bangtail powder, this can be ground as a substitue with the juice discarded.",
     "weight": "60 g",
     "volume": "100 ml",
     "to_hit": -3,

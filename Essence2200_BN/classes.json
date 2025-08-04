@@ -642,5 +642,58 @@
     "forced_traits": [ "FoxImperialTraitor" ],
     "start_name": "Imperial Deserter",
     "flags": [ "LONE_START", "HELI_CRASH" ]
+  },
+  {
+    "type": "profession",
+    "id": "FoxWaster",
+    "name": "Waster",
+    "description": "Early into the breakdown of society you managed to find some essential supplies and survived relatively unscathed. Now you need food.",
+    "points": 1,
+    "items": {
+      "both": {
+        "items": [
+          "socks",
+          "boots",
+          "long_underpants",
+          "jeans",
+          "backpack",
+          "hoodie",
+          "tshirt",
+          "knit_scarf",
+          "hat_cotton",
+          "mess_tin",
+          "hammer",
+          "screwdriver",
+          "pliers",
+          "pockknife",
+          "bottle_plastic"
+        ],
+        "entries": [
+          { "item": "rifle_9mm", "ammo-item": "9mm", "charges": 1 },
+          { "item": "9mm", "charges": 20 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    }
+  },
+  {
+    "type": "start_location",
+    "id": "Foxsloc_tinybunker",
+    "name": "Small bunker",
+    "terrain": [
+      { "om_terrain": "Foxtinybunkerdown", "om_terrain_match_type": "TYPE" }
+    ]
+  },
+  {
+    "type": "scenario",
+    "id": "FoxBunkerBlues",
+    "name": "Bunker Blues",
+    "points": -1,
+    "description": "Early into the breakdown of society you fled into the wilderness and found a small bunker. You locked yourself in for a few weeks to avoid the plague and deluge of fire. Now the generator is broken and you're running out of food. This is the DEFAULT start of Essence 2200",
+    "allowed_locs": [
+      "Foxsloc_tinybunker"
+    ],
+    "start_name": "Bunker Blues"
   }
 ]

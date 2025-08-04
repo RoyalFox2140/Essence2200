@@ -277,6 +277,21 @@
   },
   {
     "type": "recipe",
+    "result": "FoxessenceRDXweak",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_DRUGS",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "cooking", 4 ] ],
+    "difficulty": 1,
+    "time": "3 h", 
+    "charges": 200,
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 30, "LIST" ] ] ],
+    "components": [ [ [ "Foxcactuspaste", 1 ] ], [  [ "Foxsmugglersroot", 6 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "Fox_NightwalkerRegencure",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_DRUGS",

@@ -369,5 +369,62 @@
           { "item": "Foxtoolboxmachining" },
           { "item": "Foximpgogglesdetection", "prob": 5 }
     ]
+  },
+  {
+    "id": "Foxmondropsrubblescum",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxdwellersoul", "prob": 100  },
+      { "item": "brick", "prob": 100  }
+    ]
+  },
+  {
+    "id": "Foxmondropsdwelleroutcast",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxdwellersoul", "prob": 100  },
+      { "item": "spear_stone", "prob": 100  },
+      { "item": "rag", "count": [ 10, 30 ], "prob": 100 },
+      { "item": "fire_drill", "prob": 100, "charges": [ 4, 35 ] },
+      { "item": "stick", "prob": 100, "count": [ 1, 3 ] },
+	  { "item": "human_cooked", "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "id": "Foxmondropsdwellercorpseman",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxdwellersoul", "prob": 100  },
+      { "item": "FoxRdwellerrifle", "prob": 100, "charges": [ 0, 2 ]  },
+      { "item": "Fox762m87", "prob": 100, "charges": [ 5, 12 ]  },
+      { "item": "rag", "count": [ 30, 50 ], "prob": 100 },
+      { "item": "knife_hunting", "prob": 100 },
+      { "item": "fire_drill", "prob": 100, "charges": [ 30, 45 ] },
+	  { "item": "human_cooked", "count": [ 3, 5 ] },
+	  { "item": "human_lard", "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "id": "Foxmondropsdwellerjerk",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "Foxdwellersoul", "prob": 100  },
+      { "item": "FoxRwastelanderpumpshotgun", "prob": 100, "charges": [ 0, 3 ]  },
+      { "item": "shot_00", "prob": 100, "charges": [ 1, 8 ]  },
+      { "item": "rag", "count": [ 30, 50 ], "prob": 100 },
+      { "item": "multitool", "prob": 100 },
+      { "item": "pockknife", "prob": 100 },
+      { "item": "chisel", "prob": 100 },
+      { "item": "hammer", "prob": 100 },
+      { "item": "fire_drill", "prob": 100, "charges": [ 10, 25 ] },
+	  { "item": "human_cooked", "count": [ 3, 5 ] },
+	  { "item": "human_lard", "count": [ 1, 2 ] },
+	  { "item": "Foximpmechparts", "count": [ 1, 8 ] },
+	  { "item": "Foximpballisticparts", "count": [ 1, 4 ] }
+    ]
   }
 ]

@@ -5,7 +5,9 @@
     "default": "mon_null",
     "is_animal": true,
     "monsters": [
-      { "monster": "FoxmonImperialReaperlost", "freq": 10, "cost_multiplier": 2 }
+      { "monster": "FoxmonImperialReaperlost", "freq": 10, "cost_multiplier": 2 },
+      { "monster": "FoxmonDwellercorpseman", "freq": 4, "cost_multiplier": 2 },
+      { "monster": "FoxmonDwelleroutcast", "freq": 8, "cost_multiplier": 2 }
     ]
   },
   {

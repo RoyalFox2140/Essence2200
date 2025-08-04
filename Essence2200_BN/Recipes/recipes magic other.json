@@ -286,5 +286,19 @@
       [ [ "Foxcolossisoul", 1 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "Foxhumansoul",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "id_suffix": "FoxDweller",
+    "time": "1 s",
+    "charges": 10,
+    "autolearn": true,
+    "components": [
+      [ [ "Foxdwellersoul", 6 ] ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   }
 ]

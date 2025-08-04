@@ -46,5 +46,28 @@
     "type": "json_flag",
     "context": [ "ARMOR", "TOOL_ARMOR" ],
     "info": "This gear has certain parts reinforced with sewn-in plates of flexible adamantine for <good>massively increased protection</good> with small <bad>increase to encumbrance</bad>."
+  },
+  {
+    "type": "clothing_mod",
+    "id": "Foxdwellerleathermod",
+    "flag": "Foxdwellerleathermodflag",
+    "item": "FoxDwellerleather",
+    "implement_prompt": "Pad with Dweller leather",
+    "//": "We'll wing it, because I don't care enough and new armor is superior",
+    "destroy_prompt": "Remove dweller leather",
+    "mod_value": [
+      { "type": "bash", "value": 8 },
+      { "type": "cut", "value": 10 },
+      { "type": "bullet", "value": 15 },
+      { "type": "fire", "value": 20 },
+      { "type": "acid", "value": 10 },
+      { "type": "encumbrance", "value": 3, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "id": "Foxdwellerleathermodflag",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "You've padded this with dweller leather, giving a big <good>increase in protection</good> with a big <bad>increase to encumbrance</bad>."
   }
 ]

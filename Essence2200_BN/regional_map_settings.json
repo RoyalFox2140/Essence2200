@@ -197,7 +197,7 @@
     },
     "river_scale": 0.1,
     "field_coverage": {
-      "percent_coverage": 0.05,
+      "percent_coverage": 0.11,
       "default_ter": "Foxt_wastelandshrub",
       "other": {
         "f_region_weed": 49,
@@ -950,7 +950,7 @@
       }
     },  
     "weather": {
-      "spring_temp": 8,
+      "spring_temp": 10,
       "summer_temp": 15,
       "autumn_temp": 10, 
       "winter_temp": -25,

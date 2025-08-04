@@ -257,5 +257,29 @@
     "dmg_adj": [ "marked", "dented", "smashed", "shattered" ],
     "bash_dmg_verb": "dented",
     "cut_dmg_verb": "scratched"
+  },
+  {
+    "type": "material",
+    "id": "FoxDwellerleather",
+    "name": "Dweller leather",
+    "density": 10,
+    "specific_heat_liquid": 0.82,
+    "specific_heat_solid": 0.45,
+    "latent_heat": 273,
+    "soft": true,
+    "reinforces": true,
+    "bash_resist": 4,
+    "cut_resist": 4,
+    "bullet_resist": 15,
+    "acid_resist": 10,
+    "fire_resist": 20,
+    "elec_resist": 20,
+    "chip_resist": 9999,
+    "repaired_with": "FoxDwellerleather",
+    "salvaged_into": "FoxDwellerleather",
+    "dmg_adj": [ "ripped", "torn", "shredded", "tattered" ],
+    "bash_dmg_verb": "ripped",
+    "cut_dmg_verb": "cut",
+    "burn_data": [ { "immune": true }, { "immune": true }, { "immune": true } ]
   }
 ]

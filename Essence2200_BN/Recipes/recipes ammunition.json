@@ -876,7 +876,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "food_processor", 5 ] ] ],
-    "components": [ [ [ "Foxbangtailstalk", 1 ] ] ]
+    "components": [ [ [ "Foxbangtailstalk", 1 ], [ "Foxcactusfruit", 4 ] ] ]
   },
   {
     "type": "recipe",
@@ -893,7 +893,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ] ] ],
-    "components": [ [ [ "Foxbangtailstalk", 1 ] ] ]
+    "components": [ [ [ "Foxbangtailstalk", 1 ], [ "Foxcactusfruit", 4 ] ] ]
   },
   {
     "result": "FoxSGA120mmAT",
@@ -1155,7 +1155,7 @@
     "using": [ [ "bullet_forming", 25 ] ],
     "components": [
       [ [ "scrap", 2 ] ],
-      [ [ "FoxessenceRDX", 50 ] ]
+      [ [ "FoxessenceRDX", 50 ], [ "FoxessenceRDXweak", 100 ] ]
     ]
   },
   {
@@ -1174,7 +1174,7 @@
     "using": [ [ "bullet_forming", 25 ] ],
     "components": [
       [ [ "scrap", 2 ] ],
-      [ [ "FoxessenceRDX", 50 ] ]
+      [ [ "FoxessenceRDX", 50 ], [ "FoxessenceRDXweak", 100 ] ]
     ]
   },
   {
@@ -1193,7 +1193,7 @@
     "using": [ [ "bullet_forming", 25 ] ],
     "components": [
       [ [ "scrap", 2 ] ],
-      [ [ "FoxessenceRDX", 50 ] ]
+      [ [ "FoxessenceRDX", 50 ], [ "FoxessenceRDXweak", 100 ] ]
     ]
   },
   {
@@ -1212,7 +1212,7 @@
     "using": [ [ "bullet_forming", 25 ] ],
     "components": [
       [ [ "scrap", 2 ] ],
-      [ [ "FoxessenceRDX", 50 ] ]
+      [ [ "FoxessenceRDX", 50 ], [ "FoxessenceRDXweak", 100 ] ]
     ]
   },
   {
@@ -1231,7 +1231,7 @@
     "using": [ [ "bullet_forming", 25 ] ],
     "components": [
       [ [ "scrap", 2 ] ],
-      [ [ "FoxessenceRDX", 50 ] ]
+      [ [ "FoxessenceRDX", 50 ], [ "FoxessenceRDXweak", 100 ] ]
     ]
   }
 ]
