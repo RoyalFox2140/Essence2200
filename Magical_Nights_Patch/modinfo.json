@@ -7,6 +7,7 @@
     "maintainers": [ "RoyalFox" ],
     "description": "Patches various lore entries to bridge the two mods. Doesn't touch balance currently.",
     "category": "content",
+    "license": "All Rights Reserved",
     "dependencies": [ "bn", "Essence2200_BN", "MagicalNights" ]
   },
   {

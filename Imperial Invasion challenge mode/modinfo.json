@@ -2,11 +2,12 @@
   {
     "type": "MOD_INFO",
     "id": "ImperialInvasion",
-    "name": "Essence 2200: Imperial Invasion",
+    "name": "<color_red>Essence 2200: Imperial Invasion</color>",
     "authors": [ "RoyalFox" ],
     "maintainers": [ "RoyalFox" ],
-    "description": "Dramatically injects Imperial soldiers into the world for extra challenge.",
+    "description": "Doesn't do anything yet, because bullets HURT. Good luck. Dramatically hikes the game difficulty and enemy locations, troop composition, and ablities.",
     "category": "content",
+    "license": "All Rights Reserved",
     "dependencies": [ "bn", "Essence2200_BN" ]
   }
 ]

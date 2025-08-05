@@ -7,6 +7,7 @@
     "maintainers": [ "RoyalFox" ],
     "description": "Does significant changes to the balance intended to be used with Essence 2200. Please check the JSON to see what it does and remove what you don't like, or rebalance it.",
     "category": "rebalance",
+    "license": "All Rights Reserved",
     "dependencies": [ "bn", "Essence2200_BN" ]
   },
   {

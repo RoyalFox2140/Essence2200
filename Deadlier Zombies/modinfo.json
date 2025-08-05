@@ -7,6 +7,7 @@
     "maintainers": [ "RoyalFox" ],
     "description": "'This game is too hard' Oh then we'll make it easier. 'This game is too easy'.",
     "category": "content",
+    "license": "All Rights Reserved",
     "dependencies": [ "bn" ]
   }
 ]
