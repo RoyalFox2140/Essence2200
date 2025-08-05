@@ -724,5 +724,22 @@
       [ [ "stick", 4 ] ],
       [ [ "filament", 200, "LIST" ] ]
     ]
+  },
+  {
+    "result": "press",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TOOLS",
+    "skill_used": "fabrication",
+    "id_suffix": "FoxImperialSteel",
+    "skills_required": [ [ "FoxEssTheory", 1 ], [ "FoxEssTech", 1 ] ],
+    "difficulty": 6,
+    "time": "1 h 30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 40 ] ] ],
+    "components": [
+      [ [ "Foximperialsteelchunk", 4 ] ]
+    ]
   }
 ]

@@ -131,8 +131,8 @@
           "Foxf_wasteberrybush": 5,
           "Foxf_wastenutbush": 3,
           "Foxf_desertcottonplant": 1,
-          "Foxf_wastewoodsapling": 1,
-          "Foxf_deadwoodsapling": 1,
+          "Foxf_wastewoodsapling": 4,
+          "Foxf_deadwoodsapling": 2,
           "Foxf_wastetuberplant": 3,
           "Foxf_deserttobaccoplant": 1,
           "Foxf_cactusplant": 6,
@@ -170,16 +170,16 @@
           "f_mustard": 1,
           "Foxf_wasteberrybush": 12,
           "Foxf_wastenutbush": 5,
-          "Foxf_desertcottonplant": 2,
+          "Foxf_desertcottonplant": 4,
           "Foxf_wastetuberplant": 4,
-          "Foxf_deserttobaccoplant": 2,
+          "Foxf_deserttobaccoplant": 3,
           "Foxf_cactusplant": 8,
-          "Foxf_Foxcairnroot": 5,
-          "Foxf_Foxsmugglersroot": 1,
+          "Foxf_Foxcairnroot": 7,
+          "Foxf_Foxsmugglersroot": 4,
           "Foxf_Foxbloodgrass": 2,
-          "Foxf_Foxstimgrass": 2,
+          "Foxf_Foxstimgrass": 4,
           "Foxf_Foxwoegrass": 2,
-          "Foxf_Foxbroomgrass": 2
+          "Foxf_Foxbroomgrass": 4
         },
         "f_region_water_plant": { 
           "f_cattails": 5, 
@@ -197,7 +197,7 @@
     },
     "river_scale": 0.1,
     "field_coverage": {
-      "percent_coverage": 0.11,
+      "percent_coverage": 0.14,
       "default_ter": "Foxt_wastelandshrub",
       "other": {
         "f_region_weed": 49,
@@ -214,6 +214,7 @@
         "Foxf_wastetuberplant": 3,
         "Foxf_deserttobaccoplant": 1,
         "Foxf_cactusplant": 6,
+        "Foxf_Foxsmugglersroot": 1,
         "Foxf_Foxcairnroot": 3
       },
       "boosted_other_percent": 80
