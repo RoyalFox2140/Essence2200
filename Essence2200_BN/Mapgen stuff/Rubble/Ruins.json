@@ -132,6 +132,7 @@
     "items": {
       "M": { "item": "Foxbasementrubbledeadguy", "chance": 100 },
       "D": { "item": "Foxbasementrubbledeadguy", "chance": 100 },
+      "K": { "item": "Foxbasementrubbleblanket", "chance": 100 },
       "L": { "item": "Foxrubblelocker", "chance": 100 },
       "l": { "item": "Foxrubblelockerfood", "chance": 100 },
       "R": { "item": "Foxrubblerack", "chance": 100 },
@@ -301,7 +302,7 @@
         "       B.Hw.B...BnsB    ",
         "       BBBBBBB+BBBBB    ",
         "        Bz.......rKB    ",
-        "        BR..,CTC..KB    ",
+        "        BR..,CTC..kB    ",
         "        B..........B    ",
         "        BcfcBWWLUUUB    ",
         "        BBBBBBBBBBBB    ",

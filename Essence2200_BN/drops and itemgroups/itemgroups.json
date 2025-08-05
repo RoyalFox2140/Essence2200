@@ -253,6 +253,15 @@
   },
   {
     "type": "item_group",
+    "id": "Foxbasementrubbleblanket",
+    "subtype": "collection",
+    "items": [
+      { "item": "pillow" },
+      { "item": "blanket" }
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "Foxbasementrubblebed",
     "subtype": "collection",
     "items": [
