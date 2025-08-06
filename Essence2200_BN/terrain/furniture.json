@@ -1692,7 +1692,9 @@
         { "item": "Foxtarrubber", "charges": [ 4, 6 ] },
         { "item": "Foximpelectronics", "charges": [ 5, 30 ] },
         { "item": "Foximpmicroelectronics", "charges": [ 1, 4 ], "prob": 15 },
-        { "item": "Foximpmechparts", "charges": [ 10, 30 ] }
+        { "item": "Foximpmechparts", "charges": [ 10, 30 ] },
+        { "item": "Foximpbatterydevice", "count": [ 1, 6 ], "charges": [ 0, 400 ] },
+        { "item": "Foximpbatterycell", "count": [ 1, 2 ], "charges": [ 0, 2100 ] }
       ]
     }
   },
