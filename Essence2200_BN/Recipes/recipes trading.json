@@ -170,6 +170,20 @@
   },
   {
     "type": "recipe",
+    "result": "FoxRwastelanderrevolver9mm",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TRADING",
+    "id_suffix": "FoxTrading",
+    "time": "10 s",
+    "autolearn": true,
+    "batch_time_factors": [ 99, 1 ],
+    "tools": [ [ [ "FoxSGAportaluplink", 10 ] ] ],
+    "components": [
+      [ [ "FoxSGAarchivistcash", 30 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
     "result": "FoxRwastelanderpumpshotgun",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_TRADING",
