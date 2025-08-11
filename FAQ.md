@@ -9,3 +9,7 @@ A: Take out the battery. Otherwise the game itself won't allow you.
 Q: Will this come to Kenan's structured modpack for Bright Nights?
 
 A: When its done I can ask Kenan. It exists in relative obscurity so I can finish it before throwing it to the wild. The Github page is a good way for people to try it early.
+
+Q: Fuck Copilot and AI users
+
+A: Fuck Copilot and AI users

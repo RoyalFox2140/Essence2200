@@ -18,6 +18,8 @@ Designed for Cataclysm: Bright Nights latest nightly
 
 Graphics can be found here, and must be licensed separately. https://github.com/RoyalFox2140/Graphics-2200
 
+Fuck AI, Fuck Copilot, and Fuck people who code with it.
+
 Monsters and factions are a work in progress, please enhance your game difficulty with other mods including Cata++, Secronom, and Really Dark Skies.
 https://github.com/Noctifer-de-Mortem/nocts_cata_mod
 https://github.com/Kenan2000/BrightNights-Structured-Kenan-Modpack
