@@ -8,7 +8,7 @@
     "description": "A brutal unforgiving MagiTech & Desert overhaul.",
     "category": "content",
     "license": "All Rights Reserved",
-    "dependencies": [ "bn" ]
+    "dependencies": [ "bn", "MST_Extra" ]
   },
   {
     "type": "skill",

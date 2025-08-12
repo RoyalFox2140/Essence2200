@@ -16,6 +16,8 @@ When I reach a comfortable state of polish and most of the mod is finished it wi
 
 Designed for Cataclysm: Bright Nights latest nightly
 
+REQUIRES MST EXTRA until Chaosvolt adds it to the base game. https://github.com/chaosvolt/MST_Extra_Mod
+
 Graphics can be found here, and must be licensed separately. https://github.com/RoyalFox2140/Graphics-2200
 
 Fuck AI, Fuck Copilot, and Fuck people who code with it.
