@@ -321,5 +321,69 @@
         [ "Foxseed_deserttobacco", 2 ]
       ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxcactusbar",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_COOKING",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "40 m",
+    "autolearn": true,
+    "id_suffix": "Foxmanual",
+    "batch_time_factors": [ 80, 4 ],
+    "charges": 2,
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ] ] ],
+    "components": [ [ [ "Foxcactuspaste", 1 ] ], [ [ "Foxwastenutsboiled", 4 ] ], [ [ "Foxwasteberry", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxwastebar",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_COOKING",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "40 m",
+    "autolearn": true,
+    "id_suffix": "Foxmanual",
+    "batch_time_factors": [ 80, 4 ],
+    "charges": 2,
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ] ] ],
+    "components": [ [ [ "tallow", 1 ] ], [ [ "Foxwastenutsboiled", 4 ] ], [ [ "Foxwasteberry", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxcactusbar",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_COOKING",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "40 m",
+    "autolearn": true,
+    "id_suffix": "Foxprocess",
+    "batch_time_factors": [ 90, 3 ],
+    "charges": 2,
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "food_processor", 10 ] ] ],
+    "components": [ [ [ "Foxcactuspaste", 1 ] ], [ [ "Foxwastenutsboiled", 4 ] ], [ [ "Foxwasteberry", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxwastebar",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_COOKING",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "40 m",
+    "autolearn": true,
+    "id_suffix": "Foxprocess",
+    "batch_time_factors": [ 90, 3 ],
+    "charges": 2,
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "food_processor", 10 ] ] ],
+    "components": [ [ [ "tallow", 1 ] ], [ [ "Foxwastenutsboiled", 4 ] ], [ [ "Foxwasteberry", 2 ] ] ]
   }
 ]

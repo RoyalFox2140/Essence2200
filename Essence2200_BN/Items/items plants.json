@@ -330,8 +330,8 @@
     "comestible_type": "FOOD",
     "looks_like": "peanut",
     "description": "Naturally high in sodium, these nuts leech salts from the waste soil and are non-perishable like peanuts. Edible raw, it will dehydrate you and is incredibly unpleasant. You should boil away their salt content.  You could extract seeds, if you really wanted. They grow in the harsh soil",
-    "weight": "130 g",
-    "volume": "250 ml",
+    "weight": "32 g",
+    "volume": "62 ml",
     "to_hit": -3,
     "quench": -30,
     "healthy": -3,
@@ -351,8 +351,8 @@
     "comestible_type": "FOOD",
     "looks_like": "peanut",
     "description": "You boiled the salt away, making it more suitable for consumption and some cooking recipes that don't want salt.",
-    "weight": "130 g",
-    "volume": "250 ml",
+    "weight": "32 g",
+    "volume": "62 ml",
     "to_hit": -3,
     "quench": 1,
     "healthy": 1,
@@ -480,7 +480,7 @@
     "fun": 5,
     "price": "2 USD",
     "price_postapoc": "2 USD",
-    "vitamins": [ [ "fruit_allergen", 1 ] ]
+    "vitamins": [ [ "veggy_allergen", 1 ] ]
   },
   {
     "type": "COMESTIBLE",
@@ -501,7 +501,7 @@
     "fun": 5,
     "price": "2 USD",
     "price_postapoc": "2 USD",
-    "vitamins": [ [ "fruit_allergen", 1 ] ]
+    "vitamins": [ [ "veggy_allergen", 1 ] ]
   },
   {
     "type": "COMESTIBLE",
@@ -577,5 +577,47 @@
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "vitamins": [ [ "calcium", 50 ], [ "iron", 20 ], [ "veggy_allergen", 1 ] ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "Foxcactusbar",
+    "name": { "str": "cactus bar" },
+    "comestible_type": "FOOD",
+    "looks_like": "granola",
+    "description": "Combining dried fruit with cactus paste and waste nuts gives you this smooth bar that doesn't spoil and meets your dietary needs.",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "to_hit": -3,
+    "quench": 1,
+    "healthy": 4,
+    "calories": 424,
+    "color": "brown",
+    "symbol": "%",
+    "material": [ "nut" ],
+    "fun": 1,
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "vitamins": [ [ "vitC", 140 ], [ "calcium", 4 ], [ "iron", 8 ], [ "nut_allergen", 1 ], [ "veggy_allergen", 1 ], [ "fruit_allergen", 1 ] ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "Foxwastebar",
+    "name": { "str": "waste bar" },
+    "comestible_type": "FOOD",
+    "looks_like": "granola",
+    "description": "This smooth bar of dried fruit and waste nuts is bound together with tallow instead of cactus paste, it has much more caloric density but you can't grow meat like cactuses.",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "to_hit": -3,
+    "quench": 1,
+    "healthy": 3,
+    "calories": 832,
+    "color": "brown",
+    "symbol": "%",
+    "material": [ "nut" ],
+    "fun": 1,
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "vitamins": [ [ "vitC", 140 ], [ "calcium", 4 ], [ "iron", 8 ], [ "nut_allergen", 1 ], [ "meat_allergen", 1 ], [ "fruit_allergen", 1 ] ]
   }
 ]
