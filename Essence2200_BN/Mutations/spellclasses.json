@@ -12,6 +12,17 @@
     "flags": [ "PSYCHOPATH" ]
   },
   {
+    "type": "enchantment",
+    "id": "FoxFireImmunity",
+    "condition": "ALWAYS",
+    "ench_effects": [ { "effect": "FoxFireImmunityEffect", "intensity": 1 } ]
+  },
+  {
+    "type": "effect_type",
+    "id": "FoxFireImmunityEffect",
+    "removes_effects": [ "onfire" ]
+  },
+  {
     "type": "mutation",
     "id": "FoxApostleApprentice",
     "name": "Apostle: Apprentice",
@@ -21,6 +32,7 @@
     "purifiable": false,
     "valid": true,
     "changes_to": [ "FoxApostleSkilled" ],
+    "enchantments": [ "FoxFireImmunity" ],
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1], [ "Fox_Transmutation_EssenceToken", 1] ],
     "cancels": [ "BRAWLER" ],
     "flags": [ "PSYCHOPATH" ],
@@ -39,6 +51,7 @@
     "valid": true,
     "prereqs": [ "FoxApostleApprentice" ],
     "changes_to": [ "FoxApostleExpert" ],
+    "enchantments": [ "FoxFireImmunity" ],
     "cancels": [ "BRAWLER" ],
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1], [ "Fox_Transmutation_EssenceToken", 1] ],
     "flags": [ "PSYCHOPATH" ],
@@ -58,6 +71,7 @@
     "valid": true,
     "prereqs": [ "FoxApostleSkilled" ],
     "changes_to": [ "FoxApostleMaster" ],
+    "enchantments": [ "FoxFireImmunity" ],
     "cancels": [ "BRAWLER" ],
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1], [ "Fox_Transmutation_EssenceToken", 1] ],
     "flags": [ "PSYCHOPATH" ],
@@ -76,6 +90,7 @@
     "purifiable": false,
     "valid": true,
     "prereqs": [ "FoxApostleExpert" ],
+    "enchantments": [ "FoxFireImmunity" ],
     "cancels": [ "BRAWLER" ],
     "spells_learned": [ [ "Fox_Transmutation_Essence", 1 ], [ "Fox_Transmutation_FirstSpellbook", 1], [ "Fox_Transmutation_EssenceToken", 1] ],
     "flags": [ "PSYCHOPATH" ],

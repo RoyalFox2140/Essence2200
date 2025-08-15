@@ -110,6 +110,7 @@
     "description": "The first level of Durability augmentation corrects genetic weaknesses, preparing the body for greater injury protection.",
     "valid": false,
     "purifiable": false,
+    "enchantments": [ "FoxFireImmunity" ],
     "cancels": [ "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW", "CHAOTIC_BAD", "CHAOTIC", "UNSTABLE" ],
     "hp_adjustment": 20
   },
@@ -146,6 +147,7 @@
     "valid": false,
     "purifiable": false,
     "cancels": [ "ALBINO" ],
+    "enchantments": [ "FoxFireImmunity" ],
     "armor": [ { "parts": "ALL", "acid": 10, "electric": 20 } ]
   },
   {
@@ -242,6 +244,7 @@
     "valid": false,
     "purifiable": true,
     "cancels": [ "ALBINO" ],
+    "enchantments": [ "FoxFireImmunity" ],
     "social_modifiers": { "lie": -15, "persuade": -25, "intimidate": 10 },
     "passive_mods": { "per_mod": -4 },
     "armor": [ { "parts": "ALL", "heat": 20, "cold": 20, "acid": 400, "electric": 400 } ]
