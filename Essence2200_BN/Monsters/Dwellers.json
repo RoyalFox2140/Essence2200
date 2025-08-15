@@ -58,7 +58,6 @@
         "ranges": [ [ 2, 6, "DEFAULT" ] ],
         "fake_dex": 10,
         "fake_per": 10,
-        "description": "The dweller throws a brick at you!",
         "description": "The dweller throws a brick!",
         "no_crits": true
       }
