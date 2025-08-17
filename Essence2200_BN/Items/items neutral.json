@@ -1165,7 +1165,7 @@
     "warmth": 20,
     "material_thickness": 1,
     "environmental_protection": 2,
-    "resistance": { "cut": 10, "bash": 10, "stab": 6, "acid": 20, "bullet": 15, "heat": 20 },
+    "resistance": { "cut": 10, "bash": 10, "stab": 6, "acid": 20, "bullet": 20, "heat": 20 },
     "valid_mods" : ["furred", "wooled"],
     "flags": [ "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF" ]
   },
@@ -1188,7 +1188,7 @@
     "warmth": 20,
     "material_thickness": 1,
     "valid_mods" : ["furred", "wooled"],
-    "resistance": { "cut": 10, "bash": 10, "stab": 6, "acid": 20, "bullet": 15, "heat": 20 },
+    "resistance": { "cut": 10, "bash": 10, "stab": 6, "acid": 20, "bullet": 20, "heat": 20 },
     "environmental_protection": 20,
     "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF","STURDY" ]
   },
@@ -1210,7 +1210,7 @@
     "encumbrance": 20,
     "warmth": 10,
     "material_thickness": 1,
-    "resistance": { "cut": 20, "bash": 10, "stab": 20, "bullet": 40, "heat": 30 },
+    "resistance": { "cut": 20, "bash": 10, "stab": 20, "bullet": 50, "heat": 30 },
     "environmental_protection": 20,
     "flags": [ "OUTER", "STURDY" ]
   },
@@ -1276,7 +1276,7 @@
     "encumbrance": 20,
     "warmth": 10,
     "material_thickness": 1,
-    "resistance": { "cut": 30, "bash": 20, "stab": 26, "acid": 20, "bullet": 55, "heat": 50 },
+    "resistance": { "cut": 30, "bash": 20, "stab": 26, "acid": 20, "bullet": 65, "heat": 50 },
     "environmental_protection": 20,
     "flags": [ "OUTER", "STURDY" ]
   },
