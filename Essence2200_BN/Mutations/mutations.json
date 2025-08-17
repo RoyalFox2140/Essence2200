@@ -728,13 +728,13 @@
     "id": "FoxManarejection",
     "name": { "str": "Mana rejection" },
     "points": -6,
-    "description": "Your body hates essence, you will recover mana 90% slower forever, impacting recovery at all stages of mastery. You can still use potions however. This also doesn't grant magic usage.",
+    "description": "Your body hates essence, you will recover mana 80% slower forever, impacting recovery at all stages of mastery. You can still use potions however. This also doesn't grant magic usage.",
     "starting_trait": true,
     "purifiable": false,
     "valid": true,
     "visibility": 0,
     "ugliness": 0,
-    "mana_regen_multiplier": 0.1
+    "mana_regen_multiplier": 0.2
   },
   {
     "type": "mutation",
