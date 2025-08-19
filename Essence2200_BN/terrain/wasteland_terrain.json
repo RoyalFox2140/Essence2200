@@ -98,7 +98,6 @@
     "symbol": "0",
     "color": "brown",
     "move_cost": 10,
-    "trap": "tr_pit",
     "fill_result": "Foxt_wastelandpit_shallow",
     "fill_minutes": 20, 
     "flags": [ "TRANSPARENT", "PIT_DEEP" ]
