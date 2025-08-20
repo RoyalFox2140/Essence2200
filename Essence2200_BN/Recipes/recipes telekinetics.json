@@ -253,5 +253,20 @@
     "autolearn": true,
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "rock", 20  ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
+  },
+  {
+    "type": "recipe",
+    "result": "clay_lump",
+    "id_suffix": "FoxWasteDirt",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_TELEKINETICS",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "30 s",
+    "result_mult": 2,
+    "autolearn": true,
+    "qualities": [ { "id": "FoxMagicSalvage", "level": 1 } ],
+    "byproducts": [ [ "material_sand", 8 ], [ "Fox_LETSGOGAMBLINGseeds", 2 ] ],
+    "components": [ [ [ "Fox_wastedirt", 1 ] ] ]
   }
 ]
