@@ -1655,7 +1655,9 @@
         { "item": "Foximpelectronics", "charges": [ 1, 4 ], "prob": 15 },
         { "item": "Foximpmicroelectronics", "charges": [ 1, 4 ], "prob": 5 },
         { "item": "Foximpmechparts", "charges": [ 1, 5 ], "prob": 25 },
-        { "item": "cable", "charges": [ 30, 90 ], "prob": 35 }
+        { "item": "cable", "charges": [ 30, 90 ], "prob": 35 },
+        { "item": "amplifier", "prob": 10 },
+        { "item": "e_scrap", "charges": [ 1, 6 ], "prob": 10 }
       ]
     }
   },
@@ -1694,7 +1696,11 @@
         { "item": "Foximpmicroelectronics", "charges": [ 1, 4 ], "prob": 15 },
         { "item": "Foximpmechparts", "charges": [ 10, 30 ] },
         { "item": "Foximpbatterydevice", "count": [ 1, 6 ], "charges": [ 0, 400 ] },
-        { "item": "Foximpbatterycell", "count": [ 1, 2 ], "charges": [ 0, 2100 ] }
+        { "item": "Foximpbatterycell", "count": [ 1, 2 ], "charges": [ 0, 2100 ] },
+        { "item": "e_scrap", "charges": [ 1, 10 ] },
+        { "item": "element", "charges": [ 1, 2 ] },
+        { "item": "amplifier", "charges": [ 1, 2 ] },
+        { "item": "power_supply", "charges": [ 1, 2 ], "prob": 90 }
       ]
     }
   },
