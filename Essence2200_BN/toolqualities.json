@@ -146,7 +146,7 @@
     "id": "blacksmithing_standard",
     "type": "requirement",
     "//": "Includes forging resources as well as tools needed for basic blacksmithing.  Permits working hot metal on stone surfaces.",
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "HAMMER", "level": 3 } ],
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
     "tools": [ [ [ "forge", 20 ], [ "oxy_torch", 20 ], [ "FoxNanoForge", 20 ], [ "Foxultimatetelekinetics", -1 ], [ "Foxartifactacetylene", -1 ] ], [ [ "tongs", -1 ], [ "Foxultimatetelekinetics", -1 ] ] ]
   },
   {
