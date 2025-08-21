@@ -14,6 +14,7 @@
         "t_region_grass": { "t_grass": 1 },
         "t_region_soil": { "t_dirt": 1 },
         "t_region_shrub": {
+          "Foxt_wastelandshrub": 10,
           "t_underbrush": 30,
           "t_shrub": 10,
           "t_fern": 5,
@@ -37,7 +38,7 @@
           "t_shrub_huckleberry": 2,
           "t_shrub_peanut": 1
         },
-        "t_region_shrub_decorative": { "t_shrub": 3, "t_fern": 1, "t_shrub_rose": 2, "t_shrub_hydrangea": 2, "t_shrub_lilac": 2 },
+        "t_region_shrub_decorative": { "Foxt_wastelandshrub": 2, "t_shrub": 3, "t_fern": 1, "t_shrub_rose": 2, "t_shrub_hydrangea": 2, "t_shrub_lilac": 2 },
         "t_region_tree": {
           "t_tree": 128,
           "t_tree_young": 128,
@@ -127,6 +128,14 @@
           "f_chicory": 1,
           "f_bluebell": 1,
           "f_sunflower": 1,
+          "Foxf_wasteberrybush": 1,
+          "Foxf_wastenutbush": 1,
+          "Foxf_desertcottonplant": 1,
+          "Foxf_wastewoodsapling": 1,
+          "Foxf_deadwoodsapling": 1,
+          "Foxf_wastetuberplant": 1,
+          "Foxf_deserttobaccoplant": 1,
+          "Foxf_cactusplant": 1,
           "Foxf_Foxstormfern": 2,
           "Foxf_Foxwhitewound": 2,
           "Foxf_Foxcorpsefuzz": 4,
@@ -142,7 +151,12 @@
           "f_bluebell": 2,
           "f_flower_spurge": 1,
           "f_chicory": 1,
-          "f_sunflower": 1
+          "f_sunflower": 1,
+          "Foxf_wasteberrybush": 12,
+          "Foxf_wastenutbush": 5,
+          "Foxf_desertcottonplant": 1,
+          "Foxf_wastetuberplant": 3,
+          "Foxf_cactusplant": 6
         },
         "f_region_weed": {
           "f_dandelion": 6,
@@ -158,6 +172,12 @@
           "f_mutpoppy": 1,
           "f_sunflower": 1,
           "f_mustard": 1,
+          "Foxf_wasteberrybush": 1,
+          "Foxf_wastenutbush": 1,
+          "Foxf_desertcottonplant": 1,
+          "Foxf_wastetuberplant": 1,
+          "Foxf_deserttobaccoplant": 1,
+          "Foxf_cactusplant": 1,
           "Foxf_Foxcairnroot": 3,
           "Foxf_Foxsmugglersroot": 1,
           "Foxf_Foxbloodgrass": 2,
@@ -240,7 +260,16 @@
         "f_dandelion": 5,
         "f_burdock": 2,
         "f_sunflower": 3.5,
-        "f_mustard": 0.2
+        "f_mustard": 0.2,
+        "Foxf_wasteberrybush": 0.1,
+        "Foxf_wastenutbush": 0.1,
+        "Foxf_desertcottonplant": 0.1,
+        "Foxf_wastewoodsapling": 0.1,
+        "Foxf_deadwoodsapling": 0.1,
+        "Foxf_wastetuberplant": 0.1,
+        "Foxf_deserttobaccoplant": 0.1,
+        "Foxf_cactusplant": 0.1,
+        "Foxf_Foxcairnroot": 0.1
       },
       "boosted_other_percent": 50
     },
