@@ -4,7 +4,7 @@
     "id": "Foxstyle_Wasteland",
     "name": { "str": "Wasteland struggle" },
     "description": "Your struggles to stay alive in the wasteland wars at a young age taught you to avoid injury as medical supplies were hard to find and your small stature allowed you to evade attacks more easily than most. You are most familiar with shivs and blades but you were often caught fighting with blunt objects. You gain no unique offensive attacks but have disarms and counters, all strikes will be faster and more penetrating. At high levels you gain true damage.",
-    "initiate": [ "You get ready to be nimble and quick.", "%s is a hacker that shouldn't have this martial art, you should kill them with debug." ],
+    "initiate": [ "Square up, motherfucker.", "%s is a hacker that shouldn't have this martial art, you should kill them with debug." ],
     "learn_difficulty": 1,
     "static_buffs": [
       {
