@@ -10,9 +10,8 @@
     "time": "6 h",
     "reversible": true,
     "book_learn": [ [ "FoxDeSGAesstechbasic", 2 ] ],
-    "using": [ [ "blacksmithing_standard", 10 ], [ "soldering_standard", 5 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 10 ], [ "soldering_standard", 5 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
     [ [ "Foximperialsteelchunk", 3 ] ],
     [ [ "Foximpelectronics", 3 ] ],
@@ -129,8 +128,7 @@
     "id_suffix": "Foxforged",
     "time": "50 m",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 100 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 5 ] ],
     "components": [ [ [ "FoxAdamantinechunk", 40 ] ] ]
   },
   {
@@ -144,8 +142,7 @@
     "id_suffix": "Foxforged",
     "time": "50 m",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 200 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 10 ] ],
     "components": [ [ [ "FoxShadowsteelchunk", 40 ] ] ]
   },
   {
@@ -159,8 +156,9 @@
     "id_suffix": "Foxforged",
     "time": "12 h",
     "book_learn": [ [ "FoxDeSGAfujiwara", 6 ], [ "FoxKolibriProject", 6 ] ],
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 1000 ] ], [ [ "Foxmachiningstation", 500 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 100 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 500 ] ] ],
     "components": [ [ [ "FoxAdamantinechunk", 400 ] ] ]
   },
   {
@@ -202,11 +200,7 @@
     "difficulty": 3,
     "time": "1 h",
     "autolearn": true,
-    "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ],
-      [ [ "forge", 100 ] ]
-    ],
+    "using": [  [ "glassblowing_standard", 20 ] ],
     "components": [ [ [ "Foxpowderedessence", 2000 ] ], [ [ "FoxAdamantinechunk", 12 ] ] ]
   },
   {
@@ -220,8 +214,9 @@
     "id_suffix": "Foxmachined",
     "time": "1 h 30 m",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 100 ] ], [ [ "Foxmachiningstation", 200 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 5 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 200 ] ] ],
     "components": [ [ [ "FoxAdamantinechunk", 24 ] ] ]
   },
   {
@@ -235,8 +230,9 @@
     "id_suffix": "Foxmachined",
     "time": "2 h",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 100 ] ], [ [ "Foxmachiningstation", 200 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 5 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 200 ] ] ],
     "components": [ [ [ "FoxAdamantinechunk", 28 ] ] ]
   },
   {
@@ -250,8 +246,9 @@
     "id_suffix": "Foxmachined",
     "time": "1 h 30 m",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 110 ] ], [ [ "Foxmachiningstation", 200 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 6 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 200 ] ] ],
     "components": [ [ [ "FoxAdamantinechunk", 24 ] ], [ [ "Foxtarrubber", 16 ] ] ]
   },
   {
@@ -265,8 +262,9 @@
     "id_suffix": "Foxmachined",
     "time": "2 h",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 120 ] ], [ [ "Foxmachiningstation", 200 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 6 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 200 ] ] ],
     "components": [ [ [ "FoxAdamantinechunk", 28 ] ], [ [ "Foxtarrubber", 42 ] ] ]
   },
   {
@@ -403,8 +401,9 @@
     "id_suffix": "Foxmachined",
     "time": "3 h",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 60 ] ], [ [ "Foxmachiningstation", 30 ] ], [ [ "Foxsewingkitballisticweave", 30 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 3 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 30 ] ], [ [ "Foxsewingkitballisticweave", 30 ] ] ],
     "components": [ [ [ "FoxAdamantinechunk", 10 ] ], [ [ "FoxBallisticWeaveSheet", 30 ] ] ]
   },
   {
@@ -418,8 +417,9 @@
     "id_suffix": "Foxmachined",
     "time": "2 h",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 50 ] ], [ [ "Foxmachiningstation", 100 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 3 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 100 ] ] ],
     "components": [ [ [ "FoxAdamantinechunk", 10 ] ] ]
   },
   {
@@ -433,9 +433,9 @@
     "id_suffix": "Foxmachined",
     "time": "2 h",
     "autolearn": true,
-    "using": [ [ "soldering_standard", 100 ] ],
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 120 ] ], [ [ "Foxmachiningstation", 200 ] ] ],
+    "using": [ [ "soldering_standard", 100 ], [ "blacksmithing_intermediate", 6 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 200 ] ] ],
     "components": [ [ [ "FoxSGAelectronics", 10 ] ] ]
   },
   {
@@ -606,8 +606,7 @@
     "id_suffix": "Foxforged",
     "time": "50 m",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 100 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 5 ] ],
     "components": [ [ [ "Foximperialsteelchunk", 40 ] ] ]
   },
   {
@@ -650,8 +649,9 @@
     "id_suffix": "Foxmachined",
     "time": "1 h 30 m",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 100 ] ], [ [ "Foxmachiningstation", 200 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 5 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 200 ] ] ],
     "components": [ [ [ "Foximperialsteelchunk", 24 ] ] ]
   },
   {
@@ -665,8 +665,9 @@
     "id_suffix": "Foxmachined",
     "time": "2 h",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 100 ] ], [ [ "Foxmachiningstation", 200 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 5 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 200 ] ] ],
     "components": [ [ [ "Foximperialsteelchunk", 28 ] ] ]
   },
   {
@@ -680,8 +681,9 @@
     "id_suffix": "Foxmachined",
     "time": "1 h 30 m",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 110 ] ], [ [ "Foxmachiningstation", 200 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 6 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 200 ] ] ],
     "components": [ [ [ "Foximperialsteelchunk", 24 ] ], [ [ "Foxtarrubber", 16 ] ] ]
   },
   {
@@ -695,8 +697,9 @@
     "id_suffix": "Foxmachined",
     "time": "2 h",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 120 ] ], [ [ "Foxmachiningstation", 200 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 6 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "tools": [ [ [ "Foxmachiningstation", 200 ] ] ],
     "components": [ [ [ "Foximperialsteelchunk", 28 ] ], [ [ "Foxtarrubber", 42 ] ] ]
   },
   {

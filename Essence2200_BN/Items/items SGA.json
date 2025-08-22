@@ -546,6 +546,7 @@
       [ "CUT_FINE", 1 ],
       [ "WELD", 2 ],
       [ "PULL", 1 ],
+      [ "GRIP_HOT", 2 ],
       [ "COOK", 1 ]
     ],
     "use_action": [ 
@@ -601,6 +602,11 @@
       [ "FILE", 5 ],
       [ "REAM", 4 ],
       [ "CUT_FINE", 5 ],
+      [ "GLARE", 2 ],
+      [ "GRIP_HOT", 2 ],
+      [ "SWAGING", 2 ],
+      [ "CASING_FORMING", 1 ],
+      [ "CASING_PRESSING", 2 ],
       [ "COOK", 1 ]
     ],
     "use_action": [ 

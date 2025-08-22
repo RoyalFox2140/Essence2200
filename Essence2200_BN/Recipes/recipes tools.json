@@ -64,9 +64,8 @@
     "time": "4 h",
     "reversible": true,
     "book_learn": [ [ "FoxDeIkw", 2 ] ],
-    "using": [ [ "soldering_standard", 10 ], [ "blacksmithing_standard", 10 ] ],
-    "tools": [ [ [ "swage", -1 ] ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "using": [ [ "soldering_standard", 10 ], [ "blacksmithing_advanced", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "FoxBallisticWeaveSheet", 1 ] ],
       [ [ "FoxSGAmechparts", 1 ] ],
@@ -584,8 +583,7 @@
     "difficulty": 6,
     "time": "2 h",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "pipe", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 50 ] ] ],
+    "using": [  [ "glassblowing_standard", 2 ], [ "blacksmithing_advanced", 2 ] ],
     "components": [
       [ [ "Foxtarrubber", 1 ] ],
       [ [ "steel_chunk", 1 ] ],
@@ -736,8 +734,7 @@
     "difficulty": 6,
     "time": "1 h 30 m",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 40 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 2 ] ],
     "components": [
       [ [ "Foximperialsteelchunk", 4 ] ]
     ]

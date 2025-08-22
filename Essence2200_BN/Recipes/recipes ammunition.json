@@ -674,9 +674,7 @@
     "time": "1 h",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 20 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 20 ] ],
     "components": [ [ [ "FoxAdamantinechunk", 1 ] ] ]
   },
   {
@@ -689,9 +687,7 @@
     "time": "1 h",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 20 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 20 ] ],
     "components": [ [ [ "FoxAdamantinechunk", 1 ] ] ]
   },
   {
@@ -704,9 +700,7 @@
     "time": "1 h 30 m",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 30 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 30 ] ],
     "components": [ [ [ "FoxAdamantinechunk", 2 ] ] ]
   },
   {
@@ -719,9 +713,7 @@
     "time": "1 h 30 m",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 30 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 30 ] ],
     "components": [ [ [ "FoxAdamantinechunk", 2 ] ] ]
   },
   {
@@ -734,9 +726,7 @@
     "time": "2 h",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 30 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 30 ] ],
     "components": [ [ [ "FoxAdamantinechunk", 4 ] ] ]
   },
   {
@@ -749,9 +739,7 @@
     "time": "1 h",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 20 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 20 ] ],
     "components": [ [ [ "FoxAdamantinechunk", 1 ] ] ]
   },
   {
@@ -764,9 +752,7 @@
     "time": "1 h",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 20 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 20 ] ],
     "components": [ [ [ "FoxAdamantinechunk", 1 ] ] ]
   },
   {
@@ -779,9 +765,7 @@
     "time": "1 h 30 m",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 30 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 30 ] ],
     "components": [ [ [ "FoxAdamantinechunk", 2 ] ] ]
   },
   {
@@ -794,9 +778,7 @@
     "time": "1 h",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 20 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 20 ] ],
     "components": [ [ [ "Foximperialsteelchunk", 1 ] ] ]
   },
   {
@@ -809,9 +791,7 @@
     "time": "1 h 30 m",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 20 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 20 ] ],
     "components": [ [ [ "Foximperialsteelchunk", 2 ] ] ]
   },
   {
@@ -974,8 +954,8 @@
     "time": "1 h",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 10 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
+    "using": [ [ "blacksmithing_advanced", 10 ] ],
+    "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "tools": [ [ [ "Foxmachiningstation", 5 ] ] ],
     "components": [ [ [ "Foximperialsteelchunk", 2 ] ] ]
   },
@@ -991,9 +971,7 @@
     "charges": 10,
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 10 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 10 ] ],
     "components": [ [ [ "FoxShadowsteelchunk", 1 ] ] ]
   },
   {
@@ -1007,9 +985,7 @@
     "time": "30 m",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 10 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 10 ] ],
     "components": [ [ [ "Foximperialsteelchunk", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
   },
   {
@@ -1023,9 +999,7 @@
     "time": "30 m",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 10 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 10 ] ],
     "components": [ [ [ "FoxAdamantinechunk", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
   },
   {
@@ -1039,9 +1013,7 @@
     "time": "30 m",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 15 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 15 ] ],
     "components": [ [ [ "FoxShadowsteelchunk", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
   },
   {
@@ -1134,9 +1106,7 @@
     "time": "1 h",
     "autolearn": true,
     "reversible": true,
-    "using": [ [ "blacksmithing_standard", 20 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 20 ] ],
     "components": [ [ [ "Foximperialsteelchunk", 1 ] ] ]
   },
   {

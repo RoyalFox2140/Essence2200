@@ -32,9 +32,7 @@
     "skills_required": [ [ "fabrication", 8 ] ],
     "time": "3 h",
     "autolearn": true,
-    "using": [ [ "Foxsewing_BW", 2 ] ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 40 ] ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "ANVIL", "level": 1 },  { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "Foxsewing_BW", 2 ], [ "blacksmithing_advanced", 2 ] ],
     "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "Foximperialsteelchunk", 8 ] ] ]
   },
   {
@@ -190,9 +188,7 @@
     "skills_required": [ [ "tailor", 6 ] ],
     "time": "6 h",
     "autolearn": true,
-    "using": [ [ "Foxsewing_BW", 4 ] ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 150 ] ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "ANVIL", "level": 1 },  { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "Foxsewing_BW", 4 ], [ "blacksmithing_advanced", 8 ] ],
     "components": [ [ [ "FoxDwellerleather", 2 ] ], [ [ "Foximperialsteelchunk", 30 ] ] ]
   },
   {
@@ -205,9 +201,7 @@
     "skills_required": [ [ "tailor", 6 ] ],
     "time": "5 h",
     "autolearn": true,
-    "using": [ [ "Foxsewing_BW", 4 ] ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 60 ] ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "ANVIL", "level": 1 },  { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "Foxsewing_BW", 4 ], [ "blacksmithing_advanced", 3 ] ],
     "components": [ [ [ "FoxDwellerleather", 2 ] ], [ [ "Foximperialsteelchunk", 12 ] ] ]
   },
   {
@@ -220,9 +214,7 @@
     "skills_required": [ [ "tailor", 6 ] ],
     "time": "5 h",
     "autolearn": true,
-    "using": [ [ "Foxsewing_BW", 4 ] ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 60 ] ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "ANVIL", "level": 1 },  { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "Foxsewing_BW", 4 ], [ "blacksmithing_advanced", 3 ] ],
     "components": [ [ [ "FoxDwellerleather", 2 ] ], [ [ "Foximperialsteelchunk", 12 ] ] ]
   },
   {
@@ -235,9 +227,7 @@
     "skills_required": [ [ "tailor", 6 ] ],
     "time": "4 h",
     "autolearn": true,
-    "using": [ [ "Foxsewing_BW", 4 ] ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 50 ] ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "ANVIL", "level": 1 },  { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "Foxsewing_BW", 4 ], [ "blacksmithing_advanced", 3 ] ],
     "components": [ [ [ "FoxDwellerleather", 6 ] ], [ [ "Foximperialsteelchunk", 10 ] ] ]
   },
   {
@@ -250,9 +240,7 @@
     "skills_required": [ [ "tailor", 6 ] ],
     "time": "4 h",
     "autolearn": true,
-    "using": [ [ "Foxsewing_BW", 12 ] ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 40 ] ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "ANVIL", "level": 1 },  { "id": "HAMMER_FINE", "level": 1 } ],
+    "using": [ [ "Foxsewing_BW", 12 ], [ "blacksmithing_advanced", 2 ] ],
     "components": [ [ [ "FoxDwellerleather", 6 ] ], [ [ "Foximperialsteelchunk", 8 ] ] ]
   }
 ]

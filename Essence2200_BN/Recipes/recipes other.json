@@ -592,7 +592,7 @@
     "time": "30 m",
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
-    "tools": [ [ [ "Foxmachiningstation", 40 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 40 ] ] ],
     "using": [ [ "blacksmithing_standard", 5 ], [ "steel_standard", 6 ] ]
   },
   {
@@ -607,7 +607,7 @@
     "time": "30 m",
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
-    "tools": [ [ [ "Foxmachiningstation", 20 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
     "using": [ [ "blacksmithing_intermediate", 2 ] ],
     "components": [ [ [ "scrap", 3 ] ] ]
   },
