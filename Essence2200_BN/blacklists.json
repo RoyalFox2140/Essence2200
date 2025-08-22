@@ -180,6 +180,12 @@
     "occurrences": [ 0, 0 ]
   },
   {
+    "type": "overmap_special",
+    "id": "Slime Pit",
+    "copy-from": "Slime Pit",
+    "occurrences": [ 0, 0 ]
+  },
+  {
     "type": "material",
     "id": "wool",
     "name": "Wool",
