@@ -128,6 +128,19 @@
     "max_level": 1
   },
   {
+    "id": "Fox_Hidden_SoulHarvestspellone",
+    "type": "SPELL",
+    "name": "Soul Harvest I",
+    "description": "a!",
+    "message": "You feel an immense surge of power flow through your body.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL", "MUTATE_TRAIT" ],
+    "effect": "mutate",
+    "effect_str": "Foxsoulharvestmutationone",
+    "min_damage": 10000,
+    "max_damage": 10000
+  },
+  {
     "id": "Fox_Hidden_PUNISH",
     "type": "SPELL",
     "name": { "str": "PULL THE BOYS, ITS TIME TO ZERG RUSH" },

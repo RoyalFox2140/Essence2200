@@ -300,5 +300,19 @@
       [ [ "Foxdwellersoul", 6 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "Foxsoulharvestone",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 4,
+    "time": "1 s",
+    "autolearn": true,
+    "components": [
+      [ [ "Foxhumansoul", 200 ] ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   }
 ]

@@ -1438,5 +1438,25 @@
     "use_action": { "type": "cast_spell", "spell_id": "Fox_Manapotion", "no_fail": true, "level": 1 },
     "flags": [ "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
     "fun": 1
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "Foxsoulharvestone",
+    "looks_like": "syringe",
+    "name": "Soul Harvest I",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "category": "drugs",
+    "comestible_type": "MED",
+    "weight": "1 g",
+    "color": "blue",
+    "symbol": "~",
+    "description": "With a serious increase in power from the consumption of 200 souls, you can permanently raise your stats and HP by 5 each and 100 points respectively.",
+    "volume": "1 ml",
+    "charges": 1,
+    "stack_size": 1,
+    "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_SoulHarvestspellone", "no_fail": true, "level": 0 },
+    "flags": [ "NO_INGEST", "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
+    "fun": 1
   }
 ]

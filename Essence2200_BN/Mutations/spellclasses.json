@@ -150,5 +150,16 @@
     "spells_learned": [ [ "Fox_Pale_Lesser_SOL", 1 ] ],
     "flags": [ "PSYCHOPATH" ],
     "anger_relations": [ [ "FoxImperial", 5000 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "Foxsoulharvestmutationone",
+    "name": { "str": "Soul Harvest I" },
+    "points": 0,
+    "description": "Your immense power as a mage permanently strengthens your body by raising your max health and phyiscal stats.",
+    "valid": false,
+    "purifiable": false,
+    "hp_adjustment": 100,
+    "passive_mods": { "str_mod": 5, "dex_mod": 5, "per_mod": 5, "int_mod": 5 }
   }
 ]
