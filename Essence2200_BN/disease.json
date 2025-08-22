@@ -123,7 +123,7 @@
     "desc": [ "An Imperial Bioweapon. Your blood cells are dying on mass, You are vomiting blood and bleeding internally. You're not surviving this without nanotechnology." ],
     "blood_analysis_description": "Red Rot",
     "apply_memorial_log": "Received Red rot.",
-    "remove_memorial_log": "Recovered from a bite wound.",
+    "remove_memorial_log": "Recovered from Red rot.",
     "rating": "bad",
     "max_duration": "4800 h",
     "base_mods": {
