@@ -534,17 +534,39 @@
     "result": "steel_chunk",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "skills_required": [ [ "mechanics", 2 ] ],
+    "id_suffix": "FoxBULKMETAlscrap",
+    "time": "1 s",
+    "batch_time_factors": [ 99, 1 ],
+    "autolearn": true,
+    "components": [
+      [ [ "scrap", 5 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "steel_chunk",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
     "id_suffix": "FoxBULKMETAl",
-    "difficulty": 3,
-    "time": "20 m",
-    "batch_time_factors": [ 90, 2 ],
+    "time": "1 s",
+    "batch_time_factors": [ 99, 1 ],
     "result_mult": 4,
     "autolearn": true,
-    "tools": [ [ [ "Foxmachiningstation", 4 ] ] ],
     "components": [
       [ [ "steel_lump", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "steel_lump",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "id_suffix": "FoxBULKMETAl",
+    "time": "1 s",
+    "batch_time_factors": [ 99, 1 ],
+    "autolearn": true,
+    "components": [
+      [ [ "steel_chunk", 4 ] ]
     ]
   },
   {
@@ -552,15 +574,10 @@
     "result": "scrap",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "skills_required": [ [ "mechanics", 2 ] ],
     "id_suffix": "FoxBULKMETAl",
-    "difficulty": 3,
-    "time": "20 m",
-    "batch_time_factors": [ 90, 2 ],
+    "batch_time_factors": [ 99, 1 ],
     "result_mult": 5,
     "autolearn": true,
-    "tools": [ [ [ "Foxmachiningstation", 3 ] ] ],
     "components": [
       [ [ "steel_chunk", 1 ] ]
     ]
