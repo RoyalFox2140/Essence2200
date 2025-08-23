@@ -9,7 +9,7 @@
     "max_duration": "48 h",
     "effects_on_remove": [ { "allow_on_remove": false, "allow_on_decay": true, "effect_type": "Fox_RedRot2", "duration": "24 h" } ],
     "base_mods": {
-      "hurt_min": [ -1 ],
+      "hurt_min": [ 1 ],
       "hurt_tick": [ 600 ],
       "health_min": [ -1 ],
       "health_tick": [ 600 ],
@@ -28,7 +28,7 @@
     "rating": "bad",
     "max_duration": "48 h",
     "base_mods": {
-      "hurt_min": [ -2 ],
+      "hurt_min": [ 2 ],
       "hurt_tick": [ 900 ],
       "health_min": [ -1 ],
       "health_tick": [ 600 ]
@@ -60,7 +60,7 @@
     "rating": "bad",
     "max_duration": "24 h",
     "base_mods": {
-      "hurt_min": [ -1 ],
+      "hurt_min": [ 1 ],
       "hurt_tick": [ 600 ],
       "pain_chance": [ 300 ],
       "pain_min": [ 5 ],
@@ -83,7 +83,7 @@
     "rating": "bad",
     "max_duration": "24 h",
     "base_mods": {
-      "hurt_min": [ -1 ],
+      "hurt_min": [ 1 ],
       "hurt_tick": [ 600 ],
       "pain_chance": [ 300 ],
       "pain_min": [ 5 ],
@@ -105,7 +105,7 @@
     "harmful_cough": false,
     "max_duration": "24 h",
     "base_mods": {
-      "hurt_min": [ -1 ],
+      "hurt_min": [ 1 ],
       "hurt_tick": [ 600 ],
       "pain_chance": [ 300 ],
       "pain_min": [ 5 ],
@@ -127,7 +127,7 @@
     "rating": "bad",
     "max_duration": "4800 h",
     "base_mods": {
-      "hurt_min": [ -1 ],
+      "hurt_min": [ 1 ],
       "hurt_tick": [ 40 ],
       "health_min": [ -1 ],
       "health_tick": [ 5 ],
@@ -147,7 +147,7 @@
     "harmful_cough": true,
     "max_duration": "4800 h",
     "base_mods": {
-      "hurt_min": [ -1 ],
+      "hurt_min": [ 1 ],
       "hurt_tick": [ 5 ],
       "health_min": [ -1 ],
       "health_tick": [ 5 ],
@@ -167,7 +167,7 @@
     "rating": "bad",
     "max_duration": "4800 h",
     "base_mods": {
-      "hurt_min": [ -1 ],
+      "hurt_min": [ 1 ],
       "hurt_tick": [ 90 ],
       "health_min": [ -1 ],
       "health_tick": [ 5 ],
