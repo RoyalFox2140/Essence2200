@@ -230,7 +230,7 @@
   {
     "id": "Fox_Spirit_holywave",
     "type": "SPELL",
-    "name": "T: Light-wave",
+    "name": "S: Light-wave",
     "description": "Throws a wave of light at the target area, the positive energy will annihilate undead but do absolutely nothing to most living beings or any robots. Higher levels are much stronger.",
     "valid_targets": [ "hostile", "ground" ],
     "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
@@ -257,7 +257,7 @@
   {
     "id": "Fox_Spirit_deathwave",
     "type": "SPELL",
-    "name": "T: Death-wave",
+    "name": "S: Death-wave",
     "description": "Throws a wave of light at the target area, the negative energy will absolutely tear apart living beings but do absolutely nothing to the undead or robots. Higher levels are much stronger.",
     "valid_targets": [ "hostile", "ground" ],
     "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
@@ -284,7 +284,7 @@
   {
     "id": "Fox_Spirit_psiwave",
     "type": "SPELL",
-    "name": "T: Psi-wave",
+    "name": "S: Psi-wave",
     "description": "Throws a wave of light at the target area, blasting the minds of targets with terrible imagery, but it can only harm alive and conscious sapients It'll be useless against undead and bots. Higher levels are much stronger.",
     "valid_targets": [ "hostile", "ground" ],
     "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
