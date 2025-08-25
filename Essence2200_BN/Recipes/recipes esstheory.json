@@ -46,6 +46,27 @@
   },
   {
     "type": "recipe",
+    "result": "FoxserumNightstalker",
+    "id_suffix": "FoxRefinement",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_ESSTHEORY",
+    "skill_used": "FoxEssTheory",
+    "skills_required": [ [ "FoxEssTech", 4 ] ],
+    "difficulty": 10,
+    "time": "60 m",
+    "book_learn": [ [ "FoxKolibriProject", 10 ] ],
+    "tools": [ [ [ "Foxfake_artifactstabilizersystem", 50000 ] ] ],
+    "components": [ 
+      [ [ "FoxEssencepure", 10000 ] ], 
+      [ [ "Foxartifactacid2", 1 ] ] , 
+      [ [ "Foxartifactheat2", 1 ] ] , 
+      [ [ "Foxartifactcold2", 1 ] ] , 
+      [ [ "Foxartifactgrav2", 1 ] ] , 
+      [ [ "Foxartifactelectric2", 1 ] ] 
+    ]
+  },
+  {
+    "type": "recipe",
     "result": "Foxmotordew",
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_ESSTHEORY",

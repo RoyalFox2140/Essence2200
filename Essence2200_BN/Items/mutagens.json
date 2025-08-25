@@ -1,11 +1,2 @@
 [
-  {
-    "id": "FoxserumNightstalker",
-    "copy-from": "iv_mutagen_flavor",
-    "type": "COMESTIBLE",
-    "name": { "str": "Nightstalker serum" },
-    "description": "An incredibly condensed serum of pure essence, developed and stabilized through processes that took decades of human experimentation to perfect. It is irreversible.",
-    "color": "cyan",
-    "use_action": { "type": "mutagen_iv", "mutation_category": "FoxNightstalker" }
-  }
 ]

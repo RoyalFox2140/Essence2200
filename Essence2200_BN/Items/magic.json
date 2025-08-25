@@ -1458,5 +1458,25 @@
     "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_SoulHarvestspellone", "no_fail": true, "level": 0 },
     "flags": [ "NO_INGEST", "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
     "fun": 1
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "FoxserumNightstalker",
+    "looks_like": "syringe",
+    "name": "Nightstalker serum",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "category": "drugs",
+    "comestible_type": "MED",
+    "weight": "1 g",
+    "color": "blue",
+    "symbol": "~",
+    "description": "Through a careful sequence of injections of pure essence, one will rapidly evolve into something more than human.",
+    "volume": "1 ml",
+    "charges": 1,
+    "stack_size": 1,
+    "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_Nightstalkerfirst", "no_fail": true, "level": 0 },
+    "flags": [ "NO_INGEST", "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
+    "fun": 1
   }
 ]

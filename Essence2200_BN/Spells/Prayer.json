@@ -178,6 +178,14 @@
     "effect_str": "FoxAwakenPotential",
     "blocker_mutations": [ "FoxApostleBargain", "FoxNightwalker" ],
     "skill": "FoxEssSpellcasting",
+    "affected_body_parts": [
+    "HEAD",
+    "TORSO",
+    "ARM_L",
+    "ARM_R",
+    "LEG_L",
+    "LEG_R"
+  ],
     "energy_source": "MANA",
     "base_casting_time": 300,
     "base_energy_cost": 5000,

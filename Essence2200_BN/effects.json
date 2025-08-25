@@ -135,14 +135,16 @@
     "apply_message": "Fear not, you won't die on me. Not yet.",
     "remove_message": "That's it. Hope you don't get shot.",
     "base_mods": { 
-      "str_mod": [ 30 ],
-      "dex_mod": [ 20 ],
-      "per_mod": [ 20 ],
-      "int_mod": [ 20 ],
+      "str_mod": [ 5 ],
+      "dex_mod": [ 4 ],
+      "per_mod": [ 3 ],
+      "int_mod": [ 3 ],
       "speed_mod": [ 100 ],
-      "hit_mod": [ 5 ],
-      "healing_rate": [ 2000 ],
-      "rad_min": [ -10 ]
+      "hurt_min": [ -1 ],
+      "hurt_tick": [ 20 ],
+      "pain_min": [ -1 ],
+      "pain_tick": [ 10 ],
+      "rad_min": [ -2 ]
     },
     "removes_effects": 
     [ "irradiated",

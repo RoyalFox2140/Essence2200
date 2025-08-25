@@ -398,7 +398,6 @@
     "volume": "250 ml",
     "to_hit": -3,
     "quench": 1,
-    "healthy": -5,
     "calories": 160,
     "spoils_in": "10 days",
     "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],

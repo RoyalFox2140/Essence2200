@@ -27,28 +27,6 @@
   },
   {
     "type": "profession",
-    "id": "FoxAbberration",
-    "name": "Abberration",
-    "description": "You have no idea what you are, who you are, or how you got here, all you know is you are hungry and must eat. You look like an undead horror, zombies ignore you, people fear you.",
-    "points": 444,
-    "traits": [ "FoxAbberration", "CANNIBAL", "PSYCHOPATH" ],
-    "items": {
-      "both": [
-        "footrags",
-        "gloves_wraps",
-        "tunic_rag"
-      ],
-        "male": [
-          "briefs"
-        ],
-        "female": [
-          "panties",
-          "chestwrap"
-        ]
-    }
-  },
-  {
-    "type": "profession",
     "id": "FoxNightwalker2",
     "name": "Shi Director",
     "//": "A professional ex special forces and mage with no background in hard labor, has significant training with most weapons and is a survival expert. Any non-combat skills from lore are negated here, after a long coma. All combat skills adjusted downward for said coma.",
