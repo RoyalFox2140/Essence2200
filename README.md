@@ -4,6 +4,8 @@ Welcome to the mod. This is based on my personal writing which I have worked on 
 
 As my mod is heavily based on my personal story writing and world building, the mod is licensed under All Rights Reserved. I do not own the source code of Cataclysm: Bright Nights or Cataclysm: Dark Days Ahead however and I do not claim to own their source code.
 
+AT NO POINT may you use AI with this repo, you MAY NOT take my work and create an AI overview, you MAY NOT take my work and train your AI models with this. That is a violation of my rights. I will take all necessary actions to eliminate you as a problem.
+
 At no point may you commercially use my mod in any form. At no point may you redistribute my mod, this includes adding it as an in-repository mod in Cataclysm: Bright Nights or Dark Days Ahead. I grant  permission to non-commercially create patches that change the contents of my mod and work alongside it.
 
 Even if a case where the JSON is still licensed under the commercial license of Cataclysm, the contents of my story including names, descriptions, people, are all original works I am currently developing for a web comic. All rights to my story are reserved by myself.
