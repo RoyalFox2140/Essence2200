@@ -205,9 +205,9 @@
     "container": "can_medium",
     "comestible_type": "DRINK",
     "symbol": "~",
-    "quench": 30,
+    "quench": 10,
     "healthy": 2,
-    "calories": 60,
+    "calories": 240,
     "description": "Better than eating them dry.",
     "price": "2 USD",
     "price_postapoc": "2 USD",
@@ -262,7 +262,7 @@
     "phase": "liquid",
     "charges": 7,
     "flags": [ "UNSAFE_CONSUME", "EATEN_COLD" ],
-    "fun": 5,
+    "fun": 2,
     "vitamins": [ [ "calcium", 10 ], [ "iron", 10 ], [ "vitA", 5 ], [ "vitB", 15 ], [ "vitC", 30 ] ]
   },
   {
@@ -316,7 +316,7 @@
     "phase": "liquid",
     "charges": 7,
     "flags": [ "UNSAFE_CONSUME", "EATEN_COLD" ],
-    "fun": 5,
+    "fun": 4,
     "vitamins": [ [ "calcium", 10 ], [ "iron", 10 ], [ "vitA", 5 ], [ "vitB", 15 ], [ "vitC", 30 ] ]
   },
   {
@@ -386,5 +386,24 @@
     "color": "green",
     "flags": [ "NUTRIENT_OVERRIDE" ],
     "calories": 147
+  },
+  {
+    "id": "Foxcactusjuice",
+    "type": "COMESTIBLE",
+    "comestible_type": "DRINK",
+    "category": "food",
+    "name": { "str_sp": "cactus juice" },
+    "description": "The liquid obtained from squeezing a cactus dry, with some natural sugars that is reminiscent of fruit juice.",
+    "weight": "250 g",
+    "volume": "250 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "symbol": "~",
+    "color": "light_green",
+    "phase": "liquid",
+    "container": "bottle_plastic",
+    "calories": 40,
+    "quench": 30,
+    "flags": [ "EATEN_COLD" ]
   }
 ]

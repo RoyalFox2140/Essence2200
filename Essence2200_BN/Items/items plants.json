@@ -471,7 +471,7 @@
     "volume": "270 ml",
     "to_hit": -3,
     "quench": 5,
-    "calories": 20,
+    "calories": 60,
     "spoils_in": "4 days",
     "color": "green",
     "symbol": "%",
@@ -500,6 +500,7 @@
     "fun": 5,
     "price": "2 USD",
     "price_postapoc": "2 USD",
+    "flags": [ "NUTRIENT_OVERRIDE" ],
     "vitamins": [ [ "veggy_allergen", 1 ] ]
   },
   {

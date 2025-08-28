@@ -260,7 +260,7 @@
     "category": "CC_ESSTECH",
     "subcategory": "CSC_ESSTECH_COOKING",
     "skill_used": "cooking",
-    "byproducts": [ [ "water_clean", 1 ] ],
+    "byproducts": [ [ "Foxcactusjuice", 1 ] ],
     "difficulty": 0,
     "time": "30 s",
     "autolearn": true,
