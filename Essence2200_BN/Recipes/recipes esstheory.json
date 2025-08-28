@@ -251,7 +251,7 @@
     "//": "30L Targas boiled down to 20L targas plus 5L tarcrete to make 25L tar rubber",
     "time": "1 h",
     "autolearn": true,
-    "tools": [ [ [ "Foxalloybarrel", 400 ] ], [ [ "water_boiling_heat", 200, "LIST" ] ] ],
+    "tools": [ [ [ "Foxalloybarrel", 400 ], [ "Foxultimatetelekinetics", -1 ] ], [ [ "water_boiling_heat", 200, "LIST" ] ] ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 }, { "id": "CHEM", "level": 2 } ],
     "components": [
     [ [ "Foxtargas", 12000 ] ],
@@ -363,7 +363,7 @@
     "result_mult": 100,
     "time": "1 h",
     "autolearn": true,
-    "tools": [ [ [ "Foxalloybarrel", 2000 ] ] ],
+    "tools": [ [ [ "Foxalloybarrel", 2000 ], [ "Foxultimatetelekinetics", -1 ] ] ],
     "components": [
      [ [ "steel_lump", 200 ], [ "steel_chunk", 400 ], [ "scrap", 1000 ] ], [ [ "Foxrefinedmotordew", 40000 ] ] 
   ]
@@ -380,7 +380,7 @@
     "result_mult": 40,
     "time": "1 h",
     "autolearn": true,
-    "tools": [ [ [ "Foxalloybarrel", 1000 ] ] ],
+    "tools": [ [ [ "Foxalloybarrel", 1000 ], [ "Foxultimatetelekinetics", -1 ] ] ],
     "components": [
      [ [ "FoxEssencenormal", 20000 ] ] 
   ]
@@ -426,7 +426,7 @@
     "result_mult": 80,
     "time": "1 h",
     "book_learn": [ [ "FoxDeSGAesstheory", 3 ], [ "FoxKolibriProject", 3 ] ],
-    "tools": [ [ [ "Foxalloybarrel", 3000 ] ] ],
+    "tools": [ [ [ "Foxalloybarrel", 3000 ], [ "Foxultimatetelekinetics", -1 ] ] ],
     "components": [
     [ [ "steel_lump", 142 ], [ "steel_chunk", 284 ], [ "scrap", 700 ] ],
     [ [ "aluminum_foil", 50000 ], [ "material_aluminium_ingot", 25 ] ], 
@@ -460,7 +460,7 @@
     "result_mult": 100,
     "time": "1 h",
     "autolearn": true,
-    "tools": [ [ [ "Foxalloybarreladvanced", 1500 ] ] ],
+    "tools": [ [ [ "Foxalloybarreladvanced", 1500 ], [ "Foxultimatetelekinetics", -1 ] ] ],
     "components": [
      [ [ "steel_lump", 200 ], [ "steel_chunk", 400 ], [ "scrap", 1000 ] ], [ [ "Foxrefinedmotordew", 20000 ] ] 
   ]
@@ -478,7 +478,7 @@
     "result_mult": 100,
     "time": "1 h",
     "book_learn": [ [ "FoxDeSGAesstheory", 2 ], [ "FoxKolibriProject", 2 ] ],
-    "tools": [ [ [ "Foxalloybarreladvanced", 2500 ] ] ],
+    "tools": [ [ [ "Foxalloybarreladvanced", 2500 ], [ "Foxultimatetelekinetics", -1 ] ] ],
     "components": [
       [ [ "steel_lump", 142 ], [ "steel_chunk", 284 ], [ "scrap", 700 ] ],
       [ [ "aluminum_foil", 50000 ], [ "material_aluminium_ingot", 25 ] ], 
@@ -499,7 +499,7 @@
     "result_mult": 200,
     "time": "1 h",
     "book_learn": [ [ "FoxDeSGAesstheory", 2 ], [ "FoxKolibriProject", 2 ] ],
-    "tools": [ [ [ "Foxalloybarreladvanced", 2500 ] ] ],
+    "tools": [ [ [ "Foxalloybarreladvanced", 2500 ], [ "Foxultimatetelekinetics", -1 ] ] ],
     "components": [
       [ [ "steel_lump", 142 ], [ "steel_chunk", 284 ], [ "scrap", 700 ] ],
       [ [ "aluminum_foil", 50000 ], [ "material_aluminium_ingot", 25 ] ], 
@@ -520,7 +520,7 @@
     "result_mult": 100,
     "time": "1 h",
     "book_learn": [ [ "FoxDeSGAesstheory", 2 ], [ "FoxKolibriProject", 2 ] ],
-    "tools": [ [ [ "Foxalloybarreladvanced", 2500 ] ] ],
+    "tools": [ [ [ "Foxalloybarreladvanced", 2500 ], [ "Foxultimatetelekinetics", -1 ] ] ],
     "components": [
       [ [ "lead", 50000 ] ],
       [ [ "bismuth", 30200 ] ], 
@@ -543,7 +543,7 @@
     "time": "1 h",
     "autolearn": true,
     "byproducts": [ [ "bismuth", 800 ], [ "tin", 400 ], [ "material_aluminium_ingot", 50 ], [ "scrap", 200 ], [ "glass_shard", 80 ], [ "clay_lump", 80 ] ],
-    "tools": [ [ [ "Foxalloybarrel", 1000 ] ] ],
+    "tools": [ [ [ "Foxalloybarrel", 1000 ], [ "Foxultimatetelekinetics", -1 ] ] ],
     "components": [
     [ [ "Foxtargas", 20000 ] ],
     [ [ "rock", 200 ] ],
