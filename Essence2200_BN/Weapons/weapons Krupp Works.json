@@ -6,7 +6,8 @@
     "name": { "str": "abstract" },
     "symbol": "1",
     "//": "No conventional faults because it uses non-conventional systems.",
-    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "RECHARGE", "NEEDS_NO_LUBE" ],
+    "use_action": [ "TOGGLE_UPS_CHARGING" ],
     "skill": "pistol",
     "bashing": 10,
     "durability": 10,
@@ -30,7 +31,8 @@
     "weapon_category": [ "RIFLES", "ENERGY_WEAPONS" ],
     "name": { "str": "abstract" },
     "symbol": "1",
-    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "RECHARGE", "NEEDS_NO_LUBE" ],
+    "use_action": [ "TOGGLE_UPS_CHARGING" ],
     "skill": "rifle",
     "bashing": 10,
     "durability": 10,
@@ -96,7 +98,7 @@
     "price": "2 USD",
     "price_postapoc": "2 USD",
     "material": [ "FoxImperialSteel" ],
-    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN", "RECHARGE", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "color": "yellow",
     "range": 60,
     "ranged_damage": { "damage_type": "heat", "amount": 1200 },
@@ -202,7 +204,6 @@
       [ "underbarrel", 1 ]
     ],
     "ammo_effects": [ "LASER" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "faults": [  ]
   },
   {
@@ -395,7 +396,7 @@
       [ "underbarrel", 1 ]
     ],
     "ammo_effects": [ "LASER" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "MOUNTED_GUN" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "MOUNTED_GUN" ],
     "faults": [  ]
   },
   {

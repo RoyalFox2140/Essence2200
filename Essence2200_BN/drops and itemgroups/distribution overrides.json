@@ -42,7 +42,7 @@
       [ "FoxArakawaR7", 25 ],
       [ "Fox_CWCflamer", 5 ],
       [ "FoximpKW21402U", 50 ],
-      [ "adv_UPS_off", 50 ]
+      [ "FoxUPSimperial", 50 ]
     ]
   },
   {
@@ -281,7 +281,7 @@
       { "item": "Foxofficerdatapadlocked", "prob": 10 },
       [ "FoximpKW21352U", 15 ],
       [ "FoximpKW21404U", 90 ],
-      [ "adv_UPS_off", 40 ],
+      [ "FoxUPSimperial", 40 ],
       [ "FoxDeIkw", 75 ]
     ]
   },

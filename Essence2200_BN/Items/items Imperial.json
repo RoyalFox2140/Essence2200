@@ -289,11 +289,11 @@
     "flags": [ "BELT_CLIP"  ]
   },
   {
-    "id": "adv_UPS_off",
+    "id": "FoxUPSimperial",
     "type": "TOOL",
     "category": "tools",
     "name": { "str": "Imperial UPS", "str_pl": "Imperial UPS's" },
-    "description": "The existence of a unified power supply was necessitated by the five great rebellions and the wasteland dwellers all deciding on their own charging cables and ports. The UPS allowed manufacturers and departments to ignore design standards, further necessitating this mess. It continues to support Commonwealth and Shi electronics.",
+    "description": "The existence of a unified power supply was necessitated by the five great rebellions and the wasteland dwellers all deciding on their own charging cables and ports. The UPS allowed manufacturers and departments to ignore design standards, further necessitating this mess. It continues to support Commonwealth and Shi electronics. Imperial UPS's are 4x as efficient due to their advanced construction.",
     "weight": "680 g",
     "volume": "1 L",
     "price": "2 USD",
@@ -304,8 +304,9 @@
     "symbol": ";",
     "color": "light_gray",
     "ammo": "battery",
+    "ups_eff_mult": 4,
     "magazines": [
-      [ "battery", [ "Foximpbattery", "Foximpbatteryadvanced", "Foximpbatterycell", "Foximpbatterypack" ] ]
+      [ "battery", [ "Foximpbattery", "Foximpbatteryadvanced", "Foximpbatterycell", "Foximpbatterypack", "Foximpbatterytankbuster" ] ]
     ],
     "magazine_well": "2000 ml",
     "flags": [ "IS_UPS" ]
@@ -473,7 +474,7 @@
       [
         "battery",
         [
-          "Foximpbatterycell"
+          "Foximpbatterydevice"
         ]
       ]
     ],
@@ -659,7 +660,7 @@
     "magazines": [
       [
         "battery",
-        [ "Foximpbatterycell", "Foximpbatteryadvanced", "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+        [ "Foximpbatterycell", "Foximpbattery", "Foximpbatteryadvanced", "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
       ]
     ],
     "magazine_well": "500 ml"
