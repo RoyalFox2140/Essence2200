@@ -739,7 +739,7 @@
   {
     "id": "FoxSwordsmanPocketDimension",
     "type": "ARMOR",
-    "name": { "str": "Swordsman Pocket Dimension", "str_pl": "Swordsman Pocket Dimensions" },
+    "name": { "str": "Swords Quick-draw Dimension", "str_pl": "Swords Quick-draw Dimensions" },
     "description": "A small invisible hole in reality that only you can use to store and withdraw things. You ensured that it's quick to draw a sword out of this dimension in addition to storing a lot.",
     "weight": 0,
     "volume": 0,
@@ -763,7 +763,7 @@
   {
     "id": "FoxRiflemanPocketDimension",
     "type": "ARMOR",
-    "name": { "str": "Rifleman Pocket Dimension", "str_pl": "Rifleman Pocket Dimensions" },
+    "name": { "str": "Rifle Quick-draw Dimension", "str_pl": "Rifle Quick-draw Dimensions" },
     "description": "A small invisible hole in reality that only you can use to store and withdraw things. You ensured that it's quick to draw a firearm or bow out of this dimension in addition to storing a lot.",
     "weight": 0,
     "volume": 0,
@@ -828,6 +828,31 @@
       "max_volume": "3500 ml",
       "draw_cost": 1,
       "flags": [ "SHEATH_KNIFE" ]
+    },
+    "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
+    "weight_capacity_bonus": "615 kg"
+  },
+  {
+    "id": "FoxSwordDimension",
+    "type": "ARMOR",
+    "name": { "str": "Sword Pocket Dimension", "str_pl": "Sword Pocket Dimensions" },
+    "description": "A small invisible hole in reality that only you can use to store and withdraw things. It's all swords, all day, every day. Fuck you.",
+    "weight": 0,
+    "volume": 0,
+    "price": "2 USD",
+    "material": [ "iron" ],
+    "symbol": "[",
+    "color": "green",
+    "storage": "5 L",
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Sheath knife",
+      "holster_msg": "You sheath your %s",
+      "multi": 20,
+      "min_volume": "1 ml",
+      "max_volume": "50000 ml",
+      "draw_cost": 1,
+      "flags": [ "SHEATH_SWORD" ]
     },
     "flags": [ "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_SALVAGE" ],
     "weight_capacity_bonus": "615 kg"

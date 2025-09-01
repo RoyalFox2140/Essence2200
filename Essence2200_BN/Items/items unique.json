@@ -186,8 +186,22 @@
     "weight": "500 g",
     "volume": "2750 ml",
     "bashing": 80,
-    "cutting": 300,
-    "to_hit": 3,
+    "cutting": 200,
+    "to_hit": 5,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ 
+            { "value": "ITEM_DAMAGE_COLD", "add": 80 },
+            { "value": "ITEM_DAMAGE_DARK", "add": 100 },
+            { "value": "ITEM_DAMAGE_PSI", "add": 100 },
+            { "value": "ITEM_DAMAGE_ELECTRIC", "add": 100 }
+          ]
+        }
+      ]
+    },
     "use_action": [
       {
         "type": "cast_spell",

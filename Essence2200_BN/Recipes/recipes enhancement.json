@@ -601,5 +601,51 @@
         [ [ "FoxDeathrune", 80 ] ],
         [ [ "FoxTelekineticrune", 20 ] ]
       ]
+    },
+    {
+      "result": "FoxShadowblade",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxShadowsteelLongsword", 1 ] ],
+        [ [ "FoxDeathrune", 100 ] ],
+        [ [ "FoxTelekineticrune", 20 ] ]
+      ]
+    },
+    {
+      "result": "FoxFrostblade",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxShadowsteelLongsword", 1 ] ],
+        [ [ "FoxAirrune", 50 ] ],
+        [ [ "FoxWaterrune", 50 ] ],
+        [ [ "FoxTelekineticrune", 20 ] ]
+      ]
+    },
+    {
+      "result": "FoxShockStiletto",
+      "type": "recipe",
+      "category": "CC_ESSMAGIC",
+      "subcategory": "CSC_ESSMAGIC_ENHANCEMENT",
+      "skill_used": "FoxEssSpellcasting",
+      "difficulty": 4,
+      "time": "45 m",
+      "autolearn": true,
+      "components": [
+        [ [ "FoxShadowsteelstiletto", 1 ] ],
+        [ [ "FoxSpiritrune", 100 ] ],
+        [ [ "FoxTelekineticrune", 25 ] ]
+      ]
     }
 ]

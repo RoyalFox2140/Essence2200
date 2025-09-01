@@ -139,6 +139,20 @@
     "flags": [ "BLIND_EASY" ]
   },
   {
+    "result": "FoxSwordDimension",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 5,
+    "time": "30 m",
+    "autolearn": true,
+    "components": [
+      [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
+    ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
     "result": "FoxToolDimension",
     "type": "recipe",
     "category": "CC_ESSMAGIC",

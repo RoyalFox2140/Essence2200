@@ -212,6 +212,107 @@
     "qualities": [ [ "HAMMER", 2 ] ]
   },
   {
+    "id": "FoxShadowblade",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "MEDIEVAL_SWORDS", "2H_SWORDS" ],
+    "symbol": "/",
+    "color": "light_gray",
+    "name": { "str": "Shadowblade" },
+    "looks_like": "longsword",
+    "description": "This heavily enchanted sword deals death damage per strike, something most living things are defenseless against. It has also become lighter and much faster to swing.",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": "FoxShadowSteel",
+    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_SWORD" ],
+    "techniques": [ "WBLOCK_2" ],
+    "weight": "2000 g",
+    "volume": "2750 ml",
+    "bashing": 30,
+    "cutting": 60,
+    "to_hit": 2,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ 
+            { "value": "ITEM_ATTACK_COST", "add": -30 },
+            { "value": "ITEM_DAMAGE_DARK", "add": 30 } 
+          ]
+        }
+      ]
+    },
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ]
+  },
+  {
+    "id": "FoxFrostblade",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "MEDIEVAL_SWORDS", "2H_SWORDS" ],
+    "symbol": "/",
+    "color": "light_gray",
+    "name": { "str": "Frostblade" },
+    "looks_like": "longsword",
+    "description": "This heavily enchanted sword deals cold damage per strike, something most things are defenseless against. It has also become lighter and much faster to swing.",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": "FoxShadowSteel",
+    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_SWORD" ],
+    "techniques": [ "WBLOCK_2" ],
+    "weight": "2000 g",
+    "volume": "2750 ml",
+    "bashing": 30,
+    "cutting": 60,
+    "to_hit": 2,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ 
+            { "value": "ITEM_ATTACK_COST", "add": -30 },
+            { "value": "ITEM_DAMAGE_COLD", "add": 30 } 
+          ]
+        }
+      ]
+    },
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ]
+  },
+  {
+    "id": "FoxShockStiletto",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "STILETTOS" ],
+    "name": { "str": "Shock stiletto" },
+    "looks_like": "knife_combat",
+    "description": "This stiletto is enhanced with psionic damage, frying the minds of whoever it stabs.",
+    "weight": "60 g",
+    "to_hit": 2,
+    "color": "dark_gray",
+    "symbol": "/",
+    "material": [ "FoxShadowSteel" ],
+    "techniques": "RAPID",
+    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_KNIFE", "NONCONDUCTIVE", "BELT_CLIP" ],
+    "volume": "50 ml",
+    "bashing": 4,
+    "cutting": 30,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ 
+            { "value": "ITEM_DAMAGE_PSI", "add": 10 } 
+          ]
+        }
+      ]
+    },
+    "thrown_damage": [ { "damage_type": "stab", "amount": 20 } ],
+    "price": "2 USD",
+    "price_postapoc": "2 USD"
+  },
+  {
     "id": "FoxKawakamiRuneblade",
     "type": "TOOL",
     "category": "weapons",
