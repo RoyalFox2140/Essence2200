@@ -269,6 +269,7 @@
     "apply_message": "You feel nothing, but you're sure radiation won't bother you.",
     "remove_message": "You feel nothing, but you think radiation will bother you again.",
     "rating": "good",
+    "base_mods": { "rad_min": [ -1 ], "rad_tick": [ 360 ] },
     "removes_effects": [ "irradiated" ]
   },
   {
