@@ -511,5 +511,20 @@
       [ [ "FoxSGAelectronics", 20 ] ],
       [ [ "FoxSGAessreactortiny", 20 ], [ "FoxMagicCapacitor", 20 ] ]
     ]
+  },
+  {
+    "result": "Foxmagethread",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "FoxMagicSalvage", "level": 1 } ],
+    "components": [
+      [ [ "Foxbroomgrass", 1 ] ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   }
 ]

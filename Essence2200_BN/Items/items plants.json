@@ -225,6 +225,23 @@
      "price_postapoc": "2 USD"
   },
   {
+    "type": "AMMO",
+    "id": "Foxmagethread",
+    "looks_like": "thread",
+    "category": "spare_parts",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "name": { "str_sp": "broom grass thread" },
+    "symbol": "=",
+    "color": "light_gray",
+    "description": "Strands of broom grass, carefully extracted and woven into usable thread with magic. Used in place of ballistic weave thread for making mageweave clothing.",
+    "material": "cotton",
+    "volume": "250 ml",
+    "weight": "1 g",
+    "ammo_type": "components",
+    "stack_size": 100
+  },
+  {
     "type": "GENERIC",
     "id": "Foxwhitewound",
     "name": { "str": "white wound" },

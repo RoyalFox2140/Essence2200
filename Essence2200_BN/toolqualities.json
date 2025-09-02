@@ -83,7 +83,7 @@
     "type": "requirement",
     "//": "Crafting and repairing of magic clothes",
     "qualities": [ { "id": "SEW", "level": 4 }, { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "FoxBWthread", 1 ] ], [ [ "FoxAirrune", 1 ] ], [ [ "FoxEarthrune", 1 ] ], [ [ "FoxFirerune", 1 ] ] ]
+    "components": [ [ [ "Foxmagethread", 1 ] ], [ [ "FoxAirrune", 1 ] ], [ [ "FoxEarthrune", 1 ] ], [ [ "FoxFirerune", 1 ] ] ]
   },
   {
     "id": "FoxArtifact_Standard",
