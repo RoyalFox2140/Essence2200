@@ -15,8 +15,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxbangtailrhizome" }, { "drop": "Foxbangtailstalk", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_bangtail", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -34,8 +33,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxmireweed", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_mireweed", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -53,8 +51,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxbrineweed", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_brineweed", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -72,8 +69,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxlunarweed", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_lunarweed", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -91,8 +87,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxjellyweed", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_jellyweed", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -110,8 +105,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxfishweed", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_fishweed", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -129,8 +123,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxstormfern", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_stormfern", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -148,8 +141,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxmireroot", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_mireroot", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -167,8 +159,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxcairnroot", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_cairnroot", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -186,8 +177,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxsmugglersroot", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_smugglersroot", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -205,8 +195,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxbloodgrass", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_bloodgrass", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -224,8 +213,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxstimgrass", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_stimgrass", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -243,8 +231,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxwoegrass", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_woegrass", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -262,8 +249,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxbroomgrass", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_broomgrass", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -281,8 +267,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxwhitewound", "base_num": [ 3, 4 ] }, { "drop": "Foxcorpsefuzz" }, { "drop": "Foxseed_whitewound", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -300,8 +285,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxcorpsefuzz", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_corpsefuzz", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -319,8 +303,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxghostthistle", "base_num": [ 3, 4 ] }, { "drop": "Foxcorpsefuzz" }, { "drop": "Foxseed_ghostthistle", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -338,8 +321,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxgravebaneshrub", "base_num": [ 3, 4 ] }, { "drop": "Foxcorpsefuzz" }, { "drop": "Foxseed_gravebaneshrub", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -357,8 +339,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxacidlemon", "base_num": [ 6, 8 ] }, { "drop": "Foxseed_acidlemon", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "terrain",
@@ -396,8 +377,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxwasteberry", "base_num": [ 3, 5 ] }, { "drop": "Foxwastewood", "base_num": [ 0, 2 ] }, { "drop": "plant_fibre", "base_num": [ 0, 2 ] }, { "drop": "Foxseed_wasteberry", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -415,8 +395,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxwastenuts", "base_num": [ 2, 9 ] }, { "drop": "plant_fibre", "base_num": [ 0, 2 ] }, { "drop": "Foxseed_wastenut", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -434,8 +413,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxdesertcottonboll", "base_num": [ 1, 2 ] }, { "drop": "Foxseed_desertcotton", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -453,8 +431,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxwastewood", "base_num": [ 1, 4 ] }, { "drop": "plant_fibre", "base_num": [ 0, 2 ] }, { "drop": "Foxseed_wastewood", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -472,8 +449,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxdeadwood", "base_num": [ 3, 4 ] }, { "drop": "Foxseed_deadwood", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -491,8 +467,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxwastetuber", "base_num": [ 1, 5 ] }, { "drop": "plant_fibre", "base_num": [ 0, 2 ] }, { "drop": "Foxseed_wastetuber", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -510,8 +485,7 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "tobacco_raw", "base_num": [ 2, 8 ] }, { "drop": "Foxseed_deserttobacco", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   },
   {
     "type": "furniture",
@@ -530,7 +504,6 @@
         "seasons": [ "spring", "summer", "autumn", "winter" ],
         "entries": [ { "drop": "Foxwastecactus", "base_num": [ 4, 6 ] }, { "drop": "Foxcactusfruit", "base_num": [ 0, 1 ] }, { "drop": "Foxseed_wastecactus", "base_num": [ 1, 2 ] } ]
       }
-    ],
-    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+    ]
   }
 ]
