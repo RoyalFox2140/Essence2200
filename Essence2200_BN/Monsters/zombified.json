@@ -436,7 +436,7 @@
     "luminance": 20,
     "death_function": [ "MELT" ],
     "harvest": "FoxAbberration",
-    "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "WEBWALK", "FLIES", "BASHES", "PATH_AVOID_DANGER_2", "FIREPROOF", "COLDPROOF", "ACIDPROOF" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "WEBWALK", "FLIES", "BASHES", "PATH_AVOID_DANGER_2", "FIREPROOF", "COLDPROOF", "ACIDPROOF", "BIOPROOF" ]
   },
   {
     "id": "FoxmonSpecterSurface",
