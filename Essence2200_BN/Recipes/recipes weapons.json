@@ -326,7 +326,7 @@
     "skills_required": [ [ "FoxEssTheory", 1 ], [ "fabrication", 8 ], [ "mechanics", 4 ] ],
     "difficulty": 4,
     "time": "6 h 30 m",
-    "tools": [ [ [ "Foxmachiningstation", 30 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 30 ], [ "Foxultimatetelekinetics", 30 ] ] ],
     "book_learn": [ [ "FoxDeSGAesstechadvanced", 4 ] ],
     "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "components": [
@@ -548,7 +548,7 @@
     "time": "6 h 30 m",
     "decomp_learn": 2,
     "book_learn": [ [ "FoxDeIed", 2 ] ],
-    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 20 ], [ "Foxultimatetelekinetics", 20 ] ] ],
     "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 15 ] ],
@@ -567,7 +567,7 @@
     "time": "2 h 30 m",
     "decomp_learn": 2,
     "book_learn": [ [ "FoxDeIed", 2 ] ],
-    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 20 ], [ "Foxultimatetelekinetics", 20 ] ] ],
     "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 4 ] ],
@@ -729,7 +729,7 @@
     "difficulty": 8,
     "time": "5 h 30 m",
     "autolearn": true,
-    "tools": [ [ [ "Foxmachiningstation", 10 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 10 ], [ "Foxultimatetelekinetics", 10 ] ] ],
     "qualities": [ { "id": "FoxMachining", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 4 ] ],
@@ -911,7 +911,7 @@
     "decomp_learn": 2,
     "book_learn": [ [ "FoxDeSGAkawakami", 2 ] ],
     "using": [ [ "soldering_standard", 4 ] ],
-    "tools": [ [ [ "Foxmachiningstation", 15 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 15 ], [ "Foxultimatetelekinetics", 15 ] ] ],
     "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "components": [
       [ [ "Foximpmechparts", 6 ] ],
@@ -948,7 +948,7 @@
     "time": "3 h 40 m",
     "decomp_learn": 2,
     "book_learn": [ [ "FoxDeIkw", 2 ], [ "FoxDeSGAesstheorybasic", 2 ] ],
-    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 20 ], [ "Foxultimatetelekinetics", 20 ] ] ],
     "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
     "components": [

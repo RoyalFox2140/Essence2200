@@ -886,7 +886,7 @@
     "time": " 30 m",
     "book_learn": [ [ "FoxDeSGAseburo", 4 ], [ "FoxDeSGAkawakami", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "Foxmachiningstation", 100 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 100 ], [ "Foxultimatetelekinetics", 100 ] ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "components": [
       [ [ "receiver", 1 ] ],
@@ -909,7 +909,7 @@
     "time": " 30 m",
     "book_learn": [ [ "FoxDeSGAseburo", 4 ], [ "FoxDeSGAkawakami", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "Foxmachiningstation", 100 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 100 ], [ "Foxultimatetelekinetics", 100 ] ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "components": [
       [ [ "receiver", 1 ] ],
@@ -931,7 +931,7 @@
     "time": " 30 m",
     "book_learn": [ [ "FoxDeSGAseburo", 4 ], [ "FoxDeSGAkawakami", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "Foxmachiningstation", 100 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 100 ], [ "Foxultimatetelekinetics", 100 ] ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "components": [
       [ [ "receiver", 1 ] ],
@@ -956,7 +956,7 @@
     "reversible": true,
     "using": [ [ "blacksmithing_advanced", 10 ] ],
     "qualities": [ { "id": "FoxMachining", "level": 1 }, { "id": "FoxEssTechdrillbits", "level": 1 } ],
-    "tools": [ [ [ "Foxmachiningstation", 5 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 5 ], [ "Foxultimatetelekinetics", 5 ] ] ],
     "components": [ [ [ "Foximperialsteelchunk", 2 ] ] ]
   },
   {

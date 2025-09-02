@@ -524,7 +524,7 @@
     "batch_time_factors": [ 90, 2 ],
     "result_mult": 20,
     "autolearn": true,
-    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 20 ], [ "Foxultimatetelekinetics", 20 ] ] ],
     "components": [
       [ [ "frame", 1 ] ]
     ]
@@ -594,7 +594,7 @@
     "time": "30 m",
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
-    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 20 ], [ "Foxultimatetelekinetics", 20 ] ] ],
     "using": [ [ "blacksmithing_advanced", 2 ], [ "steel_tiny", 2 ] ]
   },
   {
@@ -609,7 +609,7 @@
     "time": "30 m",
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
-    "tools": [ [ [ "Foxmachiningstation", 40 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 40 ], [ "Foxultimatetelekinetics", 40 ] ] ],
     "using": [ [ "blacksmithing_standard", 5 ], [ "steel_standard", 6 ] ]
   },
   {
@@ -624,7 +624,7 @@
     "time": "30 m",
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
-    "tools": [ [ [ "Foxmachiningstation", 20 ] ] ],
+    "tools": [ [ [ "Foxmachiningstation", 20 ], [ "Foxultimatetelekinetics", 20 ] ] ],
     "using": [ [ "blacksmithing_intermediate", 2 ] ],
     "components": [ [ [ "scrap", 3 ] ] ]
   },
