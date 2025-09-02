@@ -522,6 +522,7 @@
     "time": "10 m",
     "autolearn": true,
     "qualities": [ { "id": "FoxMagicSalvage", "level": 1 } ],
+    "charges": 100,
     "components": [
       [ [ "Foxbroomgrass", 1 ] ]
     ],
