@@ -1821,6 +1821,57 @@
     "post_terrain": "Foxt_Tarcretewall"
   },
   {
+    "type": "construction_group",
+    "id": "Foxconstr_Foxttarcreteroofmagic",
+    "name": "Artifice Tarcrete roof"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconstr_Foxttarcretefloormagic",
+    "name": "Artifice Tarcrete floor"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxconstr_Foxttarcretewallmagic",
+    "name": "Artifice Tarcrete wall"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxttarcreteroofmagic",
+    "group": "Foxconstr_Foxttarcreteroofmagic",
+    "category": "FOXESSMAGIC",
+    "required_skills": [ [ "FoxEssSpellcasting", 4 ] ],
+    "time": "6 m",
+    "tools": [ [ [ "Foxultimatetelekinetics", 12 ] ] ],
+    "components": [ [ [ "Foxtarcrete", 12 ] ] ],
+    "pre_flags": [ "FLAT" ],
+    "post_terrain": "Foxt_Tarcreteroof"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxttarcretefloormagic",
+    "group": "Foxconstr_Foxttarcretefloormagic",
+    "category": "FOXESSMAGIC",
+    "required_skills": [ [ "FoxEssSpellcasting", 4 ] ],
+    "time": "5 m",
+    "tools": [ [ [ "Foxultimatetelekinetics", 8 ] ] ],
+    "components": [ [ [ "Foxtarcrete", 8 ] ] ],
+    "pre_flags": [ "FLAT" ],
+    "post_terrain": "Foxt_Tarcretefloor"
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxttarcretewallmagic",
+    "group": "Foxconstr_Foxttarcretewallmagic",
+    "category": "FOXESSMAGIC",
+    "required_skills": [ [ "FoxEssSpellcasting", 4 ] ],
+    "time": "6 m",
+    "tools": [ [ [ "Foxultimatetelekinetics", 10 ] ] ],
+    "components": [ [ [ "Foxtarcrete", 10 ] ] ],
+    "pre_flags": [ "FLAT" ],
+    "post_terrain": "Foxt_Tarcretewall"
+  },
+  {
     "type": "furniture",
     "id": "Foxfgridnutrientsynthesizer",
     "looks_like": "t_machinery_light",
