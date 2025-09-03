@@ -16,7 +16,8 @@
     "coverage": 100,
     "encumbrance": 4,
     "warmth": 30,
-    "material_thickness": 3,
+    "material_thickness": 1,
+    "resistance": { "cut": 12, "bash": 20, "stab": 12, "acid": 80, "electric": 80, "bullet": 50, "heat": 30, "cold": 10 },
     "use_action": {
       "type": "holster",
       "holster_prompt": "Store tool",
@@ -45,7 +46,7 @@
     "looks_like": "baldric",
     "color": "brown",
     "covers": [ "torso" ],
-    "coverage": 100,
+    "coverage": 0,
     "rigid": false,
     "max_encumbrance": 2,
     "material_thickness": 1,
@@ -75,6 +76,7 @@
     "covers": [ "torso" ],
     "coverage": 100,
     "material_thickness": 1,
+    "resistance": { "cut": 6, "bash": 10, "stab": 6, "acid": 40, "electric": 40, "bullet": 25, "heat": 15, "cold": 5 },
     "valid_mods" : ["furred", "wooled", "Foxadamantinemod"],
     "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY" ]
   },
@@ -96,7 +98,8 @@
     "encumbrance": 5,
     "storage": "2500 ml",
     "warmth": 15,
-    "material_thickness": 2,
+    "material_thickness": 1,
+    "resistance": { "cut": 12, "bash": 20, "stab": 12, "acid": 80, "electric": 80, "bullet": 50, "heat": 30, "cold": 10 },
     "valid_mods" : ["furred", "wooled", "Foxadamantinemod"],
     "flags": [ "VARSIZE", "POCKETS", "STURDY" ]
   },
@@ -117,6 +120,7 @@
     "coverage": 15,
     "warmth": 5,
     "material_thickness": 1,
+    "resistance": { "cut": 6, "bash": 10, "stab": 6, "acid": 40, "electric": 40, "bullet": 25, "heat": 15, "cold": 5 },
     "valid_mods" : ["furred", "wooled"],
     "flags": [ "VARSIZE", "SKINTIGHT", "WATER_FRIENDLY", "STURDY" ]
   },
@@ -137,6 +141,7 @@
     "coverage": 25,
     "warmth": 5,
     "material_thickness": 1,
+    "resistance": { "cut": 6, "bash": 10, "stab": 6, "acid": 40, "electric": 40, "bullet": 25, "heat": 15, "cold": 5 },
     "valid_mods" : ["furred", "wooled"],
     "flags": [ "VARSIZE", "SKINTIGHT", "WATER_FRIENDLY", "STURDY" ]
   },
@@ -157,6 +162,7 @@
     "coverage": 25,
     "warmth": 5,
     "material_thickness": 1,
+    "resistance": { "cut": 6, "bash": 10, "stab": 6, "acid": 40, "electric": 40, "bullet": 25, "heat": 15, "cold": 5 },
     "valid_mods" : ["furred", "wooled"],
     "flags": [ "VARSIZE", "SKINTIGHT", "WATER_FRIENDLY", "STURDY" ]
   },
@@ -177,6 +183,7 @@
     "coverage": 30,
     "warmth": 5,
     "material_thickness": 1,
+    "resistance": { "cut": 6, "bash": 10, "stab": 6, "acid": 40, "electric": 40, "bullet": 25, "heat": 15, "cold": 5 },
     "valid_mods" : ["furred", "wooled"],
     "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY" ]
   },
@@ -199,7 +206,8 @@
     "coverage": 100,
     "encumbrance": 5,
     "warmth": 20,
-    "material_thickness": 2,
+    "material_thickness": 1,
+    "resistance": { "cut": 12, "bash": 20, "stab": 12, "acid": 80, "electric": 80, "bullet": 50, "heat": 30, "cold": 10 },
     "environmental_protection": 2,
     "valid_mods" : ["furred", "wooled"],
     "flags": [ "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "RAD_PROOF" ]
@@ -222,7 +230,8 @@
     "coverage": 100,
     "encumbrance": 5,
     "warmth": 20,
-    "material_thickness": 2,
+    "material_thickness": 1,
+    "resistance": { "cut": 12, "bash": 20, "stab": 12, "acid": 80, "electric": 80, "bullet": 50, "heat": 30, "cold": 10 },
     "valid_mods" : ["furred", "wooled", "Foxadamantinemod"],
     "flags": [ "VARSIZE", "STURDY" ]
   },
@@ -244,7 +253,8 @@
     "coverage": 100,
     "encumbrance": 2,
     "warmth": 20,
-    "material_thickness": 2,
+    "material_thickness": 1,
+    "resistance": { "cut": 12, "bash": 20, "stab": 12, "acid": 80, "electric": 80, "bullet": 50, "heat": 30, "cold": 10 },
     "valid_mods" : ["furred", "wooled", "Foxadamantinemod"],
     "flags": [ "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "RAD_PROOF" ]
   },
@@ -266,6 +276,7 @@
     "coverage": 100,
     "warmth": 5,
     "material_thickness": 1,
+    "resistance": { "cut": 12, "bash": 20, "stab": 12, "acid": 80, "electric": 80, "bullet": 50, "heat": 30, "cold": 10 },
     "flags": [ "VARSIZE", "SKINTIGHT", "STURDY" ]
   },
   {
@@ -286,6 +297,7 @@
     "coverage": 100,
     "warmth": 10,
     "material_thickness": 1,
+    "resistance": { "cut": 6, "bash": 10, "stab": 6, "acid": 40, "electric": 40, "bullet": 25, "heat": 15, "cold": 5 },
     "flags": [ "VARSIZE", "SKINTIGHT", "STURDY" ]
   },
   {
@@ -306,6 +318,7 @@
     "coverage": 100,
     "warmth": 20,
     "material_thickness": 1,
+    "resistance": { "cut": 12, "bash": 20, "stab": 12, "acid": 80, "electric": 80, "bullet": 50, "heat": 30, "cold": 10 },
     "flags": [ "VARSIZE", "HELMET_COMPAT", "STURDY" ]
   },
   {
@@ -330,7 +343,8 @@
     "environmental_protection": 2,
     "valid_mods" : ["furred", "wooled"],
     "coverage": 100,
-    "material_thickness": 2
+    "material_thickness": 1,
+    "resistance": { "cut": 12, "bash": 20, "stab": 12, "acid": 80, "electric": 80, "bullet": 50, "heat": 30, "cold": 10 }
   },
   {
     "id": "Foxknitscarfloose",
@@ -356,7 +370,8 @@
     "environmental_protection": 1,
     "valid_mods" : ["furred", "wooled"],
     "coverage": 100,
-    "material_thickness": 2
+    "material_thickness": 1,
+    "resistance": { "cut": 12, "bash": 20, "stab": 12, "acid": 80, "electric": 80, "bullet": 50, "heat": 30, "cold": 10 }
   },
   {
     "id": "Foxbalaclava",
@@ -377,7 +392,8 @@
     "warmth": 30,
     "environmental_protection": 1,
     "valid_mods" : ["furred", "wooled"],
-    "material_thickness": 2,
+    "material_thickness": 1,
+    "resistance": { "cut": 12, "bash": 20, "stab": 12, "acid": 80, "electric": 80, "bullet": 50, "heat": 30, "cold": 10 },
     "flags": [ "VARSIZE", "SKINTIGHT", "POWERARMOR_COMPATIBLE" ]
   },
   {
@@ -397,6 +413,7 @@
     "coverage": 0,
     "encumbrance": 2,
     "material_thickness": 1,
+    "resistance": { "cut": 12, "bash": 20, "stab": 12, "acid": 80, "electric": 80, "bullet": 50, "heat": 30, "cold": 10 },
     "use_action": { "type": "holster", "max_volume": "800 ml", "min_volume": "100 ml", "skills": [ "pistol", "smg", "shotgun" ] },
     "flags": [ "WAIST", "OVERSIZE" ]
   }
