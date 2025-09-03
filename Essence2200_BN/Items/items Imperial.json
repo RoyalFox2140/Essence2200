@@ -305,6 +305,7 @@
     "color": "light_gray",
     "ammo": "battery",
     "ups_eff_mult": 4,
+    "ups_recharge_rate": 20,
     "magazines": [
       [ "battery", [ "Foximpbattery", "Foximpbatteryadvanced", "Foximpbatterycell", "Foximpbatterypack", "Foximpbatterytankbuster" ] ]
     ],
