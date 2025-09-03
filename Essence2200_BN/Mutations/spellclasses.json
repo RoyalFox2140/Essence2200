@@ -27,7 +27,7 @@
     "id": "FoxApostleApprentice",
     "name": "Apostle: Apprentice",
     "points": 3,
-    "description": "You are a novice at magic, your mana restores at the baseline of 100 points per hour and you have 5000 max mana in addition to any modifiers such as intelligence. Spells gain great power from your intellience. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "description": "You are a novice at magic, your mana restores at the baseline of 100 points per hour and you have 5000 max mana in addition to any modifiers such as intelligence. You also craft and construct faster than ordinary humans. Spells gain great power from your intellience. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": true,
     "purifiable": false,
     "valid": true,
@@ -38,6 +38,8 @@
     "flags": [ "PSYCHOPATH" ],
     "anger_relations": [ [ "FoxImperial", 1 ] ],
     "passive_mods": { "int_mod": 1 },
+    "crafting_speed_modifier": 1.1,
+    "construction_speed_modifier": 1.1,
     "mana_modifier": 5000
   },
   {
@@ -45,7 +47,7 @@
     "id": "FoxApostleSkilled",
     "name": "Apostle: Skilled",
     "points": 5,
-    "description": "You are skilled at magic, your mana restores twice as fast, at 200 points per hour and you have 10000 max mana in addition to any modifiers such as intelligence. Spells gain great power from your intellience. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "description": "You are skilled at magic, your mana restores twice as fast, at 200 points per hour and you have 10000 max mana in addition to any modifiers such as intelligence. You also craft and construct faster, and store more volume than ordinary humans. Spells gain great power from your intellience. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": false,
     "purifiable": false,
     "valid": true,
@@ -58,6 +60,9 @@
     "anger_relations": [ [ "FoxImperial", 5 ] ],
     "passive_mods": { "int_mod": 2 },
     "mana_modifier": 8800,
+    "crafting_speed_modifier": 1.25,
+    "construction_speed_modifier": 1.25,
+    "packmule_modifier" : 1.5,
     "mana_regen_multiplier": 2
   },
   {
@@ -65,7 +70,7 @@
     "id": "FoxApostleExpert",
     "name": "Apostle: Expert",
     "points": 5,
-    "description": "You are an expert at magic, your mana restores at 400 points per hour and you have 20000 max mana in addition to any modifiers such as intelligence. Spells gain great power from your intellience. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "description": "You are an expert at magic, your mana restores at 400 points per hour and you have 20000 max mana in addition to any modifiers such as intelligence. You also craft and construct faster, and store more volume than ordinary humans. Spells gain great power from your intellience. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": false,
     "purifiable": false,
     "valid": true,
@@ -78,6 +83,9 @@
     "anger_relations": [ [ "FoxImperial", 10 ] ],
     "passive_mods": { "int_mod": 3 },
     "mana_modifier": 20000,
+    "crafting_speed_modifier": 1.5,
+    "construction_speed_modifier": 1.5,
+    "packmule_modifier" : 2,
     "mana_regen_multiplier": 4
   },
   {
@@ -85,7 +93,7 @@
     "id": "FoxApostleMaster",
     "name": "Apostle: Master",
     "points": 5,
-    "description": "You are a master at magic, your mana restores at 1000 points per hour and you have 50000 max mana in addition to any modifiers such as intelligence. Spells gain great power from your intellience. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
+    "description": "You are a master at magic, your mana restores at 1000 points per hour and you have 50000 max mana in addition to any modifiers such as intelligence. You also craft and construct faster, and store more volume than ordinary humans.  Spells gain great power from your intellience. An Apostle is any who've gained magical power outside the jurisdiction of the Imperial Arbiters, they have sworn to take you down at all cost.",
     "starting_trait": false,
     "purifiable": false,
     "valid": true,
@@ -97,6 +105,9 @@
     "passive_mods": { "int_mod": 4 },
     "anger_relations": [ [ "FoxImperial", 5000 ] ],
     "mana_modifier": 50000,
+    "crafting_speed_modifier": 2,
+    "construction_speed_modifier": 2,
+    "packmule_modifier" : 3,
     "mana_regen_multiplier": 10
   },
   {
