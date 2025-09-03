@@ -1376,8 +1376,8 @@
   {
     "type": "furniture",
     "id": "Foxf_Foxartifactgeneratorgridtiny",
-    "name": "grid artifact generator",
-    "description": "This artifact is stored in a small box and is hooked to the grid, granting twice the power of a plutonium generator at no maintenance.",
+    "name": "grid artifact generator (weak)",
+    "description": "This artifact is stored in a small box and is hooked to the grid, granting a slow trickle of power at no maintenance.",
     "symbol": "#",
     "color": "yellow",
     "looks_like": "t_plut_generator",
