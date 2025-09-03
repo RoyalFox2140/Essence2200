@@ -323,6 +323,7 @@
     "category": "tools",
     "looks_like": "spiral_stone",
     "copy-from": "Foxartifactabstract",
+    "extend": { "flags": [ "HEAVY_WEAPON_SUPPORT" ] },
     "weight_capacity_bonus": "200 kg",
     "name": { "str_sp": "Strong gravity artifact" },
     "relic_data": {
@@ -346,6 +347,7 @@
     "copy-from": "Foxartifactabstract",
     "name": { "str_sp": "Transcendent gravity artifact" },
     "weight_capacity_bonus": "600 kg",
+    "extend": { "flags": [ "HEAVY_WEAPON_SUPPORT" ] },
     "relic_data": {
        "passive_effects": [
          {
