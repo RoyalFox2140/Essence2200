@@ -696,7 +696,6 @@
             {
               "id": "Fox_Hidden_Electrowrenchzap",
               "hit_self": false,
-              "once_in": 1,
               "message": "Your electro-wrench electrocutes the %s",
               "npc_message": "%1$s suddenly electrocutes the %2$s"
             }

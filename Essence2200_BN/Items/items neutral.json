@@ -1347,7 +1347,7 @@
     "looks_like": "bullet_vibrator",
     "use_action": {
       "type": "transform",
-      "target": "bullet_vibrator_on",
+      "target": "Foxwearablevibratoron",
       "active": true,
       "msg": "You turn it on and secure it.",
       "moves": 100,
