@@ -53,7 +53,7 @@
     "looks_like": "bullet_vibrator",
     "use_action": {
       "type": "transform",
-      "target": "Foxenchantedwearablevibratoron",
+      "target": "Foxenchantedwearablevibrator_on",
       "active": true,
       "msg": "You turn on the bullet vibe and place it appropriately.",
       "moves": 100,
@@ -67,7 +67,7 @@
     "material_thickness": 1
   },
   {
-    "id": "Foxenchantedwearablevibratoron",
+    "id": "Foxenchantedwearablevibrator_on",
     "type": "TOOL_ARMOR",
     "category": "clothing",
     "name": { "str_sp": "enchanted wearable bullet vibrator (on)" },
@@ -81,8 +81,8 @@
         }
       ]
     },
-    "revert_to": "Foxenchantedwearablevibrator",
     "description": "Proof that mages are ungovernable even by the laws of physics.",
+    "revert_to": "Foxenchantedwearablevibrator",
     "use_action": [ "BULLET_VIBE_ON" ]
   }
 ]

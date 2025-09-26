@@ -1347,7 +1347,7 @@
     "looks_like": "bullet_vibrator",
     "use_action": {
       "type": "transform",
-      "target": "Foxwearablevibratoron",
+      "target": "Foxwearablevibrator_on",
       "active": true,
       "msg": "You turn it on and secure it.",
       "moves": 100,
@@ -1361,7 +1361,7 @@
     "material_thickness": 1
   },
   {
-    "id": "Foxwearablevibratoron",
+    "id": "Foxwearablevibrator_on",
     "type": "TOOL_ARMOR",
     "category": "clothing",
     "name": { "str_sp": "wearable bullet vibrator (on)" },
