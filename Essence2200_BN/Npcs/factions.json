@@ -40,6 +40,15 @@
         "defends your space": true,
         "knows your voice": true
       },
+      "FoxFarmers": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": true,
+        "guard your stuff": true,
+        "lets you in": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
       "hells_raiders": { "kill on sight": true },
       "FoxImperialGovt": { "kill on sight": true },
       "marloss": { "kill on sight": true }
@@ -78,5 +87,61 @@
       { "power_min": 100, "id": "Fox_epilogue_IMP_115" }
     ],
     "description": "Born from the 2068 nuclear apocalypse, this mess of a military junta has fallen into disorganization and branch-based feuds ever since Empress Katherine was assassinated by Savant, sparking the second apocalypse of 2125. Originally formed from Soviet and American resistance fighters, Wehrmacht officers disgussted with their homeland, and collaborators of occupied nations, their descendants are just as evil as the Reich they fought against."
+  },
+  {
+    "type": "faction",
+    "id": "FoxFarmers",
+    "name": "Dirt Farmers",
+    "likes_u": 15,
+    "respects_u": 15,
+    "known_by_u": false,
+    "size": 50,
+    "//": "Because we need dirt farmers. I'll throw in numbers later, but these are all meaningless to gameplay",
+    "power": 100,
+    "food_supply": 115200,
+    "wealth": 75000000,
+    "currency": "FMCNote",
+    "relations": {
+      "old_guard": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
+      "free_merchants": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
+      "no_faction": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
+      "FoxSGA": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": true,
+        "guard your stuff": true,
+        "lets you in": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
+      "hells_raiders": { "kill on sight": true },
+      "FoxImperialGovt": { "kill on sight": true },
+      "marloss": { "kill on sight": true }
+    },
+    "description": "A town of farmers, craftsmen, militia, and service industry workers trying to get by."
   }
 ]

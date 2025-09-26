@@ -18,7 +18,7 @@
     "initial_charges": 100,
     "charges_per_use": 10,
     "flags": [ "RECHARGE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": "VIBE"
+    "use_action": { "type": "sex_toy", "moves": 60000 }
   },
   {
     "id": "Foxselfchargegame",
@@ -40,5 +40,49 @@
     "flags": [ "RECHARGE", "NO_UNLOAD", "NO_RELOAD" ],
     "charges_per_use": 1,
     "use_action": [ "PORTABLE_GAME" ]
+  },
+  {
+    "id": "Foxenchantedwearablevibrator",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "copy-from": "bullet_vibrator",
+    "symbol": ";",
+    "color": "magenta",
+    "name": { "str_sp": "enchanted wearable bullet vibrator (off)" },
+    "description": "An bullet vibe with a band to keep it in place around the leg, with an enchantment to prevent fatigue loss from it's usage. Activate for some unlimited hidden fun.",
+    "looks_like": "bullet_vibrator",
+    "use_action": {
+      "type": "transform",
+      "target": "Foxenchantedwearablevibratoron",
+      "active": true,
+      "msg": "You turn on the bullet vibe and place it appropriately.",
+      "moves": 100,
+      "need_charges": 1,
+      "need_charges_msg": "The vibrator's battery is dead."
+    },
+    "covers": [ "leg_either" ],
+    "flags": [ "VARSIZE", "SKINTIGHT", "NO_UNLOAD", "POWERARMOR_COMPATIBLE", "NO_RELOAD" ],
+    "warmth": 0,
+    "coverage": 0,
+    "material_thickness": 1
+  },
+  {
+    "id": "Foxenchantedwearablevibratoron",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str_sp": "enchanted wearable bullet vibrator (on)" },
+    "copy-from": "Foxwearablevibrator",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "ench_effects": [ { "effect": "Foxfatigueremove", "intensity": 1 } ]
+        }
+      ]
+    },
+    "revert_to": "Foxwearablevibrator",
+    "description": "Proof that mages are ungovernable even by the laws of physics.",
+    "use_action": [ "BULLET_VIBE_ON" ]
   }
 ]

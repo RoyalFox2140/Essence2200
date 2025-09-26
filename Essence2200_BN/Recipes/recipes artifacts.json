@@ -223,6 +223,19 @@
     ]
   },
   {
+    "result": "Foxsludgepumpartifact",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_ARTIFACTS",
+    "time": "1 m",
+    "autolearn": true,
+    "reversible": true,
+    "components": [
+      [ [ "Foxsludgepump", 1 ] ],
+      [ [ "Foxartifactelectric2", 1 ] ]
+    ]
+  },
+  {
     "result": "Foxartifactstabilizer",
     "type": "recipe",
     "category": "CC_ESSMAGIC",

@@ -537,7 +537,7 @@
     "crafting_pseudo_item": "Foxfake_sludgepump",
     "flags": [ "TRANSPARENT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
     "deconstruct": {
-      "items": [ { "item": "Foxsludgepump", "count": 1 }, { "item": "cable", "charges": 5 } ]
+      "items": [ { "item": "Foxsludgepump", "count": 1 } ]
     },
     "bash": {
       "str_min": 8,
@@ -545,8 +545,7 @@
       "sound": "metal screeching!",
       "sound_fail": "clang!",
       "items": [
-        { "item": "Foxsludgepump", "count": 1 },
-        { "item": "cable", "charges": 5 }
+        { "item": "Foxsludgepump", "count": 1 }
       ]
     }
   },
@@ -555,7 +554,7 @@
     "id": "Foxconstr_Foxfgridsludgepump",
     "group": "Foxplace_Foxfgridsludgepump",
     "category": "FOXESSTECH",
-    "required_skills": [ [ "electronics", 1 ] ],
+    "required_skills": [ [ "fabrication", 4 ] ],
     "time": "60 m",
     "qualities": [ 
     [ { "id": "SCREW", "level": 1 } ],
@@ -563,8 +562,7 @@
     [ { "id": "WRENCH", "level": 1 } ],
     [ { "id": "DIG", "level": 2 } ]
   ],
-    "using": [ [ "soldering_standard", 5 ] ],
-    "components": [ [ [ "Foxsludgepump", 1 ] ], [ [ "cable", 5 ] ], [ [ "pipe", 10 ] ] ],
+    "components": [ [ [ "Foxsludgepump", 1 ] ], [ [ "pipe", 10 ] ] ],
     "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
     "pre_terrain": "Foxt_sludgepit",
     "post_furniture": "Foxfgridsludgepump"
@@ -575,12 +573,61 @@
     "name": "Install Sludge Pump"
   },
   {
+    "type": "furniture",
+    "id": "Foxfartifactsludgepump",
+    "looks_like": "t_machinery_light",
+    "name": "artifact sludge pump",
+    "symbol": "U",
+    "description": "A sludge pump connected to a natural deposit of motordew, with an artifact powering it indefinitely. You can easily deconstruct it but you're going to lose the pipeline.",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 10,
+    "required_str": -1,
+    "examine_action": "liquid_source",
+    "provides_liquids": "Foxmotordew",
+    "flags": [ "TRANSPARENT", "MOUNTABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": {
+      "items": [ { "item": "Foxsludgepumpartifact", "count": 1 } ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "Foxsludgepumpartifact", "count": 1 }
+      ]
+    }
+  },
+  {
+    "type": "construction",
+    "id": "Foxconstr_Foxfartifactsludgepump",
+    "group": "Foxplace_Foxfartifactsludgepump",
+    "category": "FOXESSTECH",
+    "required_skills": [ [ "fabrication", 4 ] ],
+    "time": "60 m",
+    "qualities": [ 
+    [ { "id": "SCREW", "level": 1 } ],
+    [ { "id": "HAMMER", "level": 2 } ],
+    [ { "id": "WRENCH", "level": 1 } ],
+    [ { "id": "DIG", "level": 2 } ]
+  ],
+    "components": [ [ [ "Foxsludgepumpartifact", 1 ] ], [ [ "pipe", 10 ] ] ],
+    "pre_terrain": "Foxt_sludgepit",
+    "post_furniture": "Foxfartifactsludgepump"
+  },
+  {
+    "type": "construction_group",
+    "id": "Foxplace_Foxfartifactsludgepump",
+    "name": "Install Artifact Sludge Pump"
+  },
+  {
     "type": "construction",
     "id": "Foxconstr_Foxt_sludgepit",
     "group": "Foxdig_Foxt_sludgepit",
     "category": "FOXSPECIAL",
     "required_skills": [ [ "fabrication", 6 ] ],
-    "tools": [ [ [ "jackhammer", 400 ], [ "elec_jackhammer", 10000 ] ] ],
+    "tools": [ [ [ "jackhammer", 400 ], [ "Foxultimatetelekinetics", 400 ],  [ "elec_jackhammer", 10000 ] ] ],
     "time": "3 h",
     "qualities": [ 
     [ { "id": "DIG", "level": 3 } ]

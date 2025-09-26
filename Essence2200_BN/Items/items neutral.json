@@ -596,6 +596,23 @@
     "color": "dark_gray"
   },
   {
+    "id": "Foxsludgepumpartifact",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "Artifact sludge pump" },
+    "description": "This is a sophisticated pumping system which will extract motordew and similar fluids from ground deposits with an electric artifact allowing it to operate forever. It must be constructed on a deposit.",
+    "weight": "31000 g",
+    "volume": "16000 ml",
+    "looks_like": "well_pump",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -9,
+    "bashing": 1,
+    "material": "steel",
+    "symbol": ";",
+    "color": "dark_gray"
+  },
+  {
     "id": "Foxfake_sludgepump",
     "copy-from": "fake_item",
     "type": "TOOL",
@@ -1301,5 +1318,57 @@
     "resistance": { "cut": 30, "bash": 20, "stab": 26, "acid": 20, "bullet": 55, "heat": 50 },
     "environmental_protection": 20,
     "flags": [ "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF" ]
+  },
+  {
+    "id": "Foxdildo",
+    "type": "TOOL",
+    "category": "electronics",
+    "//": "It was supposed to be in base game, but it wasn't added by Rosa yet.",
+    "name": { "str": "dildo" },
+    "description": "If you don't know what this is for, you probably need to get out more. Or go online more.",
+    "weight": "100 g",
+    "volume": "500 ml",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "plastic" ],
+    "symbol": "1",
+    "color": "magenta",
+    "use_action": { "type": "sex_toy", "moves": 60000 }
+  },
+  {
+    "id": "Foxwearablevibrator",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "copy-from": "bullet_vibrator",
+    "symbol": ";",
+    "color": "magenta",
+    "name": { "str_sp": "wearable bullet vibrator (off)" },
+    "description": "A bullet vibe with a band to keep it in place around the leg, for some reason or another. Activate for some hidden fun, there are no humans left to care.",
+    "looks_like": "bullet_vibrator",
+    "use_action": {
+      "type": "transform",
+      "target": "bullet_vibrator_on",
+      "active": true,
+      "msg": "You turn it on and secure it.",
+      "moves": 100,
+      "need_charges": 1,
+      "need_charges_msg": "The vibrator's battery is dead."
+    },
+    "covers": [ "leg_either" ],
+    "flags": [ "VARSIZE", "POWERARMOR_COMPATIBLE", "SKINTIGHT" ],
+    "warmth": 0,
+    "coverage": 0,
+    "material_thickness": 1
+  },
+  {
+    "id": "Foxwearablevibratoron",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str_sp": "wearable bullet vibrator (on)" },
+    "copy-from": "Foxwearablevibrator",
+    "power_draw": 5000,
+    "revert_to": "Foxwearablevibrator",
+    "description": "It can't be exhibitionism if there are no humans left to catch you.",
+    "use_action": [ "BULLET_VIBE_ON" ]
   }
 ]

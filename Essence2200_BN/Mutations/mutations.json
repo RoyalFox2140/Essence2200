@@ -169,7 +169,8 @@
     "hp_adjustment": 250,
     "passive_mods": { "str_mod": 16, "dex_mod": 16, "per_mod": 16, "int_mod": 8 },
     "armor": [ { "parts": "ALL", "bullet": 50, "heat": 30, "cold": 30, "acid": 400, "electric": 400 } ],
-    "social_modifiers": { "intimidate": 10 }
+    "social_modifiers": { "intimidate": 10 },
+    "spells_learned": [ [ "Fox_Nightwalker_Leap", 1 ] ]
   },
   {
     "type": "mutation",
@@ -436,7 +437,8 @@
     "max_stamina_modifier": 2,
     "weight_capacity_modifier": 5,
     "overmap_sight": 8,
-    "passive_mods": { "str_mod": 10, "dex_mod": 10, "per_mod": 10 }
+    "passive_mods": { "str_mod": 10, "dex_mod": 10, "per_mod": 10 },
+    "spells_learned": [ [ "Fox_Nightwalker_Leap", 1 ] ]
   },
   {
     "type": "enchantment",

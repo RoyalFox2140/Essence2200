@@ -666,7 +666,7 @@
   },
   {
     "id": "FoxSGAmechwrench",
-    "type": "GENERIC",
+    "type": "TOOL",
     "category": "weapons",
     "weapon_category": [ "2H_HAMMERS" ],
     "looks_like": "warhammer",
@@ -676,13 +676,34 @@
     "volume": "2000 ml",
     "price": "2 USD",
     "price_postapoc": "2 USD",
-    "to_hit": 2,
+    "to_hit": 3,
     "bashing": 40,
     "cutting": 1,
     "material": "FoxAdamantine",
     "symbol": "/",
     "color": "light_gray",
+    "ammo": "battery",
+    "sub": "welder",
+    "charges_per_use": 1,
     "techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP" ],
+    "relic_data": {
+      "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 h", "rate": 500 } ],
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "Fox_Hidden_Electrowrenchzap",
+              "hit_self": false,
+              "once_in": 1,
+              "message": "Your electro-wrench electrocutes the %s",
+              "npc_message": "%1$s suddenly electrocutes the %2$s"
+            }
+          ]
+        }
+      ]
+    },
     "qualities": [
       [ "CUT", 3 ],
       [ "HAMMER", 6 ],
@@ -798,7 +819,7 @@
       "explosion": {
         "damage": 120,
         "radius": 9,
-        "fragment": { "impact": { "damage_type": "cut", "amount": 80, "armor_multiplier": 3 }, "range": 15 }
+        "fragment": { "impact": { "damage_type": "cut", "amount": 80 }, "range": 15 }
       }
     },
     "flags": [ "BOMB", "TRADER_AVOID" ]

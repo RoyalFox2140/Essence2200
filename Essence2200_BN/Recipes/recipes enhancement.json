@@ -647,5 +647,22 @@
         [ [ "FoxSpiritrune", 100 ] ],
         [ [ "FoxTelekineticrune", 25 ] ]
       ]
-    }
+    },
+  {
+    "result": "Foxenchantedwearablevibrator",
+    "type": "recipe",
+    "category": "CC_ESSTECH",
+    "subcategory": "CSC_ESSTECH_TOOLS",
+    "skill_used": "electronics",
+    "difficulty": 1,
+    "time": "5 m",
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 5 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [
+      [ [ "Foxwearablevibrator", 1 ] ],
+      [ [ "FoxLiferune", 100 ] ],
+      [ [ "FoxSGAessreactortiny", 1 ], [ "FoxMagicCapacitor", 1 ] ]
+    ]
+  }
 ]

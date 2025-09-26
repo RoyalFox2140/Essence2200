@@ -1,0 +1,18 @@
+[
+  {
+    "id": "Fox_Nightwalker_Leap",
+    "type": "SPELL",
+    "name": { "str": "Leap" },
+    "description": "You jump to the target area, being stopped by obstacles but being able to jump between rooftops.",
+    "valid_targets": [ "ground" ],
+    "min_range": 30,
+    "max_range": 30,
+    "effect": "dash",
+    "base_casting_time": 30,
+    "base_energy_cost": 1000,
+    "difficulty": 1,
+    "max_level": 1,
+    "energy_source": "STAMINA",
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "CONCENTRATE", "NO_FAIL" ]
+  }
+]

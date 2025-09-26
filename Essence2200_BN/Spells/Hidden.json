@@ -274,7 +274,8 @@
     "max_level": 1,
     "min_damage": 45,
     "max_damage": 45,
-    "damage_type": "electric"
+    "damage_type": "electric",
+    "extra_effects": [ { "id": "Fox_Hidden_Electrowrenchburn" } ]
   },
   {
     "id": "Fox_Hidden_Electrowrenchburn",

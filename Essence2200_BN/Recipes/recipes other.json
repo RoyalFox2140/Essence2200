@@ -663,5 +663,30 @@
       [ [ "water", 1 ], [ "water_clean", 1 ] ], 
       [ [ "Fox_wastedirt", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxwearablevibrator",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 2, "LIST" ] ] ],
+    "components": [ [ [ "chunk_rubber", 1 ] ], [ [ "bullet_vibrator", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "Foxdildo",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "10 m",
+    "autolearn": true,
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 4, "LIST" ] ] ],
+    "components": [ [ [ "plastic_chunk", 2 ] ] ]
   }
 ]

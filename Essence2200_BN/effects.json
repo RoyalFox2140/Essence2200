@@ -315,6 +315,26 @@
   },
   {
     "type": "effect_type",
+    "id": "Foxfatigueremove",
+    "rating": "good",
+    "base_mods": {
+      "fatigue_min": [ -1 ],
+      "fatigue_tick": [ 60 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "Foxgolemarmor",
+    "name": [ "Golem armor" ],
+    "desc": [ "THEY WILL GIVE YOU THEIR LUNCH MONEY!" ],
+    "rating": "good",
+    "base_mods": {
+      "str_mod": [ 12 ],
+      "dex_mod": [ -6 ]
+    }
+  },
+  {
+    "type": "effect_type",
     "id": "FoxSpiritRespite",
     "rating": "good",
     "base_mods": {

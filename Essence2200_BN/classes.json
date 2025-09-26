@@ -5,6 +5,7 @@
     "name": "Nightwalker",
     "description": "Savant created you as the ultimate soldier to kill every last Imperial so she could reclaim Earth. But the plan to hide this soldier in Imperial society failed. Nobody knows how you got to this dimension, and the apocalypse came before those powers could be fully manifested. You always felt somehow you were different, but it really sunk in after you accidentally murdered someone and had to go into hiding. Living in abandoned buildings and the sewers wasn't fun but for someone immortal and immune to disease it was easy. Now all that angst and paranoia paid off, you're not trapped out here with them, they're trapped out here with YOU!",
     "points": 444,
+    "starting_cash": 0,
     "traits": [ "FoxNightwalker", "FoxNightwalkerBody", "FoxNightwalkerPsionics", "FoxNightwalkerUpbringing", "FoxNightwalkerRestrictions", "FoxNightwalkerExtremeFatigue", "FoxApostleApprentice", "FoxSchoolsElemental", "FoxSchoolsSpirit", "FoxSchoolsTransmutation", "FoxSchoolsPale", "LOVES_BOOKS", "PROJUNK", "GOURMAND", "NONADDICTIVE", "FACIAL_HAIR_NONE", "eye_red", "MASOCHIST", "INFRESIST", "PARAIMMUNE", "PSYCHOPATH", "STYLISH", "hair_black_long", "SKIN_LIGHT" ],
     "items": {
         "male": [
@@ -32,6 +33,7 @@
     "//": "A professional ex special forces and mage with no background in hard labor, has significant training with most weapons and is a survival expert. Any non-combat skills from lore are negated here, after a long coma. All combat skills adjusted downward for said coma.",
     "description": "After growing up an orphan in Imperial society and being used as a child soldier, you eventually ditched the Imperial Army and became a rogue agent. You founded a conglomerate of clans comprised of likeminded warriors and later ignored the goals of your creator and her rebel followers when she stepped out of hiding. Traversing dimensions flung your clans and Savant's followers forward nearly a thousand years, landing you in a Milky Way you chose to abandon. You got very curious as to why this Dimension also parallels Old Earth, and why the Imperials invaded here. The clans will follow you in later, you went in alone to investigate quietly.",
     "points": 444,
+    "starting_cash": 0,
     "traits": [ "FoxNightwalker", "FoxNightwalkerBody", "FoxNightwalkerPsionics", "FoxNightwalkerUpbringing", "FoxNightwalkerRestrictions", "FoxNightwalkerExtremeFatigue", "FoxApostleExpert", "FoxSchoolsElemental", "FoxSchoolsSpirit", "FoxSchoolsTransmutation", "FoxSchoolsPale", "FoxClanKawakami", "LOVES_BOOKS", "PROJUNK", "GOURMAND", "NONADDICTIVE", "FACIAL_HAIR_NONE", "eye_red", "MASOCHIST", "INFRESIST", "PARAIMMUNE", "PSYCHOPATH", "STYLISH", "hair_black_long", "SKIN_LIGHT" ],
     "skills": [
       { "level": 8, "name": "melee" },
@@ -117,6 +119,7 @@
     "//": "A woman who has never held a tool in her life but is a medical doctor with a strong foundation in chemistry, various other sciences, and psychology, would have several doctorates at this point if centralized education existed. Only has pistol skill because of her sister forcing her to learn.",
     "description": "You always wanted to help people. Your sister made that difficult by being a homicidal supersoldier maniac with an army of zealot followers and your mother by being labeled a terrorist for creating said maniac. The calamity in this dimension gave you a chance to help those in need, but your sister wouldn't let you go alone and assigned an agent to guard you.",
     "points": 444,
+    "starting_cash": 0,
     "skills": [
       { "level": 1, "name": "gun" },
       { "level": 1, "name": "pistol" },
@@ -169,6 +172,7 @@
     "name": "Arakawa Warrior",
     "description": "As a warrior of Clan Arakawa, you're familiar with the effects of essence and it's uncontrolled mutations on the living. You're sent in to purge every last mutant that may threaten the locals before it evolves into something worse. Report back if you find survivors.",
     "points": 444,
+    "starting_cash": 0,
     "traits": [ "FoxClanArakawa", "FoxThresh_Nightstalker", "FoxNightstalkerPhysiology", "FoxNightstalkerResistance", "FoxNightstalkerMind", "FoxNightstalkerPsionics", "FoxNightstalkerMagic", "FoxApostleSkilled", "FoxSchoolsElemental" ],
     "skills": [
       { "level": 8, "name": "melee" },
@@ -233,6 +237,7 @@
     "name": "Seburo Technician",
     "description": "You're a field technician of Clan Seburo, bored with a life of fixing things and making more things to break you volunteered to go in and search for technology and information. Though your combat skills are limited, you'll at least have that chance to improve them if you die.",
     "points": 444,
+    "starting_cash": 0,
     "traits": [ "FoxClanSeburo", "FoxThresh_Nightstalker", "FoxNightstalkerPhysiology", "FoxNightstalkerResistance", "FoxNightstalkerMind", "FoxNightstalkerPsionics", "FoxNightstalkerMagic", "FoxApostleSkilled", "FoxSchoolsTransmutation" ],
     "skills": [
       { "level": 4, "name": "melee" },
@@ -303,6 +308,7 @@
     "name": "Apostle experiment",
     "description": "In an effort to create the next generation of soldier, XEDRA conducted horrible experiments on your body and tortured you to break you. Your body changed and you gained magical power, at some point you escaped and hid from the world for a long time, but you were never the same mentally. Your powers helped you remain undetected and now they will keep you alive in a new world.",
     "points": 8,
+    "starting_cash": 0,
     "traits": [  "FoxApostleSkilled", "FoxSchoolsElemental", "FoxSchoolsSpirit", "FoxSchoolsTransmutation", "INFRESIST", "PARAIMMUNE", "PSYCHOPATH", "ROT1", "SNARL", "UGLY" ],
     "spells": [ 
       { "id": "Fox_Transmutation_Essence_skilled", "level": 5 },
@@ -357,6 +363,7 @@
     "name": "Rich Apostle",
     "description": "You were born into a wealthy family of the old world, and your family had enough money and power to be involved in XEDRA's experiments. As they experimented on humans to give them magical power, you used your family's influence to safely become an apostle. Then the world ended, that's rough. At least you have transmutation and elemental spells.",
     "points": 12,
+    "starting_cash": 5000000,
     "traits": [ "FoxApostleSkilled", "FoxSchoolsElemental", "FoxSchoolsTransmutation", "BADCARDIO", "BADTEMPER", "DISORGANIZED" ],
     "skills": [
       { "level": 4, "name": "FoxEssSpellcasting" }
@@ -401,6 +408,7 @@
     "name": "Reaper Deserter",
     "description": "You were a poorly trained clone soldier that was sent to this dimension as part of a large invasion. That went awry when most of your platoon died on arrival, your neural chip fried and you ran for the hills. You won't be going home but you have a chance at freedom.",
     "points": 4,
+    "starting_cash": 0,
     "traits": [ "FoxImperialTraitor" ],
     "skills": [
       { "level": 2, "name": "gun" },
@@ -432,6 +440,7 @@
     "name": "Reaper Technician",
     "description": "Holy shit, you're not trained for this! You were sent in with a toolbox and trained to fix guns, make bullets. Hell broke loose and you just ran.",
     "points": 4,
+    "starting_cash": 0,
     "traits": [ "FoxImperialTraitor" ],
     "skills": [
       { "level": 6, "name": "fabrication" },
@@ -462,6 +471,7 @@
     "name": "Reaper Deserter (armed)",
     "description": "You managed to hold onto your rifle while you were fleeing and can still fire it. Sadly you lost your shovel and knife, and your batteries are dead.",
     "points": 6,
+    "starting_cash": 0,
     "traits": [ "FoxImperialTraitor" ],
     "skills": [
       { "level": 2, "name": "gun" },
@@ -494,6 +504,7 @@
     "name": "Reaper Officer",
     "description": "You were always looking for a chance to desert, so this dimensional invasion proved a good opportunity when most of your platoon died on arrival and you ran for the hills. You have some documents and a datapad, along with your knife and shovel.",
     "points": 8,
+    "starting_cash": 0,
     "traits": [ "FoxImperialTraitor" ],
     "skills": [
       { "level": 2, "name": "gun" },
@@ -529,6 +540,7 @@
     "name": "Imperial Rogue Agent",
     "description": "Trained for subterfuge and given a level of autonomy, you managed to escape Imperial control after you opened a portal to an unexplored dimension. Unfortunately they're here too. That portal ate most of your gear, but you kept a stolen multi-hammer.",
     "points": 8,
+    "starting_cash": 0,
     "traits": [ "FoxImperialTraitor" ],
     "skills": [
       { "level": 2, "name": "gun" },
@@ -654,6 +666,46 @@
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     }
+  },
+  {
+    "type": "profession",
+    "id": "FoxHikikomori",
+    "name": "Hikikomori",
+    "description": "Early into life your will was broken, you found no reason to pursue higher education or a career and just didn't go outside. You lived with family and wasted your life until the apocalypse happened. Your family can't buy you stuff if they're dead, and you know this is just gonna suck. Blegh.",
+    "points": -3,
+    "starting_cash": 10000,
+    "traits": [ "BADTEMPER", "FLIMSY", "BADCARDIO", "ADDICTIVE" ],
+    "items": {
+        "male": [
+          "boxer_shorts",
+          "jeans",
+          "hoodie",
+          "lowtops",
+          "gloves_light",
+          "knit_scarf",
+          "hat_cotton",
+          "backpack",
+          "mag_porn",
+          "Foxdildo",
+          "whiskey"
+        ],
+        "female": [
+          "panties",
+          "bra",
+          "stockings",
+          "skirt",
+          "hoodie",
+          "lowtops",
+          "gloves_light",
+          "knit_scarf",
+          "hat_cotton",
+          "backpack",
+          "Foxdildo",
+          "Foxwearablevibrator",
+          "whiskey"
+        ]
+    },
+    "addictions": [ { "intensity": 10, "type": "nicotine" }, { "intensity": 10, "type": "alcohol" } ]
   },
   {
     "type": "start_location",

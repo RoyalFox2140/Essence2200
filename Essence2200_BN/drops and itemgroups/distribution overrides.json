@@ -56,7 +56,8 @@
       [ "FoxDeSGAesstechbasic", 5 ],
       { "item": "FoxKolibriPapers", "prob": 5 },
       [ "FoxDeSGAesstechadvanced", 1 ],
-      [ "FoxDeSGAkawakamiprayer", 5 ]
+      [ "FoxDeSGAkawakamiprayer", 5 ],
+      [ "FoxEIga", 5 ]
     ]
   },
   {
@@ -97,6 +98,7 @@
       [ "FoxDeSGAesstechbasic", 20 ],
       [ "FoxDeSGAesstechadvanced", 20 ],
       [ "FoxDeSGAkawakamiprayer", 20 ],
+      [ "FoxEIga", 1 ],
       [ "Foximpgogglesdetection", 8 ],
       [ "sa_cryptology_key", 3 ],
       { "item": "FoxKolibriPapers", "prob": 35, "count": [ 1, 6 ] },
@@ -121,7 +123,8 @@
       { "item": "Foximpbatterycell", "prob": 50, "count": [ 4, 8 ] },
       [ "Foximpbattery", 25 ],
       [ "FoximpKW21404U", 90 ],
-      [ "FoxDeIkw", 75 ]
+      [ "FoxDeIkw", 75 ],
+      [ "FoxEIga", 10 ]
     ]
   },
   {
@@ -282,7 +285,8 @@
       [ "FoximpKW21352U", 15 ],
       [ "FoximpKW21404U", 90 ],
       [ "FoxUPSimperial", 40 ],
-      [ "FoxDeIkw", 75 ]
+      [ "FoxDeIkw", 75 ],
+      [ "FoxEIga", 20 ]
     ]
   },
   {

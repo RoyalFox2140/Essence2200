@@ -20,6 +20,27 @@
     ]
   },
   {
+    "id": "FoxmonImperialdropsengineer",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "FoxBallisticWeavescrap", "count": [ 50, 100 ] },
+      { "item": "shot_00", "count": [ 10, 40 ] },
+      { "item": "Foxtoolboxmachining" },
+      { "item": "Foximpgasmask", "prob": 80, "damage": [ 2, 4 ] },
+      { "group": "Foxreapergear", "prob": 90 },
+      { "item": "Foximperialrationgood", "prob": 75 },
+      { "item": "Foximperialrationbad", "prob": 99 },
+      { "item": "FoxReaperManual", "prob": 99 },
+      { "item": "FoxUPSimperial", "prob": 35 },
+      { "item": "water_clean", "container-item": "canteen", "prob": 90, "charges": [ 0, 6 ] },
+      { "group": "Foxdropsimpbattery", "prob": 30 },
+      { "group": "infantry_medical_gear", "prob": 30 },
+      { "group": "Foxdropsimpscrap", "prob": 100 },
+      { "item": "Foxhumansoul", "prob": 100  }
+    ]
+  },
+  {
     "id": "FoxmonImperialdropslost",
     "type": "item_group",
     "subtype": "collection",

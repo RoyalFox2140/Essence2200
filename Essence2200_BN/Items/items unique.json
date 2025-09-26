@@ -74,7 +74,7 @@
     },
     "symbol": "[",
     "color": "blue",
-    "flags": [ "WATCH", "REBREATHER", "SWIM_GOGGLES", "FANCY", "GAS_PROOF", "PERSONAL", "RAD_PROOF", "PSYSHIELD_PARTIAL",  "PARTIAL_DEAF", "CLIMATE_CONTROL" ]
+    "flags": [ "WATCH", "REBREATHER", "SWIM_GOGGLES", "HEAVY_WEAPON_SUPPORT", "FANCY", "GAS_PROOF", "PERSONAL", "RAD_PROOF", "PSYSHIELD_PARTIAL",  "PARTIAL_DEAF", "CLIMATE_CONTROL" ]
   },
   {
     "id": "FoxKawakamiravensclawuptwo",
@@ -118,7 +118,7 @@
     },
     "symbol": "[",
     "color": "blue",
-    "flags": [ "WATCH", "REBREATHER", "SWIM_GOGGLES", "FANCY", "GAS_PROOF", "PERSONAL", "RAD_PROOF", "PSYSHIELD_PARTIAL",  "PARTIAL_DEAF", "CLIMATE_CONTROL" ]
+    "flags": [ "WATCH", "REBREATHER", "SWIM_GOGGLES", "HEAVY_WEAPON_SUPPORT", "FANCY", "GAS_PROOF", "PERSONAL", "RAD_PROOF", "PSYSHIELD_PARTIAL",  "PARTIAL_DEAF", "CLIMATE_CONTROL" ]
   },
   {
     "id": "FoxKawakamiravensclawupthree",
@@ -162,7 +162,7 @@
     },
     "symbol": "[",
     "color": "blue",
-    "flags": [ "WATCH", "REBREATHER", "SWIM_GOGGLES", "FANCY", "GAS_PROOF", "PERSONAL", "RAD_PROOF", "PSYSHIELD_PARTIAL",  "PARTIAL_DEAF", "CLIMATE_CONTROL" ]
+    "flags": [ "WATCH", "REBREATHER", "SWIM_GOGGLES", "HEAVY_WEAPON_SUPPORT", "FANCY", "GAS_PROOF", "PERSONAL", "RAD_PROOF", "PSYSHIELD_PARTIAL",  "PARTIAL_DEAF", "CLIMATE_CONTROL" ]
   },
   {
     "id": "FoxKawakamiRend",
@@ -437,5 +437,20 @@
     "symbol": ",",
     "color": "black",
     "ammo_type": "components"
+  },
+  {
+    "type": "TOOL",
+    "id": "Foxevilrake",
+    "name": "Rake of unspeakable evil",
+    "description": "Oh my god, this rake is evil. It takes souls for charges to do a spell I haven't decided yet",
+    "category": "spare_parts",
+    "weight": "5 g",
+    "volume": "10 ml",
+    "material": [ "FoxAdamantine" ],
+    "symbol": "*",
+    "color": "yellow",
+    "charges_per_use": 1,
+    "max_charges": 1,
+    "use_action": { "type": "cast_spell", "spell_id": "Fox_Pale_Lesser_SOL", "no_fail": true, "level": 1 }
   }
 ]
