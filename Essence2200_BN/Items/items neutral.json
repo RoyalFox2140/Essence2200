@@ -1333,6 +1333,7 @@
     "material": [ "plastic" ],
     "symbol": "1",
     "color": "magenta",
+    "qualities": [ [ "SLEEP_AID", 2 ] ],
     "use_action": { "type": "sex_toy", "moves": 60000 }
   },
   {
