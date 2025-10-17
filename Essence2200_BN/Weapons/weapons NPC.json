@@ -171,6 +171,26 @@
   "loudness": 100,
   "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
 },
+ {
+  "id": "FoximpGA11fake",
+  "copy-from": "rifle_auto",
+  "type": "GUN",
+  "looks_like": "laser_rifle",
+  "name": { "str": "GA-11 Flechette cannon" },
+  "description": "Makes life suck just a little more.",
+  "weight": "5000 g",
+  "volume": "5 L",
+  "price": "2 USD",
+  "price_postapoc": "2 USD",
+  "material": [ "FoxImperialSteel" ],
+  "color": "yellow",
+  "range": 30,
+  "ranged_damage": { "damage_type": "bullet", "amount": 100, "armor_multiplier": 0.9 },
+  "dispersion": 900,
+  "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 2 ] ],
+  "loudness": 100,
+  "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
+},
   {
    "id": "FoximpKW2140Fake2",
    "copy-from": "rifle_energy",
