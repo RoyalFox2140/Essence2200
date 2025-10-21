@@ -281,6 +281,25 @@
     "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
   },
   {
+    "id": "Fox_magicballoon",
+    "copy-from": "balloon",
+    "type": "vehicle_part",
+    "name": "magic buoyancy enchantment",
+    "item": "Foxhumansoul",
+    "height": 300,
+    "description": "A single soul is installed in this location to help your vehicle float indefinitely. It is 10x more efficient than what you expect from an airship balloon, but you'll still need lots of them to float a tank.",
+    "requirements": {
+      "install": { "skills": [ [ "FoxEssSpellcasting", 8 ] ], "time": "60 m" },
+      "removal": { "skills": [ [ "FoxEssSpellcasting", 8 ] ], "time": "20 m" },
+      "repair": { "skills": [ [ "FoxEssSpellcasting", 8 ] ], "time": "60 m" }
+    },
+    "durability": 6000,
+    "damage_modifier": 80,
+    "breaks_into": [ { "item": "plastic_chunk", "count": [ 1, 2 ] } ],
+    "flags": [ "BALLOON", "SHOCK_IMMUNE" ],
+    "damage_reduction": { "all": 8888 }
+  },
+  {
     "type": "vehicle_part",
     "id": "Foxinertialdampenersoul",
     "name": { "str": "soulbound inertial dampener" },
