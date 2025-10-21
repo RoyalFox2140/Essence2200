@@ -7,7 +7,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 2 ] ],
       "components": [
         [ [ "FoxFirerune", 25 ] ],
@@ -22,7 +22,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 2 ] ],
       "components": [
         [ [ "FoxAirrune", 25 ] ],
@@ -37,7 +37,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 2 ] ],
       "components": [
         [ [ "FoxFirerune", 25 ] ],
@@ -52,7 +52,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 2 ] ],
       "components": [
         [ [ "FoxFirerune", 25 ] ],
@@ -67,7 +67,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 2 ] ],
       "components": [
         [ [ "FoxDeathrune", 25 ] ],
@@ -82,7 +82,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 2 ] ],
       "components": [
         [ [ "FoxTransmutationrune", 25 ] ],
@@ -98,7 +98,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "15 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 2 ] ],
       "components": [
         [ [ "FoxClimateControlaura", 1 ] ],
@@ -118,7 +118,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "3 h",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 12 ] ],
       "components": [
         [ [ "FoxFirerune", 75 ] ],
@@ -136,7 +136,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "components": [
         [ [ "Foxhumansoul", 10 ] ],
         [ [ "FoxTransmutationrune", 2 ] ],
@@ -151,7 +151,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
       "components": [
         [ [ "FoxTelekineticrune", 100 ] ]
@@ -165,7 +165,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
       "components": [
         [ [ "FoxTelekineticrune", 25 ] ],
@@ -180,7 +180,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 6,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 8 ] ],
       "components": [
         [ [ "FoxDeathrune", 100 ] ]
@@ -194,7 +194,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
       "components": [
         [ [ "FoxTelekineticrune", 25 ] ],
@@ -209,7 +209,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 5,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
       "components": [
         [ [ "FoxLiferune", 100 ] ]
@@ -223,7 +223,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 6,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 8 ] ],
       "components": [
         [ [ "FoxQuantumrune", 100 ] ]
@@ -237,7 +237,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 5,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "FoxEquivalentEssencePower", 8 ] ],
       "components": [
         [ [ "FoxTelekineticrune", 100 ] ],
@@ -254,7 +254,7 @@
       "difficulty": 4,
       "time": "40 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 16 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 8 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -268,7 +268,7 @@
       "difficulty": 4,
       "time": "40 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 16 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 8 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -282,7 +282,7 @@
       "difficulty": 4,
       "time": "30 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -296,7 +296,7 @@
       "difficulty": 4,
       "time": "30 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -310,7 +310,7 @@
       "difficulty": 4,
       "time": "30 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -324,7 +324,7 @@
       "difficulty": 4,
       "time": "30 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -338,7 +338,7 @@
       "difficulty": 4,
       "time": "35 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -351,7 +351,7 @@
       "skills_required": [ [ "tailor", 6 ] ],
       "difficulty": 4,
       "time": "40 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -365,7 +365,7 @@
       "difficulty": 4,
       "time": "10 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -379,7 +379,7 @@
       "difficulty": 4,
       "time": "30 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -393,7 +393,7 @@
       "difficulty": 4,
       "time": "30 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -407,7 +407,7 @@
       "difficulty": 4,
       "time": "30 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -421,7 +421,7 @@
       "difficulty": 4,
       "time": "45 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 3 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -434,7 +434,7 @@
       "skills_required": [ [ "tailor", 6 ] ],
       "difficulty": 4,
       "time": "30 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 2 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -448,7 +448,7 @@
       "difficulty": 4,
       "time": "40 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 14 ] ],
       "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 7 ] ], [ [ "FoxAdamantinechunk", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
@@ -463,7 +463,7 @@
       "difficulty": 4,
       "time": "40 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 6 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 3 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -477,7 +477,7 @@
       "difficulty": 6,
       "time": "2 h",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 50 ] ],
       "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 25 ] ], [ [ "FoxAdamantinechunk", 8 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
@@ -491,7 +491,7 @@
       "skills_required": [ [ "tailor", 6 ] ],
       "difficulty": 4,
       "time": "55 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 20 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 10 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -526,7 +526,7 @@
       "difficulty": 6,
       "time": "4 h 30 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 12 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 6 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -540,7 +540,7 @@
       "difficulty": 6,
       "time": "30 m",
       "reversible": true,
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "using": [ [ "Foxsewing_Mage", 4 ] ],
       "components": [ [ [ "FoxBallisticWeaveSheet", 1 ] ], [ [ "FoxTransmutationrune", 1 ] ] ]
     },
@@ -553,7 +553,7 @@
       "difficulty": 6,
       "id_suffix": "Foxmachined",
       "time": "10 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "components": [ [ [ "Foxseat", 1 ] ], [ [ "FoxVicPocketDimensionitem", 1 ] ] ]
     },
     {
@@ -564,7 +564,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "components": [
         [ [ "Foxadamantinearrow", 10 ] ],
         [ [ "FoxFirerune", 40 ] ],
@@ -580,7 +580,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "components": [
         [ [ "Foxadamantinearrow", 10 ] ],
         [ [ "FoxFirerune", 80 ] ],
@@ -595,7 +595,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "components": [
         [ [ "Foxshadowsteelarrow", 10 ] ],
         [ [ "FoxDeathrune", 80 ] ],
@@ -610,7 +610,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "components": [
         [ [ "FoxShadowsteelLongsword", 1 ] ],
         [ [ "FoxDeathrune", 100 ] ],
@@ -625,7 +625,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "components": [
         [ [ "FoxShadowsteelLongsword", 1 ] ],
         [ [ "FoxAirrune", 50 ] ],
@@ -641,7 +641,7 @@
       "skill_used": "FoxEssSpellcasting",
       "difficulty": 4,
       "time": "45 m",
-      "autolearn": true,
+      "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
       "components": [
         [ [ "FoxShadowsteelstiletto", 1 ] ],
         [ [ "FoxSpiritrune", 100 ] ],
@@ -656,7 +656,7 @@
     "skill_used": "electronics",
     "difficulty": 1,
     "time": "5 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_enhancement", 0 ] ],
     "using": [ [ "soldering_standard", 5 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [

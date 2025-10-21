@@ -77,7 +77,7 @@
     "time": "45 m",
     "batch_time_factors": [ 50, 4 ],
     "tools": [ [ [ "Foxintermediateartificing", -1 ], [ "Foxadvancedartificing", -1 ], [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "Foximperialsteelchunk", 2 ] ] ]
   },
   {
@@ -93,7 +93,7 @@
     "time": "45 m",
     "batch_time_factors": [ 50, 4 ],
     "tools": [ [ [ "Foxintermediateartificing", -1 ], [ "Foxadvancedartificing", -1 ], [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "Foximperialsteelchunk", 2 ] ] ]
   },
   {
@@ -110,7 +110,7 @@
     "batch_time_factors": [ 50, 4 ],
     "using": [ [ "soldering_standard", 10 ] ],
     "tools": [ [ [ "Foxadvancedartificing", -1 ], [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "Foximperialsteelchunk", 1 ] ], [ [ "Foxcrystallizedessence", 1 ] ], [ [ "copper", 200 ] ] ]
   },
   {
@@ -127,7 +127,7 @@
     "batch_time_factors": [ 50, 4 ],
     "using": [ [ "soldering_standard", 10 ] ],
     "tools": [ [ [ "Foxadvancedartificing", -1 ], [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "Foximperialsteelchunk", 1 ] ], [ [ "Foxcrystallizedessence", 1 ] ], [ [ "copper", 200 ] ] ]
   },
   {
@@ -144,7 +144,7 @@
     "time": "45 m",
     "batch_time_factors": [ 50, 4 ],
     "tools": [ [ [ "Foxadvancedartificing", -1 ], [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "FoxAdamantinechunk", 1 ] ], [ [ "Foxcrystallizedessence", 1 ] ], [ [ "plastic_chunk", 1 ] ], [ [ "copper", 50 ] ] ]
   },
   {
@@ -159,7 +159,7 @@
     "difficulty": 7,
     "time": "6 h",
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ] ] ],
-    "book_learn": [ [ "textbook_mechanics", 6 ] ],
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 5 ] ], [ [ "pipe", 1 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 10 ] ] ]
   },
   {
@@ -174,7 +174,7 @@
     "difficulty": 7,
     "time": "6 h",
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ] ] ],
-    "book_learn": [ [ "textbook_mechanics", 6 ] ],
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 5 ] ], [ [ "pipe", 1 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 8 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -189,7 +189,7 @@
     "difficulty": 7,
     "time": "6 h",
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ] ] ],
-    "book_learn": [ [ "textbook_mechanics", 6 ] ],
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 6 ] ], [ [ "pipe", 1 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 8 ] ], [ [ "plastic_chunk", 4 ] ] ]
   },
   {
@@ -200,11 +200,11 @@
     "subcategory": "CSC_ESSMAGIC_ARTIFICING",
     "skill_used": "FoxEssSpellcasting",
     "skills_required": [ [ "fabrication", 8 ], [ "mechanics", 8 ] ],
-    "//": "Shotgun. Zerg. And you. Pump action shotguns are easier to make than assault weapons so this doesn't need a textbook. It says plastic so I assume its not a wood stock.",
+    "//": "Shotgun. Zerg. These are all converted to magic research instead of textbooks.",
     "difficulty": 7,
     "time": "4 h",
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 5 ] ], [ [ "pipe", 1 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 8 ] ], [ [ "plastic_chunk", 4 ] ] ]
   },
   {
@@ -218,7 +218,7 @@
     "difficulty": 7,
     "time": "1 h",
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 4 ] ], [ [ "pipe", 1 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 5 ] ], [ [ "plastic_chunk", 1 ] ] ]
   },
   {
@@ -232,7 +232,7 @@
     "difficulty": 7,
     "time": "2 h",
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 4 ] ], [ [ "pipe", 1 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 2 ] ], [ [ "plastic_chunk", 1 ] ] ]
   },
   {
@@ -246,7 +246,7 @@
     "difficulty": 7,
     "time": "2 h",
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 4 ] ], [ [ "pipe", 1 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 2 ] ], [ [ "plastic_chunk", 1 ] ] ]
   },
   {
@@ -261,7 +261,7 @@
     "difficulty": 7,
     "time": "45 m",
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 1 ] ] ]
   },
   {
@@ -276,7 +276,7 @@
     "difficulty": 7,
     "time": "45 m",
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 1 ] ] ]
   },
   {
@@ -290,7 +290,7 @@
     "difficulty": 7,
     "time": "40 m",
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 1 ] ] ]
   },
   {
@@ -304,7 +304,7 @@
     "difficulty": 7,
     "time": "40 m",
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ] ] ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "spring", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
   }
 ]

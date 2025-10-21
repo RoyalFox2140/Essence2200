@@ -11,7 +11,7 @@
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "delete_flags": [ "CANNIBALISM" ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "meat_tainted", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -26,7 +26,7 @@
     "result_mult": 10,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "delete_flags": [ "BAD_TASTE" ],
     "components": [ [ [ "mutant_meat", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
@@ -42,7 +42,7 @@
     "result_mult": 10,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "delete_flags": [ "CANNIBALISM" ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "human_flesh", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
@@ -58,7 +58,7 @@
     "result_mult": 10,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "delete_flags": [ "CANNIBALISM", "BAD_TASTE" ],
     "components": [ [ [ "mutant_human_flesh", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
@@ -74,7 +74,7 @@
     "result_mult": 10,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "fat_tainted", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -89,7 +89,7 @@
     "result_mult": 10,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "mutant_fat", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -104,7 +104,7 @@
     "result_mult": 10,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "delete_flags": [ "CANNIBALISM" ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "human_fat", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
@@ -120,7 +120,7 @@
     "result_mult": 10,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "delete_flags": [ "CANNIBALISM", "BAD_TASTE" ],
     "components": [ [ [ "mutant_human_fat", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
@@ -136,7 +136,7 @@
     "result_mult": 10,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "raw_tainted_leather", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -151,7 +151,7 @@
     "result_mult": 10,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "raw_tainted_fur", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -165,7 +165,7 @@
     "difficulty": 4,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "steel_lump", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -180,7 +180,7 @@
     "time": "20 m",
     "result_mult": 2,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "FoxAdamantinechunk", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -194,7 +194,7 @@
     "difficulty": 1,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "steel_lump", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -208,7 +208,7 @@
     "difficulty": 4,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "steel_lump", 4 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -223,7 +223,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -238,7 +238,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -253,7 +253,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -268,7 +268,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -283,7 +283,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -298,7 +298,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -313,7 +313,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -328,7 +328,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -343,7 +343,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -358,7 +358,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -373,7 +373,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -388,7 +388,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -403,7 +403,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -418,7 +418,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -433,7 +433,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -448,7 +448,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -463,7 +463,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -478,7 +478,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -493,7 +493,7 @@
     "time": "10 m",
     "charges": 400,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -508,7 +508,7 @@
     "time": "10 m",
     "charges": 400,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -523,7 +523,7 @@
     "time": "10 m",
     "charges": 400,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -538,7 +538,7 @@
     "time": "10 m",
     "charges": 2000,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -553,7 +553,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -568,7 +568,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -583,7 +583,7 @@
     "time": "10 m",
     "result_mult": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -598,7 +598,7 @@
     "time": "10 m",
     "result_mult": 40,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -613,7 +613,7 @@
     "time": "10 m",
     "result_mult": 40,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -628,7 +628,7 @@
     "time": "10 m",
     "result_mult": 40,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -643,7 +643,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -658,7 +658,7 @@
     "time": "10 m",
     "result_mult": 40,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -673,7 +673,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -688,7 +688,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -703,7 +703,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -718,7 +718,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -733,7 +733,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -748,7 +748,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -763,7 +763,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -778,7 +778,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -793,7 +793,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -808,7 +808,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -823,7 +823,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -838,7 +838,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -853,7 +853,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -868,7 +868,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -883,7 +883,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -898,7 +898,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "pine_bough", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -913,7 +913,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -928,7 +928,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -943,7 +943,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -958,7 +958,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -973,7 +973,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -988,7 +988,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1003,7 +1003,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1018,7 +1018,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1033,7 +1033,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1048,7 +1048,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1063,7 +1063,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1078,7 +1078,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1093,7 +1093,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1108,7 +1108,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1123,7 +1123,7 @@
     "time": "10 m",
     "result_mult": 10,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "log", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1138,7 +1138,7 @@
     "time": "10 m",
     "result_mult": 60,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 3 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1153,7 +1153,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "steel_chunk", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1167,7 +1167,7 @@
     "difficulty": 5,
     "time": "15 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "rock", 5 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1181,7 +1181,7 @@
     "difficulty": 5,
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "material_limestone", 60 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1196,7 +1196,7 @@
     "time": "15 m",
     "batch_time_factors": [ 80, 2 ],
     "result_mult": 32,
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "log", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1211,7 +1211,7 @@
     "time": "15 m",
     "batch_time_factors": [ 80, 2 ],
     "result_mult": 320,
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "log", 18 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1226,7 +1226,7 @@
     "time": "30 m",
     "batch_time_factors": [ 80, 2 ],
     "result_mult": 50,
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "clay_lump", 50 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1241,7 +1241,7 @@
     "time": "30 m",
     "batch_time_factors": [ 80, 2 ],
     "result_mult": 500,
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "clay_lump", 500 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1256,7 +1256,7 @@
     "time": "1 m",
     "result_mult": 25,
     "batch_time_factors": [ 50, 5 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "steel_chunk", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1271,7 +1271,7 @@
     "time": "1 m",
     "result_mult": 100,
     "batch_time_factors": [ 50, 5 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "steel_lump", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1286,7 +1286,7 @@
     "time": "15 m",
     "result_mult": 10,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "steel_chunk", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1301,7 +1301,7 @@
     "time": "15 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "steel_chunk", 4 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1316,7 +1316,7 @@
     "time": "30 m",
     "result_mult": 5,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "steel_lump", 30 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1331,7 +1331,7 @@
     "time": "10 m",
     "result_mult": 5,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 10 ] ], [ [ "copper", 500 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1346,7 +1346,7 @@
     "time": "10 m",
     "result_mult": 5,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 10 ] ], [ [ "silver_small", 500 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1361,7 +1361,7 @@
     "time": "10 m",
     "result_mult": 10,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ], [ [ "material_soil", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1376,7 +1376,7 @@
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "qualities": [ { "id": "FoxCorpsepit", "level": 1 } ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advtransmutation", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 80 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
@@ -1392,7 +1392,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "rag", 10 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1407,7 +1407,7 @@
     "time": "10 m",
     "result_mult": 4,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "rag", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1422,7 +1422,7 @@
     "time": "10 m",
     "result_mult": 4,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "rag", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1437,7 +1437,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "cured_hide", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1452,7 +1452,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_lifetransmutation", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "cured_pelt", 20 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1462,11 +1462,11 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_TRANSMUTATION",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 6,
+    "difficulty": 8,
     "id_suffix": "FoxTransmutation",
     "time": "3 h",
     "charges": 1,
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advtransmutation", 0 ] ],
     "tools": [ [ [ "Foxnanoaugcanistergeneric", -1 ] ] ],
     "components": [
       [ [ "FoxTransmutationrune", 500 ] ],

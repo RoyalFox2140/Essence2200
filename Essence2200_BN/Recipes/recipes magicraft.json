@@ -7,7 +7,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 1,
     "time": "15 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 16 ] ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -19,7 +19,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 1,
     "time": "15 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 16 ] ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -31,7 +31,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 2,
     "time": "15 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 64 ] ],
     "components": [
       [ [ "FoxEssencenormal", 4000 ], [ "Foxpowderedessence", 1600 ], [ "Foxcrystallizedessence", 16 ], [ "FoxTinyCanteenDimension", 1 ] ]
@@ -46,7 +46,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 2,
     "time": "15 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 64 ] ],
     "components": [
       [ [ "FoxEssencenormal", 4000 ], [ "Foxpowderedessence", 1600 ], [ "Foxcrystallizedessence", 16 ], [ "FoxTinyPocketDimension", 1 ] ]
@@ -61,7 +61,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 4,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 80 ] ],
     "components": [
       [ [ "FoxEssencenormal", 20000 ], [ "Foxpowderedessence", 8000 ], [ "Foxcrystallizedessence", 80 ], [ "FoxSmallPocketDimension", 1 ] ]
@@ -76,7 +76,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ],
@@ -90,7 +90,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ],
@@ -104,7 +104,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ],
@@ -118,7 +118,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ],
@@ -132,7 +132,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ],
@@ -146,7 +146,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ],
@@ -160,7 +160,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ],
@@ -174,7 +174,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 5 ] ], [ [ "FoxLesserPocketDimension", 1 ] ]
     ],
@@ -188,7 +188,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 80 ] ],
     "components": [
       [ [ "FoxEssencenormal", 20000 ], [ "Foxpowderedessence", 8000 ], [ "Foxcrystallizedessence", 80 ], [ "FoxSmallCanteenDimension", 1 ] ]
@@ -203,7 +203,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 6,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 10 ] ], [ [ "FoxGreaterPocketDimension", 1 ] ]
     ],
@@ -217,7 +217,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 6,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 20 ] ], [ [ "FoxHugePocketDimension", 1 ] ]
     ],
@@ -231,7 +231,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 6,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 10 ] ], [ [ "FoxEssencenormal", 12500 ], [ "Foxpowderedessence", 5000 ], [ "Foxcrystallizedessence", 50 ],  [ "FoxGreaterCanteenDimension", 1 ] ]
     ],
@@ -245,7 +245,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "45 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 160 ] ],
     "components": [
       [ [ "Foxhumansoul", 10 ] ]
@@ -262,7 +262,7 @@
     "difficulty": 2,
     "result_mult": 40,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_rocktransmutation", 0 ] ],
     "components": [
       [ [ "FoxTransmutationrune", 1 ] ], [ [ "FoxEssencenormal", 20000 ] ] 
   ]
@@ -275,7 +275,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 4,
     "time": "15 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
     "components": [
       [ [ "Foxhumansoul", 1 ] ]
@@ -289,7 +289,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 4,
     "time": "15 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
     "components": [
       [ [ "Foxhumansoul", 2 ] ]
@@ -304,7 +304,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 4,
     "time": "10 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
     "components": [
       [ [ "Foxhumansoul", 2 ] ]
@@ -319,7 +319,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 3,
     "time": "10 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
     "components": [
       [ [ "Foxhumansoul", 1 ] ]
@@ -334,7 +334,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 2,
     "time": "1 h",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
     "components": [
       [ [ "Foxcrystallizedessence", 8 ] ]
@@ -348,7 +348,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 0,
     "time": "30 m",
-    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 2 ] ],
     "flags": [ "BLIND_EASY", "SECRET" ]
   },
@@ -360,7 +360,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 1,
     "time": "30 m",
-    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -372,7 +372,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 3,
     "time": "45 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 1 ] ], [ [ "FoxEssencenormal", 1000 ], [ "Foxpowderedessence", 400 ], [ "Foxcrystallizedessence", 4 ], [ "Foxnoviceartificing", 1 ] ]
     ],
@@ -386,7 +386,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 5,
     "time": "55 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 2 ] ], [ [ "Foxintermediateartificing", 1 ] ]
     ],
@@ -400,7 +400,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 1,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
     "components": [
       [ [ "Foxhumansoul", 1 ] ]
@@ -415,7 +415,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 1,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 4 ] ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -427,7 +427,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 6,
     "time": "50 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 40 ] ],
     "components": [
       [ [ "Foxadvancedartificing", 1 ] ],
@@ -447,7 +447,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 2,
     "time": "30 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 16 ] ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -459,7 +459,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 3,
     "time": "45 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "using": [ [ "FoxEquivalentEssencePower", 80 ] ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -471,7 +471,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 7,
     "time": "45 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "components": [
       [ [ "workbench", 1 ] ],
       [ [ "Foxhumansoul", 10 ] ],
@@ -484,9 +484,9 @@
     "category": "CC_ESSMAGIC",
     "subcategory": "CSC_ESSMAGIC_MAGICRAFT",
     "skill_used": "FoxEssSpellcasting",
-    "difficulty": 8,
+    "difficulty": 10,
     "time": "2 h",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "qualities": [ { "id": "FoxCorpsepit", "level": 1 } ],
     "using": [ [ "FoxEquivalentEssencePower", 80 ] ],
     "components": [
@@ -503,7 +503,7 @@
     "skills_required": [ [ "FoxEssTheory", 10 ], [ "FoxEssTech", 10 ], [ "fabrication", 10 ], [ "mechanics", 10 ], [ "computer", 10 ], [ "electronics", 10 ] ],
     "difficulty": 10,
     "time": "30 h",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_advartificing", 0 ] ],
     "components": [
       [ [ "Foxhumansoul", 200 ] ],
       [ [ "FoxSGAmechparts", 5 ] ],
@@ -520,7 +520,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 2,
     "time": "10 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_magicraft", 0 ] ],
     "qualities": [ { "id": "FoxMagicSalvage", "level": 1 } ],
     "charges": 100,
     "components": [

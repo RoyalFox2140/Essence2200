@@ -1505,5 +1505,34 @@
     "use_action": { "type": "cast_spell", "spell_id": "Fox_Hidden_Nightstalkerfirst", "no_fail": true, "level": 0 },
     "flags": [ "NO_INGEST", "NPC_SAFE", "NUTRIENT_OVERRIDE" ],
     "fun": 1
+  },
+  {
+    "id": "Foxtrainingkit",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "Apostle training kit" },
+    "description": "You can use this rock you've found alongside any nearby objects or the ground itself to train your abilities as a magic user. You will practice controlling the elements in addition to the conductance of electricity and gravitational forces. Should you lose your rock, just find a new one.",
+    "weight": "50 g",
+    "volume": "250 L",
+    "looks_like": "55gal_drum",
+    "price": "2 USD",
+    "price_postapoc": "2 USD",
+    "to_hit": -5,
+    "bashing": 40,
+    "material": "iron",
+    "symbol": ";",
+    "color": "dark_gray",
+    "use_action": [
+      {
+        "type": "train_skill",
+        "training_msg": "You manipulate energy, bending reality to your will.",
+        "training_skill": "FoxEssSpellcasting",
+        "training_skill_min_level": 0,
+        "training_skill_xp": 2,
+        "training_skill_max_level": 4,
+        "training_skill_interval": 10,
+        "training_skill_xp_chance": 100
+      }
+    ]
   }
 ]

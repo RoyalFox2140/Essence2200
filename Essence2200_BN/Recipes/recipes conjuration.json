@@ -10,7 +10,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -25,7 +25,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -40,7 +40,7 @@
     "time": "10 m",
     "result_mult": 4,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -85,7 +85,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -100,7 +100,7 @@
     "time": "10 m",
     "result_mult": 80,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -115,7 +115,7 @@
     "time": "10 m",
     "result_mult": 16,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -130,7 +130,7 @@
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "result_mult": 4,
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -145,7 +145,7 @@
     "time": "10 m",
     "result_mult": 10,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -190,7 +190,7 @@
     "time": "10 m",
     "result_mult": 40,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -205,7 +205,7 @@
     "time": "10 m",
     "batch_time_factors": [ 80, 2 ],
     "result_mult": 20,
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -220,7 +220,7 @@
     "time": "10 m",
     "result_mult": 40,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -235,7 +235,7 @@
     "time": "10 m",
     "result_mult": 180,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -250,7 +250,7 @@
     "time": "10 m",
     "result_mult": 180,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -265,7 +265,7 @@
     "time": "10 m",
     "result_mult": 30,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -280,7 +280,7 @@
     "time": "10 m",
     "result_mult": 10,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -295,7 +295,7 @@
     "time": "10 m",
     "result_mult": 2,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -310,7 +310,7 @@
     "time": "10 m",
     "result_mult": 10,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -325,7 +325,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -340,7 +340,7 @@
     "time": "10 m",
     "result_mult": 4,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -355,7 +355,7 @@
     "time": "10 m",
     "result_mult": 4,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -370,7 +370,7 @@
     "time": "10 m",
     "result_mult": 4,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -385,7 +385,7 @@
     "time": "10 m",
     "result_mult": 4,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -400,7 +400,7 @@
     "time": "10 m",
     "result_mult": 2,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -415,7 +415,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -430,7 +430,7 @@
     "time": "10 m",
     "result_mult": 30,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjuration", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -475,7 +475,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -490,7 +490,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -505,7 +505,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -520,7 +520,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -535,7 +535,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -550,7 +550,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -565,7 +565,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -580,7 +580,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -595,7 +595,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -610,7 +610,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -625,7 +625,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -640,7 +640,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -655,7 +655,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -670,7 +670,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -685,7 +685,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -700,7 +700,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -715,7 +715,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -730,7 +730,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -745,7 +745,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -760,7 +760,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -775,7 +775,7 @@
     "time": "10 m",
     "charges": 200,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -790,7 +790,7 @@
     "time": "10 m",
     "charges": 1000,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -805,7 +805,7 @@
     "time": "10 m",
     "charges": 50,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -820,7 +820,7 @@
     "time": "10 m",
     "charges": 50,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -835,7 +835,7 @@
     "time": "10 m",
     "result_mult": 50,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -850,7 +850,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -865,7 +865,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -880,7 +880,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -895,7 +895,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -910,7 +910,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -925,7 +925,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -940,7 +940,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -955,7 +955,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -970,7 +970,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -985,7 +985,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1000,7 +1000,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1015,7 +1015,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1030,7 +1030,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1045,7 +1045,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1060,7 +1060,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1075,7 +1075,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1090,7 +1090,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1105,7 +1105,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1120,7 +1120,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1135,7 +1135,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1150,7 +1150,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1165,7 +1165,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1180,7 +1180,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1195,7 +1195,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1210,7 +1210,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1225,7 +1225,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1240,7 +1240,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1255,7 +1255,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1270,7 +1270,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1285,7 +1285,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1300,7 +1300,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1315,7 +1315,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1330,7 +1330,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   },
@@ -1345,7 +1345,7 @@
     "time": "10 m",
     "charges": 100,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_conjurationbetter", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 2 ] ] ],
     "flags": [ "NUTRIENT_OVERRIDE", "BLIND_EASY" ]
   }

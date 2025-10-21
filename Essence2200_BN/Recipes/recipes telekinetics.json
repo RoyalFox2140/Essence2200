@@ -10,7 +10,7 @@
     "time": "10 m",
     "result_mult": 4,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "material_cement", 200 ] ], [ [ "material_sand", 600 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
@@ -25,7 +25,7 @@
     "time": "10 m",
     "result_mult": 4,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "material_cement", 200 ] ], [ [ "material_sand", 100 ] ], [ [ "pebble", 80 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
@@ -40,7 +40,7 @@
     "time": "10 m",
     "result_mult": 40,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "material_cement", 2000 ] ], [ [ "material_sand", 6000 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
@@ -55,7 +55,7 @@
     "time": "10 m",
     "result_mult": 40,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "material_cement", 2000 ] ], [ [ "material_sand", 1000 ] ], [ [ "pebble", 800 ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
@@ -70,7 +70,7 @@
     "time": "10 m",
     "charges": 60,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [
       [ [ "FoxTransmutationrune", 1 ] ],
       [
@@ -98,7 +98,7 @@
     "time": "10 m",
     "charges": 600,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [
       [ [ "FoxTransmutationrune", 1 ] ],
       [
@@ -126,7 +126,7 @@
     "time": "10 m",
     "charges": 1,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [
       [ [ "FoxTransmutationrune", 1 ] ],
       [ [ "eggs_small", 1, "LIST" ] ]
@@ -143,7 +143,7 @@
     "time": "10 m",
     "charges": 10,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [
       [ [ "FoxTransmutationrune", 1 ] ],
       [ [ "eggs_small", 10, "LIST" ] ]
@@ -160,7 +160,7 @@
     "time": "10 m",
     "charges": 5,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [
       [ [ "FoxTransmutationrune", 1 ] ],
       [
@@ -187,7 +187,7 @@
     "time": "10 m",
     "charges": 50,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [
       [ [ "FoxTransmutationrune", 1 ] ],
       [
@@ -214,7 +214,7 @@
     "time": "10 m",
     "charges": 1,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [
       [ [ "FoxTransmutationrune", 1 ] ],
       [ [ "cheese_fresh", 5 ] ],
@@ -232,7 +232,7 @@
     "time": "10 m",
     "charges": 10,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [
       [ [ "FoxTransmutationrune", 1 ] ],
       [ [ "cheese_fresh", 50 ] ],
@@ -250,7 +250,7 @@
     "time": "10 m",
     "result_mult": 20,
     "batch_time_factors": [ 80, 2 ],
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "components": [ [ [ "FoxTransmutationrune", 1 ] ], [ [ "rock", 20  ] ] ],
     "flags": ["NUTRIENT_OVERRIDE"]
   },
@@ -280,7 +280,7 @@
     "difficulty": 2,
     "time": "30 s",
     "result_mult": 4,
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "FoxMagicSalvage", "level": 1 } ],
     "byproducts": [ [ "Foxseed_desertcotton", 8 ] ],
@@ -295,7 +295,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 2,
     "time": "30 s",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "FoxMagicSalvage", "level": 1 } ],
     "components": [ [ [ "cotton_ball", 3 ] ] ]
@@ -309,7 +309,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 2,
     "time": "1 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "batch_time_factors": [ 80, 4 ],
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ], [ "FoxEternalFlame", -1 ] ] ],
     "components": [ [ [ "fish", 1 ] ] ]
@@ -324,7 +324,7 @@
     "difficulty": 2,
     "charges": 1,
     "time": "1 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "batch_time_factors": [ 80, 4 ],
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ], [ "FoxEternalFlame", -1 ] ] ],
     "components": [ [ [ "raw_beans", 1 ] ] ]
@@ -338,7 +338,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 2,
     "time": "1 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "batch_time_factors": [ 80, 4 ],
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ], [ "FoxEternalFlame", -1 ] ] ],
     "components": [ [ [ "tofu", 1 ] ] ]
@@ -352,7 +352,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 2,
     "time": "1 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "batch_time_factors": [ 80, 4 ],
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ], [ "FoxEternalFlame", -1 ] ] ],
     "components": [ [ [ "sweet_fruit", 1, "LIST" ], [ "coconut", 1 ], [ "can_coconut", 1 ] ] ]
@@ -366,7 +366,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 2,
     "time": "1 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "batch_time_factors": [ 80, 4 ],
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ], [ "FoxEternalFlame", -1 ] ] ],
     "components": [ [ [ "meat_red", 1, "LIST" ] ] ]
@@ -380,7 +380,7 @@
     "skill_used": "FoxEssSpellcasting",
     "difficulty": 2,
     "time": "1 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "batch_time_factors": [ 80, 4 ],
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ], [ "FoxEternalFlame", -1 ] ] ],
     "components": [ [ [ "mushroom", 1 ], [ "mushroom_morel", 1 ] ] ]
@@ -395,7 +395,7 @@
     "difficulty": 2,
     "charges": 1,
     "time": "1 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "batch_time_factors": [ 80, 4 ],
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ], [ "FoxEternalFlame", -1 ] ] ],
     "components": [
@@ -412,7 +412,7 @@
     "difficulty": 2,
     "charges": 1,
     "time": "1 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "batch_time_factors": [ 80, 4 ],
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ], [ "FoxEternalFlame", -1 ] ] ],
     "components": [ [ [ "milk", 1 ], [ "milk_UHT", 1 ], [ "milk_raw", 1 ], [ "milk_evap", 1 ], [ "con_milk", 1 ] ] ]
@@ -427,7 +427,7 @@
     "difficulty": 2,
     "charges": 1,
     "time": "1 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "batch_time_factors": [ 80, 4 ],
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ], [ "FoxEternalFlame", -1 ] ] ],
     "components": [ [ [ "eggs_small", 1, "LIST" ] ] ]
@@ -442,7 +442,7 @@
     "difficulty": 2,
     "charges": 1,
     "time": "1 m",
-    "autolearn": true,
+    "book_learn": [ [ "Fox_magicbooks_artificing", 0 ] ],
     "batch_time_factors": [ 80, 4 ],
     "tools": [ [ [ "Foxultimatetelekinetics", -1 ], [ "FoxEternalFlame", -1 ] ] ],
     "components": [ [ [ "raw_lentils", 1 ] ] ]

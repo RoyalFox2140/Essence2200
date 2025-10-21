@@ -1,5 +1,175 @@
 [
   {
+    "result": "Fox_magicbooks_conjuration",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 1,
+    "time": "4 h",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "components": [ [ [ "rock", 2 ] ], [ [ "material_sand", 100 ] ] ],
+    "using": [ [ "FoxEquivalentEssencePower", 10 ] ]
+  },
+  {
+    "result": "Foxtrainingkit",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "time": "1 s",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "components": [ [ [ "rock", 1 ] ] ]
+  },
+  {
+    "result": "Fox_magicbooks_conjurationbetter",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 2,
+    "time": "6 h",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "using": [ [ "FoxEquivalentEssencePower", 20 ] ],
+    "components": [ 
+      [ [ "FoxTransmutationrune", 2 ] ], 
+      [ [ "rock", 10 ] ], 
+      [ [ "stick", 2 ] ], 
+      [ [ "lead", 500 ] ], 
+      [ [ "rock", 10 ] ], 
+      [ [ "water_clean", 2 ] ] 
+    ]
+  },
+  {
+    "result": "Fox_magicbooks_rocktransmutation",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 3,
+    "time": "6 h",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "using": [ [ "FoxEquivalentEssencePower", 40 ] ],
+    "components": [ 
+      [ [ "FoxTransmutationrune", 4 ] ], 
+      [ [ "rock", 10 ] ], 
+      [ [ "lead", 500 ] ], 
+      [ [ "material_sand", 500 ] ], 
+      [ [ "zinc_metal", 20 ] ], 
+      [ [ "tin", 20 ] ], 
+      [ [ "chem_sulphur", 20 ] ], 
+      [ [ "charcoal", 100 ] ], 
+      [ [ "scrap", 20 ] ], 
+      [ [ "water_clean", 2 ] ] 
+    ]
+  },
+  {
+    "result": "Fox_magicbooks_lifetransmutation",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 4,
+    "time": "6 h",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "using": [ [ "FoxEquivalentEssencePower", 40 ] ],
+    "components": [ 
+      [ [ "FoxTransmutationrune", 4 ] ], 
+      [ [ "stick", 4 ] ], 
+      [ [ "rag", 2 ] ], 
+      [ [ "Foxwastetuber", 2 ] ], 
+      [ [ "Foxwastenuts", 2 ] ], 
+      [ [ "Foxwasteberry", 2 ] ], 
+      [ [ "Foxwastecactus", 2 ] ]
+    ]
+  },
+  {
+    "result": "Fox_magicbooks_advtransmutation",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 5,
+    "time": "12 h",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "tools": [ [ [ "Fox_magicbooks_rocktransmutation", -1 ] ], [ [ "Fox_magicbooks_lifetransmutation", -1 ] ] ],
+    "using": [ [ "FoxEquivalentEssencePower", 50 ] ],
+    "components": [ 
+      [ [ "FoxTransmutationrune", 10 ] ], 
+      [ [ "pipe", 2 ] ], 
+      [ [ "chain", 1 ] ], 
+      [ [ "cable", 100 ] ], 
+      [ [ "circuit", 1 ] ], 
+      [ [ "amplifier", 1 ] ], 
+      [ [ "e_scrap", 10 ] ], 
+      [ [ "power_supply", 1 ] ], 
+      [ [ "metal_tank_little", 1 ] ], 
+      [ [ "motor_small", 2 ] ]
+    ]
+  },
+  {
+    "result": "Fox_magicbooks_artificing",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 6,
+    "time": "12 h",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "using": [ [ "FoxEquivalentEssencePower", 50 ], [ "blacksmithing_advanced", 40 ], [ "soldering_standard", 40 ], [ "steel_standard", 20 ] ]
+  },
+  {
+    "result": "Fox_magicbooks_advartificing",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 6,
+    "time": "12 h",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "using": [ [ "FoxEquivalentEssencePower", 10 ] ],
+    "tools": [ [ [ "Foxultimatetelekinetics", -1 ] ], [ [ "Fox_magicbooks_advtransmutation", -1 ] ], [ [ "Fox_magicbooks_artificing", -1 ] ] ],
+    "byproducts": [ [ "FoxShadowsteelchunk", 100 ] ],
+    "components": [
+      [ [ "lead", 50000 ] ],
+      [ [ "bismuth", 30200 ] ], 
+      [ [ "steel_lump", 20 ], [ "steel_chunk", 40 ], [ "scrap", 100 ] ],
+      [ [ "tin", 5000 ] ], 
+      [ [ "FoxEssencenormal", 20000 ] ] 
+    ]
+  },
+  {
+    "result": "Fox_magicbooks_magicraft",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 6,
+    "time": "8 h",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "tools": [ [ [ "Fox_magicbooks_rocktransmutation", -1 ] ] ],
+    "using": [ [ "FoxEquivalentEssencePower", 50 ] ],
+    "components": [ 
+      [ [ "FoxTransmutationrune", 10 ] ], 
+      [ [ "Foxhumansoul", 4 ] ]
+    ]
+  },
+  {
+    "result": "Fox_magicbooks_enhancement",
+    "type": "recipe",
+    "category": "CC_ESSMAGIC",
+    "subcategory": "CSC_ESSMAGIC_OTHER",
+    "skill_used": "FoxEssSpellcasting",
+    "difficulty": 6,
+    "time": "8 h",
+    "book_learn": [ [ "Fox_spellbooks_First", 0 ] ],
+    "tools": [ [ [ "Fox_magicbooks_lifetransmutation", -1 ] ] ],
+    "using": [ [ "FoxEquivalentEssencePower", 50 ] ],
+    "components": [ 
+      [ [ "FoxTransmutationrune", 10 ] ],
+      [ [ "Foxhumansoul", 4 ] ]
+    ]
+  },
+  {
     "result": "Fox_spellbooks_Elemental",
     "type": "recipe",
     "category": "CC_ESSMAGIC",
