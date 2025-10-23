@@ -12,6 +12,13 @@
       "mon_deer",
       "mon_deer_fawn",
       "mon_boar_wild",
+      "mon_bat",
+      "mon_bat_pup",
+      "mon_bat_vampire",
+      "mon_bat_vampire_mutant",
+      "mon_groundhog",
+      "mon_squirrel",
+      "mon_squirrel_red",
       "mon_zhark",
       "mon_zolf",
       "mon_zombear",
@@ -111,6 +118,12 @@
     "type": "overmap_special",
     "id": "Spider Pit",
     "copy-from": "Spider Pit",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Natural Spring",
+    "copy-from": "Natural Spring",
     "occurrences": [ 0, 0 ]
   },
   {
