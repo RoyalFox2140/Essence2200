@@ -1513,7 +1513,7 @@
     "name": { "str": "Apostle training kit" },
     "description": "You can use this rock you've found alongside any nearby objects or the ground itself to train your abilities as a magic user. You will practice controlling the elements in addition to the conductance of electricity and gravitational forces. Should you lose your rock, just find a new one.",
     "weight": "50 g",
-    "volume": "250 L",
+    "volume": "250 ml",
     "looks_like": "rock",
     "price": "2 USD",
     "price_postapoc": "2 USD",
